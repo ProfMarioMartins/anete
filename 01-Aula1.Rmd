@@ -1,0 +1,136 @@
+# Conhecendo a vida acadêmica
+
+---
+
+## Objetivos de aprendizagem
+
+Ao final deste encontro, espera-se que você seja capaz de:
+
+- Compreender a organização do sistema acadêmico brasileiro, identificando suas principais instâncias, normas e formas de produção do conhecimento.
+- Reconhecer as características do pensamento científico, diferenciando-o de outras formas de pensar e compreender sua relevância na construção do saber universitário.
+
+---
+
+## Aprendizagem prática
+
+### Como se organiza o sistema acadêmico brasileiro?
+<!-- Destaque visual para a indicação de leitura -->
+<div class="section" style='padding:1em; background-color:#F5F5F5; color:#000000'><span><sub>Leitura: "Entendendo a organização do sistema acadêmico brasileiro", capítulo do livro "Guia do trabalho científico: do projeto à redação final", de Celso Ferrarezi Jr.</sub></span></div><br/>
+
+O sistema acadêmico brasileiro é organizado por meio de diretrizes estabelecidas na Lei de Diretrizes e Bases da Educação Nacional (LDB - Lei nº 9.394/1996), que estrutura a educação em níveis (básico e superior) e modalidades (presencial, EaD, profissionalizante, entre outras). A educação básica compreende as seguintes etapas: Educação Infantil, Ensino Fundamental e Médio; a educação superior inclui: graduação e pós-graduação, que pode ser _lato sensu_ ou _stricto sensu_. O sistema acadêmico brasileiro é mantido por instituições públicas e privadas sob a supervisão do Ministério da Educação (MEC). A figura abaixo sintetiza o que é previsto na LDB:
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, fig.cap="Níveis acadêmicos segundo a Lei n. 9394/96", fig.topcaption=TRUE}
+knitr::include_graphics('/Users/MarioMartins/Library/CloudStorage/GoogleDrive-mario.martins@ufersa.edu.br/Meu Drive/Disciplinas_em_R/ANETE/ANETE/niveis_academicos.png')
+```
+
+<br>
+
+A compreensão do sistema acadêmico brasileiro, tal como estruturado pela Lei n. 9.394/96, permite ao estudante situar-se institucionalmente nos diversos níveis da educação superior, reconhecendo a progressão entre graduação, especialização, mestrado e doutorado. Cada um desses níveis impõe exigências específicas quanto à produção e à circulação de saberes, o que se manifesta por meio de gêneros textuais acadêmicos próprios.
+
+```{r formacao-generos, echo=FALSE, message=FALSE, warning=FALSE}
+# Criando tabela
+library(knitr)
+tabela_generos <- data.frame(
+  "Nível" = c("Graduação", "Especialização <br/><sub>(lato sensu)</sub>", "Mestrado <br/><sub>(stricto sensu)</sub>", "Doutorado <br/><sub>(stricto sensu)</sub>"),
+  "Gêneros" = c(
+    "Resumo, resenha crítica, projeto de pesquisa, plano de trabalho, relatório (técnico e de estágio), pôster, artigo, monografia",
+    "Projeto de pesquisa, artigo, monografia",
+    "Projeto de pesquisa, artigo, dissertação, comunicação oral",
+    "Projeto de pesquisa, artigo, tese, comunicação oral"
+  )
+)
+
+# Gerando a tabela com legenda e numeração
+kable(tabela_generos, caption = "Relação entre as etapas de formação e os gêneros textuais mais frequentes na vida acadêmica")
+```
+
+### Quiz sobre o sistema acadêmico brasileiro
+<!-- Criando quizzes -->
+<h3>1 – O sistema acadêmico brasileiro é estruturado em quais níveis principais?</h3>
+
+<form>
+  <input type="radio" name="quiz1" value="a"> Educação básica e superior<br>
+  <input type="radio" name="quiz1" value="b"> Ensino fundamental e técnico<br>
+  <input type="radio" name="quiz1" value="c"> Graduação e mestrado<br>
+  <input type="radio" name="quiz1" value="c"> Graduação e pós-graduação<br><br>
+  <button type="button" onclick="verificarQuiz1()">Responder</button>
+</form>
+<p id="respostaQuiz1"></p>
+
+<script>
+function verificarQuiz1() {
+  const radios = document.getElementsByName("quiz1");
+  let resposta = document.getElementById("respostaQuiz1");
+  for (let i = 0; i < radios.length; i++) {
+    if (radios[i].checked) {
+      resposta.innerHTML = radios[i].value == "a"
+        ? "✅ Correto! O sistema educacional brasileiro se divide em educação básica e superior."
+        : "❌ Incorreto. A resposta correta é: Educação básica e superior.";
+    }
+  }
+}
+</script>
+
+<h3>2 – Qual é o principal documento legal que organiza o sistema educacional no Brasil?</h3>
+
+<form>
+  <input type="radio" name="quiz2" value="a"> Lei de Diretrizes Orçamentárias (LDO)<br>
+  <input type="radio" name="quiz2" value="b"> Constituição Federal (CF)<br>
+  <input type="radio" name="quiz2" value="c"> Plano Nacional de Educação (PNE)<br>
+  <input type="radio" name="quiz2" value="d"> Lei de Diretrizes e Bases da Educação Nacional (LDB)<br><br>
+  <button type="button" onclick="verificarQuiz2()">Responder</button>
+</form>
+<p id="respostaQuiz2"></p>
+
+<script>
+function verificarQuiz2() {
+  const radios = document.getElementsByName("quiz2");
+  let resposta = document.getElementById("respostaQuiz2");
+  for (let i = 0; i < radios.length; i++) {
+    if (radios[i].checked) {
+      resposta.innerHTML = radios[i].value == "d"
+        ? "✅ Correto! A LDB (Lei nº 9.394/1996) é a base legal da educação brasileira."
+        : "❌ Incorreto. A resposta correta é: LDB (Lei de Diretrizes e Bases).";
+    }
+  }
+}
+</script>
+
+<h3>3 – Quais gêneros textuais são exigidos em todos os níveis de formação acadêmica?</h3>
+
+<form>
+  <input type="radio" name="quiz3" value="a"> Artigo e tese<br>
+  <input type="radio" name="quiz3" value="b"> Tese e relatório<br>
+  <input type="radio" name="quiz3" value="c"> Relatório e projeto de pesquisa<br>
+  <input type="radio" name="quiz3" value="d"> Projeto de pesquisa e artigo<br><br>
+  <button type="button" onclick="verificarQuiz3()">Responder</button>
+</form>
+<p id="respostaQuiz3"></p>
+
+<script>
+function verificarQuiz3() {
+  const radios = document.getElementsByName("quiz3");
+  let resposta = document.getElementById("respostaQuiz3");
+  for (let i = 0; i < radios.length; i++) {
+    if (radios[i].checked) {
+      resposta.innerHTML = radios[i].value == "d"
+        ? "✅ Correto! O artigo está presente em todos os níveis acadêmicos."
+        : "❌ Incorreto. A resposta correta é: Artigo.";
+    }
+  }
+}
+</script>
+
+---
+
+A familiarização com a lógica organizacional da educação superior deve vir acompanhada do desenvolvimento da competência discursiva em seus respectivos gêneros, visto que a linguagem escrita é meio privilegiado de construção e validação do conhecimento em cada etapa da formação universitária.
+
+A abordagem dos gêneros acadêmicos deve ser articulada à compreensão do pensamento científico, uma vez que esses gêneros não são formas neutras de expressão, mas práticas discursivas que materializam modos específicos de produção, validação e circulação do conhecimento.
+
+O pensamento científico, pautado na observação rigorosa, na problematização, na argumentação lógica e na busca por objetividade e fundamentação teórica, demanda formas de escrita que reflitam essas características. Assim, gêneros como o artigo científico, o projeto de pesquisa, a monografia, a dissertação e a tese operam como instrumentos de expressão e negociação do saber no interior das comunidades acadêmicas.
+
+Dominar esses gêneros implica não apenas conhecer suas estruturas formais, mas também internalizar os valores epistêmicos que os sustentam. Dessa forma, o desenvolvimento da competência escrita em gêneros acadêmicos contribui diretamente para a formação de uma mentalidade científica, capaz de operar criticamente com dados, hipóteses, argumentos e evidências. Mas, afinal, o que é pensamento científico?
+
+### O que é pensamento científico?
+<sub>Leitura: "Think like a scientist: The power of a scientific mindset", postagem de Santiago Gisler para o blog "Ivory Embassy" (https://ivoryembassy.com/scientific-mindset/)</sub>
+
