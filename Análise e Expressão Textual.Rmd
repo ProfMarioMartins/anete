@@ -1,0 +1,65 @@
+---
+title: "Análise e Expressão Textual"
+author: "Prof. Mário Martins"
+date: "`r format(Sys.Date(), '%d de %B de %Y')`"
+site: bookdown::bookdown_site
+documentclass: book
+---
+
+<!-- Renderizar o livro
+No console
+
+bookdown::render_book("index.Rmd", output_format = "bookdown::gitbook", output_dir = "docs")
+
+No terminal
+
+git add .
+git commit -m "Adiciona capa com logo da UFERSA"
+git push
+-->
+
+<!-- Capa visual com logotipo centralizado -->
+<p align="center">
+  <img src="logo_ufersa.png" width="180px">
+</p>
+
+# Análise e Expressão Textual
+
+**Professor:** Mário Martins  
+**Universidade Federal Rural do Semi-Árido (Ufersa)**  
+**Engenharia/Ciência e Tecnologia**
+**Semestre 2025.1**  
+
+
+<!--chapter:end:index.Rmd-->
+
+
+# Conhecendo a vida acadêmica
+
+Placeholder
+
+
+## Objetivos de aprendizagem
+## Aprendizagem prática
+### Como se organiza o sistema acadêmico brasileiro?
+### Quiz sobre o sistema acadêmico brasileiro
+### O que é pensamento científico?
+
+<!--chapter:end:01-Aula1.Rmd-->
+
+# Conceitos introdutórios
+
+## Objetivos de aprendizagem
+
+Ao final deste encontro, espera-se que você seja capaz de:
+
+- Identificar os principais gêneros textuais acadêmicos, compreendendo seus propósitos comunicativos, contextos de uso e exigências formais.
+- Refletir criticamente sobre o papel da escrita, da oralidade e da leitura na formação acadêmica, reconhecendo a importância da linguagem na constituição do conhecimento científico.
+
+## Aprendizagem prática
+
+- O que são gêneros acadêmicos?
+  - Leitura: "Publique ou pereça", capítulo do livro "Produção textual na universidade", de Désirée Motta-Roth e Graciela Rabuske Hendges.
+
+<!--chapter:end:02-Aula2.Rmd-->
+

@@ -20,7 +20,7 @@ Ao final deste encontro, espera-se que você seja capaz de:
 O sistema acadêmico brasileiro é organizado por meio de diretrizes estabelecidas na Lei de Diretrizes e Bases da Educação Nacional (LDB - Lei nº 9.394/1996), que estrutura a educação em níveis (básico e superior) e modalidades (presencial, EaD, profissionalizante, entre outras). A educação básica compreende as seguintes etapas: Educação Infantil, Ensino Fundamental e Médio; a educação superior inclui: graduação e pós-graduação, que pode ser _lato sensu_ ou _stricto sensu_. O sistema acadêmico brasileiro é mantido por instituições públicas e privadas sob a supervisão do Ministério da Educação (MEC). A figura abaixo sintetiza o que é previsto na LDB:
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, fig.cap="Níveis acadêmicos segundo a Lei n. 9394/96", fig.topcaption=TRUE}
-knitr::include_graphics('/Users/MarioMartins/Library/CloudStorage/GoogleDrive-mario.martins@ufersa.edu.br/Meu Drive/Disciplinas_em_R/ANETE/niveis_academicos.png')
+knitr::include_graphics('/Users/MarioMartins/Library/CloudStorage/GoogleDrive-mario.martins@ufersa.edu.br/Meu Drive/Disciplinas_em_R/ANETE/img/niveis_academicos.png')
 ```
 
 <br>

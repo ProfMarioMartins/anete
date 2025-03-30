@@ -1,6 +1,6 @@
 fig:unnamed-chunk-1
 tab:formacao-generos
-index
+análise-e-expressão-textual
 conhecendo-a-vida-acadêmica
 objetivos-de-aprendizagem
 aprendizagem-prática
