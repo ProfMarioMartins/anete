@@ -1,12 +1,9 @@
 ---
 title: "Análise e Expressão Textual"
-author: "Mário Martins"
+author: "Prof. Mário Martins"
+date: "`r format(Sys.Date(), '%d de %B de %Y')`"
 site: bookdown::bookdown_site
 documentclass: book
 ---
 
-# Documento importante
-
-## Muito importante
-
-<!-- Atualização forçada para GitHub Pages -->
+# Index

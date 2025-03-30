@@ -1,7 +1,6 @@
 fig:unnamed-chunk-1
 tab:formacao-generos
-documento-importante
-muito-importante
+index
 conhecendo-a-vida-acadêmica
 objetivos-de-aprendizagem
 aprendizagem-prática
