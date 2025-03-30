@@ -1,7 +1,6 @@
 ---
 title: "Análise e Expressão Textual"
 author: "Prof. Mário Martins"
-date: "`r format(Sys.Date(), '%d de %B de %Y')`"
 site: bookdown::bookdown_site
 documentclass: book
 ---
@@ -23,9 +22,9 @@ git push
   <img src="logo_ufersa.png" width="180px">
 </p>
 
-# Análise e Expressão Textual
+**Análise e Expressão Textual**
 
-**Professor:** Mário Martins  
+**Professor: Mário Martins**
 **Universidade Federal Rural do Semi-Árido (Ufersa)**  
 **Engenharia/Ciência e Tecnologia**
 **Semestre 2025.1**  
