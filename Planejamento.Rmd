@@ -1,7 +1,10 @@
 # Análise e Expressão Textual
 
 ## Ementa
-- Abordar os paradigmas textuais e científicos na produção da escrita científica, a intertextualidade como elemento de linguagem no contexto da textualidade e da oralidade e da visualidade, a coesão e coerência textual como elemento estruturador da linguagem acadêmica, o estilo como mediador entre forma e conteúdo na produção do conhecimento, a interdisciplinaridade como estética da linguagem.
+Abordar os paradigmas textuais e científicos na produção da escrita científica, a intertextualidade como elemento de linguagem no contexto da textualidade e da oralidade e da visualidade, a coesão e coerência textual como elemento estruturador da linguagem acadêmica, o estilo como mediador entre forma e conteúdo na produção do conhecimento, a interdisciplinaridade como estética da linguagem.
+
+## Competência a ser desenvolvida
+Compreender e aplicar os princípios da escrita científica a partir da análise crítica de paradigmas textuais e científicos, do uso consciente da intertextualidade, da coesão, da coerência e do estilo acadêmico, desenvolvendo a capacidade de produzir textos interdisciplinares e linguisticamente consistentes que reflitam a construção do conhecimento no contexto universitário.
 
 ## Encontros
 
@@ -9,15 +12,16 @@
 - Apresentação da disciplina
 - Como se organiza o sistema acadêmico brasileiro?
   - Leitura: "Entendendo a organização do sistema acadêmico brasileiro", capítulo do livro "Guia do trabalho científico: do projeto à redação final", de Celso Ferrarezi Jr.
+
+
+
+### 17/04/2025 (Qui)
 - O que é pensamento científica?
   - Leitura: "Think like a scientist: The power of a scientific mindset", postagem de Santiago Gisler para o blog "Ivory Embassy"
 - O que são gêneros acadêmicos?
   - Leitura: "Publique ou pereça", capítulo do livro "Produção textual na universidade", de Désirée Motta-Roth e Graciela Rabuske Hendges.
-
-
-### 17/04/2025 (Qui)
-  - Como planejar uma pesquisa? O que é metodologia científica? 
-    - Leitura: "A elaboração do projeto", capítulo do livro "Guia do trabalho científico: do projeto à redação final", de Celso Ferrarezi Jr.
+- Como planejar uma pesquisa? O que é metodologia científica? 
+  - Leitura: "A elaboração do projeto", capítulo do livro "Guia do trabalho científico: do projeto à redação final", de Celso Ferrarezi Jr.
 
 ### 21/04/2025 (Seg)
 - Feriado - Tiradentes
