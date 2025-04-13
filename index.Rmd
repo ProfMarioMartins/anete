@@ -1,5 +1,5 @@
 ---
-title: "Análise e Expressão Textual"
+title: "Análise e Expressão Textual (ANETE)"
 author: "Prof. Mário Martins"
 site: bookdown::bookdown_site
 documentclass: book
@@ -100,35 +100,29 @@ A disciplina adota uma abordagem ativa e interdisciplinar, com atividades práti
 - **Avaliação final (40%)**: Produção de um plano de trabalho nos moldes exigidos em editais de iniciação científica (Pibic).
 - **Três provas objetivas (3 x 20%)**: Realizadas ao final de cada unidade.
 
-### Modelo de plano de trabalho
+### Plano de trabalho: seções
 
 <div class="section" style="padding:1em; background-color:#F5F5F5; color:#000000;">
 
-**Título do Projeto:** Repositório de Escrita Escolar  
-**Plano de Trabalho:** Compilação de corpus de escrita escolar  
-**Orientador:** Prof. Dr. Mário G. das C. Martins  
-**Bolsa:** PIVIC (IC)  
-**Período de execução:** 01/09/2023 a 31/08/2024
+- **Identificação** (título do projeto, título do plano de trabalho, orientador, tipo de bolsa, período de execução
 
-#### Introdução e Justificativa
+- **Introdução e Justificativa**
 
-#### Objetivos
+- **Objetivos**
 
-**Geral:**  
+  - **Geral:**
+  - **Específicos:**  
 
-**Específicos:**  
+- **Metodologia**
 
-#### Metodologia
+- **Habilidades desenvolvidas**
 
-#### Habilidades Desenvolvidas
+- **Referências bibliográficas**
 
-#### Referências
+- **Cronograma**
 
-#### Cronograma
-
-| Etapa | Set | Out | Nov | Dez | 
+| Etapa | Mês1 | Mês2 | Mês3 |
 |-------|:--:|:--:|:--:|
-
 
 </div>
 
@@ -136,19 +130,19 @@ A disciplina adota uma abordagem ativa e interdisciplinar, com atividades práti
 
 ## Bibliografia básica
 
-- APPOLINÁRIO, Fabio; GIL, Isaac. *Como escrever um texto científico*. 1ª ed. [S. l.]: Trevisan Editora, 2013. Disponível em: <https://bookshelf.vitalsource.com/books/9788599519493>.
-- CASTRO, Nádia Studzinski Estima de et al. *Leitura e escrita acadêmicas*. Porto Alegre: Sagah, 2019. Disponível em: <https://bookshelf.vitalsource.com/books/9788533500228>.
-- VIEIRA, Francisco Eduardo; FARACO, Carlos Alberto. *Escrever na Universidade 1 - Fundamentos*. 1ª ed. [S. l.]: Parábola Editorial, 2019.
+APPOLINÁRIO, Fabio; GIL, Isaac. *Como escrever um texto científico*. 1ª ed. [S. l.]: Trevisan Editora, 2013. Disponível em: <https://bookshelf.vitalsource.com/books/9788599519493>.
+CASTRO, Nádia Studzinski Estima de et al. *Leitura e escrita acadêmicas*. Porto Alegre: Sagah, 2019. Disponível em: <https://bookshelf.vitalsource.com/books/9788533500228>.
+VIEIRA, Francisco Eduardo; FARACO, Carlos Alberto. *Escrever na Universidade 1 - Fundamentos*. 1ª ed. [S. l.]: Parábola Editorial, 2019.
 
 ## Bibliografia complementar
 
-- FERRAREZZI JÚNIOR, Celso. *Guia do trabalho científico: do projeto à redação final*. 1ª ed. [S. l.]: Contexto, 2011. Disponível em: <https://bookshelf.vitalsource.com/books/9788572447638>.
-- CUNHA, Celso; CINTRA, Lindley. *Nova gramática do português contemporâneo*. 7. ed. Rio de Janeiro: Lexikon, 2019. E-book. Disponível em: <https://plataforma.bvirtual.com.br>. Acesso em: 02 abr. 2025.
-- MENDES, Gilmar Ferreira; FOSTER JÚNIOR, Nestor José. *Manual de redação da Presidência da República*. rev. atual. Brasília: Presidência da República, 2002. Disponível em: <https://www4.planalto.gov.br/centrodeestudos/assuntos/manual-de-redacao-da-presidencia-da-republica/manual-de-redacao.pdf#page=12.08>.
-- ABNT NBR 10520:2023. *Informação e documentação – Citações em documentos – Apresentação*. Rio de Janeiro: ABNT, 2023.
-- ABNT NBR 6023:2018. *Informação e documentação – Referências – Elaboração*. Rio de Janeiro: ABNT, 2018.
+ABNT NBR 10520:2023. *Informação e documentação – Citações em documentos – Apresentação*. Rio de Janeiro: ABNT, 2023.
+ABNT NBR 6023:2018. *Informação e documentação – Referências – Elaboração*. Rio de Janeiro: ABNT, 2018.
+CUNHA, Celso; CINTRA, Lindley. *Nova gramática do português contemporâneo*. 7. ed. Rio de Janeiro: Lexikon, 2019. E-book. Disponível em: <https://plataforma.bvirtual.com.br>. Acesso em: 02 abr. 2025.
+FERRAREZZI JÚNIOR, Celso. *Guia do trabalho científico: do projeto à redação final*. 1ª ed. [S. l.]: Contexto, 2011. Disponível em: <https://bookshelf.vitalsource.com/books/9788572447638>.
+MENDES, Gilmar Ferreira; FOSTER JÚNIOR, Nestor José. *Manual de redação da Presidência da República*. rev. atual. Brasília: Presidência da República, 2002. Disponível em: <https://www4.planalto.gov.br/centrodeestudos/assuntos/manual-de-redacao-da-presidencia-da-republica/manual-de-redacao.pdf#page=12.08>.
 
-## Cronograma das aulas
+## Cronograma das aulas (em constante atualização)
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, results='asis'}
 library(googlesheets4)
