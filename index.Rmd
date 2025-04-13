@@ -131,15 +131,21 @@ A disciplina adota uma abordagem ativa e interdisciplinar, com atividades práti
 ## Bibliografia básica
 
 APPOLINÁRIO, Fabio; GIL, Isaac. *Como escrever um texto científico*. 1ª ed. [S. l.]: Trevisan Editora, 2013. Disponível em: <https://bookshelf.vitalsource.com/books/9788599519493>.
+
 CASTRO, Nádia Studzinski Estima de et al. *Leitura e escrita acadêmicas*. Porto Alegre: Sagah, 2019. Disponível em: <https://bookshelf.vitalsource.com/books/9788533500228>.
+
 VIEIRA, Francisco Eduardo; FARACO, Carlos Alberto. *Escrever na Universidade 1 - Fundamentos*. 1ª ed. [S. l.]: Parábola Editorial, 2019.
 
 ## Bibliografia complementar
 
 ABNT NBR 10520:2023. *Informação e documentação – Citações em documentos – Apresentação*. Rio de Janeiro: ABNT, 2023.
+
 ABNT NBR 6023:2018. *Informação e documentação – Referências – Elaboração*. Rio de Janeiro: ABNT, 2018.
+
 CUNHA, Celso; CINTRA, Lindley. *Nova gramática do português contemporâneo*. 7. ed. Rio de Janeiro: Lexikon, 2019. E-book. Disponível em: <https://plataforma.bvirtual.com.br>. Acesso em: 02 abr. 2025.
+
 FERRAREZZI JÚNIOR, Celso. *Guia do trabalho científico: do projeto à redação final*. 1ª ed. [S. l.]: Contexto, 2011. Disponível em: <https://bookshelf.vitalsource.com/books/9788572447638>.
+
 MENDES, Gilmar Ferreira; FOSTER JÚNIOR, Nestor José. *Manual de redação da Presidência da República*. rev. atual. Brasília: Presidência da República, 2002. Disponível em: <https://www4.planalto.gov.br/centrodeestudos/assuntos/manual-de-redacao-da-presidencia-da-republica/manual-de-redacao.pdf#page=12.08>.
 
 ## Cronograma das aulas (em constante atualização)
