@@ -8,4 +8,4 @@ delete_merged_file: true
 rmd_files: [
   "index.Rmd",
   "01-Aula1.Rmd",
-  "02-Aula2.Rmd"]
+  ]
