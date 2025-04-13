@@ -39,9 +39,9 @@ Abordar os paradigmas textuais e científicos na produção da escrita científi
 
 ## Objetivos
 
-Promover o desenvolvimento da _competência comunicativa_[^1] dos estudantes no contexto acadêmico, por meio da leitura crítica, da análise linguística e da produção de gêneros acadêmicos, com ênfase na escrita científica e na elaboração de planos de trabalho.
+Promover o desenvolvimento da _competência comunicativa_ dos estudantes no contexto acadêmico, por meio da leitura crítica, da análise linguística e da produção de gêneros acadêmicos, com ênfase na escrita científica e na elaboração de planos de trabalho.
 
-[^1]:Competência comunicativa é a capacidade de um indivíduo usar a língua de forma eficaz e apropriada em diferentes contextos de comunicação. Esse conceito vai além do simples domínio das regras gramaticais, englobando também o conhecimento dos usos sociais da linguagem, a adequação ao contexto, a capacidade de interpretar e produzir enunciados coerentes e coesos, e de compreender as intenções dos interlocutores.
+_Competência comunicativa_ é a capacidade de um indivíduo usar a língua de forma eficaz e apropriada em diferentes contextos de comunicação. Esse conceito vai além do simples domínio das regras gramaticais, englobando também o conhecimento dos usos sociais da linguagem, a adequação ao contexto, a capacidade de interpretar e produzir enunciados coerentes e coesos, e de compreender as intenções dos interlocutores.
 
 ## Conteúdo Programático
 
@@ -49,7 +49,7 @@ Promover o desenvolvimento da _competência comunicativa_[^1] dos estudantes no 
 *Fundamentos da vida universitária, da ciência e da escrita acadêmica*
 
 - O sistema acadêmico brasileiro: estrutura e funcionamento  
-- O que é ciência e como se faz ciência  
+- Pensamento científico  
 - Fato, opinião e argumentação na escrita acadêmica  
 - A linguagem da ciência: características da escrita acadêmica  
 - Gêneros acadêmicos e o plano de trabalho como gênero institucional  
@@ -99,6 +99,40 @@ A disciplina adota uma abordagem ativa e interdisciplinar, com atividades práti
 
 - **Avaliação final (40%)**: Produção de um plano de trabalho nos moldes exigidos em editais de iniciação científica (Pibic).
 - **Três provas objetivas (3 x 20%)**: Realizadas ao final de cada unidade.
+
+### Modelo de plano de trabalho
+
+<div class="section" style="padding:1em; background-color:#F5F5F5; color:#000000;">
+
+**Título do Projeto:** Repositório de Escrita Escolar  
+**Plano de Trabalho:** Compilação de corpus de escrita escolar  
+**Orientador:** Prof. Dr. Mário G. das C. Martins  
+**Bolsa:** PIVIC (IC)  
+**Período de execução:** 01/09/2023 a 31/08/2024
+
+#### Introdução e Justificativa
+
+#### Objetivos
+
+**Geral:**  
+
+**Específicos:**  
+
+#### Metodologia
+
+#### Habilidades Desenvolvidas
+
+#### Referências
+
+#### Cronograma
+
+| Etapa | Set | Out | Nov | Dez | 
+|-------|:--:|:--:|:--:|
+
+
+</div>
+
+\newpage
 
 ## Bibliografia básica
 

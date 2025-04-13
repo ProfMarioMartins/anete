@@ -9,6 +9,13 @@ unidade-iii-produção-do-plano-de-trabalho
 competências-e-habilidades
 metodologia
 avaliação
+modelo-de-plano-de-trabalho
+introdução-e-justificativa
+objetivos-1
+metodologia-1
+habilidades-desenvolvidas
+referências
+cronograma
 bibliografia-básica
 bibliografia-complementar
 cronograma-das-aulas
