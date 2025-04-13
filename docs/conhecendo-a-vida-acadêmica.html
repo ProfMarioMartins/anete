@@ -139,7 +139,7 @@
 <h3><span class="header-section-number">2.2.1</span> Como se organiza o sistema acadêmico brasileiro?<a href="conhecendo-a-vida-acadêmica.html#como-se-organiza-o-sistema-acadêmico-brasileiro" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <div style="border: 1px solid #ccc; padding: 1em; background-color: #f9f9f9; border-radius: 5px; margin-bottom: 1em;">
   <strong>Orientações:</strong><br/>
-  A seguir, há um quiz com dez perguntas, cada uma com quatro alternativas. Você terá <strong>1 minuto</strong> para responder cada uma. O tempo será contado automaticamente e, ao final, você receberá um feedback imediato. Após responder, clique no botão <em>Próxima Pergunta</em> para avançar. Boa sorte!
+  A seguir, há um quiz com dez perguntas, cada uma com quatro alternativas. Você terá <strong>1 minuto e 30 segundos</strong> para responder cada uma. O tempo será contado automaticamente e, ao final, você receberá um feedback imediato. Após responder, clique no botão <em>Próxima Pergunta</em> para avançar. <strong>Formem duplas para debater cada pergunta.</strong><br/>
 </div>
 
 <button onclick="iniciarQuiz()">Iniciar Quiz</button>
@@ -206,10 +206,10 @@
   <div class="pergunta" id="pergunta5" style="display: none;">
     <p><strong>5. Quem é a instituição brasileira responsável por publicar a Tabela de Áreas de Conhecimento e definir áreas afins?</strong></p>
     <form>
-      <input type="radio" name="q5" value="a"> A) O Ministério da Educação (MEC)<br>
-      <input type="radio" name="q5" value="b"> B) A Coordenação de Ensino Superior (CES)<br>
-      <input type="radio" name="q5" value="c"> C) A Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (Capes)<br>
-      <input type="radio" name="q5" value="d"> D) O Conselho Nacional de Educação (CNE)<br><br>
+      <input type="radio" name="q5" value="a"> A) Ministério da Educação (MEC)<br>
+      <input type="radio" name="q5" value="b"> B) Coordenação de Ensino Superior (CES)<br>
+      <input type="radio" name="q5" value="c"> C) Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (Capes)<br>
+      <input type="radio" name="q5" value="d"> D) Conselho Nacional de Educação (CNE)<br><br>
       <button type="button" onclick="checkResposta(5, 'c')">Responder</button>
     </form>
     <p id="feedback5"></p>
@@ -262,10 +262,10 @@
   <div class="pergunta" id="pergunta9" style="display: none;">
     <p><strong>9. Cursar uma pós-graduação <em>stricto sensu</em> em uma universidade estrangeira é sempre a melhor opção?</strong></p>
     <form>
-      <input type="radio" name="q9" value="a"> A) Sim, pois as universidades estrangeiras possuem um nível de exigência sempre maior.<br>
-      <input type="radio" name="q9" value="b"> B) Sim, pois diplomas estrangeiros são mais valorizados no mercado de trabalho brasileiro.<br>
-      <input type="radio" name="q9" value="c"> C) Não necessariamente, pois muitas universidades brasileiras possuem programas de alta qualidade.<br>
-      <input type="radio" name="q9" value="d"> D) Sim, pois somente universidades estrangeiras oferecem tecnologias exclusivas.<br><br>
+      <input type="radio" name="q9" value="a"> A) Sim. As universidades estrangeiras possuem um nível de exigência  maior do que as brasileiras.<br>
+      <input type="radio" name="q9" value="b"> B) Sim, Diplomas estrangeiros são mais valorizados no mercado de trabalho brasileiro.<br>
+      <input type="radio" name="q9" value="c"> C) Não. Muitas universidades brasileiras possuem programas de alta qualidade.<br>
+      <input type="radio" name="q9" value="d"> D) Não. Somente universidades brasileiras têm diplomas reconhecidos no Brasil.<br><br>
       <button type="button" onclick="checkResposta(9, 'c')">Responder</button>
     </form>
     <p id="feedback9"></p>
@@ -307,7 +307,7 @@
     <input type="radio" name="q12" value="a"> A) A <em>lato sensu</em> exige a defesa de tese.<br>
     <input type="radio" name="q12" value="b"> B) Ambas conferem grau acadêmico.<br>
     <input type="radio" name="q12" value="c"> C) A <em>lato sensu</em> tem maior foco em pesquisa científica formal.<br>
-    <input type="radio" name="q12" value="d"> D) A <em>stricto sensu</em> é mais voltada para a pesquisa científica aprofundada.<br><br>
+    <input type="radio" name="q12" value="d"> D) A <em>stricto sensu</em> tem maior foco em pesquisa científica formal.<br><br>
     <button type="button" onclick="checkResposta(12, 'd')">Responder</button>
   </form>
   <p id="feedback12"></p>
@@ -344,7 +344,7 @@
 </div>
 
 <div class="pergunta" id="pergunta15" style="display: none;">
-  <p><strong>15. De acordo com as fontes, qual a relação entre PhD e o sistema acadêmico brasileiro?</strong></p>
+  <p><strong>15. Qual a relação entre PhD e o sistema acadêmico brasileiro?</strong></p>
   <form>
     <input type="radio" name="q15" value="a"> A) PhD é um grau superior ao Doutorado no Brasil.<br>
     <input type="radio" name="q15" value="b"> B) PhD é o título de Doutor utilizado no sistema norte-americano.<br>
@@ -406,7 +406,7 @@
   }
 
   function iniciarTimer(timerId, num) {
-    tempo = 60;
+    tempo = 90;
     clearInterval(timer);
     timer = setInterval(function () {
       document.getElementById(timerId).innerText = "⏳ Tempo restante: " + tempo + " segundos";

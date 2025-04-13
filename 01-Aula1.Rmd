@@ -24,7 +24,7 @@ Ao final deste encontro, e com base na leitura indicada, espera-se que você sej
 ```{=html}
 <div style="border: 1px solid #ccc; padding: 1em; background-color: #f9f9f9; border-radius: 5px; margin-bottom: 1em;">
   <strong>Orientações:</strong><br/>
-  A seguir, há um quiz com dez perguntas, cada uma com quatro alternativas. Você terá <strong>1 minuto</strong> para responder cada uma. O tempo será contado automaticamente e, ao final, você receberá um feedback imediato. Após responder, clique no botão <em>Próxima Pergunta</em> para avançar. Boa sorte!
+  A seguir, há um quiz com dez perguntas, cada uma com quatro alternativas. Você terá <strong>1 minuto e 30 segundos</strong> para responder cada uma. O tempo será contado automaticamente e, ao final, você receberá um feedback imediato. Após responder, clique no botão <em>Próxima Pergunta</em> para avançar. <strong>Formem duplas para debater cada pergunta.</strong><br/>
 </div>
 
 <button onclick="iniciarQuiz()">Iniciar Quiz</button>
@@ -291,7 +291,7 @@ Ao final deste encontro, e com base na leitura indicada, espera-se que você sej
   }
 
   function iniciarTimer(timerId, num) {
-    tempo = 60;
+    tempo = 90;
     clearInterval(timer);
     timer = setInterval(function () {
       document.getElementById(timerId).innerText = "⏳ Tempo restante: " + tempo + " segundos";
