@@ -11,7 +11,7 @@ Ao final deste encontro e com base na leitura indicada, espera-se que você seja
 
 <div class="section" style="padding:1em; background-color:#F5F5F5; color:#000000;">
   <em>Leitura indicada:</em> <br/>
-  <strong>Think like a scientist: The power of a scientific mindset</strong>, postagem do blog <em>Ivory Embassy</>, por Santiago Gisler.
+  <strong>Think like a scientist: The power of a scientific mindset</strong>, postagem do blog <em>Ivory Embassy</em>, por Santiago Gisler.
   
 [Acesso à leitura obrigatória](https://ivoryembassy.com/scientific-mindset/)
 
@@ -21,6 +21,120 @@ Ao final deste encontro e com base na leitura indicada, espera-se que você seja
 ---
 
 ## Aprendizagem prática
+
+### Você pensa cientificamente?
+
+```{=html}
+<div id="quiz-container" style="font-family: Arial, sans-serif; max-width: 800px; margin: auto;">
+  <p>Leia cada situação e escolha a alternativa que mais se aproxima do que você faria ou costuma fazer.</p>
+
+  <form id="quiz-form">
+    <ol>
+      <li>
+        Você observa que, no seu jardim, uma planta está crescendo mais devagar que as outras.<br>
+        <label><input type="radio" name="q1" value="0"> (A) Você ignora o fato, pois você é matemático.</label><br>
+        <label><input type="radio" name="q1" value="0"> (B) Você considera que é “azar” ou “alguma coisa no ar”.</label><br>
+        <label><input type="radio" name="q1" value="1"> (C) Você começa a observar as possíveis causas, tentando encontrar explicações.</label>
+      </li><br>
+
+      <li>
+        Você recebe uma notícia com dados sobre a economia que parecem catastróficas.<br>
+        <label><input type="radio" name="q2" value="0"> (A) Você compartilha imediatamente com seus colegas. É bom que todos saibam.</label><br>
+        <label><input type="radio" name="q2" value="0"> (B) Você confia na notícia porque veio de um canal que você costuma seguir.</label><br>
+        <label><input type="radio" name="q2" value="1"> (C) Você questiona a origem dos dados e busca descobrir como aquilo que está sendo noticiado aconteceu.</label>
+      </li><br>
+
+      <li>
+        Você ouve falar de um produto milagroso para aumentar a memória.<br>
+        <label><input type="radio" name="q3" value="0"> (A) Você compra sem pensar duas vezes.</label><br>
+        <label><input type="radio" name="q3" value="0"> (B) Você consulta opiniões de amigos próximos.</label><br>
+        <label><input type="radio" name="q3" value="1"> (C) Você pesquisa sobre o produto em estudos científicos e opiniões de especialistas.</label>
+      </li><br>
+
+      <li>
+        Ao tentar resolver um problema técnico, como configurar uma impressora em rede, você encontra várias hipóteses.<br>
+        <label><input type="radio" name="q4" value="0"> (A) Você escolhe a que explica o problema mais rapidamente. Não vale a pena descobrir mais nada.</label><br>
+        <label><input type="radio" name="q4" value="0"> (B) Você segue sua intuição apenas.</label><br>
+        <label><input type="radio" name="q4" value="1"> (C) Você analisa as opções e elimina as menos prováveis com base em dados e fatos.</label>
+      </li><br>
+
+      <li>
+        Um conhecido propõe um investimento com retorno garantido em poucos dias.<br>
+        <label><input type="radio" name="q5" value="0"> (A) Você aceita rapidamente para não perder a chance.</label><br>
+        <label><input type="radio" name="q5" value="0"> (B) Você pergunta a outros conhecidos se já ouviram falar.</label><br>
+        <label><input type="radio" name="q5" value="1"> (C) Você questiona os riscos e busca evidências concretas de eficácia.</label>
+      </li><br>
+
+      <li>
+        Você nota que alunos que usam fone de ouvido no dia a dia vão melhor nas provas.<br>
+        <label><input type="radio" name="q6" value="0"> (A) Você conclui que o fone de ouvido melhora a inteligência.</label><br>
+        <label><input type="radio" name="q6" value="0"> (B) Você pensa que é apenas coincidência.</label><br>
+        <label><input type="radio" name="q6" value="1"> (C) Você considera que pode haver outro fator influente relacionado ao fone de ouvido.</label>
+      </li><br>
+
+      <li>
+        Você descobre um método de estudo bem diferente do seu.<br>
+        <label><input type="radio" name="q7" value="0"> (A) Você recusa-se a tentar porque “sempre estudou de outro jeito”.</label><br>
+        <label><input type="radio" name="q7" value="0"> (B) Você ccha curioso, mas prefere não mudar nada.</label><br>
+        <label><input type="radio" name="q7" value="1"> (C) Você avalia o método e considera testá-lo.</label>
+      </li><br>
+
+      <li>
+        Você defende uma dieta há anos, mas novos estudos mostram riscos ao fígado.<br>
+        <label><input type="radio" name="q8" value="0"> (A) Você ignora os estudos porque já fez sua escolha.</label><br>
+        <label><input type="radio" name="q8" value="0"> (B) Você acha que todo estudo tem problema.</label><br>
+        <label><input type="radio" name="q8" value="1"> (C) Você lê os estudos, pondera e ajusta suas recomendações.</label>
+      </li><br>
+
+      <li>
+        Você apresenta um projeto e recebe críticas construtivas.<br>
+        <label><input type="radio" name="q9" value="0"> (A) Você fica na defensiva e descarta as sugestões.</label><br>
+        <label><input type="radio" name="q9" value="0"> (B) Você aceita parcialmente, mas mantém quase tudo.</label><br>
+        <label><input type="radio" name="q9" value="1"> (C) Você analisa os comentários e faz ajustes para melhorar.</label>
+      </li><br>
+
+      <li>
+        Você conclui uma experiência com resultados positivos.<br>
+        <label><input type="radio" name="q10" value="0"> (A) Você fica satisfeito e guarda para si, porque não quer que roubem sua ideia.</label><br>
+        <label><input type="radio" name="q10" value="0"> (B) Você publica nas redes sociais, mas não explica como fez, porque não quer que roubem sua ideia.</label><br>
+        <label><input type="radio" name="q10" value="1"> (C) Você documenta os dados e o método de pesquisa e compartilha-os com as pessoas interessadas no fenômeno que você está estudando.</label>
+      </li>
+    </ol>
+
+    <button type="button" onclick="calculateScore()">Ver meu resultado</button>
+  </form>
+
+  <div id="result" style="margin-top: 20px; font-weight: bold;"></div>
+</div>
+
+<script>
+function calculateScore() {
+  var form = document.getElementById('quiz-form');
+  var inputs = form.querySelectorAll('input[type="radio"]:checked');
+  var score = 0;
+  inputs.forEach(input => {
+    score += parseInt(input.value);
+  });
+
+  let message = "";
+  if (score === 10) {
+    message = "Parabéns! Você demonstra um pensamento científico exemplar.";
+  } else if (score >= 7) {
+    message = "Muito bom! Você tem uma forte inclinação científica.";
+  } else if (score >= 4) {
+    message = "Você demonstra algumas atitudes científicas, mas há espaço para desenvolver mais.";
+  } else {
+    message = "Vamos trabalhar juntos para fortalecer seu pensamento científico!";
+  }
+
+  document.getElementById('result').innerHTML = `Você acertou <strong>${score} de 10</strong>.<br>${message}`;
+}
+</script>
+```
+
+```{=html}
+<hr style="border: none; border-top: 3px dashed #bbb; margin: 3em 0;">
+```
 
 ### O que é a pensamento científico?
 
@@ -83,61 +197,45 @@ O caso continua a gerar debates entre crentes e céticos, sendo acompanhado de p
 
 ### Passo a passo do método científico (em síntese):
 
-•	Observar um fenômeno e formular uma pergunta
-•	Realizar pesquisas e reunir informações
-•	Formular uma hipótese
-•	Testar essa hipótese
+•	Observar um fenômeno e formular uma pergunta<br>
+•	Realizar pesquisas e reunir informações<br>
+•	Formular uma hipótese<br>
+•	Testar essa hipótese<br>
 •	Apresentar os resultados, debater e aperfeiçoar o entendimento do fenômeno
 
 ### Pilares do pensamento científico (para além da ciência)
 
-```{=html}
-<div>
-  <ul>
-    <li>
-      <strong>Demonstrar curiosidade:</strong><br>
-      Exemplo: Um estudante de biologia que, ao observar uma planta com folhas amarelas, começa a se perguntar: “Por que essa planta tem uma coloração diferente das outras? Será falta de nutrientes, excesso de sol, ou alguma doença?”
-    </li>
-    <li>
-      <strong>Questionar pressupostos:</strong><br>
-      Exemplo: Um jornalista investigativo que, ao receber um dado oficial, questiona: “Será que esses números foram coletados corretamente? Quem financiou a pesquisa? Existe algum conflito de interesse?”
-    </li>
-    <li>
-      <strong>Buscar evidências:</strong><br>
-      Exemplo: Um consumidor que lê avaliações de múltiplos sites e compara estudos antes de comprar um produto que alega ser ecológico.
-    </li>
-    <li>
-      <strong>Aplicar lógica e raciocínio:</strong><br>
-      Exemplo: Um médico que, ao interpretar exames laboratoriais, descarta hipóteses menos prováveis com base nos padrões observados nos resultados.
-    </li>
-    <li>
-      <strong>Adotar ceticismo saudável:</strong><br>
-      Exemplo: Um economista que, ao ouvir que um novo investimento promete lucros altíssimos em pouco tempo, questiona: “Quais são os riscos? Existe alguma evidência de que outros investidores tiveram sucesso semelhante?”
-    </li>
-    <li>
-      <strong>Considerar explicações alternativas:</strong><br>
-      Exemplo: Um pesquisador que, ao encontrar uma correlação entre duas variáveis, pensa: “Será que é uma relação causal direta? Ou pode haver um terceiro fator influenciando ambas?”
-    </li>
-    <li>
-      <strong>Estar aberto a novas ideias:</strong><br>
-      Exemplo: Um professor que, ao descobrir um método de ensino inovador, considera aplicá-lo em suas aulas, mesmo que isso signifique mudar abordagens tradicionais.
-    </li>
-    <li>
-      <strong>Refletir sobre suas próprias crenças:</strong><br>
-      Exemplo: Um defensor de uma dieta específica que, ao encontrar novos estudos que contradizem suas crenças, analisa esses dados e ajusta suas recomendações.
-    </li>
-    <li>
-      <strong>Buscar feedback e aprender com os erros:</strong><br>
-      Exemplo: Um engenheiro que compartilha seu projeto com colegas, recebe críticas sobre a estrutura, faz alterações e apresenta um produto final mais eficiente.
-    </li>
-    <li>
-      <strong>Valorizar a replicabilidade e a objetividade:</strong><br>
-      Exemplo: Um cientista que publica os dados brutos de seu experimento e descreve os procedimentos em detalhes, permitindo que outros pesquisadores tentem reproduzir os mesmos resultados.
-    </li>
-  </ul>
-</div>
-```
+- [ ] **Demonstrar curiosidade:**  
+      *Exemplo:* Um estudante de biologia que, ao observar uma planta com folhas amarelas, começa a se perguntar: “Por que essa planta tem uma coloração diferente das outras? Será falta de nutrientes, excesso de sol, ou alguma doença?”
 
+- [ ] **Questionar pressupostos:**  
+      *Exemplo:* Um jornalista investigativo que, ao receber um dado oficial, questiona: “Será que esses números foram coletados corretamente? Quem financiou a pesquisa? Existe algum conflito de interesse?”
+
+- [ ] **Buscar evidências:**  
+      *Exemplo:* Um consumidor que lê avaliações de múltiplos sites e compara estudos antes de comprar um produto que alega ser ecológico.
+
+- [ ] **Aplicar lógica e raciocínio:**  
+      *Exemplo:* Um médico que, ao interpretar exames laboratoriais, descarta hipóteses menos prováveis com base nos padrões observados nos resultados.
+
+- [ ] **Adotar ceticismo saudável:**  
+      *Exemplo:* Um economista que, ao ouvir que um novo investimento promete lucros altíssimos em pouco tempo, questiona: “Quais são os riscos? Existe alguma evidência de que outros investidores tiveram sucesso semelhante?”
+
+- [ ] **Considerar explicações alternativas:**  
+      *Exemplo:* Um pesquisador que, ao encontrar uma correlação entre duas variáveis, pensa: “Será que é uma relação causal direta? Ou pode haver um terceiro fator influenciando ambas?”
+
+- [ ] **Estar aberto a novas ideias:**  
+      *Exemplo:* Um professor que, ao descobrir um método de ensino inovador, considera aplicá-lo em suas aulas, mesmo que isso signifique mudar abordagens tradicionais.
+
+- [ ] **Refletir sobre suas próprias crenças:**  
+      *Exemplo:* Um defensor de uma dieta específica que, ao encontrar novos estudos que contradizem suas crenças, analisa esses dados e ajusta suas recomendações.
+
+- [ ] **Buscar feedback e aprender com os erros:**  
+      *Exemplo:* Um engenheiro que compartilha seu projeto com colegas, recebe críticas sobre a estrutura, faz alterações e apresenta um produto final mais eficiente.
+
+- [ ] **Valorizar a replicabilidade e a objetividade:**  
+      *Exemplo:* Um cientista que publica os dados brutos de seu experimento e descreve os procedimentos em detalhes, permitindo que outros pesquisadores tentem reproduzir os mesmos resultados.
+      
+---
 
 ```{=html}
 

@@ -1,0 +1,29 @@
+body {
+  font-family: "Georgia", serif;
+  font-size: 17px;
+  line-height: 1.7;
+  background-color: #fdfdfd;
+}
+
+.book .book-body .page-wrapper .page-inner {
+  padding: 2em;
+}
+
+h1, h2, h3 {
+  color: #003366;
+}
+
+a {
+  color: #005580;
+}
+
+#back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  font-size: 16px;
+  padding: 10px;
+  background: #005580;
+  color: white;
+  border-radius: 5px;
+}

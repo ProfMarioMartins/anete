@@ -3,6 +3,8 @@ title: "Análise e Expressão Textual"
 author: "Prof. Mário Martins"
 site: bookdown::bookdown_site
 documentclass: book
+bookdown::gitbook:
+  css: style.css
 ---
 
 <!--
