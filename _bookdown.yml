@@ -7,5 +7,6 @@ language:
 delete_merged_file: true
 rmd_files: [
   "index.Rmd",
-  "01-Aula1.Rmd",
+  "Aula_1.Rmd",
+  "Aula_3.Rmd",
   ]
