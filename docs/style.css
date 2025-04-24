@@ -59,3 +59,17 @@ blockquote {
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
+/* Estilização de blocos de destaque */
+.destaque {
+  max-width: 600px;
+  margin: 3em auto;  /* centraliza o bloco na página */
+  background-color: #fff3cd;  /* amarelo suave */
+  color: #856404;  /* marrom escuro para contraste */
+  padding: 1.5em 2em;
+  font-size: 20px;  /* um pouco maior que o texto normal */
+  text-align: center;
+  border-left: 8px solid #ffeeba;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

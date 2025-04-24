@@ -435,5 +435,10 @@ Em contraste, as afirmações factuais tendem a apresentar dados verificáveis, 
 <div style="background-color: navy; color: white; padding: 10px; border-radius: 5px; font-size: 25px; text-align: center;">
   <strong>`r emo::ji("warning")` **Importante!** `r emo::ji("warning")`: "(...) não há informação pura, nem opinião girando no vazio."</strong> (Vieira; Faraco, 2019, p. 166)[^4]</div>
 
-
 [^4]:VIEIRA, Francisco Eduardo; FARACO, Carlos Alberto. **Escrever na universidade** 2 - texto e discurso. São Paulo: Editora Parábola. 2019.
+
+---
+
+<div class="destaque">Você está presente?</div>
+
+<img src="/Users/MarioMartins/Library/CloudStorage/GoogleDrive-mario.martins@ufersa.edu.br/Meu Drive/Disciplinas_em_R/ANETE/img/qr_anete_T01.png" alt="Chamada" style="width:60%;">
