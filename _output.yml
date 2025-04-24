@@ -1,6 +1,7 @@
 output_dir: "docs"
 
 bookdown::gitbook:
+  template: templates/meu_gitbook.html
   css: style.css
   split_by: chapter
   config:

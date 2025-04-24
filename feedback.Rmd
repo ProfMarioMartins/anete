@@ -1,0 +1,51 @@
+# Submissão de Texto para Revisão
+
+<p>Preencha os campos abaixo para submeter seu texto para uma revisão automatizada.</p>
+
+```{=html}
+<form id="form-submissao">
+  <label>Nome:<br>
+    <input type="text" name="nome" required placeholder="Fulano dos Anzóis Pereira">
+  </label><br><br>
+
+  <label>E-mail:<br>
+    <input type="email" name="email" required placeholder="fulano@email.com">
+  </label><br><br>
+
+  <label>Seção enviada:<br>
+    <select name="secao" required>
+      <option value="">Selecione a seção</option>
+      <option value="Introdução e Justificativa">Introdução e Justificativa</option>
+      <option value="Objetivos">Objetivos (Geral e Específicos)</option>
+      <option value="Metodologia">Metodologia</option>
+      <option value="Habilidades desenvolvidas">Habilidades desenvolvidas</option>
+    </select>
+  </label><br><br>
+
+  <label>Texto:<br>
+    <textarea name="texto" rows="8" cols="50" required placeholder="Digite ou cole seu texto aqui..."></textarea>
+  </label><br><br>
+
+  <button type="submit">Enviar</button>
+</form>
+
+<p id="mensagem-submissao"></p>
+
+<script>
+  document.getElementById("form-submissao").addEventListener("submit", function(event) {
+    event.preventDefault();
+    const dados = Object.fromEntries(new FormData(this).entries());
+
+    fetch("https://script.google.com/macros/s/AKfycbzrVkZ9eP1Vh765jGFRfmk-EYhqIdEFU7Pu-L8wPLx6NWiXu3W76PSxGj25IrxaDwGl/exec", {  // Colocaremos o Apps Script depois
+      method: "POST",
+      mode: "no-cors",
+      body: JSON.stringify(dados)
+    }).then(() => {
+      document.getElementById("mensagem-submissao").innerText = "✅ Texto enviado com sucesso!";
+      this.reset();
+    }).catch(() => {
+      document.getElementById("mensagem-submissao").innerText = "❌ Erro ao enviar o texto.";
+    });
+  });
+</script>
+```

@@ -13,11 +13,11 @@ plano-de-trabalho-seções
 bibliografia-básica
 bibliografia-complementar
 cronograma-das-aulas-em-constante-atualização
-conhecendo-a-vida-acadêmica1
+sistema-acadêmico-brasileiro1
 objetivo-de-aprendizagem
 aprendizagem-prática
 como-se-organiza-o-sistema-acadêmico-brasileiro
-como-pensar-cientificamente1
+pensamento-científico1
 objetivos-de-aprendizagem
 aprendizagem-prática-1
 você-pensa-cientificamente
@@ -25,3 +25,9 @@ o-que-é-a-pensamento-científico
 o-que-é-fundamental-no-pensamento-científico
 passo-a-passo-do-método-científico-em-síntese
 pilares-do-pensamento-científico-para-além-da-ciência
+opinião-fato-e-escrita-acadêmica1
+objetivos-de-aprendizagem-1
+introdução
+você-sabe-escrever-e-ler-cientificamente-aplicação-de-teste-diagnóstico
+o-que-é-uma-escrita-científica-um-texto-científico-texto-opinativo-ou-factual
+aprendizagem-prática-2

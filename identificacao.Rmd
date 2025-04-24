@@ -1,0 +1,58 @@
+---
+title: "Identificação do Plano de Trabalho"
+---
+
+# Identificação do Plano de Trabalho
+
+Preencha o formulário abaixo com os dados do seu plano de trabalho.
+
+```{=html}
+<form id="form-identificacao">
+  <label>Nome:<br>
+    <input type="text" name="nome" required placeholder="Fulano dos Anzóis">
+  </label><br><br>
+
+  <label>E-mail:<br>
+    <input type="email" name="email" required placeholder="fulano@email.com">
+  </label><br><br>
+
+  <label>Título do projeto:<br>
+    <input type="text" name="titulo_projeto" required placeholder="Ex.: Impactos da agricultura sustentável">
+  </label><br><br>
+
+  <label>Título do plano de trabalho:<br>
+    <input type="text" name="titulo_plano" required placeholder="Ex.: A análise de solos no semiárido">
+  </label><br><br>
+
+  <label>Orientador (opcional):<br>
+    <input type="text" name="orientador" placeholder="João da Silva">
+  </label><br><br>
+
+  <label>Período de execução:<br>
+    <input type="text" name="periodo" required placeholder="4 meses">
+  </label><br><br>
+
+  <button type="submit">Enviar</button>
+</form>
+
+<p id="mensagem"></p>
+
+<script>
+  document.getElementById("form-identificacao").addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    const dados = Object.fromEntries(new FormData(this).entries());
+
+    fetch("https://script.google.com/macros/s/AKfycbzVn14ky0pjzHwgtqjGphpLV58nm5sL1ubnknR7XclmH9ceZB4zXMbE6T9Kbybx_ifV0Q/exec", {  // <-- Ajustaremos o ID na próxima etapa
+      method: "POST",
+      mode: "no-cors",
+      body: JSON.stringify(dados)
+    }).then(() => {
+      document.getElementById("mensagem").innerText = "✅ Enviado com sucesso!";
+      this.reset();
+    }).catch(() => {
+      document.getElementById("mensagem").innerText = "❌ Erro ao enviar.";
+    });
+  });
+</script>
+```

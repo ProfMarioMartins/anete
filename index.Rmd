@@ -150,11 +150,14 @@ FERRAREZZI JÚNIOR, Celso. *Guia do trabalho científico: do projeto à redaçã
 
 MENDES, Gilmar Ferreira; FOSTER JÚNIOR, Nestor José. *Manual de redação da Presidência da República*. rev. atual. Brasília: Presidência da República, 2002. Disponível em: <https://www4.planalto.gov.br/centrodeestudos/assuntos/manual-de-redacao-da-presidencia-da-republica/manual-de-redacao.pdf#page=12.08>.
 
+<sub>Outras obras poderão ser usadas na disciplina.</sub>
+
 ## Cronograma das aulas (em constante atualização)
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, results='asis'}
 library(googlesheets4)
 library(knitr)
+library(emo)
 gs4_deauth()
 url <- "https://docs.google.com/spreadsheets/d/1C8iaK5cIXu5h20At5pnALHRMY-g716--GfRJEfmHf3M/edit?gid=82327161#gid=82327161"
 cronograma <- read_sheet(url, sheet = "cronograma_anete")

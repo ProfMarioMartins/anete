@@ -1,22 +1,35 @@
+/* Corpo principal do livro */
 body {
-  font-family: "Georgia", serif;
-  font-size: 17px;
-  line-height: 1.7;
-  background-color: #fdfdfd;
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 1.8;
+  background-color: #f7f7f7;
+  color: #333;
 }
 
+/* Área interna do conteúdo */
 .book .book-body .page-wrapper .page-inner {
-  padding: 2em;
+  padding: 3em 4em;
 }
 
+/* Estilização de cabeçalhos */
 h1, h2, h3 {
-  color: #003366;
+  color: #00509E;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
 }
 
+/* Estilização de links */
 a {
-  color: #005580;
+  color: #007BFF;
+  text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
+/* Botão "voltar ao topo" */
 #back-to-top {
   position: fixed;
   bottom: 30px;
@@ -26,4 +39,23 @@ a {
   background: #005580;
   color: white;
   border-radius: 5px;
+  text-align: center;
+}
+
+#back-to-top:hover {
+  background: #003366;
+  color: #ffffff;
+}
+
+/* Estilização de blocos de citação */
+blockquote {
+  border-left: 5px solid #005580;       
+  background-color: #f0f8ff;           
+  padding: 1.5em 2em;
+  margin: 2em auto;
+  color: #002244;                      
+  font-size: 22px;                     
+  font-style: italic;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }

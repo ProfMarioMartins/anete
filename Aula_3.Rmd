@@ -1,267 +1,413 @@
+# Opinião, fato e escrita acadêmica[^1]
 
-# Como pensar cientificamente?[^1]
-
-[^1]:Roteiro de aula elaborado com o auxílio da inteligência artificial ChatGPT, revisado e avaliado pelo autor antes de sua publicação.
+[^1]:Roteiro de aula elaborado no RStudio com o auxílio da inteligência artificial ChatGPT, revisado e avaliado pelo professor antes de sua publicação.
 
 ## Objetivos de aprendizagem
 
 Ao final deste encontro e com base na leitura indicada, espera-se que você seja capaz de:
 
-- Reconhecer as características do pensamento científico, diferenciando-o de outras formas de pensar e compreender sua relevância na construção do saber universitário.
+- Identificar exemplos de opiniões e fatos evidenciados em textos acadêmicos.
+
+- Reescrever trechos opinativos em enunciados fundamentados por evidências.
 
 <div class="section" style="padding:1em; background-color:#F5F5F5; color:#000000;">
   <em>Leitura indicada:</em> <br/>
-  <strong>Think like a scientist: The power of a scientific mindset</strong>, postagem do blog <em>Ivory Embassy</em>, por Santiago Gisler.
+  <strong>Uma questão de opinião</strong>, capítulo do livro <em>Como escrever um texto científico</em>, de Fábio Appolinário e Isaac Gil.
   
-[Acesso à leitura obrigatória](https://ivoryembassy.com/scientific-mindset/)
-
+  [Acesso à leitura indicada](vbk://9788599519493/page/11)
 
 </div>
+
+---
+
+## Introdução
+
+Como vimos anteriormente, o **pensamento científico** baseia-se em uma **curiosidade ativa**, no **questionamento de pressupostos** e na busca rigorosa por **evidências**, utilizando **lógica** e **ceticismo** para avaliar as informações de maneira **objetiva**. Além disso, considera **alternativas**, mantém-se **aberto a novas ideias** e promove a **reflexão sobre as próprias crenças**, sempre valorizando a **replicabilidade** e o aprendizado com **erros e feedbacks**. Esses pilares, mais do que ferramentas científicas, são práticas que enriquecem a **análise crítica** e a **tomada de decisões** em diversas situações.
+
+Esses pilares do pensamento científico não apenas fundamentam a investigação científica, mas também guiam as **práticas de leitura e escrita acadêmicas**. Essas competências intelectuais formam a base para compreender, analisar e produzir textos acadêmicos de alta qualidade. A leitura criteriosa permite identificar as pistas essenciais nos textos, enquanto a escrita disciplinada e fundamentada em padrões normativos promove a clareza, a coesão e a credibilidade das ideias.
+
+O desenvolvimento do pensamento científico está intrinsecamente ligado ao **domínio da linguagem acadêmica**, contribuindo para um percurso mais autônomo e qualificado no ambiente universitário.
+
+### Você sabe escrever e ler cientificamente? (aplicação de teste diagnóstico)
+
+### O que é uma escrita científica? Um texto científico? Texto opinativo ou factual?
+
+> "(...) uma característica importante da maioria das modalidades de textos científicos é exatamente a ausência da opinião." p. 16
+
+<br/>
+
+> "(...) não há espaço para a enunciação de juízos de valor, que possuem caráter opinativo ou especulativo." p. 16
+
+<br/>
+
+> "(...) o texto monográfico [leia-se científico] deve se ater a:<br><br>
+<ul>
+  <li>Descrição, comparação ou análise de teorias e conceitos desenvolvidos por outros autores</li>
+  <li>Apresentação de dados secundários de pesquisa (dados coletados por outros autores e devidamente citados no texto)</li>
+  <li>Apresentação e análise de dados primários (dados coletados pelo próprio aluno e apresentados no trabalho)</li>
+</ul> p. 16
+
+<br/>
+
+> Em síntese, o texto acadêmico é "(...) um exercício de argumentação (desenvolvido em sua maior parte com as “palavras” do autor do argumento), fortalecido tanto quanto possível por evidências retiradas de teorias, conceitos e dados próprios ou de outrem, devidamente citados no corpo do texto, de acordo com as normas adotadas pela instituição na qual o aluno está desenvolvendo seu trabalho." p. 18
+
+<br/>
+
+```{=html}
+<div style="display: flex; flex-direction: column; gap: 1em; padding: 1em; background-color: #f9f9f9; border: 1px solid #ccc; border-radius: 5px; margin-bottom: 1em;">
+  <div style="display: flex; gap: 1em;">
+    <img src="/Users/MarioMartins/Library/CloudStorage/GoogleDrive-mario.martins@ufersa.edu.br/Meu Drive/Disciplinas_em_R/ANETE/img/fato.png" alt="Fato" style="width:45%;">
+    <img src="/Users/MarioMartins/Library/CloudStorage/GoogleDrive-mario.martins@ufersa.edu.br/Meu Drive/Disciplinas_em_R/ANETE/img/opiniao.png" alt="Opinião" style="width:45%;">
+  </div>
+  <div style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 1em;">
+    Definições extraídas do Dicionário Priberam
+  </div>
+</div>
+```
 
 ---
 
 ## Aprendizagem prática
 
-### Você pensa cientificamente?
+Leia as frases abaixo e assinale FATO ou OPINIÃO.
 
 ```{=html}
-<div id="quiz-container" style="font-family: Arial, sans-serif; max-width: 800px; margin: auto;">
-  <p>Leia cada situação e escolha a alternativa que mais se aproxima do que você faria ou costuma fazer.</p>
+<div id="quiz-container-1" style="margin-top: 20px;">
 
-  <form id="quiz-form">
-    <ol>
-      <li>
-        Você observa que, no seu jardim, uma planta está crescendo mais devagar que as outras.<br>
-        <label><input type="radio" name="q1" value="0"> (A) Você ignora o fato, pois você é matemático.</label><br>
-        <label><input type="radio" name="q1" value="0"> (B) Você considera que é “azar” ou “alguma coisa no ar”.</label><br>
-        <label><input type="radio" name="q1" value="1"> (C) Você começa a observar as possíveis causas, tentando encontrar explicações.</label>
-      </li><br>
+  <div class="pergunta" id="pergunta7-1">
+    <p><strong>1. A água ferve a 100°C.</strong></p>
+    <form>
+      <input type="radio" name="q7-1" value="a"> Fato<br>
+      <input type="radio" name="q7-1" value="b"> Opinião<br>
+    </form>
+  </div>
+  
+<br/>
 
-      <li>
-        Você recebe uma notícia com dados sobre a economia que parecem catastróficas.<br>
-        <label><input type="radio" name="q2" value="0"> (A) Você compartilha imediatamente com seus colegas. É bom que todos saibam.</label><br>
-        <label><input type="radio" name="q2" value="0"> (B) Você confia na notícia porque veio de um canal que você costuma seguir.</label><br>
-        <label><input type="radio" name="q2" value="1"> (C) Você questiona a origem dos dados e busca descobrir como aquilo que está sendo noticiado aconteceu.</label>
-      </li><br>
+  <div class="pergunta" id="pergunta5-1">
+    <p><strong>2. O Brasil é o maior país da América do Sul em extensão territorial.</strong></p>
+    <form>
+      <input type="radio" name="q5-1" value="a"> Fato<br>
+      <input type="radio" name="q5-1" value="b"> Opinião<br>
+    </form>
+  </div>
+  
+<br/>
 
-      <li>
-        Você ouve falar de um produto milagroso para aumentar a memória.<br>
-        <label><input type="radio" name="q3" value="0"> (A) Você compra sem pensar duas vezes.</label><br>
-        <label><input type="radio" name="q3" value="0"> (B) Você consulta opiniões de amigos próximos.</label><br>
-        <label><input type="radio" name="q3" value="1"> (C) Você pesquisa sobre o produto em estudos científicos e opiniões de especialistas.</label>
-      </li><br>
+  <div class="pergunta" id="pergunta1-1">
+    <p><strong>3. O Sol é a principal fonte de luz natural para a Terra.</strong></p>
+    <form>
+      <input type="radio" name="q1-1" value="a"> Fato<br>
+      <input type="radio" name="q1-1" value="b"> Opinião<br>
+    </form>
+  </div>
+  
+<br/>
 
-      <li>
-        Ao tentar resolver um problema técnico, como configurar uma impressora em rede, você encontra várias hipóteses.<br>
-        <label><input type="radio" name="q4" value="0"> (A) Você escolhe a que explica o problema mais rapidamente. Não vale a pena descobrir mais nada.</label><br>
-        <label><input type="radio" name="q4" value="0"> (B) Você segue sua intuição apenas.</label><br>
-        <label><input type="radio" name="q4" value="1"> (C) Você analisa as opções e elimina as menos prováveis com base em dados e fatos.</label>
-      </li><br>
+  <div class="pergunta" id="pergunta9-1">
+    <p><strong>4. A cidade de São Paulo tem mais habitantes que qualquer outra cidade do Brasil.</strong></p>
+    <form>
+      <input type="radio" name="q9-1" value="a"> Fato<br>
+      <input type="radio" name="q9-1" value="b"> Opinião<br>
+    </form>
+  </div>
+  
+<br/>
 
-      <li>
-        Um conhecido propõe um investimento com retorno garantido em poucos dias.<br>
-        <label><input type="radio" name="q5" value="0"> (A) Você aceita rapidamente para não perder a chance.</label><br>
-        <label><input type="radio" name="q5" value="0"> (B) Você pergunta a outros conhecidos se já ouviram falar.</label><br>
-        <label><input type="radio" name="q5" value="1"> (C) Você questiona os riscos e busca evidências concretas de eficácia.</label>
-      </li><br>
+  <div class="pergunta" id="pergunta4-1">
+    <p><strong>5. Assistir filmes em casa é muito mais agradável do que no cinema.</strong></p>
+    <form>
+      <input type="radio" name="q4-1" value="a"> Fato<br>
+      <input type="radio" name="q4-1" value="b"> Opinião<br>
+    </form>
+  </div>
+  
+<br/>
 
-      <li>
-        Você nota que alunos que usam fone de ouvido no dia a dia vão melhor nas provas.<br>
-        <label><input type="radio" name="q6" value="0"> (A) Você conclui que o fone de ouvido melhora a inteligência.</label><br>
-        <label><input type="radio" name="q6" value="0"> (B) Você pensa que é apenas coincidência.</label><br>
-        <label><input type="radio" name="q6" value="1"> (C) Você considera que pode haver outro fator influente relacionado ao fone de ouvido.</label>
-      </li><br>
+  <div class="pergunta" id="pergunta3-1">
+    <p><strong>6. O Everest é a montanha mais alta do mundo.</strong></p>
+    <form>
+      <input type="radio" name="q3-1" value="a"> Fato<br>
+      <input type="radio" name="q3-1" value="b"> Opinião<br>
+    </form>
+  </div>
+  
+<br/>
 
-      <li>
-        Você descobre um método de estudo bem diferente do seu.<br>
-        <label><input type="radio" name="q7" value="0"> (A) Você recusa-se a tentar porque “sempre estudou de outro jeito”.</label><br>
-        <label><input type="radio" name="q7" value="0"> (B) Você ccha curioso, mas prefere não mudar nada.</label><br>
-        <label><input type="radio" name="q7" value="1"> (C) Você avalia o método e considera testá-lo.</label>
-      </li><br>
+  <div class="pergunta" id="pergunta10-1">
+    <p><strong>7. Correr ao ar livre é a forma mais divertida de praticar exercícios.</strong></p>
+    <form>
+      <input type="radio" name="q10-1" value="a"> Fato<br>
+      <input type="radio" name="q10-1" value="b"> Opinião<br>
+    </form>
+  </div>
+  
+<br/>
 
-      <li>
-        Você defende uma dieta há anos, mas novos estudos mostram riscos ao fígado.<br>
-        <label><input type="radio" name="q8" value="0"> (A) Você ignora os estudos porque já fez sua escolha.</label><br>
-        <label><input type="radio" name="q8" value="0"> (B) Você acha que todo estudo tem problema.</label><br>
-        <label><input type="radio" name="q8" value="1"> (C) Você lê os estudos, pondera e ajusta suas recomendações.</label>
-      </li><br>
+  <div class="pergunta" id="pergunta8-1">
+    <p><strong>8. A pizza de marguerita é a mais saborosa.</strong></p>
+    <form>
+      <input type="radio" name="q8-1" value="a"> Fato<br>
+      <input type="radio" name="q8-1" value="b"> Opinião<br>
+    </form>
+  </div>
+  
+<br/>
 
-      <li>
-        Você apresenta um projeto e recebe críticas construtivas.<br>
-        <label><input type="radio" name="q9" value="0"> (A) Você fica na defensiva e descarta as sugestões.</label><br>
-        <label><input type="radio" name="q9" value="0"> (B) Você aceita parcialmente, mas mantém quase tudo.</label><br>
-        <label><input type="radio" name="q9" value="1"> (C) Você analisa os comentários e faz ajustes para melhorar.</label>
-      </li><br>
+  <div class="pergunta" id="pergunta6-1">
+    <p><strong>9. Chocolate é o melhor doce do mundo.</strong></p>
+    <form>
+      <input type="radio" name="q6-1" value="a"> Fato<br>
+      <input type="radio" name="q6-1" value="b"> Opinião<br>
+    </form>
+  </div>
+  
+<br/>
 
-      <li>
-        Você conclui uma experiência com resultados positivos.<br>
-        <label><input type="radio" name="q10" value="0"> (A) Você fica satisfeito e guarda para si, porque não quer que roubem sua ideia.</label><br>
-        <label><input type="radio" name="q10" value="0"> (B) Você publica nas redes sociais, mas não explica como fez, porque não quer que roubem sua ideia.</label><br>
-        <label><input type="radio" name="q10" value="1"> (C) Você documenta os dados e o método de pesquisa e compartilha-os com as pessoas interessadas no fenômeno que você está estudando.</label>
-      </li>
-    </ol>
-
-    <button type="button" onclick="calculateScore()">Ver meu resultado</button>
-  </form>
-
-  <div id="result" style="margin-top: 20px; font-weight: bold;"></div>
+  <div class="pergunta" id="pergunta2-1">
+    <p><strong>10. Viajar de avião é a forma mais confortável de transporte.</strong></p>
+    <form>
+      <input type="radio" name="q2-1" value="a"> Fato<br>
+      <input type="radio" name="q2-1" value="b"> Opinião<br>
+    </form>
+  </div>
 </div>
 
+<br/><br/>
+
+<button type="button" onclick="finalizarQuiz('quiz-container-1', { 'q1-1': 'a', 'q2-1': 'b', 'q3-1': 'a', 'q4-1': 'b', 'q5-1': 'a', 'q6-1': 'b', 'q7-1': 'a', 'q8-1': 'b', 'q9-1': 'a', 'q10-1': 'b' })">Finalizar</button>
+<p id="resultadoFinal-1"></p>
+
 <script>
-function calculateScore() {
-  var form = document.getElementById('quiz-form');
-  var inputs = form.querySelectorAll('input[type="radio"]:checked');
-  var score = 0;
-  inputs.forEach(input => {
-    score += parseInt(input.value);
-  });
-
-  let message = "";
-  if (score === 10) {
-    message = "Parabéns! Você demonstra um pensamento científico exemplar.";
-  } else if (score >= 7) {
-    message = "Muito bom! Você tem uma forte inclinação científica.";
-  } else if (score >= 4) {
-    message = "Você demonstra algumas atitudes científicas, mas há espaço para desenvolver mais.";
-  } else {
-    message = "Vamos trabalhar juntos para fortalecer seu pensamento científico!";
+  function finalizarQuiz(containerId, respostas) {
+    let acertos = 0;
+    const container = document.getElementById(containerId);
+    for (let q in respostas) {
+      const selected = container.querySelector(`input[name="${q}"]:checked`);
+      if (selected && selected.value === respostas[q]) {
+        acertos++;
+      }
+    }
+    const resultadoFinal = document.getElementById(`resultadoFinal-${containerId.split('-')[2]}`);
+    resultadoFinal.textContent = `Você acertou ${acertos} de ${Object.keys(respostas).length} perguntas.`;
   }
-
-  document.getElementById('result').innerHTML = `Você acertou <strong>${score} de 10</strong>.<br>${message}`;
-}
 </script>
 ```
 
-```{=html}
-<hr style="border: none; border-top: 3px dashed #bbb; margin: 3em 0;">
-```
-
-### O que é a pensamento científico?
-
-> O pensamento científico é um estilo de pensamento que incentiva a análise crítica e o ceticismo na abordagem de situações e problemas.
-
-> O pensamento científico promove o questionamento de suposições e a avaliação objetiva de ideias, visando uma compreensão mais próxima da verdade, na medida do possível.
-
-> Por meio do uso de evidências e do raciocínio lógico, é possível interpretar melhor o mundo ao redor, tomar decisões fundamentadas e encontrar soluções para desafios.
-
-```{=html}
-
-<div style="border: 1px solid #ccc; padding: 1em; background-color: #f9f9f9; border-radius: 5px; margin-bottom: 1em;">
-
-<strong>Estátua da Virgem Maria em Trevignano Romano atrai fiéis após relatos de lágrimas de sangue</strong><br><br>
-<sub>Notícia criada para os fins desta aula</sub><br><br>
-
-<img src="/Users/MarioMartins/Library/CloudStorage/GoogleDrive-mario.martins@ufersa.edu.br/Meu Drive/Disciplinas_em_R/ANETE/img/santa.jpg"  alt="Virgem Maria"; style="width:60%;">
-
-<br><br>
-
-Desde 2016, a pequena cidade de Trevignano Romano, localizada às margens do Lago de Bracciano, na Itália, tornou-se um centro de peregrinação religiosa devido a relatos de que uma estátua da Virgem Maria estaria chorando lágrimas de sangue. A proprietária da imagem, Gisella Cardia, afirma ter testemunhado o fenômeno após uma viagem a Medjugorje, na Bósnia-Herzegovina, e desde então, organiza encontros mensais de oração no local.<br><br>
-
-Os eventos ocorrem no dia 3 de cada mês, reunindo centenas de fiéis que participam de orações e aguardam possíveis mensagens atribuídas à Virgem Maria. Além das supostas lágrimas, há relatos de outras manifestações, como a multiplicação de alimentos e a emissão de óleos perfumados pela estátua.<br><br>
-
-A Diocese de Civita Castellana, à qual Trevignano pertence, instaurou uma comissão para investigar a autenticidade dos fenômenos. Em março de 2023, o bispo Marco Salvi anunciou a formação de uma equipe para conduzir uma “investigação prévia” sobre os eventos, buscando esclarecer se há fundamentos sobrenaturais nas ocorrências relatadas.<br><br>
-
-Enquanto isso, as autoridades civis também monitoram a situação, considerando o crescente número de visitantes e o impacto na infraestrutura local. A prefeitura de Trevignano Romano tem colaborado com as investigações e buscado garantir a segurança e o bem-estar dos moradores e peregrinos.<br><br>
-
-O caso continua a gerar debates entre crentes e céticos, sendo acompanhado de perto tanto pela comunidade religiosa quanto pela imprensa internacional.<br><br>
-
-<div style="background-color: navy; color: white; padding: 10px; border-radius: 5px; font-size: 40px; text-align: center;">
-  <strong>Pensando cientificamente, como abordar o fato?</strong>
-</div>
-
-</div>
-
-```
-
-
-<!-- Aqui começa o campo de respostas-->
-<details>
-<summary></summary>
-<div style="width: 100%; background-color:#ADD8E6; font-size: 14px; line-height: 1.5;">
-
-[Teste de DNA resolve enigma de estátua que chorava sangue](https://www.dw.com/pt-br/teste-de-dna-resolve-enigma-de-virgem-maria-que-chorava-sangue/a-71703557)
-
-</div>
-</details>
-</pre>
-<!-- Aqui encerra o campo de respostas-->
-
-
-### O que é fundamental no pensamento científico?
-
-> Um elemento fundamental no pensamento científico é o uso do método científico.
-
-> O método científico auxilia na aquisição de conhecimento por meio da observação e da experiência (de forma empírica).
-
-> O método científico organiza o processo pelo qual cientistas – e não-cientistas – chegam a conclusões.
-
-### Passo a passo do método científico (em síntese):
-
-•	Observar um fenômeno e formular uma pergunta<br>
-•	Realizar pesquisas e reunir informações<br>
-•	Formular uma hipótese<br>
-•	Testar essa hipótese<br>
-•	Apresentar os resultados, debater e aperfeiçoar o entendimento do fenômeno
-
-### Pilares do pensamento científico (para além da ciência)
-
-- [ ] **Demonstrar curiosidade:**  
-      *Exemplo:* Um estudante de biologia que, ao observar uma planta com folhas amarelas, começa a se perguntar: “Por que essa planta tem uma coloração diferente das outras? Será falta de nutrientes, excesso de sol, ou alguma doença?”
-
-- [ ] **Questionar pressupostos:**  
-      *Exemplo:* Um jornalista investigativo que, ao receber um dado oficial, questiona: “Será que esses números foram coletados corretamente? Quem financiou a pesquisa? Existe algum conflito de interesse?”
-
-- [ ] **Buscar evidências:**  
-      *Exemplo:* Um consumidor que lê avaliações de múltiplos sites e compara estudos antes de comprar um produto que alega ser ecológico.
-
-- [ ] **Aplicar lógica e raciocínio:**  
-      *Exemplo:* Um médico que, ao interpretar exames laboratoriais, descarta hipóteses menos prováveis com base nos padrões observados nos resultados.
-
-- [ ] **Adotar ceticismo saudável:**  
-      *Exemplo:* Um economista que, ao ouvir que um novo investimento promete lucros altíssimos em pouco tempo, questiona: “Quais são os riscos? Existe alguma evidência de que outros investidores tiveram sucesso semelhante?”
-
-- [ ] **Considerar explicações alternativas:**  
-      *Exemplo:* Um pesquisador que, ao encontrar uma correlação entre duas variáveis, pensa: “Será que é uma relação causal direta? Ou pode haver um terceiro fator influenciando ambas?”
-
-- [ ] **Estar aberto a novas ideias:**  
-      *Exemplo:* Um professor que, ao descobrir um método de ensino inovador, considera aplicá-lo em suas aulas, mesmo que isso signifique mudar abordagens tradicionais.
-
-- [ ] **Refletir sobre suas próprias crenças:**  
-      *Exemplo:* Um defensor de uma dieta específica que, ao encontrar novos estudos que contradizem suas crenças, analisa esses dados e ajusta suas recomendações.
-
-- [ ] **Buscar feedback e aprender com os erros:**  
-      *Exemplo:* Um engenheiro que compartilha seu projeto com colegas, recebe críticas sobre a estrutura, faz alterações e apresenta um produto final mais eficiente.
-
-- [ ] **Valorizar a replicabilidade e a objetividade:**  
-      *Exemplo:* Um cientista que publica os dados brutos de seu experimento e descreve os procedimentos em detalhes, permitindo que outros pesquisadores tentem reproduzir os mesmos resultados.
-      
 ---
 
+<br/><br/>
+
+Leia o parágrafo abaixo com atenção, extraído da obra "Como escrever um texto científico", de Fábio Appolinário e Isaac Gil. Por que ele não pode ser cientificamente adequado?
+
+> As empresas brasileiras têm enfrentado enormes problemas em função da grande crise econômica pela qual passa nosso país, tendo assumido uma atitude preventiva e cautelosa no que se refere aos investimentos, notadamente no setor de treinamento – que costuma ser o primeiro a sentir os cortes em crises desse porte.
+
+<br/><br/>
+
+Reescreva-o a fim de torná-lo cientificamente adequado.
+
+<!-- Aqui começa o campo de respostas-->
+<details>
+<summary></summary>
+<div style="width: 100%; background-color:#ADD8E6; font-size: 14px; line-height: 1.5;">
+
+**Sugestão de reescrita dos autores**
+
+Segundo dados do Banco Central do Brasil (2009), em seis dos oito trimestres dos anos de 2008 e 2009 houve uma retração do PIB brasileiro entre 1,5% e 2,3%, o que, para alguns autores (por exemplo: KRAUSE, 2001; SILVEIRA, 2005), pode configurar uma “crise econômica”. Nesse mesmo período, em pesquisa exploratória realizada junto a gestores de recursos humanos nas empresas do setor industrial da região sudeste do país, a Associação Brasileira de Recursos Humanos (2009) relatou uma intenção de cortes com gastos em treinamento de pessoal da ordem de 27,8%, para o ano de 2010. É possível hipotetizar, portanto, que a retração econômica tenha levado a uma diminuição na previsão de investimentos nessa área.
+
+
+</div>
+</details>
+</pre>
+<!-- Aqui encerra o campo de respostas-->
+
+---
+
+<br/><br/>
+
+Leia o texto abaixo e resolva as questões seguintes.[^2]
+
 ```{=html}
+<div id="quiz-container-2" style="margin-top: 20px;">
 
-<div style="border: 1px solid #ccc; padding: 1em; background-color: #f9f9f9; border-radius: 5px; margin-bottom: 1em;">
+  <p><em>Cidadania, direito de ter direitos</em>(Gilberto Dimenstein)</p>
+  <p>Cidadania é o direito de ter uma ideia e poder expressá-la. É poder votar em quem quiser sem constrangimento. […] Há detalhes que parecem insignificantes, mas revelam estágios de cidadania: respeitar o sinal vermelho no trânsito, não jogar papel na rua, não destruir telefones públicos. Por trás desse comportamento está o respeito à coisa pública. […] Foi uma conquista dura. Muita gente lutou e morreu para que tivéssemos o direito de votar.</p>
 
-<strong>Uma reclamação de um cliente pode levar a uma descoberta</strong><br><br>
-<sub>Texto extraído do site do Comunidade Sebrae (https://sebraepr.com.br/comunidade/artigo/uma-reclamacao-de-um-cliente-pode-levar-a-uma-descoberta)</sub><br><br>
+  <div class="pergunta" id="pergunta1-2">
+    <p><strong>O trecho que indica uma opinião é:</strong></p>
+    <form>
+      <input type="radio" name="q1-2" value="a"> A) “Há detalhes que parecem insignificantes…”<br>
+      <input type="radio" name="q1-2" value="b"> B) “Muita gente lutou e morreu…”<br>
+      <input type="radio" name="q1-2" value="c"> C) “… respeitar o sinal vermelho no trânsito…”<br>
+      <input type="radio" name="q1-2" value="d"> D) “… para que tivéssemos o direito de votar.”<br>
+    </form>
+  </div>
+  
+<br/>
 
-<img src="/Users/MarioMartins/Library/CloudStorage/GoogleDrive-mario.martins@ufersa.edu.br/Meu Drive/Disciplinas_em_R/ANETE/img/sorvete.webp"  alt="Virgem Maria"; style="width:60%;">
+  <div class="pergunta" id="pergunta2-2">
+    <p><strong>O trecho que indica uma opinião em relação à cidadania é:</strong></p>
+    <form>
+      <input type="radio" name="q2-2" value="a"> A) …“é o direito de ter uma ideia e poder expressá-la…”.<br>
+      <input type="radio" name="q2-2" value="b"> B) … “Foi uma conquista dura. ”<br>
+      <input type="radio" name="q2-2" value="c"> C) …“revelam estágios de cidadania…”<br>
+      <input type="radio" name="q2-2" value="d"> D) …“É poder votar em quem quiser…”.<br><br>
+    </form>
+  </div>
 
-<br><br>
-
-Esta história começa quando o gerente da divisão de carros da Pontiac, da General Motors dos Estados Unidos, recebeu uma curiosa carta de reclamação de um cliente. Eis o que ele escreveu:<br><br>
-
-"Esta é a segunda vez que mando uma carta para vocês, e não os culpo por não responder. Eu posso parecer louco, mas o fato é que nós temos uma tradição em nossa família, que é a de tomar sorvete depois do jantar.<br><br>
-
-Repetimos este hábito todas às noites, variando apenas o tipo do sorvete, e eu sou o encarregado de ir comprá-lo. Recentemente comprei um novo Pontiac e, desde então, minhas idas à sorveteria se transformaram num problema.<br><br>
-
-Sempre que eu compro sorvete de baunilha, o carro não funciona, mas, se compro qualquer outro tipo de sorvete, o carro funciona normalmente. O fato é que estou muito irritado com meu Pontiac."<br><br>
-
-A carta gerou tantas piadas do pessoal da GM que o presidente da empresa acabou recebendo uma cópia da reclamação. Ele resolveu levar a sério e mandou um engenheiro conversar com o autor da carta. Então, foram juntos à sorveteria no fatídico Pontiac, onde o engenheiro sugeriu sabor baunilha para testar a reclamação e o carro efetivamente não funcionou.<br><br>
-
-<div style="background-color: navy; color: white; padding: 10px; border-radius: 5px; font-size: 40px; text-align: center;">
-  <strong>Pensando cientificamente, como abordar o fato?</strong>
 </div>
 
+<br/>
+
+<button type="button" onclick="finalizarQuiz('quiz-container-2', { 'q1-2': 'a', 'q2-2': 'b' })">Finalizar</button>
+<p id="resultadoFinal-2"></p>
+
+<script>
+  function finalizarQuiz(containerId, respostas) {
+    let acertos = 0;
+    const container = document.getElementById(containerId);
+    for (let q in respostas) {
+      const selected = container.querySelector(`input[name="${q}"]:checked`);
+      if (selected && selected.value === respostas[q]) {
+        acertos++;
+      }
+    }
+    const resultadoFinal = document.getElementById(`resultadoFinal-${containerId.split('-')[2]}`);
+    resultadoFinal.textContent = `Você acertou ${acertos} de ${Object.keys(respostas).length} perguntas.`;
+  }
+</script>
+```
+
+[^2]:Fonte: Instituto Claro https://www.institutoclaro.org.br/educacao/para-aprender/roteiros-de-estudo/estudar-em-casa-diferenca-entre-fato-e-opiniao/
+
+---
+
+<br/><br/>
+
+Leia as frases abaixo e assinale FATO ou OPINIÃO[^2]
+
+```{=html}
+<div id="quiz-container-unique" style="margin-top: 20px;">
+
+  <div class="pergunta" id="pergunta1-unique">
+    <p><strong>1. O Toyota Corolla Cross é mais bonito que o Jeep Compass.</strong></p>
+    <form>
+      <input type="radio" name="q1-unique" value="a"> Fato<br>
+      <input type="radio" name="q1-unique" value="b"> Opinião<br>
+    </form>
+  </div>
+  
+<br/>
+
+  <div class="pergunta" id="pergunta2-unique">
+    <p><strong>2. Infelizmente a cantora Cássia Eller faleceu muito cedo.</strong></p>
+    <form>
+      <input type="radio" name="q2-unique" value="a"> Fato<br>
+      <input type="radio" name="q2-unique" value="b"> Opinião<br>
+    </form>
+  </div>
+  
+<br/>
+
+  <div class="pergunta" id="pergunta3-unique">
+    <p><strong>3. Os produtos da Avon devem ser muito bons, já que a loja vive lotada.</strong></p>
+    <form>
+      <input type="radio" name="q3-unique" value="a"> Fato<br>
+      <input type="radio" name="q3-unique" value="b"> Opinião<br>
+    </form>
+  </div>
+  
+<br/>
+
+  <div class="pergunta" id="pergunta4-unique">
+    <p><strong>4. A notícia da morte do presidente americano deve ser verdade, já que ela foi muito compartilhada no Instagram.</strong></p>
+    <form>
+      <input type="radio" name="q4-unique" value="a"> Fato<br>
+      <input type="radio" name="q4-unique" value="b"> Opinião<br>
+    </form>
+  </div>
+  
+<br/>
+
+  <div class="pergunta" id="pergunta5-unique">
+    <p><strong>5. O design do iPhone 16 é mais funcional do que o design do Galaxy A22.</strong></p>
+    <form>
+      <input type="radio" name="q5-unique" value="a"> Fato<br>
+      <input type="radio" name="q5-unique" value="b"> Opinião<br>
+    </form>
+  </div>
+  
+<br/>
+
+  <div class="pergunta" id="pergunta6-unique">
+    <p><strong>6. Vini Jr. é o jogador de futebol mais combativo que há hoje em dia.</strong></p>
+    <form>
+      <input type="radio" name="q6-unique" value="a"> Fato<br>
+      <input type="radio" name="q6-unique" value="b"> Opinião<br>
+    </form>
+  </div>
+  
+<br/>
+
+  <div class="pergunta" id="pergunta7-unique">
+    <p><strong>7. Vini Jr. foi eleito o melhor jogador do mundo pela Fifa.</strong></p>
+    <form>
+      <input type="radio" name="q7-unique" value="a"> Fato<br>
+      <input type="radio" name="q7-unique" value="b"> Opinião<br>
+    </form>
+  </div>
+</div>
+
+<br/><br/>
+
+<button type="button" onclick="finalizarQuiz('quiz-container-unique', { 'q1-unique': 'b', 'q2-unique': 'a', 'q3-unique': 'b', 'q4-unique': 'b', 'q5-unique': 'b', 'q6-unique': 'b', 'q7-unique': 'a' })">Finalizar</button>
+<p id="resultadoFinal-unique"></p>
+
+<script>
+  function finalizarQuiz(containerId, respostas) {
+    let acertos = 0;
+    const container = document.getElementById(containerId);
+    for (let q in respostas) {
+      const selected = container.querySelector(`input[name="${q}"]:checked`);
+      if (!selected) {
+        document.getElementById(`resultadoFinal-${containerId.split('-')[2]}`).textContent = "Por favor, responda todas as perguntas antes de finalizar.";
+        return;
+      }
+      if (selected.value === respostas[q]) {
+        acertos++;
+      }
+    }
+    const resultadoFinal = document.getElementById(`resultadoFinal-${containerId.split('-')[2]}`);
+    resultadoFinal.textContent = `Você acertou ${acertos} de ${Object.keys(respostas).length} perguntas.`;
+  }
+</script>
+```
+
+Agora que você já sabe diferenciar uma afirmação que apresenta uma opinião de uma afirmação que apresenta um fato, em trios, identifiquem as marcas linguísticas que caracterizam as afirmações opinativas em oposição às afirmações factuais.
+
+Abaixo são retomadas as afirmações usadas na aprendizagem prática anterior.
+
+```{=html}
+<ul>
+  <li>A água ferve a 100°C.</li>
+  <li>O Brasil é o maior país da América do Sul em extensão territorial.</li>
+  <li>O Sol é a principal fonte de luz natural para a Terra.</li>
+  <li>A cidade de São Paulo tem mais habitantes que qualquer outra cidade do Brasil.</li>
+  <li>Assistir filmes em casa é muito mais agradável do que no cinema.</li>
+  <li>O Everest é a montanha mais alta do mundo.</li>
+  <li>Correr ao ar livre é a forma mais divertida de praticar exercícios.</li>
+  <li>A pizza de marguerita é a mais saborosa.</li>
+  <li>Chocolate é o melhor doce do mundo.</li>
+  <li>Viajar de avião é a forma mais confortável de transporte.</li>
+  <li>Há detalhes que parecem insignificantes, mas revelam estágios de cidadania.</li>
+  <li>O Toyota Corolla Cross é mais bonito que o Jeep Compass.</li>
+  <li>Infelizmente a cantora Cássia Eller faleceu muito cedo.</li>
+  <li>Os produtos da Avon devem ser muito bons, já que a loja vive lotada.</li>
+  <li>A notícia da morte do presidente americano deve ser verdade, já que ela foi muito compartilhada no Instagram.</li>
+  <li>O design do iPhone 16 é mais funcional do que o design do Galaxy A22.</li>
+  <li>Vini Jr. é o jogador de futebol mais combativo que há hoje em dia</li>
+  <li>Vini Jr. foi eleito o melhor jogador do mundo pela Fifa.</li>
+</ul>
 ```
 
 <!-- Aqui começa o campo de respostas-->
@@ -269,19 +415,25 @@ A carta gerou tantas piadas do pessoal da GM que o presidente da empresa acabou 
 <summary></summary>
 <div style="width: 100%; background-color:#ADD8E6; font-size: 14px; line-height: 1.5;">
 
-O funcionário da GM voltou nos dias seguintes e só variou o sabor do sorvete. Mais uma vez, o carro só não pegava quando o sabor escolhido era baunilha.
+**Marcas linguísticas da opinião**
 
-O problema acabou virando uma obsessão para o engenheiro, que fez experiências diárias, anotou todos os detalhes possíveis e, depois de duas semanas, chegou à primeira grande descoberta: quando escolhia baunilha, o comprador gastava menos tempo, porque não precisava ficar escolhendo o tipo de sorvete.
+As marcas linguísticas que caracterizam as afirmações opinativas incluem:
+	1.	Uso de adjetivos subjetivos: Palavras como “melhor”, “mais agradável”, “mais confortável”, “dura” indicam julgamento de valor.
+	2.	Presença de juízos de valor ou preferências pessoais: Expressões como “eu acho”, “é a mais saborosa” ou “é o melhor” demonstram uma perspectiva pessoal.
+	3.	Ausência de fontes confiáveis ou dados concretos: Afirmações opinativas frequentemente não apresentam referência a estudos, estatísticas ou documentações que sustentem a afirmação.
+	4.	Generalizações e suposições: Expressões como “devem ser” ou “parecem” sugere que a ideia não está baseada em evidências confirmadas, mas em impressão ou crença.
+	5.	Foco em emoções ou experiências pessoais: Declarações que se baseiam em preferências emocionais, como “assistir filmes em casa é muito mais agradável” ou “chocolate é o melhor doce do mundo”, denotam um ponto de vista subjetivo.
 
-Examinando o carro, o engenheiro fez nova descoberta: com o tempo de compra reduzido no caso da baunilha, em comparação com o tempo dos outros sabores, o motor não chegava a esfriar. Com isso, os vapores de combustível não se dissipavam, impedindo que a nova partida fosse instantânea.
+Em contraste, as afirmações factuais tendem a apresentar dados verificáveis, referências confiáveis e um tom mais neutro e objetivo.
 
-A partir deste episódio, a Pontiac mudou o sistema de alimentação de combustível e introduziu a alteração em todos os modelos a partir desta linha.
-
-Mais que isso, o autor da reclamação ganhou um carro novo, além da reforma do que não pegava com sorvete de baunilha.
-
-A GM distribuiu também um memorando interno, exigindo que seus funcionários levem a sério até as 'reclamações mais estapafúrdias, porque pode ser que uma grande inovação esteja por trás de um sorvete de baunilha' diz a carta da GM.
 
 </div>
 </details>
 </pre>
 <!-- Aqui encerra o campo de respostas-->
+
+<div style="background-color: navy; color: white; padding: 10px; border-radius: 5px; font-size: 25px; text-align: center;">
+  <strong>`r emo::ji("warning")` **Importante!** `r emo::ji("warning")`: "(...) não há informação pura, nem opinião girando no vazio."</strong> (Vieira; Faraco, 2019, p. 166)[^4]</div>
+
+
+[^4]:VIEIRA, Francisco Eduardo; FARACO, Carlos Alberto. **Escrever na universidade** 2 - texto e discurso. São Paulo: Editora Parábola. 2019.

@@ -8,5 +8,10 @@ delete_merged_file: true
 rmd_files: [
   "index.Rmd",
   "Aula_1.Rmd",
+  "Aula_2.Rmd",
   "Aula_3.Rmd",
-  ]
+]
+
+
+#  "identificacao.Rmd",
+#  "feedback.Rmd"
