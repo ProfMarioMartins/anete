@@ -1,3 +1,6 @@
+# Como começar um texto
+
+
 # Argumentos de senso comum e senso crítico[^1]
 
 [^1]:Roteiro de aula elaborado no RStudio com o auxílio da inteligência artificial ChatGPT, revisado e avaliado pelo autor antes de sua publicação.
