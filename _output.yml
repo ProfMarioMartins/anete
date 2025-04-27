@@ -6,8 +6,9 @@ bookdown::gitbook:
   split_by: chapter
   config:
     toc:
-      collapse: section
+      collapse: none
       before: |
         <li><a href="index.html">Início</a></li>
     edit: null
     download: [pdf, epub]
+    

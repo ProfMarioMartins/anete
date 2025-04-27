@@ -6,9 +6,11 @@
 
 Ao final deste encontro e com base na leitura indicada, espera-se que você seja capaz de:
 
-- Identificar exemplos de opiniões e fatos evidenciados em textos acadêmicos.
+- Reconhecer e diferenciar exemplos de opiniões e fatos evidenciados em textos acadêmicos.
 
-- Reescrever trechos opinativos em enunciados fundamentados por evidências.
+- Reformular enunciados opinativos em afirmações sustentadas por evidências.
+
+- Analisar os recursos linguísticos que caracterizam afirmações opinativas, distinguindo-os das marcas típicas de afirmações factuais.
 
 <div class="section" style="padding:1em; background-color:#F5F5F5; color:#000000;">
   <em>Leitura indicada:</em> <br/>
@@ -32,7 +34,7 @@ O desenvolvimento do pensamento científico está intrinsecamente ligado ao **do
 
 ### O que é uma escrita científica? Um texto científico? Texto opinativo ou factual?
 
-> "(...) uma característica importante da maioria das modalidades de textos científicos é exatamente a ausência da opinião." p. 16
+> Segundo Appolinário e Gil, "(...) uma característica importante da maioria das modalidades de textos científicos é exatamente a ausência da opinião." p. 16
 
 <br/>
 
@@ -53,49 +55,27 @@ O desenvolvimento do pensamento científico está intrinsecamente ligado ao **do
 
 <br/>
 
-```{=html}
-<div style="display: flex; flex-direction: column; gap: 1em; padding: 1em; background-color: #f9f9f9; border: 1px solid #ccc; border-radius: 5px; margin-bottom: 1em;">
-  <div style="display: flex; gap: 1em;">
-    <img src="/Users/MarioMartins/Library/CloudStorage/GoogleDrive-mario.martins@ufersa.edu.br/Meu Drive/Disciplinas_em_R/ANETE/img/fato.png" alt="Fato" style="width:45%;">
-    <img src="/Users/MarioMartins/Library/CloudStorage/GoogleDrive-mario.martins@ufersa.edu.br/Meu Drive/Disciplinas_em_R/ANETE/img/opiniao.png" alt="Opinião" style="width:45%;">
-  </div>
-  <div style="text-align: center; font-style: italic; font-size: 0.9em; margin-top: 1em;">
-    Definições extraídas do Dicionário Priberam
-  </div>
-</div>
-```
+<div style="background-color: navy; color: white; padding: 10px; border-radius: 5px; font-size: 25px; text-align: center;">
+  <strong>`r emo::ji("warning")` **Será?** `r emo::ji("warning")`
+  
+  <br/>
+  <br/>"(...) não há informação pura, nem opinião girando no vazio."</strong> (Vieira; Faraco, 2019, p. 166)[^4]</div>
+  
+[^4]:VIEIRA, Francisco Eduardo; FARACO, Carlos Alberto. **Escrever na universidade** 2 - texto e discurso. São Paulo: Editora Parábola. 2019.
+  
+<br/>
 
 ---
 
 ## Aprendizagem prática
 
-Leia as frases abaixo e assinale FATO ou OPINIÃO.
+### Leia as frases abaixo e assinale FATO ou OPINIÃO.
 
 ```{=html}
 <div id="quiz-container-1" style="margin-top: 20px;">
 
-  <div class="pergunta" id="pergunta7-1">
-    <p><strong>1. A água ferve a 100°C.</strong></p>
-    <form>
-      <input type="radio" name="q7-1" value="a"> Fato<br>
-      <input type="radio" name="q7-1" value="b"> Opinião<br>
-    </form>
-  </div>
-  
-<br/>
-
-  <div class="pergunta" id="pergunta5-1">
-    <p><strong>2. O Brasil é o maior país da América do Sul em extensão territorial.</strong></p>
-    <form>
-      <input type="radio" name="q5-1" value="a"> Fato<br>
-      <input type="radio" name="q5-1" value="b"> Opinião<br>
-    </form>
-  </div>
-  
-<br/>
-
   <div class="pergunta" id="pergunta1-1">
-    <p><strong>3. O Sol é a principal fonte de luz natural para a Terra.</strong></p>
+    <p><strong>1. A água, sob condições atmosféricas normais ao nível do mar, atinge o ponto de ebulição precisamente a 100°C.</strong></p>
     <form>
       <input type="radio" name="q1-1" value="a"> Fato<br>
       <input type="radio" name="q1-1" value="b"> Opinião<br>
@@ -104,28 +84,18 @@ Leia as frases abaixo e assinale FATO ou OPINIÃO.
   
 <br/>
 
-  <div class="pergunta" id="pergunta9-1">
-    <p><strong>4. A cidade de São Paulo tem mais habitantes que qualquer outra cidade do Brasil.</strong></p>
+  <div class="pergunta" id="pergunta2-1">
+    <p><strong>2. Com uma área territorial que ultrapassa os 8,5 milhões de quilômetros quadrados, o Brasil ocupa a posição de maior país da América do Sul em extensão geográfica.</strong></p>
     <form>
-      <input type="radio" name="q9-1" value="a"> Fato<br>
-      <input type="radio" name="q9-1" value="b"> Opinião<br>
-    </form>
-  </div>
-  
-<br/>
-
-  <div class="pergunta" id="pergunta4-1">
-    <p><strong>5. Assistir filmes em casa é muito mais agradável do que no cinema.</strong></p>
-    <form>
-      <input type="radio" name="q4-1" value="a"> Fato<br>
-      <input type="radio" name="q4-1" value="b"> Opinião<br>
+      <input type="radio" name="q2-1" value="a"> Fato<br>
+      <input type="radio" name="q2-1" value="b"> Opinião<br>
     </form>
   </div>
   
 <br/>
 
   <div class="pergunta" id="pergunta3-1">
-    <p><strong>6. O Everest é a montanha mais alta do mundo.</strong></p>
+    <p><strong>3. Entre as diferentes formas de atividade física, correr ao ar livre proporciona, de acordo com muitas opiniões, a experiência mais prazerosa de exercício.</strong></p>
     <form>
       <input type="radio" name="q3-1" value="a"> Fato<br>
       <input type="radio" name="q3-1" value="b"> Opinião<br>
@@ -134,28 +104,28 @@ Leia as frases abaixo e assinale FATO ou OPINIÃO.
   
 <br/>
 
-  <div class="pergunta" id="pergunta10-1">
-    <p><strong>7. Correr ao ar livre é a forma mais divertida de praticar exercícios.</strong></p>
+  <div class="pergunta" id="pergunta4-1">
+    <p><strong>4. Segundo os dados mais recentes do Instituto Brasileiro de Geografia e Estatística (IBGE), a cidade de São Paulo apresenta a maior densidade populacional entre todas as cidades brasileiras.</strong></p>
     <form>
-      <input type="radio" name="q10-1" value="a"> Fato<br>
-      <input type="radio" name="q10-1" value="b"> Opinião<br>
+      <input type="radio" name="q4-1" value="a"> Fato<br>
+      <input type="radio" name="q4-1" value="b"> Opinião<br>
     </form>
   </div>
   
 <br/>
 
-  <div class="pergunta" id="pergunta8-1">
-    <p><strong>8. A pizza de marguerita é a mais saborosa.</strong></p>
+  <div class="pergunta" id="pergunta5-1">
+    <p><strong>5. Considerando o conforto proporcionado pela familiaridade do ambiente doméstico, assistir filmes em casa é, para muitos, uma experiência muito mais agradável do que frequentar salas de cinema.</strong></p>
     <form>
-      <input type="radio" name="q8-1" value="a"> Fato<br>
-      <input type="radio" name="q8-1" value="b"> Opinião<br>
+      <input type="radio" name="q5-1" value="a"> Fato<br>
+      <input type="radio" name="q5-1" value="b"> Opinião<br>
     </form>
   </div>
   
 <br/>
 
   <div class="pergunta" id="pergunta6-1">
-    <p><strong>9. Chocolate é o melhor doce do mundo.</strong></p>
+    <p><strong>6. Com seus 8.848 metros de altitude, o Monte Everest é reconhecido como a montanha de maior elevação do planeta.</strong></p>
     <form>
       <input type="radio" name="q6-1" value="a"> Fato<br>
       <input type="radio" name="q6-1" value="b"> Opinião<br>
@@ -164,18 +134,48 @@ Leia as frases abaixo e assinale FATO ou OPINIÃO.
   
 <br/>
 
-  <div class="pergunta" id="pergunta2-1">
-    <p><strong>10. Viajar de avião é a forma mais confortável de transporte.</strong></p>
+  <div class="pergunta" id="pergunta7-1">
+    <p><strong>7. Entre os diversos sabores de pizza existentes, a variedade marguerita é frequentemente considerada, por muitos apreciadores, a mais saborosa.</strong></p>
     <form>
-      <input type="radio" name="q2-1" value="a"> Fato<br>
-      <input type="radio" name="q2-1" value="b"> Opinião<br>
+      <input type="radio" name="q7-1" value="a"> Fato<br>
+      <input type="radio" name="q7-1" value="b"> Opinião<br>
+    </form>
+  </div>
+  
+<br/>
+
+  <div class="pergunta" id="pergunta8-1">
+    <p><strong>8. Para boa parte dos viajantes, deslocar-se de avião é visto como a forma mais confortável de transporte, especialmente em trajetos longos.</strong></p>
+    <form>
+      <input type="radio" name="q8-1" value="a"> Fato<br>
+      <input type="radio" name="q8-1" value="b"> Opinião<br>
+    </form>
+  </div>
+  
+<br/>
+
+  <div class="pergunta" id="pergunta9-1">
+    <p><strong>9. Apesar da diversidade de preferências, há quem sustente que o chocolate, em suas diferentes variações, ocupa o posto de melhor doce do mundo.</strong></p>
+    <form>
+      <input type="radio" name="q9-1" value="a"> Fato<br>
+      <input type="radio" name="q9-1" value="b"> Opinião<br>
+    </form>
+  </div>
+  
+<br/>
+
+  <div class="pergunta" id="pergunta10-1">
+    <p><strong>10. Devido ao seu processo contínuo de fusão nuclear, o Sol configura-se como a principal fonte de energia luminosa natural que atinge a superfície terrestre.</strong></p>
+    <form>
+      <input type="radio" name="q10-1" value="a"> Fato<br>
+      <input type="radio" name="q10-1" value="b"> Opinião<br>
     </form>
   </div>
 </div>
 
 <br/><br/>
 
-<button type="button" onclick="finalizarQuiz('quiz-container-1', { 'q1-1': 'a', 'q2-1': 'b', 'q3-1': 'a', 'q4-1': 'b', 'q5-1': 'a', 'q6-1': 'b', 'q7-1': 'a', 'q8-1': 'b', 'q9-1': 'a', 'q10-1': 'b' })">Finalizar</button>
+<button type="button" onclick="finalizarQuiz('quiz-container-1', { 'q1-1': 'a', 'q2-1': 'b', 'q3-1': 'a', 'q4-1': 'b', 'q5-1': 'a', 'q6-1': 'b', 'q7-1': 'b', 'q8-1': 'b', 'q9-1': 'b', 'q10-1': 'a' })">Finalizar</button>
 <p id="resultadoFinal-1"></p>
 
 <script>
@@ -198,7 +198,7 @@ Leia as frases abaixo e assinale FATO ou OPINIÃO.
 
 <br/><br/>
 
-Leia o parágrafo abaixo com atenção, extraído da obra "Como escrever um texto científico", de Fábio Appolinário e Isaac Gil. Por que ele não pode ser cientificamente adequado?
+### Leia o parágrafo abaixo com atenção, extraído da obra "Como escrever um texto científico", de Fábio Appolinário e Isaac Gil. Por que ele não pode ser cientificamente adequado?
 
 > As empresas brasileiras têm enfrentado enormes problemas em função da grande crise econômica pela qual passa nosso país, tendo assumido uma atitude preventiva e cautelosa no que se refere aos investimentos, notadamente no setor de treinamento – que costuma ser o primeiro a sentir os cortes em crises desse porte.
 
@@ -225,7 +225,7 @@ Segundo dados do Banco Central do Brasil (2009), em seis dos oito trimestres dos
 
 <br/><br/>
 
-Leia o texto abaixo e resolva as questões seguintes.[^2]
+###  Leia o texto abaixo e resolva as questões seguintes.[^2]
 
 ```{=html}
 <div id="quiz-container-2" style="margin-top: 20px;">
@@ -284,13 +284,13 @@ Leia o texto abaixo e resolva as questões seguintes.[^2]
 
 <br/><br/>
 
-Leia as frases abaixo e assinale FATO ou OPINIÃO[^2]
+### Leia as frases abaixo e assinale FATO ou OPINIÃO[^2]
 
 ```{=html}
 <div id="quiz-container-unique" style="margin-top: 20px;">
 
   <div class="pergunta" id="pergunta1-unique">
-    <p><strong>1. O Toyota Corolla Cross é mais bonito que o Jeep Compass.</strong></p>
+    <p><strong>1. O Toyota Corolla Cross, com suas linhas arrojadas e design contemporâneo, apresenta-se como visualmente mais atrativo do que o Jeep Compass, especialmente para quem valoriza um estilo mais sofisticado e urbano.</strong></p>
     <form>
       <input type="radio" name="q1-unique" value="a"> Fato<br>
       <input type="radio" name="q1-unique" value="b"> Opinião<br>
@@ -300,7 +300,7 @@ Leia as frases abaixo e assinale FATO ou OPINIÃO[^2]
 <br/>
 
   <div class="pergunta" id="pergunta2-unique">
-    <p><strong>2. Infelizmente a cantora Cássia Eller faleceu muito cedo.</strong></p>
+    <p><strong>2. É lamentável que a cantora Cássia Eller, cuja carreira promissora já encantava públicos diversos com sua voz marcante e repertório plural, tenha falecido de forma prematura, deixando uma lacuna irreparável na música brasileira.</strong></p>
     <form>
       <input type="radio" name="q2-unique" value="a"> Fato<br>
       <input type="radio" name="q2-unique" value="b"> Opinião<br>
@@ -310,7 +310,7 @@ Leia as frases abaixo e assinale FATO ou OPINIÃO[^2]
 <br/>
 
   <div class="pergunta" id="pergunta3-unique">
-    <p><strong>3. Os produtos da Avon devem ser muito bons, já que a loja vive lotada.</strong></p>
+    <p><strong>3. Considerando a constante movimentação de clientes na loja, onde os produtos da Avon são amplamente comercializados, é plausível supor que esses artigos possuam alta qualidade, justificando tamanha procura.</strong></p>
     <form>
       <input type="radio" name="q3-unique" value="a"> Fato<br>
       <input type="radio" name="q3-unique" value="b"> Opinião<br>
@@ -320,7 +320,7 @@ Leia as frases abaixo e assinale FATO ou OPINIÃO[^2]
 <br/>
 
   <div class="pergunta" id="pergunta4-unique">
-    <p><strong>4. A notícia da morte do presidente americano deve ser verdade, já que ela foi muito compartilhada no Instagram.</strong></p>
+    <p><strong>4. Dado o elevado número de compartilhamentos da notícia sobre a suposta morte do presidente norte-americano no Instagram, muitos acreditam que tal informação seja verdadeira, embora a fonte oficial ainda não tenha se pronunciado.</strong></p>
     <form>
       <input type="radio" name="q4-unique" value="a"> Fato<br>
       <input type="radio" name="q4-unique" value="b"> Opinião<br>
@@ -330,7 +330,7 @@ Leia as frases abaixo e assinale FATO ou OPINIÃO[^2]
 <br/>
 
   <div class="pergunta" id="pergunta5-unique">
-    <p><strong>5. O design do iPhone 16 é mais funcional do que o design do Galaxy A22.</strong></p>
+    <p><strong>5. Na comparação entre os modelos recentes, o iPhone 16 apresenta um design que muitos consideram mais funcional do que o do Galaxy A22, sobretudo no que diz respeito à ergonomia e à integração entre hardware e software.</strong></p>
     <form>
       <input type="radio" name="q5-unique" value="a"> Fato<br>
       <input type="radio" name="q5-unique" value="b"> Opinião<br>
@@ -340,7 +340,7 @@ Leia as frases abaixo e assinale FATO ou OPINIÃO[^2]
 <br/>
 
   <div class="pergunta" id="pergunta6-unique">
-    <p><strong>6. Vini Jr. é o jogador de futebol mais combativo que há hoje em dia.</strong></p>
+    <p><strong>6. Entre os principais jogadores da atualidade, Vini Jr. destaca-se, segundo diversas opiniões, como o atleta mais combativo, não apenas por sua habilidade técnica, mas também pela intensidade com que atua nas partidas.</strong></p>
     <form>
       <input type="radio" name="q6-unique" value="a"> Fato<br>
       <input type="radio" name="q6-unique" value="b"> Opinião<br>
@@ -350,7 +350,7 @@ Leia as frases abaixo e assinale FATO ou OPINIÃO[^2]
 <br/>
 
   <div class="pergunta" id="pergunta7-unique">
-    <p><strong>7. Vini Jr. foi eleito o melhor jogador do mundo pela Fifa.</strong></p>
+    <p><strong>7. O jogador Vini Jr. foi oficialmente eleito o melhor jogador de futebol do mundo pela Fifa na última premiação anual, consolidando sua posição de destaque no cenário esportivo internacional.</strong></p>
     <form>
       <input type="radio" name="q7-unique" value="a"> Fato<br>
       <input type="radio" name="q7-unique" value="b"> Opinião<br>
@@ -383,30 +383,43 @@ Leia as frases abaixo e assinale FATO ou OPINIÃO[^2]
 </script>
 ```
 
-Agora que você já sabe diferenciar uma afirmação que apresenta uma opinião de uma afirmação que apresenta um fato, em trios, identifiquem as marcas linguísticas que caracterizam as afirmações opinativas em oposição às afirmações factuais.
+<br/>
 
-Abaixo são retomadas as afirmações usadas na aprendizagem prática anterior.
+---
+
+### Agora que você já sabe diferenciar uma afirmação opinativa de uma afirmação factual, **em trios**, analisem novamente as frases utilizadas nas atividades anteriores.
+
+Para cada afirmação opinativa, identifiquem:
+
+	•	Adjetivos subjetivos (ex.: melhor, agradável, marcante);
+	•	Expressões com carga emocional ou afetiva (ex.: infelizmente, lamentável, encantava);
+	•	Ausência de dados verificáveis (indiquem onde faltam números, fontes ou evidências concretas).
+
+Para cada afirmação factual, indiquem:
+
+	•	Fontes de dados verificáveis (se presentes);
+	•	Tom neutro e objetivo (verifiquem se não há adjetivos subjetivos ou emoções envolvidas).
 
 ```{=html}
 <ul>
-  <li>A água ferve a 100°C.</li>
-  <li>O Brasil é o maior país da América do Sul em extensão territorial.</li>
-  <li>O Sol é a principal fonte de luz natural para a Terra.</li>
-  <li>A cidade de São Paulo tem mais habitantes que qualquer outra cidade do Brasil.</li>
-  <li>Assistir filmes em casa é muito mais agradável do que no cinema.</li>
-  <li>O Everest é a montanha mais alta do mundo.</li>
-  <li>Correr ao ar livre é a forma mais divertida de praticar exercícios.</li>
-  <li>A pizza de marguerita é a mais saborosa.</li>
-  <li>Chocolate é o melhor doce do mundo.</li>
-  <li>Viajar de avião é a forma mais confortável de transporte.</li>
+  <li>A água, sob condições atmosféricas normais ao nível do mar, atinge o ponto de ebulição precisamente a 100°C.</li>
+  <li>Com uma área territorial que ultrapassa os 8,5 milhões de quilômetros quadrados, o Brasil ocupa a posição de maior país da América do Sul em extensão geográfica.</li>
+  <li>Devido ao seu processo contínuo de fusão nuclear, o Sol configura-se como a principal fonte de energia luminosa natural que atinge a superfície terrestre.</li>
+  <li>Segundo os dados mais recentes do Instituto Brasileiro de Geografia e Estatística (IBGE), a cidade de São Paulo apresenta a maior densidade populacional entre todas as cidades brasileiras.</li>
+  <li>Considerando o conforto proporcionado pela familiaridade do ambiente doméstico, assistir filmes em casa é, para muitos, uma experiência muito mais agradável do que frequentar salas de cinema.</li>
+  <li>Com seus 8.848 metros de altitude, o Monte Everest é reconhecido como a montanha de maior elevação do planeta.</li>
+  <li>Entre as diferentes formas de atividade física, correr ao ar livre proporciona, de acordo com muitas opiniões, a experiência mais prazerosa de exercício.</li>
+  <li>Entre os diversos sabores de pizza existentes, a variedade marguerita é frequentemente considerada, por muitos apreciadores, a mais saborosa.</li>
+  <li>Apesar da diversidade de preferências, há quem sustente que o chocolate, em suas diferentes variações, ocupa o posto de melhor doce do mundo.</li>
+  <li>Para boa parte dos viajantes, deslocar-se de avião é visto como a forma mais confortável de transporte, especialmente em trajetos longos.</li>
   <li>Há detalhes que parecem insignificantes, mas revelam estágios de cidadania.</li>
-  <li>O Toyota Corolla Cross é mais bonito que o Jeep Compass.</li>
-  <li>Infelizmente a cantora Cássia Eller faleceu muito cedo.</li>
-  <li>Os produtos da Avon devem ser muito bons, já que a loja vive lotada.</li>
-  <li>A notícia da morte do presidente americano deve ser verdade, já que ela foi muito compartilhada no Instagram.</li>
-  <li>O design do iPhone 16 é mais funcional do que o design do Galaxy A22.</li>
-  <li>Vini Jr. é o jogador de futebol mais combativo que há hoje em dia</li>
-  <li>Vini Jr. foi eleito o melhor jogador do mundo pela Fifa.</li>
+  <li>O Toyota Corolla Cross, com suas linhas arrojadas e design contemporâneo, apresenta-se como visualmente mais atrativo do que o Jeep Compass, especialmente para quem valoriza um estilo mais sofisticado e urbano.</li>
+  <li>É lamentável que a cantora Cássia Eller, cuja carreira promissora já encantava públicos diversos com sua voz marcante e repertório plural, tenha falecido de forma prematura, deixando uma lacuna irreparável na música brasileira.</li>
+  <li>Considerando a constante movimentação de clientes na loja, onde os produtos da Avon são amplamente comercializados, é plausível supor que esses artigos possuam alta qualidade, justificando tamanha procura.</li>
+  <li>Dado o elevado número de compartilhamentos da notícia sobre a suposta morte do presidente norte-americano no Instagram, muitos acreditam que tal informação seja verdadeira, embora a fonte oficial ainda não tenha se pronunciado.</li>
+  <li>Na comparação entre os modelos recentes, o iPhone 16 apresenta um design que muitos consideram mais funcional do que o do Galaxy A22, sobretudo no que diz respeito à ergonomia e à integração entre hardware e software.</li>
+  <li>Entre os principais jogadores da atualidade, Vini Jr. destaca-se, segundo diversas opiniões, como o atleta mais combativo, não apenas por sua habilidade técnica, mas também pela intensidade com que atua nas partidas.</li>
+  <li>O jogador Vini Jr. foi oficialmente eleito o melhor jogador de futebol do mundo pela Fifa na última premiação anual, consolidando sua posição de destaque no cenário esportivo internacional.</li>
 </ul>
 ```
 
@@ -418,27 +431,62 @@ Abaixo são retomadas as afirmações usadas na aprendizagem prática anterior.
 **Marcas linguísticas da opinião**
 
 As marcas linguísticas que caracterizam as afirmações opinativas incluem:
-	1.	Uso de adjetivos subjetivos: Palavras como “melhor”, “mais agradável”, “mais confortável”, “dura” indicam julgamento de valor.
-	2.	Presença de juízos de valor ou preferências pessoais: Expressões como “eu acho”, “é a mais saborosa” ou “é o melhor” demonstram uma perspectiva pessoal.
-	3.	Ausência de fontes confiáveis ou dados concretos: Afirmações opinativas frequentemente não apresentam referência a estudos, estatísticas ou documentações que sustentem a afirmação.
-	4.	Generalizações e suposições: Expressões como “devem ser” ou “parecem” sugere que a ideia não está baseada em evidências confirmadas, mas em impressão ou crença.
-	5.	Foco em emoções ou experiências pessoais: Declarações que se baseiam em preferências emocionais, como “assistir filmes em casa é muito mais agradável” ou “chocolate é o melhor doce do mundo”, denotam um ponto de vista subjetivo.
+	1.	**Uso de adjetivos avaliativos ou subjetivos**: Termos como _melhor_, _mais agradável_, _mais confortável_, _dura_, entre outros, expressam julgamentos de valor ou preferências.
+	2.	**Presença de modalizadores e verbos de opinião**: Expressões como _eu acho_, _é considerado_, _é visto como_, _há quem sustente que_ indicam a inserção de uma perspectiva pessoal ou coletiva, sem compromisso com a objetividade.
+	3.	**Ausência de fontes confiáveis ou dados concretos**: Afirmações opinativas frequentemente não apresentam referência a estudos, estatísticas ou documentações que sustentem a afirmação.
+	4.	**Emprego de generalizações, suposições ou evidenciais subjetivos**: Formulações como _devem ser_, _parecem_, _é frequentemente considerado_, _segundo muitos_ sugerem que a ideia se apoia em impressões, crenças difusas ou fontes não identificadas.
+	5.	**Foco em emoções ou experiências pessoais**: Declarações que se baseiam em preferências emocionais, como _assistir filmes em casa é muito mais agradável_ ou _chocolate é o melhor doce do mundo_, denotam um ponto de vista subjetivo.
 
-Em contraste, as afirmações factuais tendem a apresentar dados verificáveis, referências confiáveis e um tom mais neutro e objetivo.
+<br/>
 
+Em contraposição, as afirmações factuais são marcadas por:
+	•	Dados verificáveis e concretos;
+	•	Referência a fontes confiáveis;
+	•	Tom neutro e objetivo, sem julgamentos de valor ou envolvimento emocional.
 
 </div>
 </details>
 </pre>
 <!-- Aqui encerra o campo de respostas-->
 
-<div style="background-color: navy; color: white; padding: 10px; border-radius: 5px; font-size: 25px; text-align: center;">
-  <strong>`r emo::ji("warning")` **Importante!** `r emo::ji("warning")`: "(...) não há informação pura, nem opinião girando no vazio."</strong> (Vieira; Faraco, 2019, p. 166)[^4]</div>
+<br/><br/>
 
-[^4]:VIEIRA, Francisco Eduardo; FARACO, Carlos Alberto. **Escrever na universidade** 2 - texto e discurso. São Paulo: Editora Parábola. 2019.
+### Ainda em trios, busquem no Google Acadêmico um artigo científico publicado entre 2022 e 2025, com a palavra-chave “ensino de matemática”.
 
----
+	•	A pesquisa deve ser feita com os seguintes filtros:
+	•	Idioma: Português;
+	•	Tipo de documento: artigos (não incluir citações ou patentes);
+
+<br/>
+
+Escolham um artigo e analisem o resumo com base nos seguintes critérios:<br/>
+
+	•	Há fontes de dados verificáveis? (Ex.: menção a experimentos, estatísticas, estudos de caso, autores, instituições, etc.).
+	•	O tom do texto é neutro e objetivo? Ou há presença de adjetivos subjetivos ou carga emocional?
+
+<br/>
+
+Postem o resumo e a análise no Padlet da turma. No post, adicionem:
+
+	•	Título do artigo;
+	•	Resumo copiado;
+	•	Indicação das fontes verificáveis (se houver);
+	•	Comentário sobre o tom do texto (neutro ou subjetivo);
+	•	Trechos específicos que justifiquem a análise.
+
+🔗 Acesse o Padlet da turma [aqui](https://padlet.com/mariomartins/anete-t01-b3r3eohs4gd7np8m)
+
+`r emo::ji("fire")` Você deve criar uma conta no Padlet para que a postagem seja identificada.
+
+<br/><br/>
+
+
+```{=html}
+<div class="padlet-slideshow-embed" style="width:720px;height:480px;"><p style="padding:0;margin:0;width:100%;height:100%"><iframe src="https://padlet.com/embed/b3r3eohs4gd7np8m/slideshow?autoplay=0&loop=0&duration=auto" frameborder="0" allow="clipboard-write" style="width:100%;height:100%;display:block;padding:0;margin:0"></iframe></p></div>
+```
 
 <div class="destaque">Você está presente?</div>
 
-<img src="/Users/MarioMartins/Library/CloudStorage/GoogleDrive-mario.martins@ufersa.edu.br/Meu Drive/Disciplinas_em_R/ANETE/img/qr_anete_T01.png" alt="Chamada" style="width:60%;">
+<img src="/Users/MarioMartins/Library/CloudStorage/GoogleDrive-mario.martins@ufersa.edu.br/Meu Drive/Disciplinas_em_R/ANETE/img/qr_anete_T01.png" 
+     alt="Chamada" 
+     style="width:60%; display: block; margin: 0 auto;">
