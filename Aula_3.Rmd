@@ -476,7 +476,7 @@ Postem o resumo e a análise no Padlet da turma. No post, adicionem:
 
 🔗 Acesse o Padlet da turma [aqui](https://padlet.com/mariomartins/anete-t01-b3r3eohs4gd7np8m)
 
-`r emo::ji("fire")` Você deve criar uma conta no Padlet para que a postagem seja identificada.
+`r emo::ji("fire")` Você deve fazer login no Padlet para que a postagem seja identificada.
 
 <br/><br/>
 
