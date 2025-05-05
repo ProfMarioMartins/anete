@@ -1,3 +1,7 @@
+/* ===========================
+   ESTILO GLOBAL DO BOOKDOWN
+   =========================== */
+
 /* Corpo principal do livro */
 body {
   font-family: "Helvetica", "Arial", sans-serif;
@@ -7,19 +11,46 @@ body {
   color: #333;
 }
 
+p {
+  margin-bottom: 1.2em; /* Espaço entre parágrafos */
+}
+
 /* Área interna do conteúdo */
 .book .book-body .page-wrapper .page-inner {
   padding: 3em 4em;
 }
 
-/* Estilização de cabeçalhos */
-h1, h2, h3 {
+/* ===========================
+   TÍTULOS
+   =========================== */
+
+h1 {
+  font-size: 32px;
+  color: #003366;
+  border-bottom: 2px solid #00509E;
+  padding-bottom: 0.3em;
+}
+
+h2 {
+  font-size: 1.4em; /* ~25px */
   color: #00509E;
   margin-top: 1.5em;
   margin-bottom: 1em;
 }
 
-/* Estilização de links */
+h3 {
+  font-size: 1.15em; /* ~20.7px */
+  color: #00509E;
+  margin-top: 1.2em;
+  margin-bottom: 0.6em;
+  font-weight: bold;
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+/* ===========================
+   LINKS
+   =========================== */
+
 a {
   color: #007BFF;
   text-decoration: none;
@@ -29,7 +60,10 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Botão "voltar ao topo" */
+/* ===========================
+   BOTÃO "VOLTAR AO TOPO"
+   =========================== */
+
 #back-to-top {
   position: fixed;
   bottom: 30px;
@@ -47,33 +81,87 @@ a:hover {
   color: #ffffff;
 }
 
-/* Estilização de blocos de citação */
+@media screen and (max-width: 768px) {
+  #back-to-top {
+    font-size: 14px;
+    padding: 6px 8px;
+    bottom: 15px;
+    right: 15px;
+  }
+}
+
+/* ===========================
+   CITAÇÕES (blockquote)
+   =========================== */
+
 blockquote {
   border-left: 5px solid #005580;       
   background-color: #f0f8ff;           
   padding: 1.5em 2em;
   margin: 2em auto;
-  color: #002244;                      
-  font-size: 22px;                     
+  color: #002244;
+  font-size: 18px;
   font-style: italic;
+  font-family: "Helvetica", "Arial", sans-serif;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Estilização de blocos de destaque */
+/* ===========================
+   BLOCOS DE DESTAQUE
+   =========================== */
+
 .destaque {
   max-width: 600px;
-  margin: 3em auto;  /* centraliza o bloco na página */
-  background-color: #fff3cd;  /* amarelo suave */
-  color: #856404;  /* marrom escuro para contraste */
+  margin: 3em auto;
+  background-color: #fff3cd;
+  color: #856404;
   padding: 1.5em 2em;
-  font-size: 20px;  /* um pouco maior que o texto normal */
+  font-size: 20px;
   text-align: center;
   border-left: 8px solid #ffeeba;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: "Helvetica", "Arial", sans-serif;
 }
+
+/* ===========================
+   TABELAS (kable ou markdown)
+   =========================== */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2em auto;
+  font-size: 16px;
+}
+
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 0.6em 1em;
+  text-align: left;
+}
+
+table th {
+  background-color: #e0e7ff;
+  color: #003366;
+}
+
+/* ===========================
+   PADLET
+   =========================== */
 
 .padlet-slideshow-embed {
   max-width: 100% !important;
+}
+
+details summary {
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 1em;
+}
+
+.destaque {
+  border-left: 6px solid #ffcc00;
+  background-color: #fff8e1;
 }

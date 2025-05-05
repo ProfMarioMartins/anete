@@ -34,6 +34,12 @@ git push
 
 <!-- Capa visual com logotipo centralizado -->
 
+
+```{=html}
+<img src="images/capa_anete.png" style="width:100%; display:block; margin:auto;" />
+```
+
+
 # Programação
 
 ## Ementa

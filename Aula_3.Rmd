@@ -69,7 +69,9 @@ O desenvolvimento do pensamento científico está intrinsecamente ligado ao **do
 
 ## Aprendizagem prática
 
-### Leia as frases abaixo e assinale FATO ou OPINIÃO.
+### Questão 1
+
+Leia as frases abaixo e assinale FATO ou OPINIÃO.
 
 ```{=html}
 <div id="quiz-container-1" style="margin-top: 20px;">
@@ -198,7 +200,9 @@ O desenvolvimento do pensamento científico está intrinsecamente ligado ao **do
 
 <br/><br/>
 
-### Leia o parágrafo abaixo com atenção, extraído da obra "Como escrever um texto científico", de Fábio Appolinário e Isaac Gil. Por que ele não pode ser cientificamente adequado?
+### Questão 2
+
+Leia o parágrafo abaixo com atenção, extraído da obra "Como escrever um texto científico", de Fábio Appolinário e Isaac Gil. Por que ele não pode ser cientificamente adequado?
 
 > As empresas brasileiras têm enfrentado enormes problemas em função da grande crise econômica pela qual passa nosso país, tendo assumido uma atitude preventiva e cautelosa no que se refere aos investimentos, notadamente no setor de treinamento – que costuma ser o primeiro a sentir os cortes em crises desse porte.
 
@@ -225,7 +229,9 @@ Segundo dados do Banco Central do Brasil (2009), em seis dos oito trimestres dos
 
 <br/><br/>
 
-###  Leia o texto abaixo e resolva as questões seguintes.[^2]
+###  Questão 3
+
+Leia o texto abaixo e resolva as questões seguintes.[^2]
 
 ```{=html}
 <div id="quiz-container-2" style="margin-top: 20px;">
@@ -284,7 +290,9 @@ Segundo dados do Banco Central do Brasil (2009), em seis dos oito trimestres dos
 
 <br/><br/>
 
-### Leia as frases abaixo e assinale FATO ou OPINIÃO[^2]
+### Questão 4
+
+Leia as frases abaixo e assinale FATO ou OPINIÃO[^2]
 
 ```{=html}
 <div id="quiz-container-unique" style="margin-top: 20px;">
@@ -387,7 +395,9 @@ Segundo dados do Banco Central do Brasil (2009), em seis dos oito trimestres dos
 
 ---
 
-### Agora que você já sabe diferenciar uma afirmação opinativa de uma afirmação factual, **em trios**, analisem novamente as frases utilizadas nas atividades anteriores.
+### Questão 5
+
+Agora que você já sabe diferenciar uma afirmação opinativa de uma afirmação factual, **em trios**, analisem novamente as frases utilizadas nas atividades anteriores.
 
 Para cada afirmação opinativa, identifiquem:
 
@@ -451,7 +461,9 @@ Em contraposição, as afirmações factuais são marcadas por:
 
 <br/><br/>
 
-### Ainda em trios, busquem no Google Acadêmico um artigo científico publicado entre 2022 e 2025, com a palavra-chave “ensino de matemática”.
+### Questão 6
+
+Ainda em trios, busquem no Google Acadêmico um artigo científico publicado entre 2022 e 2025, com a palavra-chave “ensino de matemática”.
 
 	•	A pesquisa deve ser feita com os seguintes filtros:
 	•	Idioma: Português;

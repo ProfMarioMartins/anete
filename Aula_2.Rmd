@@ -20,7 +20,9 @@ Ao final deste encontro e com base na leitura indicada, espera-se que você seja
 
 ## Aprendizagem prática
 
-### Você pensa cientificamente?
+### Questão 1
+
+Você pensa cientificamente?
 
 ```{=html}
 <div id="quiz-container" style="font-family: Arial, sans-serif; max-width: 800px; margin: auto;">
@@ -134,7 +136,9 @@ function calculateScore() {
 <hr style="border: none; border-top: 3px dashed #bbb; margin: 3em 0;">
 ```
 
-### O que é a pensamento científico?
+### Questão 2
+
+O que é a pensamento científico?
 
 > O pensamento científico é um estilo de pensamento que incentiva a análise crítica e o ceticismo na abordagem de situações e problemas.
 
@@ -185,7 +189,9 @@ O caso continua a gerar debates entre crentes e céticos, sendo acompanhado de p
 <!-- Aqui encerra o campo de respostas-->
 
 
-### O que é fundamental no pensamento científico?
+### Questão 3
+
+O que é fundamental no pensamento científico?
 
 > Um elemento fundamental no pensamento científico é o uso do método científico.
 
@@ -193,7 +199,9 @@ O caso continua a gerar debates entre crentes e céticos, sendo acompanhado de p
 
 > O método científico organiza o processo pelo qual cientistas – e não-cientistas – chegam a conclusões.
 
-### Passo a passo do método científico (em síntese):
+### Questão 4
+
+Passo a passo do método científico (em síntese):
 
 •	Observar um fenômeno e formular uma pergunta<br>
 •	Realizar pesquisas e reunir informações<br>
@@ -201,7 +209,9 @@ O caso continua a gerar debates entre crentes e céticos, sendo acompanhado de p
 •	Testar essa hipótese<br>
 •	Apresentar os resultados, debater e aperfeiçoar o entendimento do fenômeno
 
-### Pilares do pensamento científico (para além da ciência)
+### Questão 5
+
+Pilares do pensamento científico (para além da ciência)
 
 - [ ] **Demonstrar curiosidade:**  
       *Exemplo:* Um estudante de biologia que, ao observar uma planta com folhas amarelas, começa a se perguntar: “Por que essa planta tem uma coloração diferente das outras? Será falta de nutrientes, excesso de sol, ou alguma doença?”
