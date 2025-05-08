@@ -53,7 +53,7 @@ introdução-2
 funções-do-discurso-reportado-na-escrita-acadêmica
 tipos-de-citações-na-escrita-acadêmica
 aprendizagem-prática-4
-instalação-do-zotero-7.0.15
+instalação-do-zotero
 passo-1-baixar-e-instalar-o-zotero
 passo-2-instalar-o-zotero-connector
 definição-de-um-estilo-de-citação-e-referência

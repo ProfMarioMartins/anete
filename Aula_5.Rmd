@@ -6,7 +6,11 @@
 
 Ao final deste encontro e com base na leitura indicada, espera-se que você seja capaz de:
 
-- Instalar e configurar o Zotero (versão 7.0.15) com o conector do navegador.
+- Identificar o que é discurso reportado e sua função na escrita acadêmica.
+
+- Diferenciar discurso direto e discurso indireto.
+
+- Instalar e configurar o Zotero com o conector do navegador.
 
 - Criar e organizar coleções de referências.
 
@@ -163,7 +167,7 @@ Atenção: o uso de apud deve ser excepcional. Sempre que possível, consulte a 
 </div>
 ```
 
-## Instalação do Zotero (7.0.15)
+## Instalação do Zotero
 
 ### Passo 1: Baixar e instalar o Zotero
 
