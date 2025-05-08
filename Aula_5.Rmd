@@ -1,4 +1,4 @@
-# Gêneros textuais acadêmicos[^1]
+# Discurso reportado. Gerenciamento de referências bibliográficas[^1]
 
 [^1]:Roteiro de aula elaborado no RStudio com o auxílio da inteligência artificial ChatGPT, revisado e avaliado pelo autor antes de sua publicação.
 
@@ -6,16 +6,303 @@
 
 Ao final deste encontro e com base na leitura indicada, espera-se que você seja capaz de:
 
-- Blá blá blá.
+- Instalar e configurar o Zotero (versão 7.0.15) com o conector do navegador.
 
-<div class="section" style="padding:1em; background-color:#F5F5F5; color:#000000;">
-  <em>Leitura indicada:</em> <br/>
-  <strong>Leitura e escrita acadêmicas</strong>, capítulo do livro <em>Leitura e escrita acadêmicas</em>, de Nádia Castro e outros.
-  
-  [Acesso à leitura indicada](vbk://9788533500228/page/11)
+- Criar e organizar coleções de referências.
 
-</div>
+- Adicionar itens à biblioteca a partir de sites e bases de dados.
+
+- Inserir e formatar citações e referências em Google Docs com o Zotero.
+
+- Utilizar o Zotero Sync para manter seus dados salvos na nuvem e acessíveis em diferentes dispositivos.
 
 ---
 
 ## Introdução
+
+A escrita acadêmica exige clareza, coerência e, sobretudo, rigor na apresentação das fontes de informação. As **normas de citação e referência** — como as da ABNT, APA ou Vancouver — cumprem um papel fundamental nesse processo: elas garantem a _padronização_, a _transparência_ e a _credibilidade_ do trabalho científico.
+
+Um texto que segue essas normas permite ao leitor localizar com precisão as obras consultadas, verificar os dados utilizados e reconhecer os autores envolvidos na construção do conhecimento. A **normalização**, portanto, não é apenas uma exigência formal, mas um componente essencial da ética e da qualidade na produção acadêmica.
+
+Parte fundamental dessa normalização diz respeito ao uso do **discurso reportado**, ou seja, à forma como o _autor do texto acadêmico incorpora, comenta ou mobiliza a voz de outros autores em sua escrita_. Essa prática envolve tanto o **discurso direto**, quando se reproduz fielmente as palavras de outrem, quanto o **discurso indireto**, quando se parafraseia com as próprias palavras.
+
+Além de demonstrar domínio do conteúdo, o uso adequado do discurso reportado insere o texto no campo científico, marcando sua filiação a determinadas ideias, debates e tradições intelectuais. Isso permite ao leitor reconhecer de onde vêm as informações, avaliar os fundamentos de cada argumento e distinguir claramente a contribuição do autor.
+
+Para apoiar esse processo, o **Zotero** é uma ferramenta gratuita e de código aberto que funciona como um gerenciador de referências bibliográficas. Ele permite salvar, organizar, citar e compartilhar fontes de pesquisa de forma prática e automatizada, além de oferecer sincronização em nuvem. Com ele, é possível aplicar estilos de citação exigidos pelas instituições (como ABNT ou APA), o que facilita a conformidade com as normas e contribui para a qualidade formal da escrita acadêmica.
+
+### Funções do discurso reportado na escrita acadêmica
+
+	•	Fundamentar teorias, conceitos e argumentos;
+	•	Dar credibilidade ao texto com base em autores reconhecidos;
+	•	Estabelecer relações dialógicas com outras pesquisas;
+	•	Evitar plágio, por meio da atribuição correta das ideias;
+	•	Aprofundar a análise crítica e o posicionamento do autor do texto.
+
+### Tipos de citações na escrita acadêmica
+
+- Citação direta curta (até 3 linhas)
+
+	•	Deve ser integrada ao parágrafo, entre aspas duplas.
+	•	A fonte da citação (autor, ano e página) aparece entre parênteses.
+	•	Não deve conter itálico ou destaque gráfico.
+
+Exemplo:
+
+>Segundo Amossy (2008, p. 9), “todo discurso é atravessado por vozes e saberes alheios”.
+
+>Sabe-se que “todo discurso é atravessado por vozes e saberes alheios” (Amossy, 2008, p. 9).
+
+- Citação direta longa (mais de 3 linhas)
+
+	•	Deve ser destacada em parágrafo próprio, com:
+	•	Recuo de 4 cm da margem esquerda;
+	•	Fonte tamanho menor que a do corpo do texto;
+	•	Sem aspas;
+	•	Espaçamento simples entre as linhas;
+	•	Referência (autor, ano, página) após o ponto final da citação.
+	
+Exemplo:
+
+>O ethos discursivo, portanto, não é um traço individual do orador, mas uma construção textual resultante da imagem que ele deseja projetar e da imagem que o público está predisposto a aceitar (Amossy, 2008, p. 95).
+
+- Citação indireta
+
+	•	A ideia do autor é parafraseada, com menção à fonte sem aspas.
+	•	A indicação de página não é obrigatória, mas pode ser incluída.
+
+Exemplo:
+
+Bakhtin (2003) afirma que todo enunciado depende de outro anterior e que não existe ponto de partida absoluto.
+
+Citação de citação (apud)
+	•	Usada apenas quando a obra original não foi consultada.
+	•	A citação deve mencionar os dois autores: o da ideia e o da fonte consultada.
+	•	A expressão apud (em itálico) é obrigatória, com os demais dados da fonte consultada.
+
+Exemplo:
+
+Para Vygotsky, o desenvolvimento do pensamento está ligado à linguagem (apud OLIVEIRA, 2002, p. 37).
+
+Atenção: o uso de apud deve ser excepcional. Sempre que possível, consulte a fonte original.
+
+
+## Aprendizagem prática
+
+1. Crie uma coleção no Zotero com o nome: Ensino de Física.
+
+2.	Adicione cinco obras (artigos e/ou livros publicados entre 2024 e 2025) à coleção, extraídas de uma busca no Google Acadêmico com os termos exatos "clube de ciências" e "ensino de física".
+
+3.	Crie um documento no Google Docs com duas seções (ambas formatadas como Título 1):
+
+	•	Introdução
+	
+	•	Referências Bibliográficas
+	
+4.	Insira citações das cinco obras na seção Introdução, utilizando o Zotero.
+
+5.	Gere automaticamente a lista de referências na seção Referências Bibliográficas, também com o Zotero.
+
+6.	Copie o conteúdo completo do documento e cole no campo abaixo (atividade individual).
+
+<p>Preencha os campos abaixo para enviar o resultado da atividade individual sobre o Zotero.</p>
+
+```{=html}
+<!-- Formulário de envio da atividade Zotero -->
+<p><strong>🔎 Instruções:</strong> Copie todo o conteúdo do seu documento do Google Docs — incluindo a Introdução com as citações e a lista de Referências Bibliográficas — e cole no campo abaixo. O envio é individual.</p>
+
+<form id="form-zotero">
+  <label>Nome:<br>
+    <input type="text" name="nome" required placeholder="Fulano dos Anzóis Pereira">
+  </label><br><br>
+
+  <label>E-mail:<br>
+    <input type="email" name="email" required placeholder="fulano@email.com">
+  </label><br><br>
+
+  <label>Tipo de envio:<br>
+    <select name="tipo" required>
+      <option value="">Selecione uma opção</option>
+      <option value="Texto Zotero">Texto com citações e referências (atividade Zotero)</option>
+    </select>
+  </label><br><br>
+
+  <label>Conteúdo do Google Docs (copie e cole aqui):<br>
+    <textarea name="texto" rows="10" cols="70" required placeholder="Cole aqui o conteúdo completo da sua atividade..."></textarea>
+  </label><br><br>
+
+  <button type="submit">Enviar</button>
+</form>
+
+<p id="mensagem-zotero"></p>
+
+<script>
+  document.getElementById("form-zotero").addEventListener("submit", function(event) {
+    event.preventDefault();
+    const dados = Object.fromEntries(new FormData(this).entries());
+
+    fetch("https://script.google.com/macros/s/AKfycbzpbVBcZhN1DCYk3TzK2VOt6oVmKgbX2pa0_lp95Bt-S2fpI1ip-RKad_PHxeVgAA_G/exec", {
+      method: "POST",
+      mode: "no-cors",
+      body: JSON.stringify(dados)
+    }).then(() => {
+      document.getElementById("mensagem-zotero").innerText = "✅ Texto enviado com sucesso!";
+      this.reset();
+    }).catch(() => {
+      document.getElementById("mensagem-zotero").innerText = "❌ Erro ao enviar o texto.";
+    });
+  });
+</script>
+```
+
+<br/><br/>
+
+```{=html}
+
+<div style="border: 1px solid #ccc; padding: 1em; background-color: #f9f9f9; border-radius: 5px; margin-bottom: 1em;">
+**Use o tutorial a seguir para resolver a atividade proposta acima.**
+</div>
+```
+
+## Instalação do Zotero (7.0.15)
+
+### Passo 1: Baixar e instalar o Zotero
+
+Acesse o site oficial: https://www.zotero.org/download.
+
+Clique no botão correspondente ao seu sistema operacional:
+
+- MacOS: clique em Download for macOS. Após o download, abra o instalador e arraste o Zotero para a pasta Aplicativos.
+
+- Windows: clique em Download for Windows. Após o download, execute o instalador (.exe) e siga as instruções na tela.
+
+- Linux: clique em Download for Linux. Escolha a versão apropriada (32-bit ou 64-bit). Após o download, extraia a pasta e execute o arquivo zotero diretamente ou siga as instruções específicas para sua distribuição (ex.: via terminal para Ubuntu).
+
+### Passo 2: Instalar o Zotero Connector
+
+Ainda no site https://www.zotero.org/download, clique em Install Zotero Connector.
+
+Você será redirecionado para a loja de extensões do seu navegador (Chrome, Firefox ou Edge).
+
+Clique em Adicionar ao navegador e confirme a instalação.
+
+O ícone do Zotero (uma folha com a letra Z) aparecerá próximo à barra de endereços.
+
+
+## Definição de um estilo de citação e referência
+
+### Passo 1: Editar preferências
+
+No menu superior, clique em Zotero > Preferências
+
+Selecione Citação
+
+Selecione o estilo que deseja usar clicando sobre ele. No Brasil, o mais comum é a ABNT.
+
+Caso o estilo desejado não esteja listado, clique em “Obtenha estilos adicionais”. Uma janela se abrirá com centenas de estilos disponíveis.
+
+Pesquise pelo nome (ex: “ABNT”) e clique no estilo desejado. Para este tutorial, selecione "Universidade Federal do Rio Grande do Sul - ABNT (autoria completa) (Português - Brasil)".
+
+## Criação de coleções e adição de itens
+
+### Passo 1: Criar uma coleção
+
+Abra o Zotero.
+
+Na coluna da esquerda (Biblioteca), clique com o botão direito em Minha Biblioteca.
+
+Selecione Nova coleção.
+
+Dê um nome à coleção (por exemplo: Projeto Argumentação).
+
+Pressione Enter. A coleção será criada como uma subpasta.
+
+### Passo 2: Adicionar um item manualmente
+
+Abra o Zotero.
+
+Certifique-se de que a coleção correta está selecionada (coluna da esquerda).
+
+Clique no botão “+” (Novo Item) na barra de ferramentas superior.
+
+Escolha o tipo de item que deseja adicionar (ex.: Artigo de periódico, Livro, Tese, Capítulo de livro, etc.).
+
+Um novo item aparecerá na coluna central. Na coluna da direita, preencha os campos com as informações bibliográficas: título, autor(es) (clique no botão com sinal de mais para adicionar autores; use o campo à esquerda para o sobrenome e à direita para o nome), ano, publicação (nome da revista, editora, etc.), volume, número, páginas, conforme o tipo de obra, DOI ou URL, se aplicável.
+
+### Passo 3: Adicionar um item automaticamente
+
+Abra o navegador e acesse um artigo acadêmico (por exemplo, no Google Acadêmico ou SciELO).
+
+Clique no ícone do Zotero Connector na barra do navegador.
+
+Escolha a coleção de destino, se necessário.
+
+O item será salvo automaticamente com os metadados (título, autores, etc.).
+
+### Exercício prático
+
+
+## Inserção de citações e referências em um documento no Google Docs
+
+>Pré-requisito
+Estar com o Zotero aberto.
+
+### Passo 1: Inserir citação
+
+Abra o Google Docs e crie um novo documento.
+
+Clique no menu Zotero (que aparece automaticamente ao instalar o Zotero Connector).
+
+Escolha Add/Edit Citation.
+
+Uma barra de busca aparecerá. Digite parte do título, autor ou ano do item.
+
+Selecione o item desejado e pressione Enter.
+
+### Passo 2: Inserir bibliografia
+
+Ao final do texto, clique novamente no menu Zotero.
+
+Escolha Add/Edit Bibliography.
+
+A bibliografia será inserida com os itens citados.
+
+### Exercício prático
+
+
+## Sincronização com a nuvem do Zotero
+
+### Passo 1: Criar uma conta Zotero
+
+Acesse https://www.zotero.org/user/register.
+
+Preencha os dados solicitados (nome, e-mail, senha).
+
+Confirme o registro no e-mail enviado.
+
+### Passo 2: Configurar a sincronização
+
+Abra o Zotero.
+
+Vá em Zotero > Preferences > Sync.
+
+Preencha com seu e-mail e senha do Zotero.
+
+Marque as opções Sync automatically e Sync full-text content.
+
+Clique em Set up syncing e depois em OK.
+
+### Passo 3: Confirmar o backup online
+
+No navegador, acesse https://www.zotero.org e faça login.
+
+Clique em Web Library no menu superior.
+
+Verifique se suas coleções e itens estão sincronizados.
+
+### Exercício prático
+
+---
+
+### Para saber mais
+
+Documentação oficial: https://www.zotero.org/support/

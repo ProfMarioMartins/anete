@@ -9,16 +9,17 @@ bookdown::gitbook:
 
 <!--
 
+###################
 * Ver as mudanças
 
 No console
 
+# Para gerar o html
 bookdown::render_book("index.Rmd", output_format = "bookdown::gitbook", output_dir = "docs")
-
 browseURL("docs/index.html")
 
-###################
 
+###################
 * Renderizar o livro
 
 No console

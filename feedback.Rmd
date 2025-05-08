@@ -1,4 +1,4 @@
-# Submissão de Texto para Revisão
+# Submissão de texto para revisão
 
 <p>Preencha os campos abaixo para submeter seu texto para uma revisão automatizada.</p>
 

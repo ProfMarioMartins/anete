@@ -1,0 +1,968 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{book}
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage[]{natbib}
+\bibliographystyle{plainnat}
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={Análise e Expressão Textual},
+  pdfauthor={Prof.~Mário Martins},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{Análise e Expressão Textual}
+\author{Prof.~Mário Martins}
+\date{}
+
+\begin{document}
+\maketitle
+
+{
+\setcounter{tocdepth}{1}
+\tableofcontents
+}
+\chapter{Programação}\label{programauxe7uxe3o}
+
+\section{Ementa}\label{ementa}
+
+Abordar os paradigmas textuais e científicos na produção da escrita científica, a intertextualidade como elemento de linguagem no contexto da textualidade e da oralidade e da visualidade, a coesão e coerência textual como elemento estruturador da linguagem acadêmica, o estilo como mediador entre forma e conteúdo na produção do conhecimento, a interdisciplinaridade como estética da linguagem.
+
+\section{Objetivos}\label{objetivos}
+
+Promover o desenvolvimento da \emph{competência comunicativa} dos estudantes no contexto acadêmico, por meio da leitura crítica, da análise linguística e da produção de gêneros acadêmicos, com ênfase na escrita científica e na elaboração de planos de trabalho.
+
+\emph{Competência comunicativa} é a capacidade de um indivíduo usar a língua de forma eficaz e apropriada em diferentes contextos de comunicação. Esse conceito vai além do simples domínio das regras gramaticais, englobando também o conhecimento dos usos sociais da linguagem, a adequação ao contexto, a capacidade de interpretar e produzir enunciados coerentes e coesos, e de compreender as intenções dos interlocutores.
+
+\section{Conteúdo Programático}\label{conteuxfado-programuxe1tico}
+
+\subsection{Unidade I -- O mundo acadêmico e o fazer científico}\label{unidade-i-o-mundo-acaduxeamico-e-o-fazer-cientuxedfico}
+
+\emph{Fundamentos da vida universitária, da ciência e da escrita acadêmica}
+
+\begin{itemize}
+\tightlist
+\item
+  O sistema acadêmico brasileiro: estrutura e funcionamento\\
+\item
+  Pensamento científico\\
+\item
+  Fato, opinião e argumentação na escrita acadêmica\\
+\item
+  A linguagem da ciência: características da escrita acadêmica\\
+\item
+  Gêneros acadêmicos e o plano de trabalho como gênero institucional\\
+\item
+  Como fazer citação e referência (normas ABNT)\\
+\item
+  Introdução à consciência linguística: problemas da Olimpíada Brasileira de Linguística (OBL)\\
+\item
+  Aspectos gramaticais: colocação pronominal e concordância verbal
+\end{itemize}
+
+\subsection{Unidade II -- Leitura, escrita e estilo na produção científica}\label{unidade-ii-leitura-escrita-e-estilo-na-produuxe7uxe3o-cientuxedfica}
+
+\emph{Desenvolvimento das competências de leitura, argumentação e escrita científica}
+
+\begin{itemize}
+\tightlist
+\item
+  Leitura inspecional e averiguativa de textos científicos\\
+\item
+  Fontes confiáveis e estratégias de busca de informação\\
+\item
+  Fichamento e revisão de literatura\\
+\item
+  Coesão e coerência textual\\
+\item
+  Citações diretas e indiretas; paráfrase e verbos dicendi\\
+\item
+  Estratégias de argumentação e estilo na escrita acadêmica\\
+\item
+  Problemas da OBL e atividades de reflexão linguística\\
+\item
+  Aspectos gramaticais: pontuação e acentuação
+\end{itemize}
+
+\subsection{Unidade III -- Produção do plano de trabalho}\label{unidade-iii-produuxe7uxe3o-do-plano-de-trabalho}
+
+\emph{Aplicação prática dos conhecimentos na redação de um gênero acadêmico institucional}
+
+\begin{itemize}
+\tightlist
+\item
+  Etapas do projeto científico e estrutura do plano de trabalho\\
+\item
+  A justificativa e os objetivos do projeto\\
+\item
+  Referencial teórico, metodologia e cronograma\\
+\item
+  Redação clara, concisa e objetiva\\
+\item
+  Revisão e reescrita com base em critérios técnicos\\
+\item
+  Avaliação final: entrega do plano de trabalho\\
+\item
+  Atividades de revisão com base nos objetivos e problemas da OBL\\
+\item
+  Diagnóstico linguístico final e autoavaliação do progresso
+\end{itemize}
+
+\section{Competências e habilidades}\label{competuxeancias-e-habilidades}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5000}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Competência
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Habilidades
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Utilizar a linguagem com clareza, precisão e adequação nos contextos acadêmicos. & - Reconhecer diferentes registros linguísticos e níveis de formalidade. - Utilizar a norma-padrão da língua portuguesa em situações de comunicação acadêmica. \\
+Ler, compreender e interpretar textos acadêmicos de diferentes gêneros. & - Identificar a organização composicional e os propósitos comunicativos dos gêneros acadêmicos. - Desenvolver estratégias de leitura crítica e analítica. \\
+Produzir textos acadêmicos adequados aos gêneros e às normas científicas. & - Elaborar textos com coesão e coerência. - Aplicar corretamente normas de citação e referência (ABNT). - Planejar, redigir e revisar textos científicos. \\
+Mobilizar conhecimentos linguísticos, discursivos e culturais na leitura e na produção de textos. & - Analisar os efeitos de sentido produzidos por escolhas linguísticas e discursivas. - Reconhecer e empregar marcas de intertextualidade e argumentação nos textos. \\
+Desenvolver autonomia na produção científica e no uso das tecnologias da informação. & - Utilizar ferramentas digitais para organização da pesquisa e produção textual. - Elaborar um plano de trabalho segundo os critérios de projetos de iniciação científica. \\
+Ampliar a consciência linguística a partir da reflexão sobre o funcionamento da língua. & - Resolver problemas linguísticos com base em conhecimentos gramaticais. - Analisar fatos linguísticos em contextos reais de uso. \\
+\end{longtable}
+
+\section{Metodologia}\label{metodologia}
+
+A disciplina adota uma abordagem ativa e interdisciplinar, com atividades práticas, estudos de caso, quizzes interativos, resolução de problemas da Olimpíada Brasileira de Linguística (OBL), exercícios de gramática, produção textual orientada, leitura e análise de textos e o uso de ferramentas digitais, como editores de texto com revisão automática e chats de IA para promover a revisão crítica da escrita.
+
+\section{Avaliação}\label{avaliauxe7uxe3o}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Avaliação final (40\%)}: Produção de um plano de trabalho nos moldes exigidos em editais de iniciação científica (Pibic).
+\item
+  \textbf{Três provas objetivas (3 x 20\%)}: Realizadas ao final de cada unidade.
+\end{itemize}
+
+\subsection{Plano de trabalho: seções}\label{plano-de-trabalho-seuxe7uxf5es}
+
+\begin{itemize}
+\item
+  \textbf{Identificação} (título do projeto, título do plano de trabalho, orientador, tipo de bolsa, período de execução
+\item
+  \textbf{Introdução e Justificativa}
+\item
+  \textbf{Objetivos}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \textbf{Geral:}
+  \item
+    \textbf{Específicos:}
+  \end{itemize}
+\item
+  \textbf{Metodologia}
+\item
+  \textbf{Habilidades desenvolvidas}
+\item
+  \textbf{Referências bibliográficas}
+\item
+  \textbf{Cronograma}
+\end{itemize}
+
+\begin{longtable}[]{@{}lccc@{}}
+\toprule\noalign{}
+Etapa & Mês1 & Mês2 & Mês3 \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+\end{longtable}
+
+\newpage
+
+\section{Bibliografia básica}\label{bibliografia-buxe1sica}
+
+APPOLINÁRIO, Fabio; GIL, Isaac. \emph{Como escrever um texto científico}. 1ª ed.~{[}S. l.{]}: Trevisan Editora, 2013. Disponível em: \url{https://bookshelf.vitalsource.com/books/9788599519493}.
+
+CASTRO, Nádia Studzinski Estima de et al.~\emph{Leitura e escrita acadêmicas}. Porto Alegre: Sagah, 2019. Disponível em: \url{https://bookshelf.vitalsource.com/books/9788533500228}.
+
+VIEIRA, Francisco Eduardo; FARACO, Carlos Alberto. \emph{Escrever na Universidade 1 - Fundamentos}. 1ª ed.~{[}S. l.{]}: Parábola Editorial, 2019.
+
+\section{Bibliografia complementar}\label{bibliografia-complementar}
+
+ABNT NBR 10520:2023. \emph{Informação e documentação -- Citações em documentos -- Apresentação}. Rio de Janeiro: ABNT, 2023.
+
+ABNT NBR 6023:2018. \emph{Informação e documentação -- Referências -- Elaboração}. Rio de Janeiro: ABNT, 2018.
+
+CUNHA, Celso; CINTRA, Lindley. \emph{Nova gramática do português contemporâneo}. 7. ed.~Rio de Janeiro: Lexikon, 2019. E-book. Disponível em: \url{https://plataforma.bvirtual.com.br}. Acesso em: 02 abr. 2025.
+
+FERRAREZZI JÚNIOR, Celso. \emph{Guia do trabalho científico: do projeto à redação final}. 1ª ed.~{[}S. l.{]}: Contexto, 2011. Disponível em: \url{https://bookshelf.vitalsource.com/books/9788572447638}.
+
+MENDES, Gilmar Ferreira; FOSTER JÚNIOR, Nestor José. \emph{Manual de redação da Presidência da República}. rev. atual. Brasília: Presidência da República, 2002. Disponível em: \url{https://www4.planalto.gov.br/centrodeestudos/assuntos/manual-de-redacao-da-presidencia-da-republica/manual-de-redacao.pdf\#page=12.08}.
+
+Outras obras poderão ser usadas na disciplina.
+
+\section{Cronograma das aulas (em constante atualização)}\label{cronograma-das-aulas-em-constante-atualizauxe7uxe3o}
+
+\begin{table}
+
+\caption{\label{tab:unnamed-chunk-1}Encontros}
+\centering
+\begin{tabular}[t]{l|l|l}
+\hline
+Data & Tema & Leitura obrigatória\\
+\hline
+2025-04-14 & Apresentação da disciplina. Sistema acadêmico brasileiro. & Entendendo a organização do sistema acadêmico brasileiro, parte do livro Guia do trabalho científico: do projeto à redação final, de Celso Ferrarezi Júnior. Páginas 7 - 9. Disponível em: vbk://9788572447638/epubcfi/6/14\%5B\%3Bvnd.vst.idref\%3Dcap1.xhtml\%5D\\
+\hline
+2025-04-17 & Pensamento científico. & Think like a scientist: The power of a scientific mindset, artigo de Santiago Gisler publicado pela Ivory Embassy. Disponível em: https://ivoryembassy.com/scientific-mindset/\\
+\hline
+2025-04-28 & Aplicação de teste diagnóstico sobre competência textual acadêmica & NA\\
+\hline
+2025-04-28 & Autoria, opinião e escrita acadêmica. & Uma questão de opinião, parte do livro Como escrever um texto científico, de Fabio Appolinário e Isaac Gil. Páginas 16 - 18. Disponível em: vbk://9788599519493/page/11\\
+\hline
+2025-05-05 & Argumentos de senso comum e senso crítico. Argumentos empíricos e de autoridade. & Argumentos de senso comum e argumentos de senso crítico, parte do livro Leitura e escrita acadêmicas, de Nádia Studzinski Estima de Castro e colaboradores. Páginas 14 - 23. Disponível em: vbk://9788533500228/page/11. Diferentes tipos de argumentos, parte do livro Escrever na universidade 2 - texto e discurso, de Francisco Eduardo Vieira e Carlos Alberto Faraco. Páginas 174 - 180. A ser disponibilizado digitalizado.\\
+\hline
+2025-05-08 & Discurso reportado. Gerenciadores de referências bibliográficas. & Discurso reportado, parte do livro Escrever na universidade 2 - texto e discurso, de Francisco Eduardo Vieira e Carlos Alberto Faraco. Páginas 180 - 196. A ser disponibilizado digitalizado.\\
+\hline
+2025-05-12 & Gêneros textuais acadêmicos: fichamento, resumo, resenha. & A escrita na universidade, parte do livro Escrever na universidade 1 - fundamentos, de Francisco Eduardo Vieira e Carlos Alberto Faraco. Páginas 89 - 113. A ser disponibilizado digitalizado.\\
+\hline
+2025-05-15 & Gêneros textuais acadêmicos: projeto de pesquisa. & Projeto de pesquisa, parte do livro Produção textual na universidade, de Désirée Motta-Roth e Graciela Rabuske Hendges. Páginas 51 - 64. A ser disponibilizado digitalizado.\\
+\hline
+2025-05-19 & Gêneros textuais acadêmicos: artigo científico. & Artigo acadêmico: introdução, parte do livro Produção textual na universidade, de Désirée Motta-Roth e Graciela Rabuske Hendges. Páginas 65 - 88. A ser disponibilizado digitalizado.\\
+\hline
+2025-05-22 & 1ª Avaliação & Prova objetiva\\
+\hline
+\end{tabular}
+\end{table}
+
+\chapter[Sistema acadêmico brasileiro]{\texorpdfstring{Sistema acadêmico brasileiro\footnote{Roteiro de aula elaborado no RStudio com o auxílio da inteligência artificial ChatGPT, revisado e avaliado pelo autor antes de sua publicação.}}{Sistema acadêmico brasileiro}}\label{sistema-acaduxeamico-brasileiro1}
+
+\section{Objetivo de aprendizagem}\label{objetivo-de-aprendizagem}
+
+Ao final deste encontro, e com base na leitura indicada, espera-se que você seja capaz de:
+
+\begin{itemize}
+\item
+  Identificar a proposta e a organização da disciplina Análise e Expressão Textual (Anete), reconhecendo seus objetivos, estrutura em unidades e formas de avaliação;
+\item
+  Compreender a organização do sistema acadêmico brasileiro, identificando suas principais instâncias, normas e formas de produção do conhecimento, especialmente os gêneros textuais acadêmicos;
+\item
+  Participar de um diagnóstico inicial de competência textual, visando à identificação de conhecimentos prévios e dificuldades na produção escrita em contexto universitário.
+\end{itemize}
+
+Leitura indicada:
+Entendendo a organização do sistema acadêmico brasileiro, capítulo do livro Guia do trabalho científico: do projeto à redação final, de Celso Ferrarezi Jr.
+
+\href{vbk://9788572447638/epubcfi/6/14\%5B\%3Bvnd.vst.idref\%3Dcap1.xhtml\%5D}{Acesso à leitura indicada}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{Aprendizagem prática}\label{aprendizagem-pruxe1tica}
+
+\subsection{Questão 1}\label{questuxe3o-1}
+
+Como se organiza o sistema acadêmico brasileiro?
+
+\chapter[Pensamento científico]{\texorpdfstring{Pensamento científico\footnote{Roteiro de aula elaborado no RStudio com o auxílio da inteligência artificial ChatGPT, revisado e avaliado pelo autor antes de sua publicação.}}{Pensamento científico}}\label{pensamento-cientuxedfico1}
+
+\section{Objetivos de aprendizagem}\label{objetivos-de-aprendizagem}
+
+Ao final deste encontro e com base na leitura indicada, espera-se que você seja capaz de:
+
+\begin{itemize}
+\tightlist
+\item
+  Reconhecer as características do pensamento científico, diferenciando-o de outras formas de pensar e compreender sua relevância na construção do saber universitário.
+\end{itemize}
+
+Leitura indicada:
+Think like a scientist: The power of a scientific mindset, postagem do blog Ivory Embassy, por Santiago Gisler.
+
+\href{https://ivoryembassy.com/scientific-mindset/}{Acesso à leitura indicada}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{Aprendizagem prática}\label{aprendizagem-pruxe1tica-1}
+
+\subsection{Questão 1}\label{questuxe3o-1-1}
+
+Você pensa cientificamente?
+
+\subsection{Questão 2}\label{questuxe3o-2}
+
+O que é a pensamento científico?
+
+\begin{quote}
+O pensamento científico é um estilo de pensamento que incentiva a análise crítica e o ceticismo na abordagem de situações e problemas.
+\end{quote}
+
+\begin{quote}
+O pensamento científico promove o questionamento de suposições e a avaliação objetiva de ideias, visando uma compreensão mais próxima da verdade, na medida do possível.
+\end{quote}
+
+\begin{quote}
+Por meio do uso de evidências e do raciocínio lógico, é possível interpretar melhor o mundo ao redor, tomar decisões fundamentadas e encontrar soluções para desafios.
+\end{quote}
+
+\href{https://www.dw.com/pt-br/teste-de-dna-resolve-enigma-de-virgem-maria-que-chorava-sangue/a-71703557}{Teste de DNA resolve enigma de estátua que chorava sangue}
+
+\subsection{Questão 3}\label{questuxe3o-3}
+
+O que é fundamental no pensamento científico?
+
+\begin{quote}
+Um elemento fundamental no pensamento científico é o uso do método científico.
+\end{quote}
+
+\begin{quote}
+O método científico auxilia na aquisição de conhecimento por meio da observação e da experiência (de forma empírica).
+\end{quote}
+
+\begin{quote}
+O método científico organiza o processo pelo qual cientistas -- e não-cientistas -- chegam a conclusões.
+\end{quote}
+
+\subsection{Questão 4}\label{questuxe3o-4}
+
+Passo a passo do método científico (em síntese):
+
+• Observar um fenômeno e formular uma pergunta
+• Realizar pesquisas e reunir informações
+• Formular uma hipótese
+• Testar essa hipótese
+• Apresentar os resultados, debater e aperfeiçoar o entendimento do fenômeno
+
+\subsection{Questão 5}\label{questuxe3o-5}
+
+Pilares do pensamento científico (para além da ciência)
+
+\begin{itemize}
+\item[$\square$]
+  \textbf{Demonstrar curiosidade:}\\
+  \emph{Exemplo:} Um estudante de biologia que, ao observar uma planta com folhas amarelas, começa a se perguntar: ``Por que essa planta tem uma coloração diferente das outras? Será falta de nutrientes, excesso de sol, ou alguma doença?''
+\item[$\square$]
+  \textbf{Questionar pressupostos:}\\
+  \emph{Exemplo:} Um jornalista investigativo que, ao receber um dado oficial, questiona: ``Será que esses números foram coletados corretamente? Quem financiou a pesquisa? Existe algum conflito de interesse?''
+\item[$\square$]
+  \textbf{Buscar evidências:}\\
+  \emph{Exemplo:} Um consumidor que lê avaliações de múltiplos sites e compara estudos antes de comprar um produto que alega ser ecológico.
+\item[$\square$]
+  \textbf{Aplicar lógica e raciocínio:}\\
+  \emph{Exemplo:} Um médico que, ao interpretar exames laboratoriais, descarta hipóteses menos prováveis com base nos padrões observados nos resultados.
+\item[$\square$]
+  \textbf{Adotar ceticismo saudável:}\\
+  \emph{Exemplo:} Um economista que, ao ouvir que um novo investimento promete lucros altíssimos em pouco tempo, questiona: ``Quais são os riscos? Existe alguma evidência de que outros investidores tiveram sucesso semelhante?''
+\item[$\square$]
+  \textbf{Considerar explicações alternativas:}\\
+  \emph{Exemplo:} Um pesquisador que, ao encontrar uma correlação entre duas variáveis, pensa: ``Será que é uma relação causal direta? Ou pode haver um terceiro fator influenciando ambas?''
+\item[$\square$]
+  \textbf{Estar aberto a novas ideias:}\\
+  \emph{Exemplo:} Um professor que, ao descobrir um método de ensino inovador, considera aplicá-lo em suas aulas, mesmo que isso signifique mudar abordagens tradicionais.
+\item[$\square$]
+  \textbf{Refletir sobre suas próprias crenças:}\\
+  \emph{Exemplo:} Um defensor de uma dieta específica que, ao encontrar novos estudos que contradizem suas crenças, analisa esses dados e ajusta suas recomendações.
+\item[$\square$]
+  \textbf{Buscar feedback e aprender com os erros:}\\
+  \emph{Exemplo:} Um engenheiro que compartilha seu projeto com colegas, recebe críticas sobre a estrutura, faz alterações e apresenta um produto final mais eficiente.
+\item[$\square$]
+  \textbf{Valorizar a replicabilidade e a objetividade:}\\
+  \emph{Exemplo:} Um cientista que publica os dados brutos de seu experimento e descreve os procedimentos em detalhes, permitindo que outros pesquisadores tentem reproduzir os mesmos resultados.
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+O funcionário da GM voltou nos dias seguintes e só variou o sabor do sorvete. Mais uma vez, o carro só não pegava quando o sabor escolhido era baunilha.
+
+O problema acabou virando uma obsessão para o engenheiro, que fez experiências diárias, anotou todos os detalhes possíveis e, depois de duas semanas, chegou à primeira grande descoberta: quando escolhia baunilha, o comprador gastava menos tempo, porque não precisava ficar escolhendo o tipo de sorvete.
+
+Examinando o carro, o engenheiro fez nova descoberta: com o tempo de compra reduzido no caso da baunilha, em comparação com o tempo dos outros sabores, o motor não chegava a esfriar. Com isso, os vapores de combustível não se dissipavam, impedindo que a nova partida fosse instantânea.
+
+A partir deste episódio, a Pontiac mudou o sistema de alimentação de combustível e introduziu a alteração em todos os modelos a partir desta linha.
+
+Mais que isso, o autor da reclamação ganhou um carro novo, além da reforma do que não pegava com sorvete de baunilha.
+
+A GM distribuiu também um memorando interno, exigindo que seus funcionários levem a sério até as `reclamações mais estapafúrdias, porque pode ser que uma grande inovação esteja por trás de um sorvete de baunilha' diz a carta da GM.
+
+\chapter[Opinião, fato e escrita acadêmica]{\texorpdfstring{Opinião, fato e escrita acadêmica\footnote{Roteiro de aula elaborado no RStudio com o auxílio da inteligência artificial ChatGPT, revisado e avaliado pelo autor antes de sua publicação.}}{Opinião, fato e escrita acadêmica}}\label{opiniuxe3o-fato-e-escrita-acaduxeamica1}
+
+\section{Objetivos de aprendizagem}\label{objetivos-de-aprendizagem-1}
+
+Ao final deste encontro e com base na leitura indicada, espera-se que você seja capaz de:
+
+\begin{itemize}
+\item
+  Reconhecer e diferenciar exemplos de opiniões e fatos evidenciados em textos acadêmicos.
+\item
+  Reformular enunciados opinativos em afirmações sustentadas por evidências.
+\item
+  Analisar os recursos linguísticos que caracterizam afirmações opinativas, distinguindo-os das marcas típicas de afirmações factuais.
+\end{itemize}
+
+Leitura indicada:
+Uma questão de opinião, capítulo do livro Como escrever um texto científico, de Fábio Appolinário e Isaac Gil.
+
+\href{vbk://9788599519493/page/11}{Acesso à leitura indicada}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{Introdução}\label{introduuxe7uxe3o}
+
+Como vimos anteriormente, o \textbf{pensamento científico} baseia-se em uma \textbf{curiosidade ativa}, no \textbf{questionamento de pressupostos} e na busca rigorosa por \textbf{evidências}, utilizando \textbf{lógica} e \textbf{ceticismo} para avaliar as informações de maneira \textbf{objetiva}. Além disso, considera \textbf{alternativas}, mantém-se \textbf{aberto a novas ideias} e promove a \textbf{reflexão sobre as próprias crenças}, sempre valorizando a \textbf{replicabilidade} e o aprendizado com \textbf{erros e feedbacks}. Esses pilares, mais do que ferramentas científicas, são práticas que enriquecem a \textbf{análise crítica} e a \textbf{tomada de decisões} em diversas situações.
+
+Esses pilares do pensamento científico não apenas fundamentam a investigação científica, mas também guiam as \textbf{práticas de leitura e escrita acadêmicas}. Essas competências intelectuais formam a base para compreender, analisar e produzir textos acadêmicos de alta qualidade. A leitura criteriosa permite identificar as pistas essenciais nos textos, enquanto a escrita disciplinada e fundamentada em padrões normativos promove a clareza, a coesão e a credibilidade das ideias.
+
+O desenvolvimento do pensamento científico está intrinsecamente ligado ao \textbf{domínio da linguagem acadêmica}, contribuindo para um percurso mais autônomo e qualificado no ambiente universitário.
+
+\subsection{Você sabe escrever e ler cientificamente? (aplicação de teste diagnóstico)}\label{vocuxea-sabe-escrever-e-ler-cientificamente-aplicauxe7uxe3o-de-teste-diagnuxf3stico}
+
+\subsection{O que é uma escrita científica? Um texto científico? Texto opinativo ou factual?}\label{o-que-uxe9-uma-escrita-cientuxedfica-um-texto-cientuxedfico-texto-opinativo-ou-factual}
+
+\begin{quote}
+Segundo Appolinário e Gil, ``(\ldots) uma característica importante da maioria das modalidades de textos científicos é exatamente a ausência da opinião.'' p.~16
+\end{quote}
+
+\begin{quote}
+``(\ldots) não há espaço para a enunciação de juízos de valor, que possuem caráter opinativo ou especulativo.'' p.~16
+\end{quote}
+
+\begin{quote}
+``(\ldots) o texto monográfico {[}leia-se científico{]} deve se ater a:
+
+Descrição, comparação ou análise de teorias e conceitos desenvolvidos por outros autores
+
+Apresentação de dados secundários de pesquisa (dados coletados por outros autores e devidamente citados no texto)
+
+Apresentação e análise de dados primários (dados coletados pelo próprio aluno e apresentados no trabalho)
+
+p.~16
+\end{quote}
+
+\begin{quote}
+Em síntese, o texto acadêmico é ``(\ldots) um exercício de argumentação (desenvolvido em sua maior parte com as ``palavras'' do autor do argumento), fortalecido tanto quanto possível por evidências retiradas de teorias, conceitos e dados próprios ou de outrem, devidamente citados no corpo do texto, de acordo com as normas adotadas pela instituição na qual o aluno está desenvolvendo seu trabalho.'' p.~18
+\end{quote}
+
+⚠️ \textbf{Será?} ⚠️
+
+``(\ldots) não há informação pura, nem opinião girando no vazio.'' (Vieira; Faraco, 2019, p.~166)\footnote{VIEIRA, Francisco Eduardo; FARACO, Carlos Alberto. \textbf{Escrever na universidade} 2 - texto e discurso. São Paulo: Editora Parábola. 2019.}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{Aprendizagem prática}\label{aprendizagem-pruxe1tica-2}
+
+\subsection{Questão 1}\label{questuxe3o-1-2}
+
+Leia as frases abaixo e assinale FATO ou OPINIÃO.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{Questão 2}\label{questuxe3o-2-1}
+
+Leia o parágrafo abaixo com atenção, extraído da obra ``Como escrever um texto científico'', de Fábio Appolinário e Isaac Gil. Por que ele não pode ser cientificamente adequado?
+
+\begin{quote}
+As empresas brasileiras têm enfrentado enormes problemas em função da grande crise econômica pela qual passa nosso país, tendo assumido uma atitude preventiva e cautelosa no que se refere aos investimentos, notadamente no setor de treinamento -- que costuma ser o primeiro a sentir os cortes em crises desse porte.
+\end{quote}
+
+Reescreva-o a fim de torná-lo cientificamente adequado.
+
+\textbf{Sugestão de reescrita dos autores}
+
+Segundo dados do Banco Central do Brasil (2009), em seis dos oito trimestres dos anos de 2008 e 2009 houve uma retração do PIB brasileiro entre 1,5\% e 2,3\%, o que, para alguns autores (por exemplo: KRAUSE, 2001; SILVEIRA, 2005), pode configurar uma ``crise econômica''. Nesse mesmo período, em pesquisa exploratória realizada junto a gestores de recursos humanos nas empresas do setor industrial da região sudeste do país, a Associação Brasileira de Recursos Humanos (2009) relatou uma intenção de cortes com gastos em treinamento de pessoal da ordem de 27,8\%, para o ano de 2010. É possível hipotetizar, portanto, que a retração econômica tenha levado a uma diminuição na previsão de investimentos nessa área.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{Questão 3}\label{questuxe3o-3-1}
+
+Leia o texto abaixo e resolva as questões seguintes.\footnote{ABREU, Antonio Suárez. A arte de argumentar: gerenciando razão e emoção. Cotia: Ateliê Editorial,
+  2001.}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{Questão 4}\label{questuxe3o-4-1}
+
+Leia as frases abaixo e assinale FATO ou OPINIÃO\footnote{ABREU, Antonio Suárez. A arte de argumentar: gerenciando razão e emoção. Cotia: Ateliê Editorial,
+  2001.}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{Questão 5}\label{questuxe3o-5-1}
+
+Agora que você já sabe diferenciar uma afirmação opinativa de uma afirmação factual, \textbf{em trios}, analisem novamente as frases utilizadas nas atividades anteriores.
+
+Para cada afirmação opinativa, identifiquem:
+
+\begin{verbatim}
+•   Adjetivos subjetivos (ex.: melhor, agradável, marcante);
+•   Expressões com carga emocional ou afetiva (ex.: infelizmente, lamentável, encantava);
+•   Ausência de dados verificáveis (indiquem onde faltam números, fontes ou evidências concretas).
+\end{verbatim}
+
+Para cada afirmação factual, indiquem:
+
+\begin{verbatim}
+•   Fontes de dados verificáveis (se presentes);
+•   Tom neutro e objetivo (verifiquem se não há adjetivos subjetivos ou emoções envolvidas).
+\end{verbatim}
+
+\textbf{Marcas linguísticas da opinião}
+
+As marcas linguísticas que caracterizam as afirmações opinativas incluem:
+1. \textbf{Uso de adjetivos avaliativos ou subjetivos}: Termos como \emph{melhor}, \emph{mais agradável}, \emph{mais confortável}, \emph{dura}, entre outros, expressam julgamentos de valor ou preferências.
+2. \textbf{Presença de modalizadores e verbos de opinião}: Expressões como \emph{eu acho}, \emph{é considerado}, \emph{é visto como}, \emph{há quem sustente que} indicam a inserção de uma perspectiva pessoal ou coletiva, sem compromisso com a objetividade.
+3. \textbf{Ausência de fontes confiáveis ou dados concretos}: Afirmações opinativas frequentemente não apresentam referência a estudos, estatísticas ou documentações que sustentem a afirmação.
+4. \textbf{Emprego de generalizações, suposições ou evidenciais subjetivos}: Formulações como \emph{devem ser}, \emph{parecem}, \emph{é frequentemente considerado}, \emph{segundo muitos} sugerem que a ideia se apoia em impressões, crenças difusas ou fontes não identificadas.
+5. \textbf{Foco em emoções ou experiências pessoais}: Declarações que se baseiam em preferências emocionais, como \emph{assistir filmes em casa é muito mais agradável} ou \emph{chocolate é o melhor doce do mundo}, denotam um ponto de vista subjetivo.
+
+Em contraposição, as afirmações factuais são marcadas por:
+• Dados verificáveis e concretos;
+• Referência a fontes confiáveis;
+• Tom neutro e objetivo, sem julgamentos de valor ou envolvimento emocional.
+
+\subsection{Questão 6}\label{questuxe3o-6}
+
+Ainda em trios, busquem no Google Acadêmico um artigo científico publicado entre 2022 e 2025, com a palavra-chave ``ensino de matemática''.
+
+\begin{verbatim}
+•   A pesquisa deve ser feita com os seguintes filtros:
+•   Idioma: Português;
+•   Tipo de documento: artigos (não incluir citações ou patentes);
+\end{verbatim}
+
+Escolham um artigo e analisem o resumo com base nos seguintes critérios:
+
+\begin{verbatim}
+•   Há fontes de dados verificáveis? (Ex.: menção a experimentos, estatísticas, estudos de caso, autores, instituições, etc.).
+•   O tom do texto é neutro e objetivo? Ou há presença de adjetivos subjetivos ou carga emocional?
+\end{verbatim}
+
+Postem o resumo e a análise no Padlet da turma. No post, adicionem:
+
+\begin{verbatim}
+•   Título do artigo;
+•   Resumo copiado;
+•   Indicação das fontes verificáveis (se houver);
+•   Comentário sobre o tom do texto (neutro ou subjetivo);
+•   Trechos específicos que justifiquem a análise.
+\end{verbatim}
+
+🔗 Acesse o Padlet da turma \href{https://padlet.com/mariomartins/anete-t01-b3r3eohs4gd7np8m}{aqui}
+
+🔥 Você deve fazer login no Padlet para que a postagem seja identificada.
+
+Você está presente?
+
+\chapter[Argumentos de senso comum e senso crítico]{\texorpdfstring{Argumentos de senso comum e senso crítico\footnote{Roteiro de aula elaborado no RStudio com o auxílio da inteligência artificial ChatGPT, revisado e avaliado pelo autor antes de sua publicação.}}{Argumentos de senso comum e senso crítico}}\label{argumentos-de-senso-comum-e-senso-cruxedtico1}
+
+\section{Objetivos de aprendizagem}\label{objetivos-de-aprendizagem-2}
+
+Ao final deste encontro e com base na leitura indicada, espera-se que você seja capaz de:
+
+\begin{itemize}
+\item
+  Reconhecer a diferença entre argumentos baseados no senso comum e argumentos fundamentados no senso crítico.
+\item
+  Exercitar habilidades cognitivas necessárias à argumentação e ao pensamento científico.
+\end{itemize}
+
+Leitura indicada:
+Leitura e escrita acadêmicas, capítulo do livro Leitura e escrita acadêmicas, de Nádia Castro e outros.
+
+\href{vbk://9788533500228/page/11}{Acesso à leitura indicada}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{Introdução}\label{introduuxe7uxe3o-1}
+
+Segundo Antônio Suárez Abreu, em seu livro ``A arte de argumentar: gerenciando razão e emoção'' (2012, p.~42\footnote{ABREU, Antonio Suárez. A arte de argumentar: gerenciando razão e emoção. Cotia: Ateliê Editorial,
+  2001.}):
+
+\begin{quote}
+Argumentar (\ldots) não é tentar provar o tempo todo que temos razão, impondo nossa vontade.
+\end{quote}
+
+\begin{quote}
+Argumentar é, em primeiro lugar, convencer, ou seja, vencer junto com o outro, caminhando ao seu lado, utilizando, com ética, as técnicas argumentativas, para remover os obstáculos que impedem o consenso.''
+\end{quote}
+
+Ainda segundo o autor (2012, p.~42),
+
+\begin{quote}
+Argumentar é também saber persuadir, preocupar-se em ver o outro por inteiro, ouvi-lo, entender suas necessidades, sensibilizar-se com seus sonhos e emoções.
+\end{quote}
+
+Argumentar significa tanto convencer, como persuadir.
+
+🧠 Convencer: levar o outro à aceitação de uma ideia por meio da razão, da lógica e de evidências verificáveis.
+
+❤️ Persuadir: levar o outro à aceitação de uma ideia por meio da emoção, da empatia e da sensibilidade, respeitando sua autonomia.
+
+Nádia Castro e outros autores (2019, p.~14) nos lembram que
+
+\begin{quote}
+Quando se pensa em argumentação, é preciso necessariamente remeter ao caráter dialógico --- isto é, de diálogo --- dos discursos.
+\end{quote}
+
+\begin{quote}
+Tudo aquilo que pensamos e fazemos é fruto dos discursos que nos constroem enquanto seres psicossociais.
+\end{quote}
+
+Nesse caso, \textbf{discurso} significa um conjunto estruturado de ideias, valores, crenças, formas de linguagem e modos de ver o mundo que circulam socialmente e moldam nosso modo de pensar, agir e interpretar a realidade.
+
+\section{Aprendizagem prática}\label{aprendizagem-pruxe1tica-3}
+
+\subsection{Questão 1}\label{questuxe3o-1-3}
+
+Você consegue identificar que discursos são descritos na tabela abaixo?
+
+Preencha as lacunas da primeira coluna com os nomes dos discursos. Preencha também as lacunas da última coluna com dois ou três exemplos de textos típicos de cada um dos discursos identificados por você.
+
+\begin{table}
+
+\caption{\label{tab:unnamed-chunk-2}Discursos}
+\centering
+\begin{tabular}[t]{l|l|l|l}
+\hline
+Discurso & Características centrais & Objetivo principal & Exemplos típicos\\
+\hline
+? & Usa linguagem formal e objetiva; é baseado em evidências empíricas e métodos sistemáticos; busca por generalização, explicação ou predição & Produzir conhecimento racional, verificável e universal & ?\\
+\hline
+? & Usa linguagem técnica, normativa e prescritiva; é fortemente influenciado por códigos e leis; depende de estrutura argumentativa rígida & Regular comportamentos sociais com base na legislação & ?\\
+\hline
+? & Usa linguagem persuasiva, apelativa e ideológica; enfatiza valores, identidades e crenças coletivas; visa gerar adesão ou mobilização & Influenciar decisões, conquistar apoio e justificar ações & ?\\
+\hline
+? & Usa inguagem simbólica e valorativa; é baseado em doutrinas e crenças; apela à fé, à moral e à transcendência & Promover uma visão de mundo espiritual e normativa & ?\\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{table}
+
+\caption{\label{tab:unnamed-chunk-3}Discursos}
+\centering
+\begin{tabular}[t]{l|l|l|l}
+\hline
+Discurso & Características centrais & Objetivo principal & Exemplos típicos\\
+\hline
+Científico & Usa linguagem formal e objetiva; é baseado em evidências empíricas e métodos sistemáticos; busca por generalização, explicação ou predição & Produzir conhecimento racional, verificável e universal & Artigos científicos, relatórios de pesquisa\\
+\hline
+Jurídico & Usa linguagem técnica, normativa e prescritiva; é fortemente influenciado por códigos e leis; depende de estrutura argumentativa rígida & Regular comportamentos sociais com base na legislação & Sentenças judiciais, leis, pareceres jurídicos\\
+\hline
+Político & Usa linguagem persuasiva, apelativa e ideológica; enfatiza valores, identidades e crenças coletivas; visa gerar adesão ou mobilização & Influenciar decisões, conquistar apoio e justificar ações & Discursos eleitorais, campanhas, debates parlamentares\\
+\hline
+Religioso & Usa inguagem simbólica e valorativa; é baseado em doutrinas e crenças; apela à fé, à moral e à transcendência & Promover uma visão de mundo espiritual e normativa & Sermões, textos sagrados, catequeses\\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{quote}
+(\ldots) a argumentação diz respeito a como melhor selecionar e organizar argumentos de diferentes naturezas para alcançar objetivos como demonstrar, persuadir e convencer.
+\end{quote}
+
+O caráter dialógico da argumentação, segundo Castro e outros (2019, p.~14), depende do discurso em que essa argumentação deve se encaixar. Tudo depende do contexto, portanto.
+
+\begin{quote}
+(\ldots) a argumentação se relaciona a públicos diversos (a quem se destina), a objetos claros (o que está em questão) e a circunstâncias específicas (em que momento e em que espaço se dá e de que modo se realiza).
+\end{quote}
+
+É justamente o contexto que define o discurso do senso comum, que
+
+\begin{itemize}
+\item
+  usa linguagem informal, coloquial e empírica;
+\item
+  é baseado na experiência cotidiana e em tradições;
+\item
+  tem pouca ou nenhuma verificação sistemática.
+\end{itemize}
+
+O objetivo do senso comum, portanto, é explicar e, às vezes, regular o cotidiano com base em crenças compartilhadas.
+
+Castro e outros (2019, p.~14), parafraseando Antonio Suárez Abreu, lembram que
+
+\begin{quote}
+(\ldots) o senso comum é oriundo de variados discursos que formam o que se chama de ``opinião pública''.
+\end{quote}
+
+\begin{quote}
+Ela seria constituída (\ldots) por diversos discursos articulados que permeiam toda a sociedade, independentemente de classe social.
+\end{quote}
+
+São exemplos de senso comum ditados populares, conselhos, ``sabedorias'' cotidianas.
+
+De acordo com Savioli e Fiorin (\emph{apud} Castro et al., 2019, p.14)
+
+\begin{quote}
+(\ldots) os argumentos de senso comum normalmente são preconceituosos, pois não são baseados em fatos e comprovações, mas em afirmações usualmente generalizantes.
+\end{quote}
+
+\subsection{Questão 2}\label{questuxe3o-2-2}
+
+Explique como cada ditado popular abaixo reproduz o discurso do senso comum.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Aqui se faz, aqui se paga.
+\item
+  Deus ajuda a quem cedo madruga.
+\item
+  Cada macaco no seu galho.
+\item
+  Roupa suja se lava em casa.
+\item
+  Mais vale um pássaro na mão do que dois voando.
+\end{enumerate}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{Aqui se faz, aqui se paga.}
+\end{enumerate}
+
+➤ Este ditado pressupõe uma espécie de justiça imediata ou natural, segundo a qual toda ação negativa será punida com uma consequência proporcional.
+
+➤ É uma forma de senso comum porque simplifica a noção de justiça, ignorando as complexidades éticas, sociais e jurídicas envolvidas em cada situação.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  \textbf{Deus ajuda a quem cedo madruga.}
+\end{enumerate}
+
+➤ Atribui o sucesso pessoal ao esforço individual (acordar cedo), além de invocar uma recompensa divina.
+
+➤ Reproduz o senso comum ao naturalizar a ideia de meritocracia, sem considerar fatores estruturais (como classe social, acesso à educação, saúde etc.).
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{2}
+\tightlist
+\item
+  \textbf{Cada macaco no seu galho.}
+\end{enumerate}
+
+➤ Defende que cada pessoa deve permanecer no seu lugar ou função, evitando ``se meter'' em outras áreas.
+
+➤ Sustenta um discurso de conservação da ordem social, reforçando hierarquias e delimitando papéis de forma rígida e acrítica.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{3}
+\tightlist
+\item
+  \textbf{Roupa suja se lava em casa.}
+\end{enumerate}
+
+➤ Defende que conflitos familiares ou problemas íntimos devem ser resolvidos em privado, sem exposição pública.
+
+➤ Embora possa proteger a privacidade, favorece o silenciamento de abusos e injustiças, sendo um exemplo clássico de senso comum que reprime o debate público sobre questões sensíveis.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{4}
+\tightlist
+\item
+  \textbf{Mais vale um pássaro na mão do que dois voando.}
+\end{enumerate}
+
+➤ Sugere que é melhor manter algo garantido do que correr riscos em busca de algo maior.
+
+➤ Expressa um valor conservador, que inibe a ousadia e a inovação, e parte de uma lógica pragmática e simplificadora, típica do senso comum.
+
+O senso comum baseia-se na experiência cotidiana, transmitida culturalmente, muitas vezes sem verificação crítica.
+
+Castro e outros (2019, p.~15) afirmam que
+
+\begin{quote}
+(\ldots) o senso comum consiste no conhecimento vulgar, nas opiniões diversas.
+\end{quote}
+
+\subsection{Questão 3}\label{questuxe3o-3-2}
+
+Analise com atenção a imagem abaixo, extraída de um contexto cotidiano. Identifique no texto da imagem as marcas do discurso do senso comum, respondendo às perguntas abaixo:
+
+\begin{itemize}
+\item
+  O enunciado generaliza alguma ideia?
+\item
+  O enunciado se baseia em evidências ou em crenças e emoções?
+\item
+  O enunciado reforça algum valor ou norma social amplamente aceita?
+\end{itemize}
+
+\textbf{1. O enunciado generaliza alguma ideia?}
+
+Sim. A frase generaliza a figura materna, atribuindo a todas as mães um papel idealizado como origem da vida e fonte inesgotável de amor. Desconsidera, portanto, a diversidade de experiências familiares e afetivas, incluindo mães ausentes, negligentes ou relações familiares conflituosas.
+
+\textbf{2. O enunciado se baseia em evidências ou em crenças e emoções?}
+
+Baseia-se essencialmente em crenças e emoções. Não há comprovação empírica ou referência a dados que sustentem a ideia de que o amor de mãe seja eterno ou universal. A força da frase reside em seu apelo afetivo, tocando valores subjetivos e culturais enraizados.
+
+\textbf{3. O enunciado reforça algum valor ou norma social amplamente aceita?}
+
+Sim. A frase reforça a valorização idealizada da maternidade, um pilar do senso comum em muitas culturas. Sustenta a noção de que mães devem ser incondicionalmente amorosas, cuidadoras e abnegadas, consolidando uma norma social tradicional de gênero.
+
+O \textbf{senso crítico} é o oposto do senso comum, já que envolve análise, comparação, verificação de evidências e compromisso com a racionalidade e o método.
+
+O ponto de vista científico se constrói em torno do senso crítico, do pensamento científico.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{Questão 4}\label{questuxe3o-4-2}
+
+Vamos estimular nossas habilidades cognitivas?
+
+Pensar cientificamente e desenvolver o senso crítico não depende apenas de acesso a informações, mas sobretudo da capacidade de organizar o pensamento, identificar padrões, levantar hipóteses, interpretar dados e tomar decisões fundamentadas.
+
+Essas habilidades --- que envolvem atenção, memória, análise, síntese e inferência --- são essenciais tanto para resolver problemas do cotidiano quanto para compreender e produzir argumentos bem estruturados.
+
+Para exercitá-las, proponho um desafio linguístico que exigirá de você concentração, raciocínio lógico e uma boa dose de curiosidade. Em trios, resolvam a questão abaixo:
+
+Nesta árvore, os nomes dos personagens híbridos são formados a partir de um padrão geral, com exceção de apenas dois. \textbf{Se} os nomes de todos os Pokémon fossem formados seguindo o padrão geral, qual \textbf{não} poderia ser um nome possível para o último Pokémon da árvore (o mais de baixo)?
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi})}
+\tightlist
+\item
+  krabgon
+\item
+  elekgon
+\item
+  spinpy
+\item
+  spinky
+\item
+  spinorb
+\end{enumerate}
+
+Resposta: (d)
+
+Podemos notar que os nomes dos híbridos são formados pela combinação dos nomes dos dois Pokémon que os originaram. Por exemplo, na primeira linha temos:
+
+\begin{verbatim}
+•   shugon: formado por shu- de shuppet e -gon de bagon.
+•   spinpip: formado por spin- de spinarak e -pip de hoppip.
+•   kraborb: formado por krab- de krabby e -orb de voltorb.
+•   elekpy: formado por elek- de elekid e -py de phanpy.
+\end{verbatim}
+
+A princípio, podemos pensar que o nome é sempre formado pela primeira parte de um Pokémon com a última parte de outro. No entanto, isso não se aplica a kraborb (a última parte de voltorb deveria ser -torb, e não -orb). Portanto, a regra é mais simples: combinar o início de um nome com o final de outro.
+
+Na segunda linha, temos:
+
+\begin{verbatim}
+•   spingon: formado por spin- de spinpip e -gon de shugon.
+•   kreky: formado por kr- de kraborb e -ky de elekpy.
+\end{verbatim}
+
+No caso de spingon, as partes dos nomes são as mesmas usadas anteriormente. Como spinpip é a junção de spin- com -pip, spingon usa spin- de spinarak, mantendo o padrão. Porém, kreky quebra o padrão, pois não usou o final completo de elekpy (faltou o `p') e nem a parte inicial correta de kraborb (deveria ser krab-). Assim, kreky é o primeiro nome fora do padrão.
+
+Depois temos:
+
+\begin{verbatim}
+•   krinky: formado por kr- de kreky e -gon de spingon.
+\end{verbatim}
+
+Esse nome também foge ao padrão, pois mistura as partes do meio (-in-) de um nome com o início e o fim de outro. Portanto, krinky é o segundo Pokémon fora do padrão.
+
+Agora que identificamos os dois nomes fora do padrão, podemos descobrir como seriam se seguissem a regra. A fusão de kraborb e elekpy deveria usar a parte inicial de um com a parte final do outro, respeitando as partes originais. Então, podemos ter:
+
+\begin{verbatim}
+•   kraborb + elekpy = krabpy ou
+•   kraborb + elekpy = elekorb.
+\end{verbatim}
+
+Por fim, o nome do último Pokémon será a fusão de spingon com krabpy ou elekorb, utilizando o mesmo princípio de combinar partes iniciais e finais. As possíveis combinações são:
+
+\begin{verbatim}
+•   spingon + krabpy = spinpy ou krabgon;
+•   spingon + elekorb = spinorb ou elekgon.
+\end{verbatim}
+
+Esses quatro nomes aparecem nas alternativas. O único que não seria possível é spinky, pois ele depende de kreky, que já está fora do padrão.
+
+Um ponto interessante é que, ao seguir esse padrão de combinações, as informações sobre os Pokémon originais podem se perder. Por exemplo, o nome krabgon poderia parecer uma fusão de krabby e bagon, mas na verdade é o resultado de várias fusões anteriores.
+
+Por fim, o nome do problema, Poképu, é a junção de Pokémon e Khipu.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Você está presente?
+
+\chapter{Submissão de texto para revisão}\label{submissuxe3o-de-texto-para-revisuxe3o}
+
+Preencha os campos abaixo para submeter seu texto para uma revisão automatizada.
+
+\end{document}

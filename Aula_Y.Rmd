@@ -1,0 +1,21 @@
+# Gêneros textuais acadêmicos[^1]
+
+[^1]:Roteiro de aula elaborado no RStudio com o auxílio da inteligência artificial ChatGPT, revisado e avaliado pelo autor antes de sua publicação.
+
+## Objetivos de aprendizagem
+
+Ao final deste encontro e com base na leitura indicada, espera-se que você seja capaz de:
+
+- Blá blá blá.
+
+<div class="section" style="padding:1em; background-color:#F5F5F5; color:#000000;">
+  <em>Leitura indicada:</em> <br/>
+  <strong>Leitura e escrita acadêmicas</strong>, capítulo do livro <em>Leitura e escrita acadêmicas</em>, de Nádia Castro e outros.
+  
+  [Acesso à leitura indicada](vbk://9788533500228/page/11)
+
+</div>
+
+---
+
+## Introdução
