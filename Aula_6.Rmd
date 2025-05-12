@@ -179,7 +179,7 @@ Exemplo
 
 ## Aprendizagem prática
 
-2. Identifique no texto abaixo, publicado no periódico RenBio (Revista de Ensino de Biologia), todas as ocorrências de discurso reportado. Separe-os por tipo de citação: citação direta, citação indireta ou citação da citação. Copie e cole no campo adequado, abaixo informado, selecionando a opção "Citações". Siga o modelo:
+2. Identifique no texto abaixo, publicado no periódico RenBio (Revista de Ensino de Biologia), todas as ocorrências de discurso reportado. Separe-os por tipo de citação: citação direta, citação indireta ou citação da citação. Copie e cole no documento à parte. Siga o modelo:
 
 Modelo:
 
@@ -192,7 +192,7 @@ Página 12: Percebe-se que “os estudantes têm a oportunidade de investigar pr
 **Citação da citação**
 Página 43: Segundo Freire (1996, _apud_ Souza; Almeida, 2025, p. 613), "ensinar não é transferir conhecimento, mas criar as possibilidades para a sua própria produção ou a sua construção".
 
-[Texto disponilvel aqui](https://renbio.org.br/index.php/sbenbio/article/view/1347/497)
+[Texto disponível aqui](https://renbio.org.br/index.php/sbenbio/article/view/1347/497)
 
 <!-- Aqui começa o campo de respostas-->
 <details>
