@@ -1,8 +1,8 @@
 ---
-title: "Encontro 6"
+title: "Discurso reportado na escrita acadêmica"
 ---
 
-# Discurso reportado na escrita acadêmica
+# Roteiro
 
 Roteiro de aula elaborado no RStudio com o auxílio da inteligência artificial ChatGPT, revisado e avaliado pelo autor antes de sua publicação.
 
@@ -23,9 +23,9 @@ Ao final desta aula, espera-se que você seja capaz de:
 
 ## Introdução
 
-A escrita acadêmica exige *clareza*, *coerência* e, sobretudo, *rigor* na apresentação das fontes de informação. As normas de citação e referência — como as da ABNT[^aula_6-2] — garantem a padronização, a transparência e a credibilidade do trabalho científico.
+A escrita acadêmica exige *clareza*, *coerência* e, sobretudo, *rigor* na apresentação das fontes de informação. As normas de citação e referência — como as da ABNT[^aula_6-1] — garantem a padronização, a transparência e a credibilidade do trabalho científico.
 
-[^aula_6-2]: A NBR 10520 trata de citações em documentos; a NBR 6023 trata de referências.
+[^aula_6-1]: A NBR 10520 trata de citações em documentos; a NBR 6023 trata de referências.
 
 ### Glossário
 
@@ -61,9 +61,9 @@ SILVA, Dayane Cândido da; ROSA, Maria Izabella da Silva; FRANÇA, Suzane Bezerr
 
 ## Aprendizagem prática
 
-1.  Observe, no texto[^aula_6-3] abaixo, as marcas de discurso reportado. Responda: qual informação no texto é original, isto é, produzido pelo autor do texto?
+1.  Observe, no texto[^aula_6-2] abaixo, as marcas de discurso reportado. Responda: qual informação no texto é original, isto é, produzido pelo autor do texto?
 
-[^aula_6-3]: Texto totalmente inventado para os fins desta aula.
+[^aula_6-2]: Texto totalmente inventado para os fins desta aula.
 
 **Ao discutir os desafios da escrita acadêmica no ensino superior, Araújo e Farias (2025) destacam que** o maior obstáculo enfrentado pelos estudantes é a dificuldade de articular argumentos com base em fontes confiáveis, o que compromete a credibilidade de seus textos. **De modo semelhante, Czolpinski, Brito e Raupp (2024) observam que** muitos alunos ainda recorrem ao senso comum ou a fontes não verificadas, em vez de dialogar com autores reconhecidos da área. **É nesse sentido que Azevedo e Machado (2024) defendem** a necessidade de formar leitores críticos, capazes de interpretar e mobilizar o conhecimento científico de maneira ética e responsável. **Conforme afirmam Jaime e Leonel (2024, p. 12),** “a competência argumentativa não se desenvolve apenas pela leitura, mas pela prática constante de escrever em diálogo com outras vozes”. **Além disso, Silva, Rosa e França (2025) chamam a atenção para** o papel dos professores como mediadores desse processo, propondo atividades que estimulem o uso consciente de citações e a construção de um posicionamento autoral no texto acadêmico.
 
@@ -99,7 +99,7 @@ Marcar adequadamente o **discurso reportado** é essencial para:
 
 ```{=html}
 <figure style="text-align: center;">
-  <img src="/caminho/da/imagem.png" style="width:80%; display: block; margin: auto;" />
+  <img src="img/rede_conhecimento.png" style="width:80%; display: block; margin: auto;" />
   <figcaption><strong>Figura 1.</strong> Representação de uma rede de conhecimentos criada na plataforma Research Rabbit (https://www.researchrabbitapp.com).</figcaption>
 </figure>
 ```

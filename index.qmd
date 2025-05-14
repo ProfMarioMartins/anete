@@ -1,4 +1,21 @@
-# Programação {.unnumbered}
+---
+title: "Apresentação"
+author: "Mário Martins"
+format: html
+---
+
+```{=html}
+<script>
+  if (location.protocol !== 'file:' && location.hostname !== 'localhost') {
+    var senha = prompt("Digite a senha para acessar o conteúdo:");
+    if (senha !== "anete2025") {
+      document.body.innerHTML = "<h1>Acesso negado</h1>";
+    }
+  }
+</script>
+```
+
+# Programação
 
 ## Ementa
 

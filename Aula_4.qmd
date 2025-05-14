@@ -1,8 +1,8 @@
 ---
-title: "Encontro 4"
+title: "Argumentos de senso comum e senso crítico"
 ---
 
-# Argumentos de senso comum e senso crítico
+# Roteiro
 
 Roteiro de aula elaborado no RStudio com o auxílio da inteligência artificial ChatGPT, revisado e avaliado pelo autor antes de sua publicação.
 
@@ -24,9 +24,9 @@ Ao final deste encontro e com base na leitura indicada, espera-se que você seja
 
 ## Introdução
 
-Segundo Antônio Suárez Abreu, em seu livro "A arte de argumentar: gerenciando razão e emoção" (2012, p. 42[^aula_4-2]):
+Segundo Antônio Suárez Abreu, em seu livro "A arte de argumentar: gerenciando razão e emoção" (2012, p. 42[^aula_4-1]):
 
-[^aula_4-2]: ABREU, Antonio Suárez. A arte de argumentar: gerenciando razão e emoção. Cotia: Ateliê Editorial, 2001.
+[^aula_4-1]: ABREU, Antonio Suárez. A arte de argumentar: gerenciando razão e emoção. Cotia: Ateliê Editorial, 2001.
 
 > Argumentar (...) não é tentar provar o tempo todo que temos razão, impondo nossa vontade.
 
@@ -218,7 +218,7 @@ Analise com atenção a imagem abaixo, extraída de um contexto cotidiano. Ident
 
 <br/><br/>
 
-<img src="/Users/MarioMartins/Library/CloudStorage/GoogleDrive-mario.martins@ufersa.edu.br/Meu Drive/Disciplinas_em_R/ANETE/img/maes.png" style="width:80%; display: block; margin: auto;"/>
+<img src="img/maes.png" style="width:80%; display: block; margin: auto;"/>
 
 <!-- Aqui começa o campo de respostas-->
 
@@ -268,7 +268,7 @@ Essas habilidades — que envolvem atenção, memória, análise, síntese e inf
 
 Para exercitá-las, proponho um desafio linguístico que exigirá de você concentração, raciocínio lógico e uma boa dose de curiosidade. Em trios, resolvam a questão abaixo:
 
-<img src="/Users/MarioMartins/Library/CloudStorage/GoogleDrive-mario.martins@ufersa.edu.br/Meu Drive/Disciplinas_em_R/ANETE/img/pokepu_obl.png" style="width:120%; display: block; margin: auto;"/>
+<img src="img/pokepu_obl.png" style="width:120%; display: block; margin: auto;"/>
 
 <br/><br/>
 

@@ -1,11 +1,20 @@
 project:
   type: book
   output-dir: docs
+  
+language:
+  locale: pt
+  title-block-author-single: "Autor"
+  title-block-published: "Publicado em"
+  title-block-modified: "Atualizado em"
+  title-block-author-multiple: "Autores"
+  fig: "Figura"
+  tab: "Tabela"
+  eq: "Equação"
 
 book:
   title: "Análise e Expressão Textual"
   author: "Mário Martins"
-  date: "5/14/2025"
   chapters:
     - index.qmd
     - Aula_1.qmd
@@ -15,18 +24,36 @@ book:
     - Aula_5.qmd
     - Aula_6.qmd
     - Aula_7.qmd
-    - references.qmd
-    - summary.qmd
 
 bibliography: references.bib
 
 format:
   html:
     theme:
-      - cosmo
+      - cerulean
   pdf:
     documentclass: scrreprt
   epub:
     cover-image: cover.png
 
 editor: visual
+
+
+# Como Visualizar o Livro Localmente Antes de Publicar
+# 🟢 1. Renderize o Livro Localmente
+# No terminal do RStudio:
+# quarto render (no terminal)
+# 🟢 2. Pré-visualize o Livro Localmente
+# quarto preview docs (no terminal)
+
+
+
+# 📋 Roteiro Resumido de Atualizações Finais
+# Sempre que desejar atualizar o conteúdo do livro:
+#	1.	Edite seu .qmd normalmente no RStudio.
+#	2.	Renderize novamente:
+# quarto render (no terminal)
+# Envie ao GitHub:
+# git add .
+# git commit -m "Atualiza conteúdo do livro"
+# git push

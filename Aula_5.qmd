@@ -1,8 +1,8 @@
 ---
-title: "Encontro 5"
+title: "Discurso reportado. Gerenciamento de referências bibliográficas"
 ---
 
-# Discurso reportado. Gerenciamento de referências bibliográficas
+# Roteiro
 
 Roteiro de aula elaborado no RStudio com o auxílio da inteligência artificial ChatGPT, revisado e avaliado pelo autor antes de sua publicação.
 

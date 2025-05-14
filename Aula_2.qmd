@@ -1,8 +1,8 @@
 ---
-title: "Encontro 2"
+title: "Pensamento científico"
 ---
 
-# Pensamento científico
+# Roteiro
 
 Roteiro de aula elaborado no RStudio com o auxílio da inteligência artificial ChatGPT, revisado e avaliado pelo professor antes de sua publicação.
 
@@ -153,7 +153,7 @@ O que é a pensamento científico?
 <strong>Estátua da Virgem Maria em Trevignano Romano atrai fiéis após relatos de lágrimas de sangue</strong><br><br>
 <sub>Notícia criada para os fins desta aula</sub><br><br>
 
-<img src="/Users/MarioMartins/Library/CloudStorage/GoogleDrive-mario.martins@ufersa.edu.br/Meu Drive/Disciplinas_em_R/ANETE/img/santa.jpg"  alt="Virgem Maria"; style="width:60%;">
+<img src="img/santa.jpg"  alt="Virgem Maria"; style="width:60%;">
 
 <br><br>
 
@@ -251,7 +251,7 @@ Pilares do pensamento científico (para além da ciência)
 <strong>Uma reclamação de um cliente pode levar a uma descoberta</strong><br><br>
 <sub>Texto extraído do site do Comunidade Sebrae (https://sebraepr.com.br/comunidade/artigo/uma-reclamacao-de-um-cliente-pode-levar-a-uma-descoberta)</sub><br><br>
 
-<img src="/Users/MarioMartins/Library/CloudStorage/GoogleDrive-mario.martins@ufersa.edu.br/Meu Drive/Disciplinas_em_R/ANETE/img/sorvete.webp"  alt="Virgem Maria"; style="width:60%;">
+<img src="img/sorvete.webp"  alt="Virgem Maria"; style="width:60%;">
 
 <br><br>
 

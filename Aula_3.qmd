@@ -1,8 +1,8 @@
 ---
-title: "Encontro 3"
+title: "Opinião, fato e escrita acadêmica"
 ---
 
-# Opinião, fato e escrita acadêmica
+# Roteiro
 
 Roteiro de aula elaborado no RStudio com o auxílio da inteligência artificial ChatGPT, revisado e avaliado pelo professor antes de sua publicação.
 
@@ -67,10 +67,10 @@ O desenvolvimento do pensamento científico está intrinsecamente ligado ao **do
 ::: {style="background-color: navy; color: white; padding: 10px; border-radius: 5px; font-size: 25px; text-align: center;"}
 <strong>`r emo::ji("warning")` **Será?** `r emo::ji("warning")`
 
-<br/> <br/>"(...) não há informação pura, nem opinião girando no vazio."</strong> (Vieira; Faraco, 2019, p. 166)[^aula_3-2]
+<br/> <br/>"(...) não há informação pura, nem opinião girando no vazio."</strong> (Vieira; Faraco, 2019, p. 166)[^aula_3-1]
 :::
 
-[^aula_3-2]: VIEIRA, Francisco Eduardo; FARACO, Carlos Alberto. **Escrever na universidade** 2 - texto e discurso. São Paulo: Editora Parábola. 2019.
+[^aula_3-1]: VIEIRA, Francisco Eduardo; FARACO, Carlos Alberto. **Escrever na universidade** 2 - texto e discurso. São Paulo: Editora Parábola. 2019.
 
 <br/>
 
@@ -245,9 +245,9 @@ Segundo dados do Banco Central do Brasil (2009), em seis dos oito trimestres dos
 
 ### Questão 3
 
-Leia o texto abaixo e resolva as questões seguintes.[^aula_3-3]
+Leia o texto abaixo e resolva as questões seguintes.[^aula_3-2]
 
-[^aula_3-3]: Fonte: Instituto Claro https://www.institutoclaro.org.br/educacao/para-aprender/roteiros-de-estudo/estudar-em-casa-diferenca-entre-fato-e-opiniao/
+[^aula_3-2]: Fonte: Instituto Claro https://www.institutoclaro.org.br/educacao/para-aprender/roteiros-de-estudo/estudar-em-casa-diferenca-entre-fato-e-opiniao/
 
 ```{=html}
 <div id="quiz-container-2" style="margin-top: 20px;">
@@ -306,9 +306,9 @@ Leia o texto abaixo e resolva as questões seguintes.[^aula_3-3]
 
 ### Questão 4
 
-Leia as frases abaixo e assinale FATO ou OPINIÃO[^aula_3-4]
+Leia as frases abaixo e assinale FATO ou OPINIÃO[^aula_3-3]
 
-[^aula_3-4]: Fonte: Instituto Claro https://www.institutoclaro.org.br/educacao/para-aprender/roteiros-de-estudo/estudar-em-casa-diferenca-entre-fato-e-opiniao/
+[^aula_3-3]: Fonte: Instituto Claro https://www.institutoclaro.org.br/educacao/para-aprender/roteiros-de-estudo/estudar-em-casa-diferenca-entre-fato-e-opiniao/
 
 ```{=html}
 <div id="quiz-container-unique" style="margin-top: 20px;">
@@ -525,7 +525,7 @@ Você está presente?
 :::
 
 ```{=html}
-<img src="/Users/MarioMartins/Library/CloudStorage/GoogleDrive-mario.martins@ufersa.edu.br/Meu Drive/Disciplinas_em_R/ANETE/img/qr_anete_T01.png" 
+<img src="img/qr_anete_T01.png" 
      alt="Chamada" 
      style="width:60%; display: block; margin: 0 auto;">
 ```

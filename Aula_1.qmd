@@ -1,8 +1,8 @@
 ---
-title: "Encontro 1"
+title: "Sistema acadêmico brasileiro"
 ---
 
-# Sistema acadêmico brasileiro
+# Roteiro
 
 Roteiro de aula elaborado no RStudio com o auxílio da inteligência artificial ChatGPT, revisado e avaliado pelo professor antes de sua publicação.
 

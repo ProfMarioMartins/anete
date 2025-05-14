@@ -1,8 +1,6 @@
 ---
-title: "Encontro 7"
+title: "Fontes confiáveis de informação"
 ---
-
-# Fontes confiáveis de informação
 
 ## Objetivos de aprendizagem
 
@@ -80,36 +78,64 @@ Além disso, é fundamental conhecer os **diferentes tipos de bases de dados e f
 
 ## Aprendizagem prática
 
-Em grupos de **quatro pessoas**, acessem o **Portal de Periódicos da Capes** e localizem **um artigo científico publicado nos últimos cinco anos** que atenda aos seguintes critérios:
+Objetivos
 
--   **Publicado em um periódico classificado como Qualis A1 ou A2 da Capes**, conforme a área do conhecimento.
+-   Escolher, em equipe de quatro integrantes, um projeto de pesquisa da Ufersa como tema de estudo para a disciplina.
+-   Localizar artigos científicos confiáveis relacionados a esse projeto, utilizando o Portal de Periódicos da Capes.
 
--   **Publicado em periódico que adota sistema de avaliação cega (double-blind peer review)** e **dupla avaliação por pareceristas independentes**.
+::: {style="background-color:#222; color:#fff; padding: 1em; border-radius: 8px;"}
+⚠️**Importante**⚠️ O artigo escolhido servirá de base inicial para o seu plano de trabalho individual, que será avaliado ao final da disciplina.
+:::
 
--   **Disponível em texto completo no Portal da Capes**.
+### ✅ Etapa 1 - Escolha do tema da equipe
 
-Após a escolha do artigo, **levantem as seguintes informações sobre o periódico**:
+1.  Acessem os projetos de pesquisa em andamento na [Ufersa](https://sigaa.ufersa.edu.br/sigaa/public/pesquisa/consulta_projetos.jsf)
 
-**Título do periódico**.
+2.  Exploren, preferencialmente, os projetos do Departamento de Ciências Naturais, Matemática e Estatística (ou outro departamento de interesse da equipe).
 
-**Classificação Qualis (A1 ou A2) e área do conhecimento**.
+3.  Escolham um projeto que servirá de referência temática para os planos individuais dos membros da equipe.
 
-**Instituição, sociedade científica ou editora responsável pelo periódico**.
+4.  Anotem as seguintes informações:
 
-**Periodicidade de publicação** (mensal, trimestral, semestral etc.).
+-   Nome do projeto
+-   Nome do coordenador
+-   Descrição do projeto (copiado do sistema ou do site da UFERSA)
 
-**Sistema de avaliação adotado** (simples cega, dupla cega, aberta, etc.).
+### ✅ Etapa 2 - Busca por fontes confiáveis
 
-**Bases de indexação** (ex.: Scopus, Web of Science, etc.).
+1.  Acessem o Portal de Periódicos da Capes e localizem quatro artigos científicos (um para cada integrante da equipe) publicados nos últimos cinco anos que atendam aos seguintes critérios:
 
-**Link oficial do periódico**.
+-   Publicados em periódicos classificados como Qualis A1 ou A2 da Capes, conforme a área do conhecimento.
 
-Cada grupo deverá:
+-   Publicados em periódicos que adotam sistema de avaliação cega (double-blind peer review) e dupla avaliação por pareceristas independentes.
 
--   **Postar o resultado no Padlet da disciplina**, utilizando o seguinte formato:
+-   Disponíveis em texto completo no Portal da Capes.
 
-<div>
+2.  Após a escolha dos artigos, levantem as seguintes informações sobre os periódicos em que esses artigos estão publicados:
 
+::: {style="border: 1px solid #ddd; border-radius: 8px; padding: 1em; background-color: #f9f9f9; box-shadow: 2px 2px 5px rgba(0,0,0,0.1);"}
+**Título do periódico**
+
+**Classificação Qualis (A1 ou A2) e área do conhecimento**
+
+**Instituição, sociedade científica ou editora responsável pelo periódico**
+
+**Periodicidade de publicação** (mensal, trimestral, semestral etc.)
+
+**Sistema de avaliação adotado** (simples cega, dupla cega, aberta, etc.)
+
+**Bases de indexação** (ex.: Scopus, Web of Science, etc.)
+
+**Link oficial do periódico**
+:::
+
+<br/><br/>
+
+### ✅ Etapa 3 - Compartilhamento dos achados
+
+Cada integrante da equipe deve postar o resultado da sua escolha no Padlet da disciplina, utilizando o seguinte formato:
+
+::: {style="border: 1px solid #ddd; border-radius: 8px; padding: 1em; background-color: #f9f9f9; box-shadow: 2px 2px 5px rgba(0,0,0,0.1);"}
 **Artigo escolhido**
 
 -   Título do artigo: \[Título do artigo\]
@@ -124,7 +150,28 @@ Cada grupo deverá:
 -   Sistema de avaliação: \[Simples cega/Dupla cega/Outra\]
 -   Bases de indexação: \[Exemplo: Scopus, Web of Science, etc.\]
 -   Link oficial do periódico: \[URL\]
+:::
 
-</div>
+<br/><br/>
 
--   **Apresentar oralmente os achados para a turma**, em **até três minutos**, justificando por que o artigo e o periódico representam uma **fonte confiável** para a pesquisa científica, com base nos **critérios de autoridade, precisão, objetividade, cobertura e atualidade**.
+🔗 Acesse o Padlet da turma [aqui](https://padlet.com/mariomartins/anete-t01-b3r3eohs4gd7np8m)
+
+Você deve fazer login no Padlet para que a postagem seja identificada.
+
+<br/><br/>
+
+```{=html}
+<div class="padlet-slideshow-embed" style="width:720px;height:480px;"><p style="padding:0;margin:0;width:100%;height:100%"><iframe src="https://padlet.com/embed/b3r3eohs4gd7np8m/slideshow?autoplay=0&loop=0&duration=auto" frameborder="0" allow="clipboard-write" style="width:100%;height:100%;display:block;padding:0;margin:0"></iframe></p></div>
+```
+
+---
+
+::: destaque
+Você está presente?
+:::
+
+```{=html}
+<img src="img/qr_anete_T01.png" 
+     alt="Chamada" 
+     style="width:60%; display: block; margin: 0 auto;">
+```
