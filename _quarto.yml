@@ -1,0 +1,32 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "Análise e Expressão Textual"
+  author: "Mário Martins"
+  date: "5/14/2025"
+  chapters:
+    - index.qmd
+    - Aula_1.qmd
+    - Aula_2.qmd
+    - Aula_3.qmd
+    - Aula_4.qmd
+    - Aula_5.qmd
+    - Aula_6.qmd
+    - Aula_7.qmd
+    - references.qmd
+    - summary.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - cosmo
+  pdf:
+    documentclass: scrreprt
+  epub:
+    cover-image: cover.png
+
+editor: visual

@@ -1,0 +1,299 @@
+---
+title: "Encontro 2"
+---
+
+# Pensamento científico
+
+Roteiro de aula elaborado no RStudio com o auxílio da inteligência artificial ChatGPT, revisado e avaliado pelo professor antes de sua publicação.
+
+## Objetivos de aprendizagem
+
+Ao final deste encontro e com base na leitura indicada, espera-se que você seja capaz de:
+
+-   Reconhecer as características do pensamento científico, diferenciando-o de outras formas de pensar e compreender sua relevância na construção do saber universitário.
+
+::: {.section style="padding:1em; background-color:#F5F5F5; color:#000000;"}
+<em>Leitura indicada:</em> <br/> <strong>Think like a scientist: The power of a scientific mindset</strong>, postagem do blog <em>Ivory Embassy</em>, por Santiago Gisler.
+
+[Acesso à leitura indicada](https://ivoryembassy.com/scientific-mindset/)
+:::
+
+------------------------------------------------------------------------
+
+## Aprendizagem prática
+
+### Questão 1
+
+Você pensa cientificamente?
+
+```{=html}
+<div id="quiz-container" style="font-family: Arial, sans-serif; max-width: 800px; margin: auto;">
+  <p>Leia cada situação e escolha a alternativa que mais se aproxima do que você faria ou costuma fazer.</p>
+
+  <form id="quiz-form">
+    <ol>
+      <li>
+        Você observa que, no seu jardim, uma planta está crescendo mais devagar que as outras.<br>
+        <label><input type="radio" name="q1" value="0"> (A) Você ignora o fato, pois você é matemático.</label><br>
+        <label><input type="radio" name="q1" value="0"> (B) Você considera que é “azar” ou “alguma coisa no ar”.</label><br>
+        <label><input type="radio" name="q1" value="1"> (C) Você começa a observar as possíveis causas, tentando encontrar explicações.</label>
+      </li><br>
+
+      <li>
+        Você recebe uma notícia com dados sobre a economia que parecem catastróficas.<br>
+        <label><input type="radio" name="q2" value="0"> (A) Você compartilha imediatamente com seus colegas. É bom que todos saibam.</label><br>
+        <label><input type="radio" name="q2" value="0"> (B) Você confia na notícia porque veio de um canal que você costuma seguir.</label><br>
+        <label><input type="radio" name="q2" value="1"> (C) Você questiona a origem dos dados e busca descobrir como aquilo que está sendo noticiado aconteceu.</label>
+      </li><br>
+
+      <li>
+        Você ouve falar de um produto milagroso para aumentar a memória.<br>
+        <label><input type="radio" name="q3" value="0"> (A) Você compra sem pensar duas vezes.</label><br>
+        <label><input type="radio" name="q3" value="0"> (B) Você consulta opiniões de amigos próximos.</label><br>
+        <label><input type="radio" name="q3" value="1"> (C) Você pesquisa sobre o produto em estudos científicos e opiniões de especialistas.</label>
+      </li><br>
+
+      <li>
+        Ao tentar resolver um problema técnico, como configurar uma impressora em rede, você encontra várias hipóteses.<br>
+        <label><input type="radio" name="q4" value="0"> (A) Você escolhe a que explica o problema mais rapidamente. Não vale a pena descobrir mais nada.</label><br>
+        <label><input type="radio" name="q4" value="0"> (B) Você segue sua intuição apenas.</label><br>
+        <label><input type="radio" name="q4" value="1"> (C) Você analisa as opções e elimina as menos prováveis com base em dados e fatos.</label>
+      </li><br>
+
+      <li>
+        Um conhecido propõe um investimento com retorno garantido em poucos dias.<br>
+        <label><input type="radio" name="q5" value="0"> (A) Você aceita rapidamente para não perder a chance.</label><br>
+        <label><input type="radio" name="q5" value="0"> (B) Você pergunta a outros conhecidos se já ouviram falar.</label><br>
+        <label><input type="radio" name="q5" value="1"> (C) Você questiona os riscos e busca evidências concretas de eficácia.</label>
+      </li><br>
+
+      <li>
+        Você nota que alunos que usam fone de ouvido no dia a dia vão melhor nas provas.<br>
+        <label><input type="radio" name="q6" value="0"> (A) Você conclui que o fone de ouvido melhora a inteligência.</label><br>
+        <label><input type="radio" name="q6" value="0"> (B) Você pensa que é apenas coincidência.</label><br>
+        <label><input type="radio" name="q6" value="1"> (C) Você considera que pode haver outro fator influente relacionado ao fone de ouvido.</label>
+      </li><br>
+
+      <li>
+        Você descobre um método de estudo bem diferente do seu.<br>
+        <label><input type="radio" name="q7" value="0"> (A) Você recusa-se a tentar porque “sempre estudou de outro jeito”.</label><br>
+        <label><input type="radio" name="q7" value="0"> (B) Você ccha curioso, mas prefere não mudar nada.</label><br>
+        <label><input type="radio" name="q7" value="1"> (C) Você avalia o método e considera testá-lo.</label>
+      </li><br>
+
+      <li>
+        Você defende uma dieta há anos, mas novos estudos mostram riscos ao fígado.<br>
+        <label><input type="radio" name="q8" value="0"> (A) Você ignora os estudos porque já fez sua escolha.</label><br>
+        <label><input type="radio" name="q8" value="0"> (B) Você acha que todo estudo tem problema.</label><br>
+        <label><input type="radio" name="q8" value="1"> (C) Você lê os estudos, pondera e ajusta suas recomendações.</label>
+      </li><br>
+
+      <li>
+        Você apresenta um projeto e recebe críticas construtivas.<br>
+        <label><input type="radio" name="q9" value="0"> (A) Você fica na defensiva e descarta as sugestões.</label><br>
+        <label><input type="radio" name="q9" value="0"> (B) Você aceita parcialmente, mas mantém quase tudo.</label><br>
+        <label><input type="radio" name="q9" value="1"> (C) Você analisa os comentários e faz ajustes para melhorar.</label>
+      </li><br>
+
+      <li>
+        Você conclui uma experiência com resultados positivos.<br>
+        <label><input type="radio" name="q10" value="0"> (A) Você fica satisfeito e guarda para si, porque não quer que roubem sua ideia.</label><br>
+        <label><input type="radio" name="q10" value="0"> (B) Você publica nas redes sociais, mas não explica como fez, porque não quer que roubem sua ideia.</label><br>
+        <label><input type="radio" name="q10" value="1"> (C) Você documenta os dados e o método de pesquisa e compartilha-os com as pessoas interessadas no fenômeno que você está estudando.</label>
+      </li>
+    </ol>
+
+    <button type="button" onclick="calculateScore()">Ver meu resultado</button>
+  </form>
+
+  <div id="result" style="margin-top: 20px; font-weight: bold;"></div>
+</div>
+
+<script>
+function calculateScore() {
+  var form = document.getElementById('quiz-form');
+  var inputs = form.querySelectorAll('input[type="radio"]:checked');
+  var score = 0;
+  inputs.forEach(input => {
+    score += parseInt(input.value);
+  });
+
+  let message = "";
+  if (score === 10) {
+    message = "Parabéns! Você demonstra um pensamento científico exemplar.";
+  } else if (score >= 7) {
+    message = "Muito bom! Você tem uma forte inclinação científica.";
+  } else if (score >= 4) {
+    message = "Você demonstra algumas atitudes científicas, mas há espaço para desenvolver mais.";
+  } else {
+    message = "Vamos trabalhar juntos para fortalecer seu pensamento científico!";
+  }
+
+  document.getElementById('result').innerHTML = `Você acertou <strong>${score} de 10</strong>.<br>${message}`;
+}
+</script>
+```
+
+<hr style="border: none; border-top: 3px dashed #bbb; margin: 3em 0;">
+
+### Questão 2
+
+O que é a pensamento científico?
+
+> O pensamento científico é um estilo de pensamento que incentiva a análise crítica e o ceticismo na abordagem de situações e problemas.
+
+> O pensamento científico promove o questionamento de suposições e a avaliação objetiva de ideias, visando uma compreensão mais próxima da verdade, na medida do possível.
+
+> Por meio do uso de evidências e do raciocínio lógico, é possível interpretar melhor o mundo ao redor, tomar decisões fundamentadas e encontrar soluções para desafios.
+
+```{=html}
+
+<div style="border: 1px solid #ccc; padding: 1em; background-color: #f9f9f9; border-radius: 5px; margin-bottom: 1em;">
+
+<strong>Estátua da Virgem Maria em Trevignano Romano atrai fiéis após relatos de lágrimas de sangue</strong><br><br>
+<sub>Notícia criada para os fins desta aula</sub><br><br>
+
+<img src="/Users/MarioMartins/Library/CloudStorage/GoogleDrive-mario.martins@ufersa.edu.br/Meu Drive/Disciplinas_em_R/ANETE/img/santa.jpg"  alt="Virgem Maria"; style="width:60%;">
+
+<br><br>
+
+Desde 2016, a pequena cidade de Trevignano Romano, localizada às margens do Lago de Bracciano, na Itália, tornou-se um centro de peregrinação religiosa devido a relatos de que uma estátua da Virgem Maria estaria chorando lágrimas de sangue. A proprietária da imagem, Gisella Cardia, afirma ter testemunhado o fenômeno após uma viagem a Medjugorje, na Bósnia-Herzegovina, e desde então, organiza encontros mensais de oração no local.<br><br>
+
+Os eventos ocorrem no dia 3 de cada mês, reunindo centenas de fiéis que participam de orações e aguardam possíveis mensagens atribuídas à Virgem Maria. Além das supostas lágrimas, há relatos de outras manifestações, como a multiplicação de alimentos e a emissão de óleos perfumados pela estátua.<br><br>
+
+A Diocese de Civita Castellana, à qual Trevignano pertence, instaurou uma comissão para investigar a autenticidade dos fenômenos. Em março de 2023, o bispo Marco Salvi anunciou a formação de uma equipe para conduzir uma “investigação prévia” sobre os eventos, buscando esclarecer se há fundamentos sobrenaturais nas ocorrências relatadas.<br><br>
+
+Enquanto isso, as autoridades civis também monitoram a situação, considerando o crescente número de visitantes e o impacto na infraestrutura local. A prefeitura de Trevignano Romano tem colaborado com as investigações e buscado garantir a segurança e o bem-estar dos moradores e peregrinos.<br><br>
+
+O caso continua a gerar debates entre crentes e céticos, sendo acompanhado de perto tanto pela comunidade religiosa quanto pela imprensa internacional.<br><br>
+
+<div style="background-color: navy; color: white; padding: 10px; border-radius: 5px; font-size: 40px; text-align: center;">
+  <strong>Pensando cientificamente, como abordar o fato?</strong>
+</div>
+
+</div>
+```
+
+<!-- Aqui começa o campo de respostas-->
+
+<details>
+
+<summary>
+
+</summary>
+
+::: {style="width: 100%; background-color:#ADD8E6; font-size: 14px; line-height: 1.5;"}
+[Teste de DNA resolve enigma de estátua que chorava sangue](https://www.dw.com/pt-br/teste-de-dna-resolve-enigma-de-virgem-maria-que-chorava-sangue/a-71703557)
+:::
+
+</details>
+
+</pre>
+
+<!-- Aqui encerra o campo de respostas-->
+
+### Questão 3
+
+O que é fundamental no pensamento científico?
+
+> Um elemento fundamental no pensamento científico é o uso do método científico.
+
+> O método científico auxilia na aquisição de conhecimento por meio da observação e da experiência (de forma empírica).
+
+> O método científico organiza o processo pelo qual cientistas – e não-cientistas – chegam a conclusões.
+
+### Questão 4
+
+Passo a passo do método científico (em síntese):
+
+• Observar um fenômeno e formular uma pergunta<br> • Realizar pesquisas e reunir informações<br> • Formular uma hipótese<br> • Testar essa hipótese<br> • Apresentar os resultados, debater e aperfeiçoar o entendimento do fenômeno
+
+### Questão 5
+
+Pilares do pensamento científico (para além da ciência)
+
+-   [ ] **Demonstrar curiosidade:**\
+    *Exemplo:* Um estudante de biologia que, ao observar uma planta com folhas amarelas, começa a se perguntar: “Por que essa planta tem uma coloração diferente das outras? Será falta de nutrientes, excesso de sol, ou alguma doença?”
+
+-   [ ] **Questionar pressupostos:**\
+    *Exemplo:* Um jornalista investigativo que, ao receber um dado oficial, questiona: “Será que esses números foram coletados corretamente? Quem financiou a pesquisa? Existe algum conflito de interesse?”
+
+-   [ ] **Buscar evidências:**\
+    *Exemplo:* Um consumidor que lê avaliações de múltiplos sites e compara estudos antes de comprar um produto que alega ser ecológico.
+
+-   [ ] **Aplicar lógica e raciocínio:**\
+    *Exemplo:* Um médico que, ao interpretar exames laboratoriais, descarta hipóteses menos prováveis com base nos padrões observados nos resultados.
+
+-   [ ] **Adotar ceticismo saudável:**\
+    *Exemplo:* Um economista que, ao ouvir que um novo investimento promete lucros altíssimos em pouco tempo, questiona: “Quais são os riscos? Existe alguma evidência de que outros investidores tiveram sucesso semelhante?”
+
+-   [ ] **Considerar explicações alternativas:**\
+    *Exemplo:* Um pesquisador que, ao encontrar uma correlação entre duas variáveis, pensa: “Será que é uma relação causal direta? Ou pode haver um terceiro fator influenciando ambas?”
+
+-   [ ] **Estar aberto a novas ideias:**\
+    *Exemplo:* Um professor que, ao descobrir um método de ensino inovador, considera aplicá-lo em suas aulas, mesmo que isso signifique mudar abordagens tradicionais.
+
+-   [ ] **Refletir sobre suas próprias crenças:**\
+    *Exemplo:* Um defensor de uma dieta específica que, ao encontrar novos estudos que contradizem suas crenças, analisa esses dados e ajusta suas recomendações.
+
+-   [ ] **Buscar feedback e aprender com os erros:**\
+    *Exemplo:* Um engenheiro que compartilha seu projeto com colegas, recebe críticas sobre a estrutura, faz alterações e apresenta um produto final mais eficiente.
+
+-   [ ] **Valorizar a replicabilidade e a objetividade:**\
+    *Exemplo:* Um cientista que publica os dados brutos de seu experimento e descreve os procedimentos em detalhes, permitindo que outros pesquisadores tentem reproduzir os mesmos resultados.
+
+------------------------------------------------------------------------
+
+```{=html}
+
+<div style="border: 1px solid #ccc; padding: 1em; background-color: #f9f9f9; border-radius: 5px; margin-bottom: 1em;">
+
+<strong>Uma reclamação de um cliente pode levar a uma descoberta</strong><br><br>
+<sub>Texto extraído do site do Comunidade Sebrae (https://sebraepr.com.br/comunidade/artigo/uma-reclamacao-de-um-cliente-pode-levar-a-uma-descoberta)</sub><br><br>
+
+<img src="/Users/MarioMartins/Library/CloudStorage/GoogleDrive-mario.martins@ufersa.edu.br/Meu Drive/Disciplinas_em_R/ANETE/img/sorvete.webp"  alt="Virgem Maria"; style="width:60%;">
+
+<br><br>
+
+Esta história começa quando o gerente da divisão de carros da Pontiac, da General Motors dos Estados Unidos, recebeu uma curiosa carta de reclamação de um cliente. Eis o que ele escreveu:<br><br>
+
+"Esta é a segunda vez que mando uma carta para vocês, e não os culpo por não responder. Eu posso parecer louco, mas o fato é que nós temos uma tradição em nossa família, que é a de tomar sorvete depois do jantar.<br><br>
+
+Repetimos este hábito todas às noites, variando apenas o tipo do sorvete, e eu sou o encarregado de ir comprá-lo. Recentemente comprei um novo Pontiac e, desde então, minhas idas à sorveteria se transformaram num problema.<br><br>
+
+Sempre que eu compro sorvete de baunilha, o carro não funciona, mas, se compro qualquer outro tipo de sorvete, o carro funciona normalmente. O fato é que estou muito irritado com meu Pontiac."<br><br>
+
+A carta gerou tantas piadas do pessoal da GM que o presidente da empresa acabou recebendo uma cópia da reclamação. Ele resolveu levar a sério e mandou um engenheiro conversar com o autor da carta. Então, foram juntos à sorveteria no fatídico Pontiac, onde o engenheiro sugeriu sabor baunilha para testar a reclamação e o carro efetivamente não funcionou.<br><br>
+
+<div style="background-color: navy; color: white; padding: 10px; border-radius: 5px; font-size: 40px; text-align: center;">
+  <strong>Pensando cientificamente, como abordar o fato?</strong>
+</div>
+```
+
+<!-- Aqui começa o campo de respostas-->
+
+<details>
+
+<summary>
+
+</summary>
+
+::: {style="width: 100%; background-color:#ADD8E6; font-size: 14px; line-height: 1.5;"}
+O funcionário da GM voltou nos dias seguintes e só variou o sabor do sorvete. Mais uma vez, o carro só não pegava quando o sabor escolhido era baunilha.
+
+O problema acabou virando uma obsessão para o engenheiro, que fez experiências diárias, anotou todos os detalhes possíveis e, depois de duas semanas, chegou à primeira grande descoberta: quando escolhia baunilha, o comprador gastava menos tempo, porque não precisava ficar escolhendo o tipo de sorvete.
+
+Examinando o carro, o engenheiro fez nova descoberta: com o tempo de compra reduzido no caso da baunilha, em comparação com o tempo dos outros sabores, o motor não chegava a esfriar. Com isso, os vapores de combustível não se dissipavam, impedindo que a nova partida fosse instantânea.
+
+A partir deste episódio, a Pontiac mudou o sistema de alimentação de combustível e introduziu a alteração em todos os modelos a partir desta linha.
+
+Mais que isso, o autor da reclamação ganhou um carro novo, além da reforma do que não pegava com sorvete de baunilha.
+
+A GM distribuiu também um memorando interno, exigindo que seus funcionários levem a sério até as 'reclamações mais estapafúrdias, porque pode ser que uma grande inovação esteja por trás de um sorvete de baunilha' diz a carta da GM.
+:::
+
+</details>
+
+</pre>
+
+<!-- Aqui encerra o campo de respostas-->

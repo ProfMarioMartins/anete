@@ -1,0 +1,69 @@
+{
+    "sources": [
+        {
+            "DOI": "10.1093/comjnl/27.2.97",
+            "ISSN": "0010-4620",
+            "URL": "https://doi.org/10.1093/comjnl/27.2.97",
+            "author": [
+                {
+                    "family": "Knuth",
+                    "given": "Donald E."
+                }
+            ],
+            "container-title": "Comput. J.",
+            "id": "knuth84",
+            "issue": "2",
+            "issued": {
+                "date-parts": [
+                    [
+                        1984,
+                        5
+                    ]
+                ]
+            },
+            "page": "97-111",
+            "publisher": "Oxford University Press, Inc.",
+            "publisher-place": "USA",
+            "title": "Literate programming",
+            "type": "article-journal",
+            "volume": "27"
+        },
+        {
+            "URL": "https://bookshelf.vitalsource.com/books/9788533500228",
+            "author": [
+                {
+                    "dropping-particle": "de",
+                    "family": "Castro",
+                    "given": "Nádia Studzinski Estima"
+                },
+                {
+                    "family": "Bizzelo",
+                    "given": "Aline"
+                },
+                {
+                    "family": "Nunes",
+                    "given": "Karina da Silva"
+                },
+                {
+                    "family": "Cremonese",
+                    "given": "Lia Emília"
+                }
+            ],
+            "id": "castro2019",
+            "issued": {
+                "date-parts": [
+                    [
+                        2019
+                    ]
+                ]
+            },
+            "publisher": "Sagah",
+            "publisher-place": "Porto Alegre",
+            "title": "Leitura e escrita acadêmicas",
+            "type": "book"
+        }
+    ],
+    "project_biblios": [
+        "references.bib"
+    ]
+}

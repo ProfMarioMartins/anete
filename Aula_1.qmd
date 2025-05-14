@@ -1,0 +1,203 @@
+---
+title: "Encontro 1"
+---
+
+# Sistema acadêmico brasileiro
+
+Roteiro de aula elaborado no RStudio com o auxílio da inteligência artificial ChatGPT, revisado e avaliado pelo professor antes de sua publicação.
+
+## Objetivo de aprendizagem
+
+Ao final deste encontro, e com base na leitura indicada, espera-se que você seja capaz de:
+
+-   Identificar a proposta e a organização da disciplina Análise e Expressão Textual (Anete), reconhecendo seus objetivos, estrutura em unidades e formas de avaliação;
+-   Compreender a organização do sistema acadêmico brasileiro, identificando suas principais instâncias, normas e formas de produção do conhecimento, especialmente os gêneros textuais acadêmicos;
+-   Participar de um diagnóstico inicial de competência textual, visando à identificação de conhecimentos prévios e dificuldades na produção escrita em contexto universitário.
+
+::: {.section style="padding:1em; background-color:#F5F5F5; color:#000000;"}
+*Leitura indicada:*\
+**Entendendo a organização do sistema acadêmico brasileiro**, capítulo do livro *Guia do trabalho científico: do projeto à redação final*, de Celso Ferrarezi Jr.
+
+[Acesso à leitura indicada](vbk://9788572447638/epubcfi/6/14%5B%3Bvnd.vst.idref%3Dcap1.xhtml%5D)
+:::
+
+------------------------------------------------------------------------
+
+## Aprendizagem prática
+
+### Questão 1
+
+Como se organiza o sistema acadêmico brasileiro?
+
+```{=html}
+<div style="border: 1px solid #ccc; padding: 1em; background-color: #f9f9f9; border-radius: 5px; margin-bottom: 1em;">
+  <strong>Orientações:</strong><br/>
+  A seguir, há um quiz com perguntas únicas, cada uma com quatro alternativas. Você terá <strong>1 minuto e 30 segundos</strong> para responder cada uma. O tempo será contado automaticamente e, ao final, você receberá um feedback imediato. Após responder, clique no botão <em>Próxima Pergunta</em> para avançar. <strong>Formem duplas para debater cada pergunta.</strong><br/>
+</div>
+
+<button onclick="iniciarQuiz()">Iniciar Quiz</button>
+
+<div id="quiz-container" style="display: none; margin-top: 20px;">
+
+  <div class="pergunta" id="pergunta1">
+    <p><strong>1. Qual grau acadêmico será conferido a você ao concluir a graduação no sistema de ensino superior brasileiro?</strong></p>
+    <form>
+      <input type="radio" name="q1" value="a"> A) Mestre<br>
+      <input type="radio" name="q1" value="b"> B) Doutor<br>
+      <input type="radio" name="q1" value="c"> C) Bacharel<br>
+      <input type="radio" name="q1" value="d"> D) Especialista<br><br>
+      <button type="button" onclick="checkResposta(1, 'c')">Responder</button>
+    </form>
+    <p id="feedback1"></p>
+    <p id="timer1" style="font-weight: bold;"></p>
+    <button id="proxima1" style="display:none;" onclick="proximaPergunta(2)">Próxima Pergunta</button>
+  </div>
+
+  <div class="pergunta" id="pergunta3" style="display: none;">
+    <p><strong>2. Qual a duração mínima de um curso de especialização no Brasil?</strong></p>
+    <form>
+      <input type="radio" name="q2" value="a"> A) 180 horas<br>
+      <input type="radio" name="q2" value="b"> B) 360 horas<br>
+      <input type="radio" name="q2" value="c"> C) 24 meses<br>
+      <input type="radio" name="q2" value="d"> D) 48 meses<br><br>
+      <button type="button" onclick="checkResposta(2, 'b')">Responder</button>
+    </form>
+    <p id="feedback3"></p>
+    <p id="timer3" style="font-weight: bold;"></p>
+    <button id="proxima3" style="display:none;" onclick="proximaPergunta(4)">Próxima Pergunta</button>
+  </div>
+
+  <div class="pergunta" id="pergunta4" style="display: none;">
+    <p><strong>3. Qual dos seguintes requisitos é geralmente exigido para ingressar em um programa de mestrado no Brasil?</strong></p>
+    <form>
+      <input type="radio" name="q3" value="a"> A) Aprovação em prova de proficiência em três línguas estrangeiras.<br>
+      <input type="radio" name="q3" value="b"> B) Apresentação de uma tese doutoral inédita.<br>
+      <input type="radio" name="q3" value="c"> C) Apresentação de projeto de pesquisa.<br>
+      <input type="radio" name="q3" value="d"> D) Já possuir o título de doutor.<br><br>
+      <button type="button" onclick="checkResposta(3, 'c')">Responder</button>
+    </form>
+    <p id="feedback4"></p>
+    <p id="timer4" style="font-weight: bold;"></p>
+    <button id="proxima4" style="display:none;" onclick="proximaPergunta(5)">Próxima Pergunta</button>
+  </div>
+
+  <div class="pergunta" id="pergunta6" style="display: none;">
+    <p><strong>4. No sistema brasileiro de ensino superior, o título de PhD é:</strong></p>
+    <form>
+      <input type="radio" name="q4" value="a"> A) Um grau acadêmico superior ao doutorado.<br>
+      <input type="radio" name="q4" value="b"> B) O título correspondente ao grau de doutor no sistema norte-americano.<br>
+      <input type="radio" name="q4" value="c"> C) Equivalente a um curso de pós-doutorado.<br>
+      <input type="radio" name="q4" value="d"> D) Um tipo de curso de pós-graduação <em>lato sensu</em>.<br><br>
+      <button type="button" onclick="checkResposta(4, 'b')">Responder</button>
+    </form>
+    <p id="feedback6"></p>
+    <p id="timer6" style="font-weight: bold;"></p>
+    <button id="proxima6" style="display:none;" onclick="proximaPergunta(7)">Próxima Pergunta</button>
+  </div>
+
+  <div class="pergunta" id="pergunta9" style="display: none;">
+    <p><strong>5. Cursar uma pós-graduação <em>stricto sensu</em> em uma universidade estrangeira é sempre a melhor opção?</strong></p>
+    <form>
+      <input type="radio" name="q5" value="a"> A) Sim. As universidades estrangeiras possuem um nível de exigência maior do que as brasileiras.<br>
+      <input type="radio" name="q5" value="b"> B) Sim, Diplomas estrangeiros são mais valorizados no mercado de trabalho brasileiro.<br>
+      <input type="radio" name="q5" value="c"> C) Não. Muitas universidades brasileiras possuem programas de alta qualidade.<br>
+      <input type="radio" name="q5" value="d"> D) Não. Somente universidades brasileiras têm diplomas reconhecidos no Brasil.<br><br>
+      <button type="button" onclick="checkResposta(5, 'c')">Responder</button>
+    </form>
+    <p id="feedback9"></p>
+    <p id="timer9" style="font-weight: bold;"></p>
+    <button id="proxima9" style="display:none;" onclick="proximaPergunta(10)">Próxima Pergunta</button>
+  </div>
+
+  <div class="pergunta" id="pergunta17" style="display: none;">
+    <p><strong>6. A defesa de dissertação é um requisito para a conclusão de qual nível de ensino superior no Brasil?</strong></p>
+    <form>
+      <input type="radio" name="q6" value="a"> A) Doutorado<br>
+      <input type="radio" name="q6" value="b"> B) Especialização<br>
+      <input type="radio" name="q6" value="c"> C) Mestrado<br>
+      <input type="radio" name="q6" value="d"> D) Graduação<br><br>
+      <button type="button" onclick="checkResposta(6, 'c')">Responder</button>
+    </form>
+    <p id="feedback17"></p>
+    <p id="timer17" style="font-weight: bold;"></p>
+    <!-- Nenhum botão de "Próxima Pergunta" aqui por ser a última -->
+  </div>
+
+</div>
+
+<p id="resultadoFinal" style="font-weight: bold; color: darkgreen;"></p>
+
+<div id="mensagem-final" style="display: none; text-align: center; margin-top: 30px;">
+  <h3>🎉 Parabéns! Você concluiu o quiz!</h3>
+  <p>Agora você conhece melhor a estrutura do sistema acadêmico brasileiro.</p>
+</div>
+
+<script>
+  let tempo = 60;
+  let timer;
+  let acertos = 0;
+
+  function iniciarQuiz() {
+    document.getElementById("quiz-container").style.display = "block";
+    document.querySelector("button[onclick='iniciarQuiz()']").style.display = "none";
+    iniciarTimer("timer1", 1);
+  }
+
+  function iniciarTimer(timerId, num) {
+    tempo = 90;
+    clearInterval(timer);
+    timer = setInterval(function () {
+      document.getElementById(timerId).innerText = "⏳ Tempo restante: " + tempo + " segundos";
+      tempo--;
+      if (tempo < 0) {
+        clearInterval(timer);
+        document.getElementById("feedback" + num).innerText = "⏰ Tempo esgotado!";
+        desativarOpcoes("q" + num);
+        mostrarProximo(num);
+      }
+    }, 1000);
+  }
+
+  function desativarOpcoes(name) {
+    const radios = document.getElementsByName(name);
+    radios.forEach(r => r.disabled = true);
+  }
+
+  function checkResposta(num, correta) {
+    clearInterval(timer);
+    const selecionada = document.querySelector('input[name="q' + num + '"]:checked');
+    const feedback = document.getElementById("feedback" + num);
+    if (!selecionada) {
+      feedback.innerText = "Por favor, selecione uma alternativa.";
+      return;
+    }
+    desativarOpcoes("q" + num);
+    if (selecionada.value === correta) {
+      feedback.innerText = "✅ Correto!";
+      acertos++;
+    } else {
+      feedback.innerText = "❌ Incorreto. A resposta correta era: " + correta.toUpperCase() + ")";
+    }
+    mostrarProximo(num);
+  }
+
+  function mostrarProximo(num) {
+    const botaoProximo = document.getElementById("proxima" + num);
+    if (botaoProximo) {
+      botaoProximo.style.display = "inline";
+    }
+
+    // Mostrar total de acertos ao final do quiz
+    if (num === 6) {
+      const resultado = document.getElementById("resultadoFinal");
+      resultado.innerText = "🎉 Quiz concluído! Você acertou " + acertos + " de 6 questões.";
+    }
+  }
+
+  function proximaPergunta(num) {
+    document.querySelectorAll(".pergunta").forEach(p => p.style.display = "none");
+    document.getElementById("pergunta" + num).style.display = "block";
+    iniciarTimer("timer" + num, num);
+  }
+</script>
+```
