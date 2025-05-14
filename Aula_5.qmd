@@ -2,8 +2,6 @@
 title: "Discurso reportado. Gerenciamento de referências bibliográficas"
 ---
 
-# Roteiro
-
 Roteiro de aula elaborado no RStudio com o auxílio da inteligência artificial ChatGPT, revisado e avaliado pelo autor antes de sua publicação.
 
 ## Objetivos de aprendizagem
@@ -300,3 +298,9 @@ Verifique se suas coleções e itens estão sincronizados.
 ### Para saber mais
 
 Documentação oficial: https://www.zotero.org/support/
+
+```{=html}
+<div style="position: absolute; top: 10px; left: 10px;">
+  <img src="img/capa_anete.png" alt="Logo ANETE" style="height: 60px;">
+</div>
+```

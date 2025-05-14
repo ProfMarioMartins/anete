@@ -8,7 +8,7 @@ Ao final desta aula, espera-se que você seja capaz de:
 
 -   Identificar fontes de informação confiáveis no meio acadêmico e as características que as tornam confiáveis.
 
--   Descrever como os artigos científicos são distribuídos em bases acadêmicas e bases livres.
+-   Reconhecer como os artigos científicos são distribuídos em bases acadêmicas e bases livres.
 
 -   Aplicar estratégias de busca de artigos científicos em bases de dados.
 
@@ -91,15 +91,27 @@ Objetivos
 
 1.  Acessem os projetos de pesquisa em andamento na [Ufersa](https://sigaa.ufersa.edu.br/sigaa/public/pesquisa/consulta_projetos.jsf)
 
-2.  Exploren, preferencialmente, os projetos do Departamento de Ciências Naturais, Matemática e Estatística (ou outro departamento de interesse da equipe).
+2.  Explorem, preferencialmente, os projetos do Departamento de Ciências Naturais, Matemática e Estatística (ou outro departamento de interesse da equipe).
 
 3.  Escolham um projeto que servirá de referência temática para os planos individuais dos membros da equipe.
 
 4.  Anotem as seguintes informações:
 
--   Nome do projeto
--   Nome do coordenador
--   Descrição do projeto (copiado do sistema ou do site da UFERSA)
+::: {style="border: 1px solid #ddd; border-radius: 8px; padding: 1em; background-color: #f9f9f9; box-shadow: 2px 2px 5px rgba(0,0,0,0.1);"}
+
+**Nome do projeto**
+
+**Nome do coordenador**
+
+**Objetivo da pesquisa**
+
+**Métodos de pesquisa**
+
+**Palavras-chave**
+
+:::
+
+<br/><br/>
 
 ### ✅ Etapa 2 - Busca por fontes confiáveis
 
@@ -110,6 +122,41 @@ Objetivos
 -   Publicados em periódicos que adotam sistema de avaliação cega (double-blind peer review) e dupla avaliação por pareceristas independentes.
 
 -   Disponíveis em texto completo no Portal da Capes.
+
+<br/><br/>
+
+<div style="background-color:#001f3f; color:#ffffff; padding: 1.5em; border-radius: 8px; font-size: 1.1em; line-height: 1.6;">
+
+**🔎 Como consultar a classificação Qualis de um periódico?**
+
+O **Qualis Periódicos** é o sistema utilizado pela **Capes** para classificar os periódicos científicos segundo critérios de qualidade estabelecidos pelas áreas de avaliação da pós-graduação brasileira. Essa classificação varia por área e por estrato, sendo **A1** o nível mais alto.
+
+📝 Passo a passo
+
+1. **Acesse a Plataforma Sucupira da Capes**  
+   [https://sucupira.capes.gov.br](https://sucupira.capes.gov.br)
+
+2. **No menu principal, clique em**  
+   `Consultas > Coleta > Qualis > Consulta Geral de Periódicos`
+
+3. **Na página que abrir:**
+   - Informe o **nome do periódico** ou o **ISSN** (se souber).
+   - Selecione a **área de avaliação** (exemplo: Ensino, Física, Educação).
+   - Informe o **Ano da Avaliação** (utilize a última disponível, geralmente 2017-2020).
+   - Clique em **"Pesquisar"**.
+
+4. **Verifique os resultados:**
+   - O sistema exibirá o periódico com a respectiva **classificação Qualis** para a área e o ano selecionados.
+   - ⚠️ Um mesmo periódico pode ter classificações diferentes em áreas distintas.
+
+📌 Importante
+
+- Verifique sempre a **área correta**, relacionada ao seu projeto ou tema de estudo.
+- Prefira periódicos classificados como **A1 ou A2**, que indicam alta qualidade segundo os critérios da Capes.
+
+</div>
+
+<br/><br/>
 
 2.  Após a escolha dos artigos, levantem as seguintes informações sobre os periódicos em que esses artigos estão publicados:
 
@@ -164,14 +211,8 @@ Você deve fazer login no Padlet para que a postagem seja identificada.
 <div class="padlet-slideshow-embed" style="width:720px;height:480px;"><p style="padding:0;margin:0;width:100%;height:100%"><iframe src="https://padlet.com/embed/b3r3eohs4gd7np8m/slideshow?autoplay=0&loop=0&duration=auto" frameborder="0" allow="clipboard-write" style="width:100%;height:100%;display:block;padding:0;margin:0"></iframe></p></div>
 ```
 
----
-
-::: destaque
-Você está presente?
-:::
-
 ```{=html}
-<img src="img/qr_anete_T01.png" 
-     alt="Chamada" 
-     style="width:60%; display: block; margin: 0 auto;">
+<div style="position: absolute; top: 10px; left: 10px;">
+  <img src="img/capa_anete.png" alt="Logo ANETE" style="height: 60px;">
+</div>
 ```

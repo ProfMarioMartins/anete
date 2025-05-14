@@ -17,13 +17,21 @@ book:
   author: "Mário Martins"
   chapters:
     - index.qmd
-    - Aula_1.qmd
-    - Aula_2.qmd
-    - Aula_3.qmd
-    - Aula_4.qmd
-    - Aula_5.qmd
-    - Aula_6.qmd
-    - Aula_7.qmd
+    - part: "Unidade I: O mundo acadêmico e o fazer científico"
+      chapters:
+      - Aula_1.qmd
+      - Aula_2.qmd
+      - Aula_3.qmd
+      - Aula_4.qmd
+      - Aula_5.qmd
+      - Aula_6.qmd
+      - Aula_7.qmd
+    - part: "Unidade II"
+      chapters:
+      - Aula_X.qmd
+    - part: "Unidade III"
+      chapters:
+      - Aula_Y.qmd
 
 bibliography: references.bib
 
@@ -31,10 +39,17 @@ format:
   html:
     theme:
       - cerulean
+    navbar:
+      right:
+        - href: https://profmariomartins.github.io/anete_suporte/
+          text: "ANETE"
+        - text: ""
+          href: https://profmariomartins.github.io/anete_suporte/
+          icon: img/capa_anete.png
   pdf:
     documentclass: scrreprt
   epub:
-    cover-image: cover.png
+    cover-image: capa_anete.png
 
 editor: visual
 

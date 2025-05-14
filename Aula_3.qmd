@@ -2,8 +2,6 @@
 title: "Opinião, fato e escrita acadêmica"
 ---
 
-# Roteiro
-
 Roteiro de aula elaborado no RStudio com o auxílio da inteligência artificial ChatGPT, revisado e avaliado pelo professor antes de sua publicação.
 
 ## Objetivos de aprendizagem
@@ -528,4 +526,10 @@ Você está presente?
 <img src="img/qr_anete_T01.png" 
      alt="Chamada" 
      style="width:60%; display: block; margin: 0 auto;">
+```
+
+```{=html}
+<div style="position: absolute; top: 10px; left: 10px;">
+  <img src="img/capa_anete.png" alt="Logo ANETE" style="height: 60px;">
+</div>
 ```

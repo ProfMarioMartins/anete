@@ -31,7 +31,7 @@ Aplicação prática dos conhecimentos na redação de um gênero acadêmico ins
 ## Competências e habilidades
 
 | Competência | Habilidades |
-|------------------------------------|------------------------------------|
+|----|----|
 | Utilizar a linguagem com clareza, precisão e adequação nos contextos acadêmicos. | \- Reconhecer diferentes registros linguísticos e níveis de formalidade.<br>- Utilizar a norma-padrão da língua portuguesa em situações de comunicação acadêmica. |
 | Ler, compreender e interpretar textos acadêmicos de diferentes gêneros. | \- Identificar a organização composicional e os propósitos comunicativos dos gêneros acadêmicos.<br>- Desenvolver estratégias de leitura crítica e analítica. |
 | Produzir textos acadêmicos adequados aos gêneros e às normas científicas. | \- Elaborar textos com coesão e coerência.<br>- Aplicar corretamente normas de citação e referência (ABNT).<br>- Planejar, redigir e revisar textos científicos. |

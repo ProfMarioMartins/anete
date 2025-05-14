@@ -118,3 +118,9 @@ cronograma <- read_sheet(url, sheet = "cronograma_anete")
 # Exibe a tabela com legenda
 kable(cronograma, caption = "Encontros")
 ```
+
+```{=html}
+<div style="position: absolute; top: 10px; left: 10px;">
+  <img src="img/capa_anete.png" alt="Logo ANETE" style="height: 60px;">
+</div>
+```

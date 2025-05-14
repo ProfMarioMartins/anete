@@ -2,8 +2,6 @@
 title: "Argumentos de senso comum e senso crítico"
 ---
 
-# Roteiro
-
 Roteiro de aula elaborado no RStudio com o auxílio da inteligência artificial ChatGPT, revisado e avaliado pelo autor antes de sua publicação.
 
 ## Objetivos de aprendizagem
@@ -353,7 +351,7 @@ Você está presente?
 :::
 
 ```{=html}
-<img src="/Users/MarioMartins/Library/CloudStorage/GoogleDrive-mario.martins@ufersa.edu.br/Meu Drive/Disciplinas_em_R/ANETE/img/qr_anete_T01.png" 
-     alt="Chamada" 
-     style="width:60%; display: block; margin: 0 auto;">
+<div style="position: absolute; top: 10px; left: 10px;">
+  <img src="img/capa_anete.png" alt="Logo ANETE" style="height: 60px;">
+</div>
 ```

@@ -2,8 +2,6 @@
 title: "Sistema acadêmico brasileiro"
 ---
 
-# Roteiro
-
 Roteiro de aula elaborado no RStudio com o auxílio da inteligência artificial ChatGPT, revisado e avaliado pelo professor antes de sua publicação.
 
 ## Objetivo de aprendizagem
@@ -200,4 +198,10 @@ Como se organiza o sistema acadêmico brasileiro?
     iniciarTimer("timer" + num, num);
   }
 </script>
+```
+
+```{=html}
+<div style="position: absolute; top: 10px; left: 10px;">
+  <img src="img/capa_anete.png" alt="Logo ANETE" style="height: 60px;">
+</div>
 ```
