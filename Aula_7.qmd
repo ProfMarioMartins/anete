@@ -98,7 +98,6 @@ Objetivos
 4.  Anotem as seguintes informações:
 
 ::: {style="border: 1px solid #ddd; border-radius: 8px; padding: 1em; background-color: #f9f9f9; box-shadow: 2px 2px 5px rgba(0,0,0,0.1);"}
-
 **Nome do projeto**
 
 **Nome do coordenador**
@@ -108,7 +107,6 @@ Objetivos
 **Métodos de pesquisa**
 
 **Palavras-chave**
-
 :::
 
 <br/><br/>
@@ -125,36 +123,36 @@ Objetivos
 
 <br/><br/>
 
-<div style="background-color:#001f3f; color:#ffffff; padding: 1.5em; border-radius: 8px; font-size: 1.1em; line-height: 1.6;">
-
+::: {style="background-color:#001f3f; color:#ffffff; padding: 1.5em; border-radius: 8px; font-size: 1.1em; line-height: 1.6;"}
 **🔎 Como consultar a classificação Qualis de um periódico?**
 
 O **Qualis Periódicos** é o sistema utilizado pela **Capes** para classificar os periódicos científicos segundo critérios de qualidade estabelecidos pelas áreas de avaliação da pós-graduação brasileira. Essa classificação varia por área e por estrato, sendo **A1** o nível mais alto.
 
 📝 Passo a passo
 
-1. **Acesse a Plataforma Sucupira da Capes**  
-   [https://sucupira.capes.gov.br](https://sucupira.capes.gov.br)
+1.  **Acesse a Plataforma Sucupira da Capes**\
+    <https://sucupira.capes.gov.br>
 
-2. **No menu principal, clique em**  
-   `Consultas > Coleta > Qualis > Consulta Geral de Periódicos`
+2.  **No menu principal, clique em**\
+    `Consultas > Coleta > Qualis > Consulta Geral de Periódicos`
 
-3. **Na página que abrir:**
-   - Informe o **nome do periódico** ou o **ISSN** (se souber).
-   - Selecione a **área de avaliação** (exemplo: Ensino, Física, Educação).
-   - Informe o **Ano da Avaliação** (utilize a última disponível, geralmente 2017-2020).
-   - Clique em **"Pesquisar"**.
+3.  **Na página que abrir:**
 
-4. **Verifique os resultados:**
-   - O sistema exibirá o periódico com a respectiva **classificação Qualis** para a área e o ano selecionados.
-   - ⚠️ Um mesmo periódico pode ter classificações diferentes em áreas distintas.
+    -   Informe o **nome do periódico** ou o **ISSN** (se souber).
+    -   Selecione a **área de avaliação** (exemplo: Ensino, Física, Educação).
+    -   Informe o **Ano da Avaliação** (utilize a última disponível, geralmente 2017-2020).
+    -   Clique em **"Pesquisar"**.
+
+4.  **Verifique os resultados:**
+
+    -   O sistema exibirá o periódico com a respectiva **classificação Qualis** para a área e o ano selecionados.
+    -   ⚠️ Um mesmo periódico pode ter classificações diferentes em áreas distintas.
 
 📌 Importante
 
-- Verifique sempre a **área correta**, relacionada ao seu projeto ou tema de estudo.
-- Prefira periódicos classificados como **A1 ou A2**, que indicam alta qualidade segundo os critérios da Capes.
-
-</div>
+-   Verifique sempre a **área correta**, relacionada ao seu projeto ou tema de estudo.
+-   Prefira periódicos classificados como **A1 ou A2**, que indicam alta qualidade segundo os critérios da Capes.
+:::
 
 <br/><br/>
 
@@ -177,6 +175,19 @@ O **Qualis Periódicos** é o sistema utilizado pela **Capes** para classificar 
 :::
 
 <br/><br/>
+
+::: {style="background-color:#001f3f; color:#ffffff; padding: 1em; border-radius: 8px;"}
+📌 Organização no Zotero
+
+Após localizar e escolher o artigo, **cada integrante da equipe deve adicionar o artigo selecionado ao seu Zotero**, criando uma **coleção chamada "Iniciação científica"**.
+
+Isso garantirá que você organize suas fontes de maneira adequada para usá-las nas próximas etapas da disciplina.
+
+Se você ainda não instalou ou configurou o Zotero, consulte o tutorial disponível no Bookdown da disciplina.
+
+🔗 [Acesse o tutorial de instalação e uso do Zotero](#)  
+_(https://profmariomartins.github.io/anete_suporte/zotero.html)_
+:::
 
 ### ✅ Etapa 3 - Compartilhamento dos achados
 
