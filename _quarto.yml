@@ -16,8 +16,10 @@ book:
   title: "Análise e Expressão Textual"
   author: "Mário Martins"
   chapters:
-    - index.qmd
-    - part: "Unidade I: O mundo acadêmico e o fazer científico"
+    - part: "Apresentação"
+      chapters:
+      - index.qmd
+    - part: "Unidade I"
       chapters:
       - Aula_1.qmd
       - Aula_2.qmd
@@ -32,13 +34,17 @@ book:
     - part: "Unidade III"
       chapters:
       - Aula_Y.qmd
+    - part: "Tutoriais"
+      chapters:
+      - zotero.qmd
+      - capes.qmd
 
 bibliography: references.bib
 
 format:
   html:
     theme:
-      - cerulean
+      - journal
     navbar:
       right:
         - href: https://profmariomartins.github.io/anete_suporte/
