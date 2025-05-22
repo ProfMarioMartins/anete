@@ -1,0 +1,91 @@
+---
+title: "Plano de trabalho"
+author: "Nome"
+format: html
+editor: visual
+---
+
+<div class="titulo-nao-numerado">Modelo de plano de trabalho</div>
+
+::: {.callout-tip}
+Este é um modelo de plano de trabalho para a iniciação científica — um tipo de proposta de pesquisa que se vincula a projetos já cadastrados por professores da Ufersa.
+
+Pelas regras institucionais, quem submete oficialmente o plano para concorrer a bolsas de Iniciação Científica é o(a) professor(a) coordenador(a) do projeto. Mas isso não significa que você não possa propor uma pesquisa.
+
+Se você tem uma ideia de pesquisa e gostaria de ser bolsista de IC, você pode se antecipar e apresentar sua proposta ao professor responsável por um projeto da sua área.
+
+Essa atitude mostra iniciativa, organização e compromisso com a ciência — qualidades que contam muito em qualquer etapa da vida acadêmica.
+
+🔎 Para descobrir quais projetos de pesquisa estão em execução na Ufersa, clique [aqui](https://sigaa.ufersa.edu.br/sigaa/public/pesquisa/consulta_projetos.jsf).
+:::
+
+<div class="fundo-papel">
+<div class="subtitulo-nao-numerado">Título</div>
+
+Título conciso e informativo da proposta de trabalho do estudante.
+
+<div class="subtitulo-nao-numerado">Introdução e justificativa</div>
+
+Apresente o contexto da proposta e sua relevância. Indique como ela se vincula ao projeto de pesquisa ao qual se integra. Justifique a importância do estudo com base em evidências (dados, autores, relatórios).
+
+<div class="subtitulo-nao-numerado">Objetivos</div>
+
+<div class="subsubtitulo-nao-numerado">Objetivo geral</div>
+
+Descrever o objetivo principal da proposta.
+
+<div class="subsubtitulo-nao-numerado">Objetivos específicos</div>
+
+-   Objetivo 1
+-   Objetivo 2
+-   Objetivo 3
+
+<div class="subtitulo-nao-numerado">Metodologia</div>
+
+Descreva os procedimentos que serão adotados ao longo do plano de trabalho. Inclua informações sobre instrumentos, etapas, técnicas de análise e, quando pertinente, sobre aprovação ética (CEP/CEUA).
+
+<div class="subtitulo-nao-numerado">Habilidades a serem desenvolvidas</div>
+
+Liste as competências que você pretende desenvolver:
+
+-   Habilidade 1 (ex: análise de dados)
+-   Habilidade 2 (ex: escrita acadêmica)
+-   Habilidade 3 (ex: uso de ferramentas digitais)
+
+<div class="subtitulo-nao-numerado">Cronograma de atividades</div>
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+library(knitr)
+knitr::kable(
+  data.frame(
+    Atividades = c(
+      "Leitura e revisão de literatura",
+      "Coleta de dados",
+      "Tratamento dos dados",
+      "Análise dos dados",
+      "Elaboração de relatório parcial",
+      "Escrita do relatório final",
+      "Apresentação dos resultados"
+    ),
+    Set = c("X", "", "", "", "", "", ""),
+    Out = c("X", "X", "", "", "", "", ""),
+    Nov = c("", "X", "X", "", "", "", ""),
+    Dez = c("", "", "X", "X", "", "", ""),
+    Jan = c("", "", "", "X", "X", "", ""),
+    Fev = c("", "", "", "", "X", "X", ""),
+    Mar = c("", "", "", "", "", "X", "X")
+  ),
+  caption = "",
+  align = "lccccccc"
+)
+```
+
+<div class="subtitulo-nao-numerado">Referências</div>
+
+SOBRENOME, Nome. *Título da obra*. Local: Editora, ano.
+
+SOBRENOME, Nome. “Título do artigo”. *Nome do periódico*, v. X, n. Y, p. Z–Z, ano.
+</div>

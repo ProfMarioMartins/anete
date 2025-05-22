@@ -2,7 +2,7 @@
 title: "Discurso reportado na escrita acadêmica"
 ---
 
-Roteiro de aula elaborado no RStudio com o auxílio da inteligência artificial ChatGPT, revisado e avaliado pelo autor antes de sua publicação.
+Roteiro de aula elaborado no RStudio com o auxílio da inteligência artificial ChatGPT, revisado e avaliado pelo professor antes de sua publicação.
 
 ## Objetivos de aprendizagem
 

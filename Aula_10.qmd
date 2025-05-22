@@ -1,0 +1,136 @@
+---
+title: "Gêneros textuais acadêmicos"
+---
+
+## Objetivos de aprendizagem
+
+Ao final desta aula, espera-se que você seja capaz de:
+
+- Diferenciar gêneros textuais de tipos textuais;
+- Reconhecer os principais gêneros acadêmicos segundo sua função;
+- Identificar as características dos gêneros acadêmicos de estudo, planejamento e divulgação científica;
+- Compreender a estrutura básica de gêneros como artigo, resenha, relato de experiência, TCC, dissertação e tese.
+
+:::{#leitura}
+**Leitura indicada:**  
+CASTRO, Nádia Studzinski Estima de et al. *Leitura e escrita acadêmicas*. Porto Alegre: Sagah, 2019. Capítulo “Gêneros acadêmicos”, p. 67–72.  
+[🔗 Acesso à leitura](vbk://9788533500228/page/67)
+:::
+
+## Introdução
+
+Em contextos acadêmicos, a produção escrita se organiza em torno de **gêneros textuais específicos**, exigidos em diferentes etapas da formação. Cada um desses gêneros cumpre **funções comunicativas e institucionais bem definidas**.
+
+> “Os gêneros textuais acadêmicos se caracterizam muito mais pela função comunicativa e institucional do que por estruturas linguísticas” (CASTRO et al., 2019, p. 68).
+
+Antes de estudarmos os gêneros acadêmicos propriamente ditos, vamos retomar a distinção fundamental entre **tipo textual** e **gênero textual**.
+
+---
+
+## Gênero textual × Tipo textual
+
+:::{.destaque}
+- **Tipo textual**: conceito teórico. Define a **forma linguística predominante**. Exemplo: narração, exposição, descrição, injunção, argumentação.
+- **Gênero textual**: conceito empírico. Define **formas concretas de textos em uso social**, como bilhete, artigo, receita, relato de experiência, dissertação, etc.
+:::
+
+> “[...] os gêneros textuais surgem e se integram às sociedades funcionalmente nas culturas em que se desenvolvem” (MARCUSCHI, 2003, apud CASTRO et al., 2019, p. 67).
+
+---
+
+## Classificação funcional dos gêneros acadêmicos
+
+Nesta aula, propomos uma organização didática dos gêneros acadêmicos em três grupos funcionais:
+
+1. **Gêneros de estudo**
+2. **Gêneros de planejamento acadêmico**
+3. **Gêneros de informação/divulgação científica**
+
+Vamos explorar cada um deles a seguir.
+
+---
+
+## Gêneros de estudo
+
+São gêneros que auxiliam o estudante na compreensão, análise e sistematização de obras e conteúdos acadêmicos.
+
+### ✦ Fichamento
+- Registro sintético das ideias centrais de um texto.
+- Pode ser bibliográfico, de conteúdo ou crítico.
+
+### ✦ Resenha
+- Apresenta e avalia uma obra, geralmente recém-publicada.
+- Deve indicar dados da publicação e trajetória do autor.
+- Pode conter apreciações, **desde que fundamentadas**.
+
+> “A resenha [...] apresenta ao seu leitor o conteúdo da obra, expondo as ideias que estão sendo defendidas” (CASTRO et al., 2019, p. 70).
+
+---
+
+## Gêneros de planejamento acadêmico
+
+São textos utilizados na **organização das atividades de pesquisa**.
+
+### ✦ Plano de trabalho
+- Documento inicial que delimita tema, objetivos, metodologia e cronograma de uma pesquisa.
+
+### ✦ Projeto de pesquisa
+- Estrutura mais ampla que o plano.
+- Pode ser usado para solicitar financiamento ou inscrição em programas de iniciação científica ou pós-graduação.
+
+---
+
+## Gêneros de divulgação e comunicação acadêmica
+
+### ✦ Artigo científico
+- Resultado de investigação ou revisão teórica.
+- Apresenta problema, objetivos, métodos, análise de dados e conclusões.
+
+> “A abordagem do tema deve ser inovadora, no sentido de avanço para o conhecimento” (CASTRO et al., 2019, p. 68).
+
+### ✦ Relato de experiência
+- Narra, com fundamentação teórica, uma vivência acadêmica relevante.
+- Exige clareza, impessoalidade e análise crítica.
+
+### ✦ Comunicação oral
+- Apresentação pública de resultados de pesquisa, geralmente em eventos acadêmicos.
+- Pode derivar de artigo, resumo expandido ou relato.
+
+### ✦ Squib (ou nota técnica)
+- Gênero breve, comum em algumas áreas, que discute um ponto específico, crítica ou sugestão metodológica.
+- Ainda pouco conhecido entre os graduandos.
+
+---
+
+## Trabalhos finais de curso e pós-graduação
+
+### ✦ TCC ou Monografia
+- Exigido em cursos de graduação ou especialização.
+- Estrutura lógica, argumentativa e rigorosa.
+
+### ✦ Dissertação (Mestrado)
+> “Apresentar os resultados de um trabalho experimental ou exposição de um estudo científico retrospectivo, de tema único e bem delimitado” (ABNT, 2002, p. 3 apud CASTRO et al., 2019, p. 71).
+
+### ✦ Tese (Doutorado)
+> “Deve apresentar uma investigação original, constituindo-se em real contribuição para a especialidade em questão” (ABNT, 2002, p. 4 apud CASTRO et al., 2019, p. 72).
+
+---
+
+## Aprendizagem prática
+
+1. Leia atentamente os gêneros descritos na aula e no capítulo indicado.
+2. Escolha um dos gêneros e produza uma breve definição funcional e um exemplo de contexto em que ele seria exigido.
+3. Escreva no Padlet da turma, marcando com a etiqueta: **#gênerosacadêmicos**.
+
+---
+
+## Encerramento
+
+:::{.destaque}
+- Os gêneros textuais acadêmicos são instrumentos de produção, circulação e validação do conhecimento.
+- Compreender suas funções e estruturas é essencial para atuar na universidade com autoria, ética e clareza.
+:::
+
+---
+
+Se desejar, posso estruturar essa aula diretamente no formato `.qmd` com estilo compatível com os demais arquivos do seu bookdown. Deseja isso?

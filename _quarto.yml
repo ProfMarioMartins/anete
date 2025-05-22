@@ -11,6 +11,8 @@ language:
   fig: "Figura"
   tab: "Tabela"
   eq: "Equação"
+  callout-tip-title: "Dica"
+  callou-note-title: "Nota"
 
 book:
   title: "Análise e Expressão Textual"
@@ -28,6 +30,7 @@ book:
       - Aula_5.qmd
       - Aula_6.qmd
       - Aula_7.qmd
+      - Aula_8.qmd
     - part: "Unidade II"
       chapters:
       - Aula_X.qmd
@@ -36,15 +39,20 @@ book:
       - Aula_Y.qmd
     - part: "Tutoriais"
       chapters:
-      - zotero.qmd
-      - capes.qmd
+      - tutorial_zotero.qmd
+      - tutorial_capes.qmd
+    - part: "Modelos"
+      chapters:
+      - modelo_plano.qmd
 
 bibliography: references.bib
 
 format:
   html:
     theme:
-      - journal
+      journal
+    css:
+      custom.css
     navbar:
       right:
         - href: https://profmariomartins.github.io/anete_suporte/

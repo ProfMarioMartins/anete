@@ -1,0 +1,48 @@
+
+/* Corrigir o título de callout-note para "Nota" */
+.callout-note > .callout-title::before {
+  content: "Nota";
+}
+.callout-note > .callout-title > strong {
+  display: none;
+}
+
+/* Estilo visual para títulos não numerados */
+.titulo-nao-numerado {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #1a237e;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  border-left: 5px solid #1a237e;
+  padding-left: 0.6rem;
+}
+
+/* Estilo visual para subtítulos não numerados */
+.subtitulo-nao-numerado {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #3e3e3e;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.subsubtitulo-nao-numerado {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #444;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-style: italic;
+}
+
+.fundo-papel {
+  background-color: #fdfaf3;
+  padding: 1rem;
+  border-radius: 6px;
+  border: 1px solid #e0dccc;
+  box-shadow: 1px 1px 2px rgba(0,0,0,0.03);
+  font-size: 1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}

@@ -1,0 +1,74 @@
+---
+title: "Portal de periódicos da Capes"
+---
+
+# Tutorial para iniciantes no Portal de Periódicos Capes
+
+Este tutorial irá guiá-lo pelos passos básicos para começar suas pesquisas no Portal de Periódicos Capes, explorando as diferentes formas de encontrar materiais para seu trabalho acadêmico.
+
+## 1. Acessando o Portal (tipos de acesso)
+
+-   **Como Acessar:**\
+    Abra o Google e digite *"Periódicos Capes"*. O site correto é <https://www.periodicos.Capes.gov.br>.
+
+-   **Tipos de Conteúdo/Acesso:**
+
+    -   **Conteúdo livre:** disponível para qualquer pessoa.
+    -   **Conteúdo assinado:** disponível para os IPs identificados das instituições participantes. Caso você esteja acessando fora da rede da sua instituição, é necessário efetuar o login na Comunidade Acadêmica Federada (CAFe). A Ufersa é instituição parceira).
+        -   Para acessar o conteúdo assinado, clique em **"Acesso CAFE"**, selecione sua instituição e insira o login e a senha fornecidos pela universidade.
+        -   No canto esquerdo, você verá se está conectado à sua instituição ou em acesso livre.
+
+## 2. "Meu Espaço"
+
+-   Qualquer pessoa pode se cadastrar em **"Meu Espaço"**, mesmo sem vínculo institucional.
+-   Isso permite salvar histórico de buscas e acessar funcionalidades adicionais.
+
+## 3. Explorando as opções de busca
+
+-   Clique em **"Acervo"** no menu principal.
+-   As opções principais são:
+    1.  **Buscar Assunto**
+    2.  **Listar Bases e Coleções**
+    3.  **Listar Livros**
+    4.  **Listar Periódicos**
+
+## 4. Busca simples por assunto
+
+-   Clique em **"Buscar Assunto"**.
+-   Digite o tema (ex.: *teletrabalho*).
+-   Clique na lupa.
+-   Nos resultados:
+    -   Cadeado verde = acesso aberto.
+    -   Clique em **"acessar"** para ler ou baixar o material.
+
+## 5. Busca avançada e específica
+
+-   Na tela de resultados, clique em **"Busca Avançada"**.
+-   Configure os campos e use operadores booleanos:
+    -   **AND**: restringe (ex.: *"teletrabalho AND servidores públicos"*).
+    -   **OR**: amplia (ex.: *"teletrabalho OR home office"*).
+    -   **NOT**: exclui (ex.: *"teletrabalho NOT servidores públicos"*).
+    -   **Aspas ("")**: busca exata (ex.: *"servidores públicos"*).
+-   Aplique filtros na lateral esquerda:
+    -   Tipo de acesso (livre ou assinado)
+    -   Tipo de recurso (artigo, livro, etc.)
+    -   Data de publicação
+    -   Área do conhecimento
+    -   Idioma
+
+## 6. Explorando bases, livros e periódicos
+
+-   **Listar Bases e Coleções:** Repositórios e bibliotecas digitais.
+-   **Listar Livros:** Busque livros por título ou ISBN.
+-   **Listar Periódicos:** Navegue por revistas científicas específicas.
+
+------------------------------------------------------------------------
+
+::: {style="background-color:#001f3f; color:#ffffff; padding: 1.5em; border-radius: 8px; font-size: 1.1em; line-height: 1.6;"}
+### 📌 Algumas considerações...
+
+-   O Portal está em constante atualização.
+-   Combine buscas básicas, avançadas e filtros para melhores resultados.
+-   Explore repositórios institucionais e revistas específicas além da busca por assunto.
+-   Para dúvidas ou orientações, consulte a equipe da biblioteca da sua instituição.
+:::

@@ -97,6 +97,7 @@ MENDES, Gilmar Ferreira; FOSTER JÚNIOR, Nestor José. Manual de redação da Pr
 
 Outras obras poderão ser usadas na disciplina.
 
+<!--
 ## Cronograma das aulas (em constante atualização)
 
 ```{r}
@@ -124,3 +125,4 @@ kable(cronograma, caption = "Encontros")
   <img src="img/capa_anete.png" alt="Logo ANETE" style="height: 60px;">
 </div>
 ```
+-->

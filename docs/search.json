@@ -99,17 +99,6 @@
     ]
   },
   {
-    "objectID": "index.html#cronograma-das-aulas-em-constante-atualização",
-    "href": "index.html#cronograma-das-aulas-em-constante-atualização",
-    "title": "Análise e Expressão Textual",
-    "section": "1.9 Cronograma das aulas (em constante atualização)",
-    "text": "1.9 Cronograma das aulas (em constante atualização)\n\n\n\nEncontros\n\n\n\n\n\n\n\nData\nTema\nLeitura obrigatória\n\n\n\n\n2025-04-14\nApresentação da disciplina. Sistema acadêmico brasileiro.\nEntendendo a organização do sistema acadêmico brasileiro, parte do livro Guia do trabalho científico: do projeto à redação final, de Celso Ferrarezi Júnior. Páginas 7 - 9. Disponível em: vbk://9788572447638/epubcfi/6/14%5B%3Bvnd.vst.idref%3Dcap1.xhtml%5D\n\n\n2025-04-17\nPensamento científico.\nThink like a scientist: The power of a scientific mindset, artigo de Santiago Gisler publicado pela Ivory Embassy. Disponível em: https://ivoryembassy.com/scientific-mindset/\n\n\n2025-04-28\nAplicação de teste diagnóstico sobre competência textual acadêmica\nTeste diagnóstico\n\n\n2025-04-28\nAutoria, opinião e escrita acadêmica.\nUma questão de opinião, parte do livro Como escrever um texto científico, de Fabio Appolinário e Isaac Gil. Páginas 16 - 18. Disponível em: vbk://9788599519493/page/11\n\n\n2025-05-05\nArgumentos de senso comum e senso crítico. Argumentos empíricos e de autoridade.\nArgumentos de senso comum e argumentos de senso crítico, parte do livro Leitura e escrita acadêmicas, de Nádia Studzinski Estima de Castro e colaboradores. Páginas 14 - 23. Disponível em: vbk://9788533500228/page/11.\n\n\n2025-05-08\nGerenciadores de referências bibliográficas.\nZotero\n\n\n2025-05-12\nCitações diretas e indiretas\nCitações diretas e indiretas, parte do livro Leitura e escrita acadêmicas, de Nádia Studzinski Estima de Castro e colaboradores. Páginas 89 - 98. Disponível em: vbk://9788533500228/page/89.\n\n\n2025-05-15\nFontes confiáveis de informação acadêmica.\nFontes confiáveis de informação acadêmica, parte do livro Leitura e escrita acadêmicas, de Nádia Studzinski Estima de Castro e colaboradores. Páginas 43 - 52. Disponível em: vbk://9788533500228/page/43.\n\n\n2025-05-19\nQuiz pré-prova\nKahoot\n\n\n2025-05-22\n1ª Avaliação\nProva objetiva\n\n\n2025-05-26\nComentários sobre a primeira avaliação.\nNA\n\n\n2025-05-29\nNA\nNA\n\n\n2025-06-02\nNA\nNA\n\n\n2025-06-05\nLeitura inspecional e leitura averiguativa\nNA\n\n\n2025-06-09\nGêneros textuais acadêmicos: plano de trabalho.\nModelo de plabo de trabalho extraído do SIGAA.\n\n\nNA\nGêneros textuais acadêmicos: projeto de pesquisa.\nProjeto de pesquisa, parte do livro Produção textual na universidade, de Désirée Motta-Roth e Graciela Rabuske Hendges. Páginas 51 - 64. A ser disponibilizado digitalizado.\n\n\nNA\nGêneros textuais acadêmicos: artigo científico.\nArtigo acadêmico: introdução, parte do livro Produção textual na universidade, de Désirée Motta-Roth e Graciela Rabuske Hendges. Páginas 65 - 88. A ser disponibilizado digitalizado.",
-    "crumbs": [
-      "Apresentação",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Programação</span>"
-    ]
-  },
-  {
     "objectID": "Aula_1.html",
     "href": "Aula_1.html",
     "title": "2  Sistema acadêmico brasileiro",
@@ -334,7 +323,7 @@
     "href": "Aula_6.html",
     "title": "7  Discurso reportado na escrita acadêmica",
     "section": "",
-    "text": "7.1 Objetivos de aprendizagem\nRoteiro de aula elaborado no RStudio com o auxílio da inteligência artificial ChatGPT, revisado e avaliado pelo autor antes de sua publicação.\nAo final desta aula, espera-se que você seja capaz de:",
+    "text": "7.1 Objetivos de aprendizagem\nRoteiro de aula elaborado no RStudio com o auxílio da inteligência artificial ChatGPT, revisado e avaliado pelo professor antes de sua publicação.\nAo final desta aula, espera-se que você seja capaz de:",
     "crumbs": [
       "Unidade I",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Discurso reportado na escrita acadêmica</span>"
@@ -422,7 +411,7 @@
     "href": "Aula_7.html",
     "title": "8  Fontes confiáveis de informação",
     "section": "",
-    "text": "8.1 Objetivos de aprendizagem\nAo final desta aula, espera-se que você seja capaz de:",
+    "text": "8.1 Objetivos de aprendizagem\nRoteiro de aula elaborado no RStudio com o auxílio da inteligência artificial ChatGPT, revisado e avaliado pelo professor antes de sua publicação.\nAo final desta aula, espera-se que você seja capaz de:",
     "crumbs": [
       "Unidade I",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Fontes confiáveis de informação</span>"
@@ -462,157 +451,234 @@
     ]
   },
   {
-    "objectID": "zotero.html",
-    "href": "zotero.html",
-    "title": "11  Zotero: Gerenciador de referências bibliográficas",
+    "objectID": "Aula_8.html",
+    "href": "Aula_8.html",
+    "title": "9  Revisão de conteúdos",
     "section": "",
-    "text": "12 Tutorial para iniciantes no Zotero\nEste tutorial apresenta o passo a passo básico para começar a usar o Zotero, um gerenciador de referências bibliográficas gratuito e de código aberto.",
+    "text": "Explore more at Quizizz.",
     "crumbs": [
-      "Tutoriais",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Zotero: Gerenciador de referências bibliográficas</span>"
+      "Unidade I",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Revisão de conteúdos</span>"
     ]
   },
   {
-    "objectID": "zotero.html#baixando-e-instalando-o-zotero",
-    "href": "zotero.html#baixando-e-instalando-o-zotero",
-    "title": "11  Zotero: Gerenciador de referências bibliográficas",
-    "section": "12.1 1. Baixando e instalando o Zotero",
-    "text": "12.1 1. Baixando e instalando o Zotero\n\nAcesse o site oficial:\nhttps://www.zotero.org/download\nEscolha seu sistema operacional:\n\nMacOS: Clique em Download for macOS. Após o download, abra o instalador e arraste o Zotero para a pasta Aplicativos.\nWindows: Clique em Download for Windows. Execute o instalador (.exe) e siga as instruções na tela.\nLinux: Clique em Download for Linux. Baixe a versão adequada, extraia a pasta e execute o arquivo Zotero, ou siga as instruções específicas para sua distribuição (ex.: terminal no Ubuntu).",
-    "crumbs": [
-      "Tutoriais",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Zotero: Gerenciador de referências bibliográficas</span>"
-    ]
-  },
-  {
-    "objectID": "zotero.html#instalando-o-zotero-connector-no-navegador",
-    "href": "zotero.html#instalando-o-zotero-connector-no-navegador",
-    "title": "11  Zotero: Gerenciador de referências bibliográficas",
-    "section": "12.2 2. Instalando o Zotero Connector no navegador",
-    "text": "12.2 2. Instalando o Zotero Connector no navegador\n\nNo mesmo site, clique em Install Zotero Connector.\nVocê será direcionado para a loja de extensões do seu navegador (Chrome, Firefox ou Edge).\nClique em Adicionar ao navegador e confirme a instalação.\nO ícone do Zotero (uma folha com a letra Z) aparecerá próximo à barra de endereços do navegador.",
-    "crumbs": [
-      "Tutoriais",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Zotero: Gerenciador de referências bibliográficas</span>"
-    ]
-  },
-  {
-    "objectID": "zotero.html#definindo-o-estilo-de-citação-e-referência",
-    "href": "zotero.html#definindo-o-estilo-de-citação-e-referência",
-    "title": "11  Zotero: Gerenciador de referências bibliográficas",
-    "section": "12.3 3. Definindo o estilo de citação e referência",
-    "text": "12.3 3. Definindo o estilo de citação e referência\n\nAbra o Zotero.\nNo menu superior, clique em:\n\nZotero &gt; Preferences (macOS)\nEdit &gt; Preferences (Windows/Linux)\n\nSelecione a aba Cite, depois a subaba Styles.\nEscolha o estilo desejado (no Brasil, recomenda-se ABNT).\nSe não estiver listado, clique em Get additional styles, pesquise por “ABNT” e instale:\n\nUniversidade Federal do Rio Grande do Sul - ABNT (autoria completa) (Português - Brasil).",
-    "crumbs": [
-      "Tutoriais",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Zotero: Gerenciador de referências bibliográficas</span>"
-    ]
-  },
-  {
-    "objectID": "zotero.html#criando-coleções-e-adicionando-itens",
-    "href": "zotero.html#criando-coleções-e-adicionando-itens",
-    "title": "11  Zotero: Gerenciador de referências bibliográficas",
-    "section": "12.4 4. Criando coleções e adicionando Itens",
-    "text": "12.4 4. Criando coleções e adicionando Itens\n\n12.4.1 Crie uma coleção\n\nClique com o botão direito em Minha Biblioteca e selecione Nova coleção.\nNomeie a coleção (ex.: Projeto Argumentação) e pressione Enter.\n\n\n\n12.4.2 Adicione um item manualmente\n\nCom a coleção aberta, clique no botão + (Novo Item) na barra superior.\nEscolha o tipo de material (Artigo, Livro, Tese, etc.).\nPreencha os campos na coluna da direita: título, autor(es), ano, editora, DOI, URL, etc.\n\n\n\n12.4.3 Adicione um item automaticamente\n\nAcesse um artigo em sites como Google Acadêmico ou SciELO.\nClique no ícone do Zotero Connector no navegador.\nSelecione a coleção de destino.\nO item será salvo automaticamente com os metadados.",
-    "crumbs": [
-      "Tutoriais",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Zotero: Gerenciador de referências bibliográficas</span>"
-    ]
-  },
-  {
-    "objectID": "zotero.html#inserindo-citações-e-referências-em-documentos-no-google-docs",
-    "href": "zotero.html#inserindo-citações-e-referências-em-documentos-no-google-docs",
-    "title": "11  Zotero: Gerenciador de referências bibliográficas",
-    "section": "12.5 5. Inserindo citações e referências em documentos no Google Docs",
-    "text": "12.5 5. Inserindo citações e referências em documentos no Google Docs\n\n💡 Pré-requisito: Mantenha o Zotero aberto durante o processo.\n\n\n12.5.1 Insira citação\n\nAbra um documento no Google Docs.\nClique no menu Zotero que aparece na barra do Google Docs.\nSelecione Add/Edit Citation.\nDigite o título, autor ou ano, escolha o item e pressione Enter.\n\n\n\n12.5.2 Insira bibliografia\n\nNo final do documento, clique novamente em Zotero.\nSelecione Add/Edit Bibliography.\nA lista de referências será gerada automaticamente com base nas citações inseridas.",
-    "crumbs": [
-      "Tutoriais",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Zotero: Gerenciador de referências bibliográficas</span>"
-    ]
-  },
-  {
-    "objectID": "zotero.html#sincronizando-com-a-nuvem-do-zotero",
-    "href": "zotero.html#sincronizando-com-a-nuvem-do-zotero",
-    "title": "11  Zotero: Gerenciador de referências bibliográficas",
-    "section": "12.6 6. Sincronizando com a nuvem do Zotero",
-    "text": "12.6 6. Sincronizando com a nuvem do Zotero\n\n12.6.1 Crie uma conta Zotero\n\nAcesse https://www.zotero.org/user/register.\nPreencha os campos solicitados e confirme o cadastro pelo e-mail.\n\n\n\n12.6.2 Configure a sincronização\n\nAbra o Zotero e vá em Zotero &gt; Preferences &gt; Sync.\nInsira seu e-mail e senha da conta Zotero.\nAtive as opções Sync automatically e Sync full-text content.\nClique em Set up syncing e depois em OK.\n\n\n\n12.6.3 Confirme o backup online\n\nAcesse https://www.zotero.org e faça login.\nClique em Web Library no menu superior.\nVerifique se as coleções e os itens estão sincronizados corretamente.\n\n\n\n\n12.6.4 📌 Algumas considerações…\n\nOrganize suas referências de forma prática.\nGaranta a correta formatação de citações e referências conforme normas da ABNT.\nSincronize sua biblioteca entre diferentes dispositivos.\nPara mais informações, acesse a Documentação Oficial do Zotero.",
-    "crumbs": [
-      "Tutoriais",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Zotero: Gerenciador de referências bibliográficas</span>"
-    ]
-  },
-  {
-    "objectID": "capes.html",
-    "href": "capes.html",
-    "title": "12  Portal de periódicos da Capes",
+    "objectID": "Aula_Y.html",
+    "href": "Aula_Y.html",
+    "title": "11  Título da aula",
     "section": "",
-    "text": "13 Tutorial para iniciantes no Portal de Periódicos Capes\nEste tutorial irá guiá-lo pelos passos básicos para começar suas pesquisas no Portal de Periódicos Capes, explorando as diferentes formas de encontrar materiais para seu trabalho acadêmico.",
+    "text": "11.1 Objetivos de aprendizagem\nRoteiro de aula elaborado no RStudio com o auxílio da inteligência artificial ChatGPT, revisado e avaliado pelo professor antes de sua publicação.",
     "crumbs": [
-      "Tutoriais",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Portal de periódicos da Capes</span>"
+      "Unidade III",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Título da aula</span>"
     ]
   },
   {
-    "objectID": "capes.html#acessando-o-portal-tipos-de-acesso",
-    "href": "capes.html#acessando-o-portal-tipos-de-acesso",
-    "title": "12  Portal de periódicos da Capes",
-    "section": "13.1 1. Acessando o Portal (tipos de acesso)",
-    "text": "13.1 1. Acessando o Portal (tipos de acesso)\n\nComo Acessar:\nAbra o Google e digite “Periódicos Capes”. O site correto é https://www.periodicos.Capes.gov.br.\nTipos de Conteúdo/Acesso:\n\nConteúdo livre: disponível para qualquer pessoa.\nConteúdo assinado: disponível para os IPs identificados das instituições participantes. Caso você esteja acessando fora da rede da sua instituição, é necessário efetuar o login na Comunidade Acadêmica Federada (CAFe). A Ufersa é instituição parceira).\n\nPara acessar o conteúdo assinado, clique em “Acesso CAFE”, selecione sua instituição e insira o login e a senha fornecidos pela universidade.\nNo canto esquerdo, você verá se está conectado à sua instituição ou em acesso livre.",
+    "objectID": "Aula_Y.html#objetivos-de-aprendizagem",
+    "href": "Aula_Y.html#objetivos-de-aprendizagem",
+    "title": "11  Título da aula",
+    "section": "",
+    "text": "Objetivo 1\nObjetivo 2\nObjetivo 3\n\n\nLeitura indicada:\nTexto, capítulo do livro Capítulo, de Autores.\n[🔗 Acesso à leitura indicada](https…)",
     "crumbs": [
-      "Tutoriais",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Portal de periódicos da Capes</span>"
+      "Unidade III",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Título da aula</span>"
     ]
   },
   {
-    "objectID": "capes.html#meu-espaço",
-    "href": "capes.html#meu-espaço",
-    "title": "12  Portal de periódicos da Capes",
-    "section": "13.2 2. “Meu Espaço”",
-    "text": "13.2 2. “Meu Espaço”\n\nQualquer pessoa pode se cadastrar em “Meu Espaço”, mesmo sem vínculo institucional.\nIsso permite salvar histórico de buscas e acessar funcionalidades adicionais.",
+    "objectID": "Aula_Y.html#introdução",
+    "href": "Aula_Y.html#introdução",
+    "title": "11  Título da aula",
+    "section": "11.2 Introdução",
+    "text": "11.2 Introdução",
     "crumbs": [
-      "Tutoriais",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Portal de periódicos da Capes</span>"
+      "Unidade III",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Título da aula</span>"
     ]
   },
   {
-    "objectID": "capes.html#explorando-as-opções-de-busca",
-    "href": "capes.html#explorando-as-opções-de-busca",
-    "title": "12  Portal de periódicos da Capes",
-    "section": "13.3 3. Explorando as opções de busca",
-    "text": "13.3 3. Explorando as opções de busca\n\nClique em “Acervo” no menu principal.\nAs opções principais são:\n\nBuscar Assunto\nListar Bases e Coleções\nListar Livros\nListar Periódicos",
+    "objectID": "Aula_Y.html#aprendizagem-prática",
+    "href": "Aula_Y.html#aprendizagem-prática",
+    "title": "11  Título da aula",
+    "section": "11.3 Aprendizagem prática",
+    "text": "11.3 Aprendizagem prática\n\n11.3.1 Questão 1\n\n\n\n\nResposta\n\n\n\n\n\n11.3.2 Questão 2\n\n\n\n\nResposta\n\n\n\n\n⚠️Importante⚠️\n\n\nQuadro de instruções",
     "crumbs": [
-      "Tutoriais",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Portal de periódicos da Capes</span>"
+      "Unidade III",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Título da aula</span>"
     ]
   },
   {
-    "objectID": "capes.html#busca-simples-por-assunto",
-    "href": "capes.html#busca-simples-por-assunto",
-    "title": "12  Portal de periódicos da Capes",
-    "section": "13.4 4. Busca simples por assunto",
-    "text": "13.4 4. Busca simples por assunto\n\nClique em “Buscar Assunto”.\nDigite o tema (ex.: teletrabalho).\nClique na lupa.\nNos resultados:\n\nCadeado verde = acesso aberto.\nClique em “acessar” para ler ou baixar o material.",
+    "objectID": "Aula_Y.html#encerramento",
+    "href": "Aula_Y.html#encerramento",
+    "title": "11  Título da aula",
+    "section": "11.4 Encerramento",
+    "text": "11.4 Encerramento",
     "crumbs": [
-      "Tutoriais",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Portal de periódicos da Capes</span>"
+      "Unidade III",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Título da aula</span>"
     ]
   },
   {
-    "objectID": "capes.html#busca-avançada-e-específica",
-    "href": "capes.html#busca-avançada-e-específica",
-    "title": "12  Portal de periódicos da Capes",
-    "section": "13.5 5. Busca avançada e específica",
-    "text": "13.5 5. Busca avançada e específica\n\nNa tela de resultados, clique em “Busca Avançada”.\nConfigure os campos e use operadores booleanos:\n\nAND: restringe (ex.: “teletrabalho AND servidores públicos”).\nOR: amplia (ex.: “teletrabalho OR home office”).\nNOT: exclui (ex.: “teletrabalho NOT servidores públicos”).\nAspas (““): busca exata (ex.: “servidores públicos”).\n\nAplique filtros na lateral esquerda:\n\nTipo de acesso (livre ou assinado)\nTipo de recurso (artigo, livro, etc.)\nData de publicação\nÁrea do conhecimento\nIdioma",
+    "objectID": "tutorial_zotero.html",
+    "href": "tutorial_zotero.html",
+    "title": "12  Zotero: Gerenciador de referências bibliográficas",
+    "section": "",
+    "text": "13 Tutorial para iniciantes no Zotero\nEste tutorial apresenta o passo a passo básico para começar a usar o Zotero, um gerenciador de referências bibliográficas gratuito e de código aberto.",
     "crumbs": [
       "Tutoriais",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Portal de periódicos da Capes</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Zotero: Gerenciador de referências bibliográficas</span>"
     ]
   },
   {
-    "objectID": "capes.html#explorando-bases-livros-e-periódicos",
-    "href": "capes.html#explorando-bases-livros-e-periódicos",
-    "title": "12  Portal de periódicos da Capes",
-    "section": "13.6 6. Explorando bases, livros e periódicos",
-    "text": "13.6 6. Explorando bases, livros e periódicos\n\nListar Bases e Coleções: Repositórios e bibliotecas digitais.\nListar Livros: Busque livros por título ou ISBN.\nListar Periódicos: Navegue por revistas científicas específicas.\n\n\n\n13.6.1 📌 Algumas considerações…\n\nO Portal está em constante atualização.\nCombine buscas básicas, avançadas e filtros para melhores resultados.\nExplore repositórios institucionais e revistas específicas além da busca por assunto.\nPara dúvidas ou orientações, consulte a equipe da biblioteca da sua instituição.",
+    "objectID": "tutorial_zotero.html#baixando-e-instalando-o-zotero",
+    "href": "tutorial_zotero.html#baixando-e-instalando-o-zotero",
+    "title": "12  Zotero: Gerenciador de referências bibliográficas",
+    "section": "13.1 1. Baixando e instalando o Zotero",
+    "text": "13.1 1. Baixando e instalando o Zotero\n\nAcesse o site oficial:\nhttps://www.zotero.org/download\nEscolha seu sistema operacional:\n\nMacOS: Clique em Download for macOS. Após o download, abra o instalador e arraste o Zotero para a pasta Aplicativos.\nWindows: Clique em Download for Windows. Execute o instalador (.exe) e siga as instruções na tela.\nLinux: Clique em Download for Linux. Baixe a versão adequada, extraia a pasta e execute o arquivo Zotero, ou siga as instruções específicas para sua distribuição (ex.: terminal no Ubuntu).",
     "crumbs": [
       "Tutoriais",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Portal de periódicos da Capes</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Zotero: Gerenciador de referências bibliográficas</span>"
+    ]
+  },
+  {
+    "objectID": "tutorial_zotero.html#instalando-o-zotero-connector-no-navegador",
+    "href": "tutorial_zotero.html#instalando-o-zotero-connector-no-navegador",
+    "title": "12  Zotero: Gerenciador de referências bibliográficas",
+    "section": "13.2 2. Instalando o Zotero Connector no navegador",
+    "text": "13.2 2. Instalando o Zotero Connector no navegador\n\nNo mesmo site, clique em Install Zotero Connector.\nVocê será direcionado para a loja de extensões do seu navegador (Chrome, Firefox ou Edge).\nClique em Adicionar ao navegador e confirme a instalação.\nO ícone do Zotero (uma folha com a letra Z) aparecerá próximo à barra de endereços do navegador.",
+    "crumbs": [
+      "Tutoriais",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Zotero: Gerenciador de referências bibliográficas</span>"
+    ]
+  },
+  {
+    "objectID": "tutorial_zotero.html#definindo-o-estilo-de-citação-e-referência",
+    "href": "tutorial_zotero.html#definindo-o-estilo-de-citação-e-referência",
+    "title": "12  Zotero: Gerenciador de referências bibliográficas",
+    "section": "13.3 3. Definindo o estilo de citação e referência",
+    "text": "13.3 3. Definindo o estilo de citação e referência\n\nAbra o Zotero.\nNo menu superior, clique em:\n\nZotero &gt; Preferences (macOS)\nEdit &gt; Preferences (Windows/Linux)\n\nSelecione a aba Cite, depois a subaba Styles.\nEscolha o estilo desejado (no Brasil, recomenda-se ABNT).\nSe não estiver listado, clique em Get additional styles, pesquise por “ABNT” e instale:\n\nUniversidade Federal do Rio Grande do Sul - ABNT (autoria completa) (Português - Brasil).",
+    "crumbs": [
+      "Tutoriais",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Zotero: Gerenciador de referências bibliográficas</span>"
+    ]
+  },
+  {
+    "objectID": "tutorial_zotero.html#criando-coleções-e-adicionando-itens",
+    "href": "tutorial_zotero.html#criando-coleções-e-adicionando-itens",
+    "title": "12  Zotero: Gerenciador de referências bibliográficas",
+    "section": "13.4 4. Criando coleções e adicionando Itens",
+    "text": "13.4 4. Criando coleções e adicionando Itens\n\n13.4.1 Crie uma coleção\n\nClique com o botão direito em Minha Biblioteca e selecione Nova coleção.\nNomeie a coleção (ex.: Projeto Argumentação) e pressione Enter.\n\n\n\n13.4.2 Adicione um item manualmente\n\nCom a coleção aberta, clique no botão + (Novo Item) na barra superior.\nEscolha o tipo de material (Artigo, Livro, Tese, etc.).\nPreencha os campos na coluna da direita: título, autor(es), ano, editora, DOI, URL, etc.\n\n\n\n13.4.3 Adicione um item automaticamente\n\nAcesse um artigo em sites como Google Acadêmico ou SciELO.\nClique no ícone do Zotero Connector no navegador.\nSelecione a coleção de destino.\nO item será salvo automaticamente com os metadados.",
+    "crumbs": [
+      "Tutoriais",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Zotero: Gerenciador de referências bibliográficas</span>"
+    ]
+  },
+  {
+    "objectID": "tutorial_zotero.html#inserindo-citações-e-referências-em-documentos-no-google-docs",
+    "href": "tutorial_zotero.html#inserindo-citações-e-referências-em-documentos-no-google-docs",
+    "title": "12  Zotero: Gerenciador de referências bibliográficas",
+    "section": "13.5 5. Inserindo citações e referências em documentos no Google Docs",
+    "text": "13.5 5. Inserindo citações e referências em documentos no Google Docs\n\n💡 Pré-requisito: Mantenha o Zotero aberto durante o processo.\n\n\n13.5.1 Insira citação\n\nAbra um documento no Google Docs.\nClique no menu Zotero que aparece na barra do Google Docs.\nSelecione Add/Edit Citation.\nDigite o título, autor ou ano, escolha o item e pressione Enter.\n\n\n\n13.5.2 Insira bibliografia\n\nNo final do documento, clique novamente em Zotero.\nSelecione Add/Edit Bibliography.\nA lista de referências será gerada automaticamente com base nas citações inseridas.",
+    "crumbs": [
+      "Tutoriais",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Zotero: Gerenciador de referências bibliográficas</span>"
+    ]
+  },
+  {
+    "objectID": "tutorial_zotero.html#sincronizando-com-a-nuvem-do-zotero",
+    "href": "tutorial_zotero.html#sincronizando-com-a-nuvem-do-zotero",
+    "title": "12  Zotero: Gerenciador de referências bibliográficas",
+    "section": "13.6 6. Sincronizando com a nuvem do Zotero",
+    "text": "13.6 6. Sincronizando com a nuvem do Zotero\n\n13.6.1 Crie uma conta Zotero\n\nAcesse https://www.zotero.org/user/register.\nPreencha os campos solicitados e confirme o cadastro pelo e-mail.\n\n\n\n13.6.2 Configure a sincronização\n\nAbra o Zotero e vá em Zotero &gt; Preferences &gt; Sync.\nInsira seu e-mail e senha da conta Zotero.\nAtive as opções Sync automatically e Sync full-text content.\nClique em Set up syncing e depois em OK.\n\n\n\n13.6.3 Confirme o backup online\n\nAcesse https://www.zotero.org e faça login.\nClique em Web Library no menu superior.\nVerifique se as coleções e os itens estão sincronizados corretamente.\n\n\n\n\n13.6.4 📌 Algumas considerações…\n\nOrganize suas referências de forma prática.\nGaranta a correta formatação de citações e referências conforme normas da ABNT.\nSincronize sua biblioteca entre diferentes dispositivos.\nPara mais informações, acesse a Documentação Oficial do Zotero.",
+    "crumbs": [
+      "Tutoriais",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Zotero: Gerenciador de referências bibliográficas</span>"
+    ]
+  },
+  {
+    "objectID": "tutorial_capes.html",
+    "href": "tutorial_capes.html",
+    "title": "13  Portal de periódicos da Capes",
+    "section": "",
+    "text": "14 Tutorial para iniciantes no Portal de Periódicos Capes\nEste tutorial irá guiá-lo pelos passos básicos para começar suas pesquisas no Portal de Periódicos Capes, explorando as diferentes formas de encontrar materiais para seu trabalho acadêmico.",
+    "crumbs": [
+      "Tutoriais",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Portal de periódicos da Capes</span>"
+    ]
+  },
+  {
+    "objectID": "tutorial_capes.html#acessando-o-portal-tipos-de-acesso",
+    "href": "tutorial_capes.html#acessando-o-portal-tipos-de-acesso",
+    "title": "13  Portal de periódicos da Capes",
+    "section": "14.1 1. Acessando o Portal (tipos de acesso)",
+    "text": "14.1 1. Acessando o Portal (tipos de acesso)\n\nComo Acessar:\nAbra o Google e digite “Periódicos Capes”. O site correto é https://www.periodicos.Capes.gov.br.\nTipos de Conteúdo/Acesso:\n\nConteúdo livre: disponível para qualquer pessoa.\nConteúdo assinado: disponível para os IPs identificados das instituições participantes. Caso você esteja acessando fora da rede da sua instituição, é necessário efetuar o login na Comunidade Acadêmica Federada (CAFe). A Ufersa é instituição parceira).\n\nPara acessar o conteúdo assinado, clique em “Acesso CAFE”, selecione sua instituição e insira o login e a senha fornecidos pela universidade.\nNo canto esquerdo, você verá se está conectado à sua instituição ou em acesso livre.",
+    "crumbs": [
+      "Tutoriais",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Portal de periódicos da Capes</span>"
+    ]
+  },
+  {
+    "objectID": "tutorial_capes.html#meu-espaço",
+    "href": "tutorial_capes.html#meu-espaço",
+    "title": "13  Portal de periódicos da Capes",
+    "section": "14.2 2. “Meu Espaço”",
+    "text": "14.2 2. “Meu Espaço”\n\nQualquer pessoa pode se cadastrar em “Meu Espaço”, mesmo sem vínculo institucional.\nIsso permite salvar histórico de buscas e acessar funcionalidades adicionais.",
+    "crumbs": [
+      "Tutoriais",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Portal de periódicos da Capes</span>"
+    ]
+  },
+  {
+    "objectID": "tutorial_capes.html#explorando-as-opções-de-busca",
+    "href": "tutorial_capes.html#explorando-as-opções-de-busca",
+    "title": "13  Portal de periódicos da Capes",
+    "section": "14.3 3. Explorando as opções de busca",
+    "text": "14.3 3. Explorando as opções de busca\n\nClique em “Acervo” no menu principal.\nAs opções principais são:\n\nBuscar Assunto\nListar Bases e Coleções\nListar Livros\nListar Periódicos",
+    "crumbs": [
+      "Tutoriais",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Portal de periódicos da Capes</span>"
+    ]
+  },
+  {
+    "objectID": "tutorial_capes.html#busca-simples-por-assunto",
+    "href": "tutorial_capes.html#busca-simples-por-assunto",
+    "title": "13  Portal de periódicos da Capes",
+    "section": "14.4 4. Busca simples por assunto",
+    "text": "14.4 4. Busca simples por assunto\n\nClique em “Buscar Assunto”.\nDigite o tema (ex.: teletrabalho).\nClique na lupa.\nNos resultados:\n\nCadeado verde = acesso aberto.\nClique em “acessar” para ler ou baixar o material.",
+    "crumbs": [
+      "Tutoriais",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Portal de periódicos da Capes</span>"
+    ]
+  },
+  {
+    "objectID": "tutorial_capes.html#busca-avançada-e-específica",
+    "href": "tutorial_capes.html#busca-avançada-e-específica",
+    "title": "13  Portal de periódicos da Capes",
+    "section": "14.5 5. Busca avançada e específica",
+    "text": "14.5 5. Busca avançada e específica\n\nNa tela de resultados, clique em “Busca Avançada”.\nConfigure os campos e use operadores booleanos:\n\nAND: restringe (ex.: “teletrabalho AND servidores públicos”).\nOR: amplia (ex.: “teletrabalho OR home office”).\nNOT: exclui (ex.: “teletrabalho NOT servidores públicos”).\nAspas (““): busca exata (ex.: “servidores públicos”).\n\nAplique filtros na lateral esquerda:\n\nTipo de acesso (livre ou assinado)\nTipo de recurso (artigo, livro, etc.)\nData de publicação\nÁrea do conhecimento\nIdioma",
+    "crumbs": [
+      "Tutoriais",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Portal de periódicos da Capes</span>"
+    ]
+  },
+  {
+    "objectID": "tutorial_capes.html#explorando-bases-livros-e-periódicos",
+    "href": "tutorial_capes.html#explorando-bases-livros-e-periódicos",
+    "title": "13  Portal de periódicos da Capes",
+    "section": "14.6 6. Explorando bases, livros e periódicos",
+    "text": "14.6 6. Explorando bases, livros e periódicos\n\nListar Bases e Coleções: Repositórios e bibliotecas digitais.\nListar Livros: Busque livros por título ou ISBN.\nListar Periódicos: Navegue por revistas científicas específicas.\n\n\n\n14.6.1 📌 Algumas considerações…\n\nO Portal está em constante atualização.\nCombine buscas básicas, avançadas e filtros para melhores resultados.\nExplore repositórios institucionais e revistas específicas além da busca por assunto.\nPara dúvidas ou orientações, consulte a equipe da biblioteca da sua instituição.",
+    "crumbs": [
+      "Tutoriais",
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Portal de periódicos da Capes</span>"
+    ]
+  },
+  {
+    "objectID": "modelo_plano.html",
+    "href": "modelo_plano.html",
+    "title": "14  Plano de trabalho",
+    "section": "",
+    "text": "Modelo de plano de trabalho\n\n\n\n\n\n\n\nDica\n\n\n\nEste é um modelo de plano de trabalho para a iniciação científica — um tipo de proposta de pesquisa que se vincula a projetos já cadastrados por professores da Ufersa.\nPelas regras institucionais, quem submete oficialmente o plano para concorrer a bolsas de Iniciação Científica é o(a) professor(a) coordenador(a) do projeto. Mas isso não significa que você não possa propor uma pesquisa.\nSe você tem uma ideia de pesquisa e gostaria de ser bolsista de IC, você pode se antecipar e apresentar sua proposta ao professor responsável por um projeto da sua área.\nEssa atitude mostra iniciativa, organização e compromisso com a ciência — qualidades que contam muito em qualquer etapa da vida acadêmica.\n🔎 Para descobrir quais projetos de pesquisa estão em execução na Ufersa, clique aqui.\n\n\n\n\nTítulo\n\nTítulo conciso e informativo da proposta de trabalho do estudante.\n\nIntrodução e justificativa\n\nApresente o contexto da proposta e sua relevância. Indique como ela se vincula ao projeto de pesquisa ao qual se integra. Justifique a importância do estudo com base em evidências (dados, autores, relatórios).\n\nObjetivos\n\n\nObjetivo geral\n\nDescrever o objetivo principal da proposta.\n\nObjetivos específicos\n\n\nObjetivo 1\nObjetivo 2\nObjetivo 3\n\n\nMetodologia\n\nDescreva os procedimentos que serão adotados ao longo do plano de trabalho. Inclua informações sobre instrumentos, etapas, técnicas de análise e, quando pertinente, sobre aprovação ética (CEP/CEUA).\n\nHabilidades a serem desenvolvidas\n\nListe as competências que você pretende desenvolver:\n\nHabilidade 1 (ex: análise de dados)\nHabilidade 2 (ex: escrita acadêmica)\nHabilidade 3 (ex: uso de ferramentas digitais)\n\n\nCronograma de atividades\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAtividades\nSet\nOut\nNov\nDez\nJan\nFev\nMar\n\n\n\n\nLeitura e revisão de literatura\nX\nX\n\n\n\n\n\n\n\nColeta de dados\n\nX\nX\n\n\n\n\n\n\nTratamento dos dados\n\n\nX\nX\n\n\n\n\n\nAnálise dos dados\n\n\n\nX\nX\n\n\n\n\nElaboração de relatório parcial\n\n\n\n\nX\nX\n\n\n\nEscrita do relatório final\n\n\n\n\n\nX\nX\n\n\nApresentação dos resultados\n\n\n\n\n\n\nX\n\n\n\n\n\n\nReferências\n\nSOBRENOME, Nome. Título da obra. Local: Editora, ano.\nSOBRENOME, Nome. “Título do artigo”. Nome do periódico, v. X, n. Y, p. Z–Z, ano.",
+    "crumbs": [
+      "Modelos",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Plano de trabalho</span>"
     ]
   }
 ]

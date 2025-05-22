@@ -55,5 +55,14 @@
   },
   "zotero.qmd": {
     "zotero.html": "4effa138"
+  },
+  "tutorial_zotero.qmd": {
+    "tutorial_zotero.html": "8e2e23e3"
+  },
+  "tutorial_capes.qmd": {
+    "tutorial_capes.html": "224d3eaa"
+  },
+  "modelo_plano.qmd": {
+    "modelo_plano.html": "db74e718"
   }
 }

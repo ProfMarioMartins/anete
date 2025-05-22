@@ -1,0 +1,68 @@
+---
+title: "Gêneros textuais acadêmicos"
+---
+
+Roteiro de aula elaborado no RStudio com o auxílio da inteligência artificial ChatGPT, revisado e avaliado pelo professor antes de sua publicação.
+
+## Objetivos de aprendizagem
+
+-   Objetivo 1
+-   Objetivo 2
+-   Objetivo 3
+
+::: {#Leitura}
+Leitura indicada:
+
+**Texto**, capítulo do livro **Capítulo**, de Autores.
+
+\[🔗 Acesso à leitura indicada\](https...)
+:::
+
+## Introdução
+
+## Aprendizagem prática
+
+### Questão 1
+
+<!-- Aqui começa o campo de respostas-->
+<details>
+<summary>
+</summary>
+
+Resposta
+
+</details>
+</pre>
+<!-- Aqui encerra o campo de respostas-->
+
+### Questão 2
+
+<!-- Aqui começa o campo de respostas-->
+<details>
+<summary>
+</summary>
+
+Resposta
+
+</details>
+</pre>
+<!-- Aqui encerra o campo de respostas-->
+
+::: {style="background-color:#222; color:#fff; padding: 1em; border-radius: 8px;"}
+⚠️**Importante**⚠️
+:::
+
+
+::: {style="background-color:#001f3f; color:#ffffff; padding: 1.5em; border-radius: 8px; font-size: 1.1em; line-height: 1.6;"}
+**Quadro de instruções**
+:::
+
+## Encerramento
+
+<img src="img/qr_aula.png" alt="QR Code para registro de presença" style="width:60%; display: block; margin: auto;"/>
+
+```{=html}
+<div style="position: absolute; top: 10px; left: 10px;">
+  <img src="img/capa_anete.png" alt="Logo ANETE" style="height: 60px;">
+</div>
+```

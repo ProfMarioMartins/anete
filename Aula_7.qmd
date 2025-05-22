@@ -2,6 +2,8 @@
 title: "Fontes confiáveis de informação"
 ---
 
+Roteiro de aula elaborado no RStudio com o auxílio da inteligência artificial ChatGPT, revisado e avaliado pelo professor antes de sua publicação.
+
 ## Objetivos de aprendizagem
 
 Ao final desta aula, espera-se que você seja capaz de:
@@ -185,8 +187,8 @@ Isso garantirá que você organize suas fontes de maneira adequada para usá-las
 
 Se você ainda não instalou ou configurou o Zotero, consulte o tutorial disponível no Bookdown da disciplina.
 
-🔗 [Acesse o tutorial de instalação e uso do Zotero](#)  
-_(https://profmariomartins.github.io/anete_suporte/zotero.html)_
+🔗 [Acesse o tutorial de instalação e uso do Zotero](#)\
+*(https://profmariomartins.github.io/anete_suporte/zotero.html)*
 :::
 
 ### ✅ Etapa 3 - Compartilhamento dos achados
