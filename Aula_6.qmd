@@ -242,9 +242,3 @@ Agora, usando as referências selecionadas por você, identifique qual é o nome
 Você deverá expor oralmente quais são os periódicos e/ou editoras.
 
 `r emo::ji("fire")` Lembre-se: na tarefa, não seriam aceitas dissertações de mestrado, teses de doutorado ou artigos publicados em anais de eventos. `r emo::ji("fire")`
-
-```{=html}
-<div style="position: absolute; top: 10px; left: 10px;">
-  <img src="img/capa_anete.png" alt="Logo ANETE" style="height: 60px;">
-</div>
-```

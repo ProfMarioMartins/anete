@@ -199,9 +199,3 @@ Como se organiza o sistema acadêmico brasileiro?
   }
 </script>
 ```
-
-```{=html}
-<div style="position: absolute; top: 10px; left: 10px;">
-  <img src="img/capa_anete.png" alt="Logo ANETE" style="height: 60px;">
-</div>
-```

@@ -1,0 +1,227 @@
+---
+title: "Atividade de pesquisa: movimentos retóricos do resumo"
+---
+
+::: {.titulo-nao-numerado}
+Objetivo
+:::
+
+Analisar a organização retórica de resumos acadêmicos a partir de uma abordagem sociorretórica, identificando os movimentos retóricos que estruturam esse gênero textual no contexto da produção científica brasileira.
+
+::: {.subtitulo-nao-numerado}
+🔍 Etapas da atividade
+:::
+
+- Selecione um resumo acadêmico disponível na página do ProfMat da Ufersa:
+
+https://sigaa.ufersa.edu.br/sigaa/public/programa/defesas.jsf?lc=pt_BR&id=628
+
+::: {.nota-secundaria}
+🔔 Atenção: Para evitar duplicação, você deve informar à turma o título do trabalho selecionado assim que fizer a escolha. Isso deve ser feito por mensagem no chat da disciplina no Gmail.
+:::
+
+- Copie o texto integral do resumo e cole no campo apropriado do formulário abaixo.
+	
+- Realize a segmentação do resumo conforme os cinco movimentos retóricos propostos.
+
+- Para cada movimento identificado, copie e cole no campo correspondente o trecho que o representa; e classifique-o segundo as opções disponíveis no formulário.
+	
+- Se um movimento não estiver presente no resumo, indique isso no formulário, selecionando a opção “Movimento não acontece”.
+
+
+📌 Recomendações importantes:
+
+- Certifique-se de analisar criticamente o texto, considerando a função comunicativa de cada trecho e não apenas marcadores superficiais.
+
+- Esta atividade visa o desenvolvimento da consciência retórica, contribuindo para a sua própria capacidade de escrever bons resumos acadêmicos no futuro.
+
+- A análise deve ser feita individualmente, com base nos princípios estudados em aula.
+
+---
+
+<!-- 🌐 Formulário para anotação de movimentos retóricos em resumos -->
+
+::: {.formulario}
+```{=html}
+<style>
+  .form-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 1.5em;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.08);
+    box-sizing: border-box;
+  }
+
+  .form-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 1em;
+  }
+
+  .form-container label {
+    display: block;
+    margin-bottom: 0.5em;
+    color: #222;
+    font-weight: 600;
+  }
+
+  .form-container input,
+  .form-container textarea,
+  .form-container select {
+    width: 100%;
+    padding: 0.75em;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 1em;
+    margin-bottom: 1.2em;
+  }
+
+  .form-container textarea {
+    resize: vertical;
+  }
+
+  .form-container button {
+    background-color: #007acc;
+    color: white;
+    padding: 0.9em 1.2em;
+    font-size: 1em;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+  }
+
+  .form-container button:hover {
+    background-color: #005f99;
+  }
+
+  @media (max-width: 600px) {
+    .form-container {
+      padding: 1em;
+    }
+  }
+</style>
+```
+
+
+```{=html}
+<div class="form-container">
+  <form id="form-resumo">
+
+    <h2>📄 Análise de resumos</h2>
+
+    <label>Seu nome:
+      <input type="text" name="nome" required>
+    </label>
+
+    <label><strong>Título da dissertação analisada:</strong>
+      <input type="text" name="titulo" required placeholder="Informe o título da dissertação analisada">
+    </label>
+
+    <label>Resumo completo:
+      <textarea name="resumo" rows="5" required placeholder="Cole aqui o texto integral do resumo..."></textarea>
+    </label>
+
+    <label>Situar a pesquisa:
+      <textarea name="situar_texto" rows="3" placeholder="Cole aqui o trecho que situa a pesquisa"></textarea>
+    </label>
+    <label>Selecione a(s) possibilidade(s):
+      <select name="situar_opcao">
+        <option value="">Selecione uma opção</option>
+        <option>Indicar o interesse no tópico de pesquisa</option>
+        <option>Fazer generalizações sobre o tópico de pesquisa</option>
+        <option>Estender pesquisas prévias</option>
+        <option>Citar pesquisas prévias</option>
+        <option>Contra-argumentar pesquisas prévias</option>
+        <option>Indicar lacunas em pesquisas prévias</option>
+        <option>Indicar a área de conhecimento</option>
+        <option>Movimento não acontece</option>
+        <option>Outro</option>
+      </select>
+    </label>
+
+    <label>Apresentar a pesquisa:
+      <textarea name="apresentar_texto" rows="3" placeholder="Cole aqui o trecho que apresenta a pesquisa"></textarea>
+    </label>
+    <label>Selecione a(s) possibilidade(s):
+      <select name="apresentar_opcao">
+        <option value="">Selecione uma opção</option>
+        <option>Indicar as principais características da pesquisa</option>
+        <option>Apresentar o(s) principal(is) objetivo(s)</option>
+        <option>Levantar hipóteses</option>
+        <option>Movimento não acontece</option>
+        <option>Outro</option>
+      </select>
+    </label>
+
+    <label>Descrever a metodologia:
+      <textarea name="metodologia_texto" rows="3" placeholder="Cole aqui o trecho que descreve a metodologia"></textarea>
+    </label>
+    <label>Selecione a(s) possibilidade(s):
+      <select name="metodologia_opcao">
+        <option value="">Selecione uma opção</option>
+        <option>Descrever participantes/corpus</option>
+        <option>Indicar tipo de estudo/abordagem</option>
+        <option>Descrever procedimentos/métodos</option>
+        <option>Indicar a procedência dos dados</option>
+        <option>Movimento não acontece</option>
+        <option>Outro</option>
+      </select>
+    </label>
+
+    <label>Sumarizar o(s) resultado(s):
+      <textarea name="resultados_texto" rows="3" placeholder="Cole aqui o trecho que apresenta os resultados"></textarea>
+    </label>
+    <label>Selecione a(s) possibilidade(s):
+      <select name="resultados_opcao">
+        <option value="">Selecione uma opção</option>
+        <option>Apresentar resultados qualitativos</option>
+        <option>Apresentar resultados quantitativos</option>
+        <option>Movimento não acontece</option>
+        <option>Outro</option>
+      </select>
+    </label>
+
+    <label>Discutir a pesquisa:
+      <textarea name="discutir_texto" rows="3" placeholder="Cole aqui o trecho que discute a pesquisa"></textarea>
+    </label>
+    <label>Selecione a(s) possibilidade(s):
+      <select name="discutir_opcao">
+        <option value="">Selecione uma opção</option>
+        <option>Elaborar conclusões</option>
+        <option>Recomendar futuras aplicações e/ou pesquisas</option>
+      </select>
+    </label>
+
+    <button type="submit">Enviar</button>
+  </form>
+</div>
+```
+
+```{=html}
+<script>
+document.getElementById('form-resumo').addEventListener('submit', function(e) {
+  e.preventDefault();
+  const form = e.target;
+  const data = new FormData(form);
+  const params = new URLSearchParams();
+
+  for (const pair of data.entries()) {
+    params.append(pair[0], pair[1]);
+  }
+
+  fetch('https://script.google.com/macros/s/AKfycbx37cRJdkKW7cv2J3-203rnUhzdop6KuvNE8p18uPjWq4rQ7KsVLjCIjyUXRUT_mZvW9g/exec', {
+    method: 'POST',
+    body: params
+  })
+  .then(response => response.text())
+  .then(msg => alert(msg))
+  .catch(error => alert('Erro ao enviar: ' + error));
+});
+</script>
+:::

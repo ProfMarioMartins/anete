@@ -1,0 +1,117 @@
+---
+title: "Análise e Expressão Textual (Anete)"
+author: "Mário Martins - UFERSA"
+output: 
+  pdf_document:
+    latex_engine: xelatex
+    toc: false
+    number_sections: false
+fontsize: 10.5pt
+geometry: a4paper, landscape, margin=2.5cm
+lang: pt-BR
+mainfont: "Roboto"
+---
+
+# Ficha de avaliação entre pares
+
+**Avaliador(a):** _________________________________________________________________________________________________________
+
+**Avaliado(a)**___________________________________________________________________________________________________________  
+
+\section*{Parte 1 – Escrita}
+
+\begin{tabular}{|p{4.0cm}|p{4.7cm}|p{4.7cm}|p{4.7cm}|p{4.7cm}|}
+\hline
+\textbf{Critério} & \textbf{4 – Excelente} & \textbf{3 – Bom} & \textbf{2 – Regular} & \textbf{1 – Insuficiente} \\
+\hline
+\textbf{Coerência global} & Ideias muito bem articuladas e altamente fluídas & Ideias bem articuladas e fluídas & Ideias pouco articuladas e pouco fluídas & Ideias desarticuladas e nada fluídas \\
+\hline
+\textbf{Coesão textual} & Conectores e mecanismos coesivos muito bem empregados e variados & Conectores e mecanismos coesivos bem empregados & Conectores e mecanismos coesivos pouco variados ou mal distribuídos & Conectores e mecanismos coesivos ausentes ou inadequados \\
+\hline
+\textbf{Adequação à proposta} & Responde plenamente à proposta, com exemplos muito pertinentes & Responde adequadamente à proposta, com exemplos pertinentes & Responde parcialmente à proposta, com exemplos pouco claros ou incompletos & Não responde à proposta ou foge totalmente ao tema \\
+\hline
+\textbf{Norma-padrão escrita} & Sem desvios gramaticais & Poucos desvios gramaticais, sem prejuízo para a compreensão & Vários desvios gramaticais, que dificultam a leitura & Muitos desvios gramaticais, que comprometem a compreensão \\
+\hline
+\textbf{Capacidade argumentativa} & Apresenta argumentos muito relevantes e bem articulados & Apresenta argumentos relevantes e articulados & Apresenta argumentos pouco relevantes ou pouco articulados & Não apresenta argumentos ou apresenta argumentos irrelevantes e desarticulados \\
+\hline
+\end{tabular}
+
+# Parte 2 – Leitura
+
+**Total de acertos:** _____ / 6
+
+\begin{tabular}{|p{4.0cm}|p{20.0cm}|}
+\hline
+\textbf{Nível} & \textbf{Descrição} \\
+\hline
+4 – Excelente & Acertou 6 questões – domínio pleno da leitura inferencial e crítica \\
+\hline
+3 – Bom & Acertou 4 a 5 questões – boa compreensão, com pequenas falhas \\
+\hline
+2 – Regular & Acertou 2 a 3 questões – compreensão parcial e dificuldades em inferência e análise \\
+\hline
+1 – Insuficiente & Acertou 0 a 1 questão – dificuldades evidentes de leitura e inferência textual \\
+\hline
+\end{tabular}
+
+\vspace{0.5cm}
+
+# Parte 3 – Reescrita
+
+**Critérios avaliados:** clareza, correção, fidelidade ao sentido, reflexão metalinguística
+
+\begin{tabular}{|p{4.0cm}|p{4.7cm}|p{4.7cm}|p{4.7cm}|p{4.7cm}|}
+
+\hline
+\textbf{Critério} & \textbf{4 – Excelente} & \textbf{3 – Bom} & \textbf{2 – Regular} & \textbf{1 – Insuficiente} \\
+\hline
+\textbf{Clareza e objetividade} & Texto muito claro, muito bem estruturado e altamente objetivo & Texto claro, bem estruturado e objetivo & Texto pouco claro, com estrutura frágil e objetividade limitada & Texto confuso, desorganizado e sem objetividade \\
+\hline
+\textbf{Correção linguística} & Sem desvios gramaticais e ortográficos & Pouquíssimos desvios gramaticais, sem prejuízo à compreensão & Vários desvios que dificultam a leitura & Muitos desvios que comprometem seriamente a compreensão \\
+\hline
+\textbf{Preservação do sentido} & Sentido totalmente preservado, com fidelidade ao texto original & Sentido majoritariamente preservado, com alterações mínimas & Sentido parcialmente preservado, com perdas importantes & Sentido comprometido ou totalmente perdido \\
+\hline
+\textbf{Justificativa da reescrita} & Justificativa muito clara, pertinente e bem fundamentada & Justificativa clara e pertinente & Justificativa pouco clara ou pouco fundamentada & Justificativa ausente ou irrelevante \\
+\hline
+\end{tabular}
+
+\vspace{2.5cm}
+
+---
+
+\section*{Síntese}
+
+\begin{tabular}{|p{6.5cm}|p{2.5cm}|}
+\hline
+\textbf{Domínio avaliado} & \textbf{Nível (1 a 4)} \\
+\hline
+Produção textual (peso 4) & \hspace{2cm} \\
+\hline
+Leitura e interpretação (peso 3) & \hspace{2cm} \\
+\hline
+Reescrita e revisão textual (peso 3) & \hspace{2cm} \\
+\hline
+\end{tabular}
+
+\vspace{0.5cm}
+
+\noindent\textbf{Nota final (0 a 10):} \underline{\hspace{2cm}}  
+\hfill \textit{\small (Calcular com base na fórmula abaixo)}
+
+\vspace{0.3cm}
+
+\begin{quote}
+\footnotesize
+\textbf{Fórmula de cálculo:}  
+Nota final = $\frac{(N_1 \times 4) + (N_2 \times 3) + (N_3 \times 3)}{10}$  
+em que:  
+$N_1$ = nota da produção textual,  
+$N_2$ = nota da leitura e interpretação,  
+$N_3$ = nota da reescrita e revisão textual.
+\end{quote}
+
+\vspace{4cm}
+
+---
+
+*Esta ficha é um instrumento formativo, voltado à devolutiva entre pares. Os níveis aqui atribuídos não serão considerados na nota. Indicam apenas aspectos a desenvolver ao longo da disciplina.*

@@ -102,6 +102,7 @@ Atenção: o uso de apud deve ser excepcional. Sempre que possível, consulte a 
 
 <p>Preencha os campos abaixo para enviar o resultado da atividade individual sobre o Zotero.</p>
 
+::: formulario
 ```{=html}
 <!-- Formulário de envio da atividade Zotero -->
 <p><strong>🔎 Instruções:</strong> Copie todo o conteúdo do seu documento do Google Docs — incluindo a Introdução com as citações e a lista de Referências Bibliográficas — e cole no campo abaixo. O envio é individual.</p>
@@ -149,12 +150,6 @@ Atenção: o uso de apud deve ser excepcional. Sempre que possível, consulte a 
   });
 </script>
 ```
+:::
 
 <br/><br/>
-
-```{=html}
-
-<div style="border: 1px solid #ccc; padding: 1em; background-color: #f9f9f9; border-radius: 5px; margin-bottom: 1em;">
-**Use o tutorial "Zotero: Gerenciador de referências bibliográficas" para resolver a atividade proposta acima.**
-</div>
-```

@@ -295,9 +295,3 @@ A GM distribuiu também um memorando interno, exigindo que seus funcionários le
 </pre>
 
 <!-- Aqui encerra o campo de respostas-->
-
-```{=html}
-<div style="position: absolute; top: 10px; left: 10px;">
-  <img src="img/capa_anete.png" alt="Logo ANETE" style="height: 60px;">
-</div>
-```

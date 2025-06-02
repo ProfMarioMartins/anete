@@ -527,9 +527,3 @@ Você está presente?
      alt="Chamada" 
      style="width:60%; display: block; margin: 0 auto;">
 ```
-
-```{=html}
-<div style="position: absolute; top: 10px; left: 10px;">
-  <img src="img/capa_anete.png" alt="Logo ANETE" style="height: 60px;">
-</div>
-```

@@ -1,0 +1,202 @@
+---
+title: "Análise e Expressão Textual - 2025.1"
+author: "Mário Martins"
+language:
+  locale: pt
+  title-block-author-single: "Professor"
+format:
+  html:
+    theme: journal
+    toc: false
+---
+
+# 1ª Avaliação
+
+::: {.section style="padding:1.2em; background-color:#f8f9fa; color:#000; border: 1px solid #ccc; border-radius: 6px;"}
+**Nome completo:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+**Matrícula:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+**Turma:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+**Nota:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+:::
+
+### Questão 1
+
+> Segundo a ABNT, citação é a menção a uma informação extraída de outra fonte, utilizada para fundamentar, esclarecer ou ilustrar as ideias do autor do texto.
+
+Leia os fragmentos abaixo e identifique qual deles apresenta uma citação indireta:
+
+-   [ ] a) “A linguagem é a forma mais elaborada de comunicação humana” (Abreu, 2012, p. 27).
+-   [ ] b) Kleiman (1999) compreende a linguagem como uma ferramenta que organiza o pensamento e a interação social.
+-   [ ] c) “A função da linguagem é estruturar e expressar o pensamento humano” (Vygotsky, 2001, p. 83).
+-   [ ] d) “Todo texto é atravessado por vozes sociais e ideológicas” (Bakhtin, 1988, p. 45).
+
+### Questão 2
+
+Os discursos variam conforme seus objetivos, estruturas linguísticas e fundamentos.\
+O **discurso científico** utiliza linguagem formal, objetiva e baseada em métodos sistemáticos e dados empíricos, com o objetivo de produzir conhecimento verificável.\
+O **discurso jurídico** adota linguagem técnica e normativa, regida por leis e princípios, buscando regular comportamentos sociais.\
+O **discurso religioso** fundamenta-se em doutrinas e crenças, com linguagem simbólica e valorativa, voltada à moral e à transcendência.\
+Já o **discurso do senso comum** utiliza linguagem informal e cotidiana, baseando-se em experiências sociais compartilhadas, muitas vezes sem comprovação crítica.
+
+Leia os quatro fragmentos a seguir:
+
+-   **Fragmento A:** “Todo cidadão tem o direito à ampla defesa e ao contraditório nos processos administrativos e judiciais, conforme previsto na Constituição Federal.”
+-   **Fragmento B:** “Acredita-se que a dor e a adversidade fortalecem o espírito. Por isso, devemos aceitar os sofrimentos como parte do plano divino para nos ensinar a fé e a obediência.”
+-   **Fragmento C:** “O uso prolongado de agrotóxicos em culturas agrícolas tem sido associado a alterações no solo e à diminuição da biodiversidade em áreas de cultivo intensivo.”
+-   **Fragmento D:** “Quem planta, colhe. É por isso que devemos sempre fazer o bem, pois a vida devolve tudo o que entregamos ao mundo.”
+
+Qual dos fragmentos exemplifica o discurso científico?
+
+-   [ ] a) Fragmento D
+-   [ ] b) Fragmento B
+-   [ ] c) Fragmento C
+-   [ ] d) Fragmento A
+
+### Questão 3
+
+Segundo a ABNT, citação é a menção a uma informação extraída de outra fonte, utilizada para fundamentar, esclarecer ou ilustrar as ideias do autor do texto.
+
+O que indica o uso de *sic* em uma citação direta?
+
+-   [ ] a) Que a citação foi feita de forma livre, mantendo apenas o sentido geral do original.
+-   [ ] b) Que o erro ou forma estranha está no texto original, e não foi inserido por quem cita.
+-   [ ] c) Que o autor do texto discorda do conteúdo citado.
+-   [ ] d) Que o trecho citado está incompleto ou foi adaptado.
+
+### Questão 4
+
+Segundo as normas da ABNT, uma **referência bibliográfica** é um *conjunto padronizado de elementos descritivos que identifica individualmente os documentos citados, permitindo ao leitor localizá-los*.
+
+Leia as dez referências a seguir:
+
+1.  OLIVEIRA, Marcos; SILVA, Renata. Educação matemática e cotidiano. Curitiba: CRV, 2015.\
+2.  ABREU, Antônio Suárez. A arte de argumentar: gerenciando razão e emoção. São Paulo: Ática, 2012.\
+3.  XAVIER, Paulo; FERREIRA, Tereza; MONTEIRO, Daniel; GONÇALVES, Beatriz. Saberes e práticas pedagógicas. Recife: UFPE, 2021.\
+4.  VASCONCELOS, Elisa. Trabalho docente e políticas públicas. Rio de Janeiro: Vozes, 2013.\
+5.  BASTOS, Heloísa; MORAES, Maria Célia. Educação e memória social. Belo Horizonte: Autêntica, 2009.\
+6.  CUNHA, Maria Isabel. Universidade e formação docente. Petrópolis: Vozes, 2003.\
+7.  SANTOS, Fabiana; MELO, Carlos; BRITO, Joana; FARIAS, Luciana. Letramentos em práticas sociais escolares. Salvador: EDUFBA, 2020.\
+8.  LIMA, Ana Paula. Leitura e escrita no ensino médio. São Paulo: Cortez, 2018.\
+9.  REIS, Pedro. Didática crítica e formação de professores. Campinas: Mercado de Letras, 2017.\
+10. FIORENTINI, Dario. Saberes docentes e prática reflexiva. São Paulo: Cortez, 2014.
+
+Assinale a alternativa em que todas as referências estão **corretamente formatadas como um conjunto padronizado e localizável**, conforme a definição apresentada:
+
+-   [ ] a) 2, 6, 5, 10, 8, 1, 9, 4, 7, 3
+-   [ ] b) 5, 2, 6, 10, 8, 1, 9, 7, 3, 4
+-   [ ] c) 2, 5, 6, 10, 8, 1, 9, 7, 4, 3
+-   [ ] d) 5, 2, 6, 3, 8, 1, 9, 7, 10, 4
+
+### Questão 5
+
+**Pensamento científico** é uma forma de raciocínio orientada por evidências e procedimentos sistemáticos. Envolve observação, levantamento de problemas, testes controlados e análise de resultados para avaliar a validade de ideias.
+
+Leia os casos abaixo. Em seguida, responda à questão.
+
+1.  **João** notou que seu computador ficou lento após uma tempestade e passou a acreditar que as descargas elétricas interferem na internet, evitando usar aparelhos eletrônicos em dias nublados.
+
+2.  **Ana** percebeu que suas plantas estavam murchando. Investigou diferentes formas de rega, registrou as condições e os efeitos observados, e identificou o excesso de água como fator principal.
+
+3.  **Carla** toma chá de boldo quando sente dores abdominais, pois aprendeu com familiares que isso alivia problemas no fígado.
+
+4.  **Pedro** costuma estudar apenas na véspera das provas, acreditando que isso melhora seu desempenho, já que outros colegas fazem o mesmo e se saem bem.
+
+Qual dos casos exemplifica o pensamento científico?
+
+-   [ ] a) Apenas o caso de Ana, pois ela age de forma alinhada ao pensamento científico, pois explora uma questão por meio de observação controlada e registro de evidências.
+-   [ ] b) Os casos de João e Carla, pois exemplificam pensamento científico, por fundamentarem suas escolhas em experiências culturalmente compartilhadas.
+-   [ ] c) Todos os casos representam senso comum, por dependerem de hábitos cotidianos e referências subjetivas.
+-   [ ] d) Os quatro casos ilustram pensamento científico, pois todos envolvem algum tipo de observação e prática pessoal.
+
+### Questão 6
+
+Segundo Suárez Abreu (2012), argumentar envolve tanto **convencer**, por meio da razão e de evidências verificáveis, quanto **persuadir**, por meio da empatia e da sensibilidade.\
+Para **convencer**, o foco está na lógica, na clareza e na objetividade das informações. Já **persuadir** requer olhar o outro por inteiro, considerando suas emoções, experiências e valores, como destacam Castro et al. (2019, p. 14).
+
+Leia os fragmentos abaixo. Ambos abordam a decisão de parar de fumar:
+
+-   **Fragmento A:**\
+    “Estudos da Organização Mundial da Saúde indicam que o risco de câncer de pulmão é 23 vezes maior em fumantes ativos. Além disso, parar de fumar melhora a função respiratória em até 30% nos primeiros três meses.”
+
+-   **Fragmento B:**\
+    “Você merece respirar com liberdade e viver mais momentos com quem ama. Cada cigarro deixado para trás é um passo em direção à vida que você sonha — mais leve, mais plena, mais sua.”
+
+Com base na leitura, assinale a alternativa correta:
+
+-   [ ] a) O Fragmento A busca persuadir, ao passo que o Fragmento B tenta convencer.
+-   [ ] b) Ambos os fragmentos exemplificam a estratégia de convencimento, pois utilizam informações objetivas e dados verificáveis.
+-   [ ] c) O Fragmento A exemplifica uma estratégia de convencimento; o Fragmento B, uma de persuasão.
+-   [ ] d) Os dois fragmentos apresentam linguagem emocional, sendo exemplos de persuasão.
+
+### Questão 7
+
+**Replicabilidade** é um princípio fundamental da ciência. Significa que os métodos e procedimentos utilizados em uma pesquisa devem ser descritos de modo suficientemente claro para que outras pessoas possam repetir o estudo e verificar os resultados obtidos.
+
+Leia os quatro casos a seguir:
+
+-   Caso A: Uma pesquisadora utilizou um conjunto de dados públicos para analisar o desempenho de estudantes. Ela descreveu os métodos de análise estatística empregados e incluiu um resumo dos resultados, sem disponibilizar o código nem o acesso direto aos dados.
+
+-   Caso B: Um grupo desenvolveu um aplicativo para prever a evasão escolar. O artigo apresenta os objetivos da ferramenta e sua aplicação em contexto educacional, sem oferecer informações técnicas detalhadas sobre o funcionamento do algoritmo ou os dados utilizados.
+
+-   Caso C: Uma equipe realizou um experimento em laboratório e tornou públicos os dados brutos, os scripts de análise e as etapas detalhadas do procedimento, em um repositório aberto.
+
+-   Caso D: Um professor relatou os efeitos de uma metodologia de ensino baseada em atividades colaborativas. Ele apresentou os resultados obtidos com a turma e descreveu de forma geral como conduziu as aulas, sem anexar os materiais ou protocolos utilizados.
+
+Qual dos casos exemplifica corretamente o princípio da replicabilidade?
+
+-   [ ] a) Caso C, por tornar acessíveis os dados, os métodos e os procedimentos adotados.
+-   [ ] b) Caso B, por desenvolver uma solução tecnológica voltada para a educação.
+-   [ ] c) Caso D, por relatar os resultados de sua prática pedagógica em contexto real.
+-   [ ] d) Caso A, por utilizar dados públicos e relatar a metodologia.
+
+### Questão 8
+
+**Verificação de suposições** envolve avaliar se uma ideia é válida a partir de dados observáveis e comparações consistentes, e não apenas com base em crenças ou experiências isoladas.
+
+Leia os casos abaixo. Em seguida, responda à questão.
+
+-   **João** acreditava que os travamentos no computador eram causados pela umidade do ar. Para tirar a dúvida, fez um teste: usou o computador normalmente durante vários dias chuvosos e secos, anotando a performance e as condições do ambiente. Ao final, concluiu que a falha ocorria por causa de um programa mal instalado, e não do clima.
+
+-   **Ana** costuma regar as plantas à noite, acreditando que assim a água permanece mais tempo no solo. Essa prática é baseada em conselhos que ouviu de pessoas próximas e ela a mantém regularmente em seus cuidados com o jardim.
+
+-   **Carla** toma chá de boldo quando sente desconforto abdominal, pois considera que essa é uma prática eficaz. Ela baseia essa escolha em orientações familiares e sente alívio após utilizá-la.
+
+-   **Pedro** costuma estudar apenas na véspera das provas, estratégia que adota com frequência por considerar que isso aumenta sua concentração. Ele formou essa convicção observando os hábitos de colegas que considera bem-sucedidos.
+
+Qual personagem realizou uma verificação de suposições com base em observação e análise sistemática?
+
+-   [ ] a) João
+-   [ ] b) Pedro
+-   [ ] c) Ana
+-   [ ] d) Carla
+
+### Questão 9
+
+Segundo a ABNT, citação é a menção a uma informação extraída de outra fonte, utilizada para fundamentar, esclarecer ou ilustrar as ideias do autor do texto.
+
+O que indica o uso de *apud* em uma citação direta?
+
+-   [ ] a) Que o autor do texto leu a obra original, mas decidiu citar uma análise feita por outro pesquisador.
+-   [ ] b) Que o autor do texto está citando um conteúdo que encontrou em outra obra, sem ter consultado a fonte original diretamente.
+-   [ ] c) Que o trecho citado está em língua estrangeira e foi traduzido pelo autor do texto.
+-   [ ] d) Que a citação é indireta e foi livremente parafraseada pelo autor.
+
+### Questão 10
+
+**Verificação de suposições** envolve avaliar se uma ideia é válida a partir de dados observáveis e comparações consistentes, e não apenas com base em crenças ou experiências isoladas.
+
+Leia os casos abaixo. Em seguida, responda à questão.
+
+-   **Pedro** tem a impressão de que dormir menos de cinco horas interfere em seu desempenho em provas. Para acompanhar essa possível relação, ele anotou seus horários de sono e os resultados obtidos em diferentes avaliações ao longo do semestre.
+
+-   **Ana** costuma ouvir música clássica enquanto escreve textos acadêmicos. Acredita que esse hábito melhora sua produtividade, pois sente que escreve com mais fluidez quando está ouvindo Mozart.
+
+Com base nos casos, assinale a alternativa correta:
+
+-   [ ] a) Apenas Ana verificou sua suposição com observação e teste.
+-   [ ] b) Apenas Pedro realizou uma verificação empírica de sua hipótese.
+-   [ ] c) Ambos os personagens verificaram suas suposições com base em evidências.
+-   [ ] d) Nenhum deles testou a validade da própria crença.

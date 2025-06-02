@@ -33,7 +33,7 @@ book:
       - Aula_8.qmd
     - part: "Unidade II"
       chapters:
-      - Aula_X.qmd
+      - Aula_9.qmd
     - part: "Unidade III"
       chapters:
       - Aula_Y.qmd
@@ -44,26 +44,24 @@ book:
     - part: "Modelos"
       chapters:
       - modelo_plano.qmd
+    - part: "Atividade de pesquisa"
+      chapters:
+      - pesquisa_01.qmd
 
 bibliography: references.bib
 
 format:
   html:
-    theme:
-      journal
-    css:
-      custom.css
-    navbar:
-      right:
-        - href: https://profmariomartins.github.io/anete_suporte/
-          text: "ANETE"
-        - text: ""
-          href: https://profmariomartins.github.io/anete_suporte/
-          icon: img/capa_anete.png
-  pdf:
-    documentclass: scrreprt
-  epub:
-    cover-image: capa_anete.png
+    theme: 
+      - journal
+    toc: true
+    sidebar:
+      style: "floating"
+      collapse-level: 1
+      pinned: false
+    tools:
+      - toggle
+    css: custom.css
 
 editor: visual
 

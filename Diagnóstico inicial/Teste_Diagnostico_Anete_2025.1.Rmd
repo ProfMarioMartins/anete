@@ -1,0 +1,255 @@
+---
+title: "Análise e Expressão Textual (Anete)"
+author: "Mário Martins - UFERSA"
+output: 
+  pdf_document:
+    latex_engine: xelatex
+    toc: false
+    number_sections: false
+fontsize: 12pt
+geometry: margin=2.5cm
+lang: pt-BR
+mainfont: "Roboto"
+---
+
+# Teste diagnóstico de habilidades textuais[^1]
+
+[^1]: Este teste diagnóstico de competências textuais está fundamentado nas diretrizes do Parecer CNE/CES nº 266/2011, que estabelece como competência do egresso de um bacharelado interdisciplinar “ter sensibilidade social e aptidão para a comunicação”. Também se alinha à Resolução CNE nº 2/2019, referente aos cursos de engenharia, que prevê como competência do engenheiro “expressar-se adequadamente na língua pátria (ou em outro idioma), inclusive por meio das tecnologias digitais de informação e comunicação”.
+
+\vspace{1.0cm}
+
+**Nome:** ______________________________________________________________________________________  
+\vspace{0.5cm}
+
+**Matrícula:** _________________________________________________________________________________  
+\vspace{0.5cm}
+
+Este teste tem caráter **diagnóstico** e **não será utilizado para nota**. Seu objetivo é conhecer melhor suas habilidades de leitura, escrita e reescrita acadêmicas.
+
+Leia com atenção cada proposta e responda com calma, da melhor forma que puder. Ao final, revise suas respostas antes de entregar. Esta é apenas uma atividade para conhecermos melhor o seu ponto de partida — não se preocupe com nota.
+
+---
+
+## Parte 1 – Escrita
+
+**1. Escreva um parágrafo entre 100 e 150 palavras em que você responda à seguinte pergunta:**
+
+**“Por que a comunicação escrita é uma habilidade essencial no ensino superior?”**
+
+\begin{quote}
+\footnotesize
+Ao escrever o parágrafo, mencione pelo menos dois aspectos importantes da escrita e dê um exemplo prático de situação acadêmica em que ela se faz necessária. Escreva em linguagem formal, típica de contextos acadêmicos.
+\normalsize
+\end{quote}
+
+\noindent\fbox{%
+    \parbox[t][20cm][t]{\textwidth}{%
+        \vspace{0.2cm}
+        \textit{Espaço reservado para a resposta da parte 1 deste teste. Escreva dentro deste quadro.}
+    }%
+}
+
+<!--
+=========================================================
+COMENTÁRIOS: COMPETÊNCIAS AVALIADAS NO TESTE DIAGNÓSTICO
+=========================================================
+
+PARTE 1 – Produção de texto (resposta à pergunta)
+
+Competências avaliadas:
+- Coerência textual global: encadeamento lógico das ideias.
+- Coesão referencial e sequencial: uso de conectores, pronomes, repetições controladas.
+- Adequação ao gênero e à situação comunicativa: linguagem formal e objetiva.
+- Domínio da norma padrão escrita: ortografia, concordância, pontuação.
+- Capacidade argumentativa: posicionamento e justificativa.
+-->
+
+---
+
+\vspace{0.25cm}
+
+## Parte 2 – Leitura
+
+Leia o texto a seguir com atenção e, em seguida, responda às questões objetivas.
+\vspace{0.25cm}
+
+\Large\textbf{Seja um engenheiro que escreve bem}
+
+\small Daniel Ferraz[^2]
+
+[^2]:Artigo publicado no LinkedIn. Disponível em: https://pt.linkedin.com/pulse/seja-um-engenheiro-que-escreve-bem-daniel-ferraz
+
+\begin{quote}
+Não gosto de café muito quente. Sempre quando vou tomar tenho que esperar alguns minutos até perder o medo de queimar minha boca. Enquanto meu café esfria, gosto de sentir o aroma que sobe lentamente, observando as gotículas de água condensadas na borda da xícara. É um fenômeno intrigante para mim.
+
+Mas o que isso tem a ver com este artigo? Pouca coisa.
+
+Vou contornar o assunto totalmente agora. Se no primeiro parágrafo desse artigo você já ficou se perguntando onde ele quer chegar e o que café está relacionado com um engenheiro comunicador, eu atingi meu objetivo. Queria mostrar que nós engenheiros, conseguimos nos comunicar, e falar sobre qualquer coisa, captar um leitor, transmitir uma mensagem.
+
+Comunicação escrita é a forma como nos relacionamos aqui pelo Linkedin e em tantos outros lugares. Quando você abriu este artigo, entrou em um processo comunicativo comigo. O poder maior que podemos obter aqui no Linkedin não é o de disparar currículos com uma mensagem padronizada, o que de melhor pode acontecer com você é se tornar \textbf{um bom comunicador}.\\
+
+\textbf{Por que escrevemos pouco?}
+
+A comunicação escrita efetiva não foi ensinada na faculdade. Muito pelo contrário, foi desestimulada. Nunca vi uma prova de cálculo diferencial integral com uma questão dissertativa, onde você tivesse que explicar como uma integral tripla define o volume de um sólido qualquer.
+
+Quem gostava de ler e/ou escrever na faculdade foi dogmatizado para ser fiel aos números, e não viver um adultério com as letras.
+
+A impressão que tenho, é que alguns engenheiros são preguiçosos para escrever. Recebo dezenas de e-mails mensais com pedidos de empregos ou estágios, mas nunca recebi um sequer que fugisse do padrão superficial adotado por todos. Falta originalidade ou é uma displicência característica? Por que olhamos com enfado e desdém para a figura de uma máquina de escrever, a mãe dos teclados que você utiliza diariamente?
+
+Não é que achamos uma máquina de escrever obsoleta, é que não gostamos do produto dela: o texto.
+
+O fato é que poucos engenheiros escrevem bem. Uma timeline, independente da rede social que for, dá esse poder incrível ao interlocutor de ser notado. Um texto certo, com o conteúdo certo, para o leitor certo, e pronto! Eis o resultado que você esperava. Estabelecemos um relacionamento onde tudo pode acontecer.
+
+É uma relação de causa e efeito. Consegue oportunidades quem é notado, é notado quem faz algo diferente, e um dos maiores diferenciais hoje é o engenheiro que escreve bem, sobretudo a respeito de engenharia.\\
+
+\textbf{Não tenha medo de interação}
+
+Questione, opine, comente, agradeça, compartilhe, discorde, ou seja, interaja!
+
+Ensine e aprenda. Não seja um espírito invisível vagando pela rede, ou como aquela senhora do interior que passa a tarde toda observando o movimento na rua. Participe escrevendo.
+
+Dê sua cara a tapa. Esse poder de ser ouvido (ou lido), por dezenas de milhares, e até centenas de milhares de pessoas, pode alavancar resultados não esperados.
+
+Não será um exercício fácil, mas como tudo na vida a prática leva à perfeição.
+
+Um bom texto a todos!
+
+\end{quote}
+
+### Questões de múltipla escolha
+
+**2.1 – O autor começa seu texto com uma descrição sobre o café. Qual é a principal função dessa introdução?**  
+- ( ) a) Relatar um hábito cotidiano para criar empatia com o leitor  
+- ( ) b) Apresentar, de forma indireta, a importância da engenharia térmica  
+- ( ) c) Causar estranhamento e prender a atenção, antes de introduzir o tema principal  
+- ( ) d) Mostrar que o autor valoriza o cotidiano como objeto técnico de reflexão  
+
+\vspace{0.5cm}
+
+**2.2 – O autor afirma que engenheiros escrevem pouco. Qual das opções resume melhor sua explicação para esse fato?**  
+- ( ) a) Falta de tempo para desenvolver a escrita formal  
+- ( ) b) Formação acadêmica que valoriza apenas os números  
+- ( ) c) Pouca valorização do texto na cultura digital contemporânea  
+- ( ) d) Inexistência de disciplinas de escrita nas engenharias  
+
+\vspace{0.5cm}
+
+**2.3 – Em sua crítica, o autor usa a metáfora “adultério com as letras”. O que ela expressa?**  
+- ( ) a) Que a escrita é vista como algo proibido para quem é de exatas  
+- ( ) b) Que a leitura e a escrita são práticas ultrapassadas na engenharia  
+- ( ) c) Que os engenheiros evitam se envolver com o universo das letras por preconceito formativo  
+- ( ) d) Que as humanidades não devem invadir o campo técnico da engenharia  
+
+\vspace{0.5cm}
+
+**2.4 – Qual alternativa expressa melhor a tese do texto?**  
+- ( ) a) A comunicação escrita não tem mais espaço no mercado de trabalho  
+- ( ) b) O LinkedIn é a principal rede para engenheiros que buscam visibilidade  
+- ( ) c) Um engenheiro que escreve bem se destaca em sua área profissional  
+- ( ) d) As redes sociais diminuíram o interesse dos engenheiros pela escrita  
+
+\vspace{0.5cm}
+
+**2.5 – A imagem da “senhora do interior que observa o movimento na rua” representa:**  
+- ( ) a) Uma atitude tradicional de vigilância social  
+- ( ) b) Um tipo de participação passiva nas redes digitais  
+- ( ) c) O comportamento reflexivo de quem observa antes de agir  
+- ( ) d) A nostalgia por práticas mais analógicas de comunicação  
+
+\vspace{0.5cm}
+
+**2.6 – Segundo o texto, qual é a relação entre escrever bem e se destacar no mercado?**  
+- ( ) a) Quem escreve bem consegue notas mais altas na faculdade  
+- ( ) b) Escrever bem permite preencher currículos de forma mais clara  
+- ( ) c) A boa escrita é uma forma de se tornar visível e gerar oportunidades profissionais  
+- ( ) d) Quem escreve bem tende a ocupar cargos gerenciais automaticamente  
+
+<!--
+=========================================================
+COMENTÁRIOS: COMPETÊNCIAS AVALIADAS NO TESTE DIAGNÓSTICO
+=========================================================
+
+PARTE 2 – Leitura e interpretação de texto
+
+✅ 2.1 – Função da introdução com a imagem do café
+✔ Resposta correta: (c)
+🧠 Habilidade: leitura inferencial e reconhecimento de estratégia discursiva.
+
+✅ 2.2 – Razão principal para engenheiros escreverem pouco
+✔ Resposta correta: (b)
+🧠 Habilidade: compreensão literal e síntese de conteúdo explícito no texto.
+
+✅ 2.3 – Significado da metáfora “adultério com as letras”
+✔ Resposta correta: (c)
+🧠 Habilidade: interpretação de metáfora com valor argumentativo e crítico.
+
+✅ 2.4 – Tese central do texto
+✔ Resposta correta: (c)
+🧠 Habilidade: compreensão global e síntese da ideia principal.
+
+✅ 2.5 – Sentido da imagem da “senhora do interior”
+✔ Resposta correta: (b)
+🧠 Habilidade: interpretação crítica de figura de linguagem com função metonímica.
+
+✅ 2.6 – Relação entre escrever bem e destaque profissional
+✔ Resposta correta: (c)
+🧠 Habilidade: interpretação inferencial e aplicação da tese a contextos práticos.
+-->
+
+---
+
+## Parte 3 – Reescrita
+
+**3. O parágrafo abaixo apresenta problemas de clareza, coesão, concordância e pontuação. Reescreva-o mais adequada, clara e objetivamente, observando os padrões formais da escrita acadêmica.**
+
+**Atenção:** a **reescrita deve preservar o sentido original** do texto.
+
+> O acadêmico que entra na universidade precisa saber que escrever é uma ferramenta que não pode ser deixada de lado por que muitos textos são necessários serem produzidos durante o curso. E que escrever não é só para português, mas para todas as matérias que precisa de relatório. Porque se não escrever bem, como vai conseguir fazer um bom projeto de pesquisa? Então, o ideal é melhorar isso logo no início do curso, pois quem não escreve direito terá dificuldades para aprender outras coisas.
+
+
+\noindent\fbox{%
+    \parbox[t][10cm][t]{\textwidth}{%
+        \vspace{0.2cm}
+        \textit{Espaço reservado para a resposta da parte 3 deste teste. Escreva dentro deste quadro.}
+    }%
+}
+
+\vspace{1.0cm}
+
+**3.1 Após reescrever, informe uma modificação importante que você fez no texto e justifique sua escolha:**
+
+
+\noindent\fbox{%
+    \parbox[t][8cm][t]{\textwidth}{%
+        \vspace{0.2cm}
+        \textit{Exemplo: “Reformulei a primeira frase para evitar ambiguidade.”}
+    }%
+}
+
+<!--
+=========================================================
+COMENTÁRIOS: COMPETÊNCIAS AVALIADAS NO TESTE DIAGNÓSTICO
+=========================================================
+
+PARTE 3 – Reescrita de parágrafo com problemas textuais e gramaticais
+
+Competências avaliadas (questão 3):
+- Revisão textual com preservação do sentido original.
+- Correção de desvios da norma-padrão (pontuação, ortografia, concordância, regência, etc.).
+- Reorganização da progressão temática (melhoria da clareza e da fluidez das ideias).
+- Aplicação de mecanismos de coesão referencial e sequencial (uso de pronomes, substituições, conectores, elipses).
+
+Competência adicional (questão 3.1):
+- Capacidade de reflexão metalinguística sobre a própria escrita.
+- Reconhecimento de estratégias utilizadas na reescrita.
+- Justificativa argumentada das intervenções feitas no texto.
+
+Exemplos de modificações esperadas na questão 3:
+1. Correções como: “por que” → “porque”; “matérias que precisa” → “disciplinas que exigem”; etc.
+2. Reestruturação da frase inicial.
+3. Substituição de repetições por construções mais claras.
+
+Justificativas esperadas:
+- “Corrigi o uso de ‘por que’ e reformulei a frase para evitar ambiguidade.”
+- “Usei conectores para melhorar a fluidez.”
+-->

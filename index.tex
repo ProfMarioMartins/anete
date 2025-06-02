@@ -1,0 +1,2911 @@
+% Options for packages loaded elsewhere
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  letterpaper,
+  DIV=11,
+  numbers=noendperiod]{scrreprt}
+\usepackage{xcolor}
+\usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{5}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+% Make \paragraph and \subparagraph free-standing
+\makeatletter
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}{
+    \@ifstar
+      \xxxParagraphStar
+      \xxxParagraphNoStar
+  }
+  \newcommand{\xxxParagraphStar}[1]{\oldparagraph*{#1}\mbox{}}
+  \newcommand{\xxxParagraphNoStar}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}{
+    \@ifstar
+      \xxxSubParagraphStar
+      \xxxSubParagraphNoStar
+  }
+  \newcommand{\xxxSubParagraphStar}[1]{\oldsubparagraph*{#1}\mbox{}}
+  \newcommand{\xxxSubParagraphNoStar}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+\makeatother
+
+
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
+% Set default figure placement to htbp
+\def\fps@figure{htbp}
+\makeatother
+
+
+
+
+
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+
+
+ 
+
+
+\KOMAoption{captions}{tableheading}
+\makeatletter
+\@ifpackageloaded{tcolorbox}{}{\usepackage[skins,breakable]{tcolorbox}}
+\@ifpackageloaded{fontawesome5}{}{\usepackage{fontawesome5}}
+\definecolor{quarto-callout-color}{HTML}{909090}
+\definecolor{quarto-callout-note-color}{HTML}{0758E5}
+\definecolor{quarto-callout-important-color}{HTML}{CC1914}
+\definecolor{quarto-callout-warning-color}{HTML}{EB9113}
+\definecolor{quarto-callout-tip-color}{HTML}{00A047}
+\definecolor{quarto-callout-caution-color}{HTML}{FC5300}
+\definecolor{quarto-callout-color-frame}{HTML}{acacac}
+\definecolor{quarto-callout-note-color-frame}{HTML}{4582ec}
+\definecolor{quarto-callout-important-color-frame}{HTML}{d9534f}
+\definecolor{quarto-callout-warning-color-frame}{HTML}{f0ad4e}
+\definecolor{quarto-callout-tip-color-frame}{HTML}{02b875}
+\definecolor{quarto-callout-caution-color-frame}{HTML}{fd7e14}
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={Análise e Expressão Textual},
+  pdfauthor={Mário Martins},
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+
+\title{Análise e Expressão Textual}
+\author{Mário Martins}
+\date{}
+\begin{document}
+\maketitle
+
+\renewcommand*\contentsname{Table of contents}
+{
+\hypersetup{linkcolor=}
+\setcounter{tocdepth}{2}
+\tableofcontents
+}
+
+\chapter{Programação}\label{programauxe7uxe3o}
+
+\chapter{Programação}\label{programauxe7uxe3o-1}
+
+\section{Ementa}\label{ementa}
+
+Abordar os paradigmas textuais e científicos na produção da escrita
+científica, a intertextualidade como elemento de linguagem no contexto
+da textualidade e da oralidade e da visualidade, a coesão e coerência
+textual como elemento estruturador da linguagem acadêmica, o estilo como
+mediador entre forma e conteúdo na produção do conhecimento, a
+interdisciplinaridade como estética da linguagem.
+
+\section{Objetivos}\label{objetivos}
+
+Promover o desenvolvimento da competência comunicativa dos estudantes no
+contexto acadêmico, por meio da leitura crítica, da análise linguística
+e da produção de gêneros acadêmicos, com ênfase na escrita científica e
+na elaboração de planos de trabalho.
+
+Competência comunicativa é a capacidade de um indivíduo usar a língua de
+forma eficaz e apropriada em diferentes contextos de comunicação. Esse
+conceito vai além do simples domínio das regras gramaticais, englobando
+também o conhecimento dos usos sociais da linguagem, a adequação ao
+contexto, a capacidade de interpretar e produzir enunciados coerentes e
+coesos, e de compreender as intenções dos interlocutores.
+
+\section{Conteúdo Programático}\label{conteuxfado-programuxe1tico}
+
+\subsection{Unidade I -- O mundo acadêmico e o fazer
+científico}\label{unidade-i-o-mundo-acaduxeamico-e-o-fazer-cientuxedfico}
+
+Fundamentos da vida universitária, da ciência e da escrita acadêmica • O
+sistema acadêmico brasileiro: estrutura e funcionamento • Pensamento
+científico • Fato, opinião e argumentação na escrita acadêmica • A
+linguagem da ciência: características da escrita acadêmica • Gêneros
+acadêmicos e o plano de trabalho como gênero institucional • Como fazer
+citação e referência (normas ABNT) • Introdução à consciência
+linguística: problemas da Olimpíada Brasileira de Linguística (OBL) •
+Aspectos gramaticais: colocação pronominal e concordância verbal
+
+\subsection{Unidade II -- Leitura, escrita e estilo na produção
+científica}\label{unidade-ii-leitura-escrita-e-estilo-na-produuxe7uxe3o-cientuxedfica}
+
+Desenvolvimento das competências de leitura, argumentação e escrita
+científica • Leitura inspecional e averiguativa de textos científicos •
+Fontes confiáveis e estratégias de busca de informação • Fichamento e
+revisão de literatura • Coesão e coerência textual • Citações diretas e
+indiretas; paráfrase e verbos dicendi • Estratégias de argumentação e
+estilo na escrita acadêmica • Problemas da OBL e atividades de reflexão
+linguística • Aspectos gramaticais: pontuação e acentuação
+
+\subsection{Unidade III -- Produção do plano de
+trabalho}\label{unidade-iii-produuxe7uxe3o-do-plano-de-trabalho}
+
+Aplicação prática dos conhecimentos na redação de um gênero acadêmico
+institucional • Etapas do projeto científico e estrutura do plano de
+trabalho • A justificativa e os objetivos do projeto • Referencial
+teórico, metodologia e cronograma • Redação clara, concisa e objetiva •
+Revisão e reescrita com base em critérios técnicos • Avaliação final:
+entrega do plano de trabalho • Atividades de revisão com base nos
+objetivos e problemas da OBL • Diagnóstico linguístico final e
+autoavaliação do progresso
+
+\section{Competências e
+habilidades}\label{competuxeancias-e-habilidades}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.5000}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.5000}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Competência
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Habilidades
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Utilizar a linguagem com clareza, precisão e adequação nos contextos
+acadêmicos. & - Reconhecer diferentes registros linguísticos e níveis de
+formalidade.- Utilizar a norma-padrão da língua portuguesa em situações
+de comunicação acadêmica. \\
+Ler, compreender e interpretar textos acadêmicos de diferentes gêneros.
+& - Identificar a organização composicional e os propósitos
+comunicativos dos gêneros acadêmicos.- Desenvolver estratégias de
+leitura crítica e analítica. \\
+Produzir textos acadêmicos adequados aos gêneros e às normas
+científicas. & - Elaborar textos com coesão e coerência.- Aplicar
+corretamente normas de citação e referência (ABNT).- Planejar, redigir e
+revisar textos científicos. \\
+Mobilizar conhecimentos linguísticos, discursivos e culturais na leitura
+e na produção de textos. & - Analisar os efeitos de sentido produzidos
+por escolhas linguísticas e discursivas.- Reconhecer e empregar marcas
+de intertextualidade e argumentação nos textos. \\
+Desenvolver autonomia na produção científica e no uso das tecnologias da
+informação. & - Utilizar ferramentas digitais para organização da
+pesquisa e produção textual.- Elaborar um plano de trabalho segundo os
+critérios de projetos de iniciação científica. \\
+Ampliar a consciência linguística a partir da reflexão sobre o
+funcionamento da língua. & - Resolver problemas linguísticos com base em
+conhecimentos gramaticais.- Analisar fatos linguísticos em contextos
+reais de uso. \\
+\end{longtable}
+
+\section{Metodologia}\label{metodologia}
+
+A disciplina adota uma abordagem ativa e interdisciplinar, com
+atividades práticas, estudos de caso, quizzes interativos, resolução de
+problemas da Olimpíada Brasileira de Linguística (OBL), exercícios de
+gramática, produção textual orientada, leitura e análise de textos e o
+uso de ferramentas digitais, como editores de texto com revisão
+automática e chats de IA para promover a revisão crítica da escrita.
+
+\section{Avaliação}\label{avaliauxe7uxe3o}
+
+Avaliação final (40\%): Produção de um plano de trabalho nos moldes
+exigidos em editais de iniciação científica (Pibic).
+
+Três provas objetivas (3 x 20\%): Realizadas ao final de cada unidade.
+
+Plano de trabalho: seções esperadas
+
+\begin{verbatim}
+•   Identificação
+•   Introdução e Justificativa
+•   Objetivos
+•   Geral
+•   Específicos
+•   Metodologia
+•   Habilidades desenvolvidas
+•   Referências bibliográficas
+\end{verbatim}
+
+\section{Bibliografia básica}\label{bibliografia-buxe1sica}
+
+APPOLINÁRIO, Fabio; GIL, Isaac. Como escrever um texto científico. 1ª
+ed.~{[}S. l.{]}: Trevisan Editora, 2013. Disponível em:
+https://bookshelf.vitalsource.com/books/9788599519493.
+
+CASTRO, Nádia Studzinski Estima de et al.~Leitura e escrita acadêmicas.
+Porto Alegre: Sagah, 2019. Disponível em:
+https://bookshelf.vitalsource.com/books/9788533500228.
+
+VIEIRA, Francisco Eduardo; FARACO, Carlos Alberto. Escrever na
+Universidade 1 - Fundamentos. 1ª ed.~{[}S. l.{]}: Parábola Editorial,
+2019.
+
+\section{Bibliografia complementar}\label{bibliografia-complementar}
+
+ABNT NBR 10520:2023. Informação e documentação -- Citações em documentos
+-- Apresentação. Rio de Janeiro: ABNT, 2023.
+
+ABNT NBR 6023:2018. Informação e documentação -- Referências --
+Elaboração. Rio de Janeiro: ABNT, 2018.
+
+CUNHA, Celso; CINTRA, Lindley. Nova gramática do português
+contemporâneo. 7. ed.~Rio de Janeiro: Lexikon, 2019. E-book. Disponível
+em: https://plataforma.bvirtual.com.br. Acesso em: 02 abr. 2025.
+
+FERRAREZZI JÚNIOR, Celso. Guia do trabalho científico: do projeto à
+redação final. 1ª ed.~{[}S. l.{]}: Contexto, 2011. Disponível em:
+https://bookshelf.vitalsource.com/books/9788572447638.
+
+MENDES, Gilmar Ferreira; FOSTER JÚNIOR, Nestor José. Manual de redação
+da Presidência da República. rev. atual. Brasília: Presidência da
+República, 2002. Disponível em:
+https://www4.planalto.gov.br/centrodeestudos/assuntos/manual-de-redacao-da-presidencia-da-republica/manual-de-redacao.pdf\#page=12.08.
+
+Outras obras poderão ser usadas na disciplina.
+
+\part{Apresentação}
+
+\part{Unidade I}
+
+\chapter{Sistema acadêmico
+brasileiro}\label{sistema-acaduxeamico-brasileiro}
+
+Roteiro de aula elaborado no RStudio com o auxílio da inteligência
+artificial ChatGPT, revisado e avaliado pelo professor antes de sua
+publicação.
+
+\section{Objetivo de aprendizagem}\label{objetivo-de-aprendizagem}
+
+Ao final deste encontro, e com base na leitura indicada, espera-se que
+você seja capaz de:
+
+\begin{itemize}
+\tightlist
+\item
+  Identificar a proposta e a organização da disciplina Análise e
+  Expressão Textual (Anete), reconhecendo seus objetivos, estrutura em
+  unidades e formas de avaliação;
+\item
+  Compreender a organização do sistema acadêmico brasileiro,
+  identificando suas principais instâncias, normas e formas de produção
+  do conhecimento, especialmente os gêneros textuais acadêmicos;
+\item
+  Participar de um diagnóstico inicial de competência textual, visando à
+  identificação de conhecimentos prévios e dificuldades na produção
+  escrita em contexto universitário.
+\end{itemize}
+
+\emph{Leitura indicada:}\\
+\textbf{Entendendo a organização do sistema acadêmico brasileiro},
+capítulo do livro \emph{Guia do trabalho científico: do projeto à
+redação final}, de Celso Ferrarezi Jr.
+
+\href{vbk://9788572447638/epubcfi/6/14\%5B\%3Bvnd.vst.idref\%3Dcap1.xhtml\%5D}{Acesso
+à leitura indicada}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{Aprendizagem prática}\label{aprendizagem-pruxe1tica}
+
+\subsection{Questão 1}\label{questuxe3o-1}
+
+Como se organiza o sistema acadêmico brasileiro?
+
+\chapter{Pensamento científico}\label{pensamento-cientuxedfico}
+
+Roteiro de aula elaborado no RStudio com o auxílio da inteligência
+artificial ChatGPT, revisado e avaliado pelo professor antes de sua
+publicação.
+
+\section{Objetivos de aprendizagem}\label{objetivos-de-aprendizagem}
+
+Ao final deste encontro e com base na leitura indicada, espera-se que
+você seja capaz de:
+
+\begin{itemize}
+\tightlist
+\item
+  Reconhecer as características do pensamento científico,
+  diferenciando-o de outras formas de pensar e compreender sua
+  relevância na construção do saber universitário.
+\end{itemize}
+
+Leitura indicada: Think like a scientist: The power of a scientific
+mindset, postagem do blog Ivory Embassy, por Santiago Gisler.
+
+\href{https://ivoryembassy.com/scientific-mindset/}{Acesso à leitura
+indicada}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{Aprendizagem prática}\label{aprendizagem-pruxe1tica-1}
+
+\subsection{Questão 1}\label{questuxe3o-1-1}
+
+Você pensa cientificamente?
+
+\subsection{Questão 2}\label{questuxe3o-2}
+
+O que é a pensamento científico?
+
+\begin{quote}
+O pensamento científico é um estilo de pensamento que incentiva a
+análise crítica e o ceticismo na abordagem de situações e problemas.
+\end{quote}
+
+\begin{quote}
+O pensamento científico promove o questionamento de suposições e a
+avaliação objetiva de ideias, visando uma compreensão mais próxima da
+verdade, na medida do possível.
+\end{quote}
+
+\begin{quote}
+Por meio do uso de evidências e do raciocínio lógico, é possível
+interpretar melhor o mundo ao redor, tomar decisões fundamentadas e
+encontrar soluções para desafios.
+\end{quote}
+
+\href{https://www.dw.com/pt-br/teste-de-dna-resolve-enigma-de-virgem-maria-que-chorava-sangue/a-71703557}{Teste
+de DNA resolve enigma de estátua que chorava sangue}
+
+\subsection{Questão 3}\label{questuxe3o-3}
+
+O que é fundamental no pensamento científico?
+
+\begin{quote}
+Um elemento fundamental no pensamento científico é o uso do método
+científico.
+\end{quote}
+
+\begin{quote}
+O método científico auxilia na aquisição de conhecimento por meio da
+observação e da experiência (de forma empírica).
+\end{quote}
+
+\begin{quote}
+O método científico organiza o processo pelo qual cientistas -- e
+não-cientistas -- chegam a conclusões.
+\end{quote}
+
+\subsection{Questão 4}\label{questuxe3o-4}
+
+Passo a passo do método científico (em síntese):
+
+• Observar um fenômeno e formular uma pergunta • Realizar pesquisas e
+reunir informações • Formular uma hipótese • Testar essa hipótese •
+Apresentar os resultados, debater e aperfeiçoar o entendimento do
+fenômeno
+
+\subsection{Questão 5}\label{questuxe3o-5}
+
+Pilares do pensamento científico (para além da ciência)
+
+\begin{itemize}
+\item[$\square$]
+  \textbf{Demonstrar curiosidade:}\\
+  \emph{Exemplo:} Um estudante de biologia que, ao observar uma planta
+  com folhas amarelas, começa a se perguntar: ``Por que essa planta tem
+  uma coloração diferente das outras? Será falta de nutrientes, excesso
+  de sol, ou alguma doença?''
+\item[$\square$]
+  \textbf{Questionar pressupostos:}\\
+  \emph{Exemplo:} Um jornalista investigativo que, ao receber um dado
+  oficial, questiona: ``Será que esses números foram coletados
+  corretamente? Quem financiou a pesquisa? Existe algum conflito de
+  interesse?''
+\item[$\square$]
+  \textbf{Buscar evidências:}\\
+  \emph{Exemplo:} Um consumidor que lê avaliações de múltiplos sites e
+  compara estudos antes de comprar um produto que alega ser ecológico.
+\item[$\square$]
+  \textbf{Aplicar lógica e raciocínio:}\\
+  \emph{Exemplo:} Um médico que, ao interpretar exames laboratoriais,
+  descarta hipóteses menos prováveis com base nos padrões observados nos
+  resultados.
+\item[$\square$]
+  \textbf{Adotar ceticismo saudável:}\\
+  \emph{Exemplo:} Um economista que, ao ouvir que um novo investimento
+  promete lucros altíssimos em pouco tempo, questiona: ``Quais são os
+  riscos? Existe alguma evidência de que outros investidores tiveram
+  sucesso semelhante?''
+\item[$\square$]
+  \textbf{Considerar explicações alternativas:}\\
+  \emph{Exemplo:} Um pesquisador que, ao encontrar uma correlação entre
+  duas variáveis, pensa: ``Será que é uma relação causal direta? Ou pode
+  haver um terceiro fator influenciando ambas?''
+\item[$\square$]
+  \textbf{Estar aberto a novas ideias:}\\
+  \emph{Exemplo:} Um professor que, ao descobrir um método de ensino
+  inovador, considera aplicá-lo em suas aulas, mesmo que isso signifique
+  mudar abordagens tradicionais.
+\item[$\square$]
+  \textbf{Refletir sobre suas próprias crenças:}\\
+  \emph{Exemplo:} Um defensor de uma dieta específica que, ao encontrar
+  novos estudos que contradizem suas crenças, analisa esses dados e
+  ajusta suas recomendações.
+\item[$\square$]
+  \textbf{Buscar feedback e aprender com os erros:}\\
+  \emph{Exemplo:} Um engenheiro que compartilha seu projeto com colegas,
+  recebe críticas sobre a estrutura, faz alterações e apresenta um
+  produto final mais eficiente.
+\item[$\square$]
+  \textbf{Valorizar a replicabilidade e a objetividade:}\\
+  \emph{Exemplo:} Um cientista que publica os dados brutos de seu
+  experimento e descreve os procedimentos em detalhes, permitindo que
+  outros pesquisadores tentem reproduzir os mesmos resultados.
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+O funcionário da GM voltou nos dias seguintes e só variou o sabor do
+sorvete. Mais uma vez, o carro só não pegava quando o sabor escolhido
+era baunilha.
+
+O problema acabou virando uma obsessão para o engenheiro, que fez
+experiências diárias, anotou todos os detalhes possíveis e, depois de
+duas semanas, chegou à primeira grande descoberta: quando escolhia
+baunilha, o comprador gastava menos tempo, porque não precisava ficar
+escolhendo o tipo de sorvete.
+
+Examinando o carro, o engenheiro fez nova descoberta: com o tempo de
+compra reduzido no caso da baunilha, em comparação com o tempo dos
+outros sabores, o motor não chegava a esfriar. Com isso, os vapores de
+combustível não se dissipavam, impedindo que a nova partida fosse
+instantânea.
+
+A partir deste episódio, a Pontiac mudou o sistema de alimentação de
+combustível e introduziu a alteração em todos os modelos a partir desta
+linha.
+
+Mais que isso, o autor da reclamação ganhou um carro novo, além da
+reforma do que não pegava com sorvete de baunilha.
+
+A GM distribuiu também um memorando interno, exigindo que seus
+funcionários levem a sério até as `reclamações mais estapafúrdias,
+porque pode ser que uma grande inovação esteja por trás de um sorvete de
+baunilha' diz a carta da GM.
+
+\chapter{Opinião, fato e escrita
+acadêmica}\label{opiniuxe3o-fato-e-escrita-acaduxeamica}
+
+Roteiro de aula elaborado no RStudio com o auxílio da inteligência
+artificial ChatGPT, revisado e avaliado pelo professor antes de sua
+publicação.
+
+\section{Objetivos de aprendizagem}\label{objetivos-de-aprendizagem-1}
+
+Ao final deste encontro e com base na leitura indicada, espera-se que
+você seja capaz de:
+
+\begin{itemize}
+\item
+  Reconhecer e diferenciar exemplos de opiniões e fatos evidenciados em
+  textos acadêmicos.
+\item
+  Reformular enunciados opinativos em afirmações sustentadas por
+  evidências.
+\item
+  Analisar os recursos linguísticos que caracterizam afirmações
+  opinativas, distinguindo-os das marcas típicas de afirmações factuais.
+\end{itemize}
+
+Leitura indicada: Uma questão de opinião, capítulo do livro Como
+escrever um texto científico, de Fábio Appolinário e Isaac Gil.
+
+\href{vbk://9788599519493/page/11}{Acesso à leitura indicada}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{Introdução}\label{introduuxe7uxe3o}
+
+Como vimos anteriormente, o \textbf{pensamento científico} baseia-se em
+uma \textbf{curiosidade ativa}, no \textbf{questionamento de
+pressupostos} e na busca rigorosa por \textbf{evidências}, utilizando
+\textbf{lógica} e \textbf{ceticismo} para avaliar as informações de
+maneira \textbf{objetiva}. Além disso, considera \textbf{alternativas},
+mantém-se \textbf{aberto a novas ideias} e promove a \textbf{reflexão
+sobre as próprias crenças}, sempre valorizando a
+\textbf{replicabilidade} e o aprendizado com \textbf{erros e feedbacks}.
+Esses pilares, mais do que ferramentas científicas, são práticas que
+enriquecem a \textbf{análise crítica} e a \textbf{tomada de decisões} em
+diversas situações.
+
+Esses pilares do pensamento científico não apenas fundamentam a
+investigação científica, mas também guiam as \textbf{práticas de leitura
+e escrita acadêmicas}. Essas competências intelectuais formam a base
+para compreender, analisar e produzir textos acadêmicos de alta
+qualidade. A leitura criteriosa permite identificar as pistas essenciais
+nos textos, enquanto a escrita disciplinada e fundamentada em padrões
+normativos promove a clareza, a coesão e a credibilidade das ideias.
+
+O desenvolvimento do pensamento científico está intrinsecamente ligado
+ao \textbf{domínio da linguagem acadêmica}, contribuindo para um
+percurso mais autônomo e qualificado no ambiente universitário.
+
+\subsection{Você sabe escrever e ler cientificamente? (aplicação de
+teste
+diagnóstico)}\label{vocuxea-sabe-escrever-e-ler-cientificamente-aplicauxe7uxe3o-de-teste-diagnuxf3stico}
+
+\subsection{O que é uma escrita científica? Um texto científico? Texto
+opinativo ou
+factual?}\label{o-que-uxe9-uma-escrita-cientuxedfica-um-texto-cientuxedfico-texto-opinativo-ou-factual}
+
+\begin{quote}
+Segundo Appolinário e Gil, ``(\ldots) uma característica importante da
+maioria das modalidades de textos científicos é exatamente a ausência da
+opinião.'' p.~16
+\end{quote}
+
+\begin{quote}
+``(\ldots) não há espaço para a enunciação de juízos de valor, que
+possuem caráter opinativo ou especulativo.'' p.~16
+\end{quote}
+
+\begin{quote}
+``(\ldots) o texto monográfico {[}leia-se científico{]} deve se ater a:
+
+Descrição, comparação ou análise de teorias e conceitos desenvolvidos
+por outros autores
+
+Apresentação de dados secundários de pesquisa (dados coletados por
+outros autores e devidamente citados no texto)
+
+Apresentação e análise de dados primários (dados coletados pelo próprio
+aluno e apresentados no trabalho)
+
+p. 16
+\end{quote}
+
+\begin{quote}
+Em síntese, o texto acadêmico é ``(\ldots) um exercício de argumentação
+(desenvolvido em sua maior parte com as ``palavras'' do autor do
+argumento), fortalecido tanto quanto possível por evidências retiradas
+de teorias, conceitos e dados próprios ou de outrem, devidamente citados
+no corpo do texto, de acordo com as normas adotadas pela instituição na
+qual o aluno está desenvolvendo seu trabalho.'' p.~18
+\end{quote}
+
+\texttt{r\ emo::ji("warning")} \textbf{Será?}
+\texttt{r\ emo::ji("warning")}
+
+``(\ldots) não há informação pura, nem opinião girando no vazio.''
+(Vieira; Faraco, 2019, p.~166)\footnote{VIEIRA, Francisco Eduardo;
+  FARACO, Carlos Alberto. \textbf{Escrever na universidade} 2 - texto e
+  discurso. São Paulo: Editora Parábola. 2019.}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{Aprendizagem prática}\label{aprendizagem-pruxe1tica-2}
+
+\subsection{Questão 1}\label{questuxe3o-1-2}
+
+Leia as frases abaixo e assinale FATO ou OPINIÃO.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{Questão 2}\label{questuxe3o-2-1}
+
+Leia o parágrafo abaixo com atenção, extraído da obra ``Como escrever um
+texto científico'', de Fábio Appolinário e Isaac Gil. Por que ele não
+pode ser cientificamente adequado?
+
+\begin{quote}
+As empresas brasileiras têm enfrentado enormes problemas em função da
+grande crise econômica pela qual passa nosso país, tendo assumido uma
+atitude preventiva e cautelosa no que se refere aos investimentos,
+notadamente no setor de treinamento -- que costuma ser o primeiro a
+sentir os cortes em crises desse porte.
+\end{quote}
+
+Reescreva-o a fim de torná-lo cientificamente adequado.
+
+\textbf{Sugestão de reescrita dos autores}
+
+Segundo dados do Banco Central do Brasil (2009), em seis dos oito
+trimestres dos anos de 2008 e 2009 houve uma retração do PIB brasileiro
+entre 1,5\% e 2,3\%, o que, para alguns autores (por exemplo: KRAUSE,
+2001; SILVEIRA, 2005), pode configurar uma ``crise econômica''. Nesse
+mesmo período, em pesquisa exploratória realizada junto a gestores de
+recursos humanos nas empresas do setor industrial da região sudeste do
+país, a Associação Brasileira de Recursos Humanos (2009) relatou uma
+intenção de cortes com gastos em treinamento de pessoal da ordem de
+27,8\%, para o ano de 2010. É possível hipotetizar, portanto, que a
+retração econômica tenha levado a uma diminuição na previsão de
+investimentos nessa área.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{Questão 3}\label{questuxe3o-3-1}
+
+Leia o texto abaixo e resolva as questões seguintes.\footnote{Fonte:
+  Instituto Claro
+  https://www.institutoclaro.org.br/educacao/para-aprender/roteiros-de-estudo/estudar-em-casa-diferenca-entre-fato-e-opiniao/}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{Questão 4}\label{questuxe3o-4-1}
+
+Leia as frases abaixo e assinale FATO ou OPINIÃO\footnote{Fonte:
+  Instituto Claro
+  https://www.institutoclaro.org.br/educacao/para-aprender/roteiros-de-estudo/estudar-em-casa-diferenca-entre-fato-e-opiniao/}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{Questão 5}\label{questuxe3o-5-1}
+
+Agora que você já sabe diferenciar uma afirmação opinativa de uma
+afirmação factual, \textbf{em trios}, analisem novamente as frases
+utilizadas nas atividades anteriores.
+
+Para cada afirmação opinativa, identifiquem:
+
+\begin{verbatim}
+•   Adjetivos subjetivos (ex.: melhor, agradável, marcante);
+•   Expressões com carga emocional ou afetiva (ex.: infelizmente, lamentável, encantava);
+•   Ausência de dados verificáveis (indiquem onde faltam números, fontes ou evidências concretas).
+\end{verbatim}
+
+Para cada afirmação factual, indiquem:
+
+\begin{verbatim}
+•   Fontes de dados verificáveis (se presentes);
+•   Tom neutro e objetivo (verifiquem se não há adjetivos subjetivos ou emoções envolvidas).
+\end{verbatim}
+
+\textbf{Marcas linguísticas da opinião}
+
+As marcas linguísticas que caracterizam as afirmações opinativas
+incluem: 1. \textbf{Uso de adjetivos avaliativos ou subjetivos}: Termos
+como \emph{melhor}, \emph{mais agradável}, \emph{mais confortável},
+\emph{dura}, entre outros, expressam julgamentos de valor ou
+preferências. 2. \textbf{Presença de modalizadores e verbos de opinião}:
+Expressões como \emph{eu acho}, \emph{é considerado}, \emph{é visto
+como}, \emph{há quem sustente que} indicam a inserção de uma perspectiva
+pessoal ou coletiva, sem compromisso com a objetividade. 3.
+\textbf{Ausência de fontes confiáveis ou dados concretos}: Afirmações
+opinativas frequentemente não apresentam referência a estudos,
+estatísticas ou documentações que sustentem a afirmação. 4.
+\textbf{Emprego de generalizações, suposições ou evidenciais
+subjetivos}: Formulações como \emph{devem ser}, \emph{parecem}, \emph{é
+frequentemente considerado}, \emph{segundo muitos} sugerem que a ideia
+se apoia em impressões, crenças difusas ou fontes não identificadas. 5.
+\textbf{Foco em emoções ou experiências pessoais}: Declarações que se
+baseiam em preferências emocionais, como \emph{assistir filmes em casa é
+muito mais agradável} ou \emph{chocolate é o melhor doce do mundo},
+denotam um ponto de vista subjetivo.
+
+Em contraposição, as afirmações factuais são marcadas por: • Dados
+verificáveis e concretos; • Referência a fontes confiáveis; • Tom neutro
+e objetivo, sem julgamentos de valor ou envolvimento emocional.
+
+\subsection{Questão 6}\label{questuxe3o-6}
+
+Ainda em trios, busquem no Google Acadêmico um artigo científico
+publicado entre 2022 e 2025, com a palavra-chave ``ensino de
+matemática''.
+
+\begin{verbatim}
+•   A pesquisa deve ser feita com os seguintes filtros:
+•   Idioma: Português;
+•   Tipo de documento: artigos (não incluir citações ou patentes);
+\end{verbatim}
+
+Escolham um artigo e analisem o resumo com base nos seguintes critérios:
+
+\begin{verbatim}
+•   Há fontes de dados verificáveis? (Ex.: menção a experimentos, estatísticas, estudos de caso, autores, instituições, etc.).
+•   O tom do texto é neutro e objetivo? Ou há presença de adjetivos subjetivos ou carga emocional?
+\end{verbatim}
+
+Postem o resumo e a análise no Padlet da turma. No post, adicionem:
+
+\begin{verbatim}
+•   Título do artigo;
+•   Resumo copiado;
+•   Indicação das fontes verificáveis (se houver);
+•   Comentário sobre o tom do texto (neutro ou subjetivo);
+•   Trechos específicos que justifiquem a análise.
+\end{verbatim}
+
+🔗 Acesse o Padlet da turma
+\href{https://padlet.com/mariomartins/anete-t01-b3r3eohs4gd7np8m}{aqui}
+
+\texttt{r\ emo::ji("fire")} Você deve fazer login no Padlet para que a
+postagem seja identificada.
+
+Você está presente?
+
+\chapter{Argumentos de senso comum e senso
+crítico}\label{argumentos-de-senso-comum-e-senso-cruxedtico}
+
+Roteiro de aula elaborado no RStudio com o auxílio da inteligência
+artificial ChatGPT, revisado e avaliado pelo autor antes de sua
+publicação.
+
+\section{Objetivos de aprendizagem}\label{objetivos-de-aprendizagem-2}
+
+Ao final deste encontro e com base na leitura indicada, espera-se que
+você seja capaz de:
+
+\begin{itemize}
+\item
+  Reconhecer a diferença entre argumentos baseados no senso comum e
+  argumentos fundamentados no senso crítico.
+\item
+  Exercitar habilidades cognitivas necessárias à argumentação e ao
+  pensamento científico.
+\end{itemize}
+
+Leitura indicada: Leitura e escrita acadêmicas, capítulo do livro
+Leitura e escrita acadêmicas, de Nádia Castro e outros.
+
+\href{vbk://9788533500228/page/11}{Acesso à leitura indicada}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{Introdução}\label{introduuxe7uxe3o-1}
+
+Segundo Antônio Suárez Abreu, em seu livro ``A arte de argumentar:
+gerenciando razão e emoção'' (2012, p.~42\footnote{ABREU, Antonio
+  Suárez. A arte de argumentar: gerenciando razão e emoção. Cotia:
+  Ateliê Editorial, 2001.}):
+
+\begin{quote}
+Argumentar (\ldots) não é tentar provar o tempo todo que temos razão,
+impondo nossa vontade.
+\end{quote}
+
+\begin{quote}
+Argumentar é, em primeiro lugar, convencer, ou seja, vencer junto com o
+outro, caminhando ao seu lado, utilizando, com ética, as técnicas
+argumentativas, para remover os obstáculos que impedem o consenso.''
+\end{quote}
+
+Ainda segundo o autor (2012, p.~42),
+
+\begin{quote}
+Argumentar é também saber persuadir, preocupar-se em ver o outro por
+inteiro, ouvi-lo, entender suas necessidades, sensibilizar-se com seus
+sonhos e emoções.
+\end{quote}
+
+Argumentar significa tanto convencer, como persuadir.
+
+🧠 Convencer: levar o outro à aceitação de uma ideia por meio da razão,
+da lógica e de evidências verificáveis.
+
+❤️ Persuadir: levar o outro à aceitação de uma ideia por meio da emoção,
+da empatia e da sensibilidade, respeitando sua autonomia.
+
+Nádia Castro e outros autores (2019, p.~14) nos lembram que
+
+\begin{quote}
+Quando se pensa em argumentação, é preciso necessariamente remeter ao
+caráter dialógico --- isto é, de diálogo --- dos discursos.
+\end{quote}
+
+\begin{quote}
+Tudo aquilo que pensamos e fazemos é fruto dos discursos que nos
+constroem enquanto seres psicossociais.
+\end{quote}
+
+Nesse caso, \textbf{discurso} significa um conjunto estruturado de
+ideias, valores, crenças, formas de linguagem e modos de ver o mundo que
+circulam socialmente e moldam nosso modo de pensar, agir e interpretar a
+realidade.
+
+\section{Aprendizagem prática}\label{aprendizagem-pruxe1tica-3}
+
+\subsection{Questão 1}\label{questuxe3o-1-3}
+
+Você consegue identificar que discursos são descritos na tabela abaixo?
+
+Preencha as lacunas da primeira coluna com os nomes dos discursos.
+Preencha também as lacunas da última coluna com dois ou três exemplos de
+textos típicos de cada um dos discursos identificados por você.
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.0404}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.6233}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2601}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.0762}}@{}}
+\caption{Discursos}\tabularnewline
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Discurso
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Características centrais
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Objetivo principal
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Exemplos típicos
+\end{minipage} \\
+\midrule\noalign{}
+\endfirsthead
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Discurso
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Características centrais
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Objetivo principal
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Exemplos típicos
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+? & Usa linguagem formal e objetiva; é baseado em evidências empíricas e
+métodos sistemáticos; busca por generalização, explicação ou predição &
+Produzir conhecimento racional, verificável e universal & ? \\
+? & Usa linguagem técnica, normativa e prescritiva; é fortemente
+influenciado por códigos e leis; depende de estrutura argumentativa
+rígida & Regular comportamentos sociais com base na legislação & ? \\
+? & Usa linguagem persuasiva, apelativa e ideológica; enfatiza valores,
+identidades e crenças coletivas; visa gerar adesão ou mobilização &
+Influenciar decisões, conquistar apoio e justificar ações & ? \\
+? & Usa inguagem simbólica e valorativa; é baseado em doutrinas e
+crenças; apela à fé, à moral e à transcendência & Promover uma visão de
+mundo espiritual e normativa & ? \\
+\end{longtable}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.0418}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.5285}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2205}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 6\tabcolsep) * \real{0.2091}}@{}}
+\caption{Discursos}\tabularnewline
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Discurso
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Características centrais
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Objetivo principal
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Exemplos típicos
+\end{minipage} \\
+\midrule\noalign{}
+\endfirsthead
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Discurso
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Características centrais
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Objetivo principal
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Exemplos típicos
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Científico & Usa linguagem formal e objetiva; é baseado em evidências
+empíricas e métodos sistemáticos; busca por generalização, explicação ou
+predição & Produzir conhecimento racional, verificável e universal &
+Artigos científicos, relatórios de pesquisa \\
+Jurídico & Usa linguagem técnica, normativa e prescritiva; é fortemente
+influenciado por códigos e leis; depende de estrutura argumentativa
+rígida & Regular comportamentos sociais com base na legislação &
+Sentenças judiciais, leis, pareceres jurídicos \\
+Político & Usa linguagem persuasiva, apelativa e ideológica; enfatiza
+valores, identidades e crenças coletivas; visa gerar adesão ou
+mobilização & Influenciar decisões, conquistar apoio e justificar ações
+& Discursos eleitorais, campanhas, debates parlamentares \\
+Religioso & Usa inguagem simbólica e valorativa; é baseado em doutrinas
+e crenças; apela à fé, à moral e à transcendência & Promover uma visão
+de mundo espiritual e normativa & Sermões, textos sagrados,
+catequeses \\
+\end{longtable}
+
+\begin{quote}
+(\ldots) a argumentação diz respeito a como melhor selecionar e
+organizar argumentos de diferentes naturezas para alcançar objetivos
+como demonstrar, persuadir e convencer.
+\end{quote}
+
+O caráter dialógico da argumentação, segundo Castro e outros (2019,
+p.~14), depende do discurso em que essa argumentação deve se encaixar.
+Tudo depende do contexto, portanto.
+
+\begin{quote}
+(\ldots) a argumentação se relaciona a públicos diversos (a quem se
+destina), a objetos claros (o que está em questão) e a circunstâncias
+específicas (em que momento e em que espaço se dá e de que modo se
+realiza).
+\end{quote}
+
+É justamente o contexto que define o discurso do senso comum, que
+
+\begin{itemize}
+\item
+  usa linguagem informal, coloquial e empírica;
+\item
+  é baseado na experiência cotidiana e em tradições;
+\item
+  tem pouca ou nenhuma verificação sistemática.
+\end{itemize}
+
+O objetivo do senso comum, portanto, é explicar e, às vezes, regular o
+cotidiano com base em crenças compartilhadas.
+
+Castro e outros (2019, p.~14), parafraseando Antonio Suárez Abreu,
+lembram que
+
+\begin{quote}
+(\ldots) o senso comum é oriundo de variados discursos que formam o que
+se chama de ``opinião pública''.
+\end{quote}
+
+\begin{quote}
+Ela seria constituída (\ldots) por diversos discursos articulados que
+permeiam toda a sociedade, independentemente de classe social.
+\end{quote}
+
+São exemplos de senso comum ditados populares, conselhos, ``sabedorias''
+cotidianas.
+
+De acordo com Savioli e Fiorin (\emph{apud} Castro et al., 2019, p.14)
+
+\begin{quote}
+(\ldots) os argumentos de senso comum normalmente são preconceituosos,
+pois não são baseados em fatos e comprovações, mas em afirmações
+usualmente generalizantes.
+\end{quote}
+
+\subsection{Questão 2}\label{questuxe3o-2-2}
+
+Explique como cada ditado popular abaixo reproduz o discurso do senso
+comum.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Aqui se faz, aqui se paga.
+\item
+  Deus ajuda a quem cedo madruga.
+\item
+  Cada macaco no seu galho.
+\item
+  Roupa suja se lava em casa.
+\item
+  Mais vale um pássaro na mão do que dois voando.
+\end{enumerate}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{Aqui se faz, aqui se paga.}
+\end{enumerate}
+
+➤ Este ditado pressupõe uma espécie de justiça imediata ou natural,
+segundo a qual toda ação negativa será punida com uma consequência
+proporcional.
+
+➤ É uma forma de senso comum porque simplifica a noção de justiça,
+ignorando as complexidades éticas, sociais e jurídicas envolvidas em
+cada situação.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  \textbf{Deus ajuda a quem cedo madruga.}
+\end{enumerate}
+
+➤ Atribui o sucesso pessoal ao esforço individual (acordar cedo), além
+de invocar uma recompensa divina.
+
+➤ Reproduz o senso comum ao naturalizar a ideia de meritocracia, sem
+considerar fatores estruturais (como classe social, acesso à educação,
+saúde etc.).
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{2}
+\tightlist
+\item
+  \textbf{Cada macaco no seu galho.}
+\end{enumerate}
+
+➤ Defende que cada pessoa deve permanecer no seu lugar ou função,
+evitando ``se meter'' em outras áreas.
+
+➤ Sustenta um discurso de conservação da ordem social, reforçando
+hierarquias e delimitando papéis de forma rígida e acrítica.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{3}
+\tightlist
+\item
+  \textbf{Roupa suja se lava em casa.}
+\end{enumerate}
+
+➤ Defende que conflitos familiares ou problemas íntimos devem ser
+resolvidos em privado, sem exposição pública.
+
+➤ Embora possa proteger a privacidade, favorece o silenciamento de
+abusos e injustiças, sendo um exemplo clássico de senso comum que
+reprime o debate público sobre questões sensíveis.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{4}
+\tightlist
+\item
+  \textbf{Mais vale um pássaro na mão do que dois voando.}
+\end{enumerate}
+
+➤ Sugere que é melhor manter algo garantido do que correr riscos em
+busca de algo maior.
+
+➤ Expressa um valor conservador, que inibe a ousadia e a inovação, e
+parte de uma lógica pragmática e simplificadora, típica do senso comum.
+
+O senso comum baseia-se na experiência cotidiana, transmitida
+culturalmente, muitas vezes sem verificação crítica.
+
+Castro e outros (2019, p.~15) afirmam que
+
+\begin{quote}
+(\ldots) o senso comum consiste no conhecimento vulgar, nas opiniões
+diversas.
+\end{quote}
+
+\subsection{Questão 3}\label{questuxe3o-3-2}
+
+Analise com atenção a imagem abaixo, extraída de um contexto cotidiano.
+Identifique no texto da imagem as marcas do discurso do senso comum,
+respondendo às perguntas abaixo:
+
+\begin{itemize}
+\item
+  O enunciado generaliza alguma ideia?
+\item
+  O enunciado se baseia em evidências ou em crenças e emoções?
+\item
+  O enunciado reforça algum valor ou norma social amplamente aceita?
+\end{itemize}
+
+\textbf{1. O enunciado generaliza alguma ideia?}
+
+Sim. A frase generaliza a figura materna, atribuindo a todas as mães um
+papel idealizado como origem da vida e fonte inesgotável de amor.
+Desconsidera, portanto, a diversidade de experiências familiares e
+afetivas, incluindo mães ausentes, negligentes ou relações familiares
+conflituosas.
+
+\textbf{2. O enunciado se baseia em evidências ou em crenças e emoções?}
+
+Baseia-se essencialmente em crenças e emoções. Não há comprovação
+empírica ou referência a dados que sustentem a ideia de que o amor de
+mãe seja eterno ou universal. A força da frase reside em seu apelo
+afetivo, tocando valores subjetivos e culturais enraizados.
+
+\textbf{3. O enunciado reforça algum valor ou norma social amplamente
+aceita?}
+
+Sim. A frase reforça a valorização idealizada da maternidade, um pilar
+do senso comum em muitas culturas. Sustenta a noção de que mães devem
+ser incondicionalmente amorosas, cuidadoras e abnegadas, consolidando
+uma norma social tradicional de gênero.
+
+O \textbf{senso crítico} é o oposto do senso comum, já que envolve
+análise, comparação, verificação de evidências e compromisso com a
+racionalidade e o método.
+
+O ponto de vista científico se constrói em torno do senso crítico, do
+pensamento científico.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{Questão 4}\label{questuxe3o-4-2}
+
+Vamos estimular nossas habilidades cognitivas?
+
+Pensar cientificamente e desenvolver o senso crítico não depende apenas
+de acesso a informações, mas sobretudo da capacidade de organizar o
+pensamento, identificar padrões, levantar hipóteses, interpretar dados e
+tomar decisões fundamentadas.
+
+Essas habilidades --- que envolvem atenção, memória, análise, síntese e
+inferência --- são essenciais tanto para resolver problemas do cotidiano
+quanto para compreender e produzir argumentos bem estruturados.
+
+Para exercitá-las, proponho um desafio linguístico que exigirá de você
+concentração, raciocínio lógico e uma boa dose de curiosidade. Em trios,
+resolvam a questão abaixo:
+
+Nesta árvore, os nomes dos personagens híbridos são formados a partir de
+um padrão geral, com exceção de apenas dois. \textbf{Se} os nomes de
+todos os Pokémon fossem formados seguindo o padrão geral, qual
+\textbf{não} poderia ser um nome possível para o último Pokémon da
+árvore (o mais de baixo)?
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi})}
+\tightlist
+\item
+  krabgon
+\item
+  elekgon
+\item
+  spinpy
+\item
+  spinky
+\item
+  spinorb
+\end{enumerate}
+
+Resposta: (d)
+
+Podemos notar que os nomes dos híbridos são formados pela combinação dos
+nomes dos dois Pokémon que os originaram. Por exemplo, na primeira linha
+temos:
+
+\begin{verbatim}
+•   shugon: formado por shu- de shuppet e -gon de bagon.
+•   spinpip: formado por spin- de spinarak e -pip de hoppip.
+•   kraborb: formado por krab- de krabby e -orb de voltorb.
+•   elekpy: formado por elek- de elekid e -py de phanpy.
+\end{verbatim}
+
+A princípio, podemos pensar que o nome é sempre formado pela primeira
+parte de um Pokémon com a última parte de outro. No entanto, isso não se
+aplica a kraborb (a última parte de voltorb deveria ser -torb, e não
+-orb). Portanto, a regra é mais simples: combinar o início de um nome
+com o final de outro.
+
+Na segunda linha, temos:
+
+\begin{verbatim}
+•   spingon: formado por spin- de spinpip e -gon de shugon.
+•   kreky: formado por kr- de kraborb e -ky de elekpy.
+\end{verbatim}
+
+No caso de spingon, as partes dos nomes são as mesmas usadas
+anteriormente. Como spinpip é a junção de spin- com -pip, spingon usa
+spin- de spinarak, mantendo o padrão. Porém, kreky quebra o padrão, pois
+não usou o final completo de elekpy (faltou o `p') e nem a parte inicial
+correta de kraborb (deveria ser krab-). Assim, kreky é o primeiro nome
+fora do padrão.
+
+Depois temos:
+
+\begin{verbatim}
+•   krinky: formado por kr- de kreky e -gon de spingon.
+\end{verbatim}
+
+Esse nome também foge ao padrão, pois mistura as partes do meio (-in-)
+de um nome com o início e o fim de outro. Portanto, krinky é o segundo
+Pokémon fora do padrão.
+
+Agora que identificamos os dois nomes fora do padrão, podemos descobrir
+como seriam se seguissem a regra. A fusão de kraborb e elekpy deveria
+usar a parte inicial de um com a parte final do outro, respeitando as
+partes originais. Então, podemos ter:
+
+\begin{verbatim}
+•   kraborb + elekpy = krabpy ou
+•   kraborb + elekpy = elekorb.
+\end{verbatim}
+
+Por fim, o nome do último Pokémon será a fusão de spingon com krabpy ou
+elekorb, utilizando o mesmo princípio de combinar partes iniciais e
+finais. As possíveis combinações são:
+
+\begin{verbatim}
+•   spingon + krabpy = spinpy ou krabgon;
+•   spingon + elekorb = spinorb ou elekgon.
+\end{verbatim}
+
+Esses quatro nomes aparecem nas alternativas. O único que não seria
+possível é spinky, pois ele depende de kreky, que já está fora do
+padrão.
+
+Um ponto interessante é que, ao seguir esse padrão de combinações, as
+informações sobre os Pokémon originais podem se perder. Por exemplo, o
+nome krabgon poderia parecer uma fusão de krabby e bagon, mas na verdade
+é o resultado de várias fusões anteriores.
+
+Por fim, o nome do problema, Poképu, é a junção de Pokémon e Khipu.
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Você está presente?
+
+\chapter{Discurso reportado. Gerenciamento de referências
+bibliográficas}\label{discurso-reportado.-gerenciamento-de-referuxeancias-bibliogruxe1ficas}
+
+Roteiro de aula elaborado no RStudio com o auxílio da inteligência
+artificial ChatGPT, revisado e avaliado pelo autor antes de sua
+publicação.
+
+\section{Objetivos de aprendizagem}\label{objetivos-de-aprendizagem-3}
+
+Ao final deste encontro e com base na leitura indicada, espera-se que
+você seja capaz de:
+
+\begin{itemize}
+\item
+  Identificar o que é discurso reportado e sua função na escrita
+  acadêmica.
+\item
+  Diferenciar discurso direto e discurso indireto.
+\item
+  Instalar e configurar o Zotero com o conector do navegador.
+\item
+  Criar e organizar coleções de referências.
+\item
+  Adicionar itens à biblioteca a partir de sites e bases de dados.
+\item
+  Inserir e formatar citações e referências em Google Docs com o Zotero.
+\item
+  Utilizar o Zotero Sync para manter seus dados salvos na nuvem e
+  acessíveis em diferentes dispositivos.
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{Introdução}\label{introduuxe7uxe3o-2}
+
+A escrita acadêmica exige clareza, coerência e, sobretudo, rigor na
+apresentação das fontes de informação. As \textbf{normas de citação e
+referência} --- como as da ABNT, APA ou Vancouver --- cumprem um papel
+fundamental nesse processo: elas garantem a \emph{padronização}, a
+\emph{transparência} e a \emph{credibilidade} do trabalho científico.
+
+Um texto que segue essas normas permite ao leitor localizar com precisão
+as obras consultadas, verificar os dados utilizados e reconhecer os
+autores envolvidos na construção do conhecimento. A
+\textbf{normalização}, portanto, não é apenas uma exigência formal, mas
+um componente essencial da ética e da qualidade na produção acadêmica.
+
+Parte fundamental dessa normalização diz respeito ao uso do
+\textbf{discurso reportado}, ou seja, à forma como o \emph{autor do
+texto acadêmico incorpora, comenta ou mobiliza a voz de outros autores
+em sua escrita}. Essa prática envolve tanto o \textbf{discurso direto},
+quando se reproduz fielmente as palavras de outrem, quanto o
+\textbf{discurso indireto}, quando se parafraseia com as próprias
+palavras.
+
+Além de demonstrar domínio do conteúdo, o uso adequado do discurso
+reportado insere o texto no campo científico, marcando sua filiação a
+determinadas ideias, debates e tradições intelectuais. Isso permite ao
+leitor reconhecer de onde vêm as informações, avaliar os fundamentos de
+cada argumento e distinguir claramente a contribuição do autor.
+
+Para apoiar esse processo, o \textbf{Zotero} é uma ferramenta gratuita e
+de código aberto que funciona como um gerenciador de referências
+bibliográficas. Ele permite salvar, organizar, citar e compartilhar
+fontes de pesquisa de forma prática e automatizada, além de oferecer
+sincronização em nuvem. Com ele, é possível aplicar estilos de citação
+exigidos pelas instituições (como ABNT ou APA), o que facilita a
+conformidade com as normas e contribui para a qualidade formal da
+escrita acadêmica.
+
+\subsection{Funções do discurso reportado na escrita
+acadêmica}\label{funuxe7uxf5es-do-discurso-reportado-na-escrita-acaduxeamica}
+
+\begin{verbatim}
+•   Fundamentar teorias, conceitos e argumentos;
+•   Dar credibilidade ao texto com base em autores reconhecidos;
+•   Estabelecer relações dialógicas com outras pesquisas;
+•   Evitar plágio, por meio da atribuição correta das ideias;
+•   Aprofundar a análise crítica e o posicionamento do autor do texto.
+\end{verbatim}
+
+\subsection{Tipos de citações na escrita
+acadêmica}\label{tipos-de-citauxe7uxf5es-na-escrita-acaduxeamica}
+
+\begin{itemize}
+\item
+  Citação direta curta (até 3 linhas)
+
+  • Deve ser integrada ao parágrafo, entre aspas duplas. • A fonte da
+  citação (autor, ano e página) aparece entre parênteses. • Não deve
+  conter itálico ou destaque gráfico.
+\end{itemize}
+
+Exemplo:
+
+\begin{quote}
+Segundo Amossy (2008, p.~9), ``todo discurso é atravessado por vozes e
+saberes alheios''.
+\end{quote}
+
+\begin{quote}
+Sabe-se que ``todo discurso é atravessado por vozes e saberes alheios''
+(Amossy, 2008, p.~9).
+\end{quote}
+
+\begin{itemize}
+\item
+  Citação direta longa (mais de 3 linhas)
+
+  • Deve ser destacada em parágrafo próprio, com: • Recuo de 4 cm da
+  margem esquerda; • Fonte tamanho menor que a do corpo do texto; • Sem
+  aspas; • Espaçamento simples entre as linhas; • Referência (autor,
+  ano, página) após o ponto final da citação.
+\end{itemize}
+
+Exemplo:
+
+\begin{quote}
+O ethos discursivo, portanto, não é um traço individual do orador, mas
+uma construção textual resultante da imagem que ele deseja projetar e da
+imagem que o público está predisposto a aceitar (Amossy, 2008, p.~95).
+\end{quote}
+
+\begin{itemize}
+\item
+  Citação indireta
+
+  • A ideia do autor é parafraseada, com menção à fonte sem aspas. • A
+  indicação de página não é obrigatória, mas pode ser incluída.
+\end{itemize}
+
+Exemplo:
+
+Bakhtin (2003) afirma que todo enunciado depende de outro anterior e que
+não existe ponto de partida absoluto.
+
+Citação de citação (apud) • Usada apenas quando a obra original não foi
+consultada. • A citação deve mencionar os dois autores: o da ideia e o
+da fonte consultada. • A expressão apud (em itálico) é obrigatória, com
+os demais dados da fonte consultada.
+
+Exemplo:
+
+Para Vygotsky, o desenvolvimento do pensamento está ligado à linguagem
+(apud OLIVEIRA, 2002, p.~37).
+
+Atenção: o uso de apud deve ser excepcional. Sempre que possível,
+consulte a fonte original.
+
+\section{Aprendizagem prática}\label{aprendizagem-pruxe1tica-4}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Crie uma coleção no Zotero com o nome: Ensino de Física.
+\item
+  Adicione cinco obras (artigos e/ou livros publicados entre 2024 e
+  2025) à coleção, extraídas de uma busca no Google Acadêmico com os
+  termos exatos ``clube de ciências'' e ``ensino de física''.
+\item
+  Crie um documento no Google Docs com duas seções (ambas formatadas
+  como Título 1):
+
+  • Introdução
+
+  • Referências Bibliográficas
+\item
+  Insira citações das cinco obras na seção Introdução, utilizando o
+  Zotero.
+\item
+  Gere automaticamente a lista de referências na seção Referências
+  Bibliográficas, também com o Zotero.
+\item
+  Copie o conteúdo completo do documento e cole no campo abaixo
+  (atividade individual).
+\end{enumerate}
+
+Preencha os campos abaixo para enviar o resultado da atividade
+individual sobre o Zotero.
+
+\chapter{Discurso reportado na escrita
+acadêmica}\label{discurso-reportado-na-escrita-acaduxeamica}
+
+Roteiro de aula elaborado no RStudio com o auxílio da inteligência
+artificial ChatGPT, revisado e avaliado pelo professor antes de sua
+publicação.
+
+\section{Objetivos de aprendizagem}\label{objetivos-de-aprendizagem-4}
+
+Ao final desta aula, espera-se que você seja capaz de:
+
+\begin{itemize}
+\tightlist
+\item
+  Reconhecer a função do discurso reportado na construção do
+  conhecimento acadêmico;
+\item
+  Diferenciar discurso direto do discurso indireto;
+\item
+  Aplicar corretamente as normas da NBR 10520/2023 para citações diretas
+  curtas, citações longas e de citações de citação;
+\item
+  Compreender o papel dos verbos \emph{dicendi} na introdução do
+  discurso reportado.
+\end{itemize}
+
+Leitura indicada: Discurso reportado, capítulo do livro Escrever na
+universidade 2 - texto e discurso, de Francisco Eduardo Vieira e Carlos
+Alberto Faraco.
+
+\href{https://drive.google.com/file/d/17QvXPqtVvgArZpXv0XJhTnwTayxVkxFc/view?usp=sharing}{Acesso
+à leitura indicada}
+
+\section{Introdução}\label{introduuxe7uxe3o-3}
+
+A escrita acadêmica exige \emph{clareza}, \emph{coerência} e, sobretudo,
+\emph{rigor} na apresentação das fontes de informação. As normas de
+citação e referência --- como as da ABNT\footnote{A NBR 10520 trata de
+  citações em documentos; a NBR 6023 trata de referências.} --- garantem
+a padronização, a transparência e a credibilidade do trabalho
+científico.
+
+\subsection{Glossário}\label{glossuxe1rio}
+
+\begin{quote}
+Referência ``(\ldots) conjunto padronizado de elementos descritivos,
+retirados de um documento, que permite sua identificação individual.''
+(Associação Brasileira de Normas Técnicas, 2020)
+\end{quote}
+
+\begin{quote}
+Citação ``(\ldots) menção de uma informação extraída de outra fonte''
+(Associação Brasileira de Normas Técnicas, 2023)
+\end{quote}
+
+\textbf{Introdução}
+
+\emph{Citações}
+
+(Araújo; Farias, 2025) (Czolpinski; Brito; Raupp, 2024) (Azevedo;
+Machado, 2024) (Jaime; Leonel, 2024) (Silva; Rosa; França, 2025)
+
+\emph{Referências bibliográficas}
+
+ARAÚJO, Jonas Vieira de; FARIAS, Cleilton Sampaio de. Aprendizagem
+Experiencial no Ensino de Física: Uma Revisão sobre sua Aplicação na
+Educação Profissional e Tecnológica. Rebena - Revista Brasileira de
+Ensino e Aprendizagem, {[}s. l.{]}, v. 11, p.~13--31, 2025. Disponível
+em: https://rebena.emnuvens.com.br/revista/article/view/309. Acesso em:
+8 maio 2025.
+
+CZOLPINSKI, Andrey de Lima; BRITO, Rafael da Costa; RAUPP, Daniele
+Trajano. Clube de Ciências e a promoção da educação científica por meio
+da extensão universitária. Revista Signos, {[}s. l.{]}, v. 45, n.~2,
+2024. Disponível em:
+https://www.univates.br/revistas/index.php/signos/article/view/3995.
+Acesso em: 8 maio 2025.
+
+AZEVEDO, Murillo Pereira; MACHADO, Letícia Sophia Rocha. Competências
+digitais docentes no ensino de física\,: uma revisão sistemática da
+literatura. {[}s. l.{]}, 2024. Disponível em:
+https://lume.ufrgs.br/handle/10183/282037. Acesso em: 8 maio 2025.
+
+JAIME, Danay Manzo; LEONEL, André Ary. Uso de simulações: Um estudo
+sobre potencialidades e desafios apresentados pelas pesquisas da área de
+ensino de física. Revista Brasileira de Ensino de Física, {[}s. l.{]},
+v. 46, p.~e20230309, 2024. Disponível em:
+https://www.scielo.br/j/rbef/a/PvcqYmVLssjYpggDb4Jmz8N/. Acesso em: 8
+maio 2025.
+
+SILVA, Dayane Cândido da; ROSA, Maria Izabella da Silva; FRANÇA, Suzane
+Bezerra de. Formação docente em ciências biológicas no âmbito do
+programa residência pedagógica na perspectiva do multiletramento.
+Revista Ciências \& Ideias ISSN: 2176-1477, {[}s. l.{]}, p.~e25162772,
+2025. Disponível em:
+https://revistascientificas.ifrj.edu.br/index.php/reci/article/view/2772.
+Acesso em: 8 maio 2025.
+
+\begin{quote}
+Segundo a ABNT, as referências bibliográficas deve ser dispostas em
+ordem alfabética. Esteja atento à configuração do Zotero ou ao estilo
+selecionado!
+\end{quote}
+
+\begin{quote}
+Considere que, no Brasil, tipicamente se adota o sistema autor-data,
+conforme a NBR 10520/2023 recomenda.
+\end{quote}
+
+\section{Aprendizagem prática}\label{aprendizagem-pruxe1tica-5}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Observe, no texto\footnote{Texto totalmente inventado para os fins
+    desta aula.} abaixo, as marcas de discurso reportado. Responda: qual
+  informação no texto é original, isto é, produzido pelo autor do texto?
+\end{enumerate}
+
+\textbf{Ao discutir os desafios da escrita acadêmica no ensino superior,
+Araújo e Farias (2025) destacam que} o maior obstáculo enfrentado pelos
+estudantes é a dificuldade de articular argumentos com base em fontes
+confiáveis, o que compromete a credibilidade de seus textos. \textbf{De
+modo semelhante, Czolpinski, Brito e Raupp (2024) observam que} muitos
+alunos ainda recorrem ao senso comum ou a fontes não verificadas, em vez
+de dialogar com autores reconhecidos da área. \textbf{É nesse sentido
+que Azevedo e Machado (2024) defendem} a necessidade de formar leitores
+críticos, capazes de interpretar e mobilizar o conhecimento científico
+de maneira ética e responsável. \textbf{Conforme afirmam Jaime e Leonel
+(2024, p.~12),} ``a competência argumentativa não se desenvolve apenas
+pela leitura, mas pela prática constante de escrever em diálogo com
+outras vozes''. \textbf{Além disso, Silva, Rosa e França (2025) chamam a
+atenção para} o papel dos professores como mediadores desse processo,
+propondo atividades que estimulem o uso consciente de citações e a
+construção de um posicionamento autoral no texto acadêmico.
+
+Nenhuma informação do parágrafo analisado é original. Todo texto se
+constrói como discurso de outro, portanto um discurso apenas reportado.
+
+Marcar adequadamente o \textbf{discurso reportado} é essencial para:
+
+\begin{itemize}
+\tightlist
+\item
+  Situar a pesquisa na \textbf{rede de conhecimento em constante
+  atualização};
+\item
+  Dialogar com o que já foi produzido sobre o tema;
+\item
+  Demonstrar respeito ao leitor, informando claramente o que é seu e o
+  que é do outro;
+\item
+  Evitar o plágio, que é um \textbf{crime acadêmico}.
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{Discurso reportado}\label{discurso-reportado}
+
+É a \textbf{inserção do que outras pessoas disseram ou escreveram} em
+seu texto acadêmico, permitindo ao autor:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Reforçar argumentos}, citando especialistas;
+\item
+  \textbf{Manifestar concordância} com outras pesquisas;
+\item
+  \textbf{Criticar ou refutar} ideias de outros autores.
+\end{itemize}
+
+\subsection{Discurso reportado direto}\label{discurso-reportado-direto}
+
+Transcrição literal das palavras do outro, com as seguintes
+características:
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Entre aspas duplas} para citações curtas (até 3 linhas);
+\item
+  \textbf{Em bloco destacado}, sem aspas, para citações longas (mais de
+  3 linhas);
+\item
+  \textbf{Indicação da autoria, ano e página};
+\item
+  Uso de \textbf{{[}sic{]}} para marcar erros existentes no original.
+\end{itemize}
+
+Exemplos
+
+\textbf{Discurso reportado por meio de uma citação curta:}
+
+\begin{quote}
+Segundo Souza (2021, p.~17), ``a linguagem é o principal recurso para a
+construção da realidade social''.
+\end{quote}
+
+\begin{quote}
+Ao discutir os desafios da escrita acadêmica no ensino superior, Araújo
+e Farias (2025) destacam que o maior obstáculo enfrentado pelos
+estudantes é a dificuldade de articular argumentos com base em fontes
+confiáveis, o que compromete a credibilidade de seus textos. De modo
+semelhante, Czolpinski, Brito e Raupp (2024) observam que muitos alunos
+ainda recorrem ao senso comum ou a fontes não verificadas, em vez de
+dialogar com autores reconhecidos da área. É nesse sentido que Azevedo e
+Machado (2024) defendem a necessidade de formar leitores críticos,
+capazes de interpretar e mobilizar o conhecimento científico de maneira
+ética e responsável. \textbf{Conforme afirmam Jaime e Leonel (2024,
+p.~12), ``a competência argumentativa não se desenvolve apenas pela
+leitura, mas pela prática constante de escrever em diálogo com outras
+vozes''.} Além disso, Silva, Rosa e França (2025) chamam a atenção para
+o papel dos professores como mediadores desse processo, propondo
+atividades que estimulem o uso consciente de citações e a construção de
+um posicionamento autoral no texto acadêmico.
+\end{quote}
+
+\textbf{Discurso reportado por meio de uma citação longa:}
+
+\begin{quote}
+Ao tratar da natureza social da linguagem, Araújo e Farias (2025, p.~45)
+afirmam que A linguagem é uma prática social que constrói significados
+coletivamente compartilhados. Nenhum enunciado surge isolado, mas em
+resposta a outros enunciados, compondo uma rede de sentidos em constante
+transformação. Essa rede é dinâmica e se atualiza a cada novo uso da
+linguagem, revelando que todo dizer é, ao mesmo tempo, retomada e
+recriação do que já foi dito. Assim, compreender a linguagem como
+prática social é reconhecer seu papel na construção da realidade e na
+negociação de sentidos entre os sujeitos.
+\end{quote}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{Discurso reportado
+indireto}\label{discurso-reportado-indireto}
+
+Relato do que o outro disse, com as palavras do autor, indicando a
+autoria e, opcionalmente, a página.
+
+\begin{itemize}
+\tightlist
+\item
+  Frequentemente introduzido por \textbf{verbos \emph{dicendi}}, como:
+\item
+  dizer, afirmar, explicar, justificar, sustentar, comentar, entre
+  outros.
+\end{itemize}
+
+Exemplo
+
+\begin{quote}
+Segundo Souza (2021), a linguagem desempenha papel central na construção
+da realidade social.
+\end{quote}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{\texorpdfstring{Citação de citação
+(\emph{apud})}{Citação de citação (apud)}}\label{citauxe7uxe3o-de-citauxe7uxe3o-apud}
+
+Uso de uma fonte a partir de outra, quando não se teve acesso ao
+documento original.
+
+Exemplo
+
+\begin{quote}
+Segundo Bakhtin (1988, \emph{apud} Vieira e Faraco, 2019, p.~45), todo
+enunciado é sempre dialógico.
+\end{quote}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\begin{itemize}
+\tightlist
+\item
+  Sinalize sempre o que é seu e o que é do outro;
+\item
+  Siga as normas da \textbf{NBR 10520/2023} e da \textbf{NBR 6023/2020},
+  disponíveis no SIGAA (Biblioteca \textgreater{} Documentos ABNT);
+\item
+  Utilize o discurso reportado de forma estratégica para construir uma
+  argumentação sólida e ética.
+\end{itemize}
+
+\section{Aprendizagem prática}\label{aprendizagem-pruxe1tica-6}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  Identifique no texto abaixo, publicado no periódico RenBio (Revista de
+  Ensino de Biologia), todas as ocorrências de discurso reportado.
+  Separe-os por tipo de citação: citação direta, citação indireta ou
+  citação da citação. Copie e cole no documento à parte. Siga o modelo:
+\end{enumerate}
+
+Modelo:
+
+\textbf{Citação indireta} Página 15: Silva e Andrade (2024) afirmam que
+desenvolver a autonomia intelectual dos estudantes requer práticas
+pedagógicas que estimulem a pesquisa e o pensamento crítico em todos os
+níveis de ensino.
+
+\textbf{Citação direta} Página 12: Percebe-se que ``os estudantes têm a
+oportunidade de investigar problemas reais de suas comunidades, o que
+torna o aprendizado mais significativo e socialmente relevante''
+(Pereira; Costa; Nunes, 2025).
+
+\textbf{Citação da citação} Página 43: Segundo Freire (1996, \emph{apud}
+Souza; Almeida, 2025, p.~613), ``ensinar não é transferir conhecimento,
+mas criar as possibilidades para a sua própria produção ou a sua
+construção''.
+
+\href{https://renbio.org.br/index.php/sbenbio/article/view/1347/497}{Texto
+disponível aqui}
+
+\textbf{Citação indireta}
+
+Página 608: Estabelece-se, com isso, uma corresponsabilidade entre as
+instituições de ensino superior e ensino básico com a formação inicial
+de professores (Capes, 2018).
+
+Página 608: As horas são divididas em três módulos de seis meses com
+carga horária de 138 horas cada módulo (Capes, 2023).
+
+Página 608: Segundo Nascimento e Bezerra (2019), o ensino de ciências
+visa dar sentido e significado aos conhecimentos científicos e
+tecnológicos que fazem parte do cotidiano.
+
+Páginas 608-609: Segundo esses autores, é através da curiosidade e da
+inquietação que os estudantes-clubistas são motivados a investigar,
+questionar e experimentar, o que leva a uma compreensão mais profunda
+dos conceitos científicos.
+
+Página 609: O Clube de Ciências, segundo Milanesi e colaboradores
+(2019), é um espaço de encontros com trocas de vivências, experimentos e
+interações dinâmicas distintas das observadas em aulas convencionais,
+acarretando desenvolvimento do conhecimento científico e do pensamento
+crítico por meio de abordagens investigativas.
+
+Página 609: Conforme delineado por Ramalho et al.~(2011), os Clubes de
+Ciências representamespaços educativos nos quais estudantes,
+compartilhando interesses em ciência, reúnem-se forado horário escolar
+convencional.
+
+Página 609: De acordo com Pires et al.~(2007), os Clubes de Ciências não
+são meros espaços para aquisição de conhecimentos científicos e
+tecnológicos por parte dos alunos.
+
+Página 609: No contexto da Base Nacional Comum Curricular (BNCC), os
+ateliês são espaços de aprendizado prático e interdisciplinar que
+atendem às competências e habilidades da área relacionadas à BNCC,
+promovendo a exploração, observação e a experimentação, valorizandoa
+aprendizagem por meio de práticas investigativas, que são ferramentas
+importantes para oestudo das ciências naturais (Brasil, 2018).
+
+Página 613: Além disso, a colaboração entre o professor, os estudantes e
+os demais envolvidos pode trazer contribuições significativas para a
+alfabetização científica dos jovens, fortalecendo aspectos como a
+assimilação de conceitos, a elaboração de modelos, o desenvolvimento de
+habilidades cognitivas e o raciocínio científico (Buch; Schroeder,
+2013).
+
+Página 617: Estimular a curiosidade, a investigação e o pensamento
+crítico entre os estudantes é crucial para formar cidadãos mais
+preparados para os desafios do mundo atual, pois, segundo Buch e
+Schroeder (2013), a construção do conhecimento científico é um processo
+contínuo queenvolve a participação ativa do indivíduo.
+
+\textbf{Citação direta}
+
+Página 608: Dias e colaboradores (2013, p.~160) afirmam que: ``o ensino
+de ciências deve estimular nos estudantes a capacidade deobservação,
+despertando a curiosidade, a inquietação, a busca por novas respostas''.
+
+Página 609: Nesse contexto, Duarte e Duarte (2013, p.~37) declaram que:
+
+O ensino de ciências naturais não pode se limitar à promoção de mudanças
+conceituais ou ao aprendizado do conhecimento científico. É necessário
+também buscar mudanças metodológicas e de atitude nos alunos, bem como
+ressignificar o ensino para construir um processo de aprendizagem, no
+qualprofessores e alunos possam interagir de forma crítica e reflexiva
+ao ensinarem e aprenderem (Duarte; Duarte, 2013, p.~37)
+
+\textbf{Citação da citação}
+
+Não há ocorrências.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{2}
+\tightlist
+\item
+  Na aula sobre gerenciamento de referências bibliográficas, numa
+  aprendizagem prática, você foi solicitado a selecionar cinco artigos
+  e/ou livros no Google Acadêmico, usando as palavras-chave ``ensino de
+  física'' e ``clube de ciências''.
+\end{enumerate}
+
+Agora, usando as referências selecionadas por você, identifique qual é o
+nome do periódico (revista) em que os artigos foram publicados e qual é
+o nome da editora em que os livros foram publicados.
+
+Você deverá expor oralmente quais são os periódicos e/ou editoras.
+
+\texttt{r\ emo::ji("fire")} Lembre-se: na tarefa, não seriam aceitas
+dissertações de mestrado, teses de doutorado ou artigos publicados em
+anais de eventos. \texttt{r\ emo::ji("fire")}
+
+\chapter{Fontes confiáveis de
+informação}\label{fontes-confiuxe1veis-de-informauxe7uxe3o}
+
+Roteiro de aula elaborado no RStudio com o auxílio da inteligência
+artificial ChatGPT, revisado e avaliado pelo professor antes de sua
+publicação.
+
+\section{Objetivos de aprendizagem}\label{objetivos-de-aprendizagem-5}
+
+Ao final desta aula, espera-se que você seja capaz de:
+
+\begin{itemize}
+\item
+  Identificar fontes de informação confiáveis no meio acadêmico e as
+  características que as tornam confiáveis.
+\item
+  Reconhecer como os artigos científicos são distribuídos em bases
+  acadêmicas e bases livres.
+\item
+  Aplicar estratégias de busca de artigos científicos em bases de dados.
+\end{itemize}
+
+\phantomsection\label{Leitura}
+Leitura indicada:
+
+\textbf{Fontes confiáveis de informação acadêmica}, capítulo do livro
+\textbf{Leitura e escrita acadêmicas}, de Nádia Studzinski Estima Castro
+e colaboradores.
+
+{[}🔗 Acesso à leitura
+indicada{]}(https://bookshelf.vitalsource.com/books/9788533500228/page/11)
+
+\section{Introdução}\label{introduuxe7uxe3o-4}
+
+Na sociedade contemporânea, somos constantemente expostos a um grande
+volume de informações, que circulam em diferentes formatos, mídias e
+plataformas. Essa realidade exige de todos nós, especialmente no
+ambiente acadêmico, o desenvolvimento de uma \textbf{postura crítica}
+diante das \textbf{fontes de informação} que acessamos, utilizamos e
+compartilhamos.
+
+Segundo Castro e outros (2019, p.~43)
+
+\begin{quote}
+(\ldots) fontes de informação são os meios dos quais as pessoas retiram
+o conteúdo de que precisam para sanar uma necessidade informacional
+(\ldots).
+\end{quote}
+
+Fonte, nesse contexto, refere-se ao suporte em que um conteúdo está
+registrado, seja ele um \emph{artigo científico}, um \emph{livro}, uma
+\emph{tese}, uma \emph{dissertação}, um \emph{squib}, um \emph{resumo
+expandido} publicado em anais de eventos acadêmicos ou outro tipo de
+publicação reconhecida pela comunidade científica.
+
+No contexto da pesquisa científica, essa responsabilidade é ainda maior,
+pois a qualidade da produção acadêmica depende diretamente da
+\textbf{confiabilidade das fontes} utilizadas para embasar argumentos,
+justificar escolhas metodológicas e dialogar com a comunidade
+científica.
+
+Entender \textbf{o que caracteriza uma fonte confiável} é, portanto, uma
+habilidade essencial para quem se dedica à pesquisa.
+
+Fontes confiáveis são aquelas que passam por \textbf{processos
+reconhecidos de validação do conhecimento}. Para identificá-las, o
+pesquisador precisa atentar para os seguintes critérios.
+
+\textbf{Autoridade}
+
+\begin{itemize}
+\item
+  A fonte é proveniente de origem conhecida, como uma universidade, um
+  governo ou um órgão público, ou vem de um indivíduo desconhecido?
+\item
+  Se for de indivíduos, é possível identificar o que mais publicaram e
+  em qual editora? Possuem publicações em periódicos de alta qualidade
+  revisados por especialistas?
+\end{itemize}
+
+\textbf{Precisão}
+
+\begin{itemize}
+\tightlist
+\item
+  A fonte foi revisada por especialistas no tema antes de ser aceita
+  para publicação? Se é uma fonte de acesso on-line, faz referência a
+  fontes e bibliografias utilizadas? Estão claras as datas de
+  atualização do conteúdo?
+\end{itemize}
+
+\textbf{Viés e objetividade}
+
+\begin{itemize}
+\tightlist
+\item
+  A linguagem usada é lógica? Ou se utiliza de sensacionalismos e
+  agressividade? Apresenta pontos de vista opostos ou defende uma
+  ideologia? Faz referências a outras fontes? Como lida com a questão
+  ética e a validade dos documentos?
+\end{itemize}
+
+\textbf{Cobertura}
+
+\begin{itemize}
+\tightlist
+\item
+  A fonte cobre toda a área de pesquisa a que se propõe ou necessita de
+  maior amplitude, ou seja, maior desenvolvimento de seus argumentos?
+\end{itemize}
+
+\textbf{Atualidade}
+
+\begin{itemize}
+\tightlist
+\item
+  O conteúdo é recente e adequado à área do conhecimento? Considerando a
+  área de conhecimento, a atualidade da informação é adequada? (Apesar
+  de não ser regra geral, é indicado o período máximo de 5 anos a partir
+  da publicação para garantir a atualidade dos dados em algumas áreas de
+  pesquisa.)
+\end{itemize}
+
+\subsection{Bases de dados}\label{bases-de-dados}
+
+Além disso, é fundamental conhecer os \textbf{diferentes tipos de bases
+de dados e ferramentas de busca científica}, que oferecem acesso
+organizado e qualificado à produção acadêmica nacional e internacional.
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Bases de dados de acesso aberto}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Scielo
+  \item
+    BVS
+  \item
+    Portal de Periódicos da Capes
+  \item
+    Google Acadêmico (com ressalvas)
+  \end{itemize}
+\item
+  \textbf{Bases de dados de acesso restrito}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    ProQuest
+  \item
+    Springer Link
+  \item
+    Scopus (indexação e referências)
+  \end{itemize}
+\item
+  \textbf{Repositórios e bibliotecas digitais}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    BDTD (Biblioteca Digital de Teses e Dissertações)
+  \item
+    Catálogo de Teses e Dissertações da Capes
+  \item
+    Repositórios institucionais
+  \end{itemize}
+\end{itemize}
+
+\section{Aprendizagem prática}\label{aprendizagem-pruxe1tica-7}
+
+Objetivos
+
+\begin{itemize}
+\tightlist
+\item
+  Escolher, em equipe de quatro integrantes, um projeto de pesquisa da
+  Ufersa como tema de estudo para a disciplina.
+\item
+  Localizar artigos científicos confiáveis relacionados a esse projeto,
+  utilizando o Portal de Periódicos da Capes.
+\end{itemize}
+
+⚠️\textbf{Importante}⚠️ O artigo escolhido servirá de base inicial para
+o seu plano de trabalho individual, que será avaliado ao final da
+disciplina.
+
+\subsection{✅ Etapa 1 - Escolha do tema da
+equipe}\label{etapa-1---escolha-do-tema-da-equipe}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Acessem os projetos de pesquisa em andamento na
+  \href{https://sigaa.ufersa.edu.br/sigaa/public/pesquisa/consulta_projetos.jsf}{Ufersa}
+\item
+  Explorem, preferencialmente, os projetos do Departamento de Ciências
+  Naturais, Matemática e Estatística (ou outro departamento de interesse
+  da equipe).
+\item
+  Escolham um projeto que servirá de referência temática para os planos
+  individuais dos membros da equipe.
+\item
+  Anotem as seguintes informações:
+\end{enumerate}
+
+\textbf{Nome do projeto}
+
+\textbf{Nome do coordenador}
+
+\textbf{Objetivo da pesquisa}
+
+\textbf{Métodos de pesquisa}
+
+\textbf{Palavras-chave}
+
+\subsection{✅ Etapa 2 - Busca por fontes
+confiáveis}\label{etapa-2---busca-por-fontes-confiuxe1veis}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Acessem o Portal de Periódicos da Capes e localizem quatro artigos
+  científicos (um para cada integrante da equipe) publicados nos últimos
+  cinco anos que atendam aos seguintes critérios:
+\end{enumerate}
+
+\begin{itemize}
+\item
+  Publicados em periódicos classificados como Qualis A1 ou A2 da Capes,
+  conforme a área do conhecimento.
+\item
+  Publicados em periódicos que adotam sistema de avaliação cega
+  (double-blind peer review) e dupla avaliação por pareceristas
+  independentes.
+\item
+  Disponíveis em texto completo no Portal da Capes.
+\end{itemize}
+
+\textbf{🔎 Como consultar a classificação Qualis de um periódico?}
+
+O \textbf{Qualis Periódicos} é o sistema utilizado pela \textbf{Capes}
+para classificar os periódicos científicos segundo critérios de
+qualidade estabelecidos pelas áreas de avaliação da pós-graduação
+brasileira. Essa classificação varia por área e por estrato, sendo
+\textbf{A1} o nível mais alto.
+
+📝 Passo a passo
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  \textbf{Acesse a Plataforma Sucupira da Capes}\\
+  \url{https://sucupira.capes.gov.br}
+\item
+  \textbf{No menu principal, clique em}\\
+  \texttt{Consultas\ \textgreater{}\ Coleta\ \textgreater{}\ Qualis\ \textgreater{}\ Consulta\ Geral\ de\ Periódicos}
+\item
+  \textbf{Na página que abrir:}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Informe o \textbf{nome do periódico} ou o \textbf{ISSN} (se souber).
+  \item
+    Selecione a \textbf{área de avaliação} (exemplo: Ensino, Física,
+    Educação).
+  \item
+    Informe o \textbf{Ano da Avaliação} (utilize a última disponível,
+    geralmente 2017-2020).
+  \item
+    Clique em \textbf{``Pesquisar''}.
+  \end{itemize}
+\item
+  \textbf{Verifique os resultados:}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    O sistema exibirá o periódico com a respectiva \textbf{classificação
+    Qualis} para a área e o ano selecionados.
+  \item
+    ⚠️ Um mesmo periódico pode ter classificações diferentes em áreas
+    distintas.
+  \end{itemize}
+\end{enumerate}
+
+📌 Importante
+
+\begin{itemize}
+\tightlist
+\item
+  Verifique sempre a \textbf{área correta}, relacionada ao seu projeto
+  ou tema de estudo.
+\item
+  Prefira periódicos classificados como \textbf{A1 ou A2}, que indicam
+  alta qualidade segundo os critérios da Capes.
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  Após a escolha dos artigos, levantem as seguintes informações sobre os
+  periódicos em que esses artigos estão publicados:
+\end{enumerate}
+
+\textbf{Título do periódico}
+
+\textbf{Classificação Qualis (A1 ou A2) e área do conhecimento}
+
+\textbf{Instituição, sociedade científica ou editora responsável pelo
+periódico}
+
+\textbf{Periodicidade de publicação} (mensal, trimestral, semestral
+etc.)
+
+\textbf{Sistema de avaliação adotado} (simples cega, dupla cega, aberta,
+etc.)
+
+\textbf{Bases de indexação} (ex.: Scopus, Web of Science, etc.)
+
+\textbf{Link oficial do periódico}
+
+📌 Organização no Zotero
+
+Após localizar e escolher o artigo, \textbf{cada integrante da equipe
+deve adicionar o artigo selecionado ao seu Zotero}, criando uma
+\textbf{coleção chamada ``Iniciação científica''}.
+
+Isso garantirá que você organize suas fontes de maneira adequada para
+usá-las nas próximas etapas da disciplina.
+
+Se você ainda não instalou ou configurou o Zotero, consulte o tutorial
+disponível no Bookdown da disciplina.
+
+🔗 \hyperref[]{Acesse o tutorial de instalação e uso do Zotero}\\
+\emph{(https://profmariomartins.github.io/anete\_suporte/zotero.html)}
+
+\subsection{✅ Etapa 3 - Compartilhamento dos
+achados}\label{etapa-3---compartilhamento-dos-achados}
+
+Cada integrante da equipe deve postar o resultado da sua escolha no
+Padlet da disciplina, utilizando o seguinte formato:
+
+\textbf{Artigo escolhido}
+
+\begin{itemize}
+\tightlist
+\item
+  Título do artigo: {[}Título do artigo{]}
+\item
+  Link do artigo: {[}Link para o artigo completo{]}
+\end{itemize}
+
+\textbf{Informações sobre o periódico}
+
+\begin{itemize}
+\tightlist
+\item
+  Título do periódico: {[}Nome do periódico{]}
+\item
+  Classificação Qualis: {[}A1 ou A2{]} - Área: {[}Área do
+  conhecimento{]}
+\item
+  Instituição responsável: {[}Universidade/Editora/Sociedade
+  científica{]}
+\item
+  Periodicidade: {[}Mensal/Trimestral/Semestral{]}
+\item
+  Sistema de avaliação: {[}Simples cega/Dupla cega/Outra{]}
+\item
+  Bases de indexação: {[}Exemplo: Scopus, Web of Science, etc.{]}
+\item
+  Link oficial do periódico: {[}URL{]}
+\end{itemize}
+
+🔗 Acesse o Padlet da turma
+\href{https://padlet.com/mariomartins/anete-t01-b3r3eohs4gd7np8m}{aqui}
+
+Você deve fazer login no Padlet para que a postagem seja identificada.
+
+\chapter{Revisão de conteúdos}\label{revisuxe3o-de-conteuxfados}
+
+\part{Unidade II}
+
+\chapter{A definir}\label{a-definir}
+
+\part{Unidade III}
+
+\chapter{Título da aula}\label{tuxedtulo-da-aula}
+
+Roteiro de aula elaborado no RStudio com o auxílio da inteligência
+artificial ChatGPT, revisado e avaliado pelo professor antes de sua
+publicação.
+
+\section{Objetivos de aprendizagem}\label{objetivos-de-aprendizagem-6}
+
+\begin{itemize}
+\tightlist
+\item
+  Objetivo 1
+\item
+  Objetivo 2
+\item
+  Objetivo 3
+\end{itemize}
+
+\phantomsection\label{Leitura}
+Leitura indicada:
+
+\textbf{Texto}, capítulo do livro \textbf{Capítulo}, de Autores.
+
+{[}🔗 Acesso à leitura indicada{]}(https\ldots)
+
+\section{Introdução}\label{introduuxe7uxe3o-5}
+
+\section{Aprendizagem prática}\label{aprendizagem-pruxe1tica-8}
+
+\subsection{Questão 1}\label{questuxe3o-1-4}
+
+Resposta
+
+\subsection{Questão 2}\label{questuxe3o-2-3}
+
+Resposta
+
+⚠️\textbf{Importante}⚠️
+
+\textbf{Quadro de instruções}
+
+\section{Encerramento}\label{encerramento}
+
+\part{Tutoriais}
+
+\chapter{Zotero: Gerenciador de referências
+bibliográficas}\label{zotero-gerenciador-de-referuxeancias-bibliogruxe1ficas}
+
+\chapter{Tutorial para iniciantes no
+Zotero}\label{tutorial-para-iniciantes-no-zotero}
+
+Este tutorial apresenta o passo a passo básico para começar a usar o
+\textbf{Zotero}, um gerenciador de referências bibliográficas gratuito e
+de código aberto.
+
+\section{1. Baixando e instalando o
+Zotero}\label{baixando-e-instalando-o-zotero}
+
+\begin{itemize}
+\item
+  \textbf{Acesse o site oficial:}\\
+  \url{https://www.zotero.org/download}
+\item
+  \textbf{Escolha seu sistema operacional:}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \textbf{MacOS:} Clique em \emph{Download for macOS}. Após o
+    download, abra o instalador e arraste o Zotero para a pasta
+    \textbf{Aplicativos}.
+  \item
+    \textbf{Windows:} Clique em \emph{Download for Windows}. Execute o
+    instalador (.exe) e siga as instruções na tela.
+  \item
+    \textbf{Linux:} Clique em \emph{Download for Linux}. Baixe a versão
+    adequada, extraia a pasta e execute o arquivo Zotero, ou siga as
+    instruções específicas para sua distribuição (ex.: terminal no
+    Ubuntu).
+  \end{itemize}
+\end{itemize}
+
+\section{2. Instalando o Zotero Connector no
+navegador}\label{instalando-o-zotero-connector-no-navegador}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{No mesmo site}, clique em \emph{Install Zotero Connector}.
+\item
+  Você será direcionado para a loja de extensões do seu navegador
+  (Chrome, Firefox ou Edge).
+\item
+  Clique em \textbf{Adicionar ao navegador} e confirme a instalação.
+\item
+  O ícone do Zotero (uma folha com a letra Z) aparecerá próximo à barra
+  de endereços do navegador.
+\end{itemize}
+
+\section{3. Definindo o estilo de citação e
+referência}\label{definindo-o-estilo-de-citauxe7uxe3o-e-referuxeancia}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Abra o Zotero}.
+\item
+  No menu superior, clique em:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \textbf{Zotero \textgreater{} Preferences (macOS)}
+  \item
+    \textbf{Edit \textgreater{} Preferences (Windows/Linux)}
+  \end{itemize}
+\item
+  Selecione a aba \textbf{Cite}, depois a subaba \textbf{Styles}.
+\item
+  Escolha o estilo desejado (no Brasil, recomenda-se \textbf{ABNT}).
+\item
+  Se não estiver listado, clique em \textbf{Get additional styles},
+  pesquise por ``ABNT'' e instale:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \emph{Universidade Federal do Rio Grande do Sul - ABNT (autoria
+    completa) (Português - Brasil)}.
+  \end{itemize}
+\end{itemize}
+
+\section{4. Criando coleções e adicionando
+Itens}\label{criando-coleuxe7uxf5es-e-adicionando-itens}
+
+\subsection{Crie uma coleção}\label{crie-uma-coleuxe7uxe3o}
+
+\begin{itemize}
+\tightlist
+\item
+  Clique com o botão direito em \textbf{Minha Biblioteca} e selecione
+  \textbf{Nova coleção}.
+\item
+  Nomeie a coleção (ex.: \emph{Projeto Argumentação}) e pressione
+  \textbf{Enter}.
+\end{itemize}
+
+\subsection{Adicione um item
+manualmente}\label{adicione-um-item-manualmente}
+
+\begin{itemize}
+\tightlist
+\item
+  Com a coleção aberta, clique no botão \textbf{+ (Novo Item)} na barra
+  superior.
+\item
+  Escolha o tipo de material (Artigo, Livro, Tese, etc.).
+\item
+  Preencha os campos na coluna da direita: título, autor(es), ano,
+  editora, DOI, URL, etc.
+\end{itemize}
+
+\subsection{Adicione um item
+automaticamente}\label{adicione-um-item-automaticamente}
+
+\begin{itemize}
+\tightlist
+\item
+  Acesse um artigo em sites como \textbf{Google Acadêmico} ou
+  \textbf{SciELO}.
+\item
+  Clique no \textbf{ícone do Zotero Connector} no navegador.
+\item
+  Selecione a coleção de destino.
+\item
+  O item será salvo automaticamente com os metadados.
+\end{itemize}
+
+\section{5. Inserindo citações e referências em documentos no Google
+Docs}\label{inserindo-citauxe7uxf5es-e-referuxeancias-em-documentos-no-google-docs}
+
+\begin{quote}
+💡 \textbf{Pré-requisito:} Mantenha o Zotero aberto durante o processo.
+\end{quote}
+
+\subsection{Insira citação}\label{insira-citauxe7uxe3o}
+
+\begin{itemize}
+\tightlist
+\item
+  Abra um documento no \textbf{Google Docs}.
+\item
+  Clique no menu \textbf{Zotero} que aparece na barra do Google Docs.
+\item
+  Selecione \textbf{Add/Edit Citation}.
+\item
+  Digite o título, autor ou ano, escolha o item e pressione
+  \textbf{Enter}.
+\end{itemize}
+
+\subsection{Insira bibliografia}\label{insira-bibliografia}
+
+\begin{itemize}
+\tightlist
+\item
+  No final do documento, clique novamente em \textbf{Zotero}.
+\item
+  Selecione \textbf{Add/Edit Bibliography}.
+\item
+  A lista de referências será gerada automaticamente com base nas
+  citações inseridas.
+\end{itemize}
+
+\section{6. Sincronizando com a nuvem do
+Zotero}\label{sincronizando-com-a-nuvem-do-zotero}
+
+\subsection{Crie uma conta Zotero}\label{crie-uma-conta-zotero}
+
+\begin{itemize}
+\tightlist
+\item
+  Acesse \url{https://www.zotero.org/user/register}.
+\item
+  Preencha os campos solicitados e confirme o cadastro pelo e-mail.
+\end{itemize}
+
+\subsection{Configure a
+sincronização}\label{configure-a-sincronizauxe7uxe3o}
+
+\begin{itemize}
+\tightlist
+\item
+  Abra o Zotero e vá em \textbf{Zotero \textgreater{} Preferences
+  \textgreater{} Sync}.
+\item
+  Insira seu \textbf{e-mail e senha} da conta Zotero.
+\item
+  Ative as opções \textbf{Sync automatically} e \textbf{Sync full-text
+  content}.
+\item
+  Clique em \textbf{Set up syncing} e depois em \textbf{OK}.
+\end{itemize}
+
+\subsection{Confirme o backup online}\label{confirme-o-backup-online}
+
+\begin{itemize}
+\tightlist
+\item
+  Acesse \url{https://www.zotero.org} e faça login.
+\item
+  Clique em \textbf{Web Library} no menu superior.
+\item
+  Verifique se as coleções e os itens estão sincronizados corretamente.
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{📌 Algumas
+considerações\ldots{}}\label{algumas-considerauxe7uxf5es}
+
+\begin{itemize}
+\tightlist
+\item
+  Organize suas referências de forma prática.
+\item
+  Garanta a correta formatação de citações e referências conforme normas
+  da ABNT.
+\item
+  Sincronize sua biblioteca entre diferentes dispositivos.
+\item
+  Para mais informações, acesse a
+  \href{https://www.zotero.org/support/}{Documentação Oficial do
+  Zotero}.
+\end{itemize}
+
+\chapter{Portal de periódicos da
+Capes}\label{portal-de-periuxf3dicos-da-capes}
+
+\chapter{Tutorial para iniciantes no Portal de Periódicos
+Capes}\label{tutorial-para-iniciantes-no-portal-de-periuxf3dicos-capes}
+
+Este tutorial irá guiá-lo pelos passos básicos para começar suas
+pesquisas no Portal de Periódicos Capes, explorando as diferentes formas
+de encontrar materiais para seu trabalho acadêmico.
+
+\section{1. Acessando o Portal (tipos de
+acesso)}\label{acessando-o-portal-tipos-de-acesso}
+
+\begin{itemize}
+\item
+  \textbf{Como Acessar:}\\
+  Abra o Google e digite \emph{``Periódicos Capes''}. O site correto é
+  \url{https://www.periodicos.Capes.gov.br}.
+\item
+  \textbf{Tipos de Conteúdo/Acesso:}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \textbf{Conteúdo livre:} disponível para qualquer pessoa.
+  \item
+    \textbf{Conteúdo assinado:} disponível para os IPs identificados das
+    instituições participantes. Caso você esteja acessando fora da rede
+    da sua instituição, é necessário efetuar o login na Comunidade
+    Acadêmica Federada (CAFe). A Ufersa é instituição parceira).
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Para acessar o conteúdo assinado, clique em \textbf{``Acesso
+      CAFE''}, selecione sua instituição e insira o login e a senha
+      fornecidos pela universidade.
+    \item
+      No canto esquerdo, você verá se está conectado à sua instituição
+      ou em acesso livre.
+    \end{itemize}
+  \end{itemize}
+\end{itemize}
+
+\section{2. ``Meu Espaço''}\label{meu-espauxe7o}
+
+\begin{itemize}
+\tightlist
+\item
+  Qualquer pessoa pode se cadastrar em \textbf{``Meu Espaço''}, mesmo
+  sem vínculo institucional.
+\item
+  Isso permite salvar histórico de buscas e acessar funcionalidades
+  adicionais.
+\end{itemize}
+
+\section{3. Explorando as opções de
+busca}\label{explorando-as-opuxe7uxf5es-de-busca}
+
+\begin{itemize}
+\tightlist
+\item
+  Clique em \textbf{``Acervo''} no menu principal.
+\item
+  As opções principais são:
+
+  \begin{enumerate}
+  \def\labelenumi{\arabic{enumi}.}
+  \tightlist
+  \item
+    \textbf{Buscar Assunto}
+  \item
+    \textbf{Listar Bases e Coleções}
+  \item
+    \textbf{Listar Livros}
+  \item
+    \textbf{Listar Periódicos}
+  \end{enumerate}
+\end{itemize}
+
+\section{4. Busca simples por assunto}\label{busca-simples-por-assunto}
+
+\begin{itemize}
+\tightlist
+\item
+  Clique em \textbf{``Buscar Assunto''}.
+\item
+  Digite o tema (ex.: \emph{teletrabalho}).
+\item
+  Clique na lupa.
+\item
+  Nos resultados:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Cadeado verde = acesso aberto.
+  \item
+    Clique em \textbf{``acessar''} para ler ou baixar o material.
+  \end{itemize}
+\end{itemize}
+
+\section{5. Busca avançada e
+específica}\label{busca-avanuxe7ada-e-especuxedfica}
+
+\begin{itemize}
+\tightlist
+\item
+  Na tela de resultados, clique em \textbf{``Busca Avançada''}.
+\item
+  Configure os campos e use operadores booleanos:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \textbf{AND}: restringe (ex.: \emph{``teletrabalho AND servidores
+    públicos''}).
+  \item
+    \textbf{OR}: amplia (ex.: \emph{``teletrabalho OR home office''}).
+  \item
+    \textbf{NOT}: exclui (ex.: \emph{``teletrabalho NOT servidores
+    públicos''}).
+  \item
+    \textbf{Aspas (``\,``)}: busca exata (ex.: \emph{``servidores
+    públicos''}).
+  \end{itemize}
+\item
+  Aplique filtros na lateral esquerda:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Tipo de acesso (livre ou assinado)
+  \item
+    Tipo de recurso (artigo, livro, etc.)
+  \item
+    Data de publicação
+  \item
+    Área do conhecimento
+  \item
+    Idioma
+  \end{itemize}
+\end{itemize}
+
+\section{6. Explorando bases, livros e
+periódicos}\label{explorando-bases-livros-e-periuxf3dicos}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Listar Bases e Coleções:} Repositórios e bibliotecas digitais.
+\item
+  \textbf{Listar Livros:} Busque livros por título ou ISBN.
+\item
+  \textbf{Listar Periódicos:} Navegue por revistas científicas
+  específicas.
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{📌 Algumas
+considerações\ldots{}}\label{algumas-considerauxe7uxf5es-1}
+
+\begin{itemize}
+\tightlist
+\item
+  O Portal está em constante atualização.
+\item
+  Combine buscas básicas, avançadas e filtros para melhores resultados.
+\item
+  Explore repositórios institucionais e revistas específicas além da
+  busca por assunto.
+\item
+  Para dúvidas ou orientações, consulte a equipe da biblioteca da sua
+  instituição.
+\end{itemize}
+
+\part{Modelos}
+
+\chapter{Plano de trabalho}\label{plano-de-trabalho}
+
+Modelo de plano de trabalho
+
+\begin{tcolorbox}[enhanced jigsaw, opacityback=0, colback=white, breakable, opacitybacktitle=0.6, leftrule=.75mm, left=2mm, colframe=quarto-callout-tip-color-frame, colbacktitle=quarto-callout-tip-color!10!white, coltitle=black, arc=.35mm, toprule=.15mm, bottomtitle=1mm, toptitle=1mm, titlerule=0mm, title=\textcolor{quarto-callout-tip-color}{\faLightbulb}\hspace{0.5em}{Dica}, rightrule=.15mm, bottomrule=.15mm]
+
+Este é um modelo de plano de trabalho para a iniciação científica --- um
+tipo de proposta de pesquisa que se vincula a projetos já cadastrados
+por professores da Ufersa.
+
+Pelas regras institucionais, quem submete oficialmente o plano para
+concorrer a bolsas de Iniciação Científica é o(a) professor(a)
+coordenador(a) do projeto. Mas isso não significa que você não possa
+propor uma pesquisa.
+
+Se você tem uma ideia de pesquisa e gostaria de ser bolsista de IC, você
+pode se antecipar e apresentar sua proposta ao professor responsável por
+um projeto da sua área.
+
+Essa atitude mostra iniciativa, organização e compromisso com a ciência
+--- qualidades que contam muito em qualquer etapa da vida acadêmica.
+
+🔎 Para descobrir quais projetos de pesquisa estão em execução na
+Ufersa, clique
+\href{https://sigaa.ufersa.edu.br/sigaa/public/pesquisa/consulta_projetos.jsf}{aqui}.
+
+\end{tcolorbox}
+
+Título
+
+Título conciso e informativo da proposta de trabalho do estudante.
+
+Introdução e justificativa
+
+Apresente o contexto da proposta e sua relevância. Indique como ela se
+vincula ao projeto de pesquisa ao qual se integra. Justifique a
+importância do estudo com base em evidências (dados, autores,
+relatórios).
+
+Objetivos
+
+Objetivo geral
+
+Descrever o objetivo principal da proposta.
+
+Objetivos específicos
+
+\begin{itemize}
+\tightlist
+\item
+  Objetivo 1
+\item
+  Objetivo 2
+\item
+  Objetivo 3
+\end{itemize}
+
+Metodologia
+
+Descreva os procedimentos que serão adotados ao longo do plano de
+trabalho. Inclua informações sobre instrumentos, etapas, técnicas de
+análise e, quando pertinente, sobre aprovação ética (CEP/CEUA).
+
+Habilidades a serem desenvolvidas
+
+Liste as competências que você pretende desenvolver:
+
+\begin{itemize}
+\tightlist
+\item
+  Habilidade 1 (ex: análise de dados)
+\item
+  Habilidade 2 (ex: escrita acadêmica)
+\item
+  Habilidade 3 (ex: uso de ferramentas digitais)
+\end{itemize}
+
+Cronograma de atividades
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 14\tabcolsep) * \real{0.4776}}
+  >{\centering\arraybackslash}p{(\linewidth - 14\tabcolsep) * \real{0.0746}}
+  >{\centering\arraybackslash}p{(\linewidth - 14\tabcolsep) * \real{0.0746}}
+  >{\centering\arraybackslash}p{(\linewidth - 14\tabcolsep) * \real{0.0746}}
+  >{\centering\arraybackslash}p{(\linewidth - 14\tabcolsep) * \real{0.0746}}
+  >{\centering\arraybackslash}p{(\linewidth - 14\tabcolsep) * \real{0.0746}}
+  >{\centering\arraybackslash}p{(\linewidth - 14\tabcolsep) * \real{0.0746}}
+  >{\centering\arraybackslash}p{(\linewidth - 14\tabcolsep) * \real{0.0746}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Atividades
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+Set
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+Out
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+Nov
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+Dez
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+Jan
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+Fev
+\end{minipage} & \begin{minipage}[b]{\linewidth}\centering
+Mar
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Leitura e revisão de literatura & X & X & & & & & \\
+Coleta de dados & & X & X & & & & \\
+Tratamento dos dados & & & X & X & & & \\
+Análise dos dados & & & & X & X & & \\
+Elaboração de relatório parcial & & & & & X & X & \\
+Escrita do relatório final & & & & & & X & X \\
+Apresentação dos resultados & & & & & & & X \\
+\end{longtable}
+
+Referências
+
+SOBRENOME, Nome. \emph{Título da obra}. Local: Editora, ano.
+
+SOBRENOME, Nome. ``Título do artigo''. \emph{Nome do periódico}, v. X,
+n.~Y, p.~Z--Z, ano.
+
+
+
+
+\end{document}

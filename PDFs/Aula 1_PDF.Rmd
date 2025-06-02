@@ -1,0 +1,64 @@
+---
+title: "Análise e Expressão Textual"
+subtitle: "Sistema acadêmico brasileiro"
+author: "Mário Martins"
+output:
+  prettydoc::html_pretty:
+    theme: leonids
+    highlight: github
+---
+
+# Sistema acadêmico brasileiro^[Roteiro de aula elaborado no RStudio com o auxílio da inteligência artificial ChatGPT, revisado e avaliado pelo professor antes de sua publicação.]
+
+## Objetivo de aprendizagem
+
+Ao final deste encontro, e com base na leitura indicada, espera-se que você seja capaz de:
+
+- Identificar a proposta e a organização da disciplina Análise e Expressão Textual (Anete), reconhecendo seus objetivos, estrutura em unidades e formas de avaliação;
+- Compreender a organização do sistema acadêmico brasileiro, identificando suas principais instâncias, normas e formas de produção do conhecimento, especialmente os gêneros textuais acadêmicos;
+- Participar de um diagnóstico inicial de competência textual, visando à identificação de conhecimentos prévios e dificuldades na produção escrita em contexto universitário.
+
+::: {.section .custom-style style="background-color: #F5F5F5;"}
+**Leitura indicada:**  
+**Entendendo a organização do sistema acadêmico brasileiro**, capítulo do livro *Guia do trabalho científico: do projeto à redação final*, de Celso Ferrarezi Jr.
+
+[Link de acesso à leitura indicada](vbk://9788572447638/epubcfi/6/14%5B%3Bvnd.vst.idref%3Dcap1.xhtml%5D)
+:::
+
+## Questões para discussão e reflexão
+
+**1. Qual grau acadêmico será conferido a você ao concluir a graduação no sistema de ensino superior brasileiro?**  
+a) Mestre  
+b) Doutor  
+c) Bacharel  
+d) Especialista
+
+**2. Qual a duração mínima de um curso de especialização no Brasil?**  
+a) 180 horas  
+b) 360 horas 
+c) 24 meses  
+d) 48 meses
+
+**3. Qual dos seguintes requisitos é geralmente exigido para ingressar em um programa de mestrado no Brasil?**
+a) Aprovação em prova de proficiência em três línguas estrangeiras  
+b) Apresentação de uma tese doutoral inédita  
+c) Apresentação de projeto de pesquisa 
+d) Já possuir o título de doutor
+
+**4. No sistema brasileiro de ensino superior, o título de PhD é:* **
+a) Um grau acadêmico superior ao doutorado  
+b) O título correspondente ao grau de doutor no sistema norte-americano 
+c) Equivalente a um curso de pós-doutorado  
+d) Um tipo de curso de pós-graduação *lato sensu*
+
+**5. Cursar uma pós-graduação *stricto sensu* em uma universidade estrangeira é sempre a melhor opção?**
+a) Sim. As universidades estrangeiras possuem um nível de exigência maior do que as brasileiras  
+b) Sim. Diplomas estrangeiros são mais valorizados no mercado de trabalho brasileiro  
+c) Não. Muitas universidades brasileiras possuem programas de alta qualidade 
+d) Não. Somente universidades brasileiras têm diplomas reconhecidos no Brasil
+
+**6. A defesa de dissertação é um requisito para a conclusão de qual nível de ensino superior no Brasil?**
+a) Doutorado  
+b) Especialização  
+c) Mestrado 
+d) Graduação

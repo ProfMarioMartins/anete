@@ -349,9 +349,3 @@ Por fim, o nome do problema, Poképu, é a junção de Pokémon e Khipu.
 ::: destaque
 Você está presente?
 :::
-
-```{=html}
-<div style="position: absolute; top: 10px; left: 10px;">
-  <img src="img/capa_anete.png" alt="Logo ANETE" style="height: 60px;">
-</div>
-```
