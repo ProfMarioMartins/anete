@@ -13,12 +13,12 @@ Ao final desta aula, espera-se que você seja capaz de:
 -   Identificar relações entre práticas sociais e gêneros acadêmicos;
 -   Classificar textos segundo seus gêneros e esferas de circulação.
 
-::: leitura
-Leitura indicada:
+::: {#leitura}
+**Leituras indicadas:**\
+CASTRO, Nádia Studzinski Estima de et al. *Leitura e escrita acadêmicas*. Porto Alegre: Sagah, 2019. Capítulo: “Gêneros acadêmicos”, p. 67–72.\
+[🔗 Acesso à leitura](vbk://9788533500228/page/67)
 
-**Gêneros acadêmicos**, capítulo do livro **Leitura e escrita acadêmicas**, de Nádia Studzinski Estima de Castro e colaboradores.
-
-\[🔗 Acesso à leitura indicada\](vbk://9788533500228/page/67)
+MOTTA-ROTH, Désirée; HENDGES, Graciela Rabuske. Produção textual na universidade. São Paulo: Parábola, 2010. Capítulo: "Abstract/resumo acadêmico". [🔗 Acesso à leitura](SIGAA)
 :::
 
 ## Introdução
@@ -35,7 +35,7 @@ Noutras palavras,
 
 Os gêneros textuais emergem das práticas sociais, funcionando como formas linguísticas que atendem a necessidades comunicativas específicas em contextos determinados. Isso significa que, à medida que diferentes esferas da vida social se organizam — como a escola, a academia, o jornalismo, o comércio ou a política —, desenvolvem-se também modos particulares de dizer, com características próprias de conteúdo, forma, finalidade e circulação. Assim, cada prática social dá origem a um conjunto de gêneros que lhe é funcional.
 
-<img src="img/praticas_sociais.png" alt="Práticas sociais" class="img-central"/>
+<img src="img/mapa.png" alt="Mapa mental" class="img-central"/>
 
 ## Aprendizagem prática
 
@@ -194,98 +194,45 @@ Refere-se à escolha lexical do autor. Um vocabulário técnico e preciso é tí
 
 <!-- Aqui encerra o campo de respostas-->
 
-------------------------------------------------------------------------
-
-<br/><br/>
-
-::: destaque
-🧩 Em síntese, **Gêneros textuais**...
-
--   são realizações linguísticas concretas definidas por propriedades sociocomunicativas;
--   constituem textos empiricamente realizados, cumprindo funções em situações comunicativas;
--   a sua nomeação abrange um conjunto aberto e praticamente ilimitado de designações concretas determinadas por canal, estilo, conteúdo, composição e função.
-
-São **gêneros acadêmicos textuais**: projeto de pesquisa, plano de trabalho, artigo, squib, resenha, ensaio, fichamento, relato de experiência, trabalho de conclusão de curso, dissertação e tese.
+::: {.destaque}
+Em contextos acadêmicos, a produção escrita se organiza em torno de **gêneros textuais específicos**, exigidos em diferentes etapas da formação. Cada um desses gêneros cumpre **funções comunicativas e institucionais bem definidas**.
 :::
 
-<br/>
 
-Agora vamos aprofundar nosso conhecimento sobre a estrutura retórica de alguns dos gêneros textuais mais recorrentes na esfera universitária, a começar pelo **resumo**.
-
-::: citacao
-A partir de Swales (2004)[^aula_9-2], pode-se definir **estrutura retórica** como a organização funcional de um gênero textual em movimentos retóricos recorrentes, orientados para o cumprimento de objetivos comunicativos específicos. Essa estrutura considera o contexto de produção, a audiência e as convenções disciplinares ou culturais da comunidade discursiva a que pertence o gênero.
-
-Ainda em linha com Swales (2004), um **movimento retórico** é uma unidade discursiva que desempenha uma função comunicativa coerente em um discurso escrito ou oral.
-
-<img src="img/move_geral.png" alt="Práticas sociais" class="img-central"/>
+::: {.citacao}
+“Os gêneros textuais acadêmicos se caracterizam muito mais pela função comunicativa e institucional do que por estruturas linguísticas” (Castro _et al_., 2019, p. 68).
 :::
 
-[^aula_9-2]: SWALES, J. M. Research Genres Explorations and Applications. Cambridge: Cambridge University Press, 2004.
+Para fins didáticos, propomos uma organização didática dos gêneros acadêmicos em três grupos funcionais:
 
-<br/>
+1.  **Gêneros de estudo**: São gêneros que auxiliam o estudante na compreensão, análise e sistematização de obras e conteúdos acadêmicos.
 
-## Definição: resumo
+    ✦ Fichamento
+    
+    ✦ Resenha
+    
+    ✦ Resumo
 
-O **resumo** - ou *abstract*, em inglês - é um gênero textual que sintetiza as informações mais relevantes de um trabalho científico. Esse gênero pode ocorrer de maneira autônoma, como em resumos publicados isoladamente nos anais de eventos acadêmicos ou em bancos de dados, ou ainda integrar outras produções científicas, como artigos, relatórios técnicos, dissertações e teses, funcionando como parte estratégica do texto completo.
+2.  **Gêneros de planejamento acadêmico**: São textos utilizados na organização das atividades de pesquisa, extensão ou ensino, geralmente em etapas iniciais.
 
-::: citacao
-Como sintetizam Motta-Roth e Rabuske (2010)[^aula_9-3], para que cumpra seu papel com clareza e eficácia, o resumo precisa organizar-se em movimentos retóricos específicos, que orientam o leitor quanto ao contexto da pesquisa, aos objetivos e métodos empregados, e aos principais resultados alcançados.
+    ✦ Plano de trablalho
+    
+    ✦ Projeto de pesquisa
 
-<img src="img/moves.png" alt="Práticas sociais" class="img-central"/>
+3.  **Gêneros de informação/divulgação científica**: São produções destinadas à comunicação de resultados, experiências e reflexões, seja no meio acadêmico ou na interface com a sociedade.
 
-:::
+    ✦ Artigo científico
+    
+    ✦ Relato de experiência
+    
+    ✦ Comunicação oral
+    
+    ✦ Squib (ou nota técnica)
 
-[^aula_9-3]: MOTTA-ROTH, Désirée; HENDGES, Graciela Rabuske. Produção textual na universidade. São Paulo: Parábola, 2010.
+4.  **Trabalhos finais de curso e pós-graduação**: São produções de caráter conclusivo, elaboradas ao término de cursos de graduação e pós-graduação, com exigências metodológicas formais.
 
-```{r echo=FALSE, message=FALSE, warning=FALSE, results='asis'}
-library(knitr)
-library(kableExtra)
-
-dados <- data.frame(
-  Movimento = c(
-    "1. Situar a pesquisa", "", "", "", "", "",
-    "2. Apresentar a pesquisa", "", "",
-    "3. Descrever a metodologia",
-    "4. Sumarizar os resultados",
-    "5. Discutir a pesquisa", ""
-  ),
-  Submovimentos = c(
-    "Estabelecer interesse no tópico",
-    "Fazer generalizações do tópico",
-    "Citar pesquisas prévias",
-    "Estender pesquisas prévias",
-    "Contra-argumentar pesquisas prévias",
-    "Indicar lacunas em pesquisas prévias",
-    "Indicar as principais características",
-    "Apresentar objetivo(s)",
-    "Levantar hipótese(s)",
-    "Apresentar procedimento(s)",
-    "Apontar principais achados",
-    "Apresentar conclusão(ões)",
-    "Recomendar aplicação(ões) futura(s)"
-  ),
-  Exemplo = c(
-    "O ensino de Física por meio de metodologias ativas tem ganhado destaque nos últimos anos.",
-    "Estudos apontam que os alunos demonstram maior engajamento quando a Física é ensinada com recursos experimentais.",
-    "Pesquisas como as de Silva et al. (2021) destacam o uso de jogos didáticos no ensino de cinemática.",
-    "Este estudo amplia a proposta de Moreira (2020) ao aplicar a metodologia em turmas do 2º ano.",
-    "Diferente de autores anteriores, não se investigaram os efeitos do lúdico na aprendizagem significativa.",
-    "Ainda são escassos os estudos que avaliam o impacto do uso de simuladores virtuais em escolas públicas.",
-    "Trata-se de uma investigação qualitativa com ênfase na análise de relatos de professores da rede básica.",
-    "O objetivo é avaliar a eficácia de uma sequência didática baseada em experimentos de óptica.",
-    "Hipotetiza-se que atividades experimentais favorecem a compreensão conceitual de fenômenos físicos.",
-    "A metodologia envolveu aplicação de uma sequência didática com uso de simuladores PhET.",
-    "Os resultados mostram melhora significativa no desempenho dos alunos após as intervenções.",
-    "Conclui-se que o uso de tecnologia digital contribui para a aprendizagem em Física.",
-    "Sugere-se replicar o estudo em outras redes de ensino com diferentes perfis de estudantes."
-  )
-)
-
-kable(dados, align = "l", col.names = c("Movimento", "Submovimentos", "Exemplo")) %>%
-  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover")) %>%
-  add_footnote("Fonte: Adaptado de Motta-Roth e Rabuske (2010) com exemplos elaborados pelo professor.")
-```
-
-## Aprendizagem prática
-
-[Veja a **Atividade de pesquisa: movimentos retóricos do resumo**](pesquisa_01.qmd)
+    ✦ TCC ou Monografia
+    
+    ✦ Dissertação (Mestrado)
+    
+    ✦ Tese (Doutorado)

@@ -1,0 +1,55 @@
+---
+title: "Análise e Expressão Textual - 2025.1"
+author: "Mário Martins"
+language:
+  locale: pt
+  title-block-author-single: "Professor"
+format:
+  html:
+    theme: journal
+    toc: false
+---
+
+# 1ª Avaliação
+
+::: {.section style="padding:1.2em; background-color:#f8f9fa; color:#000; border: 1px solid #ccc; border-radius: 6px;"}
+**Nome completo:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+**Matrícula:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+**Turma:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+**Nota:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+:::
+
+### Questão 1
+
+> Segundo a ABNT, citação é a menção a uma informação extraída de outra fonte, utilizada para fundamentar, esclarecer ou ilustrar as ideias do autor do texto.
+
+Leia os fragmentos abaixo e identifique qual deles apresenta uma citação indireta:
+
+-   [ ] a) “A linguagem é a forma mais elaborada de comunicação humana” (Abreu, 2012, p. 27).
+-   [ ] b) Kleiman (1999) compreende a linguagem como uma ferramenta que organiza o pensamento e a interação social.
+-   [ ] c) “A função da linguagem é estruturar e expressar o pensamento humano” (Vygotsky, 2001, p. 83).
+-   [ ] d) “Todo texto é atravessado por vozes sociais e ideológicas” (Bakhtin, 1988, p. 45).
+
+### Questão 2
+
+...
+
+### Questão 10
+
+**Verificação de suposições** envolve avaliar se uma ideia é válida a partir de dados observáveis e comparações consistentes, e não apenas com base em crenças ou experiências isoladas.
+
+Leia os casos abaixo. Em seguida, responda à questão.
+
+-   **Pedro** tem a impressão de que dormir menos de cinco horas interfere em seu desempenho em provas. Para acompanhar essa possível relação, ele anotou seus horários de sono e os resultados obtidos em diferentes avaliações ao longo do semestre.
+
+-   **Ana** costuma ouvir música clássica enquanto escreve textos acadêmicos. Acredita que esse hábito melhora sua produtividade, pois sente que escreve com mais fluidez quando está ouvindo Mozart.
+
+Com base nos casos, assinale a alternativa correta:
+
+-   [ ] a) Apenas Ana verificou sua suposição com observação e teste.
+-   [ ] b) Apenas Pedro realizou uma verificação empírica de sua hipótese.
+-   [ ] c) Ambos os personagens verificaram suas suposições com base em evidências.
+-   [ ] d) Nenhum deles testou a validade da própria crença.

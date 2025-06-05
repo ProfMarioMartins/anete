@@ -34,6 +34,7 @@ book:
     - part: "Unidade II"
       chapters:
       - Aula_9.qmd
+      - Aula_10.qmd
     - part: "Unidade III"
       chapters:
       - Aula_Y.qmd
@@ -41,6 +42,7 @@ book:
       chapters:
       - tutorial_zotero.qmd
       - tutorial_capes.qmd
+      - tutorial_tema_pesquisa.qmd
     - part: "Modelos"
       chapters:
       - modelo_plano.qmd

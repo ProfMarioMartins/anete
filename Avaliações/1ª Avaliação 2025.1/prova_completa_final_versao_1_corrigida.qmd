@@ -10,7 +10,7 @@ format:
     toc: false
 ---
 
-# 1ª Avaliação
+# 1ª Avaliação - Reposição
 
 ::: {.section style="padding:1.2em; background-color:#f8f9fa; color:#000; border: 1px solid #ccc; border-radius: 6px;"}
 **Nome completo:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_

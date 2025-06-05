@@ -2,46 +2,47 @@
 title: "Atividade de pesquisa: movimentos retóricos do resumo"
 ---
 
-::: {.titulo-nao-numerado}
+::: titulo-nao-numerado
 Objetivo
 :::
 
 Analisar a organização retórica de resumos acadêmicos a partir de uma abordagem sociorretórica, identificando os movimentos retóricos que estruturam esse gênero textual no contexto da produção científica brasileira.
 
-::: {.subtitulo-nao-numerado}
+::: subtitulo-nao-numerado
 🔍 Etapas da atividade
 :::
 
-- Selecione um resumo acadêmico disponível na página do ProfMat da Ufersa:
+1. No [Portal de Periódicos da Capes](https://www.periodicos.capes.gov.br/), selecione um **artigo científico completo** que atenda aos seguintes critérios:
 
-https://sigaa.ufersa.edu.br/sigaa/public/programa/defesas.jsf?lc=pt_BR&id=628
+      ✦ Esteja **relacionado ao seu tema de pesquisa**.\
+      ✦ Tenha sido **publicado em periódico científico classificado como A1, A2, A3 ou A4** no Qualis (última atualização disponível).\
+      ✦ Esteja **disponível em acesso aberto**.\
+      ✦ Tenha passado por **revisão por pares** (peer-reviewed).\
+      ✦ Tenha um **resumo explícito**, preferencialmente em português.
 
-::: {.nota-secundaria}
-🔔 Atenção: Para evitar duplicação, você deve informar à turma o título do trabalho selecionado assim que fizer a escolha. Isso deve ser feito por mensagem no chat da disciplina no Gmail.
-:::
+2. Copie o texto integral do resumo e cole no campo apropriado do formulário abaixo.
 
-- Copie o texto integral do resumo e cole no campo apropriado do formulário abaixo.
-	
-- Realize a segmentação do resumo conforme os cinco movimentos retóricos propostos.
+3. Realize a segmentação do resumo conforme os cinco movimentos retóricos propostos.
 
-- Para cada movimento identificado, copie e cole no campo correspondente o trecho que o representa; e classifique-o segundo as opções disponíveis no formulário.
-	
-- Se um movimento não estiver presente no resumo, indique isso no formulário, selecionando a opção “Movimento não acontece”.
+-   Para cada movimento identificado, copie e cole no campo correspondente o(s) trecho(s) que o representa(m); e classifique-o segundo as opções disponíveis no formulário.
 
+-   Se um movimento não estiver presente no resumo, indique isso no formulário, selecionando a opção “Movimento não acontece”.
+
+-   Se houver um movimento cuja classificação não esteja disponível, nomeie-o no campo adequado.
 
 📌 Recomendações importantes:
 
-- Certifique-se de analisar criticamente o texto, considerando a função comunicativa de cada trecho e não apenas marcadores superficiais.
+-   Certifique-se de analisar criticamente o resumo, considerando a função comunicativa de cada trecho e não apenas marcadores superficiais.
 
-- Esta atividade visa o desenvolvimento da consciência retórica, contribuindo para a sua própria capacidade de escrever bons resumos acadêmicos no futuro.
+-   Esta atividade visa o desenvolvimento da consciência retórica, contribuindo para a sua própria capacidade de escrever bons resumos acadêmicos no futuro.
 
-- A análise deve ser feita individualmente, com base nos princípios estudados em aula.
+-   A análise deve ser feita individualmente, com base nos princípios estudados em aula.
 
----
+------------------------------------------------------------------------
 
 <!-- 🌐 Formulário para anotação de movimentos retóricos em resumos -->
 
-::: {.formulario}
+::: formulario
 ```{=html}
 <style>
   .form-container {
@@ -108,7 +109,6 @@ https://sigaa.ufersa.edu.br/sigaa/public/programa/defesas.jsf?lc=pt_BR&id=628
 </style>
 ```
 
-
 ```{=html}
 <div class="form-container">
   <form id="form-resumo">
@@ -119,83 +119,119 @@ https://sigaa.ufersa.edu.br/sigaa/public/programa/defesas.jsf?lc=pt_BR&id=628
       <input type="text" name="nome" required>
     </label>
 
-    <label><strong>Título da dissertação analisada:</strong>
-      <input type="text" name="titulo" required placeholder="Informe o título da dissertação analisada">
+    <label><strong>Título do artigo:</strong>
+      <input type="text" name="titulo" required placeholder="Informe o título do artigo analisado">
+    </label>
+    
+    <label><strong>Área de conhecimento:</strong>
+      <input type="text" name="area" required placeholder="Informe a área de conhecimento do artigo analisado (conforme informado no Qualis)">
     </label>
 
-    <label>Resumo completo:
+    <label>Resumo:
       <textarea name="resumo" rows="5" required placeholder="Cole aqui o texto integral do resumo..."></textarea>
     </label>
 
-    <label>Situar a pesquisa:
+    <!-- Situar -->
+    <label>Situando a pesquisa:
       <textarea name="situar_texto" rows="3" placeholder="Cole aqui o trecho que situa a pesquisa"></textarea>
     </label>
-    <label>Selecione a(s) possibilidade(s):
-      <select name="situar_opcao">
-        <option value="">Selecione uma opção</option>
-        <option>Indicar o interesse no tópico de pesquisa</option>
-        <option>Fazer generalizações sobre o tópico de pesquisa</option>
-        <option>Estender pesquisas prévias</option>
-        <option>Citar pesquisas prévias</option>
-        <option>Contra-argumentar pesquisas prévias</option>
-        <option>Indicar lacunas em pesquisas prévias</option>
-        <option>Indicar a área de conhecimento</option>
+    <label>Selecione o(s) modo(s) como a pesquisa está sendo situada:<br/>
+      <small>(Use Ctrl ou Shift para selecionar mais de uma opção)</small>
+      <select name="situar_opcao[]" multiple>
+        <option>Indicando o interesse no tópico de pesquisa</option>
+        <option>Fazendo generalizações sobre o tópico de pesquisa</option>
+        <option>Estendendo pesquisas prévias</option>
+        <option>Citando pesquisas prévias</option>
+        <option>Contra-argumentando pesquisas prévias</option>
+        <option>Indicando lacunas em pesquisas prévias</option>
+        <option>Indicando a área de conhecimento</option>
         <option>Movimento não acontece</option>
         <option>Outro</option>
       </select>
     </label>
+    
+    <label>Se você marcou "Outro" acima, descreva aqui:
+      <input type="text" name="situar_outro" placeholder="Descreva a alternativa não listada">
+    </label>
 
-    <label>Apresentar a pesquisa:
+    <!-- Apresentar -->
+    <label>Apresentando a pesquisa:
       <textarea name="apresentar_texto" rows="3" placeholder="Cole aqui o trecho que apresenta a pesquisa"></textarea>
     </label>
-    <label>Selecione a(s) possibilidade(s):
-      <select name="apresentar_opcao">
-        <option value="">Selecione uma opção</option>
-        <option>Indicar as principais características da pesquisa</option>
-        <option>Apresentar o(s) principal(is) objetivo(s)</option>
-        <option>Levantar hipóteses</option>
+    <label>Selecione o(s) modo(s) como a pesquisa está sendo apresentada:<br/>
+      <small>(Use Ctrl ou Shift para selecionar mais de uma opção)</small>
+      <select name="apresentar_opcao[]" multiple>
+        <option>Indicando as principais características da pesquisa</option>
+        <option>Apresentando o(s) principal(is) objetivo(s)</option>
+        <option>Levantando hipóteses</option>
         <option>Movimento não acontece</option>
         <option>Outro</option>
       </select>
     </label>
+    
+    <label>Se você marcou "Outro" acima, descreva aqui:
+      <input type="text" name="apresentar_outro" placeholder="Descreva a alternativa não listada">
+    </label>
 
-    <label>Descrever a metodologia:
+    <!-- Metodologia -->
+    <label>Descrevendo a metodologia:
       <textarea name="metodologia_texto" rows="3" placeholder="Cole aqui o trecho que descreve a metodologia"></textarea>
     </label>
-    <label>Selecione a(s) possibilidade(s):
-      <select name="metodologia_opcao">
-        <option value="">Selecione uma opção</option>
-        <option>Descrever participantes/corpus</option>
-        <option>Indicar tipo de estudo/abordagem</option>
-        <option>Descrever procedimentos/métodos</option>
-        <option>Indicar a procedência dos dados</option>
+    <label>Selecione o(s) modo(s) como a metodologia está sendo descrita:<br/>
+      <small>(Use Ctrl ou Shift para selecionar mais de uma opção)</small>
+      <select name="metodologia_opcao[]" multiple>
+        <option>Descrevendo participantes/corpus</option>
+        <option>Indicando tipo de estudo/abordagem</option>
+        <option>Descrevendo procedimentos/métodos</option>
+        <option>Indicando a procedência dos dados</option>
         <option>Movimento não acontece</option>
         <option>Outro</option>
       </select>
     </label>
+    
+    <label>Se você marcou "Outro" acima, descreva aqui:
+      <input type="text" name="metodologia_outro" placeholder="Descreva a alternativa não listada">
+    </label>
 
-    <label>Sumarizar o(s) resultado(s):
+    <!-- Resultados -->
+    <label>Apresentando o(s) resultado(s):
       <textarea name="resultados_texto" rows="3" placeholder="Cole aqui o trecho que apresenta os resultados"></textarea>
     </label>
-    <label>Selecione a(s) possibilidade(s):
-      <select name="resultados_opcao">
-        <option value="">Selecione uma opção</option>
-        <option>Apresentar resultados qualitativos</option>
-        <option>Apresentar resultados quantitativos</option>
+    <label>Selecione o(s) modo(s) como o(s) resultado(s) está(ão) sendo apresentados:<br/>
+      <small>(Use Ctrl ou Shift para selecionar mais de uma opção)</small>
+      <select name="resultados_opcao[]" multiple>
+        <option>Apresentando resultados qualitativos</option>
+        <option>Apresentando resultados quantitativos</option>
         <option>Movimento não acontece</option>
         <option>Outro</option>
       </select>
     </label>
+    
+    <label>Se você marcou "Outro" acima, descreva aqui:
+      <input type="text" name="resultados_outro" placeholder="Descreva a alternativa não listada">
+    </label>
 
-    <label>Discutir a pesquisa:
+    <!-- Discussão -->
+    <label>Discutindo a pesquisa:
       <textarea name="discutir_texto" rows="3" placeholder="Cole aqui o trecho que discute a pesquisa"></textarea>
     </label>
-    <label>Selecione a(s) possibilidade(s):
-      <select name="discutir_opcao">
-        <option value="">Selecione uma opção</option>
-        <option>Elaborar conclusões</option>
-        <option>Recomendar futuras aplicações e/ou pesquisas</option>
+    <label>Selecione o(s) modo(s) como a pesquisa está sendo discutida:<br/>
+      <small>(Use Ctrl ou Shift para selecionar mais de uma opção)</small>
+      <select name="discutir_opcao[]" multiple>
+        <option>Elaborando conclusões</option>
+        <option>Recomendando futuras aplicações e/ou pesquisas</option>
+        <option>Movimento não acontece</option>
+        <option>Outro</option>
       </select>
+    </label>
+    
+    <label>Se você marcou "Outro" acima, descreva aqui:
+      <input type="text" name="discutir_outro" placeholder="Descreva a alternativa não listada">
+    </label>
+    
+    <label>Comentários ou observações adicionais:
+      <textarea name="comentarios" rows="3" placeholder="Use este espaço caso queira comentar algo sobre sua análise.">
+      </textarea>
     </label>
 
     <button type="submit">Enviar</button>
@@ -224,4 +260,8 @@ document.getElementById('form-resumo').addEventListener('submit', function(e) {
   .catch(error => alert('Erro ao enviar: ' + error));
 });
 </script>
+```
 :::
+
+<br/>
+

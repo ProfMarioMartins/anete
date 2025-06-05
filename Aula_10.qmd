@@ -1,147 +1,166 @@
 ---
-title: "Gêneros textuais acadêmicos"
+title: "Resumo"
 ---
+
+::: nota-secundaria
+Roteiro de aula elaborado no RStudio com o auxílio da inteligência artificial ChatGPT, revisado e avaliado pelo professor antes de sua publicação.
+:::
 
 ## Objetivos de aprendizagem
 
 Ao final desta aula, espera-se que você seja capaz de:
 
--   Diferenciar gêneros textuais de tipos textuais;
--   Reconhecer os principais gêneros acadêmicos segundo sua função;
--   Identificar as características dos gêneros acadêmicos de estudo, planejamento e divulgação científica;
--   Compreender a estrutura básica de gêneros como artigo, resenha, relato de experiência, TCC, dissertação e tese.
+-   Compreender a função do resumo no contexto acadêmico;
+-   Identificar os movimentos retóricos típicos do gênero resumo;
+-   Distinguir resumos bem estruturados de resumos que omitem movimentos essenciais;
+-   Aplicar os conceitos estudados na análise de resumos reais.
 
 ::: {#leitura}
-**Leitura indicada:**\
-CASTRO, Nádia Studzinski Estima de et al. *Leitura e escrita acadêmicas*. Porto Alegre: Sagah, 2019. Capítulo “Gêneros acadêmicos”, p. 67–72.\
+**Leituras indicadas:**\
+CASTRO, Nádia Studzinski Estima de et al. *Leitura e escrita acadêmicas*. Porto Alegre: Sagah, 2019. Capítulo: “Gêneros acadêmicos”, p. 67–72.\
 [🔗 Acesso à leitura](vbk://9788533500228/page/67)
+
+MOTTA-ROTH, Désirée; HENDGES, Graciela Rabuske. Produção textual na universidade. São Paulo: Parábola, 2010. Capítulo: "Abstract/resumo acadêmico". [🔗 Acesso à leitura](SIGAA)
 :::
 
 ## Introdução
 
-Em contextos acadêmicos, a produção escrita se organiza em torno de **gêneros textuais específicos**, exigidos em diferentes etapas da formação. Cada um desses gêneros cumpre **funções comunicativas e institucionais bem definidas**.
+**Gêneros textuais**...
 
-> “Os gêneros textuais acadêmicos se caracterizam muito mais pela função comunicativa e institucional do que por estruturas linguísticas” (CASTRO et al., 2019, p. 68).
+-   são realizações linguísticas concretas definidas por propriedades sociocomunicativas;
+-   constituem textos empiricamente realizados, cumprindo funções em situações comunicativas;
+-   a sua nomeação abrange um conjunto aberto e praticamente ilimitado de designações concretas determinadas por canal, estilo, conteúdo, composição e função.
 
-Antes de estudarmos os gêneros acadêmicos propriamente ditos, vamos retomar a distinção fundamental entre **tipo textual** e **gênero textual**.
 
-------------------------------------------------------------------------
+<br/>
+Compreender o funcionamento dos gêneros acadêmicos exige não apenas o reconhecimento de suas funções sociocomunicativas, mas também a análise de como essas funções se concretizam linguisticamente. É nesse ponto que entra o conceito de estrutura retórica.
 
-## Gênero textual × Tipo textual
+::: citacao
+A partir de Swales (2004)[^aula_10-1], pode-se definir **estrutura retórica** como a organização funcional de um gênero textual em movimentos retóricos recorrentes, orientados para o cumprimento de objetivos comunicativos específicos. Essa estrutura considera o contexto de produção, a audiência e as convenções disciplinares ou culturais da comunidade discursiva a que pertence o gênero.
 
-::: destaque
--   **Tipo textual**: conceito teórico. Define a **forma linguística predominante**. Exemplo: narração, exposição, descrição, injunção, argumentação.
--   **Gênero textual**: conceito empírico. Define **formas concretas de textos em uso social**, como bilhete, artigo, receita, relato de experiência, dissertação, etc.
+Ainda em linha com Swales (2004), um **movimento retórico** é uma unidade discursiva que desempenha uma função comunicativa coerente em um discurso escrito ou oral.
+
+<img src="img/move_geral.png" alt="Práticas sociais" class="img-central"/>
 :::
 
-> “\[...\] os gêneros textuais surgem e se integram às sociedades funcionalmente nas culturas em que se desenvolvem” (MARCUSCHI, 2003, apud CASTRO et al., 2019, p. 67).
+[^aula_10-1]: SWALES, J. M. Research Genres Explorations and Applications. Cambridge: Cambridge University Press, 2004.
 
-------------------------------------------------------------------------
+<br/>
 
-## Classificação funcional dos gêneros acadêmicos
+Agora vamos aprofundar nosso conhecimento sobre a estrutura retórica de alguns dos gêneros textuais mais recorrentes na esfera universitária, a começar pelo **resumo**.
 
-Nesta aula, propomos uma organização didática dos gêneros acadêmicos em três grupos funcionais:
+O **resumo** - ou *abstract*, em inglês - é um gênero textual que sintetiza as informações mais relevantes de um trabalho científico. Esse gênero pode ocorrer de maneira autônoma, como em resumos publicados isoladamente nos anais de eventos acadêmicos ou em bancos de dados, ou ainda integrar outras produções científicas, como artigos, relatórios técnicos, dissertações e teses, funcionando como parte estratégica do texto completo.
 
-1.  **Gêneros de estudo**
-2.  **Gêneros de planejamento acadêmico**
-3.  **Gêneros de informação/divulgação científica**
+::: citacao
+Como sintetizam Motta-Roth e Rabuske (2010), para que cumpra seu papel com clareza e eficácia, o resumo precisa organizar-se em movimentos retóricos específicos, que orientam o leitor quanto ao contexto da pesquisa, aos objetivos e métodos empregados, e aos principais resultados alcançados.
 
-Vamos explorar cada um deles a seguir.
+<img src="img/moves.png" alt="Práticas sociais" class="img-central"/>
+:::
 
-------------------------------------------------------------------------
+```{r echo=FALSE, message=FALSE, warning=FALSE, results='asis'}
+library(knitr)
+library(kableExtra)
 
-## Gêneros de estudo
+dados <- data.frame(
+  Movimento = c(
+    "1. Situar a pesquisa", "", "", "", "", "",
+    "2. Apresentar a pesquisa", "", "",
+    "3. Descrever a metodologia",
+    "4. Sumarizar os resultados",
+    "5. Discutir a pesquisa", ""
+  ),
+  Submovimentos = c(
+    "Estabelecer interesse no tópico",
+    "Fazer generalizações do tópico",
+    "Citar pesquisas prévias",
+    "Estender pesquisas prévias",
+    "Contra-argumentar pesquisas prévias",
+    "Indicar lacunas em pesquisas prévias",
+    "Indicar as principais características",
+    "Apresentar objetivo(s)",
+    "Levantar hipótese(s)",
+    "Apresentar procedimento(s)",
+    "Apontar principais achados",
+    "Apresentar conclusão(ões)",
+    "Recomendar aplicação(ões) futura(s)"
+  ),
+  Exemplo = c(
+    "O ensino de Física por meio de metodologias ativas tem ganhado destaque nos últimos anos.",
+    "Estudos apontam que os alunos demonstram maior engajamento quando a Física é ensinada com recursos experimentais.",
+    "Pesquisas como as de Silva et al. (2021) destacam o uso de jogos didáticos no ensino de cinemática.",
+    "Este estudo amplia a proposta de Moreira (2020) ao aplicar a metodologia em turmas do 2º ano.",
+    "Diferente de autores anteriores, não se investigaram os efeitos do lúdico na aprendizagem significativa.",
+    "Ainda são escassos os estudos que avaliam o impacto do uso de simuladores virtuais em escolas públicas.",
+    "Trata-se de uma investigação qualitativa com ênfase na análise de relatos de professores da rede básica.",
+    "O objetivo é avaliar a eficácia de uma sequência didática baseada em experimentos de óptica.",
+    "Hipotetiza-se que atividades experimentais favorecem a compreensão conceitual de fenômenos físicos.",
+    "A metodologia envolveu aplicação de uma sequência didática com uso de simuladores PhET.",
+    "Os resultados mostram melhora significativa no desempenho dos alunos após as intervenções.",
+    "Conclui-se que o uso de tecnologia digital contribui para a aprendizagem em Física.",
+    "Sugere-se replicar o estudo em outras redes de ensino com diferentes perfis de estudantes."
+  )
+)
 
-São gêneros que auxiliam o estudante na compreensão, análise e sistematização de obras e conteúdos acadêmicos.
+kable(dados, align = "l", col.names = c("Movimento", "Submovimentos", "Exemplo")) %>%
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover")) %>%
+  add_footnote("Fonte: Adaptado de Motta-Roth e Rabuske (2010) com exemplos elaborados pelo professor.")
+```
 
-### ✦ Fichamento
-
--   Registro sintético das ideias centrais de um texto.
--   Pode ser bibliográfico, de conteúdo ou crítico.
-
-### ✦ Resenha
-
--   Apresenta e avalia uma obra, geralmente recém-publicada.
--   Deve indicar dados da publicação e trajetória do autor.
--   Pode conter apreciações, **desde que fundamentadas**.
-
-> “A resenha \[...\] apresenta ao seu leitor o conteúdo da obra, expondo as ideias que estão sendo defendidas” (CASTRO et al., 2019, p. 70).
-
-------------------------------------------------------------------------
-
-## Gêneros de planejamento acadêmico
-
-São textos utilizados na **organização das atividades de pesquisa**.
-
-### ✦ Plano de trabalho
-
--   Documento inicial que delimita tema, objetivos, metodologia e cronograma de uma pesquisa.
-
-### ✦ Projeto de pesquisa
-
--   Estrutura mais ampla que o plano.
--   Pode ser usado para solicitar financiamento ou inscrição em programas de iniciação científica ou pós-graduação.
-
-------------------------------------------------------------------------
-
-## Gêneros de divulgação e comunicação acadêmica
-
-### ✦ Artigo científico
-
--   Resultado de investigação ou revisão teórica.
--   Apresenta problema, objetivos, métodos, análise de dados e conclusões.
-
-> “A abordagem do tema deve ser inovadora, no sentido de avanço para o conhecimento” (CASTRO et al., 2019, p. 68).
-
-### ✦ Relato de experiência
-
--   Narra, com fundamentação teórica, uma vivência acadêmica relevante.
--   Exige clareza, impessoalidade e análise crítica.
-
-### ✦ Comunicação oral
-
--   Apresentação pública de resultados de pesquisa, geralmente em eventos acadêmicos.
--   Pode derivar de artigo, resumo expandido ou relato.
-
-### ✦ Squib (ou nota técnica)
-
--   Gênero breve, comum em algumas áreas, que discute um ponto específico, crítica ou sugestão metodológica.
--   Ainda pouco conhecido entre os graduandos.
-
-------------------------------------------------------------------------
-
-## Trabalhos finais de curso e pós-graduação
-
-### ✦ TCC ou Monografia
-
--   Exigido em cursos de graduação ou especialização.
--   Estrutura lógica, argumentativa e rigorosa.
-
-### ✦ Dissertação (Mestrado)
-
-> “Apresentar os resultados de um trabalho experimental ou exposição de um estudo científico retrospectivo, de tema único e bem delimitado” (ABNT, 2002, p. 3 apud CASTRO et al., 2019, p. 71).
-
-### ✦ Tese (Doutorado)
-
-> “Deve apresentar uma investigação original, constituindo-se em real contribuição para a especialidade em questão” (ABNT, 2002, p. 4 apud CASTRO et al., 2019, p. 72).
-
-------------------------------------------------------------------------
 
 ## Aprendizagem prática
 
-1.  Leia atentamente os gêneros descritos na aula e no capítulo indicado.
-2.  Escolha um dos gêneros e produza uma breve definição funcional e um exemplo de contexto em que ele seria exigido.
-3.  Escreva no Padlet da turma, marcando com a etiqueta: **#gênerosacadêmicos**.
+[Veja a **Atividade de pesquisa: movimentos retóricos do resumo**](pesquisa_01.qmd)
 
-------------------------------------------------------------------------
 
-## Encerramento
+## Atividade complementar: Registro dos artigos selecionados no [Padlet](https://padlet.com/mariomartins/anete-2025-1-b3r3eohs4gd7np8m)
 
-::: destaque
--   Os gêneros textuais acadêmicos são instrumentos de produção, circulação e validação do conhecimento.
--   Compreender suas funções e estruturas é essencial para atuar na universidade com autoria, ética e clareza.
+::: subtitulo-nao-numerado
+🎯 Objetivo
 :::
 
-------------------------------------------------------------------------
+Consolidar a pesquisa bibliográfica por meio do registro dos dois primeiros artigos científicos selecionados, com foco no tema de pesquisa individual.
 
-Se desejar, posso estruturar essa aula diretamente no formato `.qmd` com estilo compatível com os demais arquivos do seu bookdown. Deseja isso?
+---
+
+## 🧩 Instruções para preenchimento do Padlet
+
+Acesse o Padlet da turma e edite os campos conforme a orientação abaixo:
+
+::: painel-escuro
+
+### 🟪 Coluna **Autor**
+Digite seu **nome completo**.
+
+---
+
+### 🟪 Coluna **Assunto**
+Informe o **tema de sua pesquisa**, de forma clara e delimitada.
+
+**Exemplo:**  
+> *Gamificação e aprendizagem de Física no Ensino Médio*
+
+---
+
+### 🟪 Coluna **Anexo**
+Adicione os **dois arquivos PDF** dos artigos já selecionados até o momento:
+
+💡 Nomeie os arquivos com o sobrenome do primeiro autor e o ano, como: `Silva_2022.pdf` ou `Ferreira_2021.pdf`.
+
+---
+
+### 🟪 Coluna **Corpo**
+Cole as **referências completas dos dois artigos**, formatadas de acordo com as normas da **ABNT** (usando o **Zotero**).
+
+:::
+
+## 📝 Recomendações
+
+- Utilize o **Zotero** para gerar as referências automaticamente em formato ABNT;
+- Certifique-se de que os artigos selecionados estejam **de acordo com os critérios da atividade anterior** (Qualis A1 a A4, peer-reviewed, em acesso aberto);
+- Publique sua contribuição até às 17 horas da sexta-feira, dia 6 de junho.
+
+::: {.destaque}
+- Estude os artigos!
+:::
+
+---

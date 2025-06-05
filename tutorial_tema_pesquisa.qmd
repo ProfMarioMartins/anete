@@ -1,6 +1,6 @@
-::: {.section style="padding:1.2em; background-color:#f8f9fa; color:#000; border: 1px solid #ccc; border-radius: 6px;"}
-**Tutorial: tema e pergunta de pesquisa para seu plano de trabalho. 
-:::
+---
+title: Tema e pergunta de pesquisa para seu plano de trabalho. 
+---
 
 ## Introdução
 
