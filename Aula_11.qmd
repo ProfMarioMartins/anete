@@ -1,0 +1,740 @@
+---
+title: "Artigo"
+---
+
+```{=html}
+<style>
+  #form-artigo p {
+    margin-top: 1.2em;
+    font-weight: bold;
+    font-size: 1.05em;
+  }
+  #form-artigo label {
+    display: block;
+    margin-left: 1em;
+    margin-bottom: 0.4em;
+    font-weight: normal;
+  }
+</style>
+
+<style>
+  #form-artigo button {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+    transition: background-color 0.3s ease;
+  }
+
+  #form-artigo button:hover {
+    background-color: #388E3C;
+  }
+</style>
+
+<style>
+  #aprendizagem-introducao p:nth-of-type(n+2),
+  #aprendizagem-metodologia p:nth-of-type(n+2),
+  #aprendizagem-resultados p:nth-of-type(n+2),
+  #aprendizagem-discussao p:nth-of-type(n+2) {
+    font-weight: bold;
+    margin-top: 1em;
+  }
+</style>
+```
+
+::: nota-secundaria
+Roteiro de aula elaborado no RStudio com o auxílio da inteligência artificial ChatGPT, revisado e avaliado pelo professor antes de sua publicação.
+:::
+
+## Objetivos de aprendizagem
+
+Ao final desta aula, espera-se que você seja capaz de:
+
+- Identificar os principais elementos que compõem cada seção de um artigo científico;
+- Avaliar criticamente se os artigos lidos atendem às expectativas da escrita acadêmica científica;
+- Desenvolver consciência sobre a importância da delimitação do tema, justificativa, metodologia e interpretação dos dados.
+
+::: {#leitura}
+**Leituras indicadas:**\
+MEDEIROS, João Bosco; TOMASI, Carolina. *Redação de artigos científicos*. Rio de Janeiro: Editora Atlas, 2021. Capítulo: “Artigo científico original e de revisão: a estrutura “Introdução, Método, Resultados e Discussão” (IMRD)”, p. 48–65.\
+[🔗 Acesso à leitura](vbk://9788597026641/epubcfi/6/32%5B%3Bvnd.vst.idref%3Dhtml14%5D)
+
+<!--
+MOTTA-ROTH, Désirée; HENDGES, Graciela Rabuske. Produção textual na universidade. São Paulo: Parábola, 2010. Capítulo: "Abstract/resumo acadêmico". [🔗 Acesso à leitura](SIGAA)
+-->
+:::
+
+## Introdução
+
+**Artigos científicos**
+
+::: citacao
+Como Bosco e Tomasi (2021, p. 48) sintetizam, segundo a ABNT NBR 6022, "um artigo científico é uma publicação com autoria declarada que apresenta e discute ideias, métodos, técnicas, processos e resultados nas diversas áreas do conhecimento.
+:::
+
+::: citacao
+É um meio essencial para dialogar com a comunidade científica e comunicar em primeira mão os resultados de uma pesquisa." (Bosco e Tomasi, 2021, p. 48)
+:::
+
+<br>
+
+A norma ABNT NBR 6022 apresenta orientações gerais sobre a redação de artigos, classificando-os principalmente em dois tipos: **artigo original** e **artigo de revisão**. No entanto, cada área do saber possui suas próprias expectativas.
+
+Em muitos campos de conhecimento, é comum que os periódicos exijam a estrutura IMRD: Introdução, Métodos, Resultados e Discussão.
+
+Em outros campos de conhecimento, há tipos de artigos que seguem formatos mais flexíveis, como as **revisões narrativas**, os **relatos de caso**, as **metanálises** e os **ensaios teóricos**.
+
+Além disso, a natureza da pesquisa — se é experimental, observacional ou teórica — influencia diretamente na forma de apresentar os dados e organizar as seções do texto.
+
+Por isso, ao escrever ou ler um artigo, é fundamental conhecer não apenas os objetivos da própria pesquisa, mas também as convenções da área e as normas editoriais do periódico em que foi (ou será publicado).
+
+**Em síntese, a escolha do tipo e da estrutura de um artigo científico deve levar em conta dois aspectos fundamentais: a área do conhecimento em que se insere e as exigências do periódico onde se pretende publicar**.
+
+<br>
+
+::: destaque
+As aprendizagens práticas a seguir foram elaboradas para guiá-lo na identificação dos principais tipos de artigos científicos e na compreensão de suas estruturas mais comuns.
+:::
+
+## Aprendizagem prática
+
+```{=html}
+<div id="diagnostico-artigo">
+  <h2>🔍 Que tipo de artigo científico você está lendo?</h2>
+  <p>Responda "sim" ou "não" às perguntas abaixo. Ao final, clique no botão para descobrir o tipo predominante de artigo: se original ou de revisão.</p>
+  
+  <form id="form-artigo">
+
+    <fieldset style="border: 1px solid #ccc; padding: 15px; border-radius: 6px; background-color: #f9f9f9;">
+      <p style="margin-top: 1.2em;">O artigo apresenta conteúdo inédito, como uma descoberta, nova experiência ou análise não publicada antes?</p>
+      <label><input type="radio" name="q1" value="original"> Sim</label>
+      <label><input type="radio" name="q1" value=""> Não</label>
+      
+      <p style="margin-top: 1.2em;">Os autores descrevem em detalhes os métodos, técnicas ou processos usados para obter os resultados?</p>
+      <label><input type="radio" name="q2" value="original"> Sim</label>
+      <label><input type="radio" name="q2" value=""> Não</label>
+
+      <p style="margin-top: 1.2em;">O texto é escrito de forma que outro pesquisador poderia repetir os procedimentos e verificar os resultados?</p>
+      <label><input type="radio" name="q3" value="original"> Sim</label>
+      <label><input type="radio" name="q3" value=""> Não</label>
+
+      <p style="margin-top: 1.2em;">Há dados primários (coletados diretamente pelos autores)?</p>
+      <label><input type="radio" name="q4" value="original"> Sim</label>
+      <label><input type="radio" name="q4" value=""> Não</label>
+
+      <p style="margin-top: 1.2em;">O artigo está em inglês e segue a estrutura IMRD (Introduction, Methods, Results, Discussion)?</p>
+      <label><input type="radio" name="q5" value="original"> Sim</label>
+      <label><input type="radio" name="q5" value=""> Não</label>
+
+      <p style="margin-top: 1.2em;">O artigo tem como objetivo principal resumir, analisar ou discutir conteúdos já publicados por outros autores?</p>
+      <label><input type="radio" name="q6" value="revisao"> Sim</label>
+      <label><input type="radio" name="q6" value=""> Não</label>
+
+      <p style="margin-top: 1.2em;">Ele apresenta uma avaliação crítica desses conteúdos, propõe caminhos novos ou contesta ideias anteriores?</p>
+      <label><input type="radio" name="q7" value="revisao"> Sim</label>
+      <label><input type="radio" name="q7" value=""> Não</label>
+
+      <p style="margin-top: 1.2em;">O artigo se baseia em interpretação e seleção de fontes bibliográficas, sem apresentar dados inéditos?</p>
+      <label><input type="radio" name="q8" value="revisao"> Sim</label>
+      <label><input type="radio" name="q8" value=""> Não</label>
+
+      <p style="margin-top: 1.2em;">O artigo faz uma investigação rigorosa e sistemática de vários estudos científicos sobre um mesmo problema?</p>
+      <label><input type="radio" name="q9" value="sistematica"> Sim</label>
+      <label><input type="radio" name="q9" value=""> Não</label>
+
+      <p style="margin-top: 1.2em;">Os autores explicam os critérios usados para selecionar os estudos analisados?</p>
+      <label><input type="radio" name="q10" value="sistematica"> Sim</label>
+      <label><input type="radio" name="q10" value=""> Não</label>
+
+      <p style="margin-top: 1.2em;">Existe uma seção com tabela de exclusão/inclusão de artigos da literatura?</p>
+      <label><input type="radio" name="q11" value="sistematica"> Sim</label>
+      <label><input type="radio" name="q11" value=""> Não</label>
+
+      <p style="margin-top: 1.2em;">O objetivo é evitar viés na análise, garantindo maior confiabilidade?</p>
+      <label><input type="radio" name="q12" value="sistematica"> Sim</label>
+      <label><input type="radio" name="q12" value=""> Não</label>
+
+      <p style="margin-top: 1.2em;">O artigo combina dados numéricos ou estatísticos de vários estudos em uma única análise quantitativa?</p>
+      <label><input type="radio" name="q13" value="metanalise"> Sim</label>
+      <label><input type="radio" name="q13" value=""> Não</label>
+
+      <p style="margin-top: 1.2em;">Há gráficos ou tabelas que somam resultados de pesquisas diferentes?</p>
+      <label><input type="radio" name="q14" value="metanalise"> Sim</label>
+      <label><input type="radio" name="q14" value=""> Não</label>
+
+      <p style="margin-top: 1.2em;">O estudo envolve testes realizados sob condições controladas?</p>
+      <label><input type="radio" name="q15" value="experimental"> Sim</label>
+      <label><input type="radio" name="q15" value=""> Não</label>
+
+      <p style="margin-top: 1.2em;">Os autores realizaram experimentos com manipulação de variáveis?</p>
+      <label><input type="radio" name="q16" value="experimental"> Sim</label>
+      <label><input type="radio" name="q16" value=""> Não</label>
+
+      <p style="margin-top: 1.2em;">Há descrição detalhada do processo de coleta de dados e controle dos fatores envolvidos?</p>
+      <label><input type="radio" name="q17" value="experimental"> Sim</label>
+      <label><input type="radio" name="q17" value=""> Não</label>
+
+      <p style="margin-top: 1.2em;">O estudo dividiu os participantes em grupos de forma aleatória?</p>
+      <label><input type="radio" name="q18" value="randomizado"> Sim</label>
+      <label><input type="radio" name="q18" value=""> Não</label>
+
+      <p style="margin-top: 1.2em;">Houve comparação entre grupos tratados e não tratados (grupo controle)?</p>
+      <label><input type="radio" name="q19" value="randomizado"> Sim</label>
+      <label><input type="radio" name="q19" value=""> Não</label>
+
+      <p style="margin-top: 1.2em;">O objetivo é testar a eficácia de um tratamento em seres humanos?</p>
+      <label><input type="radio" name="q20" value="randomizado"> Sim</label>
+      <label><input type="radio" name="q20" value=""> Não</label>
+
+      <p style="margin-top: 1.2em;">O artigo menciona o uso de uma substância ou tratamento sem efeito real, apenas para comparação com o grupo tratado?</p>
+      <label><input type="radio" name="q21" value="placebo"> Sim</label>
+      <label><input type="radio" name="q21" value=""> Não</label>
+
+      <p style="margin-top: 1.2em;">Os resultados apresentados são tratados como fortes evidências científicas?</p>
+      <label><input type="radio" name="q22" value="evidencias"> Sim</label>
+      <label><input type="radio" name="q22" value=""> Não</label>
+
+      <p style="margin-top: 1.2em;">O artigo inclui análises estatísticas rigorosas que indicam a validade dos achados?</p>
+      <label><input type="radio" name="q23" value="evidencias"> Sim</label>
+      <label><input type="radio" name="q23" value=""> Não</label>
+
+      <p style="margin-top: 1.2em;">O pesquisador não interfere nos fenômenos observados, apenas os registra como ocorrem?</p>
+      <label><input type="radio" name="q24" value="observacional"> Sim</label>
+      <label><input type="radio" name="q24" value=""> Não</label>
+
+      <p style="margin-top: 1.2em;">O estudo é descritivo, e não há manipulação de variáveis nem experimentos?</p>
+      <label><input type="radio" name="q25" value="observacional"> Sim</label>
+      <label><input type="radio" name="q25" value=""> Não</label>
+
+      <p style="margin-top: 1.2em;">Há uma seção extensa com o nome “Revisão da Literatura” ou “Referencial Teórico”?</p>
+      <label><input type="radio" name="q26" value="literatura"> Sim</label>
+      <label><input type="radio" name="q26" value=""> Não</label>
+
+      <p style="margin-top: 1.2em;">Essa seção apresenta o que já se sabe sobre o tema, sem propor hipóteses ou coleta de dados nova?</p>
+      <label><input type="radio" name="q27" value="literatura"> Sim</label>
+      <label><input type="radio" name="q27" value=""> Não</label>
+
+      <p style="margin-top: 1.2em;">O artigo tem como foco discutir conceitos, modelos ou teorias já existentes?</p>
+      <label><input type="radio" name="q28" value="teorico"> Sim</label>
+      <label><input type="radio" name="q28" value=""> Não</label>
+
+      <p style="margin-top: 1.2em;">O texto apresenta hipóteses conceituais ou reformulações teóricas, sem dados experimentais?</p>
+      <label><input type="radio" name="q29" value="teorico"> Sim</label>
+      <label><input type="radio" name="q29" value=""> Não</label>
+
+      <p style="margin-top: 1.2em;">O objetivo é refinar ou propor modelos teóricos, mais do que testar algo empiricamente?</p>
+      <label><input type="radio" name="q30" value="teorico"> Sim</label>
+      <label><input type="radio" name="q30" value=""> Não</label>
+    </fieldset>
+
+    <br>
+    
+    <br>
+    
+    <button type="button" onclick="calcularTipoArtigo()" style="
+      background-color: #4CAF50;
+      color: white;
+      font-size: 1.2em;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    ">✅ Ver resultado</button>
+  </form>
+
+  <div id="resultado-artigo" style="margin-top: 20px;"></div>
+</div>
+
+<script>
+function calcularTipoArtigo() {
+  const respostas = document.querySelectorAll('input[type=radio]:checked');
+  const contagem = {};
+  const totalRespondidas = new Set();
+
+  respostas.forEach((r) => {
+    totalRespondidas.add(r.name);
+    if (r.value) {
+      contagem[r.value] = (contagem[r.value] || 0) + 1;
+    }
+  });
+
+  const resultadoDiv = document.getElementById("resultado-artigo");
+
+  if (respostas.length === 0 || totalRespondidas.size < 5) {
+    resultadoDiv.innerHTML =
+      `<p style="color: darkred;">❗ Por favor, responda ao menos uma pergunta por grupo para que o sistema possa gerar um diagnóstico.</p>`;
+    return;
+  }
+
+  if (Object.keys(contagem).length === 0) {
+    resultadoDiv.innerHTML =
+      `<p style="font-size: 1.1em;">⚠️ O artigo analisado não apresenta características claras dos tipos listados.</p>
+       <p>Releia as perguntas com atenção, pois o texto pode ter elementos sutis que você não percebeu.</p>`;
+    return;
+  }
+
+  const tipoMaisFrequente = Object.entries(contagem).sort((a, b) => b[1] - a[1])[0];
+
+  const explicacoes = {
+    original: "<strong>Artigo Original:</strong> apresenta resultados inéditos de uma pesquisa desenvolvida pelos autores. Detalha métodos, procedimentos e dados primários, sendo essencial para o avanço do conhecimento científico.",
+    revisao: "<strong>Artigo de Revisão:</strong> sintetiza e discute criticamente pesquisas já publicadas. Não traz dados inéditos, mas contribui com um panorama consolidado sobre determinado tema.",
+    sistematica: "<strong>Revisão Sistemática:</strong> segue critérios rigorosos de seleção e análise de estudos sobre uma mesma questão, com o objetivo de evitar vieses e produzir uma revisão crítica confiável.",
+    metanalise: "<strong>Metanálise:</strong> combina estatisticamente os resultados de diversos estudos prévios sobre um mesmo problema, ampliando a validade das conclusões.",
+    experimental: "<strong>Pesquisa Experimental:</strong> testa hipóteses por meio de experimentos sob controle de variáveis. É comum em ciências naturais, saúde e engenharias.",
+    randomizado: "<strong>Estudo Clínico Randomizado:</strong> investiga a eficácia de tratamentos em grupos formados aleatoriamente, geralmente com grupo controle e, às vezes, uso de placebo.",
+    placebo: "<strong>Uso de Placebo:</strong> o estudo inclui uma substância inativa administrada ao grupo controle para comparação com o tratamento real.",
+    evidencias: "<strong>Evidência Científica:</strong> os dados apresentados têm alto grau de confiabilidade e embasam decisões científicas ou práticas clínicas.",
+    observacional: "<strong>Pesquisa Observacional:</strong> analisa fenômenos como eles ocorrem na realidade, sem manipulação de variáveis pelo pesquisador.",
+    literatura: "<strong>Revisão da Literatura:</strong> compõe uma seção do artigo dedicada à contextualização do problema com base em autores e teorias já publicadas.",
+    teorico: "<strong>Artigo de Estudos Teóricos:</strong> tem como foco a formulação ou reformulação de modelos conceituais, hipóteses ou teorias. Baseia-se fortemente em textos clássicos ou recentes, sem apresentar experimentação."
+  };
+
+  resultadoDiv.innerHTML =
+    `<p style="font-size: 1.1em;">✅ O artigo que você está analisando é provavelmente um(a):</p>
+     <p style="font-size: 1.2em; font-weight: bold; color: darkgreen;">${tipoMaisFrequente[0].toUpperCase()}</p>
+     <div style="background-color:#f1f1f1; border-left: 5px solid #4CAF50; padding: 10px; margin-top: 10px;">
+       ${explicacoes[tipoMaisFrequente[0]]}
+     </div>`;
+}
+</script>
+```
+
+<br>
+
+::: destaque
+<strong>Importante:</strong> A classificação gerada acima não é definitiva. Use-a como ponto de partida para discutir com seus colegas e revisar as seções-chave do artigo.
+Artigos híbridos (ex.: revisão com análise teórica) podem gerar resultados cruzados. O mais importante é compreender como o conhecimento é construído.
+:::
+
+<br>
+
+---
+
+<br>
+
+## Aprendizagem prática
+
+::: {#citacao}
+Segundo Bosco e Tomasi (2021, p. 48), uma excelente forma de melhorar nossas práticas científicas, é "examinar os artigos científicos já publicados: títulos (número de palavras), resumo (extensão), palavras-chave (número de palavras-chave), introdução, desenvolvimento, conclusão, referências, ilustrações (tabelas, quadros, diagramas), formas de introduzir citações diretas e indiretas, fonte tipográfica, mancha da página, espaço interlinear etc."
+:::
+
+Na aprendizagem prática a seguir, vamos analisar como se realizam a introdução, a metodologia, os resultados e discussão nos artigos que vocês estudaram.
+
+<br>
+
+```{=html}
+<div id="aprendizagem-introducao">
+  <form>
+    <fieldset style="border: 1px solid #ccc; padding: 15px; border-radius: 6px; background-color: #f9f9f9;">
+      <legend style="font-weight:bold;">📝 Elementos da introdução</legend>
+      
+      <br>
+      
+      <p><strong>Como o artigo científico que você escolheu apresenta os elementos essenciais para situar a pesquisa no campo do conhecimento científico?</strong></p>
+
+      <p>1. O tema da pesquisa está claramente delimitado?</p>
+
+<!-- Grupo Turma 1 -->
+<div style="margin-bottom: 0.5em;">
+  <button onclick="sortearAluno(this, 'turma1')">🎲 Sortear aluno (Turma 1)</button>
+  <p class="nome-sorteado" style="font-weight:bold; color:#2c3e50;"></p>
+</div>
+
+<!-- Grupo Turma 2 -->
+<div style="margin-bottom: 1em;">
+  <button onclick="sortearAluno(this, 'turma2')">🎲 Sortear aluno (Turma 2)</button>
+  <p class="nome-sorteado" style="font-weight:bold; color:#2c3e50;"></p>
+</div>
+
+
+      <p>2. Há a formulação de um problema de pesquisa (preferencialmente em forma de pergunta)?</p>
+      
+<!-- Grupo Turma 1 -->
+<div style="margin-bottom: 0.5em;">
+  <button onclick="sortearAluno(this, 'turma1')">🎲 Sortear aluno (Turma 1)</button>
+  <p class="nome-sorteado" style="font-weight:bold; color:#2c3e50;"></p>
+</div>
+
+<!-- Grupo Turma 2 -->
+<div style="margin-bottom: 1em;">
+  <button onclick="sortearAluno(this, 'turma2')">🎲 Sortear aluno (Turma 2)</button>
+  <p class="nome-sorteado" style="font-weight:bold; color:#2c3e50;"></p>
+</div>
+
+      <p>3. O texto apresenta uma ou mais hipóteses de trabalho?</p>
+
+<!-- Grupo Turma 1 -->
+<div style="margin-bottom: 0.5em;">
+  <button onclick="sortearAluno(this, 'turma1')">🎲 Sortear aluno (Turma 1)</button>
+  <p class="nome-sorteado" style="font-weight:bold; color:#2c3e50;"></p>
+</div>
+
+<!-- Grupo Turma 2 -->
+<div style="margin-bottom: 1em;">
+  <button onclick="sortearAluno(this, 'turma2')">🎲 Sortear aluno (Turma 2)</button>
+  <p class="nome-sorteado" style="font-weight:bold; color:#2c3e50;"></p>
+</div>
+
+      <p>4. O(s) objetivo(s) da pesquisa estão formulados de forma clara e coerente com o problema?</p>
+
+<!-- Grupo Turma 1 -->
+<div style="margin-bottom: 0.5em;">
+  <button onclick="sortearAluno(this, 'turma1')">🎲 Sortear aluno (Turma 1)</button>
+  <p class="nome-sorteado" style="font-weight:bold; color:#2c3e50;"></p>
+</div>
+
+<!-- Grupo Turma 2 -->
+<div style="margin-bottom: 1em;">
+  <button onclick="sortearAluno(this, 'turma2')">🎲 Sortear aluno (Turma 2)</button>
+  <p class="nome-sorteado" style="font-weight:bold; color:#2c3e50;"></p>
+</div>
+
+      <p>5. A justificativa da pesquisa é apresentada e evidencia a relevância do trabalho?</p>
+
+<!-- Grupo Turma 1 -->
+<div style="margin-bottom: 0.5em;">
+  <button onclick="sortearAluno(this, 'turma1')">🎲 Sortear aluno (Turma 1)</button>
+  <p class="nome-sorteado" style="font-weight:bold; color:#2c3e50;"></p>
+</div>
+
+<!-- Grupo Turma 2 -->
+<div style="margin-bottom: 1em;">
+  <button onclick="sortearAluno(this, 'turma2')">🎲 Sortear aluno (Turma 2)</button>
+  <p class="nome-sorteado" style="font-weight:bold; color:#2c3e50;"></p>
+</div>
+
+      <p>6. Há uma revisão da literatura com autores e obras relevantes sobre o tema?</p>
+<!-- Grupo Turma 1 -->
+<div style="margin-bottom: 0.5em;">
+  <button onclick="sortearAluno(this, 'turma1')">🎲 Sortear aluno (Turma 1)</button>
+  <p class="nome-sorteado" style="font-weight:bold; color:#2c3e50;"></p>
+</div>
+
+<!-- Grupo Turma 2 -->
+<div style="margin-bottom: 1em;">
+  <button onclick="sortearAluno(this, 'turma2')">🎲 Sortear aluno (Turma 2)</button>
+  <p class="nome-sorteado" style="font-weight:bold; color:#2c3e50;"></p>
+</div>
+    </fieldset>
+  </form>
+</div>
+```
+
+<br/>
+
+```{=html}
+<div id="aprendizagem-metodologia">
+  <form>
+    <fieldset style="border: 1px solid #ccc; padding: 15px; border-radius: 6px; background-color: #f9f9f9;">
+      <legend style="font-weight:bold;">🔬 Elementos da metodologia</legend>
+      
+      <br>
+      
+      <p><strong>A metodologia da pesquisa está explicitada de forma clara e suficiente para permitir a compreensão e possível reprodução do estudo?</strong></p>
+
+      <p>1. O cenário e o contexto da pesquisa estão claramente descritos (local, período, condições)?</p>
+
+<div style="margin-bottom: 0.5em;">
+  <button onclick="sortearAluno(this, 'turma1')">🎲 Sortear aluno (Turma 1)</button>
+  <p class="nome-sorteado" style="font-weight:bold; color:#2c3e50;"></p>
+</div>
+
+<!-- Grupo Turma 2 -->
+<div style="margin-bottom: 1em;">
+  <button onclick="sortearAluno(this, 'turma2')">🎲 Sortear aluno (Turma 2)</button>
+  <p class="nome-sorteado" style="font-weight:bold; color:#2c3e50;"></p>
+</div>
+
+      <p>2. Os participantes, o corpus ou as fontes analisadas são definidos e justificados?</p>
+
+<div style="margin-bottom: 0.5em;">
+  <button onclick="sortearAluno(this, 'turma1')">🎲 Sortear aluno (Turma 1)</button>
+  <p class="nome-sorteado" style="font-weight:bold; color:#2c3e50;"></p>
+</div>
+
+<!-- Grupo Turma 2 -->
+<div style="margin-bottom: 1em;">
+  <button onclick="sortearAluno(this, 'turma2')">🎲 Sortear aluno (Turma 2)</button>
+  <p class="nome-sorteado" style="font-weight:bold; color:#2c3e50;"></p>
+</div>
+
+      <p>3. O tipo de pesquisa (descritiva, experimental, observacional etc.) é indicado?</p>
+
+<div style="margin-bottom: 0.5em;">
+  <button onclick="sortearAluno(this, 'turma1')">🎲 Sortear aluno (Turma 1)</button>
+  <p class="nome-sorteado" style="font-weight:bold; color:#2c3e50;"></p>
+</div>
+
+<!-- Grupo Turma 2 -->
+<div style="margin-bottom: 1em;">
+  <button onclick="sortearAluno(this, 'turma2')">🎲 Sortear aluno (Turma 2)</button>
+  <p class="nome-sorteado" style="font-weight:bold; color:#2c3e50;"></p>
+</div>
+
+      <p>4. Os procedimentos adotados (coleta e análise de dados) são descritos com clareza?</p>
+
+<div style="margin-bottom: 0.5em;">
+  <button onclick="sortearAluno(this, 'turma1')">🎲 Sortear aluno (Turma 1)</button>
+  <p class="nome-sorteado" style="font-weight:bold; color:#2c3e50;"></p>
+</div>
+
+<!-- Grupo Turma 2 -->
+<div style="margin-bottom: 1em;">
+  <button onclick="sortearAluno(this, 'turma2')">🎲 Sortear aluno (Turma 2)</button>
+  <p class="nome-sorteado" style="font-weight:bold; color:#2c3e50;"></p>
+</div>
+
+      <p>5. Os aspectos éticos da pesquisa são mencionados (como aprovação em comitê de ética, consentimento, anonimato)?</p>
+
+<div style="margin-bottom: 0.5em;">
+  <button onclick="sortearAluno(this, 'turma1')">🎲 Sortear aluno (Turma 1)</button>
+  <p class="nome-sorteado" style="font-weight:bold; color:#2c3e50;"></p>
+</div>
+
+<!-- Grupo Turma 2 -->
+<div style="margin-bottom: 1em;">
+  <button onclick="sortearAluno(this, 'turma2')">🎲 Sortear aluno (Turma 2)</button>
+  <p class="nome-sorteado" style="font-weight:bold; color:#2c3e50;"></p>
+</div>
+    </fieldset>
+  </form>
+</div>
+```
+
+<br/>
+
+```{=html}
+<div id="aprendizagem-resultados">
+  <form>
+    <fieldset style="border: 1px solid #ccc; padding: 15px; border-radius: 6px; background-color: #f9f9f9;">
+      <legend style="font-weight:bold;">📊 Elementos da seção de resultados</legend>
+      
+      <br>
+      
+      <p><strong>A seção de resultados do artigo apresenta com clareza e objetividade os achados da pesquisa, respeitando a ordem lógica e os métodos utilizados?</strong></p>
+
+      <p>1. Os principais resultados estão apresentados de forma clara e direta?</p>
+
+<div style="margin-bottom: 0.5em;">
+  <button onclick="sortearAluno(this, 'turma1')">🎲 Sortear aluno (Turma 1)</button>
+  <p class="nome-sorteado" style="font-weight:bold; color:#2c3e50;"></p>
+</div>
+
+<!-- Grupo Turma 2 -->
+<div style="margin-bottom: 1em;">
+  <button onclick="sortearAluno(this, 'turma2')">🎲 Sortear aluno (Turma 2)</button>
+  <p class="nome-sorteado" style="font-weight:bold; color:#2c3e50;"></p>
+</div>
+
+      <p>2. Os dados apresentados respondem diretamente ao problema e aos objetivos propostos?</p>
+
+<div style="margin-bottom: 0.5em;">
+  <button onclick="sortearAluno(this, 'turma1')">🎲 Sortear aluno (Turma 1)</button>
+  <p class="nome-sorteado" style="font-weight:bold; color:#2c3e50;"></p>
+</div>
+
+<!-- Grupo Turma 2 -->
+<div style="margin-bottom: 1em;">
+  <button onclick="sortearAluno(this, 'turma2')">🎲 Sortear aluno (Turma 2)</button>
+  <p class="nome-sorteado" style="font-weight:bold; color:#2c3e50;"></p>
+</div>
+
+      <p>3. Há uso adequado de gráficos, tabelas ou quadros para representar os dados?</p>
+
+<div style="margin-bottom: 0.5em;">
+  <button onclick="sortearAluno(this, 'turma1')">🎲 Sortear aluno (Turma 1)</button>
+  <p class="nome-sorteado" style="font-weight:bold; color:#2c3e50;"></p>
+</div>
+
+<!-- Grupo Turma 2 -->
+<div style="margin-bottom: 1em;">
+  <button onclick="sortearAluno(this, 'turma2')">🎲 Sortear aluno (Turma 2)</button>
+  <p class="nome-sorteado" style="font-weight:bold; color:#2c3e50;"></p>
+</div>
+
+      <p>4. Os dados estão acompanhados de análise estatística (quando cabível), com interpretação clara?</p>
+
+<div style="margin-bottom: 0.5em;">
+  <button onclick="sortearAluno(this, 'turma1')">🎲 Sortear aluno (Turma 1)</button>
+  <p class="nome-sorteado" style="font-weight:bold; color:#2c3e50;"></p>
+</div>
+
+<!-- Grupo Turma 2 -->
+<div style="margin-bottom: 1em;">
+  <button onclick="sortearAluno(this, 'turma2')">🎲 Sortear aluno (Turma 2)</button>
+  <p class="nome-sorteado" style="font-weight:bold; color:#2c3e50;"></p>
+</div>
+
+      <p>5. Há distinção entre os dados obtidos e a interpretação/discussão sobre esses dados?</p>
+
+<div style="margin-bottom: 0.5em;">
+  <button onclick="sortearAluno(this, 'turma1')">🎲 Sortear aluno (Turma 1)</button>
+  <p class="nome-sorteado" style="font-weight:bold; color:#2c3e50;"></p>
+</div>
+
+<!-- Grupo Turma 2 -->
+<div style="margin-bottom: 1em;">
+  <button onclick="sortearAluno(this, 'turma2')">🎲 Sortear aluno (Turma 2)</button>
+  <p class="nome-sorteado" style="font-weight:bold; color:#2c3e50;"></p>
+</div>
+    </fieldset>
+  </form>
+</div>
+```
+
+<br/>
+
+```{=html}
+<div id="aprendizagem-discussao">
+  <form>
+    <fieldset style="border: 1px solid #ccc; padding: 15px; border-radius: 6px; background-color: #f9f9f9;">
+      <legend style="font-weight:bold;">🧠 Elementos da seção de discussão</legend>
+      
+      <br>
+      
+      <p><strong>A seção de discussão apresenta uma interpretação crítica dos resultados, contextualizando-os no estado da arte e evidenciando suas contribuições e limitações?</strong></p>
+
+      <p>1. A interpretação dos resultados é feita de forma clara e lógica?</p>
+
+<div style="margin-bottom: 0.5em;">
+  <button onclick="sortearAluno(this, 'turma1')">🎲 Sortear aluno (Turma 1)</button>
+  <p class="nome-sorteado" style="font-weight:bold; color:#2c3e50;"></p>
+</div>
+
+<!-- Grupo Turma 2 -->
+<div style="margin-bottom: 1em;">
+  <button onclick="sortearAluno(this, 'turma2')">🎲 Sortear aluno (Turma 2)</button>
+  <p class="nome-sorteado" style="font-weight:bold; color:#2c3e50;"></p>
+</div>
+
+      <p>2. Os resultados são comparados com achados de outras pesquisas (diálogo com a literatura)?</p>
+
+<div style="margin-bottom: 0.5em;">
+  <button onclick="sortearAluno(this, 'turma1')">🎲 Sortear aluno (Turma 1)</button>
+  <p class="nome-sorteado" style="font-weight:bold; color:#2c3e50;"></p>
+</div>
+
+<!-- Grupo Turma 2 -->
+<div style="margin-bottom: 1em;">
+  <button onclick="sortearAluno(this, 'turma2')">🎲 Sortear aluno (Turma 2)</button>
+  <p class="nome-sorteado" style="font-weight:bold; color:#2c3e50;"></p>
+</div>
+
+      <p>3. As contribuições do estudo são destacadas (para a teoria, prática ou política científica)?</p>
+
+<div style="margin-bottom: 0.5em;">
+  <button onclick="sortearAluno(this, 'turma1')">🎲 Sortear aluno (Turma 1)</button>
+  <p class="nome-sorteado" style="font-weight:bold; color:#2c3e50;"></p>
+</div>
+
+<!-- Grupo Turma 2 -->
+<div style="margin-bottom: 1em;">
+  <button onclick="sortearAluno(this, 'turma2')">🎲 Sortear aluno (Turma 2)</button>
+  <p class="nome-sorteado" style="font-weight:bold; color:#2c3e50;"></p>
+</div>
+
+      <p>4. As limitações da pesquisa são reconhecidas e discutidas com honestidade intelectual?</p>
+
+<div style="margin-bottom: 0.5em;">
+  <button onclick="sortearAluno(this, 'turma1')">🎲 Sortear aluno (Turma 1)</button>
+  <p class="nome-sorteado" style="font-weight:bold; color:#2c3e50;"></p>
+</div>
+
+<!-- Grupo Turma 2 -->
+<div style="margin-bottom: 1em;">
+  <button onclick="sortearAluno(this, 'turma2')">🎲 Sortear aluno (Turma 2)</button>
+  <p class="nome-sorteado" style="font-weight:bold; color:#2c3e50;"></p>
+</div>
+
+      <p>5. Há sugestões de novas pesquisas ou caminhos futuros a serem explorados?</p>
+
+<div style="margin-bottom: 0.5em;">
+  <button onclick="sortearAluno(this, 'turma1')">🎲 Sortear aluno (Turma 1)</button>
+  <p class="nome-sorteado" style="font-weight:bold; color:#2c3e50;"></p>
+</div>
+
+<!-- Grupo Turma 2 -->
+<div style="margin-bottom: 1em;">
+  <button onclick="sortearAluno(this, 'turma2')">🎲 Sortear aluno (Turma 2)</button>
+  <p class="nome-sorteado" style="font-weight:bold; color:#2c3e50;"></p>
+</div>
+    </fieldset>
+  </form>
+</div>
+```
+
+```{=html}
+<!-- Botões para reiniciar -->
+<div style="margin-top:1em;">
+  <button onclick="reiniciarSorteio('turma1')">🔁 Reiniciar sorteio Turma 1</button>
+  <button onclick="reiniciarSorteio('turma2')">🔁 Reiniciar sorteio Turma 2</button>
+</div>
+```
+
+
+``` {=html}
+<script>
+  // Listas originais
+  const listaOriginalTurma1 = [
+    "Adriano Oliveira", "Alberto Chagas", "Alejandro Azevedo", "Alisson Dantas", "Ana Oliveira",
+    "Barbara Batista", "Eduardo Ferreira", "Emily Maia", "Erick Barboza", "Eshylly Silva",
+    "Felipe Silva", "Francisco Silva", "Ruan Eneias", "Giovanni Oliveira", "Guilherme Oliveira",
+    "Iaslany Costa", "João Dantas", "Joel Oliveira", "José Neto", "Kilber Oliveira",
+    "José Junior", "Lanna Souza", "Leandro Souza", "Leonardo Costa", "Lucas Sales",
+    "Manoel Lemos", "Maria Fernandes", "Maria Silverio", "Maria Barbosa", "Marina Morais",
+    "Paulo Coelho", "Pedro Carreiro", "Sibelle Albuquerque", "Suetoneo Moura", "Vinicius Ramos",
+    "Vitor Silva", "Vitorio Silva"
+  ];
+
+  const listaOriginalTurma2 = [
+    "Albert Silva", "Ana Figueiredo", "Anderson Souza", "Andrey Oliveira", "Anelyse Matoso",
+    "Augusto Medeiros", "Clara Silva", "Fabio Costa", "Fernando Fernandes", "Gabriel Giombelli",
+    "Icaro Pitombeira", "Isaque Moura", "Ivan Neto", "Joao Lima", "Joao Alves",
+    "Joao Gurgel", "Jose Reboucas", "Jose Silva", "Jose Andrade", "Kaua Bezerra",
+    "Laiza Oliveira", "Lara Ribeiro", "Luis Oliveira", "Marcelo Oliveira", "Marcos Melo",
+    "Maria Azevedo", "Matheus Nascimento", "Paulo Guimaraes", "Pedro Neto", "Ramon Morais",
+    "Rildo Soares", "Riquelmmy Praxedes", "Saullo Martins", "Silas Azevedo", "Silvio Segundo",
+    "Tallysson Braga", "Tayla Reboucas", "Wadson Silva", "Wilton Filho", "Yan Souza"
+  ];
+
+  // Listas dinâmicas (que vão sendo reduzidas)
+  let turma1 = [...listaOriginalTurma1];
+  let turma2 = [...listaOriginalTurma2];
+
+  function sortearAluno(botao, turma) {
+    let lista = turma === 'turma1' ? turma1 : turma2;
+
+    if (lista.length === 0) {
+      alert(`Todos os alunos da ${turma === 'turma1' ? 'Turma 1' : 'Turma 2'} já foram sorteados!`);
+      return;
+    }
+
+    const indice = Math.floor(Math.random() * lista.length);
+    const nome = lista.splice(indice, 1)[0];
+
+    const paragrafo = botao.nextElementSibling;
+    paragrafo.innerHTML = `🗣️ <strong>${nome}</strong>`;
+  }
+
+  function reiniciarSorteio(turma) {
+    if (turma === 'turma1') {
+      turma1 = [...listaOriginalTurma1];
+      alert("A lista da Turma 1 foi reiniciada.");
+    } else if (turma === 'turma2') {
+      turma2 = [...listaOriginalTurma2];
+      alert("A lista da Turma 2 foi reiniciada.");
+    }
+  }
+</script>
+```
+
+::: .callout-note
+Ler corretamente um artigo científico é um passo fundamental para o desenvolvimento dos estudos acadêmicos. Essa leitura atenta e crítica permite compreender como se estrutura uma investigação, como se constroem argumentos e como se comunicam resultados no campo científico. Quanto mais familiaridade se adquire com esse tipo de texto, mais segurança se ganha para planejar, escrever e revisar a própria produção. Por isso, ler bons artigos é, antes de tudo, um exercício de formação como pesquisador.
+:::

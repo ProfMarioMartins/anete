@@ -6,10 +6,10 @@ title: Tema e pergunta de pesquisa para seu plano de trabalho.
 
 ## Mapa mental de interesses
 
-1. No centro da folha, escreva um tema amplo que desperte seu interesse (por exemplo: educação, tecnologia, política, saúde, meio ambiente).
-2. Ao redor desse tema, desenhe ramificações com palavras associadas ou subtemas (exemplo: educação → escola, professores, métodos de ensino, leitura, desigualdade, avaliação).
-3. Para cada palavra associada, adicione mais ramificações com situações reais, experiências vividas ou problemas observados relacionados a ela.
-4. Por fim, destaque com uma cor as ramificações que mais despertam sua curiosidade ou vontade de investigar.
+1.  No centro da folha, escreva um tema amplo que desperte seu interesse (por exemplo: educação, tecnologia, política, saúde, meio ambiente).
+2.  Ao redor desse tema, desenhe ramificações com palavras associadas ou subtemas (exemplo: educação → escola, professores, métodos de ensino, leitura, desigualdade, avaliação).
+3.  Para cada palavra associada, adicione mais ramificações com situações reais, experiências vividas ou problemas observados relacionados a ela.
+4.  Por fim, destaque com uma cor as ramificações que mais despertam sua curiosidade ou vontade de investigar.
 
 Esse exercício ajudará você a identificar objetos mais específicos dentro de temas amplos, facilitando a próxima etapa: a formulação de perguntas.
 
@@ -17,40 +17,40 @@ Esse exercício ajudará você a identificar objetos mais específicos dentro de
 
 Para um tema virar pesquisa, é necessário que se delimite o foco e se formule uma pergunta com verbo. Exemplos:
 
-**1. Tecnologia**  
-Tema vago: "Tecnologia na vida das pessoas"  
-Delimitação: uso de smartphones por adolescentes em escolas públicas  
+**1. Tecnologia**\
+Tema vago: "Tecnologia na vida das pessoas"\
+Delimitação: uso de smartphones por adolescentes em escolas públicas\
 Pergunta: "Como o uso do smartphone impacta a concentração de adolescentes no ensino médio em escolas públicas urbanas?"
 
-**2. Educação**  
-Tema vago: "Educação no Brasil"  
-Delimitação: formação de professores de matemática nos anos finais do ensino fundamental  
+**2. Educação**\
+Tema vago: "Educação no Brasil"\
+Delimitação: formação de professores de matemática nos anos finais do ensino fundamental\
 Pergunta: "Que desafios enfrentam professores recém-formados para ensinar matemática nos anos finais do ensino fundamental em escolas públicas?"
 
-**3. Mudanças climáticas**  
-Tema vago: "Aquecimento global"  
-Delimitação: percepção de agricultores familiares sobre eventos climáticos extremos  
+**3. Mudanças climáticas**\
+Tema vago: "Aquecimento global"\
+Delimitação: percepção de agricultores familiares sobre eventos climáticos extremos\
 Pergunta: "Como agricultores familiares do semiárido percebem e se adaptam aos eventos climáticos extremos associados às mudanças climáticas?"
 
-**4. Política**  
-Tema vago: "Crise política brasileira"  
-Delimitação: discursos de desinformação em redes sociais durante eleições  
+**4. Política**\
+Tema vago: "Crise política brasileira"\
+Delimitação: discursos de desinformação em redes sociais durante eleições\
 Pergunta: "Como os discursos de desinformação se disseminaram nas redes sociais durante as eleições presidenciais de 2022?"
 
-**5. Saúde**  
-Tema vago: "Saúde mental"  
-Delimitação: ansiedade entre estudantes universitários durante o ensino remoto  
+**5. Saúde**\
+Tema vago: "Saúde mental"\
+Delimitação: ansiedade entre estudantes universitários durante o ensino remoto\
 Pergunta: "Quais fatores contribuíram para o aumento da ansiedade entre estudantes universitários durante o período de ensino remoto na pandemia?"
 
 Toda pergunta precisa conter um verbo claro e indicar um problema ou relação a ser investigada.
 
 ## Construção guiada da própria pergunta
 
-1. Qual é o meu tema de interesse?
-2. Que aspectos ou situações desse tema me provocam dúvida ou curiosidade?
-3. Que experiências reais ou problemas concretos posso associar a esse tema?
-4. Qual seria um objeto específico que eu poderia investigar?
-5. Qual pergunta com verbo pode orientar minha pesquisa?
+1.  Qual é o meu tema de interesse?
+2.  Que aspectos ou situações desse tema me provocam dúvida ou curiosidade?
+3.  Que experiências reais ou problemas concretos posso associar a esse tema?
+4.  Qual seria um objeto específico que eu poderia investigar?
+5.  Qual pergunta com verbo pode orientar minha pesquisa?
 
 ## Encerramento (5 min)
 

@@ -31,9 +31,7 @@ MOTTA-ROTH, Désirée; HENDGES, Graciela Rabuske. Produção textual na universi
 -   constituem textos empiricamente realizados, cumprindo funções em situações comunicativas;
 -   a sua nomeação abrange um conjunto aberto e praticamente ilimitado de designações concretas determinadas por canal, estilo, conteúdo, composição e função.
 
-
-<br/>
-Compreender o funcionamento dos gêneros acadêmicos exige não apenas o reconhecimento de suas funções sociocomunicativas, mas também a análise de como essas funções se concretizam linguisticamente. É nesse ponto que entra o conceito de estrutura retórica.
+<br/> Compreender o funcionamento dos gêneros acadêmicos exige não apenas o reconhecimento de suas funções sociocomunicativas, mas também a análise de como essas funções se concretizam linguisticamente. É nesse ponto que entra o conceito de estrutura retórica.
 
 ::: citacao
 A partir de Swales (2004)[^aula_10-1], pode-se definir **estrutura retórica** como a organização funcional de um gênero textual em movimentos retóricos recorrentes, orientados para o cumprimento de objetivos comunicativos específicos. Essa estrutura considera o contexto de produção, a audiência e as convenções disciplinares ou culturais da comunidade discursiva a que pertence o gênero.
@@ -106,11 +104,9 @@ kable(dados, align = "l", col.names = c("Movimento", "Submovimentos", "Exemplo")
   add_footnote("Fonte: Adaptado de Motta-Roth e Rabuske (2010) com exemplos elaborados pelo professor.")
 ```
 
-
 ## Aprendizagem prática
 
 [Veja a **Atividade de pesquisa: movimentos retóricos do resumo**](pesquisa_01.qmd)
-
 
 ## Atividade complementar: Registro dos artigos selecionados no [Padlet](https://padlet.com/mariomartins/anete-2025-1-b3r3eohs4gd7np8m)
 
@@ -120,47 +116,49 @@ kable(dados, align = "l", col.names = c("Movimento", "Submovimentos", "Exemplo")
 
 Consolidar a pesquisa bibliográfica por meio do registro dos dois primeiros artigos científicos selecionados, com foco no tema de pesquisa individual.
 
----
+------------------------------------------------------------------------
 
 ## 🧩 Instruções para preenchimento do Padlet
 
 Acesse o Padlet da turma e edite os campos conforme a orientação abaixo:
 
 ::: painel-escuro
-
 ### 🟪 Coluna **Autor**
+
 Digite seu **nome completo**.
 
----
+------------------------------------------------------------------------
 
 ### 🟪 Coluna **Assunto**
+
 Informe o **tema de sua pesquisa**, de forma clara e delimitada.
 
-**Exemplo:**  
-> *Gamificação e aprendizagem de Física no Ensino Médio*
+**Exemplo:**\
+\> *Gamificação e aprendizagem de Física no Ensino Médio*
 
----
+------------------------------------------------------------------------
 
 ### 🟪 Coluna **Anexo**
+
 Adicione os **dois arquivos PDF** dos artigos já selecionados até o momento:
 
 💡 Nomeie os arquivos com o sobrenome do primeiro autor e o ano, como: `Silva_2022.pdf` ou `Ferreira_2021.pdf`.
 
----
+------------------------------------------------------------------------
 
 ### 🟪 Coluna **Corpo**
-Cole as **referências completas dos dois artigos**, formatadas de acordo com as normas da **ABNT** (usando o **Zotero**).
 
+Cole as **referências completas dos dois artigos**, formatadas de acordo com as normas da **ABNT** (usando o **Zotero**).
 :::
 
 ## 📝 Recomendações
 
-- Utilize o **Zotero** para gerar as referências automaticamente em formato ABNT;
-- Certifique-se de que os artigos selecionados estejam **de acordo com os critérios da atividade anterior** (Qualis A1 a A4, peer-reviewed, em acesso aberto);
-- Publique sua contribuição até às 17 horas da sexta-feira, dia 6 de junho.
+-   Utilize o **Zotero** para gerar as referências automaticamente em formato ABNT;
+-   Certifique-se de que os artigos selecionados estejam **de acordo com os critérios da atividade anterior** (Qualis A1 a A4, peer-reviewed, em acesso aberto);
+-   Publique sua contribuição até às 17 horas da sexta-feira, dia 6 de junho.
 
-::: {.destaque}
-- Estude os artigos!
+::: destaque
+-   Estude os artigos!
 :::
 
----
+------------------------------------------------------------------------
