@@ -1,8 +1,18 @@
 ---
-title: "Programação"
+title: "Identificação"
 author: "Mário Martins"
 format: html
 ---
+
+Este é o material didático da disciplina **Análise e Expressão Textual**, organizado em unidades temáticas.
+
+- 📅 Carga horária: 60 horas  
+- 📚 Metodologia: Aprendizagem baseada em projeto  
+- 📝 Produto final: Elaboração de um plano de trabalho acadêmico  
+
+:::{.callout-tip}
+Para melhor navegação, utilize o menu lateral ou a busca no topo da página.
+:::
 
 ```{=html}
 <script>
@@ -15,90 +25,9 @@ format: html
 </script>
 ```
 
-# Programação
-
-## Ementa
-
-Abordar os paradigmas textuais e científicos na produção da escrita científica, a intertextualidade como elemento de linguagem no contexto da textualidade e da oralidade e da visualidade, a coesão e coerência textual como elemento estruturador da linguagem acadêmica, o estilo como mediador entre forma e conteúdo na produção do conhecimento, a interdisciplinaridade como estética da linguagem.
-
-## Objetivos
-
-Promover o desenvolvimento da competência comunicativa dos estudantes no contexto acadêmico, por meio da leitura crítica, da análise linguística e da produção de gêneros acadêmicos, com ênfase na escrita científica e na elaboração de planos de trabalho.
-
-Competência comunicativa é a capacidade de um indivíduo usar a língua de forma eficaz e apropriada em diferentes contextos de comunicação. Esse conceito vai além do simples domínio das regras gramaticais, englobando também o conhecimento dos usos sociais da linguagem, a adequação ao contexto, a capacidade de interpretar e produzir enunciados coerentes e coesos, e de compreender as intenções dos interlocutores.
-
-## Conteúdo Programático
-
-### Unidade I – O mundo acadêmico e o fazer científico
-
-Fundamentos da vida universitária, da ciência e da escrita acadêmica • O sistema acadêmico brasileiro: estrutura e funcionamento • Pensamento científico • Fato, opinião e argumentação na escrita acadêmica • A linguagem da ciência: características da escrita acadêmica • Gêneros acadêmicos e o plano de trabalho como gênero institucional • Como fazer citação e referência (normas ABNT) • Introdução à consciência linguística: problemas da Olimpíada Brasileira de Linguística (OBL) • Aspectos gramaticais: colocação pronominal e concordância verbal
-
-### Unidade II – Leitura, escrita e estilo na produção científica
-
-Desenvolvimento das competências de leitura, argumentação e escrita científica • Leitura inspecional e averiguativa de textos científicos • Fontes confiáveis e estratégias de busca de informação • Fichamento e revisão de literatura • Coesão e coerência textual • Citações diretas e indiretas; paráfrase e verbos dicendi • Estratégias de argumentação e estilo na escrita acadêmica • Problemas da OBL e atividades de reflexão linguística • Aspectos gramaticais: pontuação e acentuação
-
-### Unidade III – Produção do plano de trabalho
-
-Aplicação prática dos conhecimentos na redação de um gênero acadêmico institucional • Etapas do projeto científico e estrutura do plano de trabalho • A justificativa e os objetivos do projeto • Referencial teórico, metodologia e cronograma • Redação clara, concisa e objetiva • Revisão e reescrita com base em critérios técnicos • Avaliação final: entrega do plano de trabalho • Atividades de revisão com base nos objetivos e problemas da OBL • Diagnóstico linguístico final e autoavaliação do progresso
-
-## Competências e habilidades
-
-| Competência | Habilidades |
-|------------------------------------|------------------------------------|
-| Utilizar a linguagem com clareza, precisão e adequação nos contextos acadêmicos. | \- Reconhecer diferentes registros linguísticos e níveis de formalidade.<br>- Utilizar a norma-padrão da língua portuguesa em situações de comunicação acadêmica. |
-| Ler, compreender e interpretar textos acadêmicos de diferentes gêneros. | \- Identificar a organização composicional e os propósitos comunicativos dos gêneros acadêmicos.<br>- Desenvolver estratégias de leitura crítica e analítica. |
-| Produzir textos acadêmicos adequados aos gêneros e às normas científicas. | \- Elaborar textos com coesão e coerência.<br>- Aplicar corretamente normas de citação e referência (ABNT).<br>- Planejar, redigir e revisar textos científicos. |
-| Mobilizar conhecimentos linguísticos, discursivos e culturais na leitura e na produção de textos. | \- Analisar os efeitos de sentido produzidos por escolhas linguísticas e discursivas.<br>- Reconhecer e empregar marcas de intertextualidade e argumentação nos textos. |
-| Desenvolver autonomia na produção científica e no uso das tecnologias da informação. | \- Utilizar ferramentas digitais para organização da pesquisa e produção textual.<br>- Elaborar um plano de trabalho segundo os critérios de projetos de iniciação científica. |
-| Ampliar a consciência linguística a partir da reflexão sobre o funcionamento da língua. | \- Resolver problemas linguísticos com base em conhecimentos gramaticais.<br>- Analisar fatos linguísticos em contextos reais de uso. |
-
-## Metodologia
-
-A disciplina adota uma abordagem ativa e interdisciplinar, com atividades práticas, estudos de caso, quizzes interativos, resolução de problemas da Olimpíada Brasileira de Linguística (OBL), exercícios de gramática, produção textual orientada, leitura e análise de textos e o uso de ferramentas digitais, como editores de texto com revisão automática e chats de IA para promover a revisão crítica da escrita.
-
-## Avaliação
-
-Avaliação final (40%): Produção de um plano de trabalho nos moldes exigidos em editais de iniciação científica (Pibic).
-
-Três provas objetivas (3 x 20%): Realizadas ao final de cada unidade.
-
-Plano de trabalho: seções esperadas
-
-```         
-•   Identificação
-•   Introdução e Justificativa
-•   Objetivos
-•   Geral
-•   Específicos
-•   Metodologia
-•   Habilidades desenvolvidas
-•   Referências bibliográficas
-```
-
-## Bibliografia básica
-
-APPOLINÁRIO, Fabio; GIL, Isaac. Como escrever um texto científico. 1ª ed. \[S. l.\]: Trevisan Editora, 2013. Disponível em: https://bookshelf.vitalsource.com/books/9788599519493.
-
-CASTRO, Nádia Studzinski Estima de et al. Leitura e escrita acadêmicas. Porto Alegre: Sagah, 2019. Disponível em: https://bookshelf.vitalsource.com/books/9788533500228.
-
-VIEIRA, Francisco Eduardo; FARACO, Carlos Alberto. Escrever na Universidade 1 - Fundamentos. 1ª ed. \[S. l.\]: Parábola Editorial, 2019.
-
-## Bibliografia complementar
-
-ABNT NBR 10520:2023. Informação e documentação – Citações em documentos – Apresentação. Rio de Janeiro: ABNT, 2023.
-
-ABNT NBR 6023:2018. Informação e documentação – Referências – Elaboração. Rio de Janeiro: ABNT, 2018.
-
-CUNHA, Celso; CINTRA, Lindley. Nova gramática do português contemporâneo. 7. ed. Rio de Janeiro: Lexikon, 2019. E-book. Disponível em: https://plataforma.bvirtual.com.br. Acesso em: 02 abr. 2025.
-
-FERRAREZZI JÚNIOR, Celso. Guia do trabalho científico: do projeto à redação final. 1ª ed. \[S. l.\]: Contexto, 2011. Disponível em: https://bookshelf.vitalsource.com/books/9788572447638.
-
-MENDES, Gilmar Ferreira; FOSTER JÚNIOR, Nestor José. Manual de redação da Presidência da República. rev. atual. Brasília: Presidência da República, 2002. Disponível em: https://www4.planalto.gov.br/centrodeestudos/assuntos/manual-de-redacao-da-presidencia-da-republica/manual-de-redacao.pdf#page=12.08.
-
-Outras obras poderão ser usadas na disciplina.
+<!--
 
 ````{=html}
-<!--
 ## Cronograma das aulas (em constante atualização)
 
 ```{r}
@@ -120,6 +49,5 @@ cronograma <- read_sheet(url, sheet = "cronograma_anete")
 # Exibe a tabela com legenda
 kable(cronograma, caption = "Encontros")
 ```
-
 -->
-````
+

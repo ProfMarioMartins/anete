@@ -1,57 +1,71 @@
-::: {.section style="padding:1.2em; background-color:#f8f9fa; color:#000; border: 1px solid #ccc; border-radius: 6px;"}
-**Tutorial: tema e pergunta de pesquisa para seu plano de trabalho. 
+---
+title: "Modelo de aula"
+---
+
+::: nota-secundaria
+Roteiro de aula elaborado no RStudio com o auxílio da inteligência artificial ChatGPT, revisado e avaliado pelo professor antes de sua publicação.
+:::
+
+## Objetivos de aprendizagem
+
+Ao final desta aula, espera-se que você seja capaz de:
+
+-   Blá blá
+
+::: {#leitura}
+**Leituras indicadas:**\
+CASTRO, Nádia Studzinski Estima de et al. *Leitura e escrita acadêmicas*. Porto Alegre: Sagah, 2019. Capítulo: “Gêneros acadêmicos”, p. 67–72.\
+[🔗 Acesso à leitura](vbk://9788533500228/page/67)
+
+MOTTA-ROTH, Désirée; HENDGES, Graciela Rabuske. Produção textual na universidade. São Paulo: Parábola, 2010. Capítulo: "Abstract/resumo acadêmico". [🔗 Acesso à leitura](SIGAA)
 :::
 
 ## Introdução
 
-## Mapa mental de interesses
+**Gêneros textuais**...
 
-1. No centro da folha, escreva um tema amplo que desperte seu interesse (por exemplo: educação, tecnologia, política, saúde, meio ambiente).
-2. Ao redor desse tema, desenhe ramificações com palavras associadas ou subtemas (exemplo: educação → escola, professores, métodos de ensino, leitura, desigualdade, avaliação).
-3. Para cada palavra associada, adicione mais ramificações com situações reais, experiências vividas ou problemas observados relacionados a ela.
-4. Por fim, destaque com uma cor as ramificações que mais despertam sua curiosidade ou vontade de investigar.
+-   são realizações linguísticas concretas definidas por propriedades sociocomunicativas;
+-   constituem textos empiricamente realizados, cumprindo funções em situações comunicativas;
+-   a sua nomeação abrange um conjunto aberto e praticamente ilimitado de designações concretas determinadas por canal, estilo, conteúdo, composição e função.
 
-Esse exercício ajudará você a identificar objetos mais específicos dentro de temas amplos, facilitando a próxima etapa: a formulação de perguntas.
+<br/> Compreender o funcionamento dos gêneros acadêmicos exige não apenas o reconhecimento de suas funções sociocomunicativas, mas também a análise de como essas funções se concretizam linguisticamente. É nesse ponto que entra o conceito de estrutura retórica.
 
-## Dos temas às perguntas
+::: citacao
+A partir de Swales (2004)[^aula_10-1], pode-se definir **estrutura retórica** como a organização funcional de um gênero textual em movimentos retóricos recorrentes, orientados para o cumprimento de objetivos comunicativos específicos. Essa estrutura considera o contexto de produção, a audiência e as convenções disciplinares ou culturais da comunidade discursiva a que pertence o gênero.
 
-Para um tema virar pesquisa, é necessário que se delimite o foco e se formule uma pergunta com verbo. Exemplos:
+Ainda em linha com Swales (2004), um **movimento retórico** é uma unidade discursiva que desempenha uma função comunicativa coerente em um discurso escrito ou oral.
 
-**1. Tecnologia**  
-Tema vago: "Tecnologia na vida das pessoas"  
-Delimitação: uso de smartphones por adolescentes em escolas públicas  
-Pergunta: "Como o uso do smartphone impacta a concentração de adolescentes no ensino médio em escolas públicas urbanas?"
+<img src="img/move_geral.png" alt="Práticas sociais" class="img-central"/>
+:::
 
-**2. Educação**  
-Tema vago: "Educação no Brasil"  
-Delimitação: formação de professores de matemática nos anos finais do ensino fundamental  
-Pergunta: "Que desafios enfrentam professores recém-formados para ensinar matemática nos anos finais do ensino fundamental em escolas públicas?"
+[^aula_10-1]: SWALES, J. M. Research Genres Explorations and Applications. Cambridge: Cambridge University Press, 2004.
 
-**3. Mudanças climáticas**  
-Tema vago: "Aquecimento global"  
-Delimitação: percepção de agricultores familiares sobre eventos climáticos extremos  
-Pergunta: "Como agricultores familiares do semiárido percebem e se adaptam aos eventos climáticos extremos associados às mudanças climáticas?"
+<br/>
 
-**4. Política**  
-Tema vago: "Crise política brasileira"  
-Delimitação: discursos de desinformação em redes sociais durante eleições  
-Pergunta: "Como os discursos de desinformação se disseminaram nas redes sociais durante as eleições presidenciais de 2022?"
+Agora vamos aprofundar nosso conhecimento sobre a estrutura retórica de alguns dos gêneros textuais mais recorrentes na esfera universitária, a começar pelo **resumo**.
 
-**5. Saúde**  
-Tema vago: "Saúde mental"  
-Delimitação: ansiedade entre estudantes universitários durante o ensino remoto  
-Pergunta: "Quais fatores contribuíram para o aumento da ansiedade entre estudantes universitários durante o período de ensino remoto na pandemia?"
+O **resumo** - ou *abstract*, em inglês - é um gênero textual que sintetiza as informações mais relevantes de um trabalho científico. Esse gênero pode ocorrer de maneira autônoma, como em resumos publicados isoladamente nos anais de eventos acadêmicos ou em bancos de dados, ou ainda integrar outras produções científicas, como artigos, relatórios técnicos, dissertações e teses, funcionando como parte estratégica do texto completo.
 
-Toda pergunta precisa conter um verbo claro e indicar um problema ou relação a ser investigada.
+::: citacao
+Como sintetizam Motta-Roth e Rabuske (2010), para que cumpra seu papel com clareza e eficácia, o resumo precisa organizar-se em movimentos retóricos específicos, que orientam o leitor quanto ao contexto da pesquisa, aos objetivos e métodos empregados, e aos principais resultados alcançados.
 
-## Construção guiada da própria pergunta
+<img src="img/moves.png" alt="Práticas sociais" class="img-central"/>
+:::
 
-1. Qual é o meu tema de interesse?
-2. Que aspectos ou situações desse tema me provocam dúvida ou curiosidade?
-3. Que experiências reais ou problemas concretos posso associar a esse tema?
-4. Qual seria um objeto específico que eu poderia investigar?
-5. Qual pergunta com verbo pode orientar minha pesquisa?
+## Aprendizagem prática
 
-## Encerramento (5 min)
+[Veja a **Atividade de pesquisa: movimentos retóricos do resumo**](pesquisa_01.qmd)
 
-Poste sua pergunta de pesquisa no chat da turma no Gmail.
+## Atividade complementar: Registro dos artigos selecionados no [Padlet](https://padlet.com/mariomartins/anete-2025-1-b3r3eohs4gd7np8m)
+
+::: subtitulo-nao-numerado
+🎯 Objetivo
+:::
+
+Consolidar a pesquisa bibliográfica por meio do registro dos dois primeiros artigos científicos selecionados, com foco no tema de pesquisa individual.
+
+::: destaque
+-   Estude os artigos!
+:::
+
+------------------------------------------------------------------------

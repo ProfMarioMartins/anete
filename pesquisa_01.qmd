@@ -12,17 +12,17 @@ Analisar a organização retórica de resumos acadêmicos a partir de uma aborda
 🔍 Etapas da atividade
 :::
 
-1. No [Portal de Periódicos da Capes](https://www.periodicos.capes.gov.br/), selecione um **artigo científico completo** que atenda aos seguintes critérios:
+1.  No [Portal de Periódicos da Capes](https://www.periodicos.capes.gov.br/), selecione um **artigo científico completo** que atenda aos seguintes critérios:
 
-      ✦ Esteja **relacionado ao seu tema de pesquisa**.\
-      ✦ Tenha sido **publicado em periódico científico classificado como A1, A2, A3 ou A4** no Qualis (última atualização disponível).\
-      ✦ Esteja **disponível em acesso aberto**.\
-      ✦ Tenha passado por **revisão por pares** (peer-reviewed).\
-      ✦ Tenha um **resumo explícito**, preferencialmente em português.
+    ✦ Esteja **relacionado ao seu tema de pesquisa**.\
+    ✦ Tenha sido **publicado em periódico científico classificado como A1, A2, A3 ou A4** no Qualis (última atualização disponível).\
+    ✦ Esteja **disponível em acesso aberto**.\
+    ✦ Tenha passado por **revisão por pares** (peer-reviewed).\
+    ✦ Tenha um **resumo explícito**, preferencialmente em português.
 
-2. Copie o texto integral do resumo e cole no campo apropriado do formulário abaixo.
+2.  Copie o texto integral do resumo e cole no campo apropriado do formulário abaixo.
 
-3. Realize a segmentação do resumo conforme os cinco movimentos retóricos propostos.
+3.  Realize a segmentação do resumo conforme os cinco movimentos retóricos propostos.
 
 -   Para cada movimento identificado, copie e cole no campo correspondente o(s) trecho(s) que o representa(m); e classifique-o segundo as opções disponíveis no formulário.
 
@@ -264,4 +264,3 @@ document.getElementById('form-resumo').addEventListener('submit', function(e) {
 :::
 
 <br/>
-

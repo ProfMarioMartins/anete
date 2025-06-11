@@ -1,155 +1,244 @@
 ---
-title: "Discurso reportado. Gerenciamento de referências bibliográficas"
+title: "Discurso reportado na escrita acadêmica"
 ---
 
-Roteiro de aula elaborado no RStudio com o auxílio da inteligência artificial ChatGPT, revisado e avaliado pelo autor antes de sua publicação.
+Roteiro de aula elaborado no RStudio com o auxílio da inteligência artificial ChatGPT, revisado e avaliado pelo professor antes de sua publicação.
 
 ## Objetivos de aprendizagem
 
-Ao final deste encontro e com base na leitura indicada, espera-se que você seja capaz de:
+Ao final desta aula, espera-se que você seja capaz de:
 
--   Identificar o que é discurso reportado e sua função na escrita acadêmica.
+-   Reconhecer a função do discurso reportado na construção do conhecimento acadêmico;
+-   Diferenciar discurso direto do discurso indireto;
+-   Aplicar corretamente as normas da NBR 10520/2023 para citações diretas curtas, citações longas e de citações de citação;
+-   Compreender o papel dos verbos *dicendi* na introdução do discurso reportado.
 
--   Diferenciar discurso direto e discurso indireto.
+::: {.section style="padding:1em; background-color:#F5F5F5; color:#000000;"}
+<em>Leitura indicada:</em> <br/> <strong>Discurso reportado</strong>, capítulo do livro <em>Escrever na universidade 2 - texto e discurso</em>, de Francisco Eduardo Vieira e Carlos Alberto Faraco.
 
--   Instalar e configurar o Zotero com o conector do navegador.
-
--   Criar e organizar coleções de referências.
-
--   Adicionar itens à biblioteca a partir de sites e bases de dados.
-
--   Inserir e formatar citações e referências em Google Docs com o Zotero.
-
--   Utilizar o Zotero Sync para manter seus dados salvos na nuvem e acessíveis em diferentes dispositivos.
-
-------------------------------------------------------------------------
+[Acesso à leitura indicada](https://drive.google.com/file/d/17QvXPqtVvgArZpXv0XJhTnwTayxVkxFc/view?usp=sharing)
+:::
 
 ## Introdução
 
-A escrita acadêmica exige clareza, coerência e, sobretudo, rigor na apresentação das fontes de informação. As **normas de citação e referência** — como as da ABNT, APA ou Vancouver — cumprem um papel fundamental nesse processo: elas garantem a *padronização*, a *transparência* e a *credibilidade* do trabalho científico.
+A escrita acadêmica exige *clareza*, *coerência* e, sobretudo, *rigor* na apresentação das fontes de informação. As normas de citação e referência — como as da ABNT[^aula_5-1] — garantem a padronização, a transparência e a credibilidade do trabalho científico.
 
-Um texto que segue essas normas permite ao leitor localizar com precisão as obras consultadas, verificar os dados utilizados e reconhecer os autores envolvidos na construção do conhecimento. A **normalização**, portanto, não é apenas uma exigência formal, mas um componente essencial da ética e da qualidade na produção acadêmica.
+[^aula_5-1]: A NBR 10520 trata de citações em documentos; a NBR 6023 trata de referências.
 
-Parte fundamental dessa normalização diz respeito ao uso do **discurso reportado**, ou seja, à forma como o *autor do texto acadêmico incorpora, comenta ou mobiliza a voz de outros autores em sua escrita*. Essa prática envolve tanto o **discurso direto**, quando se reproduz fielmente as palavras de outrem, quanto o **discurso indireto**, quando se parafraseia com as próprias palavras.
+### Glossário
 
-Além de demonstrar domínio do conteúdo, o uso adequado do discurso reportado insere o texto no campo científico, marcando sua filiação a determinadas ideias, debates e tradições intelectuais. Isso permite ao leitor reconhecer de onde vêm as informações, avaliar os fundamentos de cada argumento e distinguir claramente a contribuição do autor.
+> Referência "(...) conjunto padronizado de elementos descritivos, retirados de um documento, que permite sua identificação individual." (Associação Brasileira de Normas Técnicas, 2020)
 
-Para apoiar esse processo, o **Zotero** é uma ferramenta gratuita e de código aberto que funciona como um gerenciador de referências bibliográficas. Ele permite salvar, organizar, citar e compartilhar fontes de pesquisa de forma prática e automatizada, além de oferecer sincronização em nuvem. Com ele, é possível aplicar estilos de citação exigidos pelas instituições (como ABNT ou APA), o que facilita a conformidade com as normas e contribui para a qualidade formal da escrita acadêmica.
+> Citação "(...) menção de uma informação extraída de outra fonte" (Associação Brasileira de Normas Técnicas, 2023)
 
-### Funções do discurso reportado na escrita acadêmica
+::: {style="text-align: left; background-color: #001f3f; color: #ffffff; padding: 1em; border-radius: 5px; font-size: 1.2em;"}
+**Introdução**
 
-```         
-•   Fundamentar teorias, conceitos e argumentos;
-•   Dar credibilidade ao texto com base em autores reconhecidos;
-•   Estabelecer relações dialógicas com outras pesquisas;
-•   Evitar plágio, por meio da atribuição correta das ideias;
-•   Aprofundar a análise crítica e o posicionamento do autor do texto.
-```
+*Citações*
 
-### Tipos de citações na escrita acadêmica
+(Araújo; Farias, 2025) (Czolpinski; Brito; Raupp, 2024) (Azevedo; Machado, 2024) (Jaime; Leonel, 2024) (Silva; Rosa; França, 2025)
 
--   Citação direta curta (até 3 linhas)
+*Referências bibliográficas*
 
-    • Deve ser integrada ao parágrafo, entre aspas duplas. • A fonte da citação (autor, ano e página) aparece entre parênteses. • Não deve conter itálico ou destaque gráfico.
+ARAÚJO, Jonas Vieira de; FARIAS, Cleilton Sampaio de. Aprendizagem Experiencial no Ensino de Física: Uma Revisão sobre sua Aplicação na Educação Profissional e Tecnológica. Rebena - Revista Brasileira de Ensino e Aprendizagem, \[s. l.\], v. 11, p. 13–31, 2025. Disponível em: https://rebena.emnuvens.com.br/revista/article/view/309. Acesso em: 8 maio 2025.
 
-Exemplo:
+CZOLPINSKI, Andrey de Lima; BRITO, Rafael da Costa; RAUPP, Daniele Trajano. Clube de Ciências e a promoção da educação científica por meio da extensão universitária. Revista Signos, \[s. l.\], v. 45, n. 2, 2024. Disponível em: https://www.univates.br/revistas/index.php/signos/article/view/3995. Acesso em: 8 maio 2025.
 
-> Segundo Amossy (2008, p. 9), “todo discurso é atravessado por vozes e saberes alheios”.
+AZEVEDO, Murillo Pereira; MACHADO, Letícia Sophia Rocha. Competências digitais docentes no ensino de física : uma revisão sistemática da literatura. \[s. l.\], 2024. Disponível em: https://lume.ufrgs.br/handle/10183/282037. Acesso em: 8 maio 2025.
 
-> Sabe-se que “todo discurso é atravessado por vozes e saberes alheios” (Amossy, 2008, p. 9).
+JAIME, Danay Manzo; LEONEL, André Ary. Uso de simulações: Um estudo sobre potencialidades e desafios apresentados pelas pesquisas da área de ensino de física. Revista Brasileira de Ensino de Física, \[s. l.\], v. 46, p. e20230309, 2024. Disponível em: https://www.scielo.br/j/rbef/a/PvcqYmVLssjYpggDb4Jmz8N/. Acesso em: 8 maio 2025.
 
--   Citação direta longa (mais de 3 linhas)
+SILVA, Dayane Cândido da; ROSA, Maria Izabella da Silva; FRANÇA, Suzane Bezerra de. Formação docente em ciências biológicas no âmbito do programa residência pedagógica na perspectiva do multiletramento. Revista Ciências & Ideias ISSN: 2176-1477, \[s. l.\], p. e25162772, 2025. Disponível em: https://revistascientificas.ifrj.edu.br/index.php/reci/article/view/2772. Acesso em: 8 maio 2025.
 
-    • Deve ser destacada em parágrafo próprio, com: • Recuo de 4 cm da margem esquerda; • Fonte tamanho menor que a do corpo do texto; • Sem aspas; • Espaçamento simples entre as linhas; • Referência (autor, ano, página) após o ponto final da citação.
+> Segundo a ABNT, as referências bibliográficas deve ser dispostas em ordem alfabética. Esteja atento à configuração do Zotero ou ao estilo selecionado!
 
-Exemplo:
-
-> O ethos discursivo, portanto, não é um traço individual do orador, mas uma construção textual resultante da imagem que ele deseja projetar e da imagem que o público está predisposto a aceitar (Amossy, 2008, p. 95).
-
--   Citação indireta
-
-    • A ideia do autor é parafraseada, com menção à fonte sem aspas. • A indicação de página não é obrigatória, mas pode ser incluída.
-
-Exemplo:
-
-Bakhtin (2003) afirma que todo enunciado depende de outro anterior e que não existe ponto de partida absoluto.
-
-Citação de citação (apud) • Usada apenas quando a obra original não foi consultada. • A citação deve mencionar os dois autores: o da ideia e o da fonte consultada. • A expressão apud (em itálico) é obrigatória, com os demais dados da fonte consultada.
-
-Exemplo:
-
-Para Vygotsky, o desenvolvimento do pensamento está ligado à linguagem (apud OLIVEIRA, 2002, p. 37).
-
-Atenção: o uso de apud deve ser excepcional. Sempre que possível, consulte a fonte original.
-
-## Aprendizagem prática
-
-1.  Crie uma coleção no Zotero com o nome: Ensino de Física.
-
-2.  Adicione cinco obras (artigos e/ou livros publicados entre 2024 e 2025) à coleção, extraídas de uma busca no Google Acadêmico com os termos exatos "clube de ciências" e "ensino de física".
-
-3.  Crie um documento no Google Docs com duas seções (ambas formatadas como Título 1):
-
-    • Introdução
-
-    • Referências Bibliográficas
-
-4.  Insira citações das cinco obras na seção Introdução, utilizando o Zotero.
-
-5.  Gere automaticamente a lista de referências na seção Referências Bibliográficas, também com o Zotero.
-
-6.  Copie o conteúdo completo do documento e cole no campo abaixo (atividade individual).
-
-<p>Preencha os campos abaixo para enviar o resultado da atividade individual sobre o Zotero.</p>
-
-::: formulario
-```{=html}
-<!-- Formulário de envio da atividade Zotero -->
-<p><strong>🔎 Instruções:</strong> Copie todo o conteúdo do seu documento do Google Docs — incluindo a Introdução com as citações e a lista de Referências Bibliográficas — e cole no campo abaixo. O envio é individual.</p>
-
-<form id="form-zotero">
-  <label>Nome:<br>
-    <input type="text" name="nome" required placeholder="Fulano dos Anzóis Pereira">
-  </label><br><br>
-
-  <label>E-mail:<br>
-    <input type="email" name="email" required placeholder="fulano@email.com">
-  </label><br><br>
-
-  <label>Tipo de envio:<br>
-    <select name="tipo" required>
-      <option value="">Selecione uma opção</option>
-      <option value="Texto Zotero">Texto com citações e referências (atividade Zotero)</option>
-    </select>
-  </label><br><br>
-
-  <label>Conteúdo do Google Docs (copie e cole aqui):<br>
-    <textarea name="texto" rows="10" cols="70" required placeholder="Cole aqui o conteúdo completo da sua atividade..."></textarea>
-  </label><br><br>
-
-  <button type="submit">Enviar</button>
-</form>
-
-<p id="mensagem-zotero"></p>
-
-<script>
-  document.getElementById("form-zotero").addEventListener("submit", function(event) {
-    event.preventDefault();
-    const dados = Object.fromEntries(new FormData(this).entries());
-
-    fetch("https://script.google.com/macros/s/AKfycbzpbVBcZhN1DCYk3TzK2VOt6oVmKgbX2pa0_lp95Bt-S2fpI1ip-RKad_PHxeVgAA_G/exec", {
-      method: "POST",
-      mode: "no-cors",
-      body: JSON.stringify(dados)
-    }).then(() => {
-      document.getElementById("mensagem-zotero").innerText = "✅ Texto enviado com sucesso!";
-      this.reset();
-    }).catch(() => {
-      document.getElementById("mensagem-zotero").innerText = "❌ Erro ao enviar o texto.";
-    });
-  });
-</script>
-```
+> Considere que, no Brasil, tipicamente se adota o sistema autor-data, conforme a NBR 10520/2023 recomenda.
 :::
 
 <br/><br/>
+
+## Aprendizagem prática
+
+1.  Observe, no texto[^aula_5-2] abaixo, as marcas de discurso reportado. Responda: qual informação no texto é original, isto é, produzido pelo autor do texto?
+
+[^aula_5-2]: Texto totalmente inventado para os fins desta aula.
+
+**Ao discutir os desafios da escrita acadêmica no ensino superior, Araújo e Farias (2025) destacam que** o maior obstáculo enfrentado pelos estudantes é a dificuldade de articular argumentos com base em fontes confiáveis, o que compromete a credibilidade de seus textos. **De modo semelhante, Czolpinski, Brito e Raupp (2024) observam que** muitos alunos ainda recorrem ao senso comum ou a fontes não verificadas, em vez de dialogar com autores reconhecidos da área. **É nesse sentido que Azevedo e Machado (2024) defendem** a necessidade de formar leitores críticos, capazes de interpretar e mobilizar o conhecimento científico de maneira ética e responsável. **Conforme afirmam Jaime e Leonel (2024, p. 12),** “a competência argumentativa não se desenvolve apenas pela leitura, mas pela prática constante de escrever em diálogo com outras vozes”. **Além disso, Silva, Rosa e França (2025) chamam a atenção para** o papel dos professores como mediadores desse processo, propondo atividades que estimulem o uso consciente de citações e a construção de um posicionamento autoral no texto acadêmico.
+
+<!-- Aqui começa o campo de respostas-->
+
+<details>
+
+<summary>
+
+</summary>
+
+::: {style="width: 100%; background-color:#ADD8E6; font-size: 14px; line-height: 1.5;"}
+Nenhuma informação do parágrafo analisado é original. Todo texto se constrói como discurso de outro, portanto um discurso apenas reportado.
+:::
+
+</details>
+
+</pre>
+
+<!-- Aqui encerra o campo de respostas-->
+
+<br/><br/>
+
+::: destaque
+Marcar adequadamente o **discurso reportado** é essencial para:
+
+-   Situar a pesquisa na **rede de conhecimento em constante atualização**;
+-   Dialogar com o que já foi produzido sobre o tema;
+-   Demonstrar respeito ao leitor, informando claramente o que é seu e o que é do outro;
+-   Evitar o plágio, que é um **crime acadêmico**.
+
+<br/>
+
+```{=html}
+<figure style="text-align: center;">
+  <img src="img/rede_conhecimento.png" style="width:80%; display: block; margin: auto;" />
+  <figcaption><strong>Figura 1.</strong> Representação de uma rede de conhecimentos criada na plataforma Research Rabbit (https://www.researchrabbitapp.com).</figcaption>
+</figure>
+```
+
+<br/>
+:::
+
+------------------------------------------------------------------------
+
+## Discurso reportado
+
+É a **inserção do que outras pessoas disseram ou escreveram** em seu texto acadêmico, permitindo ao autor:
+
+-   **Reforçar argumentos**, citando especialistas;
+-   **Manifestar concordância** com outras pesquisas;
+-   **Criticar ou refutar** ideias de outros autores.
+
+### Discurso reportado direto
+
+Transcrição literal das palavras do outro, com as seguintes características:
+
+-   **Entre aspas duplas** para citações curtas (até 3 linhas);
+-   **Em bloco destacado**, sem aspas, para citações longas (mais de 3 linhas);
+-   **Indicação da autoria, ano e página**;
+-   Uso de **\[sic\]** para marcar erros existentes no original.
+
+Exemplos
+
+**Discurso reportado por meio de uma citação curta:**
+
+> Segundo Souza (2021, p. 17), "a linguagem é o principal recurso para a construção da realidade social".
+
+> Ao discutir os desafios da escrita acadêmica no ensino superior, Araújo e Farias (2025) destacam que o maior obstáculo enfrentado pelos estudantes é a dificuldade de articular argumentos com base em fontes confiáveis, o que compromete a credibilidade de seus textos. De modo semelhante, Czolpinski, Brito e Raupp (2024) observam que muitos alunos ainda recorrem ao senso comum ou a fontes não verificadas, em vez de dialogar com autores reconhecidos da área. É nesse sentido que Azevedo e Machado (2024) defendem a necessidade de formar leitores críticos, capazes de interpretar e mobilizar o conhecimento científico de maneira ética e responsável. **Conforme afirmam Jaime e Leonel (2024, p. 12), “a competência argumentativa não se desenvolve apenas pela leitura, mas pela prática constante de escrever em diálogo com outras vozes”.** Além disso, Silva, Rosa e França (2025) chamam a atenção para o papel dos professores como mediadores desse processo, propondo atividades que estimulem o uso consciente de citações e a construção de um posicionamento autoral no texto acadêmico.
+
+**Discurso reportado por meio de uma citação longa:**
+
+> Ao tratar da natureza social da linguagem, Araújo e Farias (2025, p. 45) afirmam que<br/> A linguagem é uma prática social que constrói significados coletivamente compartilhados. Nenhum enunciado surge isolado, mas em resposta a outros enunciados, compondo uma rede de sentidos em constante transformação. Essa rede é dinâmica e se atualiza a cada novo uso da linguagem, revelando que todo dizer é, ao mesmo tempo, retomada e recriação do que já foi dito. Assim, compreender a linguagem como prática social é reconhecer seu papel na construção da realidade e na negociação de sentidos entre os sujeitos.
+
+------------------------------------------------------------------------
+
+### Discurso reportado indireto
+
+Relato do que o outro disse, com as palavras do autor, indicando a autoria e, opcionalmente, a página.
+
+-   Frequentemente introduzido por **verbos *dicendi***, como:
+-   dizer, afirmar, explicar, justificar, sustentar, comentar, entre outros.
+
+Exemplo
+
+> Segundo Souza (2021), a linguagem desempenha papel central na construção da realidade social.
+
+------------------------------------------------------------------------
+
+## Citação de citação (*apud*)
+
+Uso de uma fonte a partir de outra, quando não se teve acesso ao documento original.
+
+Exemplo
+
+> Segundo Bakhtin (1988, *apud* Vieira e Faraco, 2019, p. 45), todo enunciado é sempre dialógico.
+
+------------------------------------------------------------------------
+
+::: destaque
+-   Sinalize sempre o que é seu e o que é do outro;
+-   Siga as normas da **NBR 10520/2023** e da **NBR 6023/2020**, disponíveis no SIGAA (Biblioteca \> Documentos ABNT);
+-   Utilize o discurso reportado de forma estratégica para construir uma argumentação sólida e ética.
+:::
+
+<br/><br/>
+
+## Aprendizagem prática
+
+2.  Identifique no texto abaixo, publicado no periódico RenBio (Revista de Ensino de Biologia), todas as ocorrências de discurso reportado. Separe-os por tipo de citação: citação direta, citação indireta ou citação da citação. Copie e cole no documento à parte. Siga o modelo:
+
+Modelo:
+
+**Citação indireta** Página 15: Silva e Andrade (2024) afirmam que desenvolver a autonomia intelectual dos estudantes requer práticas pedagógicas que estimulem a pesquisa e o pensamento crítico em todos os níveis de ensino.
+
+**Citação direta** Página 12: Percebe-se que “os estudantes têm a oportunidade de investigar problemas reais de suas comunidades, o que torna o aprendizado mais significativo e socialmente relevante" (Pereira; Costa; Nunes, 2025).
+
+**Citação da citação** Página 43: Segundo Freire (1996, *apud* Souza; Almeida, 2025, p. 613), "ensinar não é transferir conhecimento, mas criar as possibilidades para a sua própria produção ou a sua construção".
+
+[Texto disponível aqui](https://renbio.org.br/index.php/sbenbio/article/view/1347/497)
+
+<!-- Aqui começa o campo de respostas-->
+
+<details>
+
+<summary>
+
+</summary>
+
+::: {style="width: 100%; background-color:#ADD8E6; font-size: 14px; line-height: 1.5;"}
+**Citação indireta**
+
+Página 608: Estabelece-se, com isso, uma corresponsabilidade entre as instituições de ensino superior e ensino básico com a formação inicial de professores (Capes, 2018).
+
+Página 608: As horas são divididas em três módulos de seis meses com carga horária de 138 horas cada módulo (Capes, 2023).
+
+Página 608: Segundo Nascimento e Bezerra (2019), o ensino de ciências visa dar sentido e significado aos conhecimentos científicos e tecnológicos que fazem parte do cotidiano.
+
+Páginas 608-609: Segundo esses autores, é através da curiosidade e da inquietação que os estudantes-clubistas são motivados a investigar, questionar e experimentar, o que leva a uma compreensão mais profunda dos conceitos científicos.
+
+Página 609: O Clube de Ciências, segundo Milanesi e colaboradores (2019), é um espaço de encontros com trocas de vivências, experimentos e interações dinâmicas distintas das observadas em aulas convencionais, acarretando desenvolvimento do conhecimento científico e do pensamento crítico por meio de abordagens investigativas.
+
+Página 609: Conforme delineado por Ramalho et al. (2011), os Clubes de Ciências representamespaços educativos nos quais estudantes, compartilhando interesses em ciência, reúnem-se forado horário escolar convencional.
+
+Página 609: De acordo com Pires et al. (2007), os Clubes de Ciências não são meros espaços para aquisição de conhecimentos científicos e tecnológicos por parte dos alunos.
+
+Página 609: No contexto da Base Nacional Comum Curricular (BNCC), os ateliês são espaços de aprendizado prático e interdisciplinar que atendem às competências e habilidades da área relacionadas à BNCC, promovendo a exploração, observação e a experimentação, valorizandoa aprendizagem por meio de práticas investigativas, que são ferramentas importantes para oestudo das ciências naturais (Brasil, 2018).
+
+Página 613: Além disso, a colaboração entre o professor, os estudantes e os demais envolvidos pode trazer contribuições significativas para a alfabetização científica dos jovens, fortalecendo aspectos como a assimilação de conceitos, a elaboração de modelos, o desenvolvimento de habilidades cognitivas e o raciocínio científico (Buch; Schroeder, 2013).
+
+Página 617: Estimular a curiosidade, a investigação e o pensamento crítico entre os estudantes é crucial para formar cidadãos mais preparados para os desafios do mundo atual, pois, segundo Buch e Schroeder (2013), a construção do conhecimento científico é um processo contínuo queenvolve a participação ativa do indivíduo.
+
+**Citação direta**
+
+Página 608: Dias e colaboradores (2013, p. 160) afirmam que: “o ensino de ciências deve estimular nos estudantes a capacidade deobservação, despertando a curiosidade, a inquietação, a busca por novas respostas”.
+
+Página 609: Nesse contexto, Duarte e Duarte (2013, p. 37) declaram que:
+
+O ensino de ciências naturais não pode se limitar à promoção de mudanças conceituais ou ao aprendizado do conhecimento científico. É necessário também buscar mudanças metodológicas e de atitude nos alunos, bem como ressignificar o ensino para construir um processo de aprendizagem, no qualprofessores e alunos possam interagir de forma crítica e reflexiva ao ensinarem e aprenderem (Duarte; Duarte, 2013, p. 37)
+
+**Citação da citação**
+
+Não há ocorrências.
+:::
+
+</details>
+
+</pre>
+
+<!-- Aqui encerra o campo de respostas-->
+
+<br/><br/>
+
+3.  Na aula sobre gerenciamento de referências bibliográficas, numa aprendizagem prática, você foi solicitado a selecionar cinco artigos e/ou livros no Google Acadêmico, usando as palavras-chave "ensino de física" e "clube de ciências".
+
+Agora, usando as referências selecionadas por você, identifique qual é o nome do periódico (revista) em que os artigos foram publicados e qual é o nome da editora em que os livros foram publicados.
+
+Você deverá expor oralmente quais são os periódicos e/ou editoras.
+
+`r emo::ji("fire")` Lembre-se: na tarefa, não seriam aceitas dissertações de mestrado, teses de doutorado ou artigos publicados em anais de eventos. `r emo::ji("fire")`

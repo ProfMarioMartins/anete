@@ -1,5 +1,5 @@
 ---
-title: "Título da aula"
+title: "Aula"
 ---
 
 Roteiro de aula elaborado no RStudio com o auxílio da inteligência artificial ChatGPT, revisado e avaliado pelo professor antes de sua publicação.

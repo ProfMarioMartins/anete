@@ -106,30 +106,287 @@ kable(dados, align = "l", col.names = c("Movimento", "Submovimentos", "Exemplo")
 
 ## Aprendizagem prática
 
-[Veja a **Atividade de pesquisa: movimentos retóricos do resumo**](pesquisa_01.qmd)
-
-## Atividade complementar: Registro dos artigos selecionados no [Padlet](https://padlet.com/mariomartins/anete-2025-1-b3r3eohs4gd7np8m)
-
-::: subtitulo-nao-numerado
-🎯 Objetivo
+::: titulo-nao-numerado
+Objetivo
 :::
 
-Consolidar a pesquisa bibliográfica por meio do registro dos dois primeiros artigos científicos selecionados, com foco no tema de pesquisa individual.
+Analisar a organização retórica de resumos acadêmicos a partir de uma abordagem sociorretórica, identificando os movimentos retóricos que estruturam esse gênero textual no contexto da produção científica brasileira.
+
+::: subtitulo-nao-numerado
+🔍 Etapas da atividade
+:::
+
+1.  No [Portal de Periódicos da Capes](https://www.periodicos.capes.gov.br/), selecione um **artigo científico completo** que atenda aos seguintes critérios:
+
+    ✦ Esteja **relacionado ao seu tema de pesquisa**.\
+    ✦ Tenha sido **publicado em periódico científico classificado como A1, A2, A3 ou A4** no Qualis (última atualização disponível).\
+    ✦ Esteja **disponível em acesso aberto**.\
+    ✦ Tenha passado por **revisão por pares** (peer-reviewed).\
+    ✦ Tenha um **resumo explícito**, preferencialmente em português.
+
+2.  Copie o texto integral do resumo e cole no campo apropriado do formulário abaixo.
+
+3.  Realize a segmentação do resumo conforme os cinco movimentos retóricos propostos.
+
+-   Para cada movimento identificado, copie e cole no campo correspondente o(s) trecho(s) que o representa(m); e classifique-o segundo as opções disponíveis no formulário.
+
+-   Se um movimento não estiver presente no resumo, indique isso no formulário, selecionando a opção “Movimento não acontece”.
+
+-   Se houver um movimento cuja classificação não esteja disponível, nomeie-o no campo adequado.
+
+📌 Recomendações importantes:
+
+-   Certifique-se de analisar criticamente o resumo, considerando a função comunicativa de cada trecho e não apenas marcadores superficiais.
+
+-   Esta atividade visa o desenvolvimento da consciência retórica, contribuindo para a sua própria capacidade de escrever bons resumos acadêmicos no futuro.
+
+-   A análise deve ser feita individualmente, com base nos princípios estudados em aula.
 
 ------------------------------------------------------------------------
 
-## 🧩 Instruções para preenchimento do Padlet
+<!-- 🌐 Formulário para anotação de movimentos retóricos em resumos -->
+
+::: formulario
+```{=html}
+<style>
+  .form-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 1.5em;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.08);
+    box-sizing: border-box;
+  }
+
+  .form-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 1em;
+  }
+
+  .form-container label {
+    display: block;
+    margin-bottom: 0.5em;
+    color: #222;
+    font-weight: 600;
+  }
+
+  .form-container input,
+  .form-container textarea,
+  .form-container select {
+    width: 100%;
+    padding: 0.75em;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 1em;
+    margin-bottom: 1.2em;
+  }
+
+  .form-container textarea {
+    resize: vertical;
+  }
+
+  .form-container button {
+    background-color: #007acc;
+    color: white;
+    padding: 0.9em 1.2em;
+    font-size: 1em;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+  }
+
+  .form-container button:hover {
+    background-color: #005f99;
+  }
+
+  @media (max-width: 600px) {
+    .form-container {
+      padding: 1em;
+    }
+  }
+</style>
+```
+
+```{=html}
+<div class="form-container">
+  <form id="form-resumo">
+
+    <h2>📄 Análise de resumos</h2>
+
+    <label>Seu nome:
+      <input type="text" name="nome" required>
+    </label>
+
+    <label><strong>Título do artigo:</strong>
+      <input type="text" name="titulo" required placeholder="Informe o título do artigo analisado">
+    </label>
+    
+    <label><strong>Área de conhecimento:</strong>
+      <input type="text" name="area" required placeholder="Informe a área de conhecimento do artigo analisado (conforme informado no Qualis)">
+    </label>
+
+    <label>Resumo:
+      <textarea name="resumo" rows="5" required placeholder="Cole aqui o texto integral do resumo..."></textarea>
+    </label>
+
+    <!-- Situar -->
+    <label>Situando a pesquisa:
+      <textarea name="situar_texto" rows="3" placeholder="Cole aqui o trecho que situa a pesquisa"></textarea>
+    </label>
+    <label>Selecione o(s) modo(s) como a pesquisa está sendo situada:<br/>
+      <small>(Use Ctrl ou Shift para selecionar mais de uma opção)</small>
+      <select name="situar_opcao[]" multiple>
+        <option>Indicando o interesse no tópico de pesquisa</option>
+        <option>Fazendo generalizações sobre o tópico de pesquisa</option>
+        <option>Estendendo pesquisas prévias</option>
+        <option>Citando pesquisas prévias</option>
+        <option>Contra-argumentando pesquisas prévias</option>
+        <option>Indicando lacunas em pesquisas prévias</option>
+        <option>Indicando a área de conhecimento</option>
+        <option>Movimento não acontece</option>
+        <option>Outro</option>
+      </select>
+    </label>
+    
+    <label>Se você marcou "Outro" acima, descreva aqui:
+      <input type="text" name="situar_outro" placeholder="Descreva a alternativa não listada">
+    </label>
+
+    <!-- Apresentar -->
+    <label>Apresentando a pesquisa:
+      <textarea name="apresentar_texto" rows="3" placeholder="Cole aqui o trecho que apresenta a pesquisa"></textarea>
+    </label>
+    <label>Selecione o(s) modo(s) como a pesquisa está sendo apresentada:<br/>
+      <small>(Use Ctrl ou Shift para selecionar mais de uma opção)</small>
+      <select name="apresentar_opcao[]" multiple>
+        <option>Indicando as principais características da pesquisa</option>
+        <option>Apresentando o(s) principal(is) objetivo(s)</option>
+        <option>Levantando hipóteses</option>
+        <option>Movimento não acontece</option>
+        <option>Outro</option>
+      </select>
+    </label>
+    
+    <label>Se você marcou "Outro" acima, descreva aqui:
+      <input type="text" name="apresentar_outro" placeholder="Descreva a alternativa não listada">
+    </label>
+
+    <!-- Metodologia -->
+    <label>Descrevendo a metodologia:
+      <textarea name="metodologia_texto" rows="3" placeholder="Cole aqui o trecho que descreve a metodologia"></textarea>
+    </label>
+    <label>Selecione o(s) modo(s) como a metodologia está sendo descrita:<br/>
+      <small>(Use Ctrl ou Shift para selecionar mais de uma opção)</small>
+      <select name="metodologia_opcao[]" multiple>
+        <option>Descrevendo participantes/corpus</option>
+        <option>Indicando tipo de estudo/abordagem</option>
+        <option>Descrevendo procedimentos/métodos</option>
+        <option>Indicando a procedência dos dados</option>
+        <option>Movimento não acontece</option>
+        <option>Outro</option>
+      </select>
+    </label>
+    
+    <label>Se você marcou "Outro" acima, descreva aqui:
+      <input type="text" name="metodologia_outro" placeholder="Descreva a alternativa não listada">
+    </label>
+
+    <!-- Resultados -->
+    <label>Apresentando o(s) resultado(s):
+      <textarea name="resultados_texto" rows="3" placeholder="Cole aqui o trecho que apresenta os resultados"></textarea>
+    </label>
+    <label>Selecione o(s) modo(s) como o(s) resultado(s) está(ão) sendo apresentados:<br/>
+      <small>(Use Ctrl ou Shift para selecionar mais de uma opção)</small>
+      <select name="resultados_opcao[]" multiple>
+        <option>Apresentando resultados qualitativos</option>
+        <option>Apresentando resultados quantitativos</option>
+        <option>Movimento não acontece</option>
+        <option>Outro</option>
+      </select>
+    </label>
+    
+    <label>Se você marcou "Outro" acima, descreva aqui:
+      <input type="text" name="resultados_outro" placeholder="Descreva a alternativa não listada">
+    </label>
+
+    <!-- Discussão -->
+    <label>Discutindo a pesquisa:
+      <textarea name="discutir_texto" rows="3" placeholder="Cole aqui o trecho que discute a pesquisa"></textarea>
+    </label>
+    <label>Selecione o(s) modo(s) como a pesquisa está sendo discutida:<br/>
+      <small>(Use Ctrl ou Shift para selecionar mais de uma opção)</small>
+      <select name="discutir_opcao[]" multiple>
+        <option>Elaborando conclusões</option>
+        <option>Recomendando futuras aplicações e/ou pesquisas</option>
+        <option>Movimento não acontece</option>
+        <option>Outro</option>
+      </select>
+    </label>
+    
+    <label>Se você marcou "Outro" acima, descreva aqui:
+      <input type="text" name="discutir_outro" placeholder="Descreva a alternativa não listada">
+    </label>
+    
+    <label>Comentários ou observações adicionais:
+      <textarea name="comentarios" rows="3" placeholder="Use este espaço caso queira comentar algo sobre sua análise.">
+      </textarea>
+    </label>
+
+    <button type="submit">Enviar</button>
+  </form>
+</div>
+```
+
+```{=html}
+<script>
+document.getElementById('form-resumo').addEventListener('submit', function(e) {
+  e.preventDefault();
+  const form = e.target;
+  const data = new FormData(form);
+  const params = new URLSearchParams();
+
+  for (const pair of data.entries()) {
+    params.append(pair[0], pair[1]);
+  }
+
+  fetch('https://script.google.com/macros/s/AKfycbx37cRJdkKW7cv2J3-203rnUhzdop6KuvNE8p18uPjWq4rQ7KsVLjCIjyUXRUT_mZvW9g/exec', {
+    method: 'POST',
+    body: params
+  })
+  .then(response => response.text())
+  .then(msg => alert(msg))
+  .catch(error => alert('Erro ao enviar: ' + error));
+});
+</script>
+```
+:::
+
+<br/>
+
+::: subtitulo-nao-numerado
+🎯 Registro dos artigos selecionados no [Padlet](https://padlet.com/mariomartins/anete-2025-1-b3r3eohs4gd7np8m)
+:::
+
+::: subsubtitulo-nao-numerado
+🧩 Instruções para preenchimento do Padlet
+:::
 
 Acesse o Padlet da turma e edite os campos conforme a orientação abaixo:
 
 ::: painel-escuro
-### 🟪 Coluna **Autor**
+🟪 Coluna **Autor**
 
 Digite seu **nome completo**.
 
 ------------------------------------------------------------------------
 
-### 🟪 Coluna **Assunto**
+🟪 Coluna **Assunto**
 
 Informe o **tema de sua pesquisa**, de forma clara e delimitada.
 
@@ -138,7 +395,7 @@ Informe o **tema de sua pesquisa**, de forma clara e delimitada.
 
 ------------------------------------------------------------------------
 
-### 🟪 Coluna **Anexo**
+🟪 Coluna **Anexo**
 
 Adicione os **dois arquivos PDF** dos artigos já selecionados até o momento:
 
@@ -146,19 +403,18 @@ Adicione os **dois arquivos PDF** dos artigos já selecionados até o momento:
 
 ------------------------------------------------------------------------
 
-### 🟪 Coluna **Corpo**
+🟪 Coluna **Corpo**
 
 Cole as **referências completas dos dois artigos**, formatadas de acordo com as normas da **ABNT** (usando o **Zotero**).
 :::
 
-## 📝 Recomendações
+📝 Recomendações
 
 -   Utilize o **Zotero** para gerar as referências automaticamente em formato ABNT;
 -   Certifique-se de que os artigos selecionados estejam **de acordo com os critérios da atividade anterior** (Qualis A1 a A4, peer-reviewed, em acesso aberto);
 -   Publique sua contribuição até às 17 horas da sexta-feira, dia 6 de junho.
 
+
 ::: destaque
 -   Estude os artigos!
 :::
-
-------------------------------------------------------------------------

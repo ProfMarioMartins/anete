@@ -1,0 +1,81 @@
+---
+title: "Sorteio"
+---
+
+```{=html}
+<div style="margin-bottom: 0.5em;">
+  <button type="button" onclick="sortearAluno(this, 'turma1')">🎲 Sortear aluno (Turma 1)</button>
+  <p class="nome-sorteado" style="font-weight:bold; color:#2c3e50;"></p>
+</div>
+
+<!-- Grupo Turma 2 -->
+<div style="margin-bottom: 1em;">
+  <button type="button" onclick="sortearAluno(this, 'turma2')">🎲 Sortear aluno (Turma 2)</button>
+  <p class="nome-sorteado" style="font-weight:bold; color:#2c3e50;"></p>
+</div>
+```
+
+
+```{=html}
+<!-- Botões para reiniciar -->
+<div style="margin-top:1em;">
+  <button type="button" onclick="reiniciarSorteio('turma1')">🔁 Reiniciar sorteio Turma 1</button>
+  <button type="button" onclick="reiniciarSorteio('turma2')">🔁 Reiniciar sorteio Turma 2</button>
+</div>
+```
+
+```{=html}
+<script>
+  // Listas originais
+  const listaOriginalTurma1 = [
+    "Adriano Oliveira", "Alberto Chagas", "Alejandro Azevedo", "Alisson Dantas", "Ana Oliveira",
+    "Barbara Batista", "Eduardo Ferreira", "Emily Maia", "Erick Barboza", "Eshylly Silva",
+    "Felipe Silva", "Francisco Silva", "Ruan Eneias", "Giovanni Oliveira", "Guilherme Oliveira",
+    "Iaslany Costa", "João Dantas", "Joel Oliveira", "José Neto", "Kilber Oliveira",
+    "José Junior", "Lanna Souza", "Leandro Souza", "Leonardo Costa", "Lucas Sales",
+    "Manoel Lemos", "Maria Fernandes", "Maria Silverio", "Maria Barbosa", "Marina Morais",
+    "Paulo Coelho", "Pedro Carreiro", "Sibelle Albuquerque", "Suetoneo Moura", "Vinicius Ramos",
+    "Vitor Silva", "Vitorio Silva"
+  ];
+
+  const listaOriginalTurma2 = [
+    "Albert Silva", "Ana Figueiredo", "Anderson Souza", "Andrey Oliveira", "Anelyse Matoso",
+    "Augusto Medeiros", "Clara Silva", "Fabio Costa", "Fernando Fernandes", "Gabriel Giombelli",
+    "Icaro Pitombeira", "Isaque Moura", "Ivan Neto", "Joao Lima", "Joao Alves",
+    "Joao Gurgel", "Jose Reboucas", "Jose Silva", "Jose Andrade", "Kaua Bezerra",
+    "Laiza Oliveira", "Lara Ribeiro", "Luis Oliveira", "Marcelo Oliveira", "Marcos Melo",
+    "Maria Azevedo", "Matheus Nascimento", "Paulo Guimaraes", "Pedro Neto", "Ramon Morais",
+    "Rildo Soares", "Riquelmmy Praxedes", "Saullo Martins", "Silas Azevedo", "Silvio Segundo",
+    "Tallysson Braga", "Tayla Reboucas", "Wadson Silva", "Wilton Filho", "Yan Souza"
+  ];
+
+  // Listas dinâmicas (que vão sendo reduzidas)
+  let turma1 = [...listaOriginalTurma1];
+  let turma2 = [...listaOriginalTurma2];
+
+  function sortearAluno(botao, turma) {
+    let lista = turma === 'turma1' ? turma1 : turma2;
+
+    if (lista.length === 0) {
+      alert(`Todos os alunos da ${turma === 'turma1' ? 'Turma 1' : 'Turma 2'} já foram sorteados!`);
+      return;
+    }
+
+    const indice = Math.floor(Math.random() * lista.length);
+    const nome = lista.splice(indice, 1)[0];
+
+    const paragrafo = botao.nextElementSibling;
+    paragrafo.innerHTML = `🗣️ <strong>${nome}</strong>`;
+  }
+
+  function reiniciarSorteio(turma) {
+    if (turma === 'turma1') {
+      turma1 = [...listaOriginalTurma1];
+      alert("A lista da Turma 1 foi reiniciada.");
+    } else if (turma === 'turma2') {
+      turma2 = [...listaOriginalTurma2];
+      alert("A lista da Turma 2 foi reiniciada.");
+    }
+  }
+</script>
+```

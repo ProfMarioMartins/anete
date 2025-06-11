@@ -1,10 +1,10 @@
 project:
   type: book
   output-dir: docs
-  
+
 language:
   locale: pt
-  title-block-author-single: "Autor"
+  title-block-author-single: "Professor"
   title-block-published: "Publicado em"
   title-block-modified: "Atualizado em"
   title-block-author-multiple: "Autores"
@@ -12,7 +12,8 @@ language:
   tab: "Tabela"
   eq: "Equação"
   callout-tip-title: "Dica"
-  callou-note-title: "Nota"
+  callout-note-title: "Nota"
+  toc-title: "Conteúdo da aula"
 
 book:
   title: "Análise e Expressão Textual"
@@ -21,6 +22,7 @@ book:
     - part: "Apresentação"
       chapters:
       - index.qmd
+      - Aula_0.qmd
     - part: "Unidade I"
       chapters:
       - Aula_1.qmd
@@ -48,24 +50,27 @@ book:
       chapters:
       - modelo_plano.qmd
       - modelo_relatorio.qmd
-    - part: "Atividade de pesquisa"
-      chapters:
-      - pesquisa_01.qmd
     - part: "Avaliações"
       chapters:
       - 1_Avaliacao.qmd
       - 2_Avaliacao.qmd
+    - part: "Suporte"
+      chapters:
+      - sorteio.qmd
 
 bibliography: references.bib
 
 format:
   html:
     theme: 
-      - journal
+      - sandstone
     toc: true
+    navbar:
+      title: "Análise e Expressão Textual"
+    include-after-body: custom.html
     sidebar:
       style: "floating"
-      collapse-level: 1
+      collapse-level: 0
       pinned: false
     tools:
       - toggle
@@ -90,5 +95,5 @@ editor: visual
 # quarto render (no terminal)
 # Envie ao GitHub:
 # git add .
-# git commit -m "Atualiza conteúdo do livro"
+# git commit -m "Atualiza conteúdo das aulas"
 # git push
