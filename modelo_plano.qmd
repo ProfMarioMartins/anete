@@ -5,9 +5,11 @@ format: html
 editor: visual
 ---
 
-<div class="titulo-nao-numerado">Modelo de plano de trabalho</div>
+::: titulo-nao-numerado
+Modelo de plano de trabalho
+:::
 
-::: {.callout-tip}
+::: callout-tip
 Este é um modelo de plano de trabalho para a iniciação científica — um tipo de proposta de pesquisa que se vincula a projetos já cadastrados por professores da Ufersa.
 
 Pelas regras institucionais, quem submete oficialmente o plano para concorrer a bolsas de Iniciação Científica é o(a) professor(a) coordenador(a) do projeto. Mas isso não significa que você não possa propor uma pesquisa.
@@ -19,32 +21,46 @@ Essa atitude mostra iniciativa, organização e compromisso com a ciência — q
 🔎 Para descobrir quais projetos de pesquisa estão em execução na Ufersa, clique [aqui](https://sigaa.ufersa.edu.br/sigaa/public/pesquisa/consulta_projetos.jsf).
 :::
 
-<div class="fundo-papel">
-<div class="subtitulo-nao-numerado">Título</div>
+:::::::::::: fundo-papel
+::: subtitulo-nao-numerado
+Título
+:::
 
 Título conciso e informativo da proposta de trabalho do estudante.
 
-<div class="subtitulo-nao-numerado">Introdução e justificativa</div>
+::: subtitulo-nao-numerado
+Introdução e justificativa
+:::
 
 Apresente o contexto da proposta e sua relevância. Indique como ela se vincula ao projeto de pesquisa ao qual se integra. Justifique a importância do estudo com base em evidências (dados, autores, relatórios).
 
-<div class="subtitulo-nao-numerado">Objetivos</div>
+::: subtitulo-nao-numerado
+Objetivos
+:::
 
-<div class="subsubtitulo-nao-numerado">Objetivo geral</div>
+::: subsubtitulo-nao-numerado
+Objetivo geral
+:::
 
 Descrever o objetivo principal da proposta.
 
-<div class="subsubtitulo-nao-numerado">Objetivos específicos</div>
+::: subsubtitulo-nao-numerado
+Objetivos específicos
+:::
 
 -   Objetivo 1
 -   Objetivo 2
 -   Objetivo 3
 
-<div class="subtitulo-nao-numerado">Metodologia</div>
+::: subtitulo-nao-numerado
+Metodologia
+:::
 
 Descreva os procedimentos que serão adotados ao longo do plano de trabalho. Inclua informações sobre instrumentos, etapas, técnicas de análise e, quando pertinente, sobre aprovação ética (CEP/CEUA).
 
-<div class="subtitulo-nao-numerado">Habilidades a serem desenvolvidas</div>
+::: subtitulo-nao-numerado
+Habilidades a serem desenvolvidas
+:::
 
 Liste as competências que você pretende desenvolver:
 
@@ -52,7 +68,9 @@ Liste as competências que você pretende desenvolver:
 -   Habilidade 2 (ex: escrita acadêmica)
 -   Habilidade 3 (ex: uso de ferramentas digitais)
 
-<div class="subtitulo-nao-numerado">Cronograma de atividades</div>
+::: subtitulo-nao-numerado
+Cronograma de atividades
+:::
 
 ```{r}
 #| echo: false
@@ -83,9 +101,11 @@ knitr::kable(
 )
 ```
 
-<div class="subtitulo-nao-numerado">Referências</div>
+::: subtitulo-nao-numerado
+Referências
+:::
 
 SOBRENOME, Nome. *Título da obra*. Local: Editora, ano.
 
 SOBRENOME, Nome. “Título do artigo”. *Nome do periódico*, v. X, n. Y, p. Z–Z, ano.
-</div>
+::::::::::::

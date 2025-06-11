@@ -1,5 +1,5 @@
 ---
-title: "Análise e Expressão Textual - 2025.1"
+title: "1ª Avaliação"
 author: "Mário Martins"
 language:
   locale: pt

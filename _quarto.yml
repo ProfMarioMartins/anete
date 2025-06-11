@@ -47,9 +47,14 @@ book:
     - part: "Modelos"
       chapters:
       - modelo_plano.qmd
+      - modelo_relatorio.qmd
     - part: "Atividade de pesquisa"
       chapters:
       - pesquisa_01.qmd
+    - part: "Avaliações"
+      chapters:
+      - 1_Avaliacao.qmd
+      - 2_Avaliacao.qmd
 
 bibliography: references.bib
 
