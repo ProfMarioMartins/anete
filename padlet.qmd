@@ -1,0 +1,13 @@
+---
+title: "Padlet"
+---
+
+🔗 Acesse o Padlet da disciplina [aqui](https://padlet.com/mariomartins/anete-t01-b3r3eohs4gd7np8m)
+
+`r emo::ji("fire")` Você deve fazer login no Padlet para que suas postagens sejam identificadas.
+
+<br/><br/>
+
+```{=html}
+<div class="padlet-slideshow-embed" style="width:720px;height:480px;"><p style="padding:0;margin:0;width:100%;height:100%"><iframe src="https://padlet.com/embed/b3r3eohs4gd7np8m/slideshow?autoplay=0&loop=0&duration=auto" frameborder="0" allow="clipboard-write" style="width:100%;height:100%;display:block;padding:0;margin:0"></iframe></p></div>
+```

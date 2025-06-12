@@ -54,9 +54,11 @@ book:
       chapters:
       - 1_Avaliacao.qmd
       - 2_Avaliacao.qmd
+      - 3_Avaliacao.qmd
     - part: "Suporte"
       chapters:
       - sorteio.qmd
+      - padlet.qmd
 
 bibliography: references.bib
 

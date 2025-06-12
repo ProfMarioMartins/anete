@@ -1,0 +1,70 @@
+---
+title: "3ª Avaliação"
+---
+
+::: titulo-nao-numerado
+Orientações para a 3ª avaliação
+:::
+
+::: destaque
+A terceira avaliação da disciplina **Análise e Expressão Textual** consistirá na **entrega de um plano de trabalho de pesquisa** e na apresentação de um **pitch de projeto**, nos moldes exigidos em editais de Iniciação Científica da Ufersa.
+
+Essa atividade consolida o percurso desenvolvido ao longo do semestre. O tema do plano deve ser o mesmo que você vem elaborando desde as primeiras aulas da disciplina.
+
+Mesmo que você não tenha interesse imediato em concorrer a uma bolsa de IC, elaborar e apresentar um plano de trabalho é um exercício essencial de autoria acadêmica e preparação para projetos futuros.
+:::
+
+::: subtitulo-nao-numerado
+Etapa 1 – Entrega do plano de trabalho
+:::
+
+- **Tema:** o mesmo que vem sendo trabalhado desde o início do semestre
+- Formato: documento em `.docx` ou `.qmd`, convertido para o **Google Docs**
+- O documento deve ser compartilhado com o professor pelo e-mail: **mario.martins@ufersa.edu.br**
+- O plano deve conter:  
+  - Título  
+  - Introdução e Justificativa  
+  - Objetivo geral e objetivos específicos  
+  - Metodologia  
+  - Habilidades a serem desenvolvidas  
+  - Referências bibliográficas conforme ABNT  
+- **Prazo de entrega:** até **24 de julho de 2025**
+- **Peso na nota final:** 70%
+
+::: subtitulo-nao-numerado
+Etapa 2 – Apresentação do pitch de projeto
+:::
+
+- Nome formal: **Apresentação Oral Sintética de Proposta de Pesquisa**
+- Duração: entre **2 minutos e 30 segundos e 5 minutos**
+- Data da apresentação: **28 de julho de 2025**
+- Formato: ainda em definição — poderá ser **gravado** (vídeo) ou **ao vivo** (em sala)
+- A apresentação deve destacar, de forma clara e envolvente:
+  - O problema de pesquisa
+  - A relevância da proposta
+  - A metodologia prevista
+  - O impacto esperado
+- **Peso na nota final:** 30%
+- **Critérios de avaliação:** a serem divulgados em breve
+
+::: subtitulo-nao-numerado
+Instruções gerais
+:::
+
+- O trabalho deve ser **individual** e original
+- Utilize o modelo de plano de trabalho disponibilizado na disciplina
+- O pitch não precisa de slides, mas deve demonstrar domínio do conteúdo
+- Leituras integrais do plano serão desconsideradas — ensaie com base em tópicos
+- Em caso de dúvidas, entre em contato com o professor com antecedência
+
+::: subtitulo-nao-numerado
+Reposição da avaliação
+:::
+
+Estudantes que não entregarem o plano ou não realizarem o pitch na data prevista e tiverem direito à reposição serão avaliados por meio de tarefa equivalente, em nova data a ser estipulada pelo professor.
+
+::: subtitulo-nao-numerado
+Dica final
+:::
+
+Este plano é a culminância de um trabalho construído passo a passo. Aproveite a oportunidade para reunir o que você pesquisou, refletiu e estruturou ao longo do semestre — e apresente isso com clareza, entusiasmo e autoria.
