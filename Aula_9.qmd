@@ -175,7 +175,7 @@ Refere-se à escolha lexical do autor. Um vocabulário técnico e preciso é tí
 </summary>
 
 | Critério | Texto 1 (científico) | Texto 2 (relato pessoal) |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | **Pessoa do discurso** | Terceira pessoa do singular: "relata-se", "aplicou-se", "verificou-se", "torna" | Primeira pessoa do singular e plural: "eu", "nós" |
 | **Tempo verbal** | Predomínio do pretérito perfeito e do presente: "relata-se", "buscou-se", "verificou-se" | Predomínio do pretérito: "estávamos", "seguimos", "chamei" |
 | **Grau de formalidade** | Formal, com vocabulário técnico, impessoalidade, estrutura padrão: "relata-se a elaboração e a aplicação de jogos educacionais" | Informal, com linguagem próxima da oralidade e uso de expressões coloquiais: "peguei minhas coisas e saí correndo" |
@@ -194,13 +194,12 @@ Refere-se à escolha lexical do autor. Um vocabulário técnico e preciso é tí
 
 <!-- Aqui encerra o campo de respostas-->
 
-::: {.destaque}
+::: destaque
 Em contextos acadêmicos, a produção escrita se organiza em torno de **gêneros textuais específicos**, exigidos em diferentes etapas da formação. Cada um desses gêneros cumpre **funções comunicativas e institucionais bem definidas**.
 :::
 
-
-::: {.citacao}
-“Os gêneros textuais acadêmicos se caracterizam muito mais pela função comunicativa e institucional do que por estruturas linguísticas” (Castro _et al_., 2019, p. 68).
+::: citacao
+“Os gêneros textuais acadêmicos se caracterizam muito mais pela função comunicativa e institucional do que por estruturas linguísticas” (Castro *et al*., 2019, p. 68).
 :::
 
 Para fins didáticos, propomos uma organização didática dos gêneros acadêmicos em três grupos funcionais:
@@ -208,31 +207,31 @@ Para fins didáticos, propomos uma organização didática dos gêneros acadêmi
 1.  **Gêneros de estudo**: São gêneros que auxiliam o estudante na compreensão, análise e sistematização de obras e conteúdos acadêmicos.
 
     ✦ Fichamento
-    
+
     ✦ Resenha
-    
+
     ✦ Resumo
 
 2.  **Gêneros de planejamento acadêmico**: São textos utilizados na organização das atividades de pesquisa, extensão ou ensino, geralmente em etapas iniciais.
 
     ✦ Plano de trablalho
-    
+
     ✦ Projeto de pesquisa
 
 3.  **Gêneros de informação/divulgação científica**: São produções destinadas à comunicação de resultados, experiências e reflexões, seja no meio acadêmico ou na interface com a sociedade.
 
     ✦ Artigo científico
-    
+
     ✦ Relato de experiência
-    
+
     ✦ Comunicação oral
-    
+
     ✦ Squib (ou nota técnica)
 
 4.  **Trabalhos finais de curso e pós-graduação**: São produções de caráter conclusivo, elaboradas ao término de cursos de graduação e pós-graduação, com exigências metodológicas formais.
 
     ✦ TCC ou Monografia
-    
+
     ✦ Dissertação (Mestrado)
-    
+
     ✦ Tese (Doutorado)

@@ -38,6 +38,7 @@ book:
       - Aula_9.qmd
       - Aula_10.qmd
       - Aula_11.qmd
+      - Aula_12.qmd
     - part: "Unidade III"
       chapters:
       - Aula_Y.qmd

@@ -2,7 +2,7 @@
 title: "2ª Avaliação"
 ---
 
-::: {.titulo-nao-numerado}
+::: titulo-nao-numerado
 Orientações para a 2ª avaliação
 :::
 
@@ -18,12 +18,12 @@ A mídia deve ser produzida **individualmente** e será publicada no **feed de u
 
 A mídia poderá assumir um dos seguintes formatos:
 
--   **Reel** (vídeo curto de até 90 segundos);
+-   **Reel** (vídeo curto de 60 a 90 segundos);
 -   **Carrossel** (sequência de **4 a 8 imagens**, organizadas em slides).
 
 O conteúdo da postagem **deve obrigatoriamente estar vinculado ao tema do plano de trabalho** em desenvolvimento na disciplina.
 
-::: {.nota-secundaria}
+::: nota-secundaria
 ❌ **Não é obrigatório** que você apareça na mídia, nem que utilize a própria voz. Pode-se usar apenas texto, imagens, música e narração artificial, desde que a comunicação seja clara e eficaz.
 :::
 
@@ -36,21 +36,19 @@ A postagem deverá permanecer no ar até, no mínimo, o dia **7 de julho de 2025
 
 A legenda deve ser **comunicativa** e **voltada ao público geral**, com o objetivo de valorizar o conhecimento científico, combater a desinformação e ampliar o acesso a dados confiáveis.
 
-**Este é um coletivo que preza pela ciência, defende-a e divulga-a.**  
-
 A legenda pode incluir, por exemplo:
 
-- Uma contextualização do dado apresentado; e/ou
-- Uma defesa do papel da ciência na sociedade; e/ou
-- Uma crítica a práticas negacionistas ou à desinformação; e/ou
-- Uma chamada à reflexão crítica, etc.
+-   Uma contextualização do dado apresentado; e/ou
+-   Uma defesa do papel da ciência na sociedade; e/ou
+-   Uma crítica a práticas negacionistas ou à desinformação; e/ou
+-   Uma chamada à reflexão crítica, etc.
 
-Ao final da legenda, incluir:
-- A **fonte confiável do dado apresentado** (formato autor, ano ou link);
-- As hashtags obrigatórias: `#Anete2025`, `#DivulgaçãoCientífica`, `#Ufersa`.
+Ao final da legenda, incluir: - A **fonte confiável do dado apresentado** (formato autor, ano ou link);
 
-::: {.nota-secundaria}
-❌  **Evite informações** técnicas ou institucionais voltadas apenas ao professor (como turma, matrícula ou menções ao plano de trabalho).
+-   As hashtags obrigatórias: `#Anete2025`, `#DivulgaçãoCientífica`, `#Ufersa`.
+
+::: nota-secundaria
+❌ **Evite informações** técnicas ou institucionais voltadas apenas ao professor (como turma, matrícula ou menções ao plano de trabalho).
 :::
 
 ## Orientações específicas por tipo de mídia
@@ -59,31 +57,29 @@ Ao final da legenda, incluir:
 ✅ Reel
 :::
 
-- Estrutura sugerida:
-  - **1. Apresentação do dado:** com impacto visual ou verbal;
-  - **2. Explicação breve:** o que o dado significa e de onde vem;
-  - **3. Conexão com um problema social ou científico relevante;**
-  - **4. Conclusão provocativa ou inspiradora** (“Já parou para pensar nisso?”).
-
-- Deve conter:
-  - Narração clara e/ou legendas legíveis;
-  - Organização lógica e coerente;
-  - Elementos visuais e sonoros que ampliem a compreensão;
-  - Tom convidativo, instigante e respeitoso com o público.
+-   Estrutura sugerida:
+    -   **1. Apresentação do dado:** com impacto visual ou verbal;
+    -   **2. Explicação breve:** o que o dado significa e de onde vem;
+    -   **3. Conexão com um problema social ou científico relevante;**
+    -   **4. Conclusão provocativa ou inspiradora** (“Já parou para pensar nisso?”).
+-   Deve conter:
+    -   Narração clara e/ou legendas legíveis;
+    -   Organização lógica e coerente;
+    -   Elementos visuais e sonoros que ampliem a compreensão;
+    -   Tom convidativo, instigante e respeitoso com o público.
 
 ::: subsubtitulo-nao-numerado
 ✅ Carrossel
 :::
 
-- Estrutura sugerida:  
-  - **Apresentação do dado ou pergunta provocativa** (slides 1-2);  
-  - **Explicação e desenvolvimento do tema** (slides 3-4);  
-  - **Implicações e chamada à reflexão ou ação** (slides finais).
-  
-- Deve conter:
-  - Tipografia e cores que facilitem a leitura;
-  - Uniformidade gráfica entre os slides;
-  - Conteúdo coeso e progressivo.
+-   Estrutura sugerida:
+    -   **Apresentação do dado ou pergunta provocativa** (slides 1-2);\
+    -   **Explicação e desenvolvimento do tema** (slides 3-4);\
+    -   **Implicações e chamada à reflexão ou ação** (slides finais).
+-   Deve conter:
+    -   Tipografia e cores que facilitem a leitura;
+    -   Uniformidade gráfica entre os slides;
+    -   Conteúdo coeso e progressivo.
 
 ## Relatório reflexivo de produção
 
@@ -127,3 +123,6 @@ A nota será composta por:
 ## Reposição da avaliação
 
 Caso o(a) estudante **não realize a avaliação na data estipulada** e ainda tenha direito à reposição, será oferecido novo prazo. A avaliação substitutiva **seguirá os mesmos moldes**, com nova data de postagem e novo momento de produção do relatório.
+
+
+### Termo de consentimento do uso da mídia

@@ -98,6 +98,22 @@
   color: #2b2b2b;
 }
 
+/* Ênfase */
+.enfase {
+  background-color: #001f3f; /* azul escuro */
+  color: #ffff00; /* amarelo */
+  padding: 1em;
+  border-radius: 8px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.3em; /* aumenta o tamanho da fonte */
+}
+
+
+
+
+
+
 /* Formulários (ex: envio de atividades, feedback) */
 .formulario {
   background-color: #f8f9fa;

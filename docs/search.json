@@ -638,421 +638,465 @@
     ]
   },
   {
+    "objectID": "Aula_12.html",
+    "href": "Aula_12.html",
+    "title": "14  Fichamento",
+    "section": "",
+    "text": "14.1 Objetivos de aprendizagem\nAo final desta aula, espera-se que você seja capaz de:",
+    "crumbs": [
+      "Unidade II",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Fichamento</span>"
+    ]
+  },
+  {
+    "objectID": "Aula_12.html#objetivos-de-aprendizagem",
+    "href": "Aula_12.html#objetivos-de-aprendizagem",
+    "title": "14  Fichamento",
+    "section": "",
+    "text": "Explicar o conceito e o objetivo do fichamento acadêmico.\nReconhecer os tipos de fichamento e suas aplicações na produção científica.\nRealizar um fichamento de resumo/conteúdo no Zotero.\nUtilizar o Zotero no celular para organizar fichamentos e referências.\n\n\nLeituras indicadas:\nCASTRO, Nádia Studzinski Estima de et al. Leitura e escrita acadêmicas. Porto Alegre: Sagah, 2019. Capítulo: “Fichamento acadêmico”, p. 53–64.\n🔗 Acesso à leitura\nCAMPOS, M. Gêneros acadêmicos: resenha, fichamento, memorial e projeto de pesquisa. Mariana: Fundação Presidente Antônio Carlos, 2010. Capítulo: “Como elaborar um fichamento”. 🔗 Acesso à leitura",
+    "crumbs": [
+      "Unidade II",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Fichamento</span>"
+    ]
+  },
+  {
+    "objectID": "Aula_12.html#introdução",
+    "href": "Aula_12.html#introdução",
+    "title": "14  Fichamento",
+    "section": "14.2 Introdução",
+    "text": "14.2 Introdução\nO fichamento é um gênero de texto que, Segundo Castro et al. (2019, p. 53), consiste no registro sistemático das leituras realizadas, funcionando como um apoio à organização do conhecimento e à futura redação dos trabalhos científicos.\nCastro e outros (2019, p. 53) afirmam que o objetivo do fichamento é\n\n“[…] armazenar informações importantes de forma organizada e prática, permitindo ao estudante retomar os conteúdos lidos sem a necessidade de reler o texto na íntegra”.\n\nEm outras palavras, o fichamento ajuda a otimizar o tempo e a garantir rigor na utilização das fontes.\nHá diversos tipos de fichamento:\n\nFichamento bibliográfico\n\nTraz a referência completa da obra e indica partes importantes da estrutura, como capítulos e tópicos relevantes.\n\n  \n  Figura 1. Exemplo de fichamento bibliográfico. Extraido de Campos (2010).\n\n\n\n  \n  Figura 2. Exemplo de fichamento bibliográfico no Zotero. Elaborado pelo professor.\n\n\n\nFichamento de citações\n\nRegistra trechos literais da obra, devidamente indicados entre aspas e com a referência da página.\n\n  \n  Figura 3. Exemplo de fichamento de citações. Extraido de Campos (2010).\n\n\n\n  \n  Figura 4. Exemplo de fichamento de citações no Zotero. Elaborado pelo professor.\n\n\n\nFichamento de resumo\n\nApresenta, com as palavras do próprio estudante, as ideias principais do texto lido, organizadas de acordo com a necessidade da pesquisa.\nO fichamento de resumo […] “exige uma leitura atenta e reflexiva, pois implica reelaborar as ideias do autor com fidelidade e clareza” (Castro et al., 2019).\n\n  \n  Figura 5. Exemplo de fichamento de resumo. Extraido de Campos (2010).\n\n\n\n  \n  Figura 6. Exemplo de fichamento de resumo no Zotero. Elaborado pelo professor.\n\n\n\nAlém de ser uma ferramenta de estudo, o fichamento colabora para o desenvolvimento da autonomia intelectual, na medida em que o estudante exercita a seleção e organização de informações, preparando-se para o diálogo crítico com os textos.",
+    "crumbs": [
+      "Unidade II",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Fichamento</span>"
+    ]
+  },
+  {
+    "objectID": "Aula_12.html#aprendizagem-prática",
+    "href": "Aula_12.html#aprendizagem-prática",
+    "title": "14  Fichamento",
+    "section": "14.3 Aprendizagem prática",
+    "text": "14.3 Aprendizagem prática\nElabore um fichamento de resumo combinado com fichamento de citações do artigo selecionado para a sua mídia de divulgação científica. O fichamento deve conter cerca de 200 a 300 palavras e estar organizado no campo Notas da entrada do Zotero. Estruture da seguinte forma:\n\nUma síntese das ideias principais, em tópicos, com suas palavras.\nAté três citações diretas relevantes (com indicação da página).\nObservações pessoais ou críticas que possam embasar sua produção da mídia.\n\n\n\n  \n  Figura 7. Exemplo de fichamento de resumo combinado com fichamento de citações no Zotero. Elaborado pelo professor.\n\n\n\n\n\n\nApós a leitura atenta do artigo que você selecionou para a elaboração da mídia de divulgação científica e a realização do fichamento por suas próprias habilidades, crie um prompt para gerar, com apoio de inteligência artificial, um fichamento de resumo combinado com um fichamento de citações. Copie a resposta ao prompt, revise-a criticamente e cole o resultado no campo Notas do artigo registrado no Zotero.\n\n⚠️ Compartilhe o prompt criado por você no chat da turma. No chat, está liberado dialogarmos sobre os prompts a fim de aprimorarmos eticamente nossas habilidades de uso da IA.",
+    "crumbs": [
+      "Unidade II",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Fichamento</span>"
+    ]
+  },
+  {
     "objectID": "Aula_Y.html",
     "href": "Aula_Y.html",
-    "title": "14  Aula",
+    "title": "15  Aula",
     "section": "",
-    "text": "14.1 Objetivos de aprendizagem\nRoteiro de aula elaborado no RStudio com o auxílio da inteligência artificial ChatGPT, revisado e avaliado pelo professor antes de sua publicação.",
+    "text": "15.1 Objetivos de aprendizagem\nRoteiro de aula elaborado no RStudio com o auxílio da inteligência artificial ChatGPT, revisado e avaliado pelo professor antes de sua publicação.",
     "crumbs": [
       "Unidade III",
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Aula</span>"
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Aula</span>"
     ]
   },
   {
     "objectID": "Aula_Y.html#objetivos-de-aprendizagem",
     "href": "Aula_Y.html#objetivos-de-aprendizagem",
-    "title": "14  Aula",
+    "title": "15  Aula",
     "section": "",
     "text": "Objetivo 1\nObjetivo 2\nObjetivo 3\n\n\nLeitura indicada:\nTexto, capítulo do livro Capítulo, de Autores.\n[🔗 Acesso à leitura indicada](https…)",
     "crumbs": [
       "Unidade III",
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Aula</span>"
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Aula</span>"
     ]
   },
   {
     "objectID": "Aula_Y.html#introdução",
     "href": "Aula_Y.html#introdução",
-    "title": "14  Aula",
-    "section": "14.2 Introdução",
-    "text": "14.2 Introdução",
+    "title": "15  Aula",
+    "section": "15.2 Introdução",
+    "text": "15.2 Introdução",
     "crumbs": [
       "Unidade III",
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Aula</span>"
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Aula</span>"
     ]
   },
   {
     "objectID": "Aula_Y.html#aprendizagem-prática",
     "href": "Aula_Y.html#aprendizagem-prática",
-    "title": "14  Aula",
-    "section": "14.3 Aprendizagem prática",
-    "text": "14.3 Aprendizagem prática\n\n14.3.1 Questão 1\n\n\n\n\nResposta\n\n\n\n\n\n14.3.2 Questão 2\n\n\n\n\nResposta\n\n\n\n\n⚠️Importante⚠️\n\n\nQuadro de instruções",
+    "title": "15  Aula",
+    "section": "15.3 Aprendizagem prática",
+    "text": "15.3 Aprendizagem prática\n\n15.3.1 Questão 1\n\n\n\n\nResposta\n\n\n\n\n\n15.3.2 Questão 2\n\n\n\n\nResposta\n\n\n\n\n⚠️Importante⚠️\n\n\nQuadro de instruções",
     "crumbs": [
       "Unidade III",
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Aula</span>"
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Aula</span>"
     ]
   },
   {
     "objectID": "Aula_Y.html#encerramento",
     "href": "Aula_Y.html#encerramento",
-    "title": "14  Aula",
-    "section": "14.4 Encerramento",
-    "text": "14.4 Encerramento",
+    "title": "15  Aula",
+    "section": "15.4 Encerramento",
+    "text": "15.4 Encerramento",
     "crumbs": [
       "Unidade III",
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Aula</span>"
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Aula</span>"
     ]
   },
   {
     "objectID": "tutorial_zotero.html",
     "href": "tutorial_zotero.html",
-    "title": "15  Zotero: Gerenciador de referências bibliográficas",
+    "title": "16  Zotero: Gerenciador de referências bibliográficas",
     "section": "",
-    "text": "16 Tutorial para iniciantes no Zotero\nEste tutorial apresenta o passo a passo básico para começar a usar o Zotero, um gerenciador de referências bibliográficas gratuito e de código aberto.",
+    "text": "17 Tutorial para iniciantes no Zotero\nEste tutorial apresenta o passo a passo básico para começar a usar o Zotero, um gerenciador de referências bibliográficas gratuito e de código aberto.",
     "crumbs": [
       "Tutoriais",
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Zotero: Gerenciador de referências bibliográficas</span>"
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Zotero: Gerenciador de referências bibliográficas</span>"
     ]
   },
   {
     "objectID": "tutorial_zotero.html#baixando-e-instalando-o-zotero",
     "href": "tutorial_zotero.html#baixando-e-instalando-o-zotero",
-    "title": "15  Zotero: Gerenciador de referências bibliográficas",
-    "section": "16.1 1. Baixando e instalando o Zotero",
-    "text": "16.1 1. Baixando e instalando o Zotero\n\nAcesse o site oficial:\nhttps://www.zotero.org/download\nEscolha seu sistema operacional:\n\nMacOS: Clique em Download for macOS. Após o download, abra o instalador e arraste o Zotero para a pasta Aplicativos.\nWindows: Clique em Download for Windows. Execute o instalador (.exe) e siga as instruções na tela.\nLinux: Clique em Download for Linux. Baixe a versão adequada, extraia a pasta e execute o arquivo Zotero, ou siga as instruções específicas para sua distribuição (ex.: terminal no Ubuntu).",
+    "title": "16  Zotero: Gerenciador de referências bibliográficas",
+    "section": "17.1 1. Baixando e instalando o Zotero",
+    "text": "17.1 1. Baixando e instalando o Zotero\n\nAcesse o site oficial:\nhttps://www.zotero.org/download\nEscolha seu sistema operacional:\n\nMacOS: Clique em Download for macOS. Após o download, abra o instalador e arraste o Zotero para a pasta Aplicativos.\nWindows: Clique em Download for Windows. Execute o instalador (.exe) e siga as instruções na tela.\nLinux: Clique em Download for Linux. Baixe a versão adequada, extraia a pasta e execute o arquivo Zotero, ou siga as instruções específicas para sua distribuição (ex.: terminal no Ubuntu).",
     "crumbs": [
       "Tutoriais",
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Zotero: Gerenciador de referências bibliográficas</span>"
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Zotero: Gerenciador de referências bibliográficas</span>"
     ]
   },
   {
     "objectID": "tutorial_zotero.html#instalando-o-zotero-connector-no-navegador",
     "href": "tutorial_zotero.html#instalando-o-zotero-connector-no-navegador",
-    "title": "15  Zotero: Gerenciador de referências bibliográficas",
-    "section": "16.2 2. Instalando o Zotero Connector no navegador",
-    "text": "16.2 2. Instalando o Zotero Connector no navegador\n\nNo mesmo site, clique em Install Zotero Connector.\nVocê será direcionado para a loja de extensões do seu navegador (Chrome, Firefox ou Edge).\nClique em Adicionar ao navegador e confirme a instalação.\nO ícone do Zotero (uma folha com a letra Z) aparecerá próximo à barra de endereços do navegador.",
+    "title": "16  Zotero: Gerenciador de referências bibliográficas",
+    "section": "17.2 2. Instalando o Zotero Connector no navegador",
+    "text": "17.2 2. Instalando o Zotero Connector no navegador\n\nNo mesmo site, clique em Install Zotero Connector.\nVocê será direcionado para a loja de extensões do seu navegador (Chrome, Firefox ou Edge).\nClique em Adicionar ao navegador e confirme a instalação.\nO ícone do Zotero (uma folha com a letra Z) aparecerá próximo à barra de endereços do navegador.",
     "crumbs": [
       "Tutoriais",
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Zotero: Gerenciador de referências bibliográficas</span>"
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Zotero: Gerenciador de referências bibliográficas</span>"
     ]
   },
   {
     "objectID": "tutorial_zotero.html#definindo-o-estilo-de-citação-e-referência",
     "href": "tutorial_zotero.html#definindo-o-estilo-de-citação-e-referência",
-    "title": "15  Zotero: Gerenciador de referências bibliográficas",
-    "section": "16.3 3. Definindo o estilo de citação e referência",
-    "text": "16.3 3. Definindo o estilo de citação e referência\n\nAbra o Zotero.\nNo menu superior, clique em:\n\nZotero &gt; Preferences (macOS)\nEdit &gt; Preferences (Windows/Linux)\n\nSelecione a aba Cite, depois a subaba Styles.\nEscolha o estilo desejado (no Brasil, recomenda-se ABNT).\nSe não estiver listado, clique em Get additional styles, pesquise por “ABNT” e instale:\n\nUniversidade Federal do Rio Grande do Sul - ABNT (autoria completa) (Português - Brasil).",
+    "title": "16  Zotero: Gerenciador de referências bibliográficas",
+    "section": "17.3 3. Definindo o estilo de citação e referência",
+    "text": "17.3 3. Definindo o estilo de citação e referência\n\nAbra o Zotero.\nNo menu superior, clique em:\n\nZotero &gt; Preferences (macOS)\nEdit &gt; Preferences (Windows/Linux)\n\nSelecione a aba Cite, depois a subaba Styles.\nEscolha o estilo desejado (no Brasil, recomenda-se ABNT).\nSe não estiver listado, clique em Get additional styles, pesquise por “ABNT” e instale:\n\nUniversidade Federal do Rio Grande do Sul - ABNT (autoria completa) (Português - Brasil).",
     "crumbs": [
       "Tutoriais",
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Zotero: Gerenciador de referências bibliográficas</span>"
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Zotero: Gerenciador de referências bibliográficas</span>"
     ]
   },
   {
     "objectID": "tutorial_zotero.html#criando-coleções-e-adicionando-itens",
     "href": "tutorial_zotero.html#criando-coleções-e-adicionando-itens",
-    "title": "15  Zotero: Gerenciador de referências bibliográficas",
-    "section": "16.4 4. Criando coleções e adicionando Itens",
-    "text": "16.4 4. Criando coleções e adicionando Itens\n\n16.4.1 Crie uma coleção\n\nClique com o botão direito em Minha Biblioteca e selecione Nova coleção.\nNomeie a coleção (ex.: Projeto Argumentação) e pressione Enter.\n\n\n\n16.4.2 Adicione um item manualmente\n\nCom a coleção aberta, clique no botão + (Novo Item) na barra superior.\nEscolha o tipo de material (Artigo, Livro, Tese, etc.).\nPreencha os campos na coluna da direita: título, autor(es), ano, editora, DOI, URL, etc.\n\n\n\n16.4.3 Adicione um item automaticamente\n\nAcesse um artigo em sites como Google Acadêmico ou SciELO.\nClique no ícone do Zotero Connector no navegador.\nSelecione a coleção de destino.\nO item será salvo automaticamente com os metadados.",
+    "title": "16  Zotero: Gerenciador de referências bibliográficas",
+    "section": "17.4 4. Criando coleções e adicionando Itens",
+    "text": "17.4 4. Criando coleções e adicionando Itens\n\n17.4.1 Crie uma coleção\n\nClique com o botão direito em Minha Biblioteca e selecione Nova coleção.\nNomeie a coleção (ex.: Projeto Argumentação) e pressione Enter.\n\n\n\n17.4.2 Adicione um item manualmente\n\nCom a coleção aberta, clique no botão + (Novo Item) na barra superior.\nEscolha o tipo de material (Artigo, Livro, Tese, etc.).\nPreencha os campos na coluna da direita: título, autor(es), ano, editora, DOI, URL, etc.\n\n\n\n17.4.3 Adicione um item automaticamente\n\nAcesse um artigo em sites como Google Acadêmico ou SciELO.\nClique no ícone do Zotero Connector no navegador.\nSelecione a coleção de destino.\nO item será salvo automaticamente com os metadados.",
     "crumbs": [
       "Tutoriais",
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Zotero: Gerenciador de referências bibliográficas</span>"
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Zotero: Gerenciador de referências bibliográficas</span>"
     ]
   },
   {
     "objectID": "tutorial_zotero.html#inserindo-citações-e-referências-em-documentos-no-google-docs",
     "href": "tutorial_zotero.html#inserindo-citações-e-referências-em-documentos-no-google-docs",
-    "title": "15  Zotero: Gerenciador de referências bibliográficas",
-    "section": "16.5 5. Inserindo citações e referências em documentos no Google Docs",
-    "text": "16.5 5. Inserindo citações e referências em documentos no Google Docs\n\n💡 Pré-requisito: Mantenha o Zotero aberto durante o processo.\n\n\n16.5.1 Insira citação\n\nAbra um documento no Google Docs.\nClique no menu Zotero que aparece na barra do Google Docs.\nSelecione Add/Edit Citation.\nDigite o título, autor ou ano, escolha o item e pressione Enter.\n\n\n\n16.5.2 Insira bibliografia\n\nNo final do documento, clique novamente em Zotero.\nSelecione Add/Edit Bibliography.\nA lista de referências será gerada automaticamente com base nas citações inseridas.",
+    "title": "16  Zotero: Gerenciador de referências bibliográficas",
+    "section": "17.5 5. Inserindo citações e referências em documentos no Google Docs",
+    "text": "17.5 5. Inserindo citações e referências em documentos no Google Docs\n\n💡 Pré-requisito: Mantenha o Zotero aberto durante o processo.\n\n\n17.5.1 Insira citação\n\nAbra um documento no Google Docs.\nClique no menu Zotero que aparece na barra do Google Docs.\nSelecione Add/Edit Citation.\nDigite o título, autor ou ano, escolha o item e pressione Enter.\n\n\n\n17.5.2 Insira bibliografia\n\nNo final do documento, clique novamente em Zotero.\nSelecione Add/Edit Bibliography.\nA lista de referências será gerada automaticamente com base nas citações inseridas.",
     "crumbs": [
       "Tutoriais",
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Zotero: Gerenciador de referências bibliográficas</span>"
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Zotero: Gerenciador de referências bibliográficas</span>"
     ]
   },
   {
     "objectID": "tutorial_zotero.html#sincronizando-com-a-nuvem-do-zotero",
     "href": "tutorial_zotero.html#sincronizando-com-a-nuvem-do-zotero",
-    "title": "15  Zotero: Gerenciador de referências bibliográficas",
-    "section": "16.6 6. Sincronizando com a nuvem do Zotero",
-    "text": "16.6 6. Sincronizando com a nuvem do Zotero\n\n16.6.1 Crie uma conta Zotero\n\nAcesse https://www.zotero.org/user/register.\nPreencha os campos solicitados e confirme o cadastro pelo e-mail.\n\n\n\n16.6.2 Configure a sincronização\n\nAbra o Zotero e vá em Zotero &gt; Preferences &gt; Sync.\nInsira seu e-mail e senha da conta Zotero.\nAtive as opções Sync automatically e Sync full-text content.\nClique em Set up syncing e depois em OK.\n\n\n\n16.6.3 Confirme o backup online\n\nAcesse https://www.zotero.org e faça login.\nClique em Web Library no menu superior.\nVerifique se as coleções e os itens estão sincronizados corretamente.\n\n\n\n\n16.6.4 📌 Algumas considerações…\n\nOrganize suas referências de forma prática.\nGaranta a correta formatação de citações e referências conforme normas da ABNT.\nSincronize sua biblioteca entre diferentes dispositivos.\nPara mais informações, acesse a Documentação Oficial do Zotero.",
+    "title": "16  Zotero: Gerenciador de referências bibliográficas",
+    "section": "17.6 6. Sincronizando com a nuvem do Zotero",
+    "text": "17.6 6. Sincronizando com a nuvem do Zotero\n\n17.6.1 Crie uma conta Zotero\n\nAcesse https://www.zotero.org/user/register.\nPreencha os campos solicitados e confirme o cadastro pelo e-mail.\n\n\n\n17.6.2 Configure a sincronização\n\nAbra o Zotero e vá em Zotero &gt; Preferences &gt; Sync.\nInsira seu e-mail e senha da conta Zotero.\nAtive as opções Sync automatically e Sync full-text content.\nClique em Set up syncing e depois em OK.\n\n\n\n17.6.3 Confirme o backup online\n\nAcesse https://www.zotero.org e faça login.\nClique em Web Library no menu superior.\nVerifique se as coleções e os itens estão sincronizados corretamente.\n\n\n\n\n17.6.4 📌 Algumas considerações…\n\nOrganize suas referências de forma prática.\nGaranta a correta formatação de citações e referências conforme normas da ABNT.\nSincronize sua biblioteca entre diferentes dispositivos.\nPara mais informações, acesse a Documentação Oficial do Zotero.",
     "crumbs": [
       "Tutoriais",
-      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Zotero: Gerenciador de referências bibliográficas</span>"
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Zotero: Gerenciador de referências bibliográficas</span>"
     ]
   },
   {
     "objectID": "tutorial_capes.html",
     "href": "tutorial_capes.html",
-    "title": "16  Portal de periódicos da Capes",
+    "title": "17  Portal de periódicos da Capes",
     "section": "",
-    "text": "17 Tutorial para iniciantes no Portal de Periódicos Capes\nEste tutorial irá guiá-lo pelos passos básicos para começar suas pesquisas no Portal de Periódicos Capes, explorando as diferentes formas de encontrar materiais para seu trabalho acadêmico.",
+    "text": "18 Tutorial para iniciantes no Portal de Periódicos Capes\nEste tutorial irá guiá-lo pelos passos básicos para começar suas pesquisas no Portal de Periódicos Capes, explorando as diferentes formas de encontrar materiais para seu trabalho acadêmico.",
     "crumbs": [
       "Tutoriais",
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Portal de periódicos da Capes</span>"
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Portal de periódicos da Capes</span>"
     ]
   },
   {
     "objectID": "tutorial_capes.html#acessando-o-portal-tipos-de-acesso",
     "href": "tutorial_capes.html#acessando-o-portal-tipos-de-acesso",
-    "title": "16  Portal de periódicos da Capes",
-    "section": "17.1 1. Acessando o Portal (tipos de acesso)",
-    "text": "17.1 1. Acessando o Portal (tipos de acesso)\n\nComo Acessar:\nAbra o Google e digite “Periódicos Capes”. O site correto é https://www.periodicos.Capes.gov.br.\nTipos de Conteúdo/Acesso:\n\nConteúdo livre: disponível para qualquer pessoa.\nConteúdo assinado: disponível para os IPs identificados das instituições participantes. Caso você esteja acessando fora da rede da sua instituição, é necessário efetuar o login na Comunidade Acadêmica Federada (CAFe). A Ufersa é instituição parceira).\n\nPara acessar o conteúdo assinado, clique em “Acesso CAFE”, selecione sua instituição e insira o login e a senha fornecidos pela universidade.\nNo canto esquerdo, você verá se está conectado à sua instituição ou em acesso livre.",
+    "title": "17  Portal de periódicos da Capes",
+    "section": "18.1 1. Acessando o Portal (tipos de acesso)",
+    "text": "18.1 1. Acessando o Portal (tipos de acesso)\n\nComo Acessar:\nAbra o Google e digite “Periódicos Capes”. O site correto é https://www.periodicos.Capes.gov.br.\nTipos de Conteúdo/Acesso:\n\nConteúdo livre: disponível para qualquer pessoa.\nConteúdo assinado: disponível para os IPs identificados das instituições participantes. Caso você esteja acessando fora da rede da sua instituição, é necessário efetuar o login na Comunidade Acadêmica Federada (CAFe). A Ufersa é instituição parceira).\n\nPara acessar o conteúdo assinado, clique em “Acesso CAFE”, selecione sua instituição e insira o login e a senha fornecidos pela universidade.\nNo canto esquerdo, você verá se está conectado à sua instituição ou em acesso livre.",
     "crumbs": [
       "Tutoriais",
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Portal de periódicos da Capes</span>"
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Portal de periódicos da Capes</span>"
     ]
   },
   {
     "objectID": "tutorial_capes.html#meu-espaço",
     "href": "tutorial_capes.html#meu-espaço",
-    "title": "16  Portal de periódicos da Capes",
-    "section": "17.2 2. “Meu Espaço”",
-    "text": "17.2 2. “Meu Espaço”\n\nQualquer pessoa pode se cadastrar em “Meu Espaço”, mesmo sem vínculo institucional.\nIsso permite salvar histórico de buscas e acessar funcionalidades adicionais.",
+    "title": "17  Portal de periódicos da Capes",
+    "section": "18.2 2. “Meu Espaço”",
+    "text": "18.2 2. “Meu Espaço”\n\nQualquer pessoa pode se cadastrar em “Meu Espaço”, mesmo sem vínculo institucional.\nIsso permite salvar histórico de buscas e acessar funcionalidades adicionais.",
     "crumbs": [
       "Tutoriais",
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Portal de periódicos da Capes</span>"
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Portal de periódicos da Capes</span>"
     ]
   },
   {
     "objectID": "tutorial_capes.html#explorando-as-opções-de-busca",
     "href": "tutorial_capes.html#explorando-as-opções-de-busca",
-    "title": "16  Portal de periódicos da Capes",
-    "section": "17.3 3. Explorando as opções de busca",
-    "text": "17.3 3. Explorando as opções de busca\n\nClique em “Acervo” no menu principal.\nAs opções principais são:\n\nBuscar Assunto\nListar Bases e Coleções\nListar Livros\nListar Periódicos",
+    "title": "17  Portal de periódicos da Capes",
+    "section": "18.3 3. Explorando as opções de busca",
+    "text": "18.3 3. Explorando as opções de busca\n\nClique em “Acervo” no menu principal.\nAs opções principais são:\n\nBuscar Assunto\nListar Bases e Coleções\nListar Livros\nListar Periódicos",
     "crumbs": [
       "Tutoriais",
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Portal de periódicos da Capes</span>"
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Portal de periódicos da Capes</span>"
     ]
   },
   {
     "objectID": "tutorial_capes.html#busca-simples-por-assunto",
     "href": "tutorial_capes.html#busca-simples-por-assunto",
-    "title": "16  Portal de periódicos da Capes",
-    "section": "17.4 4. Busca simples por assunto",
-    "text": "17.4 4. Busca simples por assunto\n\nClique em “Buscar Assunto”.\nDigite o tema (ex.: teletrabalho).\nClique na lupa.\nNos resultados:\n\nCadeado verde = acesso aberto.\nClique em “acessar” para ler ou baixar o material.",
+    "title": "17  Portal de periódicos da Capes",
+    "section": "18.4 4. Busca simples por assunto",
+    "text": "18.4 4. Busca simples por assunto\n\nClique em “Buscar Assunto”.\nDigite o tema (ex.: teletrabalho).\nClique na lupa.\nNos resultados:\n\nCadeado verde = acesso aberto.\nClique em “acessar” para ler ou baixar o material.",
     "crumbs": [
       "Tutoriais",
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Portal de periódicos da Capes</span>"
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Portal de periódicos da Capes</span>"
     ]
   },
   {
     "objectID": "tutorial_capes.html#busca-avançada-e-específica",
     "href": "tutorial_capes.html#busca-avançada-e-específica",
-    "title": "16  Portal de periódicos da Capes",
-    "section": "17.5 5. Busca avançada e específica",
-    "text": "17.5 5. Busca avançada e específica\n\nNa tela de resultados, clique em “Busca Avançada”.\nConfigure os campos e use operadores booleanos:\n\nAND: restringe (ex.: “teletrabalho AND servidores públicos”).\nOR: amplia (ex.: “teletrabalho OR home office”).\nNOT: exclui (ex.: “teletrabalho NOT servidores públicos”).\nAspas (““): busca exata (ex.: “servidores públicos”).\n\nAplique filtros na lateral esquerda:\n\nTipo de acesso (livre ou assinado)\nTipo de recurso (artigo, livro, etc.)\nData de publicação\nÁrea do conhecimento\nIdioma",
+    "title": "17  Portal de periódicos da Capes",
+    "section": "18.5 5. Busca avançada e específica",
+    "text": "18.5 5. Busca avançada e específica\n\nNa tela de resultados, clique em “Busca Avançada”.\nConfigure os campos e use operadores booleanos:\n\nAND: restringe (ex.: “teletrabalho AND servidores públicos”).\nOR: amplia (ex.: “teletrabalho OR home office”).\nNOT: exclui (ex.: “teletrabalho NOT servidores públicos”).\nAspas (““): busca exata (ex.: “servidores públicos”).\n\nAplique filtros na lateral esquerda:\n\nTipo de acesso (livre ou assinado)\nTipo de recurso (artigo, livro, etc.)\nData de publicação\nÁrea do conhecimento\nIdioma",
     "crumbs": [
       "Tutoriais",
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Portal de periódicos da Capes</span>"
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Portal de periódicos da Capes</span>"
     ]
   },
   {
     "objectID": "tutorial_capes.html#explorando-bases-livros-e-periódicos",
     "href": "tutorial_capes.html#explorando-bases-livros-e-periódicos",
-    "title": "16  Portal de periódicos da Capes",
-    "section": "17.6 6. Explorando bases, livros e periódicos",
-    "text": "17.6 6. Explorando bases, livros e periódicos\n\nListar Bases e Coleções: Repositórios e bibliotecas digitais.\nListar Livros: Busque livros por título ou ISBN.\nListar Periódicos: Navegue por revistas científicas específicas.\n\n\n\n17.6.1 📌 Algumas considerações…\n\nO Portal está em constante atualização.\nCombine buscas básicas, avançadas e filtros para melhores resultados.\nExplore repositórios institucionais e revistas específicas além da busca por assunto.\nPara dúvidas ou orientações, consulte a equipe da biblioteca da sua instituição.",
+    "title": "17  Portal de periódicos da Capes",
+    "section": "18.6 6. Explorando bases, livros e periódicos",
+    "text": "18.6 6. Explorando bases, livros e periódicos\n\nListar Bases e Coleções: Repositórios e bibliotecas digitais.\nListar Livros: Busque livros por título ou ISBN.\nListar Periódicos: Navegue por revistas científicas específicas.\n\n\n\n18.6.1 📌 Algumas considerações…\n\nO Portal está em constante atualização.\nCombine buscas básicas, avançadas e filtros para melhores resultados.\nExplore repositórios institucionais e revistas específicas além da busca por assunto.\nPara dúvidas ou orientações, consulte a equipe da biblioteca da sua instituição.",
     "crumbs": [
       "Tutoriais",
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Portal de periódicos da Capes</span>"
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Portal de periódicos da Capes</span>"
     ]
   },
   {
     "objectID": "tutorial_tema_pesquisa.html",
     "href": "tutorial_tema_pesquisa.html",
-    "title": "17  Tema e pergunta de pesquisa para seu plano de trabalho.",
+    "title": "18  Tema e pergunta de pesquisa para seu plano de trabalho.",
     "section": "",
-    "text": "17.1 Introdução",
+    "text": "18.1 Introdução",
     "crumbs": [
       "Tutoriais",
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Tema e pergunta de pesquisa para seu plano de trabalho.</span>"
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Tema e pergunta de pesquisa para seu plano de trabalho.</span>"
     ]
   },
   {
     "objectID": "tutorial_tema_pesquisa.html#mapa-mental-de-interesses",
     "href": "tutorial_tema_pesquisa.html#mapa-mental-de-interesses",
-    "title": "17  Tema e pergunta de pesquisa para seu plano de trabalho.",
-    "section": "17.2 Mapa mental de interesses",
-    "text": "17.2 Mapa mental de interesses\n\nNo centro da folha, escreva um tema amplo que desperte seu interesse (por exemplo: educação, tecnologia, política, saúde, meio ambiente).\nAo redor desse tema, desenhe ramificações com palavras associadas ou subtemas (exemplo: educação → escola, professores, métodos de ensino, leitura, desigualdade, avaliação).\nPara cada palavra associada, adicione mais ramificações com situações reais, experiências vividas ou problemas observados relacionados a ela.\nPor fim, destaque com uma cor as ramificações que mais despertam sua curiosidade ou vontade de investigar.\n\nEsse exercício ajudará você a identificar objetos mais específicos dentro de temas amplos, facilitando a próxima etapa: a formulação de perguntas.",
+    "title": "18  Tema e pergunta de pesquisa para seu plano de trabalho.",
+    "section": "18.2 Mapa mental de interesses",
+    "text": "18.2 Mapa mental de interesses\n\nNo centro da folha, escreva um tema amplo que desperte seu interesse (por exemplo: educação, tecnologia, política, saúde, meio ambiente).\nAo redor desse tema, desenhe ramificações com palavras associadas ou subtemas (exemplo: educação → escola, professores, métodos de ensino, leitura, desigualdade, avaliação).\nPara cada palavra associada, adicione mais ramificações com situações reais, experiências vividas ou problemas observados relacionados a ela.\nPor fim, destaque com uma cor as ramificações que mais despertam sua curiosidade ou vontade de investigar.\n\nEsse exercício ajudará você a identificar objetos mais específicos dentro de temas amplos, facilitando a próxima etapa: a formulação de perguntas.",
     "crumbs": [
       "Tutoriais",
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Tema e pergunta de pesquisa para seu plano de trabalho.</span>"
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Tema e pergunta de pesquisa para seu plano de trabalho.</span>"
     ]
   },
   {
     "objectID": "tutorial_tema_pesquisa.html#dos-temas-às-perguntas",
     "href": "tutorial_tema_pesquisa.html#dos-temas-às-perguntas",
-    "title": "17  Tema e pergunta de pesquisa para seu plano de trabalho.",
-    "section": "17.3 Dos temas às perguntas",
-    "text": "17.3 Dos temas às perguntas\nPara um tema virar pesquisa, é necessário que se delimite o foco e se formule uma pergunta com verbo. Exemplos:\n1. Tecnologia\nTema vago: “Tecnologia na vida das pessoas”\nDelimitação: uso de smartphones por adolescentes em escolas públicas\nPergunta: “Como o uso do smartphone impacta a concentração de adolescentes no ensino médio em escolas públicas urbanas?”\n2. Educação\nTema vago: “Educação no Brasil”\nDelimitação: formação de professores de matemática nos anos finais do ensino fundamental\nPergunta: “Que desafios enfrentam professores recém-formados para ensinar matemática nos anos finais do ensino fundamental em escolas públicas?”\n3. Mudanças climáticas\nTema vago: “Aquecimento global”\nDelimitação: percepção de agricultores familiares sobre eventos climáticos extremos\nPergunta: “Como agricultores familiares do semiárido percebem e se adaptam aos eventos climáticos extremos associados às mudanças climáticas?”\n4. Política\nTema vago: “Crise política brasileira”\nDelimitação: discursos de desinformação em redes sociais durante eleições\nPergunta: “Como os discursos de desinformação se disseminaram nas redes sociais durante as eleições presidenciais de 2022?”\n5. Saúde\nTema vago: “Saúde mental”\nDelimitação: ansiedade entre estudantes universitários durante o ensino remoto\nPergunta: “Quais fatores contribuíram para o aumento da ansiedade entre estudantes universitários durante o período de ensino remoto na pandemia?”\nToda pergunta precisa conter um verbo claro e indicar um problema ou relação a ser investigada.",
+    "title": "18  Tema e pergunta de pesquisa para seu plano de trabalho.",
+    "section": "18.3 Dos temas às perguntas",
+    "text": "18.3 Dos temas às perguntas\nPara um tema virar pesquisa, é necessário que se delimite o foco e se formule uma pergunta com verbo. Exemplos:\n1. Tecnologia\nTema vago: “Tecnologia na vida das pessoas”\nDelimitação: uso de smartphones por adolescentes em escolas públicas\nPergunta: “Como o uso do smartphone impacta a concentração de adolescentes no ensino médio em escolas públicas urbanas?”\n2. Educação\nTema vago: “Educação no Brasil”\nDelimitação: formação de professores de matemática nos anos finais do ensino fundamental\nPergunta: “Que desafios enfrentam professores recém-formados para ensinar matemática nos anos finais do ensino fundamental em escolas públicas?”\n3. Mudanças climáticas\nTema vago: “Aquecimento global”\nDelimitação: percepção de agricultores familiares sobre eventos climáticos extremos\nPergunta: “Como agricultores familiares do semiárido percebem e se adaptam aos eventos climáticos extremos associados às mudanças climáticas?”\n4. Política\nTema vago: “Crise política brasileira”\nDelimitação: discursos de desinformação em redes sociais durante eleições\nPergunta: “Como os discursos de desinformação se disseminaram nas redes sociais durante as eleições presidenciais de 2022?”\n5. Saúde\nTema vago: “Saúde mental”\nDelimitação: ansiedade entre estudantes universitários durante o ensino remoto\nPergunta: “Quais fatores contribuíram para o aumento da ansiedade entre estudantes universitários durante o período de ensino remoto na pandemia?”\nToda pergunta precisa conter um verbo claro e indicar um problema ou relação a ser investigada.",
     "crumbs": [
       "Tutoriais",
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Tema e pergunta de pesquisa para seu plano de trabalho.</span>"
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Tema e pergunta de pesquisa para seu plano de trabalho.</span>"
     ]
   },
   {
     "objectID": "tutorial_tema_pesquisa.html#construção-guiada-da-própria-pergunta",
     "href": "tutorial_tema_pesquisa.html#construção-guiada-da-própria-pergunta",
-    "title": "17  Tema e pergunta de pesquisa para seu plano de trabalho.",
-    "section": "17.4 Construção guiada da própria pergunta",
-    "text": "17.4 Construção guiada da própria pergunta\n\nQual é o meu tema de interesse?\nQue aspectos ou situações desse tema me provocam dúvida ou curiosidade?\nQue experiências reais ou problemas concretos posso associar a esse tema?\nQual seria um objeto específico que eu poderia investigar?\nQual pergunta com verbo pode orientar minha pesquisa?",
+    "title": "18  Tema e pergunta de pesquisa para seu plano de trabalho.",
+    "section": "18.4 Construção guiada da própria pergunta",
+    "text": "18.4 Construção guiada da própria pergunta\n\nQual é o meu tema de interesse?\nQue aspectos ou situações desse tema me provocam dúvida ou curiosidade?\nQue experiências reais ou problemas concretos posso associar a esse tema?\nQual seria um objeto específico que eu poderia investigar?\nQual pergunta com verbo pode orientar minha pesquisa?",
     "crumbs": [
       "Tutoriais",
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Tema e pergunta de pesquisa para seu plano de trabalho.</span>"
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Tema e pergunta de pesquisa para seu plano de trabalho.</span>"
     ]
   },
   {
     "objectID": "tutorial_tema_pesquisa.html#encerramento-5-min",
     "href": "tutorial_tema_pesquisa.html#encerramento-5-min",
-    "title": "17  Tema e pergunta de pesquisa para seu plano de trabalho.",
-    "section": "17.5 Encerramento (5 min)",
-    "text": "17.5 Encerramento (5 min)\nPoste sua pergunta de pesquisa no chat da turma no Gmail.",
+    "title": "18  Tema e pergunta de pesquisa para seu plano de trabalho.",
+    "section": "18.5 Encerramento (5 min)",
+    "text": "18.5 Encerramento (5 min)\nPoste sua pergunta de pesquisa no chat da turma no Gmail.",
     "crumbs": [
       "Tutoriais",
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Tema e pergunta de pesquisa para seu plano de trabalho.</span>"
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Tema e pergunta de pesquisa para seu plano de trabalho.</span>"
     ]
   },
   {
     "objectID": "modelo_plano.html",
     "href": "modelo_plano.html",
-    "title": "18  Plano de trabalho",
+    "title": "19  Plano de trabalho",
     "section": "",
     "text": "Modelo de plano de trabalho\n\n\n\n\n\n\n\nDica\n\n\n\nEste é um modelo de plano de trabalho para a iniciação científica — um tipo de proposta de pesquisa que se vincula a projetos já cadastrados por professores da Ufersa.\nPelas regras institucionais, quem submete oficialmente o plano para concorrer a bolsas de Iniciação Científica é o(a) professor(a) coordenador(a) do projeto. Mas isso não significa que você não possa propor uma pesquisa.\nSe você tem uma ideia de pesquisa e gostaria de ser bolsista de IC, você pode se antecipar e apresentar sua proposta ao professor responsável por um projeto da sua área.\nEssa atitude mostra iniciativa, organização e compromisso com a ciência — qualidades que contam muito em qualquer etapa da vida acadêmica.\n🔎 Para descobrir quais projetos de pesquisa estão em execução na Ufersa, clique aqui.\n\n\n\n\nTítulo\n\nTítulo conciso e informativo da proposta de trabalho do estudante.\n\nIntrodução e justificativa\n\nApresente o contexto da proposta e sua relevância. Indique como ela se vincula ao projeto de pesquisa ao qual se integra. Justifique a importância do estudo com base em evidências (dados, autores, relatórios).\n\nObjetivos\n\n\nObjetivo geral\n\nDescrever o objetivo principal da proposta.\n\nObjetivos específicos\n\n\nObjetivo 1\nObjetivo 2\nObjetivo 3\n\n\nMetodologia\n\nDescreva os procedimentos que serão adotados ao longo do plano de trabalho. Inclua informações sobre instrumentos, etapas, técnicas de análise e, quando pertinente, sobre aprovação ética (CEP/CEUA).\n\nHabilidades a serem desenvolvidas\n\nListe as competências que você pretende desenvolver:\n\nHabilidade 1 (ex: análise de dados)\nHabilidade 2 (ex: escrita acadêmica)\nHabilidade 3 (ex: uso de ferramentas digitais)\n\n\nCronograma de atividades\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAtividades\nSet\nOut\nNov\nDez\nJan\nFev\nMar\n\n\n\n\nLeitura e revisão de literatura\nX\nX\n\n\n\n\n\n\n\nColeta de dados\n\nX\nX\n\n\n\n\n\n\nTratamento dos dados\n\n\nX\nX\n\n\n\n\n\nAnálise dos dados\n\n\n\nX\nX\n\n\n\n\nElaboração de relatório parcial\n\n\n\n\nX\nX\n\n\n\nEscrita do relatório final\n\n\n\n\n\nX\nX\n\n\nApresentação dos resultados\n\n\n\n\n\n\nX\n\n\n\n\n\n\nReferências\n\nSOBRENOME, Nome. Título da obra. Local: Editora, ano.\nSOBRENOME, Nome. “Título do artigo”. Nome do periódico, v. X, n. Y, p. Z–Z, ano.",
     "crumbs": [
       "Modelos",
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Plano de trabalho</span>"
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Plano de trabalho</span>"
     ]
   },
   {
     "objectID": "modelo_relatorio.html",
     "href": "modelo_relatorio.html",
-    "title": "19  Relatório reflexivo",
+    "title": "20  Relatório reflexivo",
     "section": "",
     "text": "Modelo de relatório\n\n\n\n\n\n\n\nDica\n\n\n\nO objetivo deste tipo de relatório é permitir que você explicite, analise e reflita sobre o processo de criação da mídia digital de divulgação científica, articulando suas decisões linguísticas, visuais e temáticas a partir de critérios de relevância, clareza e adequação comunicativa, bem como relacionando o conteúdo divulgado a seu projeto de pesquisa em desenvolvimento.\nEm particular, este relatório se realiza por meio de quatro funções comunicativas:\n\nDocumentar o processo de criação da mídia, oferecendo ao professor um relato claro e objetivo das decisões tomadas;\nJustificar a escolha do conteúdo divulgado, com base em critérios de relevância científica, social ou institucional;\nAnalisar criticamente as estratégias de adaptação da linguagem, das imagens e do formato ao público não especializado;\nRefletir sobre os aprendizados e desafios enfrentados durante a atividade, promovendo metacognição e consciência linguística.\n\n\n\n\n\nTítulo da mídia\n\nEscreva aqui o título da sua mídia de divulgação científica (se houver). Pode ser a frase de abertura ou a pergunta provocativa usada no post.\n\nEscolha do conteúdo\n\nExplique por que escolheu o dado ou a informação científica que aparece na sua mídia. O que motivou essa escolha? Por que esse dado é relevante para o público geral?\n\nRelação com o plano de trabalho\n\nDescreva como o conteúdo divulgado está relacionado, direta ou indiretamente, com o tema do seu plano de trabalho (mesmo que isso não tenha sido explicitado no post).\n\nAdaptação para o público não especialista\n\nComente sobre as decisões tomadas para adaptar a linguagem e o visual da sua mídia: que palavras evitou? O que simplificou? Que escolhas de cor, imagem ou estilo você fez?\n\nReflexão sobre o processo\n\nRelate brevemente como foi produzir essa mídia. O que você aprendeu sobre comunicação científica? Houve alguma dificuldade ou surpresa no processo?\n\nLink da publicação\n\nInclua o link direto para a sua postagem no Instagram, publicada em colab com o perfil do curso.\n\nReferências\n\nSOBRENOME, Nome. Título da obra. Local: Editora, ano.\nSOBRENOME, Nome. “Título do artigo”. Nome do periódico, v. X, n. Y, p. Z–Z, ano.",
     "crumbs": [
       "Modelos",
-      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Relatório reflexivo</span>"
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Relatório reflexivo</span>"
     ]
   },
   {
     "objectID": "1_Avaliacao.html",
     "href": "1_Avaliacao.html",
-    "title": "20  1ª Avaliação",
+    "title": "21  1ª Avaliação",
     "section": "",
     "text": "Orientações para a 1ª avaliação\n\n\nA primeira avaliação da disciplina Análise e Expressão Textual será composta por dez questões objetivas, com base em situações-problema e fragmentos textuais. O foco será avaliar a capacidade de identificar características do pensamento científico, distinguir tipos de discurso e reconhecer aspectos normativos da escrita acadêmica, especialmente no que se refere a citação e referência segundo a ABNT.\nAs questões deverão ser respondidas de forma individual, em sala de aula, no tempo estipulado.\n\n\nConteúdos avaliados\n\n\nDiferença entre pensamento científico e senso comum\nVerificação de suposições e observação sistemática\nPrincípio da replicabilidade\nTipos de discurso (científico, jurídico, religioso, senso comum)\nEstratégias de convencimento e persuasão\nNormas da ABNT para citação e referência (NBR 6023 e NBR 10520)\n\n\nFormato da prova\n\n\n10 questões de múltipla escolha\nValor da questão: 1 ponto\nTotal da prova: 10 pontos\nRealização individual\n\n\nCritérios de correção\n\nA nota final será calculada com base na quantidade de respostas corretas. Cada questão vale 1,0 ponto, sem possibilidade de frações ou anulações parciais.\nAcerto de cada questão: 1,0 ponto\nTotal máximo da prova: 10,0 pontos\n\nInstruções para realização\n\n\nResponda com atenção, baseando-se nos textos apresentados e nas aulas anteriores;\nUse apenas caneta azul ou preta no gabarito oficial (caso seja impresso);\nMantenha o celular desligado ou fora de uso durante a prova;\nEm caso de dúvida, levante a mão e aguarde atendimento individual;\nPlágio, consulta ou comunicação entre colegas anulará a prova.\n\n\nReposição da avaliação\n\nCaso o(a) estudante não realize a prova na data prevista e tenha direito à reposição, será aplicada nova avaliação, com questões de mesma natureza, em prazo estipulado pelo professor, conforme regulamento da universidade.\n\nDica final\n\nLeia com atenção cada comando. As questões foram elaboradas com base em exemplos reais e simulações que exigem análise crítica, e não apenas memorização.",
     "crumbs": [
       "Avaliações",
-      "<span class='chapter-number'>20</span>  <span class='chapter-title'>1ª Avaliação</span>"
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>1ª Avaliação</span>"
     ]
   },
   {
     "objectID": "2_Avaliacao.html",
     "href": "2_Avaliacao.html",
-    "title": "21  2ª Avaliação",
+    "title": "22  2ª Avaliação",
     "section": "",
-    "text": "21.1 Produto\nA mídia deve ser produzida individualmente e será publicada no feed de uma conta oficial da disciplina no Instagram, criada exclusivamente para esse fim.\nA mídia poderá assumir um dos seguintes formatos:\nO conteúdo da postagem deve obrigatoriamente estar vinculado ao tema do plano de trabalho em desenvolvimento na disciplina.",
+    "text": "22.1 Produto\nA mídia deve ser produzida individualmente e será publicada no feed de uma conta oficial da disciplina no Instagram, criada exclusivamente para esse fim.\nA mídia poderá assumir um dos seguintes formatos:\nO conteúdo da postagem deve obrigatoriamente estar vinculado ao tema do plano de trabalho em desenvolvimento na disciplina.",
     "crumbs": [
       "Avaliações",
-      "<span class='chapter-number'>21</span>  <span class='chapter-title'>2ª Avaliação</span>"
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>2ª Avaliação</span>"
     ]
   },
   {
     "objectID": "2_Avaliacao.html#produto",
     "href": "2_Avaliacao.html#produto",
-    "title": "21  2ª Avaliação",
+    "title": "22  2ª Avaliação",
     "section": "",
-    "text": "Reel (vídeo curto de até 90 segundos);\nCarrossel (sequência de 4 a 8 imagens, organizadas em slides).\n\n\n\n❌ Não é obrigatório que você apareça na mídia, nem que utilize a própria voz. Pode-se usar apenas texto, imagens, música e narração artificial, desde que a comunicação seja clara e eficaz.",
+    "text": "Reel (vídeo curto de 60 a 90 segundos);\nCarrossel (sequência de 4 a 8 imagens, organizadas em slides).\n\n\n\n❌ Não é obrigatório que você apareça na mídia, nem que utilize a própria voz. Pode-se usar apenas texto, imagens, música e narração artificial, desde que a comunicação seja clara e eficaz.",
     "crumbs": [
       "Avaliações",
-      "<span class='chapter-number'>21</span>  <span class='chapter-title'>2ª Avaliação</span>"
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>2ª Avaliação</span>"
     ]
   },
   {
     "objectID": "2_Avaliacao.html#data-de-publicação",
     "href": "2_Avaliacao.html#data-de-publicação",
-    "title": "21  2ª Avaliação",
-    "section": "21.2 Data de publicação",
-    "text": "21.2 Data de publicação\n3 de julho de 2025 (quinta-feira)\nA postagem deverá permanecer no ar até, no mínimo, o dia 7 de julho de 2025.",
+    "title": "22  2ª Avaliação",
+    "section": "22.2 Data de publicação",
+    "text": "22.2 Data de publicação\n3 de julho de 2025 (quinta-feira)\nA postagem deverá permanecer no ar até, no mínimo, o dia 7 de julho de 2025.",
     "crumbs": [
       "Avaliações",
-      "<span class='chapter-number'>21</span>  <span class='chapter-title'>2ª Avaliação</span>"
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>2ª Avaliação</span>"
     ]
   },
   {
     "objectID": "2_Avaliacao.html#legenda",
     "href": "2_Avaliacao.html#legenda",
-    "title": "21  2ª Avaliação",
-    "section": "21.3 Legenda",
-    "text": "21.3 Legenda\nA legenda deve ser comunicativa e voltada ao público geral, com o objetivo de valorizar o conhecimento científico, combater a desinformação e ampliar o acesso a dados confiáveis.\nEste é um coletivo que preza pela ciência, defende-a e divulga-a.\nA legenda pode incluir, por exemplo:\n\nUma contextualização do dado apresentado; e/ou\nUma defesa do papel da ciência na sociedade; e/ou\nUma crítica a práticas negacionistas ou à desinformação; e/ou\nUma chamada à reflexão crítica, etc.\n\nAo final da legenda, incluir: - A fonte confiável do dado apresentado (formato autor, ano ou link); - As hashtags obrigatórias: #Anete2025, #DivulgaçãoCientífica, #Ufersa.\n\n❌ Evite informações técnicas ou institucionais voltadas apenas ao professor (como turma, matrícula ou menções ao plano de trabalho).",
+    "title": "22  2ª Avaliação",
+    "section": "22.3 Legenda",
+    "text": "22.3 Legenda\nA legenda deve ser comunicativa e voltada ao público geral, com o objetivo de valorizar o conhecimento científico, combater a desinformação e ampliar o acesso a dados confiáveis.\nA legenda pode incluir, por exemplo:\n\nUma contextualização do dado apresentado; e/ou\nUma defesa do papel da ciência na sociedade; e/ou\nUma crítica a práticas negacionistas ou à desinformação; e/ou\nUma chamada à reflexão crítica, etc.\n\nAo final da legenda, incluir: - A fonte confiável do dado apresentado (formato autor, ano ou link);\n\nAs hashtags obrigatórias: #Anete2025, #DivulgaçãoCientífica, #Ufersa.\n\n\n❌ Evite informações técnicas ou institucionais voltadas apenas ao professor (como turma, matrícula ou menções ao plano de trabalho).",
     "crumbs": [
       "Avaliações",
-      "<span class='chapter-number'>21</span>  <span class='chapter-title'>2ª Avaliação</span>"
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>2ª Avaliação</span>"
     ]
   },
   {
     "objectID": "2_Avaliacao.html#orientações-específicas-por-tipo-de-mídia",
     "href": "2_Avaliacao.html#orientações-específicas-por-tipo-de-mídia",
-    "title": "21  2ª Avaliação",
-    "section": "21.4 Orientações específicas por tipo de mídia",
-    "text": "21.4 Orientações específicas por tipo de mídia\n\n✅ Reel\n\n\nEstrutura sugerida:\n\n1. Apresentação do dado: com impacto visual ou verbal;\n2. Explicação breve: o que o dado significa e de onde vem;\n3. Conexão com um problema social ou científico relevante;\n4. Conclusão provocativa ou inspiradora (“Já parou para pensar nisso?”).\n\nDeve conter:\n\nNarração clara e/ou legendas legíveis;\nOrganização lógica e coerente;\nElementos visuais e sonoros que ampliem a compreensão;\nTom convidativo, instigante e respeitoso com o público.\n\n\n\n✅ Carrossel\n\n\nEstrutura sugerida:\n\nApresentação do dado ou pergunta provocativa (slides 1-2);\n\nExplicação e desenvolvimento do tema (slides 3-4);\n\nImplicações e chamada à reflexão ou ação (slides finais).\n\nDeve conter:\n\nTipografia e cores que facilitem a leitura;\nUniformidade gráfica entre os slides;\nConteúdo coeso e progressivo.",
+    "title": "22  2ª Avaliação",
+    "section": "22.4 Orientações específicas por tipo de mídia",
+    "text": "22.4 Orientações específicas por tipo de mídia\n\n✅ Reel\n\n\nEstrutura sugerida:\n\n1. Apresentação do dado: com impacto visual ou verbal;\n2. Explicação breve: o que o dado significa e de onde vem;\n3. Conexão com um problema social ou científico relevante;\n4. Conclusão provocativa ou inspiradora (“Já parou para pensar nisso?”).\n\nDeve conter:\n\nNarração clara e/ou legendas legíveis;\nOrganização lógica e coerente;\nElementos visuais e sonoros que ampliem a compreensão;\nTom convidativo, instigante e respeitoso com o público.\n\n\n\n✅ Carrossel\n\n\nEstrutura sugerida:\n\nApresentação do dado ou pergunta provocativa (slides 1-2);\n\nExplicação e desenvolvimento do tema (slides 3-4);\n\nImplicações e chamada à reflexão ou ação (slides finais).\n\nDeve conter:\n\nTipografia e cores que facilitem a leitura;\nUniformidade gráfica entre os slides;\nConteúdo coeso e progressivo.",
     "crumbs": [
       "Avaliações",
-      "<span class='chapter-number'>21</span>  <span class='chapter-title'>2ª Avaliação</span>"
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>2ª Avaliação</span>"
     ]
   },
   {
     "objectID": "2_Avaliacao.html#relatório-reflexivo-de-produção",
     "href": "2_Avaliacao.html#relatório-reflexivo-de-produção",
-    "title": "21  2ª Avaliação",
-    "section": "21.5 Relatório reflexivo de produção",
-    "text": "21.5 Relatório reflexivo de produção\nO relatório será preenchido em sala de aula no dia 7 de julho de 2025 (segunda-feira), estruturado com base nas seguintes perguntas orientadoras:\n\nPor que você escolheu esse dado científico?\nComo ele se relaciona com o seu plano de trabalho?\nComo você adaptou o conteúdo para o público não especialista?\nComo foi o processo de criação da mídia? O que aprendeu com ele?",
+    "title": "22  2ª Avaliação",
+    "section": "22.5 Relatório reflexivo de produção",
+    "text": "22.5 Relatório reflexivo de produção\nO relatório será preenchido em sala de aula no dia 7 de julho de 2025 (segunda-feira), estruturado com base nas seguintes perguntas orientadoras:\n\nPor que você escolheu esse dado científico?\nComo ele se relaciona com o seu plano de trabalho?\nComo você adaptou o conteúdo para o público não especialista?\nComo foi o processo de criação da mídia? O que aprendeu com ele?",
     "crumbs": [
       "Avaliações",
-      "<span class='chapter-number'>21</span>  <span class='chapter-title'>2ª Avaliação</span>"
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>2ª Avaliação</span>"
     ]
   },
   {
     "objectID": "2_Avaliacao.html#critérios-de-avaliação",
     "href": "2_Avaliacao.html#critérios-de-avaliação",
-    "title": "21  2ª Avaliação",
-    "section": "21.6 Critérios de avaliação",
-    "text": "21.6 Critérios de avaliação\nA nota será composta por:\n\nMídia publicada (60% da nota final)\nRelatório reflexivo (40% da nota final)\n\n\n📊 Critérios de avaliação da mídia (0 a 6 pontos)\n\n\n\n\nCritério\nPontuação\n\n\n\n\nClareza, precisão e relevância do conteúdo\n2\n\n\nAdequação ao público-alvo (linguagem, tom, forma)\n1\n\n\nQualidade visual e organizacional da mídia\n1\n\n\nCriatividade e capacidade de provocar reflexão\n1\n\n\nConexão com o plano de trabalho\n1\n\n\n\n\n📋 Critérios de avaliação do relatório (0 a 4 pontos)\n\n\n\n\nCritério\nPontuação\n\n\n\n\nOrganização textual e coesão\n1\n\n\nQualidade da reflexão crítica\n1\n\n\nClareza na justificativa e nas decisões tomadas\n1\n\n\nConexão efetiva com o plano de trabalho\n1",
+    "title": "22  2ª Avaliação",
+    "section": "22.6 Critérios de avaliação",
+    "text": "22.6 Critérios de avaliação\nA nota será composta por:\n\nMídia publicada (60% da nota final)\nRelatório reflexivo (40% da nota final)\n\n\n📊 Critérios de avaliação da mídia (0 a 6 pontos)\n\n\n\n\nCritério\nPontuação\n\n\n\n\nClareza, precisão e relevância do conteúdo\n2\n\n\nAdequação ao público-alvo (linguagem, tom, forma)\n1\n\n\nQualidade visual e organizacional da mídia\n1\n\n\nCriatividade e capacidade de provocar reflexão\n1\n\n\nConexão com o plano de trabalho\n1\n\n\n\n\n📋 Critérios de avaliação do relatório (0 a 4 pontos)\n\n\n\n\nCritério\nPontuação\n\n\n\n\nOrganização textual e coesão\n1\n\n\nQualidade da reflexão crítica\n1\n\n\nClareza na justificativa e nas decisões tomadas\n1\n\n\nConexão efetiva com o plano de trabalho\n1",
     "crumbs": [
       "Avaliações",
-      "<span class='chapter-number'>21</span>  <span class='chapter-title'>2ª Avaliação</span>"
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>2ª Avaliação</span>"
     ]
   },
   {
     "objectID": "2_Avaliacao.html#reposição-da-avaliação",
     "href": "2_Avaliacao.html#reposição-da-avaliação",
-    "title": "21  2ª Avaliação",
-    "section": "21.7 Reposição da avaliação",
-    "text": "21.7 Reposição da avaliação\nCaso o(a) estudante não realize a avaliação na data estipulada e ainda tenha direito à reposição, será oferecido novo prazo. A avaliação substitutiva seguirá os mesmos moldes, com nova data de postagem e novo momento de produção do relatório.",
+    "title": "22  2ª Avaliação",
+    "section": "22.7 Reposição da avaliação",
+    "text": "22.7 Reposição da avaliação\nCaso o(a) estudante não realize a avaliação na data estipulada e ainda tenha direito à reposição, será oferecido novo prazo. A avaliação substitutiva seguirá os mesmos moldes, com nova data de postagem e novo momento de produção do relatório.\n\n22.7.1 Termo de consentimento do uso da mídia",
     "crumbs": [
       "Avaliações",
-      "<span class='chapter-number'>21</span>  <span class='chapter-title'>2ª Avaliação</span>"
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>2ª Avaliação</span>"
     ]
   },
   {
     "objectID": "3_Avaliacao.html",
     "href": "3_Avaliacao.html",
-    "title": "22  3ª Avaliação",
+    "title": "23  3ª Avaliação",
     "section": "",
     "text": "Orientações para a 3ª avaliação\n\n\nA terceira avaliação da disciplina Análise e Expressão Textual consistirá na entrega de um plano de trabalho de pesquisa e na apresentação de um pitch de projeto, nos moldes exigidos em editais de Iniciação Científica da Ufersa.\nEssa atividade consolida o percurso desenvolvido ao longo do semestre. O tema do plano deve ser o mesmo que você vem elaborando desde as primeiras aulas da disciplina.\nMesmo que você não tenha interesse imediato em concorrer a uma bolsa de IC, elaborar e apresentar um plano de trabalho é um exercício essencial de autoria acadêmica e preparação para projetos futuros.\n\n\nEtapa 1 – Entrega do plano de trabalho\n\n\nTema: o mesmo que vem sendo trabalhado desde o início do semestre\nFormato: documento em .docx ou .qmd, convertido para o Google Docs\nO documento deve ser compartilhado com o professor pelo e-mail: mario.martins@ufersa.edu.br\nO plano deve conter:\n\nTítulo\n\nIntrodução e Justificativa\n\nObjetivo geral e objetivos específicos\n\nMetodologia\n\nHabilidades a serem desenvolvidas\n\nReferências bibliográficas conforme ABNT\n\n\nPrazo de entrega: até 24 de julho de 2025\nPeso na nota final: 70%\n\n\nEtapa 2 – Apresentação do pitch de projeto\n\n\nNome formal: Apresentação Oral Sintética de Proposta de Pesquisa\nDuração: entre 2 minutos e 30 segundos e 5 minutos\nData da apresentação: 28 de julho de 2025\nFormato: ainda em definição — poderá ser gravado (vídeo) ou ao vivo (em sala)\nA apresentação deve destacar, de forma clara e envolvente:\n\nO problema de pesquisa\nA relevância da proposta\nA metodologia prevista\nO impacto esperado\n\nPeso na nota final: 30%\nCritérios de avaliação: a serem divulgados em breve\n\n\nInstruções gerais\n\n\nO trabalho deve ser individual e original\nUtilize o modelo de plano de trabalho disponibilizado na disciplina\nO pitch não precisa de slides, mas deve demonstrar domínio do conteúdo\nLeituras integrais do plano serão desconsideradas — ensaie com base em tópicos\nEm caso de dúvidas, entre em contato com o professor com antecedência\n\n\nReposição da avaliação\n\nEstudantes que não entregarem o plano ou não realizarem o pitch na data prevista e tiverem direito à reposição serão avaliados por meio de tarefa equivalente, em nova data a ser estipulada pelo professor.\n\nDica final\n\nEste plano é a culminância de um trabalho construído passo a passo. Aproveite a oportunidade para reunir o que você pesquisou, refletiu e estruturou ao longo do semestre — e apresente isso com clareza, entusiasmo e autoria.",
     "crumbs": [
       "Avaliações",
-      "<span class='chapter-number'>22</span>  <span class='chapter-title'>3ª Avaliação</span>"
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'>3ª Avaliação</span>"
     ]
   },
   {
     "objectID": "sorteio.html",
     "href": "sorteio.html",
-    "title": "23  Sorteio",
+    "title": "24  Sorteio",
     "section": "",
     "text": "🎲 Sortear aluno (Turma 1)\n  \n\n\n\n\n  🎲 Sortear aluno (Turma 2)\n  \n\n\n\n  🔁 Reiniciar sorteio Turma 1\n  🔁 Reiniciar sorteio Turma 2",
     "crumbs": [
       "Suporte",
-      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Sorteio</span>"
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'>Sorteio</span>"
     ]
   },
   {
     "objectID": "padlet.html",
     "href": "padlet.html",
-    "title": "24  Padlet",
+    "title": "25  Padlet",
     "section": "",
     "text": "🔗 Acesse o Padlet da disciplina aqui\nr emo::ji(\"fire\") Você deve fazer login no Padlet para que suas postagens sejam identificadas.",
     "crumbs": [
       "Suporte",
-      "<span class='chapter-number'>24</span>  <span class='chapter-title'>Padlet</span>"
+      "<span class='chapter-number'>25</span>  <span class='chapter-title'>Padlet</span>"
     ]
   }
 ]

@@ -283,7 +283,7 @@ function calcularTipoArtigo() {
 ## Aprendizagem prática
 
 ::: {#citacao}
-Segundo Bosco e Tomasi (2021, p. 48), uma excelente forma de melhorar nossas práticas científicas, é "examinar os artigos científicos já publicados: [...] palavras-chave (número de palavras-chave), introdução, desenvolvimento, conclusão, referências, ilustrações (tabelas, quadros, diagramas), formas de introduzir citações diretas e indiretas, fonte tipográfica, mancha da página, espaço interlinear etc."
+Segundo Bosco e Tomasi (2021, p. 48), uma excelente forma de melhorar nossas práticas científicas, é "examinar os artigos científicos já publicados: \[...\] palavras-chave (número de palavras-chave), introdução, desenvolvimento, conclusão, referências, ilustrações (tabelas, quadros, diagramas), formas de introduzir citações diretas e indiretas, fonte tipográfica, mancha da página, espaço interlinear etc."
 :::
 
 Para esta atividade, selecione, no Google Acadêmico, um **artigo científico publicado em periódico classificado como Qualis B2 ou superior** (conforme a classificação da Capes disponível na plataforma Sucupira) e que esteja diretamente relacionado ao seu tema de pesquisa. Em seguida, realize uma leitura atenta, com atenção à estrutura retórica do texto: introdução, metodologia, resultados e discussão. Após essa análise, responda objetivamente às perguntas abaixo e clique no botão para sistematizar suas respostas em uma estrutura hierárquica de tópicos e subtópicos. Por fim, copie e cole essa estrutura no site [Markmap](https://markmap.js.org/repl) para visualizar um mapa mental do artigo analisado.
@@ -399,7 +399,6 @@ function gerarMapaMentalCompleto() {
 '
 )
 ```
-
 
 ```{r, echo=FALSE, results='asis'}
 htmltools::HTML(

@@ -1,0 +1,155 @@
+---
+title: "Fichamento"
+---
+
+::: nota-secundaria
+Roteiro de aula elaborado no RStudio com o auxílio da inteligência artificial ChatGPT, revisado e avaliado pelo professor antes de sua publicação.
+:::
+
+## Objetivos de aprendizagem
+
+Ao final desta aula, espera-se que você seja capaz de:
+
+- Explicar o conceito e o objetivo do fichamento acadêmico.
+- Reconhecer os tipos de fichamento e suas aplicações na produção científica.
+- Realizar um fichamento de resumo/conteúdo no Zotero.
+- Utilizar o Zotero no celular para organizar fichamentos e referências.
+
+::: {.leitura}
+**Leituras indicadas:**\
+CASTRO, Nádia Studzinski Estima de et al. *Leitura e escrita acadêmicas*. Porto Alegre: Sagah, 2019. Capítulo: “Fichamento acadêmico”, p. 53–64.\
+[🔗 Acesso à leitura](vbk://9788533500228/page/53)
+
+CAMPOS, M. *Gêneros acadêmicos: resenha, fichamento, memorial e projeto de pesquisa*. Mariana: Fundação Presidente Antônio Carlos, 2010. Capítulo: "Como elaborar um fichamento". [🔗 Acesso à leitura](SIGAA) 
+:::
+
+## Introdução
+
+O **fichamento** é um gênero de texto que, Segundo Castro _et al_. (2019, p. 53), consiste no **registro sistemático das leituras realizadas**, funcionando como um apoio à organização do conhecimento e à futura redação dos trabalhos científicos.
+
+Castro e outros (2019, p. 53) afirmam que o objetivo do fichamento é
+
+::: {.citacao}
+“[...] armazenar informações importantes de forma organizada e prática, permitindo ao estudante retomar os conteúdos lidos sem a necessidade de reler o texto na íntegra”.
+:::
+
+Em outras palavras, o fichamento ajuda a **otimizar o tempo e a garantir rigor na utilização das fontes**.
+
+Há diversos tipos de fichamento:
+
+::: {.subtitulo-nao-numerado}
+Fichamento bibliográfico
+:::
+
+Traz a referência completa da obra e indica partes importantes da estrutura, como capítulos e tópicos relevantes.
+
+```{=html}
+<figure style="text-align: center;">
+  <img src="img/fichamento_bibliografico.png" style="width:80%; display: block; margin: auto;" />
+  <figcaption><strong>Figura 1.</strong> Exemplo de fichamento bibliográfico. Extraido de Campos (2010).</figcaption>
+</figure>
+```
+
+<br>
+
+```{=html}
+<figure style="text-align: center;">
+  <img src="img/fichamento_bibliografico_zotero.png" style="width:80%; display: block; margin: auto;" />
+  <figcaption><strong>Figura 2.</strong> Exemplo de fichamento bibliográfico no Zotero. Elaborado pelo professor.</figcaption>
+</figure>
+```
+
+<br>
+
+::: {.subtitulo-nao-numerado}
+Fichamento de citações
+:::
+
+Registra trechos literais da obra, devidamente indicados entre aspas e com a referência da página.
+
+```{=html}
+<figure style="text-align: center;">
+  <img src="img/fichamento_citacao.png" style="width:80%; display: block; margin: auto;" />
+  <figcaption><strong>Figura 3.</strong> Exemplo de fichamento de citações. Extraido de Campos (2010).</figcaption>
+</figure>
+```
+
+<br>
+
+```{=html}
+<figure style="text-align: center;">
+  <img src="img/fichamento_citacao_zotero.png" style="width:80%; display: block; margin: auto;" />
+  <figcaption><strong>Figura 4.</strong> Exemplo de fichamento de citações no Zotero. Elaborado pelo professor.</figcaption>
+</figure>
+```
+
+<br>
+
+::: {.subtitulo-nao-numerado}
+Fichamento de resumo
+:::
+
+Apresenta, com as palavras do próprio estudante, as ideias principais do texto lido, organizadas de acordo com a necessidade da pesquisa.
+
+O fichamento de resumo **[...] “exige uma leitura atenta e reflexiva, pois implica reelaborar as ideias do autor com fidelidade e clareza”** (Castro _et al_., 2019).
+
+```{=html}
+<figure style="text-align: center;">
+  <img src="img/fichamento_resumo.png" style="width:80%; display: block; margin: auto;" />
+  <figcaption><strong>Figura 5.</strong> Exemplo de fichamento de resumo. Extraido de Campos (2010).</figcaption>
+</figure>
+```
+
+<br>
+
+```{=html}
+<figure style="text-align: center;">
+  <img src="img/fichamento_resumo_zotero.png" style="width:80%; display: block; margin: auto;" />
+  <figcaption><strong>Figura 6.</strong> Exemplo de fichamento de resumo no Zotero. Elaborado pelo professor.</figcaption>
+</figure>
+```
+
+<br>
+
+::: {.destaque}
+Além de ser uma ferramenta de estudo, o fichamento colabora para o desenvolvimento da **autonomia intelectual**, na medida em que o estudante exercita a seleção e organização de informações, preparando-se para o diálogo crítico com os textos.
+:::
+
+## Aprendizagem prática
+
+
+Elabore um fichamento de resumo combinado com fichamento de citações do artigo selecionado para a sua mídia de divulgação científica. O fichamento deve conter cerca de 200 a 300 palavras e estar organizado no campo Notas da entrada do Zotero. Estruture da seguinte forma:
+
+- Uma síntese das ideias principais, em tópicos, com suas palavras.
+- Até três citações diretas relevantes (com indicação da página).
+- Observações pessoais ou críticas que possam embasar sua produção da mídia.
+
+<br>
+
+```{=html}
+<figure style="text-align: center;">
+  <img src="img/fichamento_aprendizagem.jpeg" style="width:30%; display: block; margin: auto;" />
+  <figcaption><strong>Figura 7.</strong> Exemplo de fichamento de resumo combinado com fichamento de citações no Zotero. Elaborado pelo professor.</figcaption>
+</figure>
+```
+
+<!-- Aqui começa o campo de respostas-->
+
+<details>
+
+<summary>
+
+</summary>
+
+::: {style="width: 100%; background-color:#ADD8E6; font-size: 18px; line-height: 1.5; padding: 15px;"}
+Após a leitura atenta do artigo que você selecionou para a elaboração da mídia de divulgação científica e a realização do fichamento por suas próprias habilidades, crie um prompt para gerar, com apoio de inteligência artificial, um **fichamento de resumo combinado com um fichamento de citações**. Copie a resposta ao prompt, revise-a criticamente e cole o resultado no campo Notas do artigo registrado no Zotero.
+
+::: {.enfase}
+⚠️ Compartilhe o prompt criado por você no chat da turma. No chat, está liberado dialogarmos sobre os prompts a fim de aprimorarmos eticamente nossas habilidades de uso da IA.
+:::
+
+</details>
+
+</pre>
+
+<!-- Aqui encerra o campo de respostas-->
