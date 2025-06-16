@@ -1,0 +1,60 @@
+---
+title: "Roteiro - Carrossel"
+---
+
+::: titulo-nao-numerado
+Modelo de roteiro para carrossel
+:::
+
+::: callout-tip
+O objetivo deste roteiro é ajudar a guiar a produção de carrosséis impactantes de divulgação científica, assegurando clareza, progressão narrativa e relevância social. O roteiro serve para estruturar o conteúdo de forma que:
+
+* Capte a atenção do público logo no primeiro slide;
+* Apresente dados ou conceitos científicos de modo acessível, sem perder o rigor;
+* Contextualize e conecte o dado a problemas do cotidiano ou questões sociais;
+* Estimule o pensamento crítico e a reflexão, com chamadas à ação ou perguntas finais;
+* Facilite o planejamento visual, com orientação para sequência, tom e estilo.
+:::
+
+:::::::::: fundo-papel
+::: subtitulo-nao-numerado
+
+* Slide 1 – Abertura impactante
+:::
+
+Pergunta provocativa ou dado surpreendente. Visual chamativo, com contraste e fonte destacada.
+
+::: subtitulo-nao-numerado
+Slides 2-3 – Apresentação do dado ou fenômeno
+:::
+
+* Exposição breve, objetiva e clara do dado ou conceito principal.
+
+::: subtitulo-nao-numerado
+Slides 4-5 – Contextualização e relevância
+:::
+
+* Explicação: por que isso acontece? Como sabemos disso? Como isso nos afeta? Use linguagem acessível, metáforas e exemplos.
+
+::: subtitulo-nao-numerado
+Slides 6-8 – Reflexão e chamada à ação
+:::
+
+* Síntese do conteúdo;
+* Convite ao pensamento crítico e ao compartilhamento.
+
+::: subtitulo-nao-numerado
+Exemplo preenchido – tema: microplásticos na água
+:::
+
+::: citacao
+Slide 1 – Abertura: **“Você engole um cartão de crédito por semana sem perceber?!”**
+
+Slides 2-3 – Apresentação do dado: **“Estudos indicam que ingerimos até 5g de microplásticos por semana — o peso de um cartão de crédito. Microplásticos são pedaços menores que 5 mm, invisíveis no dia a dia.”**
+
+Slides 4-5 – Contextualização: **“Eles vêm do desgaste de embalagens e tecidos plásticos. Estão na água, no ar e até no sal da cozinha. Como são minúsculos, passam pelos filtros e chegam à nossa mesa.”**
+
+Slides 6-8 – Reflexão: **“Isso afeta nossa saúde e o ambiente. Que tal reduzir o uso do plástico no dia a dia e apoiar pesquisas sobre o tema? Compartilhe este carrossel e faça parte da mudança.”**
+:::
+
+::::::::::

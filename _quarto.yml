@@ -51,6 +51,8 @@ book:
       chapters:
       - modelo_plano.qmd
       - modelo_relatorio.qmd
+      - modelo_roteiro.qmd
+      - modelo_carrossel.qmd
     - part: "Avaliações"
       chapters:
       - 1_Avaliacao.qmd
