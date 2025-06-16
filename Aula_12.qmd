@@ -10,34 +10,34 @@ Roteiro de aula elaborado no RStudio com o auxílio da inteligência artificial 
 
 Ao final desta aula, espera-se que você seja capaz de:
 
-- Explicar o conceito e o objetivo do fichamento acadêmico.
-- Reconhecer os tipos de fichamento e suas aplicações na produção científica.
-- Realizar um fichamento de resumo/conteúdo no Zotero.
-- Utilizar o Zotero no celular para organizar fichamentos e referências.
+-   Explicar o conceito e o objetivo do fichamento acadêmico.
+-   Reconhecer os tipos de fichamento e suas aplicações na produção científica.
+-   Realizar um fichamento de resumo/conteúdo no Zotero.
+-   Utilizar o Zotero no celular para organizar fichamentos e referências.
 
-::: {.leitura}
+::: leitura
 **Leituras indicadas:**\
 CASTRO, Nádia Studzinski Estima de et al. *Leitura e escrita acadêmicas*. Porto Alegre: Sagah, 2019. Capítulo: “Fichamento acadêmico”, p. 53–64.\
 [🔗 Acesso à leitura](vbk://9788533500228/page/53)
 
-CAMPOS, M. *Gêneros acadêmicos: resenha, fichamento, memorial e projeto de pesquisa*. Mariana: Fundação Presidente Antônio Carlos, 2010. Capítulo: "Como elaborar um fichamento". [🔗 Acesso à leitura](SIGAA) 
+CAMPOS, M. *Gêneros acadêmicos: resenha, fichamento, memorial e projeto de pesquisa*. Mariana: Fundação Presidente Antônio Carlos, 2010. Capítulo: "Como elaborar um fichamento". [🔗 Acesso à leitura](SIGAA)
 :::
 
 ## Introdução
 
-O **fichamento** é um gênero de texto que, Segundo Castro _et al_. (2019, p. 53), consiste no **registro sistemático das leituras realizadas**, funcionando como um apoio à organização do conhecimento e à futura redação dos trabalhos científicos.
+O **fichamento** é um gênero de texto que, Segundo Castro *et al*. (2019, p. 53), consiste no **registro sistemático das leituras realizadas**, funcionando como um apoio à organização do conhecimento e à futura redação dos trabalhos científicos.
 
 Castro e outros (2019, p. 53) afirmam que o objetivo do fichamento é
 
-::: {.citacao}
-“[...] armazenar informações importantes de forma organizada e prática, permitindo ao estudante retomar os conteúdos lidos sem a necessidade de reler o texto na íntegra”.
+::: citacao
+“\[...\] armazenar informações importantes de forma organizada e prática, permitindo ao estudante retomar os conteúdos lidos sem a necessidade de reler o texto na íntegra”.
 :::
 
 Em outras palavras, o fichamento ajuda a **otimizar o tempo e a garantir rigor na utilização das fontes**.
 
 Há diversos tipos de fichamento:
 
-::: {.subtitulo-nao-numerado}
+::: subtitulo-nao-numerado
 Fichamento bibliográfico
 :::
 
@@ -61,7 +61,7 @@ Traz a referência completa da obra e indica partes importantes da estrutura, co
 
 <br>
 
-::: {.subtitulo-nao-numerado}
+::: subtitulo-nao-numerado
 Fichamento de citações
 :::
 
@@ -85,13 +85,13 @@ Registra trechos literais da obra, devidamente indicados entre aspas e com a ref
 
 <br>
 
-::: {.subtitulo-nao-numerado}
+::: subtitulo-nao-numerado
 Fichamento de resumo
 :::
 
 Apresenta, com as palavras do próprio estudante, as ideias principais do texto lido, organizadas de acordo com a necessidade da pesquisa.
 
-O fichamento de resumo **[...] “exige uma leitura atenta e reflexiva, pois implica reelaborar as ideias do autor com fidelidade e clareza”** (Castro _et al_., 2019).
+O fichamento de resumo **\[...\] “exige uma leitura atenta e reflexiva, pois implica reelaborar as ideias do autor com fidelidade e clareza”** (Castro *et al*., 2019).
 
 ```{=html}
 <figure style="text-align: center;">
@@ -111,18 +111,21 @@ O fichamento de resumo **[...] “exige uma leitura atenta e reflexiva, pois imp
 
 <br>
 
-::: {.destaque}
+::: destaque
 Além de ser uma ferramenta de estudo, o fichamento colabora para o desenvolvimento da **autonomia intelectual**, na medida em que o estudante exercita a seleção e organização de informações, preparando-se para o diálogo crítico com os textos.
 :::
 
 ## Aprendizagem prática
 
-
 Elabore um fichamento de resumo combinado com fichamento de citações do artigo selecionado para a sua mídia de divulgação científica. O fichamento deve conter cerca de 200 a 300 palavras e estar organizado no campo Notas da entrada do Zotero. Estruture da seguinte forma:
 
-- Uma síntese das ideias principais, em tópicos, com suas palavras.
-- Até três citações diretas relevantes (com indicação da página).
-- Observações pessoais ou críticas que possam embasar sua produção da mídia.
+-   Uma síntese das ideias principais, em tópicos, com suas palavras.
+-   Até três citações diretas relevantes (com indicação da página).
+-   Observações pessoais ou críticas que possam embasar sua produção da mídia.
+
+::: enfase
+Após fazer o fichamento no Zotero, faça um print de tela e poste no chat da turma!
+:::
 
 <br>
 
@@ -141,10 +144,10 @@ Elabore um fichamento de resumo combinado com fichamento de citações do artigo
 
 </summary>
 
-::: {style="width: 100%; background-color:#ADD8E6; font-size: 18px; line-height: 1.5; padding: 15px;"}
+:::: {style="width: 100%; background-color:#ADD8E6; font-size: 18px; line-height: 1.5; padding: 15px;"}
 Após a leitura atenta do artigo que você selecionou para a elaboração da mídia de divulgação científica e a realização do fichamento por suas próprias habilidades, crie um prompt para gerar, com apoio de inteligência artificial, um **fichamento de resumo combinado com um fichamento de citações**. Copie a resposta ao prompt, revise-a criticamente e cole o resultado no campo Notas do artigo registrado no Zotero.
 
-::: {.enfase}
+::: enfase
 ⚠️ Compartilhe o prompt criado por você no chat da turma. No chat, está liberado dialogarmos sobre os prompts a fim de aprimorarmos eticamente nossas habilidades de uso da IA.
 :::
 
@@ -153,3 +156,4 @@ Após a leitura atenta do artigo que você selecionou para a elaboração da mí
 </pre>
 
 <!-- Aqui encerra o campo de respostas-->
+::::
