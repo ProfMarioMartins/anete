@@ -39,6 +39,7 @@ book:
       - Aula_10.qmd
       - Aula_11.qmd
       - Aula_12.qmd
+      - Aula_13.qmd
     - part: "Unidade III"
       chapters:
       - Aula_Y.qmd
@@ -47,11 +48,12 @@ book:
       - tutorial_zotero.qmd
       - tutorial_capes.qmd
       - tutorial_tema_pesquisa.qmd
+      - checklist_postagem.qmd
     - part: "Modelos"
       chapters:
       - modelo_plano.qmd
       - modelo_relatorio.qmd
-      - modelo_roteiro.qmd
+      - modelo_video.qmd
       - modelo_carrossel.qmd
     - part: "Avaliações"
       chapters:

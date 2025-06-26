@@ -6,11 +6,11 @@ format: html
 
 Este é o material didático da disciplina **Análise e Expressão Textual**, organizado em unidades temáticas.
 
-- 📅 Carga horária: 60 horas  
-- 📚 Metodologia: Aprendizagem baseada em projeto  
-- 📝 Produto final: Elaboração de um plano de trabalho acadêmico  
+-   📅 Carga horária: 60 horas\
+-   📚 Metodologia: Aprendizagem baseada em projeto\
+-   📝 Produto final: Elaboração de um plano de trabalho acadêmico
 
-:::{.callout-tip}
+::: callout-tip
 Para melhor navegação, utilize o menu lateral ou a busca no topo da página.
 :::
 
@@ -25,6 +25,7 @@ Para melhor navegação, utilize o menu lateral ou a busca no topo da página.
 </script>
 ```
 
+````{=html}
 <!--
 
 ````{=html}
@@ -50,4 +51,4 @@ cronograma <- read_sheet(url, sheet = "cronograma_anete")
 kable(cronograma, caption = "Encontros")
 ```
 -->
-
+````

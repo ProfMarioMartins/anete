@@ -31,14 +31,14 @@ MOTTA-ROTH, Désirée; HENDGES, Graciela Rabuske. Produção textual na universi
 <br/> Compreender o funcionamento dos gêneros acadêmicos exige não apenas o reconhecimento de suas funções sociocomunicativas, mas também a análise de como essas funções se concretizam linguisticamente. É nesse ponto que entra o conceito de estrutura retórica.
 
 ::: citacao
-A partir de Swales (2004)[^aula_10-1], pode-se definir **estrutura retórica** como a organização funcional de um gênero textual em movimentos retóricos recorrentes, orientados para o cumprimento de objetivos comunicativos específicos. Essa estrutura considera o contexto de produção, a audiência e as convenções disciplinares ou culturais da comunidade discursiva a que pertence o gênero.
+A partir de Swales (2004)[^modelo_aula-1], pode-se definir **estrutura retórica** como a organização funcional de um gênero textual em movimentos retóricos recorrentes, orientados para o cumprimento de objetivos comunicativos específicos. Essa estrutura considera o contexto de produção, a audiência e as convenções disciplinares ou culturais da comunidade discursiva a que pertence o gênero.
 
 Ainda em linha com Swales (2004), um **movimento retórico** é uma unidade discursiva que desempenha uma função comunicativa coerente em um discurso escrito ou oral.
 
 <img src="img/move_geral.png" alt="Práticas sociais" class="img-central"/>
 :::
 
-[^aula_10-1]: SWALES, J. M. Research Genres Explorations and Applications. Cambridge: Cambridge University Press, 2004.
+[^modelo_aula-1]: SWALES, J. M. Research Genres Explorations and Applications. Cambridge: Cambridge University Press, 2004.
 
 <br/>
 
