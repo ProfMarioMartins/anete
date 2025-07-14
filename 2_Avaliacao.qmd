@@ -12,8 +12,7 @@ A segunda avaliação da disciplina **Análise e Expressão Textual** consiste n
 A atividade será concluída com a redação de um [**relatório reflexivo de produção**](modelo_relatorio.qmd), a ser preenchido em sala de aula.
 :::
 
-
-::: {.subtitulo-nao-numerado}
+::: subtitulo-nao-numerado
 Produto
 :::
 
@@ -30,14 +29,14 @@ O conteúdo da postagem **deve obrigatoriamente estar vinculado ao tema do plano
 ❌ **Não é obrigatório** que você apareça na mídia, nem que utilize a própria voz. Pode-se usar apenas texto, imagens, música e narração artificial, desde que a comunicação seja clara e eficaz.
 :::
 
-::: {.subtitulo-nao-numerado}
+::: subtitulo-nao-numerado
 Data de publicação
 :::
 
 **3 de julho de 2025 (quinta-feira)**\
 A postagem deverá permanecer no ar até, no mínimo, o dia **7 de julho de 2025**.
 
-::: {.subtitulo-nao-numerado}
+::: subtitulo-nao-numerado
 Legenda
 :::
 
@@ -58,7 +57,7 @@ Ao final da legenda, incluir: - A **fonte confiável do dado apresentado** (form
 ❌ **Evite informações** técnicas ou institucionais voltadas apenas ao professor (como turma, matrícula ou menções ao plano de trabalho).
 :::
 
-::: {.subtitulo-nao-numerado}
+::: subtitulo-nao-numerado
 Orientações específicas por tipo de mídia
 :::
 
@@ -90,7 +89,7 @@ Orientações específicas por tipo de mídia
     -   Uniformidade gráfica entre os slides;
     -   Conteúdo coeso e progressivo.
 
-::: {.subtitulo-nao-numerado}
+::: subtitulo-nao-numerado
 Relatório reflexivo de produção
 :::
 
@@ -101,7 +100,7 @@ O relatório será preenchido em sala de aula no dia **7 de julho de 2025 (segun
 3.  Como você adaptou o conteúdo para o público não especialista?
 4.  Como foi o processo de criação da mídia? O que aprendeu com ele?
 
-::: {.subtitulo-nao-numerado}
+::: subtitulo-nao-numerado
 Critérios de avaliação
 :::
 
@@ -110,9 +109,10 @@ A nota será composta por:
 -   **Mídia (60% da nota final)**
 -   **Relatório (40% da nota final)**
 
-::: {.subsubtitulo-nao-numerado}
+::: subsubtitulo-nao-numerado
 📊 Critérios de avaliação da mídia (0 a 6 pontos)
 :::
+
 | Critério                                          | Pontuação |
 |---------------------------------------------------|-----------|
 | Clareza, precisão e relevância do conteúdo        | 2         |
@@ -123,7 +123,7 @@ A nota será composta por:
 
 <br/>
 
-::: {.subsubtitulo-nao-numerado}
+::: subsubtitulo-nao-numerado
 📋 Critérios de avaliação do relatório (0 a 4 pontos)
 :::
 
@@ -136,7 +136,7 @@ A nota será composta por:
 
 <br/>
 
-::: {.subtitulo-nao-numerado}
+::: subtitulo-nao-numerado
 Procedimento de submissão da mídia digital
 :::
 
@@ -144,34 +144,34 @@ Para enviar seu reel ou carrossel, siga atentamente as orientações abaixo:
 
 Você pode:
 
-- Enviar o link de compartilhamento do Canva (certifique-se de que esteja público para visualização ou edição); ou
-- Anexar o arquivo diretamente por e-mail.
+-   Enviar o link de compartilhamento do Canva (certifique-se de que esteja público para visualização ou edição); ou
+-   Anexar o arquivo diretamente por e-mail.
 
-O endereço de envio é: neocomciencia@gmail.com
+O endereço de envio é: neocomciencia\@gmail.com
 
 Formatos aceitos:
 
-- Para vídeos (reels): envie em .mp4;
-- Para carrosséis: envie as imagens em .png, .jpg ou compactadas em .zip.
+-   Para vídeos (reels): envie em .mp4;
+-   Para carrosséis: envie as imagens em .png, .jpg ou compactadas em .zip.
 
 No assunto do e-mail, escreva seu nome completo.
 
 Antes de enviar, verifique:
 
-- Se o link ou arquivo está funcionando corretamente;
-- Se os formatos estão adequados.
+-   Se o link ou arquivo está funcionando corretamente;
+-   Se os formatos estão adequados.
 
-No corpo do e-mail, **informe se deseja que a publicação seja feita em colaboração com o seu perfil pessoal no Instagram**. Nesse caso, indique _nomedeusuario_ corretamente.
+No corpo do e-mail, **informe se deseja que a publicação seja feita em colaboração com o seu perfil pessoal no Instagram**. Nesse caso, indique *nomedeusuario* corretamente.
 
 No corpo do e-mail, **cole o texto abaixo**:
 
-::: {.subtitulo-nao-numerado}
+::: subtitulo-nao-numerado
 Termo de consentimento
 :::
->Autorizo, de forma livre, informada e irrevogável, o uso da mídia digital por mim produzida no âmbito da disciplina Análise e Expressão Textual, para publicação no perfil _neocomciencia_, no Instagram, com finalidade exclusivamente educativa e científica. Estou ciente de que minha produção poderá ser visualizada publicamente, respeitando os princípios éticos e os direitos autorais. Declaro que a mídia não infringe direitos de terceiros e que, caso haja participação de outras pessoas, obtive o consentimento necessário para sua inclusão.
 
+> Autorizo, de forma livre, informada e irrevogável, o uso da mídia digital por mim produzida no âmbito da disciplina Análise e Expressão Textual, para publicação no perfil *neocomciencia*, no Instagram, com finalidade exclusivamente educativa e científica. Estou ciente de que minha produção poderá ser visualizada publicamente, respeitando os princípios éticos e os direitos autorais. Declaro que a mídia não infringe direitos de terceiros e que, caso haja participação de outras pessoas, obtive o consentimento necessário para sua inclusão.
 
-::: {.subtitulo-nao-numerado}
+::: subtitulo-nao-numerado
 Reposição da avaliação
 :::
 

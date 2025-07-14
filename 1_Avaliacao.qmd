@@ -15,20 +15,22 @@ As questões deverão ser respondidas de forma individual, em sala de aula, no t
 ::: subtitulo-nao-numerado
 Conteúdos avaliados
 :::
-- Diferença entre pensamento científico e senso comum
-- Verificação de suposições e observação sistemática
-- Princípio da replicabilidade
-- Tipos de discurso (científico, jurídico, religioso, senso comum)
-- Estratégias de convencimento e persuasão
-- Normas da ABNT para citação e referência (NBR 6023 e NBR 10520)
+
+-   Diferença entre pensamento científico e senso comum
+-   Verificação de suposições e observação sistemática
+-   Princípio da replicabilidade
+-   Tipos de discurso (científico, jurídico, religioso, senso comum)
+-   Estratégias de convencimento e persuasão
+-   Normas da ABNT para citação e referência (NBR 6023 e NBR 10520)
 
 ::: subtitulo-nao-numerado
 Formato da prova
 :::
-- 10 questões de múltipla escolha
-- Valor da questão: 1 ponto
-- Total da prova: 10 pontos
-- Realização individual
+
+-   10 questões de múltipla escolha
+-   Valor da questão: 1 ponto
+-   Total da prova: 10 pontos
+-   Realização individual
 
 ::: subtitulo-nao-numerado
 Critérios de correção
@@ -44,11 +46,11 @@ Total máximo da prova: 10,0 pontos
 Instruções para realização
 :::
 
-- Responda com atenção, baseando-se nos textos apresentados e nas aulas anteriores;
-- Use apenas caneta azul ou preta no gabarito oficial (caso seja impresso);
-- Mantenha o celular desligado ou fora de uso durante a prova;
-- Em caso de dúvida, levante a mão e aguarde atendimento individual;
-- Plágio, consulta ou comunicação entre colegas anulará a prova.
+-   Responda com atenção, baseando-se nos textos apresentados e nas aulas anteriores;
+-   Use apenas caneta azul ou preta no gabarito oficial (caso seja impresso);
+-   Mantenha o celular desligado ou fora de uso durante a prova;
+-   Em caso de dúvida, levante a mão e aguarde atendimento individual;
+-   Plágio, consulta ou comunicação entre colegas anulará a prova.
 
 ::: subtitulo-nao-numerado
 Reposição da avaliação

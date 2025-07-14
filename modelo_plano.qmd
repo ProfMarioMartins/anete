@@ -72,6 +72,10 @@ Liste as competências que você pretende desenvolver:
 Cronograma de atividades
 :::
 
+::: {.nota-secundaria}
+As etapas descritas no cronograma são exemplos.
+:::
+
 ```{r}
 #| echo: false
 #| message: false
@@ -105,7 +109,4 @@ knitr::kable(
 Referências
 :::
 
-SOBRENOME, Nome. *Título da obra*. Local: Editora, ano.
-
-SOBRENOME, Nome. “Título do artigo”. *Nome do periódico*, v. X, n. Y, p. Z–Z, ano.
-::::::::::::
+---

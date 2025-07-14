@@ -42,7 +42,13 @@ Trata-se de aproximar o conhecimento produzido pela ciência da prática cotidia
 Por que falar de divulgação científica hoje?
 :::
 
-Nos últimos anos, esse tema ganhou destaque por diversos motivos: - A pandemia da COVID-19 trouxe cientistas ao centro do debate público, aumentando a visibilidade da ciência na mídia; - O interesse popular pela ciência cresceu, inclusive como opção de carreira; - A ciência passou a ser questionada por discursos negacionistas, como no caso das mudanças climáticas; - O volume e a velocidade da produção científica dificultam o acesso do público, exigindo mediações qualificadas; - No Brasil, o avanço do negacionismo reforçou a necessidade de estratégias eficazes de comunicação científica.
+Nos últimos anos, esse tema ganhou destaque por diversos motivos:
+
+-   A pandemia da COVID-19 trouxe cientistas ao centro do debate público, aumentando a visibilidade da ciência na mídia;
+-   O interesse popular pela ciência cresceu, inclusive como opção de carreira;
+-   A ciência passou a ser questionada por discursos negacionistas, como no caso das mudanças climáticas;
+-   O volume e a velocidade da produção científica dificultam o acesso do público, exigindo mediações qualificadas;
+-   No Brasil, o avanço do negacionismo reforçou a necessidade de estratégias eficazes de comunicação científica.
 
 ::: subtitulo-nao-numerado
 Qual é o papel das redes sociais na divulgação científica?
@@ -103,28 +109,40 @@ Comunicação interpessoal e humanização
 -   **Uso de selfies (imagens e vídeos)**\
     Cientistas que usam selfies, especialmente vídeos em que falam diretamente para a câmera, transmitem autenticidade e convidam à interação. Isso humaniza o comunicador e fortalece o vínculo com o público.
 
-::: {.img-central}
+::: img-central
 <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DKzQCSNvPPR/?utm_source=ig_web_copy_link" data-instgrm-version="14">
+
 </blockquote>
+
+```{=html}
 <script async src="//www.instagram.com/embed.js"></script>
+```
 :::
 
 -   **Conteúdo pessoal e relacionável**\
     Alternar entre publicações científicas e conteúdos mais leves (como humor, cotidiano e entretenimento) torna o comunicador mais acessível. O público tende a seguir pessoas com quem se identifica.
 
-::: {.img-central}
+::: img-central
 <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DKSq1ChpV3c/?igsh=ZjIwYWY4YWVwMHQx" data-instgrm-version="14">
+
 </blockquote>
+
+```{=html}
 <script async src="//www.instagram.com/embed.js"></script>
+```
 :::
 
 -   **Uso de pronomes de primeira pessoa**\
     O uso de “eu”, “nós”, “meu” e similares cria uma narrativa mais próxima e compartilhada, que contribui para o engajamento afetivo com o público.
-    
-::: {.img-central}
+
+::: img-central
 <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DDAv1c4Bwl1/?igsh=Y29maTVkbG5yOXd4" data-instgrm-version="14">
+
 </blockquote>
+
+```{=html}
 <script async src="//www.instagram.com/embed.js"></script>
+```
 :::
 
 ::: subtitulo-nao-numerado
@@ -133,47 +151,67 @@ Conteúdo visual e narrativo
 
 -   **Imagens, vídeos, memes e GIFs**\
     Recursos visuais são fundamentais para atrair a atenção.
-    
-::: {.img-central}
+
+::: img-central
 <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C6dr_gBrJL2/?igsh=bzVucXdwY2ZmaHBt" data-instgrm-version="14">
+
 </blockquote>
+
+```{=html}
 <script async src="//www.instagram.com/embed.js"></script>
+```
 :::
 
 -   **Narratividade nas imagens**\
     Imagens que contam uma história ou representam uma ação são mais engajadoras, pois despertam emoções e conectam com o público.
-    
-::: {.img-central}
+
+::: img-central
 <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/Chas1PdFFEk/?igsh=enJobW9saGttbTlx" data-instgrm-version="14">
+
 </blockquote>
+
+```{=html}
 <script async src="//www.instagram.com/embed.js"></script>
+```
 :::
 
 -   **Descrições visuais**\
     Palavras que ativam a imaginação visual (“ver”, “olhar”, “enxergar”) contribuem para o efeito de imersão.
-    
-::: {.img-central}
-<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DKJ_RK1OYNk/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" data-instgrm-version="14">
+
+::: img-central
+<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DKJ_RK1OYNk/?utm_source=ig_web_copy_link&amp;igsh=MzRlODBiNWFlZA==" data-instgrm-version="14">
+
 </blockquote>
+
+```{=html}
 <script async src="//www.instagram.com/embed.js"></script>
+```
 :::
 
 -   **Enquadramento com harmonia**\
     Imagens visualmente equilibradas e bem compostas favorecem a recepção positiva.
-    
-::: {.img-central}
+
+::: img-central
 <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DLNFecWOrJW/?igsh=MWR6ajF5Znd4enZpZg==" data-instgrm-version="14">
+
 </blockquote>
+
+```{=html}
 <script async src="//www.instagram.com/embed.js"></script>
+```
 :::
 
 -   **Distância e ponto de vista**\
     Em alguns contextos, planos distantes ou de baixo para cima (ângulo baixo) têm mais impacto emocional e estético.
-    
-::: {.img-central}
+
+::: img-central
 <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/C_9JzeDv-sg/?igsh=MXVkdGpubGVoeHM5YQ==" data-instgrm-version="14">
+
 </blockquote>
+
+```{=html}
 <script async src="//www.instagram.com/embed.js"></script>
+```
 :::
 
 ::: subtitulo-nao-numerado
@@ -182,59 +220,79 @@ Características do conteúdo e tom
 
 -   **Informatividade e linguagem analítica**\
     Publicações que explicam bem e usam uma linguagem clara e lógica promovem comentários que compartilham conhecimento.
-    
-::: {.img-central}
+
+::: img-central
 <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DKUjijLRgPT/?igsh=MXZjMXI1bDYza2hxeg==" data-instgrm-version="14">
+
 </blockquote>
+
+```{=html}
 <script async src="//www.instagram.com/embed.js"></script>
+```
 :::
 
 -   **Expressão de emoções**\
     Emoções como alegria, raiva ou ansiedade, quando autênticas, fortalecem o impacto da mensagem e ampliam o engajamento.
-    
-::: {.img-central}
+
+::: img-central
 <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/Cq1Hr7XLYBU/?igsh=bG9qOXNoYWRrdDV0" data-instgrm-version="14">
+
 </blockquote>
+
+```{=html}
 <script async src="//www.instagram.com/embed.js"></script>
+```
 :::
 
 -   **Autenticidade e tom tentativo**\
     Um estilo mais honesto, humilde e verdadeiro — mesmo quando admite dúvidas — é valorizado pelo público e gera confiança.
-    
-::: {.img-central}
+
+::: img-central
 <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/C_A06mAM81c/?igsh=MTh5aHo1aDFrOW9hMw==" data-instgrm-version="14">
+
 </blockquote>
+
+```{=html}
 <script async src="//www.instagram.com/embed.js"></script>
+```
 :::
-  
+
 -   **Chamadas para ação e perguntas**\
     Frases como “O que você pensa sobre isso?” ou “Marque alguém que se interesse” incentivam respostas e compartilhamentos.
-    
-::: {.img-central}
+
+::: img-central
 <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DKAxgDcsMTc/?igsh=Y2hxd2s1OXdkdnBw" data-instgrm-version="14">
+
 </blockquote>
+
+```{=html}
 <script async src="//www.instagram.com/embed.js"></script>
+```
 :::
 
 -   **Relatabilidade e humor**\
     Conteúdo que desperta empatia ou diversão facilita o engajamento. Humor bem dosado é um excelente catalisador de comentários.
 
-::: {.img-central}
+::: img-central
 <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DKzWROouS3_/?igsh=MWNxMzc5cHF3c3Z2aQ==" data-instgrm-version="14">
+
 </blockquote>
+
+```{=html}
 <script async src="//www.instagram.com/embed.js"></script>
+```
 :::
 
----
+------------------------------------------------------------------------
 
 ## Outras estratégias...
 
 -   **Brevidade (nano/microlearning)**\
     Em plataformas como TikTok, vídeos de até 2 minutos com mensagens diretas e criativas são mais eficazes para informar e engajar.
-    
+
 -   **Responder aos comentários**\
     Estimular conversas e responder perguntas ou elogios cria uma relação mais próxima com a audiência e convida à continuidade do diálogo.
-    
+
 -   **Uso de hashtags**\
     Hashtags conectam postagens a temas maiores e ampliam o alcance. Devem ser usadas com critério, incluindo hashtags científicas relevantes.
 

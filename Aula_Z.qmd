@@ -1,0 +1,61 @@
+---
+title: "Modelo de Introdução e Justificativa"
+format: html
+editor: visual
+---
+
+::: titulo-nao-numerado
+Introdução e Justificativa
+:::
+
+<!-- A seguir, trechos comentados que podem ser adaptados pelo estudante -->
+
+:::::: subtitulo-nao-numerado
+1.  Apresentação do tema e contexto
+
+    </div>
+
+O presente plano de trabalho propõe investigar **\[descreva brevemente o tema central da pesquisa\]**. Esse tema se insere no campo da **\[área do conhecimento\]**, sendo alvo de crescente atenção por parte de pesquisadores, educadores e formuladores de políticas públicas.
+
+> 💡 *Comentário: contextualize seu tema com dados, autores ou fatos recentes.*
+
+------------------------------------------------------------------------
+
+::::: subtitulo-nao-numerado
+2.  Formulação do problema
+
+    </div>
+
+A pesquisa se orienta pela seguinte questão: **\[formule uma pergunta clara e específica\]**. Esse problema emerge da observação de **\[explique a origem ou motivação do problema, com base em experiências, dados, leituras etc.\]**.
+
+> 💡 *Comentário: sua pergunta deve ser investigável e compatível com os objetivos da IC.*
+
+------------------------------------------------------------------------
+
+:::: subtitulo-nao-numerado
+3.  Justificativa da relevância
+
+    </div>
+
+Justifica-se a realização desta pesquisa pelos seguintes motivos:
+
+-   **Relevância científica:** contribui para ampliar o conhecimento sobre **\[tema\]**;
+-   **Relevância social:** pode subsidiar ações ou políticas voltadas a **\[grupo, comunidade, prática\]**;
+-   **Relevância formativa:** permitirá ao estudante desenvolver habilidades em **\[especificar, como escrita, análise, coleta de dados etc.\]**.
+
+> 💡 *Comentário: seja específico ao indicar o valor da pesquisa para além do seu interesse pessoal.*
+
+------------------------------------------------------------------------
+
+::: subtitulo-nao-numerado
+4.  Relação com o projeto de pesquisa maior
+
+    </div>
+
+Este plano de trabalho está vinculado ao projeto **"\[título do projeto principal\]"**, cadastrado no SIGAA sob o código **\[código do projeto\]**, e coordenado pelo professor **\[nome do docente\]**. A proposta aqui delineada corresponde a uma etapa específica ou a um recorte temático desse projeto mais amplo.
+
+> 💡 *Comentário: consulte o SIGAA ou o professor para identificar o projeto ao qual sua proposta se vincula.*
+:::
+::::
+:::::
+::::::

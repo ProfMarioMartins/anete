@@ -40,9 +40,10 @@ book:
       - Aula_11.qmd
       - Aula_12.qmd
       - Aula_13.qmd
+      - Aula_14.qmd
     - part: "Unidade III"
       chapters:
-      - Aula_Y.qmd
+      - Aula_15.qmd
     - part: "Tutoriais"
       chapters:
       - tutorial_zotero.qmd

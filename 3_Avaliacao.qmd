@@ -18,44 +18,44 @@ Mesmo que você não tenha interesse imediato em concorrer a uma bolsa de IC, el
 Etapa 1 – Entrega do plano de trabalho
 :::
 
-- **Tema:** o mesmo que vem sendo trabalhado desde o início do semestre
-- Formato: documento em `.docx` ou `.qmd`, convertido para o **Google Docs**
-- O documento deve ser compartilhado com o professor pelo e-mail: **mario.martins@ufersa.edu.br**
-- O plano deve conter:  
-  - Título  
-  - Introdução e Justificativa  
-  - Objetivo geral e objetivos específicos  
-  - Metodologia  
-  - Habilidades a serem desenvolvidas  
-  - Referências bibliográficas conforme ABNT  
-- **Prazo de entrega:** até **24 de julho de 2025**
-- **Peso na nota final:** 70%
+-   **Tema:** o mesmo que vem sendo trabalhado desde o início do semestre
+-   Formato: documento em **Google Docs**
+-   O documento *deve ser compartilhado* com o professor pelo e-mail: **mario.martins\@ufersa.edu.br**
+-   O plano deve conter:
+    -   Título\
+    -   Introdução e Justificativa\
+    -   Objetivo geral e objetivos específicos\
+    -   Metodologia\
+    -   Habilidades a serem desenvolvidas\
+    -   Referências bibliográficas conforme ABNT\
+-   **Prazo de entrega:** dia **24 de julho de 2025**
+-   **Peso na nota final:** 70%
 
 ::: subtitulo-nao-numerado
 Etapa 2 – Apresentação do pitch de projeto
 :::
 
-- Nome formal: **Apresentação Oral Sintética de Proposta de Pesquisa**
-- Duração: entre **2 minutos e 30 segundos e 5 minutos**
-- Data da apresentação: **28 de julho de 2025**
-- Formato: ainda em definição — poderá ser **gravado** (vídeo) ou **ao vivo** (em sala)
-- A apresentação deve destacar, de forma clara e envolvente:
-  - O problema de pesquisa
-  - A relevância da proposta
-  - A metodologia prevista
-  - O impacto esperado
-- **Peso na nota final:** 30%
-- **Critérios de avaliação:** a serem divulgados em breve
+-   Nome formal: **Apresentação Oral Sintética de Proposta de Pesquisa**
+-   Duração: entre **2 minutos e 30 segundos e 5 minutos**
+-   Data da apresentação: **28 de julho de 2025**
+-   Formato: ainda em definição — poderá ser **gravado** (vídeo) ou **ao vivo** (em sala)
+-   A apresentação deve destacar, de forma clara e envolvente:
+    -   O problema de pesquisa
+    -   A relevância da proposta
+    -   A metodologia prevista
+    -   O impacto esperado
+-   **Peso na nota final:** 30%
+-   **Critérios de avaliação:** a serem divulgados em breve
 
 ::: subtitulo-nao-numerado
 Instruções gerais
 :::
 
-- O trabalho deve ser **individual** e original
-- Utilize o modelo de plano de trabalho disponibilizado na disciplina
-- O pitch não precisa de slides, mas deve demonstrar domínio do conteúdo
-- Leituras integrais do plano serão desconsideradas — ensaie com base em tópicos
-- Em caso de dúvidas, entre em contato com o professor com antecedência
+-   O trabalho deve ser **individual** e original
+-   Utilize o modelo de plano de trabalho disponibilizado na disciplina
+-   O pitch não precisa de slides, mas deve demonstrar domínio do conteúdo
+-   Leituras integrais do plano serão desconsideradas — ensaie com base em tópicos
+-   Em caso de dúvidas, entre em contato com o professor com antecedência
 
 ::: subtitulo-nao-numerado
 Reposição da avaliação
