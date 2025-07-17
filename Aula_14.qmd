@@ -59,7 +59,7 @@ Elementos e funções
 :::
 
 | Elemento | Função |
-|---------------------|---------------------------------------------------|
+|----|----|
 | **Tema** | Delimita a área de interesse geral |
 | **Problema de pesquisa** | Define a lacuna ou questão a investigar |
 | **Justificativa** | Argumenta por que a pesquisa é relevante |

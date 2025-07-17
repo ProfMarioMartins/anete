@@ -17,20 +17,18 @@ Ao final desta aula, espera-se que você seja capaz de:
 
 ::: {#leitura}
 **Leituras indicadas:**\
-CASTRO, Nádia Studzinski Estima de et al. *Leitura e escrita acadêmicas*. Porto Alegre: Sagah, 2019. Capítulo: “Gêneros acadêmicos”, p. 67–72.\
-[🔗 Acesso à leitura](vbk://9788533500228/page/67)
-
-MOTTA-ROTH, Désirée; HENDGES, Graciela Rabuske. Produção textual na universidade. São Paulo: Parábola, 2010. Capítulo: "Abstract/resumo acadêmico". [🔗 Acesso à leitura](SIGAA)
+GIL, Antonio Carlos. *Como Elaborar Projetos de Pesquisa*. Rio de Janeiro: Atlas, 2022.\
+[🔗 Acesso à leitura](https://app.minhabiblioteca.com.br/reader/books/9786559771653/epubcfi/6/2%5B%3Bvnd.vst.idref%3Dhtml1%5D!/6/2/2%4051:2)
 :::
 
-## Introdução
+## Metodologia
 
 A seção **Metodologia** de um plano de trabalho apresenta **como** a pesquisa será realizada. Não se trata apenas de mencionar técnicas, mas de justificar as escolhas feitas, garantindo coerência entre o problema, os objetivos e o método.
 
 ## Aprendizagem prática
 
 ::: {.titulo-nao-numerado}
-Etapa 1 – Perguntas orientadoras sobre a metodologia
+Perguntas orientadoras sobre a metodologia
 :::
 
 ```{=html}
@@ -1130,3 +1128,70 @@ function gerarSintese() {
 }
 </script>
 ```
+
+## Habilidades a serem adquiridas
+
+::: {.titulo-nao-numerado}
+O que são habilidades?
+:::
+
+O termo **habilidades** refere-se a um conjunto de saberes aplicados na prática, que envolvem tanto o domínio de conteúdos quanto o desenvolvimento de capacidades cognitivas, operacionais e atitudinais.
+
+A seção **Habilidades a serem adquiridas** tem como finalidade explicitar o potencial formativo da sua pesquisa. Ela deve responder, de forma clara e fundamentada, quais competências acadêmicas, científicas, técnicas ou interpessoais serão desenvolvidas ao longo da execução do projeto. Evidencia o que você vai aprender com a pesquisa, não apenas o que você vai produzir.
+
+A seguir, são apresentados os principais pontos que devem ser considerados na escrita desta seção.
+
+- Capacidades investigativas (formular hipóteses, organizar dados, interpretar resultados);
+- Domínio de instrumentos e técnicas de pesquisa (uso de softwares, construção de questionários, análise estatística, elaboração de fichamentos etc.);
+- Comunicação científica (produção textual, apresentações orais, escrita acadêmica);
+- Postura ética e colaborativa (trabalho em equipe, responsabilidade, reflexão sobre ética na pesquisa);
+- Autonomia intelectual e gestão de tempo (organização, tomada de decisão, compromisso com prazos).
+
+## Cronograma
+
+A seção **Cronograma** do plano de trabalho tem como finalidade demonstrar a viabilidade temporal da proposta, evidenciando que você compreende:
+
+- Quais são as etapas da pesquisa;
+- Em que ordem elas devem ser realizadas;
+- Quanto tempo será necessário para cada etapa;
+- Como o tempo será distribuído entre as diferentes tarefas.
+
+Um cronograma bem elaborado reforça a credibilidade do projeto, pois mostra planejamento, organização e compromisso com a execução da pesquisa.
+
+O cronograma pode ser apresentado como **tabela com meses e atividades**:
+
+```{=html}
+<figure style="text-align: center;">
+  <img src="img/cronograma.png" style="width:80%; display: block; margin: auto;" />
+  <figcaption><strong>Figura 1.</strong> Exemplo de cronograma.</figcaption>
+</figure>
+```
+
+## Passos finais...
+
+Com base na consulta ao texto indicado e nas respostas acima, redija a seção **Metodologia** do seu plano de trabalho. Nessa seção, espera-se que você:
+
+- Explicite o tipo de pesquisa que está propondo (por exemplo, pesquisa bibliográfica, estudo de caso, levantamento, pesquisa-ação, pesquisa participante, estudo de coorte etc.);
+- Justifique a escolha do delineamento metodológico com base nos objetivos do seu estudo;
+- Descreva a população-alvo (ou universo observado) e a forma de seleção da amostra, caso aplicável;
+- Indique os procedimentos de coleta de dados previstos (por exemplo, entrevista, questionário, observação, análise documental);
+- Indique os procedimentos de análise dos dados (análise de conteúdo, análise estatística, codificação etc.);
+- Inclua considerações éticas, caso sua pesquisa envolva seres humanos.
+
+Redija também a seção **Habilidades a serem adquiridas**, que deve ter entre 500 e 1000 palavras.
+
+Por fim, elabore o **cronograma** da sua pesquisa, que deve durar seis ou doze meses. Não mais, não menos.
+
+------------------------------------------------------------------------
+
+::: destaque
+📎 No mesmo documento: *Plano_SeuNome_2025*
+:::
+
+**Data de compartilhamento:** 24/7 (compartilhamento com permissão para edição com mario.martins\@ufersa.edu.br)
+
+Extensão da **Metodologia:** de 500 a 1500 palavras.
+
+Extensão da seção **Habilidades a serem adquiridas:** de 500 a 1000 palavras.
+
+**Cronograma**:** seis meses ou doze meses.
