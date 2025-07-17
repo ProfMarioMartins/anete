@@ -1,0 +1,1132 @@
+---
+title: "Plano de trabalho: metodologia e cronograma"
+---
+
+::: nota-secundaria
+Roteiro de aula elaborado no RStudio com o auxílio da inteligência artificial ChatGPT, revisado e avaliado pelo professor antes de sua publicação.
+:::
+
+## Objetivos de aprendizagem
+
+Ao final desta aula, espera-se que você seja capaz de:
+
+- Identificar elementos essenciais da metodologia científica em projetos de iniciação científica;
+- Refletir, com base em perguntas orientadoras, sobre as decisões metodológicas da sua pesquisa;
+- Descrever, com clareza e coerência, o percurso metodológico a ser adotado;
+- Relacionar as etapas da pesquisa ao cronograma do plano de trabalho.
+
+::: {#leitura}
+**Leituras indicadas:**\
+CASTRO, Nádia Studzinski Estima de et al. *Leitura e escrita acadêmicas*. Porto Alegre: Sagah, 2019. Capítulo: “Gêneros acadêmicos”, p. 67–72.\
+[🔗 Acesso à leitura](vbk://9788533500228/page/67)
+
+MOTTA-ROTH, Désirée; HENDGES, Graciela Rabuske. Produção textual na universidade. São Paulo: Parábola, 2010. Capítulo: "Abstract/resumo acadêmico". [🔗 Acesso à leitura](SIGAA)
+:::
+
+## Introdução
+
+A seção **Metodologia** de um plano de trabalho apresenta **como** a pesquisa será realizada. Não se trata apenas de mencionar técnicas, mas de justificar as escolhas feitas, garantindo coerência entre o problema, os objetivos e o método.
+
+## Aprendizagem prática
+
+::: {.titulo-nao-numerado}
+Etapa 1 – Perguntas orientadoras sobre a metodologia
+:::
+
+```{=html}
+<fieldset style="margin-bottom: 2em; padding: 1em; border: 2px solid #ccc; border-radius: 10px;">
+  <legend style="font-weight: bold; font-size: 1.1em;">
+    1. Qual é o propósito principal da sua pesquisa?
+  </legend>
+
+  <label>
+    <input type="radio" name="q1" value="exploratoria">
+    Proporcionar maior familiaridade com um problema pouco conhecido ou construir hipóteses.
+  </label><br><br>
+
+  <label>
+    <input type="radio" name="q1" value="descritiva">
+    Descrever as características de uma população ou de um fenômeno ou identificar possíveis relações entre variáveis.
+  </label><br><br>
+
+  <label>
+    <input type="radio" name="q1" value="explicativa">
+    Identificar fatores que determinam ou contribuem para a ocorrência de fenômenos, buscando explicar a razão, o "porquê" das coisas.
+  </label><br><br>
+
+  <label>
+    <input type="radio" name="q1" value="pesquisa-acao">
+    Desenvolver uma ação ou resolver um problema coletivo, de um grupo, com envolvimento cooperativo dos participantes desse grupo.
+  </label><br><br>
+
+  <label>
+    <input type="radio" name="q1" value="grounded-theory">
+    Construir uma teoria a partir dos dados observados.
+  </label>
+</fieldset>
+```
+
+<!-- Aqui começa o campo de respostas-->
+
+<details>
+
+<summary>
+
+</summary>
+
+```{=html}
+<div style="padding: 1em; border: 2px solid #2c3e50; border-radius: 10px; background-color: #f0f8ff; margin-top: 1em;">
+  <strong>🧭 Entendendo os propósitos da pesquisa:</strong><br><br>
+
+  <ul>
+    <li><strong>Pesquisa exploratória</strong>: visa aprofundar o conhecimento sobre um problema ainda pouco estudado. Exemplo: investigar as dificuldades enfrentadas por estudantes iniciantes no uso de softwares de referência bibliográfica.</li><br>
+
+    <li><strong>Pesquisa descritiva</strong>: procura descrever características ou comportamentos de um fenômeno. Exemplo: mapear o perfil socioeconômico de bolsistas de iniciação científica em uma universidade.</li><br>
+
+    <li><strong>Pesquisa explicativa</strong>: busca identificar causas e relações entre variáveis. Exemplo: analisar se o uso de técnicas de leitura ativa influencia o desempenho acadêmico de estudantes de graduação.</li><br>
+
+    <li><strong>Pesquisa-ação</strong>: envolve a transformação de uma realidade a partir da participação ativa dos envolvidos. Exemplo: implementar uma oficina de escrita científica com alunos de iniciação científica e avaliar seus efeitos no desempenho textual.</li><br>
+
+    <li><strong>Grounded theory (Teoria Fundamentada)</strong>: objetiva construir uma teoria com base em dados empíricos coletados e analisados progressivamente. Exemplo: desenvolver uma teoria sobre as motivações para a escolha da docência entre estudantes de licenciatura, a partir de entrevistas.</li>
+  </ul>
+</div>
+
+</details>
+
+</pre>
+```
+
+<!-- Aqui encerra o campo de respostas-->
+
+```{=html}
+<fieldset style="margin-bottom: 2em; padding: 1em; border: 2px solid #ccc; border-radius: 10px;">
+  <legend style="font-weight: bold; font-size: 1.1em;">
+    2. Que tipo de dados você espera coletar predominantemente?
+  </legend>
+
+  <label>
+    <input type="radio" name="q2" value="quantitativa">
+    Dados numéricos e estatísticos, para quantificação e generalização de resultados.
+  </label><br><br>
+
+  <label>
+    <input type="radio" name="q2" value="qualitativa">
+    Descrições verbais aprofundadas, para compreender experiências vividas, significados e interações sociais.
+  </label><br><br>
+
+  <label>
+    <input type="radio" name="q2" value="mista">
+    Uma combinação de dados numéricos e estatísticos e descrições verbais, com o propósito de ampliar e aprofundar o entendimento e a corroboração dos resultados.
+  </label>
+</fieldset>
+```
+
+<!-- Aqui começa o campo de respostas-->
+
+<details>
+
+<summary>
+
+</summary>
+
+```{=html}
+<div style="padding: 1em; border: 2px solid #2c3e50; border-radius: 10px; background-color: #f0f8ff; margin-top: 1em;">
+  <strong>🔍 Entendendo os tipos de dados em pesquisa:</strong><br><br>
+
+  <p>Os <strong>dados</strong> são as informações que os(as) pesquisadores(as) coletam para responder ao problema de pesquisa. A forma como esses dados são obtidos e analisados depende do tipo e do delineamento da pesquisa.</p>
+
+  <ul>
+    <li><strong>Dados quantitativos:</strong> expressos em números, úteis para medir, comparar, testar hipóteses. São comuns em pesquisas como <em>levantamentos (surveys)</em>, <em>ensaios clínicos</em>, <em>estudos de coorte</em> e <em>experimentos controlados</em>.</li>
+
+    <li><strong>Dados qualitativos:</strong> expressos em linguagem verbal ou simbólica. Buscam compreender significados, experiências, narrativas. São típicos em <em>pesquisas etnográficas</em>, <em>estudos de caso</em>, <em>pesquisas fenomenológicas</em> e <em>teoria fundamentada (grounded theory)</em>.</li>
+  </ul>
+
+  <p>Veja alguns exemplos conforme os tipos de delineamento:</p>
+
+  <ul>
+    <li><strong>Pesquisa bibliográfica:</strong> dados de fontes publicadas – livros, artigos, dissertações, etc.</li>
+    <li><strong>Pesquisa documental:</strong> dados extraídos de documentos institucionais, jurídicos, pessoais, imagens, registros estatísticos.</li>
+    <li><strong>Pesquisa experimental:</strong> dados resultantes da manipulação de variáveis, registrados por instrumentos precisos.</li>
+    <li><strong>Pesquisa-ação:</strong> dados construídos no processo colaborativo entre pesquisador(a) e comunidade, frequentemente por observações, entrevistas e registros.</li>
+    <li><strong>Pesquisa participante:</strong> dados colhidos junto à população envolvida no estudo, incluindo aspectos objetivos (dados demográficos) e subjetivos (relatos de experiência).</li>
+    <li><strong>Pesquisas de métodos mistos:</strong> combinam dados quantitativos e qualitativos para ampliar a compreensão do fenômeno.</li>
+  </ul>
+
+  <p><strong>🎯 Dica:</strong> o tipo de dado a ser coletado deve ser coerente com os objetivos e o problema da pesquisa. Por exemplo, se o objetivo é compreender a experiência de estudantes em um projeto de iniciação científica, dados qualitativos (entrevistas, diários reflexivos) podem ser mais adequados. Se o objetivo é verificar o impacto de uma técnica de ensino sobre o desempenho, dados quantitativos (notas, questionários escalonados) são mais indicados.</p>
+</div>
+
+</details>
+
+</pre>
+```
+
+<!-- Aqui encerra o campo de respostas-->
+
+```{=html}
+<fieldset style="margin-bottom: 2em; padding: 1em; border: 2px solid #ccc; border-radius: 10px;">
+  <legend style="font-weight: bold; font-size: 1.1em;">
+    3. Sua pesquisa envolve a manipulação direta de variáveis ou uma intervenção para observar efeitos?
+  </legend>
+
+  <label>
+    <input type="radio" name="q3" value="experimental">
+    Sim, quero manipular pelo menos um fator para observar seus efeitos no objeto de estudo, idealmente em condições controladas.
+  </label><br>
+
+  <label>
+    <input type="radio" name="q3" value="ensaio">
+    Sim, pretendo aplicar um tratamento ou intervenção em grupos de pessoas (ex: novas drogas, cirurgias) para avaliar sua eficácia.
+  </label><br>
+
+  <label>
+    <input type="radio" name="q3" value="observacional">
+    Não, pretendo observar situações existentes, coletar informações ou analisar materiais já disponíveis.
+  </label>
+</fieldset>
+```
+
+<!-- Aqui começa o campo de respostas-->
+
+<details>
+
+<summary>
+
+</summary>
+
+```{=html}
+<div style="background-color:#f9f9f9; border-left:4px solid #555; padding:1em; margin:1em 0; font-family:Arial, sans-serif;">
+  <p><strong>🔍 Entendendo os principais delineamentos de pesquisa</strong></p>
+
+  <p>Os delineamentos de pesquisa determinam como os dados serão coletados, analisados e interpretados. Eles variam conforme o grau de intervenção do pesquisador sobre os fenômenos estudados:</p>
+
+  <ul>
+    <li><strong>Pesquisa Experimental</strong>: O pesquisador <em>manipula uma variável independente</em> para observar seus efeitos sobre a variável dependente, em <em>condições controladas</em>. Envolve <em>grupos de comparação</em> (como experimental e controle) e requer <em>formulação clara de hipóteses</em>. <br><strong>Exemplo:</strong> testar se um novo fertilizante aumenta o crescimento de plantas em laboratório.</li>
+
+    <li><strong>Ensaio Clínico</strong>: Variante da pesquisa experimental voltada para a <em>avaliação da eficácia de tratamentos</em>, especialmente na saúde. Pode envolver <em>grupos com placebo</em> e adotar <em>cegamento</em> para reduzir vieses. <br><strong>Exemplo:</strong> testar a eficácia de uma nova vacina.</li>
+
+    <li><strong>Pesquisas não Experimentais</strong>: O pesquisador <em>não manipula variáveis</em>, apenas observa ou analisa dados existentes:
+      <ul>
+        <li><strong>Pesquisa bibliográfica</strong>: Usa obras publicadas para fundamentar ou discutir um problema. <br><strong>Exemplo:</strong> revisão teórica sobre métodos de alfabetização.</li>
+        <li><strong>Pesquisa Documental</strong>: Trabalha com documentos diversos (jurídicos, estatísticos, pessoais, iconográficos). <br><strong>Exemplo:</strong> análise de prontuários médicos.</li>
+        <li><strong>Levantamento (Survey)</strong>: Coleta dados via entrevistas ou questionários. <br><strong>Exemplo:</strong> hábitos alimentares de adolescentes.</li>
+        <li><strong>Estudo de coorte</strong>: Acompanha um grupo ao longo do tempo. <br><strong>Exemplo:</strong> saúde de professores por 10 anos.</li>
+        <li><strong>Estudo caso-Controle</strong>: Compara grupos com e sem uma condição. <br><strong>Exemplo:</strong> fatores associados à depressão.</li>
+        <li><strong>Estudo de caso</strong>: Análise profunda de poucos casos. <br><strong>Exemplo:</strong> gestão de uma escola rural.</li>
+      </ul>
+    </li>
+
+    <li><strong>Pesquisas Qualitativas Específicas</strong>:
+      <ul>
+        <li><strong>Fenomenológica</strong>: Descreve experiências vividas. <br><strong>Exemplo:</strong> vivência de professores novatos.</li>
+        <li><strong>Etnográfica</strong>: Estuda culturas ou grupos sociais. <br><strong>Exemplo:</strong> práticas alimentares ribeirinhas.</li>
+        <li><strong>Grounded theory</strong>: Constrói teoria a partir de dados. <br><strong>Exemplo:</strong> padrões de evasão escolar.</li>
+        <li><strong>Pesquisa narrativa</strong>: Reconstrói experiências por histórias. <br><strong>Exemplo:</strong> trajetória de uma mulher negra.</li>
+        <li><strong>Pesquisa-ação</strong>: Desenvolve ações com os participantes. <br><strong>Exemplo:</strong> reformulação de currículo com professores.</li>
+        <li><strong>Pesquisa participante</strong>: Valoriza o envolvimento da população. <br><strong>Exemplo:</strong> diagnóstico sanitário em comunidade.</li>
+      </ul>
+    </li>
+  </ul>
+
+  <p><strong>💡 Resumo:</strong> Se você deseja <em>testar causalidade</em> com controle e manipulação de variáveis, escolha a pesquisa experimental. Se pretende <em>avaliar intervenções de saúde</em>, opte pelo ensaio clínico. Para <em>compreender fenômenos sociais ou humanos</em>, os delineamentos não experimentais ou qualitativos são os mais indicados.</p>
+</div>
+
+</details>
+
+</pre>
+```
+
+<!-- Aqui encerra o campo de respostas-->
+
+```{=html}
+<fieldset style="margin-bottom: 2em; padding: 1em; border: 2px solid #ccc; border-radius: 10px;">
+  <legend style="font-weight: bold; font-size: 1.1em;">
+    4. O foco da sua pesquisa é a compreensão aprofundada de um fenômeno contemporâneo em seu contexto real, onde os limites entre o fenômeno e o contexto não são claros?
+  </legend>
+
+  <label>
+    <input type="radio" name="q4" value="caso">
+    Sim, desejo estudar profundamente um ou poucos casos para obter um conhecimento amplo e detalhado.
+  </label><br>
+
+  <label>
+    <input type="radio" name="q4" value="nao">
+    Não, meu interesse é em algo mais abrangente ou na manipulação de variáveis.
+  </label>
+</fieldset>
+```
+
+<!-- Aqui começa o campo de respostas-->
+
+<details>
+
+<summary>
+
+</summary>
+
+```{=html}
+<div style="background-color:#f9f9f9; border-left:4px solid #555; padding:1em; margin:1em 0; font-family:Arial, sans-serif;">
+  <p><strong>🔍 Estudo de Caso: quando e por que utilizar</strong></p>
+
+  <p>A pergunta "O foco da sua pesquisa é a compreensão aprofundada de um fenômeno contemporâneo em seu contexto real, onde os limites entre o fenômeno e o contexto não são claros?" aponta diretamente para o <strong>Estudo de Caso</strong> como delineamento metodológico.</p>
+
+  <ul>
+    <li><strong>Definição:</strong> O estudo de caso é um tipo de pesquisa qualitativa voltado para a <em>análise profunda e contextualizada</em> de um ou poucos casos. Seu objetivo é obter um conhecimento amplo de um fenômeno em sua complexidade real.</li>
+
+    <li><strong>Características principais:</strong>
+      <ul>
+        <li>Explora <strong>fenômenos contemporâneos</strong> em seus contextos reais;</li>
+        <li>É ideal quando os <strong>limites entre fenômeno e contexto são difíceis de delimitar</strong>;</li>
+        <li>Valoriza a <strong>totalidade e unidade</strong> do objeto estudado;</li>
+        <li>Permite <strong>descrever, explorar, explicar</strong> ou <strong>formular hipóteses</strong> em contextos complexos.</li>
+      </ul>
+    </li>
+
+    <li><strong>Exemplos:</strong> estudo aprofundado de uma escola inovadora, análise de políticas públicas em um município específico, investigação da cultura de uma organização, análise de trajetória de vida de uma pessoa ou grupo.</li>
+
+    <li><strong>Tipo de pergunta adequado:</strong> De acordo com Creswell, estudos de caso respondem a questões abertas como <strong>“o que”</strong> e <strong>“como”</strong>. São menos adequados para perguntas como "quanto", "quantos" ou "quem", que tendem a indicar levantamentos.</li>
+  </ul>
+
+  <p>✅ Se você respondeu que deseja estudar profundamente um ou poucos casos para obter um conhecimento detalhado e contextualizado, sua pesquisa se alinha claramente ao delineamento de <strong>Estudo de Caso</strong>.</p>
+</div>
+
+</details>
+
+</pre>
+```
+
+<!-- Aqui encerra o campo de respostas-->
+
+```{=html}
+<fieldset style="margin-bottom: 2em; padding: 1em; border: 2px solid #ccc; border-radius: 10px;">
+  <legend style="font-weight: bold; font-size: 1.1em;">
+    5. Você pretende coletar informações diretamente de um grupo significativo de pessoas por meio de interrogação (perguntas) para obter conclusões quantitativas?
+  </legend>
+
+  <label>
+    <input type="radio" name="q5" value="survey">
+    Sim, quero solicitar informações a uma amostra ou à totalidade da população (censo) para análise quantitativa.
+  </label><br>
+
+  <label>
+    <input type="radio" name="q5" value="outros">
+    Não, minha coleta de dados envolve outros métodos.
+  </label>
+</fieldset>
+```
+
+<!-- Aqui começa o campo de respostas-->
+
+<details>
+
+<summary>
+
+</summary>
+
+```{=html}
+<div style="background-color:#f9f9f9; border-left:4px solid #555; padding:1em; margin:1em 0; font-family:Arial, sans-serif;">
+  <p><strong>📊 Levantamento (Survey): quando utilizar</strong></p>
+
+  <p>A quinta questão do seu questionário investiga se a sua pesquisa se alinha ao delineamento conhecido como <strong>levantamento</strong>, também chamado de <em>survey</em>. Essa modalidade é amplamente utilizada nas ciências sociais para investigar <strong>opiniões, atitudes, crenças e comportamentos</strong> de uma população.</p>
+
+  <ul>
+    <li><strong>Coleta direta de informações:</strong> o levantamento se caracteriza por <strong>interrogar diretamente os participantes</strong> do estudo para conhecer seus pontos de vista ou comportamentos.</li>
+
+    <li><strong>Métodos utilizados:</strong> a coleta é feita por meio de <strong>questionários, entrevistas ou formulários</strong>, sempre com perguntas previamente elaboradas.</li>
+
+    <li><strong>População e amostra:</strong> os participantes podem ser uma <strong>amostra representativa</strong> de um grupo maior (selecionada estatisticamente) ou a totalidade desse grupo (censo).</li>
+
+    <li><strong>Análise quantitativa:</strong> os dados obtidos são submetidos à <strong>análise estatística</strong>, buscando identificar padrões, associações ou distribuições.</li>
+
+    <li><strong>Exemplos de aplicação:</strong> pesquisas de opinião pública, estudos sobre satisfação de clientes, levantamentos educacionais, diagnósticos institucionais com base em formulários aplicados a docentes ou discentes.</li>
+  </ul>
+
+  <p>✅ Se você pretende <strong>aplicar questionários ou entrevistas para investigar percepções, atitudes ou opiniões</strong> de um grupo específico e deseja <strong>analisar os dados quantitativamente</strong>, seu estudo se alinha ao delineamento metodológico de <strong>levantamento</strong>.</p>
+</div>
+
+</details>
+
+</pre>
+```
+
+<!-- Aqui encerra o campo de respostas-->
+
+```{=html}
+<fieldset style="margin-bottom: 2em; padding: 1em; border: 2px solid #ccc; border-radius: 10px;">
+  <legend style="font-weight: bold; font-size: 1.1em;">
+    6. Sua pesquisa será baseada principalmente em material já publicado ou em documentos existentes, sem coleta de dados primários com pessoas?
+  </legend>
+
+  <label>
+    <input type="radio" name="q6" value="bibliografica">
+    Sim, utilizarei prioritariamente livros, artigos, teses e dissertações já publicados para fundamentação teórica ou análise.
+  </label><br>
+
+  <label>
+    <input type="radio" name="q6" value="documental">
+    Sim, utilizarei documentos diversos como registros institucionais, cartas, fotos ou material de imprensa, que foram elaborados para finalidades variadas.
+  </label><br>
+
+  <label>
+    <input type="radio" name="q6" value="campo">
+    Não, pretendo coletar dados diretamente ou em campo.
+  </label>
+</fieldset>
+```
+
+<!-- Aqui começa o campo de respostas-->
+
+<details>
+
+<summary>
+
+</summary>
+
+```{=html}
+<div style="background-color:#f9f9f9; border-left:4px solid #555; padding:1em; margin:1em 0; font-family:Arial, sans-serif;">
+  <p><strong>📚 Fontes de dados: bibliográficas, documentais ou primárias?</strong></p>
+
+  <p>Esta questão o(a) convida a refletir sobre a <strong>natureza das fontes de dados</strong> que você utilizará em sua pesquisa. Isso afeta diretamente o tipo de delineamento metodológico que será adotado.</p>
+
+  <ul>
+    <li><strong>Pesquisa Bibliográfica</strong> – Caso sua pesquisa se baseie <strong>exclusivamente em livros, artigos, teses ou dissertações já publicados</strong>, ela se enquadra na pesquisa bibliográfica. O objetivo é construir uma <strong>fundamentação teórica sólida</strong> e compreender o estágio atual do conhecimento sobre um tema. É obrigatória em praticamente todos os projetos acadêmicos.</li>
+
+    <li><strong>Pesquisa Documental</strong> – Quando a análise se volta a <strong>documentos não produzidos para fins acadêmicos</strong>, como registros institucionais, cartas, fotos, decretos, arquivos de imprensa, entre outros, trata-se de uma pesquisa documental. É muito utilizada em áreas como História, Educação e Ciências Sociais.</li>
+
+    <li><strong>Dados Primários</strong> – Se sua pesquisa <strong>envolve a coleta direta de dados em campo</strong>, por meio de entrevistas, observações, formulários, intervenções ou acompanhamentos, ela se afasta das pesquisas baseadas em dados secundários. Nesses casos, você pode estar planejando realizar:
+      <ul>
+        <li>🧾 <em>Levantamentos (survey)</em></li>
+        <li>🔬 <em>Estudos de caso</em></li>
+        <li>🧪 <em>Pesquisas experimentais</em> ou <em>ensaios clínicos</em></li>
+        <li>📊 <em>Estudos de coorte</em> ou <em>caso-controle</em></li>
+        <li>🎤 <em>Pesquisas qualitativas</em> como etnográficas, fenomenológicas ou grounded theory</li>
+      </ul>
+    </li>
+  </ul>
+
+  <p>✅ Se você <strong>não pretende interagir diretamente com participantes</strong> nem realizar coletas em campo, sua pesquisa provavelmente será do tipo bibliográfica ou documental. Já se deseja produzir seus próprios dados, seu caminho será outro.</p>
+</div>
+
+</details>
+
+</pre>
+```
+
+<!-- Aqui encerra o campo de respostas-->
+
+```{=html}
+<fieldset style="margin-bottom: 2em; padding: 1em; border: 2px solid #ccc; border-radius: 10px;">
+  <legend style="font-weight: bold; font-size: 1.1em;">
+    7. Você busca descrever e interpretar a experiência vivida da consciência dos indivíduos, focando no que aparece e no seu significado subjetivo?
+  </legend>
+
+  <label>
+    <input type="radio" name="q7" value="fenomenologica">
+    Sim, meu objetivo é chegar à contemplação das essências, abstraindo o que é acidental para entender a percepção do mundo pelo sujeito.
+  </label><br>
+
+  <label>
+    <input type="radio" name="q7" value="nao_fenomenologica">
+    Não, minha pesquisa tem outro foco.
+  </label>
+</fieldset>
+```
+
+<!-- Aqui começa o campo de respostas-->
+
+<details>
+
+<summary>
+
+</summary>
+
+```{=html}
+<div style="background-color:#f9f9f9; border-left:4px solid #555; padding:1em; margin:1em 0; font-family:Arial, sans-serif;">
+  <p><strong>🧠 Pesquisa fenomenológica: compreendendo a experiência vivida</strong></p>
+
+  <p>A pesquisa fenomenológica é uma abordagem qualitativa que busca descrever e interpretar a <strong>experiência vivida da consciência dos indivíduos</strong>. Ao responder "Sim" à pergunta, o pesquisador indica interesse em acessar os significados subjetivos atribuídos a um fenômeno, tal como ele aparece à consciência.</p>
+
+  <ul>
+    <li><strong>🎯 Propósito:</strong> Compreender a essência de um fenômeno experienciado, centrando-se no "como" ele é vivenciado pelo sujeito, e não em explicações causais ou generalizações estatísticas.</li>
+
+    <li><strong>🧭 Fundamentação:</strong> Baseada na filosofia fenomenológica (Husserl, Heidegger), valoriza o olhar subjetivo e não se propõe a "explicar" a realidade, mas a contemplá-la a partir da consciência.</li>
+
+    <li><strong>🌀 Reduções essenciais:</strong>
+      <ul>
+        <li><strong>Redução fenomenológica (Epoché):</strong> suspender julgamentos prévios e teorias, voltando-se apenas para o fenômeno como é experienciado.</li>
+        <li><strong>Redução eidética:</strong> busca pelas <em>essências</em> do fenômeno – aquilo que permanece constante apesar das variações individuais.</li>
+      </ul>
+    </li>
+
+    <li><strong>📋 Exemplos de temas:</strong> Vivência da dor, sentimento de pertencimento, depressão, liderança, satisfação no trabalho, relação com o professor, entre outros.</li>
+
+    <li><strong>🎙️ Coleta de dados:</strong> Entrevistas abertas ou focalizadas, histórias de vida e descrições subjetivas. A linguagem do participante deve ser respeitada e interpretada em profundidade.</li>
+
+    <li><strong>👥 Participantes:</strong> Pequeno número de informantes selecionados intencionalmente, capazes de expressar com riqueza suas experiências. O critério é a <em>profundidade</em>, não a representatividade.</li>
+
+    <li><strong>🧩 Análise:</strong> Consiste em:
+      <ul>
+        <li>Leitura exaustiva das descrições;</li>
+        <li>Extração de frases significativas;</li>
+        <li>Identificação de significados implícitos;</li>
+        <li>Organização em temas e categorias;</li>
+        <li>Construção da <em>estrutura essencial</em> do fenômeno, validada com os participantes.</li>
+      </ul>
+    </li>
+  </ul>
+
+  <p>✅ A pesquisa fenomenológica é indicada quando se deseja <strong>aprofundar a compreensão da experiência subjetiva</strong> das pessoas, preservando sua complexidade e profundidade, sem reduzi-la a categorias pré-definidas.</p>
+</div>
+
+</details>
+
+</pre>
+```
+
+<!-- Aqui encerra o campo de respostas-->
+
+```{=html}
+<fieldset style="margin-bottom: 2em; padding: 1em; border: 2px solid #ccc; border-radius: 10px;">
+  <legend style="font-weight: bold; font-size: 1.1em;">
+    8. Sua pesquisa envolve a imersão em um ambiente cultural específico (comunidade, organização, grupo) para descrever seus comportamentos, crenças e valores, privilegiando a perspectiva dos membros?
+  </legend>
+
+  <label>
+    <input type="radio" name="q8" value="etnografica">
+    Sim, pretendo estudar pessoas em seu próprio ambiente, utilizando observação participante e entrevistas em profundidade.
+  </label><br>
+
+  <label>
+    <input type="radio" name="q8" value="nao_etnografica">
+    Não, meu foco é diferente.
+  </label>
+</fieldset>
+```
+
+<!-- Aqui começa o campo de respostas-->
+
+<details>
+
+<summary>
+
+</summary>
+
+```{=html}
+<div style="background-color:#f0f8ff; border-left:4px solid #4682b4; padding:1em; margin:1em 0; font-family:Arial, sans-serif;">
+  <p><strong>🌍 Pesquisa Etnográfica: entender uma cultura a partir de dentro</strong></p>
+
+  <p>A questão apresentada investiga se sua pesquisa adota os princípios da <strong>etnografia</strong>, uma abordagem qualitativa originada na Antropologia, cujo objetivo é compreender profundamente os significados culturais de um grupo social.</p>
+
+  <ul>
+    <li><strong>🎯 Propósito central:</strong> Estudar <em>pessoas em seu ambiente natural</em>, descrevendo seus <strong>comportamentos, crenças e valores</strong>, com foco em como elas próprias interpretam sua realidade.</li>
+
+    <li><strong>🔍 Técnicas fundamentais:</strong>
+      <ul>
+        <li><strong>Observação participante:</strong> o pesquisador se insere no cotidiano do grupo, convivendo com os participantes e registrando suas práticas culturais.</li>
+        <li><strong>Entrevistas em profundidade:</strong> conduzidas de forma aberta e informal, buscando captar os significados atribuídos pelos sujeitos às suas experiências.</li>
+        <li><strong>Documentação complementar:</strong> uso de notas de campo, registros fotográficos, documentos institucionais e outras fontes culturais.</li>
+      </ul>
+    </li>
+
+    <li><strong>🧠 Perspectiva dos participantes:</strong> A análise etnográfica privilegia a <strong>ótica dos próprios membros</strong> da cultura estudada, evitando impor interpretações externas.</li>
+
+    <li><strong>📌 Problemas de pesquisa apropriados:</strong> questões ligadas a <em>identidades culturais</em>, <em>desigualdades sociais</em>, <em>práticas religiosas</em>, <em>relações de poder</em>, <em>cultura organizacional</em> e <em>representações sociais</em>.</li>
+
+    <li><strong>👥 Seleção de participantes:</strong> feita por julgamento intencional (e não por amostragem estatística), buscando informantes capazes de fornecer <em>relatos ricos e contextualmente situados</em>.</li>
+
+    <li><strong>📈 Análise dos dados:</strong> contínua, interpretativa e contextual. Inclui a leitura de notas e entrevistas, a categorização dos significados locais, e a triangulação de dados para identificar padrões culturais.</li>
+
+    <li><strong>✅ Vantagens:</strong> Alta fidelidade dos dados, obtenção de conhecimento profundo e contextualizado, e baixos custos operacionais.</li>
+
+    <li><strong>⚠️ Desvantagens:</strong> Demanda longa permanência no campo, e há riscos de subjetivismo excessivo por parte do pesquisador.</li>
+  </ul>
+
+  <p>💡 Ao responder "Sim" à questão, o pesquisador demonstra intenção de aplicar um <strong>delineamento etnográfico</strong>, que valoriza a imersão no campo e a interpretação da realidade a partir da vivência dos próprios sujeitos da pesquisa.</p>
+</div>
+
+</details>
+
+</pre>
+```
+
+<!-- Aqui encerra o campo de respostas-->
+
+```{=html}
+<fieldset style="margin-bottom: 2em; padding: 1em; border: 2px solid #ccc; border-radius: 10px;">
+  <legend style="font-weight: bold; font-size: 1.1em;">
+    9. Você pretende construir uma teoria a partir da análise sistemática de dados, observando as regularidades que emergem e permitindo que a teoria seja "fundamentada" nos dados coletados?
+  </legend>
+
+  <label>
+    <input type="radio" name="q9" value="grounded_theory">
+    Sim, desejo gerar uma teoria indutiva, baseada na análise de dados, sem testar uma teoria preexistente.
+  </label><br>
+
+  <label>
+    <input type="radio" name="q9" value="nao_grounded">
+    Não, pretendo testar uma teoria ou descrever fenômenos.
+  </label>
+</fieldset>
+```
+
+<!-- Aqui começa o campo de respostas-->
+
+<details>
+
+<summary>
+
+</summary>
+
+```{=html}
+<div style="background-color:#f0fff0; border-left:4px solid #2e8b57; padding:1em; margin:1em 0; font-family:Arial, sans-serif;">
+  <p><strong>📚 Teoria Fundamentada em Dados (Grounded Theory): construir a teoria a partir dos dados</strong></p>
+
+  <p>A questão apresentada refere-se ao delineamento de pesquisa qualitativa conhecido como <strong>Teoria Fundamentada em Dados</strong>, ou <em>Grounded Theory</em>. Trata-se de um método voltado à <strong>descoberta de teorias a partir da análise sistemática de dados empíricos</strong>, sem partir de hipóteses preexistentes.</p>
+
+  <ul>
+    <li><strong>🎯 Propósito:</strong> Compreender <em>como e por que</em> certas situações sociais ocorrem, a partir do ponto de vista dos participantes. O foco está na geração <strong>indutiva de teoria</strong>, e não na verificação de hipóteses.</li>
+
+    <li><strong>🧱 Natureza "fundamentada":</strong> A teoria é construída com base nos dados, emergindo a partir de comparações constantes, codificação e identificação de padrões. Nada é imposto a priori.</li>
+
+    <li><strong>📌 Teoria substantiva:</strong> A teoria produzida é <em>específica</em> e <em>contextual</em>, explicando fenômenos localizados sem pretensão de universalidade. Não se trata de uma verdade objetiva, mas de uma <strong>interpretação da realidade vivida</strong> pelos sujeitos da pesquisa.</li>
+
+    <li><strong>📋 Rigor metodológico:</strong> Apesar de qualitativa, a Grounded Theory exige um processo bem estruturado, com etapas definidas: formulação do problema, amostragem teórica, coleta, análise e redação. A análise envolve <strong>codificação aberta, axial e seletiva</strong>.</li>
+
+    <li><strong>🔍 Coleta e análise de dados:</strong> Utiliza entrevistas focalizadas, transcritas e analisadas logo após a coleta. O pesquisador categoriza os dados, identifica relações entre conceitos e constrói a teoria a partir dessas conexões.</li>
+
+    <li><strong>🎯 Amostragem teórica:</strong> Não se trata de uma amostra estatística. Os sujeitos são escolhidos conforme a necessidade de aprofundamento teórico, até atingir a <strong>saturação teórica</strong> — quando novos dados não trazem novas informações.</li>
+
+    <li><strong>💡 Sensibilidade teórica:</strong> O pesquisador deve desenvolver a habilidade de reconhecer elementos conceitualmente relevantes nos dados e atribuir significados que contribuam para a construção da teoria.</li>
+
+    <li><strong>🔄 Relação com a fenomenologia:</strong> Embora compartilhe com a fenomenologia a valorização da perspectiva dos sujeitos, a Grounded Theory enfatiza a <strong>interpretação do pesquisador</strong> sobre os dados para formular teoria.</li>
+  </ul>
+
+  <p>✅ Ao responder "Sim" à questão, o pesquisador indica a intenção de <strong>construir uma teoria fundamentada nos dados</strong>, conduzindo uma investigação qualitativa e interpretativista com alto rigor analítico.</p>
+</div>
+
+</details>
+
+</pre>
+```
+
+<!-- Aqui encerra o campo de respostas-->
+
+```{=html}
+<fieldset style="margin-bottom: 2em; padding: 1em; border: 2px solid #ccc; border-radius: 10px;">
+  <legend style="font-weight: bold; font-size: 1.1em;">
+    10. Sua pesquisa visa a identificar os efeitos de uma exposição a um fator de risco sobre um grupo de pessoas ao longo do tempo, comparando expostos e não expostos?
+  </legend>
+
+  <label>
+    <input type="radio" name="q10" value="coorte">
+    Sim, quero acompanhar uma amostra de indivíduos com uma característica comum para observar o que acontece com eles, como a incidência de uma doença.
+  </label><br>
+
+  <label>
+    <input type="radio" name="q10" value="nao_coorte">
+    Não, meu estudo tem outro desenho.
+  </label>
+</fieldset>
+```
+
+<!-- Aqui começa o campo de respostas-->
+
+<details>
+
+<summary>
+
+</summary>
+
+```{=html}
+<div style="background-color:#fff8dc; border-left:4px solid #daa520; padding:1em; margin:1em 0; font-family:Arial, sans-serif;">
+  <p><strong>📊 Estudo de Coorte: acompanhando grupos ao longo do tempo</strong></p>
+
+  <p>A questão apresentada aborda o delineamento conhecido como <strong>Estudo de Coorte</strong>, caracterizado pelo <strong>acompanhamento de um grupo de pessoas expostas a um fator de risco ao longo do tempo</strong>, com o objetivo de verificar os efeitos dessa exposição em comparação a um grupo não exposto.</p>
+
+  <ul>
+    <li><strong>🎯 Propósito:</strong> Identificar os efeitos de uma exposição (como um agente químico, comportamento, ou fator ambiental) sobre indivíduos ao longo do tempo, comparando um grupo exposto com um grupo de controle.</li>
+
+    <li><strong>👥 Coorte:</strong> Refere-se a um grupo de pessoas com uma característica comum que são acompanhadas por um período definido. A observação permite detectar a <em>incidência</em> de um evento, como o aparecimento de uma doença.</li>
+
+    <li><strong>📅 Tipos de estudos de coorte:</strong>
+      <ul>
+        <li><strong>Prospectivo:</strong> A coleta de dados se inicia no presente e segue no tempo. Permite planejamento detalhado e maior controle sobre as variáveis observadas.</li>
+        <li><strong>Retrospectivo:</strong> Utiliza registros históricos para reconstruir os dados desde o passado até o presente. É mais rápido, mas depende da qualidade dos registros.</li>
+      </ul>
+    </li>
+
+    <li><strong>🔍 Etapas do estudo prospectivo:</strong>
+      <ul>
+        <li><strong>Definir objetivos:</strong> Formular hipóteses sobre os efeitos da exposição.</li>
+        <li><strong>Selecionar participantes:</strong> Formar grupos equivalentes de expostos e não expostos, sem doenças relacionadas ao desfecho no início do estudo.</li>
+        <li><strong>Acompanhar os participantes:</strong> Monitorar o surgimento do desfecho durante o tempo necessário.</li>
+        <li><strong>Analisar os dados:</strong> Calcular taxas de ocorrência, <em>risco relativo</em> e <em>risco atribuível</em>.</li>
+      </ul>
+    </li>
+
+    <li><strong>✅ Vantagens:</strong> Permite verificar a temporalidade entre causa e efeito. Tem alto rigor científico quando prospectivo.</li>
+
+    <li><strong>⚠️ Limitações:</strong> Não utiliza aleatoriedade. Pode exigir amostras grandes e ser dispendioso. Estudos retrospectivos dependem de registros padronizados e completos.</li>
+
+    <li><strong>🔁 Comparação com estudo caso-controle:</strong> Enquanto o estudo de coorte <strong>parte da exposição e acompanha o desfecho</strong>, o caso-controle <strong>parte do desfecho e busca as causas anteriores</strong>.</li>
+  </ul>
+
+  <p>✅ A opção "Sim, quero acompanhar uma amostra de indivíduos com uma característica comum para observar o que acontece com eles, como a incidência de uma doença" descreve com precisão a metodologia de um <strong>Estudo de Coorte</strong>.</p>
+</div>
+
+</details>
+
+</pre>
+```
+
+<!-- Aqui encerra o campo de respostas-->
+
+```{=html}
+<fieldset style="margin-bottom: 2em; padding: 1em; border: 2px solid #ccc; border-radius: 10px;">
+  <legend style="font-weight: bold; font-size: 1.1em;">
+    11. Sua pesquisa busca identificar as causas de uma doença ou condição partindo do efeito (doença/condição já presente) e comparando indivíduos afetados com não afetados, retrospectivamente?
+  </legend>
+
+  <label>
+    <input type="radio" name="q11" value="caso_controle">
+    Sim, pretendo comparar indivíduos que apresentam um desfecho com indivíduos que não o apresentam, buscando a exposição passada.
+  </label><br>
+
+  <label>
+    <input type="radio" name="q11" value="nao_caso_controle">
+    Não, meu estudo é prospectivo ou tem outro objetivo.
+  </label>
+</fieldset>
+```
+
+<!-- Aqui começa o campo de respostas-->
+
+<details>
+
+<summary>
+
+</summary>
+
+```{=html}
+<div style="background-color:#fff8dc; border-left:4px solid #daa520; padding:1em; margin:1em 0; font-family:Arial, sans-serif;">
+  <p><strong>🧪 Estudo Caso-Controle: buscando as causas de um desfecho já ocorrido</strong></p>
+
+  <p>A questão refere-se ao <strong>Estudo Caso-Controle</strong>, uma estratégia metodológica amplamente utilizada para investigar relações entre fatores de risco e desfechos de saúde, especialmente em situações em que a doença já está presente.</p>
+
+  <ul>
+    <li><strong>🔁 Natureza Retrospectiva:</strong> Parte-se do <strong>efeito (doença ou condição)</strong> já ocorrido e busca-se identificar possíveis <strong>causas ou exposições passadas</strong>. É o inverso do estudo de coorte, que parte da exposição e observa os efeitos.</li>
+
+    <li><strong>👥 Comparação entre Grupos:</strong>
+      <ul>
+        <li><strong>Casos:</strong> Indivíduos que apresentam a doença ou condição.</li>
+        <li><strong>Controles:</strong> Indivíduos semelhantes aos casos, mas <em>sem</em> a doença.</li>
+      </ul>
+      O objetivo é verificar se os casos tiveram maior exposição ao fator de risco do que os controles.
+    </li>
+
+    <li><strong>🎯 Objetivo:</strong> Identificar <strong>associações entre exposição e desfecho</strong>, sugerindo possíveis fatores causais.</li>
+
+    <li><strong>✅ Vantagens:</strong>
+      <ul>
+        <li>É <strong>rápido e econômico</strong>, especialmente útil em doenças raras.</li>
+        <li>Permite investigar hipóteses preliminares.</li>
+        <li>É viável quando a exposição não pode ser aplicada por questões éticas.</li>
+      </ul>
+    </li>
+
+    <li><strong>📋 Etapas Comuns:</strong>
+      <ul>
+        <li><strong>Definir objetivos:</strong> Formular hipóteses claras sobre fatores de risco.</li>
+        <li><strong>Selecionar participantes:</strong> Casos e controles devem ser semelhantes em tudo, exceto na condição estudada. Pode-se usar <em>pareamento</em> por idade, sexo, etc.</li>
+        <li><strong>Verificar exposições passadas:</strong> Via entrevistas, prontuários ou outros registros. Cuidado com vieses de memória.</li>
+        <li><strong>Analisar os dados:</strong> Calcula-se o <strong>Odds Ratio (OR)</strong>, que estima a chance de exposição entre os casos comparada aos controles.</li>
+      </ul>
+    </li>
+
+    <li><strong>📉 Medida principal:</strong> O <strong>Odds Ratio</strong> (razão de chances) estima a associação entre exposição e doença, com intervalos de confiança indicando precisão.</li>
+
+    <li><strong>↔️ Diferença em relação ao Estudo de Coorte:</strong>
+      <ul>
+        <li><strong>Direção:</strong> O estudo caso-controle vai <strong>do desfecho para a exposição</strong>; o de coorte, da exposição para o desfecho.</li>
+        <li><strong>Controle dos dados:</strong> No caso-controle, os grupos são definidos pelo pesquisador. No coorte, formam-se naturalmente.</li>
+      </ul>
+    </li>
+  </ul>
+
+  <p>✅ A opção <em>"Sim, pretendo comparar indivíduos que apresentam um desfecho com indivíduos que não o apresentam, buscando a exposição passada"</em> corresponde precisamente ao delineamento de um <strong>Estudo Caso-Controle</strong>.</p>
+</div>
+
+</details>
+
+</pre>
+```
+
+<!-- Aqui encerra o campo de respostas-->
+
+```{=html}
+<fieldset style="margin-bottom: 2em; padding: 1em; border: 2px solid #ccc; border-radius: 10px;">
+  <legend style="font-weight: bold; font-size: 1.1em;">
+    12. Você pretende trabalhar em estreita associação com uma ação ou na resolução de um problema coletivo, com envolvimento cooperativo e participativo de pesquisadores e participantes, buscando diagnóstico e mudança?
+  </legend>
+
+  <label>
+    <input type="radio" name="q12" value="pesquisa_acao">
+    Sim, meu objetivo é contribuir tanto para a produção de conhecimento quanto para a ação social.
+  </label><br>
+
+  <label>
+    <input type="radio" name="q12" value="nao_pesquisa_acao">
+    Não, minha pesquisa é puramente acadêmica ou descritiva.
+  </label>
+</fieldset>
+```
+
+<!-- Aqui começa o campo de respostas-->
+
+<details>
+
+<summary>
+
+</summary>
+
+```{=html}
+<div style="background-color:#f0f8ff; border-left:4px solid #4682b4; padding:1em; margin:1em 0; font-family:Arial, sans-serif;">
+  <p><strong>🤝 Pesquisa-Ação: conhecimento com transformação social</strong></p>
+
+  <p>A questão proposta descreve com precisão o delineamento conhecido como <strong>Pesquisa-Ação</strong>, uma metodologia que integra a investigação científica com a resolução prática de problemas coletivos, por meio da <strong>participação ativa dos envolvidos</strong>.</p>
+
+  <ul>
+    <li><strong>📌 Definição e Propósito:</strong> A pesquisa-ação é <em>empírica</em> e ocorre em estreita associação com uma ação ou problema real. Todos os envolvidos (pesquisadores e participantes) <strong>atuam de forma colaborativa</strong> com o propósito duplo de <strong>produzir conhecimento e transformar a realidade</strong>.</li>
+
+    <li><strong>🌱 Origem e Fundamentos:</strong> Criada por Kurt Lewin (1946), valoriza a prática e a intervenção. Ao contrário da pesquisa tradicional, aceita questões como "como fazer" e "como mudar". Exemplo: em vez de apenas investigar causas da evasão escolar, propõe ações concretas para reduzi-la.</li>
+
+    <li><strong>🔁 Etapas Flexíveis e Iterativas:</strong> Diferentemente de modelos rígidos, a pesquisa-ação adota um <em>vaivém entre teoria e prática</em>, com etapas que podem ser revisitadas ao longo do processo:
+      <ul>
+        <li><strong>Exploração do campo:</strong> Visitas, observação direta e diálogo com os atores locais.</li>
+        <li><strong>Formulação do problema:</strong> Com foco prático, visando intervenção.</li>
+        <li><strong>Hipóteses:</strong> Claras e empíricas, ainda que não causais.</li>
+        <li><strong>Seminário inicial:</strong> Reunião entre pesquisadores e participantes para planejar a investigação e a ação.</li>
+        <li><strong>Amostragem intencional:</strong> Foca em sujeitos relevantes, e não em representatividade estatística.</li>
+        <li><strong>Coleta de dados:</strong> Diversificada e adaptável — entrevistas, observação, questionários, sociodrama etc.</li>
+        <li><strong>Análise:</strong> Pode combinar categorização e estatísticas com debate coletivo e interpretação compartilhada.</li>
+        <li><strong>Plano de ação:</strong> Documento prático com objetivos, beneficiários, ações, formas de controle e avaliação.</li>
+        <li><strong>Divulgação:</strong> Pode ocorrer junto com a ação (relatórios internos) ou externamente (congressos, publicações).</li>
+      </ul>
+    </li>
+
+    <li><strong>🔍 Comparação com Pesquisa Participante:</strong> Ambas envolvem envolvimento dos sujeitos, mas:
+      <ul>
+        <li><strong>Pesquisa-Ação:</strong> visa à <em>resolução de um problema prático</em>.</li>
+        <li><strong>Pesquisa Participante:</strong> tem foco mais forte na <em>emancipação social e política dos participantes</em>.</li>
+      </ul>
+    </li>
+
+    <li><strong>🎯 Em resumo:</strong> A opção <em>"Sim, pretendo trabalhar em estreita associação com uma ação ou na resolução de um problema coletivo..."</em> descreve fielmente a <strong>Pesquisa-Ação</strong>, cuja essência está na articulação entre <strong>pesquisa, prática e transformação social</strong>.</li>
+  </ul>
+</div>
+
+</details>
+
+</pre>
+```
+
+<!-- Aqui encerra o campo de respostas-->
+
+```{=html}
+<fieldset style="margin-bottom: 2em; padding: 1em; border: 2px solid #ccc; border-radius: 10px;">
+  <legend style="font-weight: bold; font-size: 1.1em;">
+    13. Você se propõe a atuar no fomento do processo de formação de consciência crítica e emancipação de grupos marginalizados por meio da pesquisa?
+  </legend>
+
+  <label>
+    <input type="radio" name="q13" value="pesquisa_participante">
+    Sim, meu foco é a pesquisa participante, com ênfase na articulação e empoderamento da população.
+  </label><br>
+
+  <label>
+    <input type="radio" name="q13" value="nao_pesquisa_participante">
+    Não, meu objetivo é diferente.
+  </label>
+</fieldset>
+```
+
+<!-- Aqui começa o campo de respostas-->
+
+<details>
+
+<summary>
+
+</summary>
+
+```{=html}
+<div style="background-color:#fdf6e3; border-left:4px solid #b58900; padding:1em; margin:1em 0; font-family:Arial, sans-serif;">
+  <p><strong>🌱 Pesquisa Participante: conhecimento com emancipação</strong></p>
+
+  <p>A questão proposta descreve com exatidão o delineamento conhecido como <strong>Pesquisa Participante</strong>, uma abordagem transformadora que envolve ativamente os sujeitos da pesquisa na construção do conhecimento e na busca por sua própria emancipação social e política.</p>
+
+  <ul>
+    <li><strong>🎯 Finalidade:</strong> A pesquisa participante tem como <strong>propósito central a formação da consciência crítica e a emancipação dos grupos envolvidos</strong>. Os sujeitos pesquisados tornam-se coautores do processo, influenciando desde a formulação das perguntas até o uso dos resultados.</li>
+
+    <li><strong>🤲 Participação ativa:</strong> Diferentemente da pesquisa tradicional, em que o pesquisador conduz todas as etapas, na pesquisa participante:
+      <ul>
+        <li>O problema de pesquisa <strong>emerge da própria comunidade</strong> envolvida;</li>
+        <li>A condução é realizada <strong>em parceria entre pesquisadores e participantes</strong>;</li>
+        <li>O conhecimento produzido visa não só à compreensão, mas à <strong>transformação da realidade</strong>.</li>
+      </ul>
+    </li>
+
+    <li><strong>🌍 Origens latino-americanas:</strong> A pesquisa participante surgiu na América Latina e foi fortemente influenciada pela <strong>educação popular de Paulo Freire</strong>. Seu método de alfabetização crítica, com base na realidade do educando, inspirou a ideia de que a pesquisa também deve partir da leitura do mundo vivido.</li>
+
+    <li><strong>💡 Influência sociológica:</strong> Também está presente a visão de <em>Orlando Fals Borda</em>, que distingue entre a “ciência dominante” (ligada à manutenção do status quo) e a “ciência popular” (envolvida com o povo e com sua libertação).</li>
+
+    <li><strong>🆚 Diferença em relação à Pesquisa-Ação:</strong> Ambas compartilham métodos colaborativos, mas:
+      <ul>
+        <li><strong>Pesquisa-Ação:</strong> visa à resolução de um problema específico;</li>
+        <li><strong>Pesquisa Participante:</strong> tem como eixo a <strong>emancipação política e cultural dos sujeitos</strong>.</li>
+      </ul>
+    </li>
+
+    <li><strong>🌀 Flexibilidade metodológica:</strong> As etapas da pesquisa participante <strong>não são padronizadas</strong>:
+      <ul>
+        <li>O processo inclui escuta ativa, convivência, rodas de conversa, oficinas, debates etc.</li>
+        <li>O plano de ação e a análise dos dados <strong>nascem do diálogo com os participantes</strong>.</li>
+        <li>Frequentemente, a devolutiva do conhecimento <strong>ocorre por meios orais e culturais próprios</strong> dos grupos envolvidos, e não por relatórios técnicos.</li>
+      </ul>
+    </li>
+
+    <li><strong>👥 Amostragem:</strong> A seleção dos participantes é intencional, buscando aqueles que possam promover reflexão, articulação e mobilização. A ênfase está na <strong>qualidade das interações e do engajamento</strong>, e não na representatividade estatística.</li>
+
+    <li><strong>🗣️ Exemplo prático:</strong> Uma pesquisa participante pode ocorrer com comunidades indígenas, quilombolas, trabalhadores rurais, pessoas em situação de rua, entre outros, partindo de problemas apontados pelos próprios grupos (como acesso à terra, educação, saúde etc.), e construindo coletivamente ações e saberes em torno dessas demandas.</li>
+
+    <li><strong>🔑 Em resumo:</strong> A resposta "Sim, meu foco é a pesquisa participante..." descreve perfeitamente esse delineamento metodológico, que integra investigação, <strong>compromisso ético-político</strong> e transformação coletiva.</li>
+  </ul>
+</div>
+
+</details>
+
+</pre>
+```
+
+<!-- Aqui encerra o campo de respostas-->
+
+```{=html}
+<fieldset style="margin-bottom: 2em; padding: 1em; border: 2px solid #ccc; border-radius: 10px;">
+  <legend style="font-weight: bold; font-size: 1.1em;">
+    14. Você pretende descrever histórias detalhadas ou experiências de vida de um ou poucos indivíduos, utilizando narrativas como forma de dados e apresentação?
+  </legend>
+
+  <label>
+    <input type="radio" name="q14" value="pesquisa_narrativa">
+    Sim, o relato de experiências pessoais é central para minha pesquisa.
+  </label><br>
+
+  <label>
+    <input type="radio" name="q14" value="nao_pesquisa_narrativa">
+    Não, meu foco é outro.
+  </label>
+</fieldset>
+```
+
+<!-- Aqui começa o campo de respostas-->
+
+<details>
+
+<summary>
+
+</summary>
+
+```{=html}
+<div style="background-color:#fdf6e3; border-left:4px solid #2aa198; padding:1em; margin:1em 0; font-family:Arial, sans-serif;">
+  <p><strong>📖 Pesquisa Narrativa: histórias de vida como fonte de conhecimento</strong></p>
+
+  <p>A questão proposta descreve fielmente a <strong>Pesquisa Narrativa</strong>, uma abordagem qualitativa centrada na descrição e interpretação de experiências de vida individuais, por meio de narrativas detalhadas.</p>
+
+  <ul>
+    <li><strong>🎯 Foco:</strong> Explorar <strong>experiências pessoais e significados atribuídos pelos sujeitos</strong>, geralmente com um ou poucos participantes. O interesse está na trajetória vivida, e não apenas nos eventos em si.</li>
+
+    <li><strong>📚 Origem:</strong> Embora seja uma das formas mais antigas de investigação, a pesquisa narrativa ganhou sistematização mais recente, com obras de Clandinin & Connelly (2000), Bertaux (2003), Riessman (2008), entre outros.</li>
+
+    <li><strong>👥 Participantes:</strong> A amostragem é intencional e restrita, muitas vezes <strong>1 a 4 indivíduos</strong>. São escolhidos por possuírem histórias relevantes que podem ser exploradas em profundidade.</li>
+
+    <li><strong>📝 Coleta de dados:</strong> A pesquisa narrativa utiliza uma variedade de fontes, como:
+      <ul>
+        <li>Entrevistas em profundidade;</li>
+        <li>Diários, autobiografias, cartas, fotos e objetos pessoais;</li>
+        <li>Conversas informais, registros de memória familiar, artefatos culturais;</li>
+        <li>Histórias registradas por meio de blogs ou redes sociais.</li>
+      </ul>
+      A coleta deve considerar também o <strong>contexto da narrativa</strong> — familiar, cultural, histórico e social.
+    </li>
+
+    <li><strong>🧠 Análise dos dados:</strong> Como os relatos raramente seguem uma ordem linear, o pesquisador organiza os dados para construir sentido:
+      <ul>
+        <li>Modelos estruturais com <strong>início, meio e fim</strong>;</li>
+        <li>Elementos como <em>personagem, conflito, ambiente e desfecho</em> (Yusen e Ozcan);</li>
+        <li>Modelo tridimensional de Clandinin e Connelly: <strong>interação, continuidade e situação</strong>.</li>
+      </ul>
+    </li>
+
+    <li><strong>🖋️ Redação do relatório:</strong> É a modalidade com <strong>maior flexibilidade textual</strong>. O pesquisador pode:
+      <ul>
+        <li>Redigir de forma narrativa (incorporando trechos das histórias);</li>
+        <li>Incluir suas próprias experiências como co-participante do processo;</li>
+        <li>Aplicar a estrutura narrativa de Labov: <em>Resumo, Orientação, Ação complicadora, Avaliação, Resolução e Epílogo</em>.</li>
+      </ul>
+    </li>
+
+    <li><strong>🧭 Exemplo prático:</strong> Uma pesquisa narrativa pode acompanhar a trajetória de uma professora indígena, descrevendo sua formação, conflitos culturais, estratégias pedagógicas e desafios pessoais, a partir de relatos orais e escritos.</li>
+
+    <li><strong>🗝️ Em resumo:</strong> A resposta "Sim, o relato de experiências pessoais é central para minha pesquisa" revela uma clara adesão ao delineamento da <strong>Pesquisa Narrativa</strong>, cuja força reside na escuta sensível e na reconstrução reflexiva das experiências humanas em contextos reais.</li>
+  </ul>
+</div>
+
+</details>
+
+</pre>
+```
+
+<!-- Aqui encerra o campo de respostas-->
+
+```{=html}
+<fieldset style="margin-bottom: 2em; padding: 1em; border: 2px solid #ccc; border-radius: 10px;">
+  <legend style="font-weight: bold; font-size: 1.1em;">
+    15. Qual é o papel principal das hipóteses em sua pesquisa, se houver?
+  </legend>
+
+  <label>
+    <input type="radio" name="q15" value="relacoes_causais">
+    Estabelecer relações causais entre variáveis.
+  </label><br>
+
+  <label>
+    <input type="radio" name="q15" value="associacao_dependencia">
+    Indicar a existência de associação ou dependência entre variáveis.
+  </label><br>
+
+  <label>
+    <input type="radio" name="q15" value="explicacoes_provisorias">
+    Servir como suposições ou explicações provisórias do problema que serão testadas empiricamente.
+  </label><br>
+
+  <label>
+    <input type="radio" name="q15" value="nao_formalizadas">
+    Não são formalmente enunciadas, pois o foco está na descrição ou na geração de teoria a partir dos dados.
+  </label>
+</fieldset>
+```
+
+<!-- Aqui começa o campo de respostas-->
+
+<details>
+
+<summary>
+
+</summary>
+
+```{=html}
+<div style="background-color:#fdf6e3; border-left:4px solid #b58900; padding:1em; margin:1em 0; font-family:Arial, sans-serif;">
+  <p><strong>🔍 O papel das hipóteses na pesquisa científica</strong></p>
+
+  <p>Esta questão explora as diferentes funções que as hipóteses podem desempenhar em projetos de pesquisa, dependendo do <strong>delineamento metodológico</strong> adotado. Abaixo, são explicadas as principais abordagens:</p>
+
+  <ul>
+    <li><strong>🧪 Hipóteses como suposições testáveis</strong>:</li>
+    <ul>
+      <li>Constituem <strong"sugestões provisórias</strong> sobre a solução de um problema, que devem ser verificadas empiricamente.</li>
+      <li>São comuns em pesquisas <strong>quantitativas</strong> com estrutura formal.</li>
+      <li>Devem ser claras, específicas, verificáveis, empiricamente referenciadas e compatíveis com as técnicas de coleta de dados disponíveis.</li>
+      <li><em>Exemplo:</em> “O uso de mapas mentais aumenta a retenção de conteúdo em estudantes do ensino médio.”</li>
+    </ul>
+
+    <li><strong>🔗 Hipóteses que estabelecem relações causais</strong>:</li>
+    <ul>
+      <li>Usadas em pesquisas <strong>experimentais</strong>, onde se deseja provar que uma variável influencia outra.</li>
+      <li>Pressupõem <strong>controle de variáveis</strong> e a manipulação de uma condição experimental.</li>
+      <li><em>Exemplo:</em> “O uso de iluminação natural reduz o estresse entre trabalhadores.”</li>
+    </ul>
+
+    <li><strong>📊 Hipóteses que indicam associação entre variáveis</strong>:</li>
+    <ul>
+      <li>Comuns em pesquisas por <strong>levantamento (survey)</strong>, em que se busca verificar se duas ou mais variáveis estão associadas, sem inferir causalidade.</li>
+      <li><em>Exemplo:</em> “Há associação entre nível de escolaridade e renda mensal.”</li>
+    </ul>
+
+    <li><strong>🧭 Pesquisas sem hipóteses formalizadas</strong>:</li>
+    <ul>
+      <li>Em diversos delineamentos <strong>qualitativos</strong>, as hipóteses são implícitas ou inexistentes, pois o objetivo é <strong>descrever, interpretar ou construir teorias</strong> com base nos dados.</li>
+      <li><em>Exemplos:</em></li>
+      <ul>
+        <li><strong>Pesquisa Narrativa:</strong> relato de experiências individuais sem teste de hipóteses.</li>
+        <li><strong>Fenomenologia:</strong> busca de significados e essências da experiência consciente, suspendendo hipóteses prévias (epoché).</li>
+        <li><strong>Grounded Theory:</strong> construção indutiva de teoria emergente a partir dos dados.</li>
+        <li><strong>Etnografia:</strong> descrição detalhada de culturas e práticas, sem foco em relações causais.</li>
+        <li><strong>Estudo de Caso:</strong> compreensão profunda de casos singulares, com perguntas abertas como “o que” e “como”.</li>
+        <li><strong>Pesquisa-Ação:</strong> resolução de problemas práticos com flexibilidade e participação ativa.</li>
+        <li><strong>Pesquisa Participante:</strong> processo colaborativo com foco na emancipação social, não na formalização de hipóteses.</li>
+      </ul>
+    </ul>
+  </ul>
+
+  <p><strong>📌 Em resumo:</strong> o papel das hipóteses depende diretamente do objetivo e do tipo de pesquisa. Enquanto em abordagens quantitativas as hipóteses orientam a coleta e análise de dados, em abordagens qualitativas elas são substituídas por <strong>perguntas abertas, objetivos exploratórios ou teorias emergentes</strong>.</p>
+</div>
+
+</details>
+
+</pre>
+```
+
+<!-- Aqui encerra o campo de respostas-->
+
+```{=html}
+<button onclick="gerarSintese()" style="margin-top: 2em; padding: 10px 20px; font-size: 1em;">Gerar um mapa metodológico</button>
+
+<div id="sintese" style="margin-top: 2em; padding: 1em; border: 2px solid #ccc; border-radius: 10px; background-color: #f9f9f9;"></div>
+
+<script>
+function gerarSintese() {
+  const respostas = {};
+  for (let i = 1; i <= 15; i++) {
+    const radios = document.getElementsByName("q" + i);
+    for (const radio of radios) {
+      if (radio.checked) {
+        respostas["q" + i] = radio.value;
+        break;
+      }
+    }
+  }
+
+  let texto = "<h3>Síntese do delineamento metodológico</h3>";
+
+  // Tipo de pesquisa (q1)
+  if (respostas.q1 === "exploratoria") {
+    texto += "<p><strong>Tipo de pesquisa:</strong> Exploratório — visa familiarização com o problema e formulação de hipóteses. Métodos comuns: pesquisa bibliográfica, estudo de caso.</p>";
+  } else if (respostas.q1 === "descritiva") {
+    texto += "<p><strong>Tipo de pesquisa:</strong> Descritivo — busca caracterizar fenômenos ou relações. Métodos comuns: survey, etnografia, estudo de caso.</p>";
+  } else if (respostas.q1 === "explicativa") {
+    texto += "<p><strong>Tipo de pesquisa:</strong> Explicativo — visa identificar causas e razões dos fenômenos. Pode envolver experimentos ou estudos de coorte.</p>";
+  }
+
+  // Abordagem científica (q2)
+  if (respostas.q2 === "quantitativa") {
+    texto += "<p><strong>Abordagem científica:</strong> Quantitativa — análise estatística de dados numéricos.</p>";
+  } else if (respostas.q2 === "qualitativa") {
+    texto += "<p><strong>Abordagem científica:</strong> Qualitativa — foco na interpretação dos significados e experiências.</p>";
+  } else if (respostas.q2 === "mista") {
+    texto += "<p><strong>Abordagem científica:</strong> Mista — combinação de métodos quantitativos e qualitativos.</p>";
+  }
+
+  // Exemplo: análise da q6
+  if (respostas.q6 === "bibliografica") {
+    texto += "<p><strong>Técnica de coleta:</strong> Pesquisa bibliográfica — baseada em obras publicadas, como artigos e livros científicos.</p>";
+  } else if (respostas.q6 === "documental") {
+    texto += "<p><strong>Técnica de coleta:</strong> Pesquisa documental — análise de documentos institucionais, jurídicos ou estatísticos.</p>";
+  }
+
+  // (Adicione outras inferências conforme desejar...)
+
+  // Mensagem final
+  texto += "<p>⚠️ Esta síntese é uma sugestão com base nas suas escolhas. Converse com o seu orientador para validá-la.</p>";
+
+  document.getElementById("sintese").innerHTML = texto;
+}
+</script>
+```
