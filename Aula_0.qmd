@@ -14,44 +14,47 @@ Competência comunicativa é a capacidade de um indivíduo usar a língua de for
 
 ## Conteúdo Programático
 
-::: {.subtitulo-nao-numerado}
+::: subtitulo-nao-numerado
 Unidade I – Academia e ciência
 :::
- - O sistema acadêmico brasileiro
- - Pensamento científico
- - Opinião, fato e escrita acadêmica
- - Argumentos de senso comum e senso crítico
- - Discurso reportado. Gerenciamento de referências bibliográficas
- - Fontes confiáveis de informação
 
-::: {.subtitulo-nao-numerado}
+-   O sistema acadêmico brasileiro
+-   Pensamento científico
+-   Opinião, fato e escrita acadêmica
+-   Argumentos de senso comum e senso crítico
+-   Discurso reportado. Gerenciamento de referências bibliográficas
+-   Fontes confiáveis de informação
+
+::: subtitulo-nao-numerado
 Unidade II – Leitura científica e gêneros acadêmicos
 :::
- - Gêneros acadêmicos: fundamentos
- - Plano de trabalho
- - Resumo
- - Artigo
- - Fichamento
- - Leitura acadêmica
- - Estado da arte
- - Resenha
 
-::: {.subtitulo-nao-numerado}
+-   Gêneros acadêmicos: fundamentos
+-   Plano de trabalho
+-   Resumo
+-   Artigo
+-   Fichamento
+-   Leitura acadêmica
+-   Estado da arte
+-   Resenha
+
+::: subtitulo-nao-numerado
 Unidade III – Escrita, revisão e textualidade
 :::
- - Redação orientada do plano de trabalho: da ideia ao texto final
- - Etapas do projeto de pesquisa: justificativa, objetivos, metodologia e cronograma
- - Coesão e coerência textual na organização do plano de trabalho
- - Estilo acadêmico: clareza, concisão, verbos dicendi e paráfrase
- - Reescrita com base em critérios técnicos e linguísticos
- - Autoavaliação da competência escrita e diagnóstico final
- - Questões gramaticais relevantes: colocação pronominal, concordância, pontuação e acentuação
- - Atividades de fechamento com base nos desafios da OBL
+
+-   Redação orientada do plano de trabalho: da ideia ao texto final
+-   Etapas do projeto de pesquisa: justificativa, objetivos, metodologia e cronograma
+-   Coesão e coerência textual na organização do plano de trabalho
+-   Estilo acadêmico: clareza, concisão, verbos dicendi e paráfrase
+-   Reescrita com base em critérios técnicos e linguísticos
+-   Autoavaliação da competência escrita e diagnóstico final
+-   Questões gramaticais relevantes: colocação pronominal, concordância, pontuação e acentuação
+-   Atividades de fechamento com base nos desafios da OBL
 
 ## Competências e habilidades
 
 | Competência | Habilidades |
-|------------------------------------|------------------------------------|
+|----|----|
 | Utilizar a linguagem com clareza, precisão e adequação nos contextos acadêmicos. | \- Reconhecer diferentes registros linguísticos e níveis de formalidade.<br>- Utilizar a norma-padrão da língua portuguesa em situações de comunicação acadêmica. |
 | Ler, compreender e interpretar textos acadêmicos de diferentes gêneros. | \- Identificar a organização composicional e os propósitos comunicativos dos gêneros acadêmicos.<br>- Desenvolver estratégias de leitura crítica e analítica. |
 | Produzir textos acadêmicos adequados aos gêneros e às normas científicas. | \- Elaborar textos com coesão e coerência.<br>- Aplicar corretamente normas de citação e referência (ABNT).<br>- Planejar, redigir e revisar textos científicos. |
@@ -67,53 +70,29 @@ A disciplina adota uma abordagem ativa e interdisciplinar, com atividades práti
 
 A avaliação da disciplina será composta por três instrumentos complementares, organizados segundo as unidades temáticas do curso:
 
-::: {.subtitulo-nao-numerado}
+::: subtitulo-nao-numerado
 ✅ 1ª Avaliação (20%) – Teste objetivo
 :::
 
-Aplicação de prova objetiva individual com questões de múltipla escolha, baseada em estudos de caso e fragmentos textuais. A prova abordará:
-- Características do pensamento científico;
-- Tipos de discurso (científico, jurídico, religioso, senso comum);
-- Citação, referência e normas da ABNT (NBR 6023 e 10520);
-- Estratégias argumentativas (convencer e persuadir);
-- Princípios da pesquisa científica (verificabilidade, replicabilidade etc.).
+Aplicação de prova objetiva individual com questões de múltipla escolha, baseada em estudos de caso e fragmentos textuais. A prova abordará: - Características do pensamento científico; - Tipos de discurso (científico, jurídico, religioso, senso comum); - Citação, referência e normas da ABNT (NBR 6023 e 10520); - Estratégias argumentativas (convencer e persuadir); - Princípios da pesquisa científica (verificabilidade, replicabilidade etc.).
 
-Formato: 10 questões objetivas, 1 ponto cada
-Peso: 20% da nota final
-Unidade correspondente: Unidade 1 – Fundamentos da vida universitária e da ciência
+Formato: 10 questões objetivas, 1 ponto cada Peso: 20% da nota final Unidade correspondente: Unidade 1 – Fundamentos da vida universitária e da ciência
 
-::: {.subtitulo-nao-numerado}
+::: subtitulo-nao-numerado
 ✅ 2ª Avaliação (20%) – Mídia digital de divulgação científica
 :::
 
-Produção individual de uma mídia de divulgação científica, com base em dado central do plano de trabalho do(a) estudante, a ser publicada em conta oficial da disciplina no Instagram. A avaliação inclui:
-- A mídia (reel ou carrossel), com foco em clareza, pertinência e linguagem acessível;
-- Um relatório reflexivo de produção (preenchido em sala de aula).
+Produção individual de uma mídia de divulgação científica, com base em dado central do plano de trabalho do(a) estudante, a ser publicada em conta oficial da disciplina no Instagram. A avaliação inclui: - A mídia (reel ou carrossel), com foco em clareza, pertinência e linguagem acessível; - Um relatório reflexivo de produção (preenchido em sala de aula).
 
-Peso da mídia: 60% da nota da avaliação
-Peso do relatório: 40% da nota da avaliação
-Peso total da avaliação: 20% da nota final
-Unidade correspondente: Unidade 2 – Escrita acadêmica, ciência e sociedade
+Peso da mídia: 60% da nota da avaliação Peso do relatório: 40% da nota da avaliação Peso total da avaliação: 20% da nota final Unidade correspondente: Unidade 2 – Escrita acadêmica, ciência e sociedade
 
-::: {.subtitulo-nao-numerado}
+::: subtitulo-nao-numerado
 ✅ 3ª Avaliação (40%) – Plano de trabalho e pitch
 :::
 
-Elaboração final do plano de trabalho, conforme estrutura exigida em editais de iniciação científica (Pibic), acompanhado de um pitch de elevador (apresentação oral ou em vídeo, com até 90 segundos). A entrega envolverá:
-- Um texto formal completo, com as seguintes seções:
-- Identificação
-- Introdução e Justificativa
-- Objetivo Geral
-- Objetivos Específicos
-- Metodologia
-- Habilidades desenvolvidas
-- Referências bibliográficas
-- Um pitch curto, oral ou gravado, que apresente o projeto com clareza, impacto e domínio técnico.
+Elaboração final do plano de trabalho, conforme estrutura exigida em editais de iniciação científica (Pibic), acompanhado de um pitch de elevador (apresentação oral ou em vídeo, com até 90 segundos). A entrega envolverá: - Um texto formal completo, com as seguintes seções: - Identificação - Introdução e Justificativa - Objetivo Geral - Objetivos Específicos - Metodologia - Habilidades desenvolvidas - Referências bibliográficas - Um pitch curto, oral ou gravado, que apresente o projeto com clareza, impacto e domínio técnico.
 
-Peso do plano de trabalho escrito: 30% da nota final
-Peso do pitch de elevador: 10% da nota final
-Peso total da avaliação: 40% da nota final
-Unidade correspondente: Unidade 3 – Projeto de pesquisa e prática acadêmica
+Peso do plano de trabalho escrito: 30% da nota final Peso do pitch de elevador: 10% da nota final Peso total da avaliação: 40% da nota final Unidade correspondente: Unidade 3 – Projeto de pesquisa e prática acadêmica
 
 ## Bibliografia básica
 

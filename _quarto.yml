@@ -72,7 +72,7 @@ bibliography: references.bib
 format:
   html:
     theme: 
-      - sandstone
+      - cosmo
     toc: true
     navbar:
       title: "Análise e Expressão Textual"
