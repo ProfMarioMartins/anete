@@ -124,10 +124,10 @@
 
 /* Estilo para o menu lateral */
 .sidebar {
-  background-color: #fdf6e3; /* azul profundo */
-  color: #333;
-  font-family: 'Segoe UI', sans-serif;
-  font-size: 0.95rem
+  background-color: #ffffff; /* fundo branco ou neutro */
+  font-family: system-ui, sans-serif;
+  font-size: 0.95rem;
+  border-right: 1px solid #eee;
 }
 
 .sidebar .menu-section {
@@ -140,23 +140,29 @@
 }
 
 /* Estilo para o título do livro no canto superior esquerdo */
-.sidebar .sidebar-title {
+.sidebar-title {
   display: block;
-  font-size: 1.6rem;
-  font-weight: 800;
-  color: #4e342e;
+  font-family: 'Georgia', serif;
+  font-size: 1.9rem;
+  font-weight: 700;
+  line-height: 1.3;
+  color: #2e2e2e;
+  background: linear-gradient(135deg, #fff3e0, #fce4ec);
+  padding: 1.6rem 1.2rem;
   text-align: center;
-  padding: 1.2em 0.8em;
-  background-color: #fff3e0;
-  border-bottom: 2px solid #ffcc80;
-  border-radius: 0 0 10px 10px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-  letter-spacing: 0.5px;
-  text-decoration: none !important;
+  border-bottom: 3px solid #fbc02d;
+  border-radius: 0 0 16px 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  letter-spacing: 0.4px;
+  text-shadow: 0.5px 0.5px #ffffff;
 }
 
 
-
+main.content {
+  max-width: 750px;
+  margin: auto;
+  padding: 2rem 1.5rem;
+}
 
 
 
@@ -166,4 +172,25 @@
 
 .sidebar .menu-group input[type="checkbox"]:checked ~ .menu-section {
   display: block;
+}
+
+.proxima-aula {
+  border: 2px solid #4a90e2;
+  border-radius: 12px;
+  padding: 1em;
+  margin-top: 2em;
+  background-color: #f0f6ff;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+}
+
+.proxima-aula-title {
+  font-size: 1.3em;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.proxima-aula-title::before {
+  content: "📌 ";
+  margin-right: 0.4em;
 }

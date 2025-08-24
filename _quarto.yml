@@ -23,49 +23,55 @@ book:
       chapters:
       - index.qmd
       - Aula_0.qmd
-    - part: "Unidade I"
-      chapters:
-      - Aula_1.qmd
-      - Aula_2.qmd
-      - Aula_3.qmd
-      - Aula_4.qmd
-      - Aula_5.qmd
-      - Aula_6.qmd
-      - Aula_7.qmd
-      - Aula_8.qmd
-    - part: "Unidade II"
-      chapters:
-      - Aula_9.qmd
-      - Aula_10.qmd
-      - Aula_11.qmd
-      - Aula_12.qmd
-      - Aula_13.qmd
-      - Aula_14.qmd
-    - part: "Unidade III"
-      chapters:
-      - Aula_15.qmd
-      - Aula_16.qmd
-    - part: "Tutoriais"
-      chapters:
-      - tutorial_zotero.qmd
-      - tutorial_capes.qmd
-      - tutorial_tema_pesquisa.qmd
-      - checklist_postagem.qmd
-    - part: "Modelos"
-      chapters:
-      - modelo_plano.qmd
-      - modelo_relatorio.qmd
-      - modelo_video.qmd
-      - modelo_carrossel.qmd
-    - part: "Avaliações"
-      chapters:
-      - 1_Avaliacao.qmd
-      - 2_Avaliacao.qmd
-      - 3_Avaliacao.qmd
-    - part: "Suporte"
-      chapters:
-      - sorteio.qmd
-      - padlet.qmd
+#    - part: "Unidade I"
+#      chapters:
+#      - Aula_1.qmd
+#      - Aula_2.qmd
+#      - Aula_3.qmd
+#      - Aula_4.qmd
+#      - Aula_5.qmd
+#      - Aula_6.qmd
+#      - Aula_7.qmd
+#      - Aula_8.qmd
+
+#    - part: "Unidade II"
+#      chapters:
+#      - Aula_9.qmd
+#      - Aula_10.qmd
+#      - Aula_11.qmd
+#      - Aula_12.qmd
+#      - Aula_13.qmd
+#      - Aula_14.qmd
+
+#    - part: "Unidade III"
+#      chapters:
+#      - Aula_15.qmd
+#      - Aula_16.qmd
+#    - part: "Tutoriais"
+
+#      chapters:
+#      - tutorial_zotero.qmd
+#      - tutorial_capes.qmd
+#      - tutorial_tema_pesquisa.qmd
+#      - checklist_postagem.qmd
+
+#    - part: "Modelos"
+#      chapters:
+#      - modelo_plano.qmd
+#      - modelo_relatorio.qmd
+#      - modelo_video.qmd
+#      - modelo_carrossel.qmd
+
+#    - part: "Avaliações"
+#      chapters:
+#      - 1_Avaliacao.qmd
+#      - 2_Avaliacao.qmd
+#      - 3_Avaliacao.qmd
+
+#    - part: "Suporte"
+#      chapters:
+#      - sorteio.qmd
+#      - padlet.qmd
 
 bibliography: references.bib
 
@@ -94,8 +100,6 @@ editor: visual
 # quarto render (no terminal)
 # 🟢 2. Pré-visualize o Livro Localmente
 # quarto preview docs (no terminal)
-
-
 
 # 📋 Roteiro Resumido de Atualizações Finais
 # Sempre que desejar atualizar o conteúdo do livro:

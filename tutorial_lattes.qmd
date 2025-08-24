@@ -1,0 +1,113 @@
+---
+title: "Como preencher o currículo Lattes"
+---
+
+::: nota-secundaria
+Roteiro elaborado no RStudio/Quarto com o auxílio da inteligência artificial ChatGPT, revisado pelo professor antes de sua publicação.
+:::
+
+## Objetivos do tutorial:
+
+- Identificar os documentos necessários para preencher o Currículo Lattes pela primeira vez;  
+- Compreender a estrutura básica do sistema Lattes;  
+- Reconhecer a importância de uma **foto profissional**;  
+- Elaborar um **texto de apresentação claro e objetivo**;  
+- Aplicar boas práticas de atualização e revisão do currículo.  
+
+---
+
+## 1. Documentos necessários 📑
+
+Antes de começar, tenha em mãos:
+
+- Documento de identidade (RG ou CNH);  
+- CPF;  
+- Endereço completo;  
+- Telefones e e-mail (preferencialmente institucional, se já tiver);  
+- Histórico escolar e/ou diplomas de cursos concluídos;  
+- Certificados de participação em cursos, palestras ou congressos;  
+- Produções acadêmicas (artigos, resumos, apresentações);  
+- Dados bancários (caso concorra a bolsas).  
+
+::: callout-tip
+Sempre guarde cópias digitais (em PDF) de seus certificados. Isso facilita a atualização do currículo.
+:::
+
+---
+
+## 2. Acesso ao sistema
+
+1. Acesse: [https://lattes.cnpq.br](https://lattes.cnpq.br).  
+2. Clique em **Cadastrar novo currículo**.  
+3. Preencha seus dados pessoais (nome, CPF, RG, data de nascimento).  
+4. Crie uma senha de acesso (será usada para futuras atualizações).  
+
+---
+
+## 3. Estrutura do Currículo Lattes
+
+O sistema é dividido em seções principais:
+
+- **Dados Gerais**: informações pessoais, endereço e contatos;  
+- **Formação Acadêmica**: ensino médio, graduação, cursos técnicos;  
+- **Atuação Profissional**: empregos, estágios, bolsas;  
+- **Produções**: artigos, resumos, apresentações;  
+- **Eventos**: congressos, palestras, cursos de extensão.  
+
+---
+
+## 4. Foto profissional 🎓
+
+A foto é **obrigatória** e deve transmitir profissionalismo. Evite fotos informais.
+
+::: callout-important
+**Dicas para a foto:**
+- Fundo neutro (branco, cinza ou azul claro);  
+- Roupas sóbrias (camisa, blazer, roupa formal);  
+- Evite adereços (óculos escuros, bonés, etc.);  
+- Expressão neutra ou sorriso discreto.  
+:::
+
+---
+
+## 5. Texto de apresentação ✍️
+
+Esse é o campo **"Resumo"**, exibido logo no início do currículo. Muitas pessoas negligenciam, mas ele é fundamental.
+
+### O que incluir:
+- Formação atual (curso e instituição);  
+- Áreas de interesse;  
+- Participação em projetos (se houver);  
+- Objetivos acadêmicos e profissionais.  
+
+::: callout-note
+**Exemplo de texto:**  
+"João Silva é estudante de Engenharia Agrícola e Ambiental na Universidade Federal Rural do Semi-Árido (UFERSA). Tem interesse nas áreas de irrigação e manejo sustentável da água. Atualmente participa do Programa de Iniciação Científica, atuando em pesquisas sobre uso eficiente de recursos hídricos. Pretende seguir carreira acadêmica e contribuir para o desenvolvimento de tecnologias voltadas à sustentabilidade."  
+:::
+
+---
+
+## 6. Boas práticas para manter o currículo atualizado ✅
+
+- Atualize sempre que concluir um curso, participar de evento ou publicar um trabalho;  
+- Revise ortografia e gramática;  
+- Salve regularmente em PDF;  
+- Evite informações irrelevantes (como cursos muito básicos ou antigos);  
+- Peça que um professor revise sua primeira versão.  
+
+---
+
+## Conclusão
+
+O **Currículo Lattes** é a sua vitrine acadêmica.  
+Uma boa **foto profissional** e um **texto de apresentação bem escrito** já fazem diferença.  
+O restante é construção contínua: **atualize, revise e cuide do seu currículo** como parte essencial da sua trajetória universitária.  
+
+---
+
+```{=html}
+<center>
+<img src="https://cdn-icons-png.flaticon.com/512/535/535239.png" width="60"/>
+<br/>
+<em>Finalize esta atividade registrando sua presença no QR Code abaixo.</em>
+</center>

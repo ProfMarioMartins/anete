@@ -1,35 +1,21 @@
 ---
 title: "Identificação"
 author: "Mário Martins"
-format: html
 ---
 
-Este é o material didático da disciplina **Análise e Expressão Textual**, organizado em unidades temáticas.
+Este é o material didático da disciplina **Análise e Expressão Textual**.
 
--   📅 Carga horária: 60 horas\
--   📚 Metodologia: Aprendizagem baseada em projeto\
--   📝 Produto final: Elaboração de um plano de trabalho acadêmico
+-   **Carga horária:** 60 horas
+-   **Metodologia:** Aprendizagem baseada em projetos e tarefas
+-   **Produto final:** Elaboração de um plano de trabalho acadêmico
 
 ::: callout-tip
 Para melhor navegação, utilize o menu lateral ou a busca no topo da página.
 :::
 
-```{=html}
-<script>
-  if (location.protocol !== 'file:' && location.hostname !== 'localhost') {
-    var senha = prompt("Digite a senha para acessar o conteúdo da aula:");
-    if (senha !== "anete2025") {
-      document.body.innerHTML = "<h1>Acesso negado</h1>";
-    }
-  }
-</script>
-```
-
-````{=html}
-<!--
-
-````{=html}
-## Cronograma das aulas (em constante atualização)
+::: {.titulo-nao-numerado}
+Cronograma das aulas (em constante atualização)
+:::
 
 ```{r}
 #| echo: false
@@ -41,14 +27,23 @@ library(knitr)
 # Desativa a necessidade de autenticação para planilhas públicas
 gs4_deauth()
 
-# Link da planilha (apenas até /edit)
+# Link da planilha pública
 url <- "https://docs.google.com/spreadsheets/d/1C8iaK5cIXu5h20At5pnALHRMY-g716--GfRJEfmHf3M/edit"
 
 # Lê a aba chamada "cronograma_anete"
 cronograma <- read_sheet(url, sheet = "cronograma_anete")
 
-# Exibe a tabela com legenda
+# Exibe a tabela formatada
 kable(cronograma, caption = "Encontros")
 ```
--->
-````
+
+```{=html}
+<script>
+  if (location.protocol !== 'file:' && location.hostname !== 'localhost') {
+    var senha = prompt("Este conteúdo é restrito a alunos da disciplina Análise e Expressão Textual. Por favor, digite a senha de acesso:");
+    if (senha !== "anete20252") {
+      document.body.innerHTML = "<h1>Acesso negado</h1>";
+    }
+  }
+</script>
+```

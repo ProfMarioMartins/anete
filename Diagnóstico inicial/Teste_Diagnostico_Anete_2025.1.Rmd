@@ -18,17 +18,17 @@ mainfont: "Roboto"
 
 \vspace{1.0cm}
 
-**Nome:** ______________________________________________________________________________________  
+**Nome:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\
 \vspace{0.5cm}
 
-**Matrícula:** _________________________________________________________________________________  
+**Matrícula:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\
 \vspace{0.5cm}
 
 Este teste tem caráter **diagnóstico** e **não será utilizado para nota**. Seu objetivo é conhecer melhor suas habilidades de leitura, escrita e reescrita acadêmicas.
 
 Leia com atenção cada proposta e responda com calma, da melhor forma que puder. Ao final, revise suas respostas antes de entregar. Esta é apenas uma atividade para conhecermos melhor o seu ponto de partida — não se preocupe com nota.
 
----
+------------------------------------------------------------------------
 
 ## Parte 1 – Escrita
 
@@ -49,7 +49,7 @@ Ao escrever o parágrafo, mencione pelo menos dois aspectos importantes da escri
     }%
 }
 
-<!--
+## <!--
 =========================================================
 COMENTÁRIOS: COMPETÊNCIAS AVALIADAS NO TESTE DIAGNÓSTICO
 =========================================================
@@ -64,20 +64,17 @@ Competências avaliadas:
 - Capacidade argumentativa: posicionamento e justificativa.
 -->
 
----
-
 \vspace{0.25cm}
 
 ## Parte 2 – Leitura
 
-Leia o texto a seguir com atenção e, em seguida, responda às questões objetivas.
-\vspace{0.25cm}
+Leia o texto a seguir com atenção e, em seguida, responda às questões objetivas. \vspace{0.25cm}
 
 \Large\textbf{Seja um engenheiro que escreve bem}
 
 \small Daniel Ferraz[^2]
 
-[^2]:Artigo publicado no LinkedIn. Disponível em: https://pt.linkedin.com/pulse/seja-um-engenheiro-que-escreve-bem-daniel-ferraz
+[^2]: Artigo publicado no LinkedIn. Disponível em: <https://pt.linkedin.com/pulse/seja-um-engenheiro-que-escreve-bem-daniel-ferraz>
 
 \begin{quote}
 Não gosto de café muito quente. Sempre quando vou tomar tenho que esperar alguns minutos até perder o medo de queimar minha boca. Enquanto meu café esfria, gosto de sentir o aroma que sobe lentamente, observando as gotículas de água condensadas na borda da xícara. É um fenômeno intrigante para mim.
@@ -118,53 +115,53 @@ Um bom texto a todos!
 
 ### Questões de múltipla escolha
 
-**2.1 – O autor começa seu texto com uma descrição sobre o café. Qual é a principal função dessa introdução?**  
-- ( ) a) Relatar um hábito cotidiano para criar empatia com o leitor  
-- ( ) b) Apresentar, de forma indireta, a importância da engenharia térmica  
-- ( ) c) Causar estranhamento e prender a atenção, antes de introduzir o tema principal  
-- ( ) d) Mostrar que o autor valoriza o cotidiano como objeto técnico de reflexão  
+**2.1 – O autor começa seu texto com uma descrição sobre o café. Qual é a principal função dessa introdução?**\
+- ( ) a) Relatar um hábito cotidiano para criar empatia com o leitor\
+- ( ) b) Apresentar, de forma indireta, a importância da engenharia térmica\
+- ( ) c) Causar estranhamento e prender a atenção, antes de introduzir o tema principal\
+- ( ) d) Mostrar que o autor valoriza o cotidiano como objeto técnico de reflexão
 
 \vspace{0.5cm}
 
-**2.2 – O autor afirma que engenheiros escrevem pouco. Qual das opções resume melhor sua explicação para esse fato?**  
-- ( ) a) Falta de tempo para desenvolver a escrita formal  
-- ( ) b) Formação acadêmica que valoriza apenas os números  
-- ( ) c) Pouca valorização do texto na cultura digital contemporânea  
-- ( ) d) Inexistência de disciplinas de escrita nas engenharias  
+**2.2 – O autor afirma que engenheiros escrevem pouco. Qual das opções resume melhor sua explicação para esse fato?**\
+- ( ) a) Falta de tempo para desenvolver a escrita formal\
+- ( ) b) Formação acadêmica que valoriza apenas os números\
+- ( ) c) Pouca valorização do texto na cultura digital contemporânea\
+- ( ) d) Inexistência de disciplinas de escrita nas engenharias
 
 \vspace{0.5cm}
 
-**2.3 – Em sua crítica, o autor usa a metáfora “adultério com as letras”. O que ela expressa?**  
-- ( ) a) Que a escrita é vista como algo proibido para quem é de exatas  
-- ( ) b) Que a leitura e a escrita são práticas ultrapassadas na engenharia  
-- ( ) c) Que os engenheiros evitam se envolver com o universo das letras por preconceito formativo  
-- ( ) d) Que as humanidades não devem invadir o campo técnico da engenharia  
+**2.3 – Em sua crítica, o autor usa a metáfora “adultério com as letras”. O que ela expressa?**\
+- ( ) a) Que a escrita é vista como algo proibido para quem é de exatas\
+- ( ) b) Que a leitura e a escrita são práticas ultrapassadas na engenharia\
+- ( ) c) Que os engenheiros evitam se envolver com o universo das letras por preconceito formativo\
+- ( ) d) Que as humanidades não devem invadir o campo técnico da engenharia
 
 \vspace{0.5cm}
 
-**2.4 – Qual alternativa expressa melhor a tese do texto?**  
-- ( ) a) A comunicação escrita não tem mais espaço no mercado de trabalho  
-- ( ) b) O LinkedIn é a principal rede para engenheiros que buscam visibilidade  
-- ( ) c) Um engenheiro que escreve bem se destaca em sua área profissional  
-- ( ) d) As redes sociais diminuíram o interesse dos engenheiros pela escrita  
+**2.4 – Qual alternativa expressa melhor a tese do texto?**\
+- ( ) a) A comunicação escrita não tem mais espaço no mercado de trabalho\
+- ( ) b) O LinkedIn é a principal rede para engenheiros que buscam visibilidade\
+- ( ) c) Um engenheiro que escreve bem se destaca em sua área profissional\
+- ( ) d) As redes sociais diminuíram o interesse dos engenheiros pela escrita
 
 \vspace{0.5cm}
 
-**2.5 – A imagem da “senhora do interior que observa o movimento na rua” representa:**  
-- ( ) a) Uma atitude tradicional de vigilância social  
-- ( ) b) Um tipo de participação passiva nas redes digitais  
-- ( ) c) O comportamento reflexivo de quem observa antes de agir  
-- ( ) d) A nostalgia por práticas mais analógicas de comunicação  
+**2.5 – A imagem da “senhora do interior que observa o movimento na rua” representa:**\
+- ( ) a) Uma atitude tradicional de vigilância social\
+- ( ) b) Um tipo de participação passiva nas redes digitais\
+- ( ) c) O comportamento reflexivo de quem observa antes de agir\
+- ( ) d) A nostalgia por práticas mais analógicas de comunicação
 
 \vspace{0.5cm}
 
-**2.6 – Segundo o texto, qual é a relação entre escrever bem e se destacar no mercado?**  
-- ( ) a) Quem escreve bem consegue notas mais altas na faculdade  
-- ( ) b) Escrever bem permite preencher currículos de forma mais clara  
-- ( ) c) A boa escrita é uma forma de se tornar visível e gerar oportunidades profissionais  
-- ( ) d) Quem escreve bem tende a ocupar cargos gerenciais automaticamente  
+**2.6 – Segundo o texto, qual é a relação entre escrever bem e se destacar no mercado?**\
+- ( ) a) Quem escreve bem consegue notas mais altas na faculdade\
+- ( ) b) Escrever bem permite preencher currículos de forma mais clara\
+- ( ) c) A boa escrita é uma forma de se tornar visível e gerar oportunidades profissionais\
+- ( ) d) Quem escreve bem tende a ocupar cargos gerenciais automaticamente
 
-<!--
+## <!--
 =========================================================
 COMENTÁRIOS: COMPETÊNCIAS AVALIADAS NO TESTE DIAGNÓSTICO
 =========================================================
@@ -196,8 +193,6 @@ PARTE 2 – Leitura e interpretação de texto
 🧠 Habilidade: interpretação inferencial e aplicação da tese a contextos práticos.
 -->
 
----
-
 ## Parte 3 – Reescrita
 
 **3. O parágrafo abaixo apresenta problemas de clareza, coesão, concordância e pontuação. Reescreva-o mais adequada, clara e objetivamente, observando os padrões formais da escrita acadêmica.**
@@ -205,7 +200,6 @@ PARTE 2 – Leitura e interpretação de texto
 **Atenção:** a **reescrita deve preservar o sentido original** do texto.
 
 > O acadêmico que entra na universidade precisa saber que escrever é uma ferramenta que não pode ser deixada de lado por que muitos textos são necessários serem produzidos durante o curso. E que escrever não é só para português, mas para todas as matérias que precisa de relatório. Porque se não escrever bem, como vai conseguir fazer um bom projeto de pesquisa? Então, o ideal é melhorar isso logo no início do curso, pois quem não escreve direito terá dificuldades para aprender outras coisas.
-
 
 \noindent\fbox{%
     \parbox[t][10cm][t]{\textwidth}{%
@@ -218,7 +212,6 @@ PARTE 2 – Leitura e interpretação de texto
 
 **3.1 Após reescrever, informe uma modificação importante que você fez no texto e justifique sua escolha:**
 
-
 \noindent\fbox{%
     \parbox[t][8cm][t]{\textwidth}{%
         \vspace{0.2cm}
@@ -226,6 +219,7 @@ PARTE 2 – Leitura e interpretação de texto
     }%
 }
 
+```{=html}
 <!--
 =========================================================
 COMENTÁRIOS: COMPETÊNCIAS AVALIADAS NO TESTE DIAGNÓSTICO
@@ -253,3 +247,4 @@ Justificativas esperadas:
 - “Corrigi o uso de ‘por que’ e reformulei a frase para evitar ambiguidade.”
 - “Usei conectores para melhorar a fluidez.”
 -->
+```
