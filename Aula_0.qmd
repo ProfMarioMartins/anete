@@ -1,156 +1,38 @@
 ---
-title: "Programação"
+title: "Cronograma"
 ---
 
-::: {.titulo-nao-numerado}
-Ementa
+::: titulo-nao-numerado
+Cronograma das aulas (em constante atualização)
 :::
 
-Abordar os paradigmas textuais e científicos na produção da escrita científica, a intertextualidade como elemento de linguagem no contexto da textualidade e da oralidade e da visualidade, a coesão e coerência textual como elemento estruturador da linguagem acadêmica, o estilo como mediador entre forma e conteúdo na produção do conhecimento, a interdisciplinaridade como estética da linguagem.
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
+library(googlesheets4)
+library(dplyr)
+library(knitr)
+library(kableExtra)
 
-<!-- Em elaboração:
-Desenvolver a competência acadêmico-científica por meio da articulação de fundamentos do pensamento científico com o uso de fontes confiáveis de informação.
--->
+# Desativa autenticação (apenas para planilhas públicas)
+gs4_deauth()
 
-::: {.titulo-nao-numerado}
-Objetivos
-:::
+# Link da planilha
+url <- "https://docs.google.com/spreadsheets/d/1C8iaK5cIXu5h20At5pnALHRMY-g716--GfRJEfmHf3M/edit"
 
-Promover o desenvolvimento da competência acadêmico-científica e comunicativa dos estudantes, por meio da leitura crítica, da análise linguística e da leitura e produção de gêneros textuais acadêmicos, com ênfase na escrita científica e na elaboração de um plano de trabalho/projeto de pesquisa.
+# Lê a aba "cronograma_anete"
+cronograma <- read_sheet(url, sheet = "cronograma_anete")
 
+# Formata a coluna Data (para formato brasileiro dd/mm/aaaa)
+cronograma <- cronograma %>%
+  mutate(Data = format(as.Date(Data), "%d/%m/%Y"))
 
-**Competência comunicativa** é a capacidade de um indivíduo usar a língua de forma eficaz e apropriada em diferentes contextos de comunicação. Esse conceito vai além do simples domínio das regras gramaticais, englobando também o conhecimento dos usos sociais da linguagem, a adequação ao contexto, a capacidade de interpretar e produzir enunciados coerentes e coesos, e de compreender as intenções dos interlocutores.
-
-**Competência acadêmico-científica** é a capacidade de produzir, compreender, comunicar e avaliar conhecimentos no contexto universitário com base em critérios científicos, linguísticos e éticos. Ela envolve o domínio da linguagem acadêmica, o uso de fontes confiáveis, a argumentação fundamentada em dados, a escrita nos gêneros próprios da vida acadêmica (como artigo, resumo, projeto de pesquisa), o uso adequado das normas de citação e referência, bem como uma postura investigativa e crítica diante do saber, reconhecendo a ciência como uma prática social historicamente situada e orientada por princípios de rigor, objetividade e responsabilidade.
-
-::: {.titulo-nao-numerado}
-Conteúdo Programático
-:::
-
-::: subtitulo-nao-numerado
-Unidade I – Pensamento acadêmico-científico 
-:::
-
--   O sistema acadêmico brasileiro.
--   Senso comum e pensamento científico.
--   Opinião, fato e escrita acadêmica.
--   Discurso reportado.
--   Gerenciamento de referências bibliográficas.
--   Fontes confiáveis de informação.
-
-::: subtitulo-nao-numerado
-Unidade II – Gêneros acadêmicos e divulgação científica
-:::
-
--   Gêneros acadêmicos
--   Plano de trabalho/Projeto de pesquisa
--   Resumo
--   Artigo
--   Fichamento
--   Estado da arte
--   Resenha
-
-::: subtitulo-nao-numerado
-Unidade III – Escrita acadêmica
-:::
-
--   Redação orientada do plano de trabalho: da ideia ao texto final
--   Etapas do projeto de pesquisa: justificativa, objetivos, metodologia e cronograma
--   Coesão e coerência textual na organização do plano de trabalho
--   Estilo acadêmico: clareza, concisão, verbos dicendi e paráfrase
--   Reescrita com base em critérios técnicos e linguísticos
--   Autoavaliação da competência escrita e diagnóstico final
--   Questões gramaticais relevantes: colocação pronominal, concordância, pontuação e acentuação
--   Atividades de fechamento com base nos desafios da OBL
-
-::: {.titulo-nao-numerado}
-Competências e habilidades
-:::
-
-| Competência | Habilidades |
-|------------------------------------|------------------------------------|
-| Utilizar a linguagem com clareza, precisão e adequação nos contextos acadêmicos. | \- Reconhecer diferentes registros linguísticos e níveis de formalidade.<br>- Utilizar a norma-padrão da língua portuguesa em situações de comunicação acadêmica. |
-| Ler, compreender e interpretar textos acadêmicos de diferentes gêneros. | \- Identificar a organização composicional e os propósitos comunicativos dos gêneros acadêmicos.<br>- Desenvolver estratégias de leitura crítica e analítica. |
-| Produzir textos acadêmicos adequados aos gêneros e às normas científicas. | \- Elaborar textos com coesão e coerência.<br>- Aplicar corretamente normas de citação e referência (ABNT).<br>- Planejar, redigir e revisar textos científicos. |
-| Mobilizar conhecimentos linguísticos, discursivos e culturais na leitura e na produção de textos. | \- Analisar os efeitos de sentido produzidos por escolhas linguísticas e discursivas.<br>- Reconhecer e empregar marcas de intertextualidade e argumentação nos textos. |
-| Desenvolver autonomia na produção científica e no uso das tecnologias da informação. | \- Utilizar ferramentas digitais para organização da pesquisa e produção textual.<br>- Elaborar um plano de trabalho segundo os critérios de projetos de iniciação científica. |
-| Ampliar a consciência linguística a partir da reflexão sobre o funcionamento da língua. | \- Resolver problemas linguísticos com base em conhecimentos gramaticais.<br>- Analisar fatos linguísticos em contextos reais de uso. |
-
-::: {.titulo-nao-numerado}
-Metodologia
-:::
-
-A disciplina adota uma abordagem ativa e interdisciplinar, com atividades práticas, estudos de caso, quizzes interativos, resolução de problemas, exercícios de gramática, produção textual orientada, leitura e análise de textos e o uso de ferramentas digitais, como editores de texto com revisão automática e chats de IA para promover a revisão crítica da escrita.
-
-::: {.titulo-nao-numerado}
-Avaliação
-:::
-
-A avaliação da disciplina será composta por três instrumentos complementares, organizados segundo as unidades temáticas do curso:
-
-::: subtitulo-nao-numerado
-✅ 1ª Avaliação – Teste objetivo
-:::
-
-Aplicação de prova objetiva individual com questões de múltipla escolha, baseada nas leituras obrigatórias.
-
-Formato: questões objetivas.
-
-::: subtitulo-nao-numerado
-✅ 2ª Avaliação - Mídia digital
-:::
-
-Produção individual de uma mídia de divulgação científica. Relatório reflexivo de produção (preenchido em sala de aula).
-
-
-::: subtitulo-nao-numerado
-✅ 3ª Avaliação – Plano de trabalho e pitch
-:::
-
-Elaboração final do plano de trabalho, conforme estrutura exigida em editais de iniciação científica (Pibic), acompanhado de um pitch de elevador (apresentação oral).
-
-
-::: {.titulo-nao-numerado}
-Bibliografia básica
-:::
-
-BACCHI, André Demambre. Afinal, o que é ciência?: ...e o que não é. 1. ed. São Paulo, SP: Contexto, 2024. E-book. Disponível em: https://plataforma.bvirtual.com.br. Acesso em: 24 ago 2025.
-
-CASTRO, Nádia Studzinski Estima de et al. Leitura e escrita acadêmicas. Porto Alegre: Sagah, 2019. Disponível em: https://bookshelf.vitalsource.com/books/9788533500228.
-
-MOTTA‑ROTH, Désirée; HENDGES, Graciela Rabuske. Produção textual na universidade. São Paulo: Parábola Editorial, 2010.
-
-
-::: {.titulo-nao-numerado}
-Bibliografia complementar
-:::
-
-ABNT NBR 10520:2023. Informação e documentação – Citações em documentos – Apresentação. Rio de Janeiro: ABNT, 2023.
-
-ABNT NBR 6023:2018. Informação e documentação – Referências – Elaboração. Rio de Janeiro: ABNT, 2018.
-
-APPOLINÁRIO, Fabio; GIL, Isaac. Como escrever um texto científico. 1ª ed. \[S. l.\]: Trevisan Editora, 2013. Disponível em: https://bookshelf.vitalsource.com/books/9788599519493.
-
-CUNHA, Celso; CINTRA, Lindley. Nova gramática do português contemporâneo. 7. ed. Rio de Janeiro: Lexikon, 2019. E-book. Disponível em: https://plataforma.bvirtual.com.br. Acesso em: 02 abr. 2025.
-
-FERRAREZZI JÚNIOR, Celso. Guia do trabalho científico: do projeto à redação final. 1ª ed. \[S. l.\]: Contexto, 2011. Disponível em: https://bookshelf.vitalsource.com/books/9788572447638.
-
-KÖCHE, José Carlos. Fundamentos de metodologia científica: teoria da ciência e iniciação à pesquisa. 34. ed. Petrópolis, RJ: Vozes, 2016. E-book. Disponível em: https://plataforma.bvirtual.com.br. Acesso em: 24 ago 2025.
-
-MENDES, Gilmar Ferreira; FOSTER JÚNIOR, Nestor José. Manual de redação da Presidência da República. rev. atual. Brasília: Presidência da República, 2002. Disponível em: https://www4.planalto.gov.br/centrodeestudos/assuntos/manual-de-redacao-da-presidencia-da-republica/manual-de-redacao.pdf#page=12.08.
-
-Outras obras poderão ser usadas na disciplina.
-
-::: proxima-aula
-[Para a próxima aula:]{.proxima-aula-title}
-
--   **Leia** o texto **Entendendo a organização do sistema acadêmico brasileiro** (página 7), parte do livro *Guia do trabalho científico: do projeto à redação final*, de Celso Ferrarezi Júnior.
--   **Você também vai precisar das seguintes informações:**
-    -   Documento de identidade (RG ou CNH);\
-    -   CPF;\
-    -   Endereço completo;\
-    -   Telefones e e-mail (preferencialmente institucional);\
-    -   Histórico escolar ou diplomas/certificados de cursos concluídos;\
-    -   Certificados de participação em cursos, palestras ou congressos;\
-    -   Produções acadêmicas (artigos, resumos, apresentações, se houver);\
-:::
+# Exibe a tabela com formatação
+kable(cronograma, caption = "Encontros", align = "cll") %>%
+  kable_styling(full_width = TRUE, bootstrap_options = c("striped", "hover", "condensed")) %>%
+  column_spec(1, width = "8em", bold = TRUE) %>%
+  column_spec(2, width = "16em") %>%
+  column_spec(3, width = "30em") %>%
+  column_spec(4, width = "30em")
+```

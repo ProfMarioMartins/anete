@@ -199,3 +199,8 @@ Como se organiza o sistema acadêmico brasileiro?
   }
 </script>
 ```
+
+::: proxima-aula
+[Para a próxima aula:]{.proxima-aula-title}
+
+-   **Leia** o texto **Conhecimento científico** (p. 23-28), capítulo do livro *Fundamentos de metodologia científica: teoria da ciência e iniciação à pesquisa*, de José Carlos Kochë. Disponível em Biblioteca Virtual.

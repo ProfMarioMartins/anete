@@ -5,12 +5,12 @@ project:
 language:
   locale: pt
   title-block-author-single: "Professor"
-  title-block-published: "Publicado em"
-  title-block-modified: "Atualizado em"
-  title-block-author-multiple: "Autores"
-  fig: "Figura"
-  tab: "Tabela"
-  eq: "Equação"
+#  title-block-published: "Publicado em"
+#  title-block-modified: "Atualizado em"
+#  title-block-author-multiple: "Autores"
+#  fig: "Figura"
+#  tab: "Tabela"
+#  eq: "Equação"
   callout-tip-title: "Dica"
   callout-note-title: "Nota"
   toc-title: "Conteúdo da aula"
@@ -22,7 +22,7 @@ book:
     - part: "Apresentação"
       chapters:
       - index.qmd
-      - Aula_0.qmd
+      - Aula_00.qmd
 #    - part: "Unidade I"
 #      chapters:
 #      - Aula_1.qmd
@@ -68,25 +68,28 @@ book:
 #      - 2_Avaliacao.qmd
 #      - 3_Avaliacao.qmd
 
-#    - part: "Suporte"
-#      chapters:
+    - part: "Suporte"
+      chapters:
+       - Aula_0.qmd
 #      - sorteio.qmd
 #      - padlet.qmd
 
-bibliography: references.bib
+# bibliography: references.bib
 
 format:
   html:
+    page-layout: full
+    highlight-style: github
     theme: 
-      - cosmo
+      - simplex # Experimente também: flatly, litera, simplex, journal
     toc: true
-    navbar:
-      title: "Análise e Expressão Textual"
     include-after-body: custom.html
+    callout-appearance: simple
+    smooth-scroll: true
     sidebar:
-      style: "floating"
-      collapse-level: 0
-      pinned: false
+      style: "docked"
+      collapse-level: 1
+      pinned: true
     tools:
       - toggle
     css: custom.css

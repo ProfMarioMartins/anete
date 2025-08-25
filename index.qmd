@@ -1,41 +1,13 @@
 ---
-title: "Identificação"
-author: "Mário Martins"
+title: "Descrição"
 ---
 
 Este é o material didático da disciplina **Análise e Expressão Textual**.
-
--   **Carga horária:** 60 horas
--   **Metodologia:** Aprendizagem baseada em projetos e tarefas
--   **Produto final:** Elaboração de um plano de trabalho acadêmico
 
 ::: callout-tip
 Para melhor navegação, utilize o menu lateral ou a busca no topo da página.
 :::
 
-::: {.titulo-nao-numerado}
-Cronograma das aulas (em constante atualização)
-:::
-
-```{r}
-#| echo: false
-#| message: false
-#| warning: false
-library(googlesheets4)
-library(knitr)
-
-# Desativa a necessidade de autenticação para planilhas públicas
-gs4_deauth()
-
-# Link da planilha pública
-url <- "https://docs.google.com/spreadsheets/d/1C8iaK5cIXu5h20At5pnALHRMY-g716--GfRJEfmHf3M/edit"
-
-# Lê a aba chamada "cronograma_anete"
-cronograma <- read_sheet(url, sheet = "cronograma_anete")
-
-# Exibe a tabela formatada
-kable(cronograma, caption = "Encontros")
-```
 
 ```{=html}
 <script>
