@@ -29,7 +29,7 @@ Promover o desenvolvimento da competência acadêmico-científica e comunicativa
 :::
 
 ::: titulo-nao-numerado
-Conteúdo Programático
+Conteúdo
 :::
 
 ::: subtitulo-nao-numerado
@@ -115,7 +115,7 @@ Elaboração final do plano de trabalho, conforme estrutura exigida em editais d
 Bibliografia básica
 :::
 
-BACCHI, André Demambre. Afinal, o que é ciência?: ...e o que não é. 1. ed. São Paulo, SP: Contexto, 2024. E-book. Disponível em: https://plataforma.bvirtual.com.br. Acesso em: 24 ago 2025.
+BACCHI, André Demambre. Afinal, o que é ciência?: ...e o que não é. 1. ed. São Paulo, SP: Contexto, 2024. E-book. Disponível em: https://plataforma.bvirtual.com.br.
 
 CASTRO, Nádia Studzinski Estima de et al. Leitura e escrita acadêmicas. Porto Alegre: Sagah, 2019. Disponível em: https://bookshelf.vitalsource.com/books/9788533500228.
 
@@ -131,11 +131,11 @@ ABNT NBR 6023:2018. Informação e documentação – Referências – Elaboraç
 
 APPOLINÁRIO, Fabio; GIL, Isaac. Como escrever um texto científico. 1ª ed. \[S. l.\]: Trevisan Editora, 2013. Disponível em: https://bookshelf.vitalsource.com/books/9788599519493.
 
-CUNHA, Celso; CINTRA, Lindley. Nova gramática do português contemporâneo. 7. ed. Rio de Janeiro: Lexikon, 2019. E-book. Disponível em: https://plataforma.bvirtual.com.br. Acesso em: 02 abr. 2025.
+CUNHA, Celso; CINTRA, Lindley. Nova gramática do português contemporâneo. 7. ed. Rio de Janeiro: Lexikon, 2019. E-book. Disponível em: https://plataforma.bvirtual.com.br.
 
 FERRAREZZI JÚNIOR, Celso. Guia do trabalho científico: do projeto à redação final. 1ª ed. \[S. l.\]: Contexto, 2011. Disponível em: https://bookshelf.vitalsource.com/books/9788572447638.
 
-KÖCHE, José Carlos. Fundamentos de metodologia científica: teoria da ciência e iniciação à pesquisa. 34. ed. Petrópolis, RJ: Vozes, 2016. E-book. Disponível em: https://plataforma.bvirtual.com.br. Acesso em: 24 ago 2025.
+KÖCHE, José Carlos. Fundamentos de metodologia científica: teoria da ciência e iniciação à pesquisa. 34. ed. Petrópolis, RJ: Vozes, 2016. E-book. Disponível em: https://plataforma.bvirtual.com.br.
 
 MENDES, Gilmar Ferreira; FOSTER JÚNIOR, Nestor José. Manual de redação da Presidência da República. rev. atual. Brasília: Presidência da República, 2002. Disponível em: https://www4.planalto.gov.br/centrodeestudos/assuntos/manual-de-redacao-da-presidencia-da-republica/manual-de-redacao.pdf#page=12.08.
 

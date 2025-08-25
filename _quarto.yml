@@ -112,4 +112,6 @@ editor: visual
 # Envie ao GitHub:
 # git add .
 # git commit -m "Atualiza conteúdo das aulas"
-# git push
+# git push origin main
+
+
