@@ -1,9 +1,9 @@
 ---
-title: "Cronograma"
+title: "Cronograma de aulas"
 ---
 
 ::: titulo-nao-numerado
-Cronograma das aulas (em constante atualização)
+Cronograma de aulas (em constante atualização)
 :::
 
 ```{r}

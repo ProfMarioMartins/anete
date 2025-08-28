@@ -3,111 +3,214 @@ title: "Como preencher o currículo Lattes"
 ---
 
 ::: nota-secundaria
-Roteiro elaborado no RStudio/Quarto com o auxílio da inteligência artificial ChatGPT, revisado pelo professor antes de sua publicação.
+Roteiro de aula elaborado no RStudio com o auxílio da inteligência artificial ChatGPT e supervisionado pelo professor antes de sua publicação.
 :::
 
-## Objetivos do tutorial:
+## Objetivos de aprendizagem
 
-- Identificar os documentos necessários para preencher o Currículo Lattes pela primeira vez;  
-- Compreender a estrutura básica do sistema Lattes;  
-- Reconhecer a importância de uma **foto profissional**;  
-- Elaborar um **texto de apresentação claro e objetivo**;  
-- Aplicar boas práticas de atualização e revisão do currículo.  
+-   Identificar os documentos necessários para preencher o Currículo Lattes pela primeira vez;
+-   Compreender a estrutura básica do sistema Lattes;
+-   Reconhecer a importância de uma **foto profissional**;
+-   Elaborar um **texto de apresentação claro e objetivo**;
+-   Aplicar boas práticas de atualização e revisão do currículo.
 
----
+## Introdução
 
-## 1. Documentos necessários 📑
+O Currículo Lattes é um documento digital padronizado, mantido pela plataforma Lattes do CNPq (Conselho Nacional de Desenvolvimento Científico e Tecnológico), que reúne informações acadêmicas, profissionais e científicas de pesquisadores, estudantes e profissionais no Brasil.
+
+O Lattes é utilizado como principal instrumento de registro e avaliação da produção acadêmica no país, sendo amplamente exigido em processos seletivos de bolsas, programas de pós-graduação, editais de pesquisa e concursos públicos.
+
+No Lattes, constam dados como formação acadêmica, publicações, participação em eventos, atuação profissional e outras atividades relevantes, o que o torna uma ferramenta essencial para a trajetória acadêmica e científica.
+
+Exemplo de currículo publicado: <http://lattes.cnpq.br/7790310992430842>
+
+## Tutorial
+
+::: titulo-nao-numerado
+Documentos necessários
+:::
 
 Antes de começar, tenha em mãos:
 
-- Documento de identidade (RG ou CNH);  
-- CPF;  
-- Endereço completo;  
-- Telefones e e-mail (preferencialmente institucional, se já tiver);  
-- Histórico escolar e/ou diplomas de cursos concluídos;  
-- Certificados de participação em cursos, palestras ou congressos;  
-- Produções acadêmicas (artigos, resumos, apresentações);  
-- Dados bancários (caso concorra a bolsas).  
+-   Documento de identidade (RG ou CNH);
+-   CPF;
+-   Endereço completo;
+-   Telefones e e-mail (preferencialmente institucional, se já tiver);
+-   Histórico escolar e/ou diplomas de cursos concluídos;
+-   Certificados de participação em cursos, palestras ou congressos;
+-   Produções acadêmicas (artigos, resumos, apresentações);
+-   Dados bancários (caso concorra a bolsas).
 
-::: callout-tip
+::: callout-important
 Sempre guarde cópias digitais (em PDF) de seus certificados. Isso facilita a atualização do currículo.
 :::
 
----
+::: titulo-nao-numerado
+Acesso ao sistema
+:::
 
-## 2. Acesso ao sistema
+Acesse: <https://lattes.cnpq.br> e clique em **Cadastrar novo currículo**. Crie uma senha de acesso (será usada para futuras atualizações).
 
-1. Acesse: [https://lattes.cnpq.br](https://lattes.cnpq.br).  
-2. Clique em **Cadastrar novo currículo**.  
-3. Preencha seus dados pessoais (nome, CPF, RG, data de nascimento).  
-4. Crie uma senha de acesso (será usada para futuras atualizações).  
+```{=html}
+<figure style="text-align: center;">
+  <img src="img/lattes_1.png" style="width:80%; display: block; margin: auto;" />
+  <figcaption><strong>Figura 1. </strong>Sistema CNPq</figcaption>
+</figure>
+```
 
----
+<br>
 
-## 3. Estrutura do Currículo Lattes
+```{=html}
+<figure style="text-align: center;">
+  <img src="img/lattes_2.png" style="width:80%; display: block; margin: auto;" />
+  <figcaption><strong>Figura 2. </strong>Sistema CNPq</figcaption>
+</figure>
+```
+
+<br>
+
+::: titulo-nao-numerado
+Estrutura do Currículo Lattes
+:::
 
 O sistema é dividido em seções principais:
 
-- **Dados Gerais**: informações pessoais, endereço e contatos;  
-- **Formação Acadêmica**: ensino médio, graduação, cursos técnicos;  
-- **Atuação Profissional**: empregos, estágios, bolsas;  
-- **Produções**: artigos, resumos, apresentações;  
-- **Eventos**: congressos, palestras, cursos de extensão.  
+-   **Dados gerais**: informações pessoais, endereço e contatos;\
+-   **Formação acadêmica**: ensino médio, graduação, cursos técnicos;\
+-   **Atuação profissional**: empregos, estágios, bolsas;\
+-   **Produções**: artigos, resumos, apresentações;\
+-   **Eventos**: congressos, palestras, cursos de extensão.
 
----
-
-## 4. Foto profissional 🎓
+::: titulo-nao-numerado
+Foto profissional 🎓
+:::
 
 A foto é **obrigatória** e deve transmitir profissionalismo. Evite fotos informais.
 
 ::: callout-important
-**Dicas para a foto:**
-- Fundo neutro (branco, cinza ou azul claro);  
-- Roupas sóbrias (camisa, blazer, roupa formal);  
-- Evite adereços (óculos escuros, bonés, etc.);  
-- Expressão neutra ou sorriso discreto.  
+**Dicas para a foto:** - Fundo neutro (branco, cinza ou azul claro);\
+- Roupas sóbrias (camisa, blazer, roupa formal);\
+- Evite adereços (óculos escuros, bonés, etc.);\
+- Expressão neutra ou sorriso discreto.
 :::
 
----
-
-## 5. Texto de apresentação ✍️
-
-Esse é o campo **"Resumo"**, exibido logo no início do currículo. Muitas pessoas negligenciam, mas ele é fundamental.
-
-### O que incluir:
-- Formação atual (curso e instituição);  
-- Áreas de interesse;  
-- Participação em projetos (se houver);  
-- Objetivos acadêmicos e profissionais.  
-
-::: callout-note
-**Exemplo de texto:**  
-"João Silva é estudante de Engenharia Agrícola e Ambiental na Universidade Federal Rural do Semi-Árido (UFERSA). Tem interesse nas áreas de irrigação e manejo sustentável da água. Atualmente participa do Programa de Iniciação Científica, atuando em pesquisas sobre uso eficiente de recursos hídricos. Pretende seguir carreira acadêmica e contribuir para o desenvolvimento de tecnologias voltadas à sustentabilidade."  
-:::
-
----
-
-## 6. Boas práticas para manter o currículo atualizado ✅
-
-- Atualize sempre que concluir um curso, participar de evento ou publicar um trabalho;  
-- Revise ortografia e gramática;  
-- Salve regularmente em PDF;  
-- Evite informações irrelevantes (como cursos muito básicos ou antigos);  
-- Peça que um professor revise sua primeira versão.  
-
----
-
-## Conclusão
-
-O **Currículo Lattes** é a sua vitrine acadêmica.  
-Uma boa **foto profissional** e um **texto de apresentação bem escrito** já fazem diferença.  
-O restante é construção contínua: **atualize, revise e cuide do seu currículo** como parte essencial da sua trajetória universitária.  
-
----
+Preencha todos os dados solicitados (informações pessoais, endereço, contato e formação acadêmica).
 
 ```{=html}
-<center>
-<img src="https://cdn-icons-png.flaticon.com/512/535/535239.png" width="60"/>
-<br/>
-<em>Finalize esta atividade registrando sua presença no QR Code abaixo.</em>
-</center>
+<figure style="text-align: center;">
+  <img src="img/lattes_3.png" style="width:80%; display: block; margin: auto;" />
+  <figcaption><strong>Figura 3. </strong>Dados</figcaption>
+</figure>
+```
+
+<br>
+
+```{=html}
+<figure style="text-align: center;">
+  <img src="img/lattes_4.png" style="width:80%; display: block; margin: auto;" />
+  <figcaption><strong>Figura 4. </strong>Dados</figcaption>
+</figure>
+```
+
+<br>
+
+```{=html}
+<figure style="text-align: center;">
+  <img src="img/lattes_5.png" style="width:80%; display: block; margin: auto;" />
+  <figcaption><strong>Figura 5. </strong>Dados</figcaption>
+</figure>
+```
+
+<br>
+
+```{=html}
+<figure style="text-align: center;">
+  <img src="img/lattes_6.png" style="width:80%; display: block; margin: auto;" />
+  <figcaption><strong>Figura 6. </strong>Dados</figcaption>
+</figure>
+```
+
+<br>
+
+```{=html}
+<figure style="text-align: center;">
+  <img src="img/lattes_7.png" style="width:80%; display: block; margin: auto;" />
+  <figcaption><strong>Figura 7. </strong>Dados</figcaption>
+</figure>
+```
+
+<br>
+
+```{=html}
+<figure style="text-align: center;">
+  <img src="img/lattes_8.png" style="width:80%; display: block; margin: auto;" />
+  <figcaption><strong>Figura 8. </strong>Dados</figcaption>
+</figure>
+```
+
+<br>
+
+::: titulo-nao-numerado
+Texto de apresentação
+:::
+
+Esse é o campo **"Resumo"**, exibido logo no início do currículo. Muitas pessoas o negligenciam, mas ele é fundamental.
+
+-   Formação atual (curso e instituição);
+-   Áreas de interesse;
+-   Participação em projetos (se houver);
+-   Objetivos acadêmicos e profissionais.
+
+
+::: callout-note
+**Exemplo de texto:**\
+"João Silva é estudante de Engenharia Agrícola e Ambiental na Universidade Federal Rural do Semi-Árido (UFERSA). Tem interesse nas áreas de irrigação e manejo sustentável da água. Atualmente participa do Programa de Iniciação Científica, atuando em pesquisas sobre uso eficiente de recursos hídricos. Pretende seguir carreira acadêmica e contribuir para o desenvolvimento de tecnologias voltadas à sustentabilidade."
+:::
+
+::: titulo-nao-numerado
+Categorias de atividades
+:::
+
+| **Atividade**                                                     | **Onde inserir**                                                                                                           |
+|-------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
+| Eventos: congressos, feiras, seminários, simpósios – participação ou organização | Eventos: como ouvinte ou participante (com apresentação de trabalho – inserir o título)                        |
+| Palestras                                                         | Formação complementar: como “curso de curta duração” (caso haja carga horária especificada no certificado)                |
+| Apresentação de trabalho                                          | Produções: apresentação de trabalho                                                                                         |
+| Trabalhos publicados em anais de eventos                          | Produções: Trabalhos publicados em anais de eventos                                                                         |
+| Iniciação Científica / Membro de equipe de pesquisa               | Projetos > Pesquisa                                                                                                         |
+| Participação em Projeto de Extensão (longa duração)              | Projetos > Extensão                                                                                                         |
+| Atividade pontual de Extensão                                     | Formação complementar > Extensão universitária ou outros (ex.: ação ambiental, saúde, escovódromo etc.)                   |
+| PET – Programa de Educação Tutorial                               | Projetos > Outros                                                                                                           |
+| PDAG / Monitoria em disciplina                                    | Formação complementar > Outros ou Projetos > Outros (possível incluir orientador e descrição)                              |
+| PROAC – Programa de Aperfeiçoamento Profissional Continuado       | Projetos > Outros                                                                                                           |
+| Olimpíadas                                                        | Eventos                                                                                                                     |
+| Artigos publicados (autor ou coautor)                             | Produções > Produção bibliográfica (verificar a categoria adequada)                                                         |
+| Patentes                                                          | Patentes e registros                                                                                                        |
+| Orientações (somente docentes de pós-graduação)                  | Orientações (mestrado ou doutorado). Para IC: cadastrar projeto de pesquisa e incluir-se como membro da equipe            |
+| Trabalhos premiados / homenagens                                  | Prêmios e títulos                                                                                                           |
+| Membro de comissões e entidades estudantis                        | Outras informações relevantes                                                                                               |
+| Estágio remunerado ou obrigatório                                 | Atuação profissional (com contrato assinado em empresa)                                                                     |
+| Estágio não obrigatório                                           | Formação complementar > Outros (ex.: observações em hospitais, acompanhamento de projetos sem matrícula institucional)     |
+| O que não se enquadra nos itens acima                             | Outras informações relevantes                                                                                               |
+<br/><br/>
+
+::: callout-tip
+**Boas práticas para manter o currículo atualizado**
+
+-   Atualize sempre que concluir um curso, participar de evento ou publicar um trabalho;\
+-   Revise ortografia e gramática;\
+-   Salve regularmente em PDF;\
+-   Evite informações irrelevantes (como cursos muito básicos ou antigos);\
+-   Peça que um professor revise sua primeira versão.
+:::
+
+## Tarefa
+:::
+
+Acesse o Padlet da turma e crie uma nova postagem com as seguintes orientações:
+
+- Título da postagem: Seu nome científico (tipicamente o primeiro e o último nome);
+- Texto da postagem: Resumo informado no Lattes;
+- Seção de link: Cole o link do seu Currículo Lattes no campo destinado a isso.
+
+Prazo para postagem: 28/8/2025

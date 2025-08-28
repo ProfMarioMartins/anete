@@ -18,14 +18,16 @@ language:
 book:
   title: "Análise e Expressão Textual"
   author: "Mário Martins"
+
   chapters:
     - part: "Apresentação"
       chapters:
       - index.qmd
       - Aula_00.qmd
-#    - part: "Unidade I"
-#      chapters:
-#      - Aula_1.qmd
+
+    - part: "Unidade I"
+      chapters:
+       - Aula_1.qmd
 #      - Aula_2.qmd
 #      - Aula_3.qmd
 #      - Aula_4.qmd
@@ -47,9 +49,11 @@ book:
 #      chapters:
 #      - Aula_15.qmd
 #      - Aula_16.qmd
-#    - part: "Tutoriais"
+#      - part: "Tutoriais"
 
-#      chapters:
+    - part: "Tutoriais"
+      chapters:
+       - tutorial_lattes.qmd
 #      - tutorial_zotero.qmd
 #      - tutorial_capes.qmd
 #      - tutorial_tema_pesquisa.qmd
@@ -68,11 +72,11 @@ book:
 #      - 2_Avaliacao.qmd
 #      - 3_Avaliacao.qmd
 
-    - part: "Suporte"
+    - part: "Complementos"
       chapters:
        - Aula_0.qmd
 #      - sorteio.qmd
-#      - padlet.qmd
+       - padlet.qmd
 
 # bibliography: references.bib
 
