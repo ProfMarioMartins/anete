@@ -14,7 +14,7 @@ Roteiro de aula elaborado no RStudio com o auxílio da inteligência artificial 
 -   Elaborar um **texto de apresentação claro e objetivo**;
 -   Aplicar boas práticas de atualização e revisão do currículo.
 
-## Introdução
+## Contextualização
 
 O Currículo Lattes é um documento digital padronizado, mantido pela plataforma Lattes do CNPq (Conselho Nacional de Desenvolvimento Científico e Tecnológico), que reúne informações acadêmicas, profissionais e científicas de pesquisadores, estudantes e profissionais no Brasil.
 
@@ -161,7 +161,6 @@ Esse é o campo **"Resumo"**, exibido logo no início do currículo. Muitas pess
 -   Participação em projetos (se houver);
 -   Objetivos acadêmicos e profissionais.
 
-
 ::: callout-note
 **Exemplo de texto:**\
 "João Silva é estudante de Engenharia Agrícola e Ambiental na Universidade Federal Rural do Semi-Árido (UFERSA). Tem interesse nas áreas de irrigação e manejo sustentável da água. Atualmente participa do Programa de Iniciação Científica, atuando em pesquisas sobre uso eficiente de recursos hídricos. Pretende seguir carreira acadêmica e contribuir para o desenvolvimento de tecnologias voltadas à sustentabilidade."
@@ -171,27 +170,28 @@ Esse é o campo **"Resumo"**, exibido logo no início do currículo. Muitas pess
 Categorias de atividades
 :::
 
-| **Atividade**                                                     | **Onde inserir**                                                                                                           |
-|-------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
-| Eventos: congressos, feiras, seminários, simpósios – participação ou organização | Eventos: como ouvinte ou participante (com apresentação de trabalho – inserir o título)                        |
-| Palestras                                                         | Formação complementar: como “curso de curta duração” (caso haja carga horária especificada no certificado)                |
-| Apresentação de trabalho                                          | Produções: apresentação de trabalho                                                                                         |
-| Trabalhos publicados em anais de eventos                          | Produções: Trabalhos publicados em anais de eventos                                                                         |
-| Iniciação Científica / Membro de equipe de pesquisa               | Projetos > Pesquisa                                                                                                         |
-| Participação em Projeto de Extensão (longa duração)              | Projetos > Extensão                                                                                                         |
-| Atividade pontual de Extensão                                     | Formação complementar > Extensão universitária ou outros (ex.: ação ambiental, saúde, escovódromo etc.)                   |
-| PET – Programa de Educação Tutorial                               | Projetos > Outros                                                                                                           |
-| PDAG / Monitoria em disciplina                                    | Formação complementar > Outros ou Projetos > Outros (possível incluir orientador e descrição)                              |
-| PROAC – Programa de Aperfeiçoamento Profissional Continuado       | Projetos > Outros                                                                                                           |
-| Olimpíadas                                                        | Eventos                                                                                                                     |
-| Artigos publicados (autor ou coautor)                             | Produções > Produção bibliográfica (verificar a categoria adequada)                                                         |
-| Patentes                                                          | Patentes e registros                                                                                                        |
-| Orientações (somente docentes de pós-graduação)                  | Orientações (mestrado ou doutorado). Para IC: cadastrar projeto de pesquisa e incluir-se como membro da equipe            |
-| Trabalhos premiados / homenagens                                  | Prêmios e títulos                                                                                                           |
-| Membro de comissões e entidades estudantis                        | Outras informações relevantes                                                                                               |
-| Estágio remunerado ou obrigatório                                 | Atuação profissional (com contrato assinado em empresa)                                                                     |
-| Estágio não obrigatório                                           | Formação complementar > Outros (ex.: observações em hospitais, acompanhamento de projetos sem matrícula institucional)     |
-| O que não se enquadra nos itens acima                             | Outras informações relevantes                                                                                               |
+| **Atividade** | **Onde inserir** |
+|--------------------------|----------------------------------------------|
+| Eventos: congressos, feiras, seminários, simpósios – participação ou organização | Eventos: como ouvinte ou participante (com apresentação de trabalho – inserir o título) |
+| Palestras | Formação complementar: como “curso de curta duração” (caso haja carga horária especificada no certificado) |
+| Apresentação de trabalho | Produções: apresentação de trabalho |
+| Trabalhos publicados em anais de eventos | Produções: Trabalhos publicados em anais de eventos |
+| Iniciação Científica / Membro de equipe de pesquisa | Projetos \> Pesquisa |
+| Participação em Projeto de Extensão (longa duração) | Projetos \> Extensão |
+| Atividade pontual de Extensão | Formação complementar \> Extensão universitária ou outros (ex.: ação ambiental, saúde, escovódromo etc.) |
+| PET – Programa de Educação Tutorial | Projetos \> Outros |
+| PDAG / Monitoria em disciplina | Formação complementar \> Outros ou Projetos \> Outros (possível incluir orientador e descrição) |
+| PROAC – Programa de Aperfeiçoamento Profissional Continuado | Projetos \> Outros |
+| Olimpíadas | Eventos |
+| Artigos publicados (autor ou coautor) | Produções \> Produção bibliográfica (verificar a categoria adequada) |
+| Patentes | Patentes e registros |
+| Orientações (somente docentes de pós-graduação) | Orientações (mestrado ou doutorado). Para IC: cadastrar projeto de pesquisa e incluir-se como membro da equipe |
+| Trabalhos premiados / homenagens | Prêmios e títulos |
+| Membro de comissões e entidades estudantis | Outras informações relevantes |
+| Estágio remunerado ou obrigatório | Atuação profissional (com contrato assinado em empresa) |
+| Estágio não obrigatório | Formação complementar \> Outros (ex.: observações em hospitais, acompanhamento de projetos sem matrícula institucional) |
+| O que não se enquadra nos itens acima | Outras informações relevantes |
+
 <br/><br/>
 
 ::: callout-tip
@@ -205,12 +205,16 @@ Categorias de atividades
 :::
 
 ## Tarefa
-:::
 
+Elabore o texto de apresentação do seu novo currículo. Rascunhe-o no seu caderno e somente depois transcreva-o no [Caderno de Textos](portifolio.qmd).
+
+
+<!--
 Acesse o Padlet da turma e crie uma nova postagem com as seguintes orientações:
 
-- Título da postagem: Seu nome científico (tipicamente o primeiro e o último nome);
-- Texto da postagem: Resumo informado no Lattes;
-- Seção de link: Cole o link do seu Currículo Lattes no campo destinado a isso.
+-   Título da postagem: Seu nome científico (tipicamente o primeiro e o último nome);
+-   Texto da postagem: Resumo informado no Lattes;
+-   Seção de link: Cole o link do seu Currículo Lattes no campo destinado a isso.
 
 Prazo para postagem: 28/8/2025
+-->

@@ -28,7 +28,7 @@ book:
     - part: "Unidade I"
       chapters:
        - Aula_1.qmd
-#      - Aula_2.qmd
+       - Aula_2.qmd
 #      - Aula_3.qmd
 #      - Aula_4.qmd
 #      - Aula_5.qmd
@@ -74,9 +74,10 @@ book:
 
     - part: "Complementos"
       chapters:
-       - Aula_0.qmd
+#      - Aula_crono.qmd
 #      - sorteio.qmd
        - padlet.qmd
+       - portifolio.qmd
 
 # bibliography: references.bib
 

@@ -1,297 +1,360 @@
 ---
-title: "Pensamento científico"
+title: "Como as pessoas interpretam o mundo? O senso comum"
 ---
 
-Roteiro de aula elaborado no RStudio com o auxílio da inteligência artificial ChatGPT, revisado e avaliado pelo professor antes de sua publicação.
+::: nota-secundaria
+Roteiro de aula elaborado no RStudio com o auxílio da inteligência artificial ChatGPT e supervisionado pelo professor antes de sua publicação.
+:::
 
-## Objetivos de aprendizagem
+## Contextualização
+
+Nesta aula, vamos explorar os modos pelos quais os seres humanos constroem explicações sobre o mundo e vamos buscar compreender o que diferencia o pensamento cotidiano, baseado em experiências não sistematizadas, do pensamento científico.
 
 Ao final deste encontro e com base na leitura indicada, espera-se que você seja capaz de:
 
--   Reconhecer as características do pensamento científico, diferenciando-o de outras formas de pensar e compreender sua relevância na construção do saber universitário.
+- *Compreender o que é o senso comum e suas características principais, especialmente em relação à linguagem, à subjetividade e à criticidade.*
 
-::: {.section style="padding:1em; background-color:#F5F5F5; color:#000000;"}
-<em>Leitura indicada:</em> <br/> <strong>Think like a scientist: The power of a scientific mindset</strong>, postagem do blog <em>Ivory Embassy</em>, por Santiago Gisler.
+::: leitura
+Leitura indicada:
 
-[Acesso à leitura indicada](https://ivoryembassy.com/scientific-mindset/)
+**Conhecimento científico** (p. 23-28), capítulo do livro *Fundamentos de metodologia científica: teoria da ciência e iniciação à pesquisa*, de José Carlos Kochë
 :::
-
-------------------------------------------------------------------------
 
 ## Aprendizagem prática
 
-### Questão 1
+::: subtitulo-nao-numerado
+Enquete
+:::
 
-Você pensa cientificamente?
+Leia o código QR abaixo e responda à enquete que se segue.
+
+::: subsubtitulo-nao-numerado
+Qual é o seu signo?
+:::
 
 ```{=html}
-<div id="quiz-container" style="font-family: Arial, sans-serif; max-width: 800px; margin: auto;">
-  <p>Leia cada situação e escolha a alternativa que mais se aproxima do que você faria ou costuma fazer.</p>
-
-  <form id="quiz-form">
-    <ol>
-      <li>
-        Você observa que, no seu jardim, uma planta está crescendo mais devagar que as outras.<br>
-        <label><input type="radio" name="q1" value="0"> (A) Você ignora o fato, pois você é matemático.</label><br>
-        <label><input type="radio" name="q1" value="0"> (B) Você considera que é “azar” ou “alguma coisa no ar”.</label><br>
-        <label><input type="radio" name="q1" value="1"> (C) Você começa a observar as possíveis causas, tentando encontrar explicações.</label>
-      </li><br>
-
-      <li>
-        Você recebe uma notícia com dados sobre a economia que parecem catastróficas.<br>
-        <label><input type="radio" name="q2" value="0"> (A) Você compartilha imediatamente com seus colegas. É bom que todos saibam.</label><br>
-        <label><input type="radio" name="q2" value="0"> (B) Você confia na notícia porque veio de um canal que você costuma seguir.</label><br>
-        <label><input type="radio" name="q2" value="1"> (C) Você questiona a origem dos dados e busca descobrir como aquilo que está sendo noticiado aconteceu.</label>
-      </li><br>
-
-      <li>
-        Você ouve falar de um produto milagroso para aumentar a memória.<br>
-        <label><input type="radio" name="q3" value="0"> (A) Você compra sem pensar duas vezes.</label><br>
-        <label><input type="radio" name="q3" value="0"> (B) Você consulta opiniões de amigos próximos.</label><br>
-        <label><input type="radio" name="q3" value="1"> (C) Você pesquisa sobre o produto em estudos científicos e opiniões de especialistas.</label>
-      </li><br>
-
-      <li>
-        Ao tentar resolver um problema técnico, como configurar uma impressora em rede, você encontra várias hipóteses.<br>
-        <label><input type="radio" name="q4" value="0"> (A) Você escolhe a que explica o problema mais rapidamente. Não vale a pena descobrir mais nada.</label><br>
-        <label><input type="radio" name="q4" value="0"> (B) Você segue sua intuição apenas.</label><br>
-        <label><input type="radio" name="q4" value="1"> (C) Você analisa as opções e elimina as menos prováveis com base em dados e fatos.</label>
-      </li><br>
-
-      <li>
-        Um conhecido propõe um investimento com retorno garantido em poucos dias.<br>
-        <label><input type="radio" name="q5" value="0"> (A) Você aceita rapidamente para não perder a chance.</label><br>
-        <label><input type="radio" name="q5" value="0"> (B) Você pergunta a outros conhecidos se já ouviram falar.</label><br>
-        <label><input type="radio" name="q5" value="1"> (C) Você questiona os riscos e busca evidências concretas de eficácia.</label>
-      </li><br>
-
-      <li>
-        Você nota que alunos que usam fone de ouvido no dia a dia vão melhor nas provas.<br>
-        <label><input type="radio" name="q6" value="0"> (A) Você conclui que o fone de ouvido melhora a inteligência.</label><br>
-        <label><input type="radio" name="q6" value="0"> (B) Você pensa que é apenas coincidência.</label><br>
-        <label><input type="radio" name="q6" value="1"> (C) Você considera que pode haver outro fator influente relacionado ao fone de ouvido.</label>
-      </li><br>
-
-      <li>
-        Você descobre um método de estudo bem diferente do seu.<br>
-        <label><input type="radio" name="q7" value="0"> (A) Você recusa-se a tentar porque “sempre estudou de outro jeito”.</label><br>
-        <label><input type="radio" name="q7" value="0"> (B) Você ccha curioso, mas prefere não mudar nada.</label><br>
-        <label><input type="radio" name="q7" value="1"> (C) Você avalia o método e considera testá-lo.</label>
-      </li><br>
-
-      <li>
-        Você defende uma dieta há anos, mas novos estudos mostram riscos ao fígado.<br>
-        <label><input type="radio" name="q8" value="0"> (A) Você ignora os estudos porque já fez sua escolha.</label><br>
-        <label><input type="radio" name="q8" value="0"> (B) Você acha que todo estudo tem problema.</label><br>
-        <label><input type="radio" name="q8" value="1"> (C) Você lê os estudos, pondera e ajusta suas recomendações.</label>
-      </li><br>
-
-      <li>
-        Você apresenta um projeto e recebe críticas construtivas.<br>
-        <label><input type="radio" name="q9" value="0"> (A) Você fica na defensiva e descarta as sugestões.</label><br>
-        <label><input type="radio" name="q9" value="0"> (B) Você aceita parcialmente, mas mantém quase tudo.</label><br>
-        <label><input type="radio" name="q9" value="1"> (C) Você analisa os comentários e faz ajustes para melhorar.</label>
-      </li><br>
-
-      <li>
-        Você conclui uma experiência com resultados positivos.<br>
-        <label><input type="radio" name="q10" value="0"> (A) Você fica satisfeito e guarda para si, porque não quer que roubem sua ideia.</label><br>
-        <label><input type="radio" name="q10" value="0"> (B) Você publica nas redes sociais, mas não explica como fez, porque não quer que roubem sua ideia.</label><br>
-        <label><input type="radio" name="q10" value="1"> (C) Você documenta os dados e o método de pesquisa e compartilha-os com as pessoas interessadas no fenômeno que você está estudando.</label>
-      </li>
-    </ol>
-
-    <button type="button" onclick="calculateScore()">Ver meu resultado</button>
-  </form>
-
-  <div id="result" style="margin-top: 20px; font-weight: bold;"></div>
-</div>
-
-<script>
-function calculateScore() {
-  var form = document.getElementById('quiz-form');
-  var inputs = form.querySelectorAll('input[type="radio"]:checked');
-  var score = 0;
-  inputs.forEach(input => {
-    score += parseInt(input.value);
-  });
-
-  let message = "";
-  if (score === 10) {
-    message = "Parabéns! Você demonstra um pensamento científico exemplar.";
-  } else if (score >= 7) {
-    message = "Muito bom! Você tem uma forte inclinação científica.";
-  } else if (score >= 4) {
-    message = "Você demonstra algumas atitudes científicas, mas há espaço para desenvolver mais.";
-  } else {
-    message = "Vamos trabalhar juntos para fortalecer seu pensamento científico!";
-  }
-
-  document.getElementById('result').innerHTML = `Você acertou <strong>${score} de 10</strong>.<br>${message}`;
-}
-</script>
+<figure style="text-align: center;">
+  <img src="img/mentimeter_qr_code.png" style="width:20%; display: block; margin: auto;" />
+  <figcaption><strong>Figura 1. </strong>Código QR para a enquete</figcaption>
+</figure>
 ```
 
-<hr style="border: none; border-top: 3px dashed #bbb; margin: 3em 0;">
+```{=html}
+<div style='position: relative; padding-bottom: 56.25%; padding-top: 35px; height: 0; overflow: hidden;'><iframe sandbox='allow-scripts allow-same-origin allow-presentation' allowfullscreen='true' allowtransparency='true' frameborder='0' height='315' src='https://www.mentimeter.com/app/presentation/alzpggs32vc31qjku6hct43y218uiwok/embed' style='position: absolute; top: 0; left: 0; width: 100%; height: 100%;' width='420'></iframe></div>
+```
 
-### Questão 2
+::: subtitulo-nao-numerado
+Reflexão 
+:::
 
-O que é a pensamento científico?
+Agora que sabemos quais são os signos dos discentes da turma, vamos refletir juntos:
 
-> O pensamento científico é um estilo de pensamento que incentiva a análise crítica e o ceticismo na abordagem de situações e problemas.
+- Você acredita que as características atribuídas ao seu signo realmente combinam com você?
+- Essas características poderiam se aplicar a qualquer pessoa?
+- Quem escreve os horóscopos? Quais evidências essas pessoas usam?
+- O que faz com que tantas pessoas acreditem em signos, mesmo sem comprovação científica?
 
-> O pensamento científico promove o questionamento de suposições e a avaliação objetiva de ideias, visando uma compreensão mais próxima da verdade, na medida do possível.
+## Leitura em foco
 
-> Por meio do uso de evidências e do raciocínio lógico, é possível interpretar melhor o mundo ao redor, tomar decisões fundamentadas e encontrar soluções para desafios.
+::: citacao
+O homem é um ser jogado no mundo, condenado a viver a sua existência. [O homem] (...) tem que interpretar "a si e ao mundo em que vive, atribuindo-lhes significações. Cria intelectualmente representações significativas da realidade. A essas representações chamamos **conhecimento**. (Kochë, 2016, p. 24 - destaques meus)
+:::
+
+::: destaque
+Ao interpretar o mundo e a si mesmo, o ser humano não apenas tem conhecimento de sua existência: ele toma **consciência** dessa existência. Conhecer é, antes de tudo, um ato de consciência ativa, que dá sentido à experiência vivida.
+:::
 
 ```{=html}
-
-<div style="border: 1px solid #ccc; padding: 1em; background-color: #f9f9f9; border-radius: 5px; margin-bottom: 1em;">
-
-<strong>Estátua da Virgem Maria em Trevignano Romano atrai fiéis após relatos de lágrimas de sangue</strong><br><br>
-<sub>Notícia criada para os fins desta aula</sub><br><br>
-
-<img src="img/santa.jpg"  alt="Virgem Maria"; style="width:60%;">
-
-<br><br>
-
-Desde 2016, a pequena cidade de Trevignano Romano, localizada às margens do Lago de Bracciano, na Itália, tornou-se um centro de peregrinação religiosa devido a relatos de que uma estátua da Virgem Maria estaria chorando lágrimas de sangue. A proprietária da imagem, Gisella Cardia, afirma ter testemunhado o fenômeno após uma viagem a Medjugorje, na Bósnia-Herzegovina, e desde então, organiza encontros mensais de oração no local.<br><br>
-
-Os eventos ocorrem no dia 3 de cada mês, reunindo centenas de fiéis que participam de orações e aguardam possíveis mensagens atribuídas à Virgem Maria. Além das supostas lágrimas, há relatos de outras manifestações, como a multiplicação de alimentos e a emissão de óleos perfumados pela estátua.<br><br>
-
-A Diocese de Civita Castellana, à qual Trevignano pertence, instaurou uma comissão para investigar a autenticidade dos fenômenos. Em março de 2023, o bispo Marco Salvi anunciou a formação de uma equipe para conduzir uma “investigação prévia” sobre os eventos, buscando esclarecer se há fundamentos sobrenaturais nas ocorrências relatadas.<br><br>
-
-Enquanto isso, as autoridades civis também monitoram a situação, considerando o crescente número de visitantes e o impacto na infraestrutura local. A prefeitura de Trevignano Romano tem colaborado com as investigações e buscado garantir a segurança e o bem-estar dos moradores e peregrinos.<br><br>
-
-O caso continua a gerar debates entre crentes e céticos, sendo acompanhado de perto tanto pela comunidade religiosa quanto pela imprensa internacional.<br><br>
-
-<div style="background-color: navy; color: white; padding: 10px; border-radius: 5px; font-size: 40px; text-align: center;">
-  <strong>Pensando cientificamente, como abordar o fato?</strong>
+<div style="position: relative; padding-bottom: 56.25%; padding-top: 35px; height: 0; overflow: hidden;">
+  <iframe 
+    src="https://www.youtube.com/embed/9etefsYMm5o?si=i1eNdDkqEgHQXCFg" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" 
+    allowfullscreen 
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+  </iframe>
 </div>
+```
 
+::: citacao
+O conhecimento, dependendo da forma pela qual se chega a essa representação significativa, pode ser, em linhas gerais, classificado em diversos tipos: **mítico**, **ordinário**, **artístico**, **filosófico**, **religioso** e **científico**. (Kochë, 2016, p. 24 - destaques meus)
+:::
+
+::: citacao
+As duas formas [de conhecimento] que estão mais presentes e que mais interferem nas decisões da vida diária do homem são o conhecimento do **senso comum** e o **científico**. (Kochë, 2016, p. 24 - destaques meus)
+:::
+
+::: citacao
+A forma mais usual que o homem utiliza para interpretar a si mesmo, o seu mundo e o universo como um todo, produzindo interpretações significativas, isto é, conhecimento, é a do **senso comum**, também chamado de conhecimento ordinário, comum ou empírico. (Kochë, 2016, p. 24 - destaques meus)
+:::
+
+## Aprendizagem prática
+
+::: subtitulo-nao-numerado
+Enquete
+:::
+
+Do mesmo modo, leia o código QR para demonstrar o seu conhecimento sobre o soluço.
+
+::: subsubtitulo-nao-numerado
+Qual é o melhor remédio para parar o soluço? Responda com uma ou duas palavras no máximo.
+:::
+
+```{=html}
+<figure style="text-align: center;">
+  <img src="img/mentimeter_qr_code2.png" style="width:20%; display: block; margin: auto;" />
+  <figcaption><strong>Figura 2. </strong>Código QR para a enquete</figcaption>
+</figure>
+```
+
+<br/>
+
+```{=html}
+<div style='position: relative; padding-bottom: 56.25%; padding-top: 35px; height: 0; overflow: hidden;'><iframe sandbox='allow-scripts allow-same-origin allow-presentation' allowfullscreen='true' allowtransparency='true' frameborder='0' height='315' src='https://www.mentimeter.com/app/presentation/altoinsdtbqjd1qn79x16dk8o2bfjaq1/embed' style='position: absolute; top: 0; left: 0; width: 100%; height: 100%;' width='420'></iframe></div>
+```
+
+::: subtitulo-nao-numerado
+Reflexão 
+:::
+
+Observe a diversidade de respostas sobre o melhor remédio para o soluço. De onde vêm essas ideias? Em que elas se baseiam?
+
+::: destaque
+Essa atividade nos ajuda a perceber como o **senso comum constrói soluções práticas** com base na experiência e na repetição, **sem necessariamente ter comprovação científica**. Embora muitas vezes funcionem, essas soluções são transmitidas por tradição, não por validação sistemática. Isso não as invalida automaticamente, mas nos convida a refletir: **quando e como devemos confiar no conhecimento do senso comum?**
+:::
+
+## Leitura em foco
+
+::: citacao
+[O conhecimento do senso comum] (...) surge como conseqüência da necessidade de resolver problemas imediatos, que aparecem na vida prática e decorrem do contato direto com os fa­tos e fenômenos que vão acontecendo no dia-a-dia, percebidos principalmente através da percepção sensorial. (Kochë, 2016, p. 25)
+::: 
+
+São exemplos de conhecimento construído com base no senso comum de uma comunidade:
+
+- uso de cavernas em tempos pré-históricos
+- invenção da roda
+- uso de lanças e armadilhas
+- preparo de remédios caseiros
+- confecção de tecidos e vestimentas
+
+::: destaque
+**Os quatro pilares do senso comum**
+
+- **Espontaneidade**  
+  O senso comum surge de modo natural, não planejado. É construído a partir das experiências imediatas do cotidiano, sem necessidade de investigação formal ou validação externa.
+
+  *Exemplo:* saber que colocar a mão no fogo queima, sem precisar de um experimento controlado.
+
+- **Utilitarismo**  
+  Está voltado à solução prática de problemas do dia a dia. Seu valor está no que “funciona”, independentemente do motivo ou fundamento.
+
+  *Exemplo:* tomar chá de boldo para dor de estômago porque "sempre ajudou" — mesmo sem comprovação científica.
+
+- **Subjetividade**  
+  O senso comum é interpretado com base na vivência, na cultura e nas crenças pessoais de quem fala. A verdade é relativa à experiência do indivíduo ou grupo.
+
+  *Exemplo:* acreditar que determinadas cores “atraem boas energias” segundo a tradição de fim de ano.
+
+- **Linguagem vaga**  
+  Utiliza expressões imprecisas, genéricas ou metafóricas. A falta de precisão dificulta a verificação e o debate crítico.
+
+  *Exemplo:* dizer que algo “faz mal à saúde” sem explicar o quê, por quê, para quem ou em que quantidade.
+:::
+
+::: citacao
+Esses conhecimentos [do senso comum], pelo fato de "darem certo", transformam-se em convicções, em crenças que são repassadas de um indivíduo para o outro e de uma geração para a outra. (Kochë, 2016, p. 26 - aspas minhas).
+:::
+
+<br/>
+
+::: subtitulo-nao-numerado
+Linguagem vaga (ateórica)
+:::
+
+::: citacao
+A linguagem utilizada no conhecimento do senso comum contém termos e conceitos vagos, que não delimitam a classe de coisas, ideias ou eventos designados e não designados por eles, ou o que é incluído ou excluído na sua significação. (Kochë, 2016, p. 27).
+:::
+
+<br/>
+
+## Aprendizagem prática
+
+::: subtitulo-nao-numerado
+Análise
+:::
+
+Assista ao vídeo a seguir e responda ao que se pede.
+
+::: subsubtitulo-nao-numerado
+Por que a linguagem do vídeo abaixo é vaga?
+:::
+
+```{=html}
+<div style="display: flex; justify-content: center; margin-top: 1rem; margin-bottom: 1rem;">
+  <iframe 
+    width="384" 
+    height="682" 
+    src="https://www.youtube.com/embed/5bUinWYq9YY" 
+    title="QUEDA DE CABELO NUNCA MAIS 1 INGREDIENTE" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" 
+    allowfullscreen>
+  </iframe>
 </div>
 ```
 
 <!-- Aqui começa o campo de respostas-->
+<details class="resposta-escondida">
+<summary>Gabarito</summary>
 
-<details>
+A linguagem utilizada no vídeo pode ser considerada vaga por diversos motivos:
 
-<summary>
+- Medidas imprecisas: O vídeo instrui o uso de "aproximadamente uns cinco dedinhos de gengibre" e, se for "mais grossinho", "quatro dedos só". As medidas de "dedinhos" e "dedos" são altamente subjetivas e variam de pessoa para pessoa, tornando a quantidade exata do ingrediente ambígua e difícil de replicar consistentemente.
 
-</summary>
+- Termos relativos sobre custo e localização: A descrição de que o ingrediente "se você não tem aí na sua casa tem pertinho de você e custa bem baratinho" usa termos como "pertinho de você" e "bem baratinho". Esses termos são relativos e podem significar coisas diferentes para indivíduos em diferentes contextos geográficos ou financeiros, não oferecendo uma informação concreta.
 
-::: {style="width: 100%; background-color:#ADD8E6; font-size: 14px; line-height: 1.5;"}
-[Teste de DNA resolve enigma de estátua que chorava sangue](https://www.dw.com/pt-br/teste-de-dna-resolve-enigma-de-virgem-maria-que-chorava-sangue/a-71703557)
-:::
-
+- Afirmações absolutas e sem qualificação: A promessa de que "seus problemas de queda de cabelo de seborreia e de caspa vão acabar" é uma afirmação muito forte e absoluta. Tal linguagem não permite exceções, variações de resultados ou diferentes graus de eficácia, o que pode ser irrealista e sem base em dados científicos objetivos.
 </details>
-
-</pre>
-
 <!-- Aqui encerra o campo de respostas-->
 
-### Questão 3
+## Aprendizagem prática
 
-O que é fundamental no pensamento científico?
+::: subtitulo-nao-numerado
+Análise
+:::
 
-> Um elemento fundamental no pensamento científico é o uso do método científico.
+Ditos populares, também conhecidos como provérbios, são expressões curtas e memoráveis que transmitem conhecimento popular, conselhos práticos e reflexões sobre o comportamento humano e o cotidiano.
 
-> O método científico auxilia na aquisição de conhecimento por meio da observação e da experiência (de forma empírica).
+Ditos populares são manifestações típicas do senso comum, pois expressam interpretações espontâneas da realidade formuladas a partir da experiência coletiva e da tradição oral.
 
-> O método científico organiza o processo pelo qual cientistas – e não-cientistas – chegam a conclusões.
+Essas expressões condensam, em linguagem acessível e metafórica, conhecimentos acumulados ao longo do tempo, sem, contudo, recorrer a métodos sistemáticos de verificação.
 
-### Questão 4
+::: subsubtitulo-nao-numerado
+Analise os ditos populares abaixo e explique por que eles usam uma linguagem vaga.
+:::
 
-Passo a passo do método científico (em síntese):
-
-• Observar um fenômeno e formular uma pergunta<br> • Realizar pesquisas e reunir informações<br> • Formular uma hipótese<br> • Testar essa hipótese<br> • Apresentar os resultados, debater e aperfeiçoar o entendimento do fenômeno
-
-### Questão 5
-
-Pilares do pensamento científico (para além da ciência)
-
--   [ ] **Demonstrar curiosidade:**\
-    *Exemplo:* Um estudante de biologia que, ao observar uma planta com folhas amarelas, começa a se perguntar: “Por que essa planta tem uma coloração diferente das outras? Será falta de nutrientes, excesso de sol, ou alguma doença?”
-
--   [ ] **Questionar pressupostos:**\
-    *Exemplo:* Um jornalista investigativo que, ao receber um dado oficial, questiona: “Será que esses números foram coletados corretamente? Quem financiou a pesquisa? Existe algum conflito de interesse?”
-
--   [ ] **Buscar evidências:**\
-    *Exemplo:* Um consumidor que lê avaliações de múltiplos sites e compara estudos antes de comprar um produto que alega ser ecológico.
-
--   [ ] **Aplicar lógica e raciocínio:**\
-    *Exemplo:* Um médico que, ao interpretar exames laboratoriais, descarta hipóteses menos prováveis com base nos padrões observados nos resultados.
-
--   [ ] **Adotar ceticismo saudável:**\
-    *Exemplo:* Um economista que, ao ouvir que um novo investimento promete lucros altíssimos em pouco tempo, questiona: “Quais são os riscos? Existe alguma evidência de que outros investidores tiveram sucesso semelhante?”
-
--   [ ] **Considerar explicações alternativas:**\
-    *Exemplo:* Um pesquisador que, ao encontrar uma correlação entre duas variáveis, pensa: “Será que é uma relação causal direta? Ou pode haver um terceiro fator influenciando ambas?”
-
--   [ ] **Estar aberto a novas ideias:**\
-    *Exemplo:* Um professor que, ao descobrir um método de ensino inovador, considera aplicá-lo em suas aulas, mesmo que isso signifique mudar abordagens tradicionais.
-
--   [ ] **Refletir sobre suas próprias crenças:**\
-    *Exemplo:* Um defensor de uma dieta específica que, ao encontrar novos estudos que contradizem suas crenças, analisa esses dados e ajusta suas recomendações.
-
--   [ ] **Buscar feedback e aprender com os erros:**\
-    *Exemplo:* Um engenheiro que compartilha seu projeto com colegas, recebe críticas sobre a estrutura, faz alterações e apresenta um produto final mais eficiente.
-
--   [ ] **Valorizar a replicabilidade e a objetividade:**\
-    *Exemplo:* Um cientista que publica os dados brutos de seu experimento e descreve os procedimentos em detalhes, permitindo que outros pesquisadores tentem reproduzir os mesmos resultados.
-
-------------------------------------------------------------------------
-
-```{=html}
-
-<div style="border: 1px solid #ccc; padding: 1em; background-color: #f9f9f9; border-radius: 5px; margin-bottom: 1em;">
-
-<strong>Uma reclamação de um cliente pode levar a uma descoberta</strong><br><br>
-<sub>Texto extraído do site do Comunidade Sebrae (https://sebraepr.com.br/comunidade/artigo/uma-reclamacao-de-um-cliente-pode-levar-a-uma-descoberta)</sub><br><br>
-
-<img src="img/sorvete.webp"  alt="Virgem Maria"; style="width:60%;">
-
-<br><br>
-
-Esta história começa quando o gerente da divisão de carros da Pontiac, da General Motors dos Estados Unidos, recebeu uma curiosa carta de reclamação de um cliente. Eis o que ele escreveu:<br><br>
-
-"Esta é a segunda vez que mando uma carta para vocês, e não os culpo por não responder. Eu posso parecer louco, mas o fato é que nós temos uma tradição em nossa família, que é a de tomar sorvete depois do jantar.<br><br>
-
-Repetimos este hábito todas às noites, variando apenas o tipo do sorvete, e eu sou o encarregado de ir comprá-lo. Recentemente comprei um novo Pontiac e, desde então, minhas idas à sorveteria se transformaram num problema.<br><br>
-
-Sempre que eu compro sorvete de baunilha, o carro não funciona, mas, se compro qualquer outro tipo de sorvete, o carro funciona normalmente. O fato é que estou muito irritado com meu Pontiac."<br><br>
-
-A carta gerou tantas piadas do pessoal da GM que o presidente da empresa acabou recebendo uma cópia da reclamação. Ele resolveu levar a sério e mandou um engenheiro conversar com o autor da carta. Então, foram juntos à sorveteria no fatídico Pontiac, onde o engenheiro sugeriu sabor baunilha para testar a reclamação e o carro efetivamente não funcionou.<br><br>
-
-<div style="background-color: navy; color: white; padding: 10px; border-radius: 5px; font-size: 40px; text-align: center;">
-  <strong>Pensando cientificamente, como abordar o fato?</strong>
-</div>
-```
+::: enfase
+Bandido bom é bandido morto!
+:::
 
 <!-- Aqui começa o campo de respostas-->
+<details class="resposta-escondida">
+<summary>Gabarito</summary>
 
-<details>
+A linguagem utilizada no vídeo pode ser considerada vaga por diversos motivos:
 
-<summary>
+- Termo impreciso e genérico: “bandido”\
+A palavra "bandido" não tem, no dito, uma definição clara. Pode se referir a criminosos de diferentes tipos, a pessoas acusadas (mas não julgadas) ou até mesmo a indivíduos rotulados socialmente como marginais, sem respaldo jurídico. Essa vaguidade abre margem para interpretações arbitrárias e discriminatórias.
 
-</summary>
+- Ausência de critérios objetivos\
+Não há definição de quem julga, nem com base em que critérios se define quem é bom ou quem é bandido. A expressão ignora a complexidade das situações, dos contextos sociais e jurídicos envolvidos, e desconsidera princípios fundamentais como o direito à ampla defesa e ao devido processo legal.
 
-::: {style="width: 100%; background-color:#ADD8E6; font-size: 14px; line-height: 1.5;"}
-O funcionário da GM voltou nos dias seguintes e só variou o sabor do sorvete. Mais uma vez, o carro só não pegava quando o sabor escolhido era baunilha.
+- Apelo emocional e moralizante\
+A frase se apoia em um julgamento moral absoluto, típico do senso comum, e não admite exceções ou análises racionais. É uma simplificação extrema de uma questão complexa e serve muito mais para reforçar sentimentos de medo, revolta ou desejo de justiça sumária, do que para promover reflexão crítica.
 
-O problema acabou virando uma obsessão para o engenheiro, que fez experiências diárias, anotou todos os detalhes possíveis e, depois de duas semanas, chegou à primeira grande descoberta: quando escolhia baunilha, o comprador gastava menos tempo, porque não precisava ficar escolhendo o tipo de sorvete.
+- Ausência de base empírica ou científica\
+Não há comprovação de que matar alguém considerado bandido contribua para resolver problemas estruturais relacionados à criminalidade. Ao contrário, esse tipo de discurso pode fomentar a violência e a desumanização.
+</details>
+<!-- Aqui encerra o campo de respostas-->
 
-Examinando o carro, o engenheiro fez nova descoberta: com o tempo de compra reduzido no caso da baunilha, em comparação com o tempo dos outros sabores, o motor não chegava a esfriar. Com isso, os vapores de combustível não se dissipavam, impedindo que a nova partida fosse instantânea.
-
-A partir deste episódio, a Pontiac mudou o sistema de alimentação de combustível e introduziu a alteração em todos os modelos a partir desta linha.
-
-Mais que isso, o autor da reclamação ganhou um carro novo, além da reforma do que não pegava com sorvete de baunilha.
-
-A GM distribuiu também um memorando interno, exigindo que seus funcionários levem a sério até as 'reclamações mais estapafúrdias, porque pode ser que uma grande inovação esteja por trás de um sorvete de baunilha' diz a carta da GM.
+::: enfase
+Em briga de marido e mulher, ninguém mete a colher!
 :::
 
+<!-- Aqui começa o campo de respostas-->
+<details class="resposta-escondida">
+<summary>Gabarito</summary>
+
+Podemos dizer que o dito “Em briga de marido e mulher, ninguém mete a colher!” apresenta uma linguagem vaga porque os termos “briga”, “marido e mulher” e “meter a colher” são ambíguos, subjetivos e culturalmente condicionados.
+
+– “Briga” pode significar desde uma simples discussão verbal até situações graves de violência física, mas o dito não especifica essa gradação, tratando todas as situações como equivalentes.
+– “Marido e mulher” é uma expressão genérica que naturaliza uma configuração familiar tradicional e ignora outros arranjos afetivos.
+– “Ninguém mete a colher” é uma metáfora que sugere não intervenção, mas sem esclarecer limites ou contextos – o que pode ser interpretado tanto como um conselho de respeito à privacidade quanto como uma justificativa para a omissão diante de casos de violência doméstica.
+
+A falta de delimitação clara dos termos e a possibilidade de interpretações múltiplas, inclusive prejudiciais, são marcas da linguagem vaga típica do senso comum.
 </details>
-
-</pre>
-
 <!-- Aqui encerra o campo de respostas-->
+
+## Aprendizagem prática
+
+::: subtitulo-nao-numerado
+Análise
+:::
+
+Analise a imagem a seguir para responder ao que se pede.
+
+::: subsubtitulo-nao-numerado
+O enunciado generaliza alguma ideia?
+:::
+
+<img src="img/maes.png" style="width:80%; display: block; margin: auto;"/>
+
+<!-- Aqui começa o campo de respostas-->
+<details class="resposta-escondida">
+<summary>Gabarito</summary>
+
+**1. O enunciado generaliza alguma ideia?**
+
+Sim. A frase generaliza a figura materna, atribuindo a todas as mães um papel idealizado como origem da vida e fonte inesgotável de amor. Desconsidera, portanto, a diversidade de experiências familiares e afetivas, incluindo mães ausentes, negligentes ou relações familiares conflituosas.
+
+**2. O enunciado se baseia em evidências ou em crenças e emoções?**
+
+Baseia-se essencialmente em crenças e emoções. Não há comprovação empírica ou referência a dados que sustentem a ideia de que o amor de mãe seja eterno ou universal. A força da frase reside em seu apelo afetivo, tocando valores subjetivos e culturais enraizados.
+
+**3. O enunciado reforça algum valor ou norma social amplamente aceita?**
+
+Sim. A frase reforça a valorização idealizada da maternidade, um pilar do senso comum em muitas culturas. Sustenta a noção de que mães devem ser incondicionalmente amorosas, cuidadoras e abnegadas, consolidando uma norma social tradicional de gênero.
+
+</details>
+<!-- Aqui encerra o campo de respostas-->
+
+<br/>
+
+::: destaque
+O **senso crítico** é o oposto do senso comum, já que envolve análise, comparação, verificação de evidências e compromisso com a racionalidade e o método.
+
+O ponto de vista científico se constrói em torno do senso crítico, do pensamento científico e, consequentemente, da linguagem científica.
+
+**Exemplo de linguagem precisa**
+
+Nesse contexto, este artigo visa responder a seguinte questão de pesquisa: Quais os desafios à implementação de modelos de negócio com foco em sustentabilidade? Para os objetivos da pesquisa, os desafios de implementação, são descritos como as dificuldades que as organizações encontram no momento de implementação para que o modelo de negócios obtenha **sucesso**, neste artigo **sucesso** é definido como o alcance dos objetivos propostos na fase de projeto do modelo de negócios.[^1]
+:::
+
+[^1]:Fonte: SOUZA, DANIELA EMILIANO; DE CARVALHO, MARLY MONTEIRO. Modelos de negócios com foco em sustentabilidade: Desafios e barreiras à implementação. São Paulo: Anais do VI SINGEP, 2017.
+
+## Leitura em foco
+
+::: citacao
+A significação dos conceitos, no senso comum, é produto de um uso individual e subjetivo espontâneo que se enriquece e se modifica gradualmente em função da convivência num determinado grupo. As palavras adquirem sentidos diferenciados **de acordo com as pessoas e grupos por quem forem utilizadas**. (Kochë, 2016, p. 27 - destaques meus)
+:::
+
+<br/>
+
+::: subtitulo-nao-numerado
+Dificuldade de explicação e testagem/controle
+:::
+
+::: citacao
+Essa vaguidade, essa falta de especificidade da linguagem que dificulta a delimitação da significação dos conceitos, impossibilita a realização de experimentos controlados que permitam estabelecer com clareza quais manifestações dos fatos ou fenômenos se transformam em evidências que contrariam ou que corroboram determinado juízo de uma crença, uma vez que não estão explicitadas quais manifestações empíricas dos fatos ou dos fenômenos lhe são atribuídos. (Kochë, 2016, p. 27)
+:::
+
+::: citacao
+No senso comum, portanto, a vaguidade da linguagem utilizada conduz a um baixo poder de discriminação entre os confirmadores e os falseadores potenciais de seus enunciados. Torna-se, assim, difícil, quase impossível, o controle e a avaliação experimental. (Kochë, 2016, p. 27)
+:::
+
+::: citacao
+O conhecimento do senso comum não proporciona uma visão global e unitária da interpretação dos fenômenos. É um conhecimento *fragmentado*, voltado à solução dos interesses pessoais, limitado às *convicções subjetivas*, com um *baixo poder de crítica* e, por isso, com tendências a ser *dogmático*. (Kochë, 2016, p. 28 - destaques meus)
+:::
+
+::: citacao
+Apesar da grande utilidade que apresenta na *solução dos problemas diários* ligados à sobrevivência humana, ele mantém o homem como *espectador demasiadamente passivo da realidade*, com um baixo poder de interferência e controle dos fenômenos. (Kochë, 2016, p. 28 - destaques meus)
+:::
+
+::: proxima-aula
+[Para a próxima aula:]{.proxima-aula-title}
+
+-   **Leia** o texto **Afinal, o que é Ciência?** (p. 9-12), capítulo do livro *Afinal o que é ciência?... e o que não é*, de André Demambre Bacchi. Disponível na Minha Biblioteca.
+:::

@@ -142,14 +142,11 @@ MENDES, Gilmar Ferreira; FOSTER JÚNIOR, Nestor José. Manual de redação da Pr
 Outras obras poderão ser usadas na disciplina.
 
 ::: proxima-aula
-[Para a próxima aula:]{.proxima-aula-title}
--   **Leia** o texto **Entendendo a organização do sistema acadêmico brasileiro** (p. 7-9), capítulo do livro *Guia do trabalho científico: do projeto à redação final*, de Celso Ferrarezi Júnior.
--   **Você também vai precisar das seguintes informações:**
-    -   Documento de identidade (RG ou CNH);\
-    -   CPF;\
-    -   Endereço completo;\
-    -   Telefones e e-mail (preferencialmente institucional);\
-    -   Histórico escolar ou diplomas/certificados de cursos concluídos;\
-    -   Certificados de participação em cursos, palestras ou congressos;\
-    -   Produções acadêmicas (artigos, resumos, apresentações, se houver);\
+[Para a próxima aula:]{.proxima-aula-title} - **Leia** o texto **Entendendo a organização do sistema acadêmico brasileiro** (p. 7-9), capítulo do livro *Guia do trabalho científico: do projeto à redação final*, de Celso Ferrarezi Júnior. - **Você também vai precisar das seguintes informações:** - Documento de identidade (RG ou CNH);\
+- CPF;\
+- Endereço completo;\
+- Telefones e e-mail (preferencialmente institucional);\
+- Histórico escolar ou diplomas/certificados de cursos concluídos;\
+- Certificados de participação em cursos, palestras ou congressos;\
+- Produções acadêmicas (artigos, resumos, apresentações, se houver);\
 :::

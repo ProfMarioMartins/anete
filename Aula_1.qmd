@@ -6,27 +6,26 @@ title: "Sistema acadêmico brasileiro"
 Roteiro de aula elaborado no RStudio com o auxílio da inteligência artificial ChatGPT e supervisionado pelo professor antes de sua publicação.
 :::
 
-## Objetivos de aprendizagem
-
-Ao final deste encontro, e com base na leitura indicada, espera-se que você seja capaz de:
-
--   Compreender a organização do sistema acadêmico brasileiro, identificando suas principais instâncias, normas e formas de produção do conhecimento, especialmente os gêneros textuais acadêmicos;
-
-::: {.leitura}
-*Leitura indicada:*\
-**Entendendo a organização do sistema acadêmico brasileiro**, capítulo do livro *Guia do trabalho científico: do projeto à redação final*, de Celso Ferrarezi Jr.
-:::
-
-## Introdução
+## Contextualização
 
 O sistema acadêmico brasileiro é estruturado em diferentes níveis e modalidades de ensino superior, com o objetivo de formar profissionais qualificados, promover a produção científica e contribuir para o desenvolvimento do país. Abrange a graduação e a pós-graduação.
 
 Esse sistema é regulado por órgãos como o Ministério da Educação (MEC) e a Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (Capes), que estabelecem diretrizes curriculares, normas de avaliação e reconhecimento dos cursos. Com essa organização, o sistema busca assegurar qualidade, diversidade e acesso ao ensino superior, além de articular ensino, pesquisa e extensão nas instituições acadêmicas.
 
+Ao final deste encontro, e com base na leitura indicada, espera-se que você seja capaz de:
+
+-   *Compreender a organização do sistema acadêmico brasileiro, identificando suas principais instâncias, normas e formas de produção do conhecimento, especialmente os gêneros textuais acadêmicos.*
+
+::: leitura
+Leitura indicada:
+
+**Entendendo a organização do sistema acadêmico brasileiro** (p. 7-9), capítulo do livro *Guia do trabalho científico: do projeto à redação final*, de Celso Ferrarezi Júnior.
+:::
+
 ## Aprendizagem prática
 
-::: {.subtitulo-nao-numerado}
-Questão 1
+::: subtitulo-nao-numerado
+Quiz
 :::
 
 Como se organiza o sistema acadêmico brasileiro?

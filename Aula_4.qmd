@@ -202,57 +202,8 @@ Castro e outros (2019, p. 15) afirmam que
 
 > (...) o senso comum consiste no conhecimento vulgar, nas opiniões diversas.
 
-### Questão 3
-
-Analise com atenção a imagem abaixo, extraída de um contexto cotidiano. Identifique no texto da imagem as marcas do discurso do senso comum, respondendo às perguntas abaixo:
-
--   O enunciado generaliza alguma ideia?
-
-    </li>
-
--   O enunciado se baseia em evidências ou em crenças e emoções?
-
--   O enunciado reforça algum valor ou norma social amplamente aceita?
-
 <br/><br/>
 
-<img src="img/maes.png" style="width:80%; display: block; margin: auto;"/>
-
-<!-- Aqui começa o campo de respostas-->
-
-<details>
-
-<summary>
-
-</summary>
-
-::: {style="width: 100%; background-color:#ADD8E6; font-size: 14px; line-height: 1.5;"}
-**1. O enunciado generaliza alguma ideia?**
-
-Sim. A frase generaliza a figura materna, atribuindo a todas as mães um papel idealizado como origem da vida e fonte inesgotável de amor. Desconsidera, portanto, a diversidade de experiências familiares e afetivas, incluindo mães ausentes, negligentes ou relações familiares conflituosas.
-
-**2. O enunciado se baseia em evidências ou em crenças e emoções?**
-
-Baseia-se essencialmente em crenças e emoções. Não há comprovação empírica ou referência a dados que sustentem a ideia de que o amor de mãe seja eterno ou universal. A força da frase reside em seu apelo afetivo, tocando valores subjetivos e culturais enraizados.
-
-**3. O enunciado reforça algum valor ou norma social amplamente aceita?**
-
-Sim. A frase reforça a valorização idealizada da maternidade, um pilar do senso comum em muitas culturas. Sustenta a noção de que mães devem ser incondicionalmente amorosas, cuidadoras e abnegadas, consolidando uma norma social tradicional de gênero.
-:::
-
-</details>
-
-</pre>
-
-<!-- Aqui encerra o campo de respostas-->
-
-<br/><br/>
-
-::: destaque
-O **senso crítico** é o oposto do senso comum, já que envolve análise, comparação, verificação de evidências e compromisso com a racionalidade e o método.
-
-O ponto de vista científico se constrói em torno do senso crítico, do pensamento científico.
-:::
 
 ------------------------------------------------------------------------
 
