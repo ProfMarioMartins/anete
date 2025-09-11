@@ -206,9 +206,9 @@ Categorias de atividades
 
 ## Tarefa
 
-Elabore o texto de apresentação do seu novo currículo. Rascunhe-o no seu caderno e somente depois transcreva-o no [Caderno de Textos](portifolio.qmd).
+Elabore o texto de apresentação do seu novo currículo. Rascunhe-o no seu caderno e somente depois transcreva-o no [Caderno de Respostas](portifolio.qmd). Selecione a tarefa: **Apresentação para o Lattes**.
 
-
+```{=html}
 <!--
 Acesse o Padlet da turma e crie uma nova postagem com as seguintes orientações:
 
@@ -218,3 +218,4 @@ Acesse o Padlet da turma e crie uma nova postagem com as seguintes orientações
 
 Prazo para postagem: 28/8/2025
 -->
+```

@@ -29,7 +29,7 @@ book:
       chapters:
        - Aula_1.qmd
        - Aula_2.qmd
-#      - Aula_3.qmd
+       - Aula_3.qmd
 #      - Aula_4.qmd
 #      - Aula_5.qmd
 #      - Aula_6.qmd

@@ -12,7 +12,7 @@ Nesta aula, vamos explorar os modos pelos quais os seres humanos constroem expli
 
 Ao final deste encontro e com base na leitura indicada, espera-se que você seja capaz de:
 
-- *Compreender o que é o senso comum e suas características principais, especialmente em relação à linguagem, à subjetividade e à criticidade.*
+-   *Compreender o que é o senso comum e suas características principais, especialmente em relação à linguagem, à subjetividade e à criticidade.*
 
 ::: leitura
 Leitura indicada:
@@ -44,20 +44,20 @@ Qual é o seu signo?
 ```
 
 ::: subtitulo-nao-numerado
-Reflexão 
+Reflexão
 :::
 
 Agora que sabemos quais são os signos dos discentes da turma, vamos refletir juntos:
 
-- Você acredita que as características atribuídas ao seu signo realmente combinam com você?
-- Essas características poderiam se aplicar a qualquer pessoa?
-- Quem escreve os horóscopos? Quais evidências essas pessoas usam?
-- O que faz com que tantas pessoas acreditem em signos, mesmo sem comprovação científica?
+-   Você acredita que as características atribuídas ao seu signo realmente combinam com você?
+-   Essas características poderiam se aplicar a qualquer pessoa?
+-   Quem escreve os horóscopos? Quais evidências essas pessoas usam?
+-   O que faz com que tantas pessoas acreditem em signos, mesmo sem comprovação científica?
 
 ## Leitura em foco
 
 ::: citacao
-O homem é um ser jogado no mundo, condenado a viver a sua existência. [O homem] (...) tem que interpretar "a si e ao mundo em que vive, atribuindo-lhes significações. Cria intelectualmente representações significativas da realidade. A essas representações chamamos **conhecimento**. (Kochë, 2016, p. 24 - destaques meus)
+O homem é um ser jogado no mundo, condenado a viver a sua existência. \[O homem\] (...) tem que interpretar "a si e ao mundo em que vive, atribuindo-lhes significações. Cria intelectualmente representações significativas da realidade. A essas representações chamamos **conhecimento**. (Kochë, 2016, p. 24 - destaques meus)
 :::
 
 ::: destaque
@@ -83,7 +83,7 @@ O conhecimento, dependendo da forma pela qual se chega a essa representação si
 :::
 
 ::: citacao
-As duas formas [de conhecimento] que estão mais presentes e que mais interferem nas decisões da vida diária do homem são o conhecimento do **senso comum** e o **científico**. (Kochë, 2016, p. 24 - destaques meus)
+As duas formas \[de conhecimento\] que estão mais presentes e que mais interferem nas decisões da vida diária do homem são o conhecimento do **senso comum** e o **científico**. (Kochë, 2016, p. 24 - destaques meus)
 :::
 
 ::: citacao
@@ -116,7 +116,7 @@ Qual é o melhor remédio para parar o soluço? Responda com uma ou duas palavra
 ```
 
 ::: subtitulo-nao-numerado
-Reflexão 
+Reflexão
 :::
 
 Observe a diversidade de respostas sobre o melhor remédio para o soluço. De onde vêm essas ideias? Em que elas se baseiam?
@@ -128,43 +128,43 @@ Essa atividade nos ajuda a perceber como o **senso comum constrói soluções pr
 ## Leitura em foco
 
 ::: citacao
-[O conhecimento do senso comum] (...) surge como conseqüência da necessidade de resolver problemas imediatos, que aparecem na vida prática e decorrem do contato direto com os fa­tos e fenômenos que vão acontecendo no dia-a-dia, percebidos principalmente através da percepção sensorial. (Kochë, 2016, p. 25)
-::: 
+\[O conhecimento do senso comum\] (...) surge como conseqüência da necessidade de resolver problemas imediatos, que aparecem na vida prática e decorrem do contato direto com os fa­tos e fenômenos que vão acontecendo no dia-a-dia, percebidos principalmente através da percepção sensorial. (Kochë, 2016, p. 25)
+:::
 
 São exemplos de conhecimento construído com base no senso comum de uma comunidade:
 
-- uso de cavernas em tempos pré-históricos
-- invenção da roda
-- uso de lanças e armadilhas
-- preparo de remédios caseiros
-- confecção de tecidos e vestimentas
+-   uso de cavernas em tempos pré-históricos
+-   invenção da roda
+-   uso de lanças e armadilhas
+-   preparo de remédios caseiros
+-   confecção de tecidos e vestimentas
 
 ::: destaque
 **Os quatro pilares do senso comum**
 
-- **Espontaneidade**  
-  O senso comum surge de modo natural, não planejado. É construído a partir das experiências imediatas do cotidiano, sem necessidade de investigação formal ou validação externa.
+-   **Espontaneidade**\
+    O senso comum surge de modo natural, não planejado. É construído a partir das experiências imediatas do cotidiano, sem necessidade de investigação formal ou validação externa.
 
-  *Exemplo:* saber que colocar a mão no fogo queima, sem precisar de um experimento controlado.
+    *Exemplo:* saber que colocar a mão no fogo queima, sem precisar de um experimento controlado.
 
-- **Utilitarismo**  
-  Está voltado à solução prática de problemas do dia a dia. Seu valor está no que “funciona”, independentemente do motivo ou fundamento.
+-   **Utilitarismo**\
+    Está voltado à solução prática de problemas do dia a dia. Seu valor está no que “funciona”, independentemente do motivo ou fundamento.
 
-  *Exemplo:* tomar chá de boldo para dor de estômago porque "sempre ajudou" — mesmo sem comprovação científica.
+    *Exemplo:* tomar chá de boldo para dor de estômago porque "sempre ajudou" — mesmo sem comprovação científica.
 
-- **Subjetividade**  
-  O senso comum é interpretado com base na vivência, na cultura e nas crenças pessoais de quem fala. A verdade é relativa à experiência do indivíduo ou grupo.
+-   **Subjetividade**\
+    O senso comum é interpretado com base na vivência, na cultura e nas crenças pessoais de quem fala. A verdade é relativa à experiência do indivíduo ou grupo.
 
-  *Exemplo:* acreditar que determinadas cores “atraem boas energias” segundo a tradição de fim de ano.
+    *Exemplo:* acreditar que determinadas cores “atraem boas energias” segundo a tradição de fim de ano.
 
-- **Linguagem vaga**  
-  Utiliza expressões imprecisas, genéricas ou metafóricas. A falta de precisão dificulta a verificação e o debate crítico.
+-   **Linguagem vaga**\
+    Utiliza expressões imprecisas, genéricas ou metafóricas. A falta de precisão dificulta a verificação e o debate crítico.
 
-  *Exemplo:* dizer que algo “faz mal à saúde” sem explicar o quê, por quê, para quem ou em que quantidade.
+    *Exemplo:* dizer que algo “faz mal à saúde” sem explicar o quê, por quê, para quem ou em que quantidade.
 :::
 
 ::: citacao
-Esses conhecimentos [do senso comum], pelo fato de "darem certo", transformam-se em convicções, em crenças que são repassadas de um indivíduo para o outro e de uma geração para a outra. (Kochë, 2016, p. 26 - aspas minhas).
+Esses conhecimentos \[do senso comum\], pelo fato de "darem certo", transformam-se em convicções, em crenças que são repassadas de um indivíduo para o outro e de uma geração para a outra. (Kochë, 2016, p. 26 - aspas minhas).
 :::
 
 <br/>
@@ -207,17 +207,21 @@ Por que a linguagem do vídeo abaixo é vaga?
 ```
 
 <!-- Aqui começa o campo de respostas-->
+
 <details class="resposta-escondida">
+
 <summary>Gabarito</summary>
 
 A linguagem utilizada no vídeo pode ser considerada vaga por diversos motivos:
 
-- Medidas imprecisas: O vídeo instrui o uso de "aproximadamente uns cinco dedinhos de gengibre" e, se for "mais grossinho", "quatro dedos só". As medidas de "dedinhos" e "dedos" são altamente subjetivas e variam de pessoa para pessoa, tornando a quantidade exata do ingrediente ambígua e difícil de replicar consistentemente.
+-   Medidas imprecisas: O vídeo instrui o uso de "aproximadamente uns cinco dedinhos de gengibre" e, se for "mais grossinho", "quatro dedos só". As medidas de "dedinhos" e "dedos" são altamente subjetivas e variam de pessoa para pessoa, tornando a quantidade exata do ingrediente ambígua e difícil de replicar consistentemente.
 
-- Termos relativos sobre custo e localização: A descrição de que o ingrediente "se você não tem aí na sua casa tem pertinho de você e custa bem baratinho" usa termos como "pertinho de você" e "bem baratinho". Esses termos são relativos e podem significar coisas diferentes para indivíduos em diferentes contextos geográficos ou financeiros, não oferecendo uma informação concreta.
+-   Termos relativos sobre custo e localização: A descrição de que o ingrediente "se você não tem aí na sua casa tem pertinho de você e custa bem baratinho" usa termos como "pertinho de você" e "bem baratinho". Esses termos são relativos e podem significar coisas diferentes para indivíduos em diferentes contextos geográficos ou financeiros, não oferecendo uma informação concreta.
 
-- Afirmações absolutas e sem qualificação: A promessa de que "seus problemas de queda de cabelo de seborreia e de caspa vão acabar" é uma afirmação muito forte e absoluta. Tal linguagem não permite exceções, variações de resultados ou diferentes graus de eficácia, o que pode ser irrealista e sem base em dados científicos objetivos.
+-   Afirmações absolutas e sem qualificação: A promessa de que "seus problemas de queda de cabelo de seborreia e de caspa vão acabar" é uma afirmação muito forte e absoluta. Tal linguagem não permite exceções, variações de resultados ou diferentes graus de eficácia, o que pode ser irrealista e sem base em dados científicos objetivos.
+
 </details>
+
 <!-- Aqui encerra o campo de respostas-->
 
 ## Aprendizagem prática
@@ -241,23 +245,27 @@ Bandido bom é bandido morto!
 :::
 
 <!-- Aqui começa o campo de respostas-->
+
 <details class="resposta-escondida">
+
 <summary>Gabarito</summary>
 
 A linguagem utilizada no vídeo pode ser considerada vaga por diversos motivos:
 
-- Termo impreciso e genérico: “bandido”\
-A palavra "bandido" não tem, no dito, uma definição clara. Pode se referir a criminosos de diferentes tipos, a pessoas acusadas (mas não julgadas) ou até mesmo a indivíduos rotulados socialmente como marginais, sem respaldo jurídico. Essa vaguidade abre margem para interpretações arbitrárias e discriminatórias.
+-   Termo impreciso e genérico: “bandido”\
+    A palavra "bandido" não tem, no dito, uma definição clara. Pode se referir a criminosos de diferentes tipos, a pessoas acusadas (mas não julgadas) ou até mesmo a indivíduos rotulados socialmente como marginais, sem respaldo jurídico. Essa vaguidade abre margem para interpretações arbitrárias e discriminatórias.
 
-- Ausência de critérios objetivos\
-Não há definição de quem julga, nem com base em que critérios se define quem é bom ou quem é bandido. A expressão ignora a complexidade das situações, dos contextos sociais e jurídicos envolvidos, e desconsidera princípios fundamentais como o direito à ampla defesa e ao devido processo legal.
+-   Ausência de critérios objetivos\
+    Não há definição de quem julga, nem com base em que critérios se define quem é bom ou quem é bandido. A expressão ignora a complexidade das situações, dos contextos sociais e jurídicos envolvidos, e desconsidera princípios fundamentais como o direito à ampla defesa e ao devido processo legal.
 
-- Apelo emocional e moralizante\
-A frase se apoia em um julgamento moral absoluto, típico do senso comum, e não admite exceções ou análises racionais. É uma simplificação extrema de uma questão complexa e serve muito mais para reforçar sentimentos de medo, revolta ou desejo de justiça sumária, do que para promover reflexão crítica.
+-   Apelo emocional e moralizante\
+    A frase se apoia em um julgamento moral absoluto, típico do senso comum, e não admite exceções ou análises racionais. É uma simplificação extrema de uma questão complexa e serve muito mais para reforçar sentimentos de medo, revolta ou desejo de justiça sumária, do que para promover reflexão crítica.
 
-- Ausência de base empírica ou científica\
-Não há comprovação de que matar alguém considerado bandido contribua para resolver problemas estruturais relacionados à criminalidade. Ao contrário, esse tipo de discurso pode fomentar a violência e a desumanização.
+-   Ausência de base empírica ou científica\
+    Não há comprovação de que matar alguém considerado bandido contribua para resolver problemas estruturais relacionados à criminalidade. Ao contrário, esse tipo de discurso pode fomentar a violência e a desumanização.
+
 </details>
+
 <!-- Aqui encerra o campo de respostas-->
 
 ::: enfase
@@ -265,17 +273,19 @@ Em briga de marido e mulher, ninguém mete a colher!
 :::
 
 <!-- Aqui começa o campo de respostas-->
+
 <details class="resposta-escondida">
+
 <summary>Gabarito</summary>
 
 Podemos dizer que o dito “Em briga de marido e mulher, ninguém mete a colher!” apresenta uma linguagem vaga porque os termos “briga”, “marido e mulher” e “meter a colher” são ambíguos, subjetivos e culturalmente condicionados.
 
-– “Briga” pode significar desde uma simples discussão verbal até situações graves de violência física, mas o dito não especifica essa gradação, tratando todas as situações como equivalentes.
-– “Marido e mulher” é uma expressão genérica que naturaliza uma configuração familiar tradicional e ignora outros arranjos afetivos.
-– “Ninguém mete a colher” é uma metáfora que sugere não intervenção, mas sem esclarecer limites ou contextos – o que pode ser interpretado tanto como um conselho de respeito à privacidade quanto como uma justificativa para a omissão diante de casos de violência doméstica.
+– “Briga” pode significar desde uma simples discussão verbal até situações graves de violência física, mas o dito não especifica essa gradação, tratando todas as situações como equivalentes. – “Marido e mulher” é uma expressão genérica que naturaliza uma configuração familiar tradicional e ignora outros arranjos afetivos. – “Ninguém mete a colher” é uma metáfora que sugere não intervenção, mas sem esclarecer limites ou contextos – o que pode ser interpretado tanto como um conselho de respeito à privacidade quanto como uma justificativa para a omissão diante de casos de violência doméstica.
 
 A falta de delimitação clara dos termos e a possibilidade de interpretações múltiplas, inclusive prejudiciais, são marcas da linguagem vaga típica do senso comum.
+
 </details>
+
 <!-- Aqui encerra o campo de respostas-->
 
 ## Aprendizagem prática
@@ -293,7 +303,9 @@ O enunciado generaliza alguma ideia?
 <img src="img/maes.png" style="width:80%; display: block; margin: auto;"/>
 
 <!-- Aqui começa o campo de respostas-->
+
 <details class="resposta-escondida">
+
 <summary>Gabarito</summary>
 
 **1. O enunciado generaliza alguma ideia?**
@@ -309,6 +321,7 @@ Baseia-se essencialmente em crenças e emoções. Não há comprovação empíri
 Sim. A frase reforça a valorização idealizada da maternidade, um pilar do senso comum em muitas culturas. Sustenta a noção de que mães devem ser incondicionalmente amorosas, cuidadoras e abnegadas, consolidando uma norma social tradicional de gênero.
 
 </details>
+
 <!-- Aqui encerra o campo de respostas-->
 
 <br/>
@@ -320,10 +333,10 @@ O ponto de vista científico se constrói em torno do senso crítico, do pensame
 
 **Exemplo de linguagem precisa**
 
-Nesse contexto, este artigo visa responder a seguinte questão de pesquisa: Quais os desafios à implementação de modelos de negócio com foco em sustentabilidade? Para os objetivos da pesquisa, os desafios de implementação, são descritos como as dificuldades que as organizações encontram no momento de implementação para que o modelo de negócios obtenha **sucesso**, neste artigo **sucesso** é definido como o alcance dos objetivos propostos na fase de projeto do modelo de negócios.[^1]
+Nesse contexto, este artigo visa responder a seguinte questão de pesquisa: Quais os desafios à implementação de modelos de negócio com foco em sustentabilidade? Para os objetivos da pesquisa, os desafios de implementação são descritos como as dificuldades que as organizações encontram no momento de implementação para que o modelo de negócios obtenha **sucesso**, neste artigo **sucesso** é definido como o alcance dos objetivos propostos na fase de projeto do modelo de negócios.[^aula_2-1]
 :::
 
-[^1]:Fonte: SOUZA, DANIELA EMILIANO; DE CARVALHO, MARLY MONTEIRO. Modelos de negócios com foco em sustentabilidade: Desafios e barreiras à implementação. São Paulo: Anais do VI SINGEP, 2017.
+[^aula_2-1]: Fonte: SOUZA, DANIELA EMILIANO; DE CARVALHO, MARLY MONTEIRO. Modelos de negócios com foco em sustentabilidade: Desafios e barreiras à implementação. São Paulo: Anais do VI SINGEP, 2017. (Adaptado).
 
 ## Leitura em foco
 
