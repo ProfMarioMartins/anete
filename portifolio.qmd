@@ -85,7 +85,7 @@ Preencha o formulário abaixo com atenção. Após o envio, você receberá o fe
   <label for="tarefa">Qual tarefa você está enviando?</label>
   <select id="tarefa" name="tarefa" required>
     <option value="">--Selecione--</option>
-    <option value="Apresentação para o Lattes">Apresentação para o Lattes</option>
+    <option value="Currículo Lattes">Apresentação para o Lattes</option>
     <option value="Ceticismo organizado">Ceticismo organizado</option>
     <option value="Introdução do plano de trabalho">Introdução do plano de trabalho</option>
     <option value="Justificativa do plano de trabalho">Justificativa do plano de trabalho</option>
