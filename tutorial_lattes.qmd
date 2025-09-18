@@ -1,5 +1,5 @@
 ---
-title: "Como preencher o currículo Lattes"
+title: "Como preencher o currículo Lattes?"
 ---
 
 ::: nota-secundaria
@@ -204,9 +204,6 @@ Categorias de atividades
 -   Peça que um professor revise sua primeira versão.
 :::
 
-## Tarefa
-
-Elabore o texto de apresentação do seu novo currículo. Rascunhe-o no seu caderno e somente depois transcreva-o no [Caderno de Respostas](portifolio.qmd). Selecione a tarefa: **Apresentação para o Lattes**.
 
 ```{=html}
 <!--

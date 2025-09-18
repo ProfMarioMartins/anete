@@ -1,5 +1,5 @@
 ---
-title: "Como as pessoas interpretam o mundo? O senso comum"
+title: "Como as pessoas interpretam o mundo?"
 ---
 
 ::: nota-secundaria
@@ -185,7 +185,7 @@ A linguagem utilizada no conhecimento do senso comum contém termos e conceitos 
 Análise
 :::
 
-Assista ao vídeo a seguir e responda ao que se pede.
+Assista ao vídeo a seguir e responda oralmente ao que se pede.
 
 ::: subsubtitulo-nao-numerado
 Por que a linguagem do vídeo abaixo é vaga?
@@ -237,7 +237,7 @@ Ditos populares são manifestações típicas do senso comum, pois expressam int
 Essas expressões condensam, em linguagem acessível e metafórica, conhecimentos acumulados ao longo do tempo, sem, contudo, recorrer a métodos sistemáticos de verificação.
 
 ::: subsubtitulo-nao-numerado
-Analise os ditos populares abaixo e explique por que eles usam uma linguagem vaga.
+Analise os ditos populares abaixo e explique oralmente por que eles usam uma linguagem vaga.
 :::
 
 ::: enfase
@@ -294,7 +294,7 @@ A falta de delimitação clara dos termos e a possibilidade de interpretações 
 Análise
 :::
 
-Analise a imagem a seguir para responder ao que se pede.
+Analise a imagem a seguir para responder oralmente ao que se pede.
 
 ::: subsubtitulo-nao-numerado
 O enunciado generaliza alguma ideia?

@@ -1,26 +1,24 @@
 ---
-title: "Modelo de aula"
+title: "O que é ciência?"
 ---
 
 ::: nota-secundaria
-Roteiro de aula elaborado no RStudio com o auxílio da inteligência artificial ChatGPT, revisado e avaliado pelo professor antes de sua publicação.
+Roteiro de aula elaborado no RStudio com o auxílio da inteligência artificial ChatGPT e supervisionado pelo professor antes de sua publicação.
 :::
 
-## Objetivos de aprendizagem
+## Contextualização
 
-Ao final desta aula, espera-se que você seja capaz de:
+Ao final deste encontro e com base na leitura indicada, espera-se que você seja capaz de:
 
--   Blá blá
+-   *Blá bá blá.*
 
-::: {#leitura}
-**Leituras indicadas:**\
-CASTRO, Nádia Studzinski Estima de et al. *Leitura e escrita acadêmicas*. Porto Alegre: Sagah, 2019. Capítulo: “Gêneros acadêmicos”, p. 67–72.\
-[🔗 Acesso à leitura](vbk://9788533500228/page/67)
+::: leitura
+Leitura indicada:
 
-MOTTA-ROTH, Désirée; HENDGES, Graciela Rabuske. Produção textual na universidade. São Paulo: Parábola, 2010. Capítulo: "Abstract/resumo acadêmico". [🔗 Acesso à leitura](SIGAA)
+**Afinal, o que é Ciência?** (p. 9-12), capítulo do livro *Afinal o que é ciência?... e o que não é*, de André Demambre Bacchi. Disponível na Minha Biblioteca.
 :::
 
-## Introdução
+## Leitura em foco
 
 **Gêneros textuais**...
 

@@ -23,14 +23,14 @@ book:
     - part: "Apresentação"
       chapters:
       - index.qmd
-      - Aula_00.qmd
+      - Aula_0.qmd
 
     - part: "Unidade I"
       chapters:
        - Aula_1.qmd
        - Aula_2.qmd
        - Aula_3.qmd
-#      - Aula_4.qmd
+       - Aula_4.qmd
 #      - Aula_5.qmd
 #      - Aula_6.qmd
 #      - Aula_7.qmd

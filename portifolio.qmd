@@ -2,7 +2,7 @@
 title: "Caderno de respostas"
 ---
 
-Preencha o formulário abaixo com atenção. Após o envio, você receberá o feedback por e-mail assim que for revisado pelo professor.
+Este é o seu caderno de respostas da disciplina Análise e Expressão Textual. Para cada tarefa, preencha o formulário abaixo com atenção. Após o envio, você receberá o feedback por e-mail assim que for revisado pelo professor.
 
 ```{=html}
 <style>
@@ -87,6 +87,7 @@ Preencha o formulário abaixo com atenção. Após o envio, você receberá o fe
     <option value="">--Selecione--</option>
     <option value="Currículo Lattes">Apresentação para o Lattes</option>
     <option value="Ceticismo organizado">Ceticismo organizado</option>
+    <option value="A verdade está lá fora">Ceticismo organizado</option>
     <option value="Introdução do plano de trabalho">Introdução do plano de trabalho</option>
     <option value="Justificativa do plano de trabalho">Justificativa do plano de trabalho</option>
     <option value="Objetivos do plano de trabalho">Objetivos do plano de trabalho</option>
@@ -95,6 +96,11 @@ Preencha o formulário abaixo com atenção. Após o envio, você receberá o fe
 
   <label for="texto">Cole aqui o trecho que deseja submeter:</label>
   <textarea id="texto" name="texto" rows="8" required></textarea>
+
+  <!-- AVISO EM DESTAQUE -->
+  <div style="margin-bottom: 20px; padding: 12px; background-color: #fff3cd; border: 1px solid #ffeeba; border-radius: 8px; color: #856404;">
+    ⚠️ <strong>Atenção:</strong> Após clicar em <em>Enviar</em>, aguarde alguns segundos. <u>Não clique várias vezes seguidas</u> — isso pode gerar envios duplicados.
+  </div>
 
   <button type="submit">Enviar</button>
 </form>

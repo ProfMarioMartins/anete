@@ -23,7 +23,7 @@ Leitura indicada:
 ## Leitura em foco
 
 ::: citacao
-A palavra “Ciência” tem origem no latim _scientia_, que significa conhecimento. (Bachi, 2024 - ebook - destaques do autor).
+A palavra “Ciência” tem origem no latim *scientia*, que significa conhecimento. (Bachi, 2024 - ebook - destaques do autor).
 :::
 
 ::: citacao
@@ -37,18 +37,16 @@ Esses conhecimentos são obtidos, confrontados e atualizados por meio de um mét
 ## Aprendizagem prática
 
 ::: subtitulo-nao-numerado
-Reflexão
+Produção de texto
 :::
 
-::: subsubtitulo-nao-numerado
-Como exercitar o ceticismo organizado?
+::: destaque
+**Como exercitar o ceticismo organizado?**
 :::
 
-Você já se deparou com vídeos ou manchetes que prometem curas milagrosas ou soluções rápidas para problemas complexos? Nesta atividade, vamos exercitar nossa capacidade de pensar cientificamente.
+Você já se deparou com vídeos ou manchetes que prometem curas milagrosas ou soluções rápidas para problemas complexos? Nesta atividade, vamos exercitar nossa capacidade de pensar cientificamente. :::
 
-A receita apresentada no vídeo a seguir pode ser considerada uma recomendação científica? Justifique sua resposta com base nos critérios que diferenciam o senso comum do pensamento científico. Rascunhe a resposta em papel, à mão, e somente depois transcreva-o no [Caderno de respostas](portifolio.qmd). No Caderno de respostas, selecione a tarefa: **Ceticismo organizado**.
-
-/
+Responda por escrito à seguinte pergunta: *receita apresentada no vídeo a seguir pode ser considerada uma recomendação científica*? Justifique sua resposta com base nos critérios que diferenciam o senso comum do pensamento científico. Rascunhe a resposta em papel, à mão, e somente depois transcreva-o no [Painel de respostas](portifolio.qmd). No Painel de respostas, selecione a tarefa: **Ceticismo organizado**.
 
 ```{=html}
 <div style="display: flex; justify-content: center; margin-top: 1rem; margin-bottom: 1rem;">
@@ -65,7 +63,6 @@ A receita apresentada no vídeo a seguir pode ser considerada uma recomendação
 </div>
 ```
 
-
 <!-- Aqui começa o campo de respostas-->
 
 <details class="resposta-escondida">
@@ -74,22 +71,22 @@ A receita apresentada no vídeo a seguir pode ser considerada uma recomendação
 
 Quais são os elementos não científicos no vídeo?
 
-- Linguagem vaga: expressões como "lá pelos 50 anos", “tarde demais”, “pele bonita” e “melhorar a saúde” não são mensuráveis.
-- Promessas absolutas: afirma que “seus problemas vão acabar” sem qualquer comprovação.
-- Apelo à autoridade implícita: o canal se apresenta como confiável, mas não cita fontes nem especialistas.
-- Ausência de dados: não há estatísticas, estudos, nem explicações sobre doses ou eficácia real.
-- Relações causais forçadas: ingredientes com vitamina C e magnésio são relacionados diretamente à produção de colágeno sem evidência científica.
+-   Linguagem vaga: expressões como "lá pelos 50 anos", “tarde demais”, “pele bonita” e “melhorar a saúde” não são mensuráveis.
+-   Promessas absolutas: afirma que “seus problemas vão acabar” sem qualquer comprovação.
+-   Apelo à autoridade implícita: o canal se apresenta como confiável, mas não cita fontes nem especialistas.
+-   Ausência de dados: não há estatísticas, estudos, nem explicações sobre doses ou eficácia real.
+-   Relações causais forçadas: ingredientes com vitamina C e magnésio são relacionados diretamente à produção de colágeno sem evidência científica.
 
 Quais são as fontes confiáveis citadas?
 
-- O vídeo não menciona estudos, instituições científicas ou profissionais da saúde.
+-   O vídeo não menciona estudos, instituições científicas ou profissionais da saúde.
 
 O que seria necessário para testar cientificamente?
 
-- Hipótese clara: “O consumo diário da receita X reduz dor articular em adultos?”
-- Experimento controlado: grupos com e sem a receita, de forma aleatória e cega.
-- Variáveis controladas: alimentação, idade, saúde prévia, medicamentos.
-- Evidências: exames clínicos, questionários validados, análise estatística dos resultados.
+-   Hipótese clara: “O consumo diário da receita X reduz dor articular em adultos?”
+-   Experimento controlado: grupos com e sem a receita, de forma aleatória e cega.
+-   Variáveis controladas: alimentação, idade, saúde prévia, medicamentos.
+-   Evidências: exames clínicos, questionários validados, análise estatística dos resultados.
 
 </details>
 
@@ -98,7 +95,7 @@ O que seria necessário para testar cientificamente?
 ## Leitura em foco
 
 ::: citacao
-[Os] conhecimentos [científicos] são analisados e interpretados de modo contextual à luz do **ecossistema científico existente**. (Bachi, 2024 - ebook - destaques meus).
+\[Os\] conhecimentos \[científicos\] são analisados e interpretados de modo contextual à luz do **ecossistema científico existente**. (Bachi, 2024 - ebook - destaques meus).
 :::
 
 ::: citacao
@@ -216,7 +213,7 @@ Por fim, o nome do problema, Poképu, é a junção de Pokémon e Khipu.
 ::: proxima-aula
 [Para a próxima aula:]{.proxima-aula-title}
 
--   **Leia** o texto **Racionalidade científica: saindo do piloto automático**  (p. 31-35), capítulo do livro *Afinal o que é ciência?... e o que não é*, de André Demambre Bacchi. Disponível na Minha Biblioteca.
+-   **Leia** o texto **Racionalidade científica: saindo do piloto automático** (p. 31-35), capítulo do livro *Afinal o que é ciência?... e o que não é*, de André Demambre Bacchi. Disponível na Minha Biblioteca.
 
 -   **Leia** também **Observe, test, reflect: A better life with the scientific method**, artigo de Santiago Gisler publicado pela *Ivory Embassy*. Disponível em: https://ivoryembassy.com/the-scientific-method/.
 :::

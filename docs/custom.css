@@ -148,15 +148,16 @@ div.callout-title {
   font-style: italic;
 }
 
-/* Ênfase */
+/* Ênfase suave com fundo salmão */
 .enfase {
-  background-color: #003366; /* tom menos agressivo que #001f3f */
-  color: #f9f871; /* amarelo suave */
+  background-color: #ffe9e3; /* salmão clarinho */
+  color: #5a3e36;            /* marrom escuro suave para boa legibilidade */
   padding: 1em;
   border-radius: 8px;
-  font-weight: bold;
-  text-align: center;
-  font-size: 1.3em; /* aumenta o tamanho da fonte */
+  font-weight: 500;
+  text-align: left;
+  font-size: 1.05em;
+  border-left: 5px solid #f4a08c; /* faixa lateral coral para elegância */
 }
 
 
