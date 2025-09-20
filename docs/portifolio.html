@@ -347,29 +347,30 @@ ul.task-list li input[type="checkbox"] {
   const mensagem = document.getElementById("mensagem-envio");
 
   formulario.addEventListener("submit", function(event) {
-    event.preventDefault();
+  event.preventDefault();
 
-    const formData = new FormData();
-    formData.append("nome", document.getElementById("nome").value);
-    formData.append("email", document.getElementById("email").value);
-    formData.append("turma", document.getElementById("turma").value);
-    formData.append("tarefa", document.getElementById("tarefa").value);
-    formData.append("texto", document.getElementById("texto").value);
+  const params = new URLSearchParams();
+  params.append("nome", document.getElementById("nome").value);
+  params.append("email", document.getElementById("email").value);
+  params.append("turma", document.getElementById("turma").value);
+  params.append("tarefa", document.getElementById("tarefa").value);
+  params.append("texto", document.getElementById("texto").value);
 
-    fetch("https://script.google.com/macros/s/AKfycbyNuZhgCUKIsM-ZktPwDUDUwLppdLiGgtSUqkiSQS4d9T3P9nLCiDbR5anySzw3ztvQ/exec", {
-      method: "POST",
-      body: formData
-    })
-    .then(() => {
-      mensagem.textContent = "✅ Texto enviado com sucesso! Aguarde o feedback por e-mail.";
-      mensagem.style.color = "#28a745";
-      formulario.reset();
-    })
-    .catch(() => {
-      mensagem.textContent = "❌ Ocorreu um erro ao enviar. Tente novamente.";
-      mensagem.style.color = "#dc3545";
-    });
+  fetch("https://script.google.com/macros/s/AKfycbyNuZhgCUKIsM-ZktPwDUDUwLppdLiGgtSUqkiSQS4d9T3P9nLCiDbR5anySzw3ztvQ/exec", {
+    method: "POST",
+    body: params,
+    headers: { "Content-Type": "application/x-www-form-urlencoded" }
+  })
+  .then(() => {
+    mensagem.textContent = "✅ Texto enviado com sucesso! Aguarde o feedback por e-mail.";
+    mensagem.style.color = "#28a745";
+    formulario.reset();
+  })
+  .catch(() => {
+    mensagem.textContent = "❌ Ocorreu um erro ao enviar. Tente novamente.";
+    mensagem.style.color = "#dc3545";
   });
+});
 </script>
 
 
