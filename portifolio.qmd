@@ -86,7 +86,6 @@ Este é o seu caderno de respostas da disciplina Análise e Expressão Textual. 
   <select id="tarefa" name="tarefa" required>
     <option value="">--Selecione--</option>
     <option value="Currículo Lattes">Apresentação para o Lattes</option>
-    <option value="Ceticismo organizado">Ceticismo organizado</option>
     <option value="A verdade está lá fora">A verdade está lá fora</option>
     <option value="Introdução do plano de trabalho">Introdução do plano de trabalho</option>
     <option value="Justificativa do plano de trabalho">Justificativa do plano de trabalho</option>
@@ -96,11 +95,6 @@ Este é o seu caderno de respostas da disciplina Análise e Expressão Textual. 
 
   <label for="texto">Cole aqui o trecho que deseja submeter:</label>
   <textarea id="texto" name="texto" rows="8" required></textarea>
-
-  <!-- AVISO EM DESTAQUE -->
-  <div style="margin-bottom: 20px; padding: 12px; background-color: #fff3cd; border: 1px solid #ffeeba; border-radius: 8px; color: #856404;">
-    ⚠️ <strong>Atenção:</strong> Após clicar em <em>Enviar</em>, aguarde alguns segundos. <u>Não clique várias vezes seguidas</u> — isso pode gerar envios duplicados.
-  </div>
 
   <button type="submit">Enviar</button>
 </form>
@@ -112,29 +106,29 @@ Este é o seu caderno de respostas da disciplina Análise e Expressão Textual. 
   const mensagem = document.getElementById("mensagem-envio");
 
   formulario.addEventListener("submit", function(event) {
-  event.preventDefault();
+    event.preventDefault();
 
-  const params = new URLSearchParams();
-  params.append("nome", document.getElementById("nome").value);
-  params.append("email", document.getElementById("email").value);
-  params.append("turma", document.getElementById("turma").value);
-  params.append("tarefa", document.getElementById("tarefa").value);
-  params.append("texto", document.getElementById("texto").value);
+    const params = new URLSearchParams();
+    params.append("nome", document.getElementById("nome").value);
+    params.append("email", document.getElementById("email").value);
+    params.append("turma", document.getElementById("turma").value);
+    params.append("tarefa", document.getElementById("tarefa").value);
+    params.append("texto", document.getElementById("texto").value);
 
-  fetch("https://script.google.com/macros/s/AKfycbwscxwh1NXUWNTjydwa6zu8K2yh9JdukF0g0Z2yYiJPlQNx9oxdPz3PCwMpIi1Rh7MU/exec", {
-    method: "POST",
-    body: params,
-    headers: { "Content-Type": "application/x-www-form-urlencoded" }
-  })
-  .then(() => {
-    mensagem.textContent = "✅ Texto enviado com sucesso! Aguarde o feedback por e-mail.";
-    mensagem.style.color = "#28a745";
-    formulario.reset();
-  })
-  .catch(() => {
-    mensagem.textContent = "❌ Ocorreu um erro ao enviar. Tente novamente.";
-    mensagem.style.color = "#dc3545";
+    fetch("https://script.google.com/macros/s/AKfycbwfR_8EwkzEFP9JhM64Wg0lUXS-APxGRfi89QqBEbOVph9eZD0RWra0kWSlTyflChXW/exec", {
+      method: "POST",
+      body: params,
+      headers: { "Content-Type": "application/x-www-form-urlencoded" }
+    })
+    .then(() => {
+      mensagem.textContent = "✅ Texto enviado com sucesso! Aguarde o feedback por e-mail.";
+      mensagem.style.color = "#28a745";
+      formulario.reset();
+    })
+    .catch(() => {
+      mensagem.textContent = "❌ Ocorreu um erro ao enviar. Tente novamente.";
+      mensagem.style.color = "#dc3545";
+    });
   });
-});
 </script>
 ```
