@@ -87,6 +87,7 @@ Este é o seu caderno de respostas da disciplina Análise e Expressão Textual. 
     <option value="">--Selecione--</option>
     <option value="Currículo Lattes">Apresentação para o Lattes</option>
     <option value="A verdade está lá fora">A verdade está lá fora</option>
+    <option value="Periódico científico">Periódico científico</option>
     <option value="Introdução do plano de trabalho">Introdução do plano de trabalho</option>
     <option value="Justificativa do plano de trabalho">Justificativa do plano de trabalho</option>
     <option value="Objetivos do plano de trabalho">Objetivos do plano de trabalho</option>

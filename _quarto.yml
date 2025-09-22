@@ -31,7 +31,7 @@ book:
        - Aula_2.qmd
        - Aula_3.qmd
        - Aula_4.qmd
-#      - Aula_5.qmd
+       - Aula_5.qmd
 #      - Aula_6.qmd
 #      - Aula_7.qmd
 #      - Aula_8.qmd
@@ -55,7 +55,7 @@ book:
       chapters:
        - tutorial_lattes.qmd
 #      - tutorial_zotero.qmd
-#      - tutorial_capes.qmd
+       - tutorial_capes.qmd
 #      - tutorial_tema_pesquisa.qmd
 #      - checklist_postagem.qmd
 
@@ -76,8 +76,9 @@ book:
       chapters:
 #      - Aula_crono.qmd
 #      - sorteio.qmd
-       - padlet.qmd
+#      - padlet.qmd
        - portifolio.qmd
+       - glossario.qmd
 
 # bibliography: references.bib
 

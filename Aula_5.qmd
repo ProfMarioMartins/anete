@@ -1,244 +1,137 @@
 ---
-title: "Discurso reportado na escrita acadêmica"
+title: "Como selecionar fontes confiáveis?"
 ---
 
-Roteiro de aula elaborado no RStudio com o auxílio da inteligência artificial ChatGPT, revisado e avaliado pelo professor antes de sua publicação.
-
-## Objetivos de aprendizagem
-
-Ao final desta aula, espera-se que você seja capaz de:
-
--   Reconhecer a função do discurso reportado na construção do conhecimento acadêmico;
--   Diferenciar discurso direto do discurso indireto;
--   Aplicar corretamente as normas da NBR 10520/2023 para citações diretas curtas, citações longas e de citações de citação;
--   Compreender o papel dos verbos *dicendi* na introdução do discurso reportado.
-
-::: {.section style="padding:1em; background-color:#F5F5F5; color:#000000;"}
-<em>Leitura indicada:</em> <br/> <strong>Discurso reportado</strong>, capítulo do livro <em>Escrever na universidade 2 - texto e discurso</em>, de Francisco Eduardo Vieira e Carlos Alberto Faraco.
-
-[Acesso à leitura indicada](https://drive.google.com/file/d/17QvXPqtVvgArZpXv0XJhTnwTayxVkxFc/view?usp=sharing)
+::: nota-secundaria
+Roteiro de aula elaborado no RStudio com o auxílio da inteligência artificial ChatGPT e supervisionado pelo professor antes de sua publicação.
 :::
 
-## Introdução
+## Contextualização
 
-A escrita acadêmica exige *clareza*, *coerência* e, sobretudo, *rigor* na apresentação das fontes de informação. As normas de citação e referência — como as da ABNT[^aula_5-1] — garantem a padronização, a transparência e a credibilidade do trabalho científico.
+Ao final deste encontro e com base na leitura indicada, espera-se que você seja capaz de:
 
-[^aula_5-1]: A NBR 10520 trata de citações em documentos; a NBR 6023 trata de referências.
+-   Localizar fontes confiáveis de informação científica em bases de dados acadêmicas.
 
-### Glossário
-
-> Referência "(...) conjunto padronizado de elementos descritivos, retirados de um documento, que permite sua identificação individual." (Associação Brasileira de Normas Técnicas, 2020)
-
-> Citação "(...) menção de uma informação extraída de outra fonte" (Associação Brasileira de Normas Técnicas, 2023)
-
-::: {style="text-align: left; background-color: #001f3f; color: #ffffff; padding: 1em; border-radius: 5px; font-size: 1.2em;"}
-**Introdução**
-
-*Citações*
-
-(Araújo; Farias, 2025) (Czolpinski; Brito; Raupp, 2024) (Azevedo; Machado, 2024) (Jaime; Leonel, 2024) (Silva; Rosa; França, 2025)
-
-*Referências bibliográficas*
-
-ARAÚJO, Jonas Vieira de; FARIAS, Cleilton Sampaio de. Aprendizagem Experiencial no Ensino de Física: Uma Revisão sobre sua Aplicação na Educação Profissional e Tecnológica. Rebena - Revista Brasileira de Ensino e Aprendizagem, \[s. l.\], v. 11, p. 13–31, 2025. Disponível em: https://rebena.emnuvens.com.br/revista/article/view/309. Acesso em: 8 maio 2025.
-
-CZOLPINSKI, Andrey de Lima; BRITO, Rafael da Costa; RAUPP, Daniele Trajano. Clube de Ciências e a promoção da educação científica por meio da extensão universitária. Revista Signos, \[s. l.\], v. 45, n. 2, 2024. Disponível em: https://www.univates.br/revistas/index.php/signos/article/view/3995. Acesso em: 8 maio 2025.
-
-AZEVEDO, Murillo Pereira; MACHADO, Letícia Sophia Rocha. Competências digitais docentes no ensino de física : uma revisão sistemática da literatura. \[s. l.\], 2024. Disponível em: https://lume.ufrgs.br/handle/10183/282037. Acesso em: 8 maio 2025.
-
-JAIME, Danay Manzo; LEONEL, André Ary. Uso de simulações: Um estudo sobre potencialidades e desafios apresentados pelas pesquisas da área de ensino de física. Revista Brasileira de Ensino de Física, \[s. l.\], v. 46, p. e20230309, 2024. Disponível em: https://www.scielo.br/j/rbef/a/PvcqYmVLssjYpggDb4Jmz8N/. Acesso em: 8 maio 2025.
-
-SILVA, Dayane Cândido da; ROSA, Maria Izabella da Silva; FRANÇA, Suzane Bezerra de. Formação docente em ciências biológicas no âmbito do programa residência pedagógica na perspectiva do multiletramento. Revista Ciências & Ideias ISSN: 2176-1477, \[s. l.\], p. e25162772, 2025. Disponível em: https://revistascientificas.ifrj.edu.br/index.php/reci/article/view/2772. Acesso em: 8 maio 2025.
-
-> Segundo a ABNT, as referências bibliográficas deve ser dispostas em ordem alfabética. Esteja atento à configuração do Zotero ou ao estilo selecionado!
-
-> Considere que, no Brasil, tipicamente se adota o sistema autor-data, conforme a NBR 10520/2023 recomenda.
+::: leitura
+Leituras indicadas:
+**Fontes confiáveis de informação acadêmica** (p. 43-52), capítulo do livro *Leitura e escrita acadêmicas*, de Nádia Studzinski Estima de Castro e colaboradores. Disponível na Minha Biblioteca.
 :::
 
-<br/><br/>
+## Leitura em foco
+
+Na sociedade contemporânea, **somos constantemente expostos** a um grande volume de informações, que circulam em diferentes formatos, mídias e plataformas. Essa realidade exige de todos nós, especialmente no ambiente acadêmico, o desenvolvimento de uma **postura crítica** diante das **fontes de informação** que acessamos, utilizamos e compartilhamos.
+
+::: citacao
+(...) fontes de informação **são os meios dos quais as pessoas retiram o conteúdo** de que precisam para sanar uma necessidade informacional (...). (Castro _et al_, 2019 - ebook - destaques meus).
+:::
+
+No contexto acadêmico, fonte refere-se ao suporte em que um conteúdo está registrado, seja ele um **artigo científico**, um **livro**, uma **tese*, uma **dissertação**, um **squib**, um **resumo expandido** ou outro tipo de publicação reconhecida pela comunidade científica.
+
+A qualidade da produção acadêmica depende diretamente da **confiabilidade das fontes** utilizadas para embasar argumentos, justificar escolhas metodológicas e dialogar com a comunidade científica.
+
+David Grey (cf. Castro _et al_, ebook) estabelece **alguns critérios** que devem ser levados em conta para se verificar se uma fonte de informação é confiável:
+
+::: destaque
+| Critério de qualidade | Como identificar |
+|------------------------|------------------|
+| **Autoridade** | A fonte é proveniente de origem conhecida, como uma universidade, um governo ou um órgão público, ou vem de um indivíduo desconhecido?<br><br>Se a forte for proveniente de indivíduos, é possível identificar o autor e qual sua formação e afiliação institucional?<br><br>O autor possui publicações em periódicos de alta qualidade revisados por especialistas? |
+| **Precisão** | A fonte foi revisada por especialistas no tema antes de ser aceita para publicação, sou seja, foi revisada por pares (do inglês, peer review)?<br><br>Se é uma fonte de acesso *on-line* (site, blog, rede social, notícia online ou artigo publicado na internet), ela faz referência a outras fontes? Apresenta bibliografias utilizadas?<br><br>Estão claras as datas de atualização do conteúdo da fonte? |
+| **Viés e objetividade** | A linguagem usada é lógica, ou se utiliza de sensacionalismos e agressividade?<br><br>Apresenta pontos de vista opostos ou defende uma ideologia?<br><br>Faz referências a outras fontes?<br>Como lida com a questão ética e a validade dos documentos? |
+| **Cobertura** | A fonte cobre toda a área de pesquisa a que se propõe ou necessita de maior amplitude, ou seja, maior desenvolvimento de seus argumentos? |
+| **Atualidade** | Considerando a área de conhecimento, a atualidade da informação é adequada?<br><br>(Apesar de não ser regra geral, é indicado o período máximo de 5 anos a partir da publicação para garantir a atualidade dos dados em algumas áreas de pesquisa.) |
+**Fonte**: Adaptado de Gray (2012) - com inserções minhas.
+:::
+
+::: {.callout-warning title="O que é ser ético na ciência?"}
+
+| Aspecto ético                     | Descrição                                                                                                                                         |
+|----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Integridade intelectual**      | Agir com honestidade na formulação de hipóteses, condução de experimentos e interpretação de dados.                                               |
+| **Transparência**                | Divulgar os métodos e os resultados de forma clara, permitindo a verificação e a replicação por outros pesquisadores.                            |
+| **Reconhecimento de autoria**    | Dar o devido crédito a todos os envolvidos na produção do conhecimento e citar corretamente as fontes utilizadas.                                 |
+| **Compromisso com a sociedade**  | Realizar pesquisas que respeitem os direitos humanos, o bem-estar animal e o meio ambiente, contribuindo para o avanço responsável da sociedade.  |
+| **Combate a fraudes**            | Evitar práticas antiéticas como plágio, falsificação ou fabricação de dados.                                                                      |
+| **Rigor metodológico**           | Seguir métodos científicos validados e manter postura crítica frente aos próprios achados.                                                        |
+:::
+
+<br>
+
+::: subtitulo-nao-numerado
+Bases de dados
+:::
+
+É fundamental conhecer os **diferentes tipos de bases de dados e ferramentas de busca científica**, que oferecem acesso organizado e qualificado às fontes de conhecimento (produção acadêmica nacional e internacional).
+
+-   **Bases de dados de acesso aberto**
+    -   [Scielo](https://www.scielo.br/)
+    -   [BVS](https://bvsalud.org/)
+    -   [Portal de Periódicos da Capes](https://www.periodicos.capes.gov.br/)
+    -   [Google Acadêmico](https://scholar.google.com/?hl=pt-BR)
+-   **Bases de dados de acesso restrito**
+    -   [ProQuest](https://www.proquest.com/)
+    -   [Springer Link](https://link.springer.com/)
+    -   [Scopus](https://www.elsevier.com/pt-br/products/scopus)
+-   **Repositórios e bibliotecas digitais**
+    -   [Biblioteca Digital Brasileira de Teses e Dissertações](https://bdtd.ibict.br/vufind/)
+    -   [Catálogo de Teses e Dissertações da Capes](https://catalogodeteses.capes.gov.br/catalogo-teses/#!/)
+    -   Repositórios institucionais (p. ex. [Ufersa](https://repositorio.ufersa.edu.br/))
+
+<br>
 
 ## Aprendizagem prática
 
-1.  Observe, no texto[^aula_5-2] abaixo, as marcas de discurso reportado. Responda: qual informação no texto é original, isto é, produzido pelo autor do texto?
-
-[^aula_5-2]: Texto totalmente inventado para os fins desta aula.
-
-**Ao discutir os desafios da escrita acadêmica no ensino superior, Araújo e Farias (2025) destacam que** o maior obstáculo enfrentado pelos estudantes é a dificuldade de articular argumentos com base em fontes confiáveis, o que compromete a credibilidade de seus textos. **De modo semelhante, Czolpinski, Brito e Raupp (2024) observam que** muitos alunos ainda recorrem ao senso comum ou a fontes não verificadas, em vez de dialogar com autores reconhecidos da área. **É nesse sentido que Azevedo e Machado (2024) defendem** a necessidade de formar leitores críticos, capazes de interpretar e mobilizar o conhecimento científico de maneira ética e responsável. **Conforme afirmam Jaime e Leonel (2024, p. 12),** “a competência argumentativa não se desenvolve apenas pela leitura, mas pela prática constante de escrever em diálogo com outras vozes”. **Além disso, Silva, Rosa e França (2025) chamam a atenção para** o papel dos professores como mediadores desse processo, propondo atividades que estimulem o uso consciente de citações e a construção de um posicionamento autoral no texto acadêmico.
-
-<!-- Aqui começa o campo de respostas-->
-
-<details>
-
-<summary>
-
-</summary>
-
-::: {style="width: 100%; background-color:#ADD8E6; font-size: 14px; line-height: 1.5;"}
-Nenhuma informação do parágrafo analisado é original. Todo texto se constrói como discurso de outro, portanto um discurso apenas reportado.
+::: subtitulo-nao-numerado
+Pesquisa
 :::
 
-</details>
+::: subsubtitulo-nao-numerado
+Identificando fontes confiáveis
+:::
 
-</pre>
+Nesta aprendizagem, você será orientado a **pesquisar por fontes confiáveis em bases de dados científicas**. Essa etapa inicial é fundamental para que você comece a **delimitar o tema do seu projeto de pesquisa**. Para isso, é importante refletir sobre **quais áreas do conhecimento despertam seu interesse**. Essa definição preliminar permitirá que você busque informações com mais foco e identifique temas relevantes e viáveis.
 
-<!-- Aqui encerra o campo de respostas-->
+Um passo essencial nesse processo é conhecer **o que tem sido pesquisado recentemente** por outros autores, especialmente em fontes de credibilidade reconhecida. Nesta atividade, você será guiado na exploração do **Portal de Periódicos da Capes**, que reúne publicações científicas de alta qualidade em diversas áreas do saber. A leitura atenta de artigos disponíveis nessa base (e em outras) contribuirá para que você delimite um tema de pesquisa, que será desenvolvido ao longo da disciplina, tanto no seu projeto quanto na proposta de divulgação científica.
 
-<br/><br/>
+**Pense, portanto, em temas, assuntos ou áreas que despertem seu interesse** — como educação, linguagem, saúde, meio ambiente, tecnologias digitais, cultura popular, leitura, juventudes, inclusão, entre outros. **Não é necessário escolher um tema definitivo agora**, mas ter em mente um campo de interesse tornará suas buscas mais produtivas e significativas.
 
-::: destaque
-Marcar adequadamente o **discurso reportado** é essencial para:
 
--   Situar a pesquisa na **rede de conhecimento em constante atualização**;
--   Dialogar com o que já foi produzido sobre o tema;
--   Demonstrar respeito ao leitor, informando claramente o que é seu e o que é do outro;
--   Evitar o plágio, que é um **crime acadêmico**.
+Siga as orientações abaixo:
+
+1. Acesse o [Portal de Periódicos da Capes](https://www.periodicos.capes.gov.br/) e encontre três artigos científicos que tratem de assuntos relacionados ao seu campo de interesse inicial. Os artigos devem respeitar os critérios de confiabilidade abaixo:
+
+    ✅ O artigo passou por avaliação cega por pares?<br>
+    ✅ O artigo foi publicado por uma instituição científica confiável?<br>
+    ✅ O artigo foi publicado em periódico com classificação Qualis A1 a A4 na área do conhecimento correspondente?<br>
+    ✅ O artigo está disponível em texto completo no Portal da Capes?<br>
+    ✅ O artigo é recente e apresenta referências bibliográficas verificáveis?<br>
+
+<br>
+
+::: enfase
+Não sabe como fazer pesquisas no Portal de Periódicos da Capes, consulte o tutorial disponível [aqui](tutorial_capes.qmd)".
+:::
+
+<br><br>
+
+2. Após selecionar os três artigos, leia atentamente os seus resumos.
+
+<br><br>
+
+3. Selecione um dos artigos previamente escolhidos e, no seu caderno, **redija um parágrafo** descritivo apresentando o periódico científico no qual esse artigo foi publicado. O parágrafo deve ser redigido em linguagem formal e fluente, coeso, sem o uso de tópicos ou listas, e deve contemplar, de forma integrada, as seguintes informações:
+
+- Título do periódico
+- Classificação Qualis (A1, A2 etc.) e a área do conhecimento
+- Instituição, sociedade científica ou editora responsável pelo periódico
+- Periodicidade de publicação (mensal, trimestral, semestral etc.)
+- Sistema de avaliação adotado (dupla cega, simples cega, aberta etc.)
+- Bases de indexação (ex.: Scopus, Web of Science etc.)
+
+A reposta deve ser inserida no [Painel de Respostas](portifolio.qmd). Selecione a tarefa "Periódico científico".
 
 <br/>
 
-```{=html}
-<figure style="text-align: center;">
-  <img src="img/rede_conhecimento.png" style="width:80%; display: block; margin: auto;" />
-  <figcaption><strong>Figura 1.</strong> Representação de uma rede de conhecimentos criada na plataforma Research Rabbit (https://www.researchrabbitapp.com).</figcaption>
-</figure>
-```
+::: proxima-aula
+[Para a próxima aula:]{.proxima-aula-title}
 
-<br/>
+-   **Leia** o texto **Citações diretas e indiretas** (p. 89-97), capítulo do livro *Leitura e escrita acadêmicas*, de Nádia Studzinski Estima de Castro e colaboradores. Disponível na MInha Biblioteca.
 :::
-
-------------------------------------------------------------------------
-
-## Discurso reportado
-
-É a **inserção do que outras pessoas disseram ou escreveram** em seu texto acadêmico, permitindo ao autor:
-
--   **Reforçar argumentos**, citando especialistas;
--   **Manifestar concordância** com outras pesquisas;
--   **Criticar ou refutar** ideias de outros autores.
-
-### Discurso reportado direto
-
-Transcrição literal das palavras do outro, com as seguintes características:
-
--   **Entre aspas duplas** para citações curtas (até 3 linhas);
--   **Em bloco destacado**, sem aspas, para citações longas (mais de 3 linhas);
--   **Indicação da autoria, ano e página**;
--   Uso de **\[sic\]** para marcar erros existentes no original.
-
-Exemplos
-
-**Discurso reportado por meio de uma citação curta:**
-
-> Segundo Souza (2021, p. 17), "a linguagem é o principal recurso para a construção da realidade social".
-
-> Ao discutir os desafios da escrita acadêmica no ensino superior, Araújo e Farias (2025) destacam que o maior obstáculo enfrentado pelos estudantes é a dificuldade de articular argumentos com base em fontes confiáveis, o que compromete a credibilidade de seus textos. De modo semelhante, Czolpinski, Brito e Raupp (2024) observam que muitos alunos ainda recorrem ao senso comum ou a fontes não verificadas, em vez de dialogar com autores reconhecidos da área. É nesse sentido que Azevedo e Machado (2024) defendem a necessidade de formar leitores críticos, capazes de interpretar e mobilizar o conhecimento científico de maneira ética e responsável. **Conforme afirmam Jaime e Leonel (2024, p. 12), “a competência argumentativa não se desenvolve apenas pela leitura, mas pela prática constante de escrever em diálogo com outras vozes”.** Além disso, Silva, Rosa e França (2025) chamam a atenção para o papel dos professores como mediadores desse processo, propondo atividades que estimulem o uso consciente de citações e a construção de um posicionamento autoral no texto acadêmico.
-
-**Discurso reportado por meio de uma citação longa:**
-
-> Ao tratar da natureza social da linguagem, Araújo e Farias (2025, p. 45) afirmam que<br/> A linguagem é uma prática social que constrói significados coletivamente compartilhados. Nenhum enunciado surge isolado, mas em resposta a outros enunciados, compondo uma rede de sentidos em constante transformação. Essa rede é dinâmica e se atualiza a cada novo uso da linguagem, revelando que todo dizer é, ao mesmo tempo, retomada e recriação do que já foi dito. Assim, compreender a linguagem como prática social é reconhecer seu papel na construção da realidade e na negociação de sentidos entre os sujeitos.
-
-------------------------------------------------------------------------
-
-### Discurso reportado indireto
-
-Relato do que o outro disse, com as palavras do autor, indicando a autoria e, opcionalmente, a página.
-
--   Frequentemente introduzido por **verbos *dicendi***, como:
--   dizer, afirmar, explicar, justificar, sustentar, comentar, entre outros.
-
-Exemplo
-
-> Segundo Souza (2021), a linguagem desempenha papel central na construção da realidade social.
-
-------------------------------------------------------------------------
-
-## Citação de citação (*apud*)
-
-Uso de uma fonte a partir de outra, quando não se teve acesso ao documento original.
-
-Exemplo
-
-> Segundo Bakhtin (1988, *apud* Vieira e Faraco, 2019, p. 45), todo enunciado é sempre dialógico.
-
-------------------------------------------------------------------------
-
-::: destaque
--   Sinalize sempre o que é seu e o que é do outro;
--   Siga as normas da **NBR 10520/2023** e da **NBR 6023/2020**, disponíveis no SIGAA (Biblioteca \> Documentos ABNT);
--   Utilize o discurso reportado de forma estratégica para construir uma argumentação sólida e ética.
-:::
-
-<br/><br/>
-
-## Aprendizagem prática
-
-2.  Identifique no texto abaixo, publicado no periódico RenBio (Revista de Ensino de Biologia), todas as ocorrências de discurso reportado. Separe-os por tipo de citação: citação direta, citação indireta ou citação da citação. Copie e cole no documento à parte. Siga o modelo:
-
-Modelo:
-
-**Citação indireta** Página 15: Silva e Andrade (2024) afirmam que desenvolver a autonomia intelectual dos estudantes requer práticas pedagógicas que estimulem a pesquisa e o pensamento crítico em todos os níveis de ensino.
-
-**Citação direta** Página 12: Percebe-se que “os estudantes têm a oportunidade de investigar problemas reais de suas comunidades, o que torna o aprendizado mais significativo e socialmente relevante" (Pereira; Costa; Nunes, 2025).
-
-**Citação da citação** Página 43: Segundo Freire (1996, *apud* Souza; Almeida, 2025, p. 613), "ensinar não é transferir conhecimento, mas criar as possibilidades para a sua própria produção ou a sua construção".
-
-[Texto disponível aqui](https://renbio.org.br/index.php/sbenbio/article/view/1347/497)
-
-<!-- Aqui começa o campo de respostas-->
-
-<details>
-
-<summary>
-
-</summary>
-
-::: {style="width: 100%; background-color:#ADD8E6; font-size: 14px; line-height: 1.5;"}
-**Citação indireta**
-
-Página 608: Estabelece-se, com isso, uma corresponsabilidade entre as instituições de ensino superior e ensino básico com a formação inicial de professores (Capes, 2018).
-
-Página 608: As horas são divididas em três módulos de seis meses com carga horária de 138 horas cada módulo (Capes, 2023).
-
-Página 608: Segundo Nascimento e Bezerra (2019), o ensino de ciências visa dar sentido e significado aos conhecimentos científicos e tecnológicos que fazem parte do cotidiano.
-
-Páginas 608-609: Segundo esses autores, é através da curiosidade e da inquietação que os estudantes-clubistas são motivados a investigar, questionar e experimentar, o que leva a uma compreensão mais profunda dos conceitos científicos.
-
-Página 609: O Clube de Ciências, segundo Milanesi e colaboradores (2019), é um espaço de encontros com trocas de vivências, experimentos e interações dinâmicas distintas das observadas em aulas convencionais, acarretando desenvolvimento do conhecimento científico e do pensamento crítico por meio de abordagens investigativas.
-
-Página 609: Conforme delineado por Ramalho et al. (2011), os Clubes de Ciências representamespaços educativos nos quais estudantes, compartilhando interesses em ciência, reúnem-se forado horário escolar convencional.
-
-Página 609: De acordo com Pires et al. (2007), os Clubes de Ciências não são meros espaços para aquisição de conhecimentos científicos e tecnológicos por parte dos alunos.
-
-Página 609: No contexto da Base Nacional Comum Curricular (BNCC), os ateliês são espaços de aprendizado prático e interdisciplinar que atendem às competências e habilidades da área relacionadas à BNCC, promovendo a exploração, observação e a experimentação, valorizandoa aprendizagem por meio de práticas investigativas, que são ferramentas importantes para oestudo das ciências naturais (Brasil, 2018).
-
-Página 613: Além disso, a colaboração entre o professor, os estudantes e os demais envolvidos pode trazer contribuições significativas para a alfabetização científica dos jovens, fortalecendo aspectos como a assimilação de conceitos, a elaboração de modelos, o desenvolvimento de habilidades cognitivas e o raciocínio científico (Buch; Schroeder, 2013).
-
-Página 617: Estimular a curiosidade, a investigação e o pensamento crítico entre os estudantes é crucial para formar cidadãos mais preparados para os desafios do mundo atual, pois, segundo Buch e Schroeder (2013), a construção do conhecimento científico é um processo contínuo queenvolve a participação ativa do indivíduo.
-
-**Citação direta**
-
-Página 608: Dias e colaboradores (2013, p. 160) afirmam que: “o ensino de ciências deve estimular nos estudantes a capacidade deobservação, despertando a curiosidade, a inquietação, a busca por novas respostas”.
-
-Página 609: Nesse contexto, Duarte e Duarte (2013, p. 37) declaram que:
-
-O ensino de ciências naturais não pode se limitar à promoção de mudanças conceituais ou ao aprendizado do conhecimento científico. É necessário também buscar mudanças metodológicas e de atitude nos alunos, bem como ressignificar o ensino para construir um processo de aprendizagem, no qualprofessores e alunos possam interagir de forma crítica e reflexiva ao ensinarem e aprenderem (Duarte; Duarte, 2013, p. 37)
-
-**Citação da citação**
-
-Não há ocorrências.
-:::
-
-</details>
-
-</pre>
-
-<!-- Aqui encerra o campo de respostas-->
-
-<br/><br/>
-
-3.  Na aula sobre gerenciamento de referências bibliográficas, numa aprendizagem prática, você foi solicitado a selecionar cinco artigos e/ou livros no Google Acadêmico, usando as palavras-chave "ensino de física" e "clube de ciências".
-
-Agora, usando as referências selecionadas por você, identifique qual é o nome do periódico (revista) em que os artigos foram publicados e qual é o nome da editora em que os livros foram publicados.
-
-Você deverá expor oralmente quais são os periódicos e/ou editoras.
-
-`r emo::ji("fire")` Lembre-se: na tarefa, não seriam aceitas dissertações de mestrado, teses de doutorado ou artigos publicados em anais de eventos. `r emo::ji("fire")`

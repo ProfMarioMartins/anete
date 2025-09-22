@@ -2,31 +2,13 @@
 title: "Como preencher o currículo Lattes?"
 ---
 
-::: nota-secundaria
-Roteiro de aula elaborado no RStudio com o auxílio da inteligência artificial ChatGPT e supervisionado pelo professor antes de sua publicação.
+::: titulo-nao-numeraado
+Tutorial
 :::
 
-## Objetivos de aprendizagem
+Este tutorial irá guiá-lo pelos passos essenciais para preencher corretamente seu Currículo Lattes, explicando cada uma das seções e orientando sobre como inserir informações acadêmicas e profissionais de forma clara, completa e adequada às exigências da plataforma.
 
--   Identificar os documentos necessários para preencher o Currículo Lattes pela primeira vez;
--   Compreender a estrutura básica do sistema Lattes;
--   Reconhecer a importância de uma **foto profissional**;
--   Elaborar um **texto de apresentação claro e objetivo**;
--   Aplicar boas práticas de atualização e revisão do currículo.
-
-## Contextualização
-
-O Currículo Lattes é um documento digital padronizado, mantido pela plataforma Lattes do CNPq (Conselho Nacional de Desenvolvimento Científico e Tecnológico), que reúne informações acadêmicas, profissionais e científicas de pesquisadores, estudantes e profissionais no Brasil.
-
-O Lattes é utilizado como principal instrumento de registro e avaliação da produção acadêmica no país, sendo amplamente exigido em processos seletivos de bolsas, programas de pós-graduação, editais de pesquisa e concursos públicos.
-
-No Lattes, constam dados como formação acadêmica, publicações, participação em eventos, atuação profissional e outras atividades relevantes, o que o torna uma ferramenta essencial para a trajetória acadêmica e científica.
-
-Exemplo de currículo publicado: <http://lattes.cnpq.br/7790310992430842>
-
-## Tutorial
-
-::: titulo-nao-numerado
+::: subtitulo-nao-numerado
 Documentos necessários
 :::
 
@@ -45,8 +27,8 @@ Antes de começar, tenha em mãos:
 Sempre guarde cópias digitais (em PDF) de seus certificados. Isso facilita a atualização do currículo.
 :::
 
-::: titulo-nao-numerado
-Acesso ao sistema
+::: subtitulo-nao-numerado
+1. Acesso ao sistema
 :::
 
 Acesse: <https://lattes.cnpq.br> e clique em **Cadastrar novo currículo**. Crie uma senha de acesso (será usada para futuras atualizações).
@@ -69,8 +51,8 @@ Acesse: <https://lattes.cnpq.br> e clique em **Cadastrar novo currículo**. Crie
 
 <br>
 
-::: titulo-nao-numerado
-Estrutura do Currículo Lattes
+::: subtitulo-nao-numerado
+2. Estrutura do Currículo Lattes
 :::
 
 O sistema é dividido em seções principais:
@@ -81,8 +63,8 @@ O sistema é dividido em seções principais:
 -   **Produções**: artigos, resumos, apresentações;\
 -   **Eventos**: congressos, palestras, cursos de extensão.
 
-::: titulo-nao-numerado
-Foto profissional 🎓
+::: subtitulo-nao-numerado
+3. Foto profissional
 :::
 
 A foto é **obrigatória** e deve transmitir profissionalismo. Evite fotos informais.
@@ -92,6 +74,10 @@ A foto é **obrigatória** e deve transmitir profissionalismo. Evite fotos infor
 - Roupas sóbrias (camisa, blazer, roupa formal);\
 - Evite adereços (óculos escuros, bonés, etc.);\
 - Expressão neutra ou sorriso discreto.
+:::
+
+::: subtitulo-nao-numerado
+4. Inserção de dados pessoais
 :::
 
 Preencha todos os dados solicitados (informações pessoais, endereço, contato e formação acadêmica).
@@ -150,8 +136,8 @@ Preencha todos os dados solicitados (informações pessoais, endereço, contato 
 
 <br>
 
-::: titulo-nao-numerado
-Texto de apresentação
+::: subtitulo-nao-numerado
+5. Texto de apresentação
 :::
 
 Esse é o campo **"Resumo"**, exibido logo no início do currículo. Muitas pessoas o negligenciam, mas ele é fundamental.
@@ -166,12 +152,12 @@ Esse é o campo **"Resumo"**, exibido logo no início do currículo. Muitas pess
 "João Silva é estudante de Engenharia Agrícola e Ambiental na Universidade Federal Rural do Semi-Árido (UFERSA). Tem interesse nas áreas de irrigação e manejo sustentável da água. Atualmente participa do Programa de Iniciação Científica, atuando em pesquisas sobre uso eficiente de recursos hídricos. Pretende seguir carreira acadêmica e contribuir para o desenvolvimento de tecnologias voltadas à sustentabilidade."
 :::
 
-::: titulo-nao-numerado
-Categorias de atividades
+::: subtitulo-nao-numerado
+6. Categorias de atividades
 :::
 
 | **Atividade** | **Onde inserir** |
-|--------------------------|----------------------------------------------|
+|------------------------------------|------------------------------------|
 | Eventos: congressos, feiras, seminários, simpósios – participação ou organização | Eventos: como ouvinte ou participante (com apresentação de trabalho – inserir o título) |
 | Palestras | Formação complementar: como “curso de curta duração” (caso haja carga horária especificada no certificado) |
 | Apresentação de trabalho | Produções: apresentação de trabalho |
@@ -203,16 +189,3 @@ Categorias de atividades
 -   Evite informações irrelevantes (como cursos muito básicos ou antigos);\
 -   Peça que um professor revise sua primeira versão.
 :::
-
-
-```{=html}
-<!--
-Acesse o Padlet da turma e crie uma nova postagem com as seguintes orientações:
-
--   Título da postagem: Seu nome científico (tipicamente o primeiro e o último nome);
--   Texto da postagem: Resumo informado no Lattes;
--   Seção de link: Cole o link do seu Currículo Lattes no campo destinado a isso.
-
-Prazo para postagem: 28/8/2025
--->
-```

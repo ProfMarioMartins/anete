@@ -269,5 +269,5 @@ function finalizarQuiz() {
 ::: proxima-aula
 [Para a próxima aula:]{.proxima-aula-title}
 
--   **Leia** o texto **Fontes confiáveis de informação acadêmica** (p. 43-52), capítulo do livro *Leitura e escrita acadêmicas*, de Nádia Studzinski Estima de Castro e colaboradores. Disponível na MInha Biblioteca.
+-   **Leia** o texto **Fontes confiáveis de informação acadêmica** (p. 43-52), capítulo do livro *Leitura e escrita acadêmicas*, de Nádia Studzinski Estima de Castro e colaboradores. Disponível na Minha Biblioteca.
 :::
