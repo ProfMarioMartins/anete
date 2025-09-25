@@ -8,12 +8,13 @@ language:
 #  title-block-published: "Publicado em"
 #  title-block-modified: "Atualizado em"
 #  title-block-author-multiple: "Autores"
-#  fig: "Figura"
-#  tab: "Tabela"
-#  eq: "Equação"
   callout-tip-title: "Dica"
   callout-note-title: "Nota"
   toc-title: "Conteúdo da aula"
+  labels:
+    fig: "Figura"
+    tab: "Tabela"
+#    eq: "Equação"
 
 book:
   title: "Análise e Expressão Textual"
@@ -32,7 +33,7 @@ book:
        - Aula_3.qmd
        - Aula_4.qmd
        - Aula_5.qmd
-#      - Aula_6.qmd
+       - Aula_6.qmd
 #      - Aula_7.qmd
 #      - Aula_8.qmd
 

@@ -1,0 +1,160 @@
+---
+title: "Gerenciamento de citações e referências bibliográficas"
+---
+
+::: nota-secundaria
+Roteiro de aula elaborado no RStudio com o auxílio da inteligência artificial ChatGPT, revisado e avaliado pelo autor antes de sua publicação.
+:::
+
+## Contextualização
+
+A escrita acadêmica exige que todas as ideias, dados e argumentos que não são de autoria do(a) escritor(a) sejam devidamente atribuídos às fontes de onde foram extraídos. Saber aplicar corretamente citações e referências é essencial para garantir a transparência, a credibilidade e a honestidade intelectual do trabalho acadêmico.
+
+Ao final deste encontro, espera-se que você seja capaz de:
+
+- Compreender as diferenças entre citação direta, indireta e de citação, aplicando corretamente as normas da NBR 10520/2023.
+- Elaborar paráfrases e citações com o uso apropriado de verbos dicendi, respeitando o sentido original do texto-fonte.
+- Produzir trechos de escrita acadêmica com clareza, impessoalidade e fundamentação ética, evitando plágio e construções inapropriadas.
+
+::: leitura
+Leituras indicadas:
+
+**Fontes confiáveis de informação acadêmica** (p. 43-52), capítulo do livro *Leitura e escrita acadêmicas*, de Nádia Studzinski Estima de Castro e colaboradores. Disponível na MInha Biblioteca.
+:::
+
+## Leitura em foco
+
+## Introdução
+
+
+::: subtitulo-nao-numerado
+Funções do discurso reportado na escrita acadêmica
+:::
+
+- Fundamentar teorias, conceitos e argumentos;
+- Dar credibilidade ao texto com base em autores reconhecidos;
+- Estabelecer relações dialógicas com outras pesquisas;
+- Evitar plágio, por meio da atribuição correta das ideias;
+- Aprofundar a análise crítica e o posicionamento do autor do texto.
+
+### 
+
+## Aprendizagem prática
+
+1.  Crie uma coleção no Zotero com o nome: Ensino de Física.
+
+2.  Adicione cinco obras (artigos e/ou livros publicados entre 2024 e 2025) à coleção, extraídas de uma busca no Google Acadêmico com os termos exatos "clube de ciências" e "ensino de física".
+
+3.  Crie um documento no Google Docs com duas seções (ambas formatadas como Título 1):
+
+    • Introdução
+
+    • Referências Bibliográficas
+
+4.  Insira citações das cinco obras na seção Introdução, utilizando o Zotero.
+
+5.  Gere automaticamente a lista de referências na seção Referências Bibliográficas, também com o Zotero.
+
+6.  Copie o conteúdo completo do documento e cole no campo abaixo (atividade individual).
+
+<p>Preencha os campos abaixo para enviar o resultado da atividade individual sobre o Zotero.</p>
+
+::: formulario
+```{=html}
+<!-- Formulário de envio da atividade Zotero -->
+<p><strong>🔎 Instruções:</strong> Copie todo o conteúdo do seu documento do Google Docs — incluindo a Introdução com as citações e a lista de Referências Bibliográficas — e cole no campo abaixo. O envio é individual.</p>
+
+<form id="form-zotero">
+  <label>Nome:<br>
+    <input type="text" name="nome" required placeholder="Fulano dos Anzóis Pereira">
+  </label><br><br>
+
+  <label>E-mail:<br>
+    <input type="email" name="email" required placeholder="fulano@email.com">
+  </label><br><br>
+
+  <label>Tipo de envio:<br>
+    <select name="tipo" required>
+      <option value="">Selecione uma opção</option>
+      <option value="Texto Zotero">Texto com citações e referências (atividade Zotero)</option>
+    </select>
+  </label><br><br>
+
+  <label>Conteúdo do Google Docs (copie e cole aqui):<br>
+    <textarea name="texto" rows="10" cols="70" required placeholder="Cole aqui o conteúdo completo da sua atividade..."></textarea>
+  </label><br><br>
+
+  <button type="submit">Enviar</button>
+</form>
+
+<p id="mensagem-zotero"></p>
+
+<script>
+  document.getElementById("form-zotero").addEventListener("submit", function(event) {
+    event.preventDefault();
+    const dados = Object.fromEntries(new FormData(this).entries());
+
+    fetch("https://script.google.com/macros/s/AKfycbzpbVBcZhN1DCYk3TzK2VOt6oVmKgbX2pa0_lp95Bt-S2fpI1ip-RKad_PHxeVgAA_G/exec", {
+      method: "POST",
+      mode: "no-cors",
+      body: JSON.stringify(dados)
+    }).then(() => {
+      document.getElementById("mensagem-zotero").innerText = "✅ Texto enviado com sucesso!";
+      this.reset();
+    }).catch(() => {
+      document.getElementById("mensagem-zotero").innerText = "❌ Erro ao enviar o texto.";
+    });
+  });
+</script>
+```
+:::
+
+<br/><br/>
+
+################ 
+
+::: {style="background-color:#001f3f; color:#ffffff; padding: 1em; border-radius: 8px;"}
+📌 Organização no Zotero
+
+Após localizar e escolher o artigo, **cada integrante da equipe deve adicionar o artigo selecionado ao seu Zotero**, criando uma **coleção chamada "Iniciação científica"**.
+
+Isso garantirá que você organize suas fontes de maneira adequada para usá-las nas próximas etapas da disciplina.
+
+Se você ainda não instalou ou configurou o Zotero, consulte o tutorial disponível no Bookdown da disciplina.
+
+🔗 [Acesse o tutorial de instalação e uso do Zotero](#)\
+*(https://profmariomartins.github.io/anete_suporte/zotero.html)*
+:::
+
+### ✅ Etapa 3 - Compartilhamento dos achados
+
+Cada integrante da equipe deve postar o resultado da sua escolha no Padlet da disciplina, utilizando o seguinte formato:
+
+::: {style="border: 1px solid #ddd; border-radius: 8px; padding: 1em; background-color: #f9f9f9; box-shadow: 2px 2px 5px rgba(0,0,0,0.1);"}
+**Artigo escolhido**
+
+-   Título do artigo: \[Título do artigo\]
+-   Link do artigo: \[Link para o artigo completo\]
+
+**Informações sobre o periódico**
+
+-   Título do periódico: \[Nome do periódico\]
+-   Classificação Qualis: \[A1 ou A2\] - Área: \[Área do conhecimento\]
+-   Instituição responsável: \[Universidade/Editora/Sociedade científica\]
+-   Periodicidade: \[Mensal/Trimestral/Semestral\]
+-   Sistema de avaliação: \[Simples cega/Dupla cega/Outra\]
+-   Bases de indexação: \[Exemplo: Scopus, Web of Science, etc.\]
+-   Link oficial do periódico: \[URL\]
+:::
+
+<br/><br/>
+
+🔗 Acesse o Padlet da turma [aqui](https://padlet.com/mariomartins/anete-t01-b3r3eohs4gd7np8m)
+
+Você deve fazer login no Padlet para que a postagem seja identificada.
+
+<br/><br/>
+
+```{=html}
+<div class="padlet-slideshow-embed" style="width:720px;height:480px;"><p style="padding:0;margin:0;width:100%;height:100%"><iframe src="https://padlet.com/embed/b3r3eohs4gd7np8m/slideshow?autoplay=0&loop=0&duration=auto" frameborder="0" allow="clipboard-write" style="width:100%;height:100%;display:block;padding:0;margin:0"></iframe></p></div>
+```
