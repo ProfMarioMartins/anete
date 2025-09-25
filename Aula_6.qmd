@@ -42,7 +42,7 @@ Paráfrase
 ::: callout-warning
 -   Paráfrase não é cópia literal, mas reescrita com outras palavras;
 -   A ideia central do texto original deve ser mantida;
--   Pode incluir verbos *dicendi*, configurando citação indireta;
+-   Pode incluir verbos _dicendi_, configurando citação indireta;
 -   Deve indicar a fonte (autor e ano), mesmo sem número de página.
 :::
 
@@ -63,7 +63,7 @@ Estratégias de parafraseamento no exemplo 1
 ::: {#tbl-parafrase-lozada .striped .hover .table-responsive}
 | Estratégia utilizada | Explicação | Exemplos ou observações |
 |-----------------|------------------------------|--------------------------|
-| **Uso de verbos *dicendi*** | Introdução do discurso alheio com verbos que indicam fala ou pensamento. | *“argumenta”, “afirma”* |
+| **Uso de verbos _dicendi_** | Introdução do discurso alheio com verbos que indicam fala ou pensamento. | *“argumenta”, “afirma”* |
 | **Reorganização da estrutura textual** | Mudança na ordem das ideias do texto original para evitar cópia literal. | O trecho que aparece no início do original é deslocado para o meio da paráfrase. |
 | **Inclusão de conectores e coesão** | Emprego de expressões que conectam ideias e organizam a progressão textual. | *“Entre elas”*, *“conforme realizado nesta pesquisa”* |
 | **Contextualização autoral** | Inserção de elementos que situam o conteúdo no projeto do autor do texto acadêmico. | *“utilizada neste trabalho de pesquisa”* |
@@ -88,7 +88,7 @@ Estratégias de parafraseamento no exemplo 2
 ::: {#tbl-parafrase .striped .hover .table-responsive}
 | Estratégia utilizada | Explicação | Exemplos ou observações |
 |-----------------|------------------------------|--------------------------|
-| **Uso de verbos *dicendi*** | Atribuição explícita da fala às autoras por meio de verbos que introduzem o discurso de outrem. | *“dizem”*, *“indicam”* |
+| **Uso de verbos _dicendi_** | Atribuição explícita da fala às autoras por meio de verbos que introduzem o discurso de outrem. | *“dizem”*, *“indicam”* |
 | **Reorganização da estrutura textual** | Alteração na sequência das ideias originais, com destaque antecipado para a importância da leitura. | O trecho final do original aparece no início da paráfrase. |
 | **Reformulação lexical** | Emprego de sinônimos e expressões equivalentes às do original. | *“decifrar” → “interpretar e decifrar”*, *“possibilita a ampliação” → “aprofundamento”* |
 | **Generalização controlada** | Simplificação sem perda de precisão, mantendo o sentido essencial. | *“todos os tipos de investigação científica” → omitido, mas subentendido* |
@@ -107,7 +107,7 @@ Produção escrita
 Paráfrase
 :::
 
-Parafraseie o parágrafo abaixo. Siga as estratégias anteriormente apresentadas. Trata-se do primeiro parágrafo do artigo científico "A formação de professores e o uso do ChatGPT® para revisão de textos", escrito por Larissa Alvarenga de Souza Honorato, Helena Maria Ferreira, Jaciluz Dias e publicado em 2024. A reposta deve ser inserida no [Painel de Respostas](portifolio.qmd). Selecione a tarefa "Paráfrase".
+No seu caderno, parafraseie o parágrafo abaixo. Siga as estratégias anteriormente apresentadas. Trata-se do primeiro parágrafo do artigo científico "A formação de professores e o uso do ChatGPT® para revisão de textos", escrito por Larissa Alvarenga de Souza Honorato, Helena Maria Ferreira, Jaciluz Dias e publicado em 2024. A reposta deve ser transcrita no [Painel de Respostas](portifolio.qmd). Selecione a tarefa "Paráfrase".
 
 ::: enfase
 O avanço das tecnologias promoveu substanciais mudanças nos modos de organização e de funcionamento da sociedade. De modo mais específico, merece destaque o surgimento de inteligências artificiais (IA), consideradas como sistemas inteligentes, que utilizam recursos avançados de computação para simular ou replicar aspectos da inteligência humana, por meio da combinação de algoritmos, modelos matemáticos, grandes volumes de dados para realizar tarefas complexas. Essas tecnologias trazem consequências significativas para o processo de ensino e aprendizagem, bem como para a formação de professores, uma vez que incidem sobre os modos de produzir conhecimentos e acessar informações/conteúdos.
@@ -125,16 +125,17 @@ Honorato, Ferreira e Dias (2024) afirmam que as inovações tecnológicas vêm p
 
 | Estratégia utilizada | Explicação | Exemplos ou observações |
 |----------------|------------------------------|--------------------------|
-| **Uso de verbos *dicendi*** | Introdução da voz das autoras com verbos que indicam posicionamento, análise ou afirmação. | *“afirmam”, “ressaltam”* |
+| **Uso de verbos _dicendi_** | Introdução da voz das autoras com verbos que indicam posicionamento, análise ou afirmação. | *“afirmam”, “ressaltam”* |
 | **Reorganização da estrutura** | Mudança na ordem das ideias originais para favorecer clareza e evitar cópia literal. | Primeiro vem o impacto social, depois os aspectos técnicos e educacionais. |
 | **Reformulação lexical** | Substituição de palavras e expressões por sinônimos ou construções mais acessíveis. | “Modos de organização” → “forma como a sociedade se estrutura”; “grandes volumes” → “grandes bases” |
 | **Inclusão de conectores** | Inserção de expressões de transição para organizar a progressão das ideias. | *“nesse cenário”*, *“sobretudo”*, *“pois”* |
 | **Preservação do sentido** | Manutenção das ideias centrais do texto original, respeitando sua intenção e significado. | A definição de IA e seu impacto na formação docente foram mantidos. |
+
 </details>
 
 <!-- Aqui encerra o campo de respostas-->
 
-Verbos *dicendi* são fundamentais na paráfrase porque...
+Verbos _dicendi_ são fundamentais na paráfrase porque...
 
 -   permitem indicar com precisão que determinada ideia pertence a outro autor;
 -   ajudam a integrar a citação de modo coeso ao raciocínio do autor do texto;
@@ -188,9 +189,13 @@ Marcar adequadamente as **citações** é essencial para:
 <br/>
 :::
 
-<br/>
+::: enfase
+Plágio é o ato de utilizar, total ou parcialmente, ideias, trechos, dados ou produções intelectuais de outra pessoa sem **a devida atribuição de autoria**, fazendo-os passar como se fossem de autoria própria. Essa prática constitui uma grave violação ética e acadêmica, pois **compromete a integridade do trabalho intelectual, desrespeita os direitos autorais e prejudica o reconhecimento justo da contribuição alheia**. O plágio pode ocorrer de forma intencional ou não e abrange desde a **transcrição literal até a paráfrase sem referência adequada**, sendo combatido por meio de normas específicas de citação e pela valorização da honestidade intelectual na produção científica e educacional.
+:::
 
-Essa prática envolve tanto a **citação direta** (ou discurso direto), quando se reproduz fielmente as palavras de outrem, quanto a **citação indireta** (ou \*discurso indireto), quando se parafraseiam as palavras de outrem com as próprias palavras.
+<br/><br/>
+
+A prática da citação envolve tanto a **citação direta** (ou discurso direto), quando se reproduz fielmente as palavras de outrem, quanto a **citação indireta** (ou \*discurso indireto), quando se parafraseiam as palavras de outrem com as próprias palavras.
 
 <br/>
 
@@ -230,7 +235,7 @@ Exemplos:
 ::: {style="text-align: center;"}
 <img src="img/citacao_direta_2.png" width="100%"/>
 :::
-:::::
+:::
 
 <br>
 
@@ -260,12 +265,12 @@ Exemplos:
 <br>
 
 ::: subsubtitulo-nao-numerado
-Citação de citação (apud)
+Citação de citação (_apud_)
 :::
 
 -   Usada apenas quando a obra original não foi consultada;
 -   deve mencionar as duas obras: a obra da ideia original e a obra consultada;
--   a expressão *apud* (em itálico) é obrigatória, com os demais dados da fonte consultada.
+-   a expressão _apud_ (em itálico) é obrigatória, com os demais dados da fonte consultada.
 
 ::: enfase
 Exemplos:
@@ -291,7 +296,7 @@ Exemplos:
 <br>
 
 ::: callout-warning
-**Atenção: o uso de apud deve ser excepcional. Sempre que possível, consulte a fonte original.**
+**Atenção: o uso de _apud_ deve ser excepcional. Sempre que possível, consulte a fonte original.**
 :::
 
 <br>
@@ -299,7 +304,7 @@ Exemplos:
 ## Leitura em foco
 
 ::: citacao
-(...) uma referência é um “Conjunto padronizado de elementos descritivos, retirados de um documento, que per-mite sua identificação individual”, ou seja, são todas as informações sobre a obra que está sendo utilizada no trabalho. (Castro _et al_, 2019, p. 80 - aspas dos autores).
+(...) uma referência é um “Conjunto padronizado de elementos descritivos, retirados de um documento, que permite sua identificação individual”, ou seja, são todas as informações sobre a obra que está sendo utilizada no trabalho. (Castro _et al_, 2019, p. 80 - aspas dos autores).
 :::
 
 ::: callout-warning
@@ -335,36 +340,30 @@ Ao discutir os desafios da escrita acadêmica no ensino superior, Araújo e Fari
 
 <!-- Aqui começa o campo de respostas-->
 
-<details>
+<details class="resposta-escondida">
 
-<summary>
+<summary>...</summary>
 
-</summary>
-
-::: {style="width: 100%; background-color:#ADD8E6; font-size: 14px; line-height: 1.5;"}
 No trecho apresentado, os verbos _dicendi_ — ou seja, verbos que introduzem a voz de outros autores — são os seguintes:
 
-destacam
+**destacam**<br/>
 Araújo e Farias (2025)
 
-observam
+**observam**<br/>
 Czolpinski, Brito e Raupp (2024)
 
-defendem
+**defendem**<br/>
 Azevedo e Machado (2024)
 
-afirmam
+**afirmam**<br/>
 Jaime e Leonel (2024, p. 12)
 
-chamam a atenção para
+**chamam a atenção para**<br/>
 Silva, Rosa e França (2025)
 
 Todo o conteúdo do parágrafo é discurso reportado, ou seja, é composto apenas de vozes de outros autores apresentadas por meio de citação indireta (paráfrase) e citação direta (transcrição textual entre aspas).
-:::
 
 </details>
-
-</pre>
 
 <!-- Aqui encerra o campo de respostas-->
 
@@ -389,19 +388,16 @@ Modelo:
 
 **Citação direta** Página 12: Percebe-se que “os estudantes têm a oportunidade de investigar problemas reais de suas comunidades, o que torna o aprendizado mais significativo e socialmente relevante" (Pereira; Costa; Nunes, 2025).
 
-**Citação da citação** Página 43: Segundo Freire (1996, *apud* Souza; Almeida, 2025, p. 613), "ensinar não é transferir conhecimento, mas criar as possibilidades para a sua própria produção ou a sua construção".
+**Citação da citação** Página 43: Segundo Freire (1996, _apud_ Souza; Almeida, 2025, p. 613), "ensinar não é transferir conhecimento, mas criar as possibilidades para a sua própria produção ou a sua construção".
 
 [Texto disponível aqui](https://renbio.org.br/index.php/sbenbio/article/view/1347/497)
 
 <!-- Aqui começa o campo de respostas-->
 
-<details>
+<details class="resposta-escondida">
 
-<summary>
+<summary>...</summary>
 
-</summary>
-
-::: {style="width: 100%; background-color:#ADD8E6; font-size: 14px; line-height: 1.5;"}
 **Citação indireta**
 
 Página 608: Estabelece-se, com isso, uma corresponsabilidade entre as instituições de ensino superior e ensino básico com a formação inicial de professores (Capes, 2018).
@@ -435,11 +431,8 @@ O ensino de ciências naturais não pode se limitar à promoção de mudanças c
 **Citação da citação**
 
 Não há ocorrências.
-:::
 
 </details>
-
-</pre>
 
 <!-- Aqui encerra o campo de respostas-->
 
@@ -448,5 +441,5 @@ Não há ocorrências.
 ::: proxima-aula
 [Para a próxima aula:]{.proxima-aula-title}
 
--   Escolha um dos artigos selecionados na aula [7 ("Como selecionar fontes confiáveis?)](Aula_5.qmd) e leia-o atentamente.
+-   Escolha um dos três artigos selecionados por você no Portal de Periódicos Capes, durante a aula [**7 ("Como selecionar fontes confiáveis?)**](Aula_5.qmd) e leia-o atentamente. Ele será fonte de informações para a próxima aula.
 :::
