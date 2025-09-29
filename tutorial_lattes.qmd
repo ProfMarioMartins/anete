@@ -1,5 +1,5 @@
 ---
-title: "Como preencher o currículo Lattes?"
+title: "Currículo Lattes"
 ---
 
 ::: titulo-nao-numeraado
@@ -28,7 +28,7 @@ Sempre guarde cópias digitais (em PDF) de seus certificados. Isso facilita a at
 :::
 
 ::: subtitulo-nao-numerado
-1. Acesso ao sistema
+1.  Acesso ao sistema
 :::
 
 Acesse: <https://lattes.cnpq.br> e clique em **Cadastrar novo currículo**. Crie uma senha de acesso (será usada para futuras atualizações).
@@ -52,7 +52,7 @@ Acesse: <https://lattes.cnpq.br> e clique em **Cadastrar novo currículo**. Crie
 <br>
 
 ::: subtitulo-nao-numerado
-2. Estrutura do Currículo Lattes
+2.  Estrutura do Currículo Lattes
 :::
 
 O sistema é dividido em seções principais:
@@ -64,7 +64,7 @@ O sistema é dividido em seções principais:
 -   **Eventos**: congressos, palestras, cursos de extensão.
 
 ::: subtitulo-nao-numerado
-3. Foto profissional
+3.  Foto profissional
 :::
 
 A foto é **obrigatória** e deve transmitir profissionalismo. Evite fotos informais.
@@ -77,7 +77,7 @@ A foto é **obrigatória** e deve transmitir profissionalismo. Evite fotos infor
 :::
 
 ::: subtitulo-nao-numerado
-4. Inserção de dados pessoais
+4.  Inserção de dados pessoais
 :::
 
 Preencha todos os dados solicitados (informações pessoais, endereço, contato e formação acadêmica).
@@ -137,7 +137,7 @@ Preencha todos os dados solicitados (informações pessoais, endereço, contato 
 <br>
 
 ::: subtitulo-nao-numerado
-5. Texto de apresentação
+5.  Texto de apresentação
 :::
 
 Esse é o campo **"Resumo"**, exibido logo no início do currículo. Muitas pessoas o negligenciam, mas ele é fundamental.
@@ -153,7 +153,7 @@ Esse é o campo **"Resumo"**, exibido logo no início do currículo. Muitas pess
 :::
 
 ::: subtitulo-nao-numerado
-6. Categorias de atividades
+6.  Categorias de atividades
 :::
 
 | **Atividade** | **Onde inserir** |

@@ -34,7 +34,7 @@ book:
        - Aula_4.qmd
        - Aula_5.qmd
        - Aula_6.qmd
-#      - Aula_7.qmd
+       - Aula_7.qmd
 #      - Aula_8.qmd
 
 #    - part: "Unidade II"
@@ -55,7 +55,7 @@ book:
     - part: "Tutoriais"
       chapters:
        - tutorial_lattes.qmd
-#      - tutorial_zotero.qmd
+       - tutorial_zotero.qmd
        - tutorial_capes.qmd
 #      - tutorial_tema_pesquisa.qmd
 #      - checklist_postagem.qmd

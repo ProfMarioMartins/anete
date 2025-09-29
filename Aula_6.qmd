@@ -13,7 +13,7 @@ A escrita acadêmica exige que todas as ideias, dados e argumentos que não são
 Ao final deste encontro, espera-se que você seja capaz de:
 
 -   Compreender as diferenças entre citação direta, indireta e de citação, aplicando corretamente as normas da ABNT;
--   Elaborar paráfrases e citações com o uso apropriado de verbos _dicendi_, respeitando o sentido original do texto original;
+-   Elaborar paráfrases e citações com o uso apropriado de verbos *dicendi*, respeitando o sentido original do texto original;
 
 ::: leitura
 Leituras indicadas:
@@ -42,7 +42,7 @@ Paráfrase
 ::: callout-warning
 -   Paráfrase não é cópia literal, mas reescrita com outras palavras;
 -   A ideia central do texto original deve ser mantida;
--   Pode incluir verbos _dicendi_, configurando citação indireta;
+-   Pode incluir verbos *dicendi*, configurando citação indireta;
 -   Deve indicar a fonte (autor e ano), mesmo sem número de página.
 :::
 
@@ -62,8 +62,8 @@ Estratégias de parafraseamento no exemplo 1
 
 ::: {#tbl-parafrase-lozada .striped .hover .table-responsive}
 | Estratégia utilizada | Explicação | Exemplos ou observações |
-|-----------------|------------------------------|--------------------------|
-| **Uso de verbos _dicendi_** | Introdução do discurso alheio com verbos que indicam fala ou pensamento. | *“argumenta”, “afirma”* |
+|------------------------|------------------------|------------------------|
+| **Uso de verbos *dicendi*** | Introdução do discurso alheio com verbos que indicam fala ou pensamento. | *“argumenta”, “afirma”* |
 | **Reorganização da estrutura textual** | Mudança na ordem das ideias do texto original para evitar cópia literal. | O trecho que aparece no início do original é deslocado para o meio da paráfrase. |
 | **Inclusão de conectores e coesão** | Emprego de expressões que conectam ideias e organizam a progressão textual. | *“Entre elas”*, *“conforme realizado nesta pesquisa”* |
 | **Contextualização autoral** | Inserção de elementos que situam o conteúdo no projeto do autor do texto acadêmico. | *“utilizada neste trabalho de pesquisa”* |
@@ -87,8 +87,8 @@ Estratégias de parafraseamento no exemplo 2
 
 ::: {#tbl-parafrase .striped .hover .table-responsive}
 | Estratégia utilizada | Explicação | Exemplos ou observações |
-|-----------------|------------------------------|--------------------------|
-| **Uso de verbos _dicendi_** | Atribuição explícita da fala às autoras por meio de verbos que introduzem o discurso de outrem. | *“dizem”*, *“indicam”* |
+|------------------------|------------------------|------------------------|
+| **Uso de verbos *dicendi*** | Atribuição explícita da fala às autoras por meio de verbos que introduzem o discurso de outrem. | *“dizem”*, *“indicam”* |
 | **Reorganização da estrutura textual** | Alteração na sequência das ideias originais, com destaque antecipado para a importância da leitura. | O trecho final do original aparece no início da paráfrase. |
 | **Reformulação lexical** | Emprego de sinônimos e expressões equivalentes às do original. | *“decifrar” → “interpretar e decifrar”*, *“possibilita a ampliação” → “aprofundamento”* |
 | **Generalização controlada** | Simplificação sem perda de precisão, mantendo o sentido essencial. | *“todos os tipos de investigação científica” → omitido, mas subentendido* |
@@ -124,8 +124,8 @@ O avanço das tecnologias promoveu substanciais mudanças nos modos de organiza�
 Honorato, Ferreira e Dias (2024) afirmam que as inovações tecnológicas vêm provocando transformações profundas na forma como a sociedade se estrutura e opera. Nesse cenário, ganham relevo os sistemas de inteligência artificial, definidos como tecnologias capazes de simular aspectos da cognição humana por meio de algoritmos, modelos matemáticos e grandes bases de dados. As autoras ressaltam que tais recursos impactam diretamente os processos educativos, sobretudo no que se refere à formação docente, pois alteram as dinâmicas de construção do conhecimento e de acesso à informação.
 
 | Estratégia utilizada | Explicação | Exemplos ou observações |
-|----------------|------------------------------|--------------------------|
-| **Uso de verbos _dicendi_** | Introdução da voz das autoras com verbos que indicam posicionamento, análise ou afirmação. | *“afirmam”, “ressaltam”* |
+|------------------------|------------------------|------------------------|
+| **Uso de verbos *dicendi*** | Introdução da voz das autoras com verbos que indicam posicionamento, análise ou afirmação. | *“afirmam”, “ressaltam”* |
 | **Reorganização da estrutura** | Mudança na ordem das ideias originais para favorecer clareza e evitar cópia literal. | Primeiro vem o impacto social, depois os aspectos técnicos e educacionais. |
 | **Reformulação lexical** | Substituição de palavras e expressões por sinônimos ou construções mais acessíveis. | “Modos de organização” → “forma como a sociedade se estrutura”; “grandes volumes” → “grandes bases” |
 | **Inclusão de conectores** | Inserção de expressões de transição para organizar a progressão das ideias. | *“nesse cenário”*, *“sobretudo”*, *“pois”* |
@@ -135,7 +135,7 @@ Honorato, Ferreira e Dias (2024) afirmam que as inovações tecnológicas vêm p
 
 <!-- Aqui encerra o campo de respostas-->
 
-Verbos _dicendi_ são fundamentais na paráfrase porque...
+Verbos *dicendi* são fundamentais na paráfrase porque...
 
 -   permitem indicar com precisão que determinada ideia pertence a outro autor;
 -   ajudam a integrar a citação de modo coeso ao raciocínio do autor do texto;
@@ -220,7 +220,7 @@ Citação indireta
 Citação direta curta
 :::
 
--   Citação _literal_ com até três linhas;
+-   Citação *literal* com até três linhas;
 -   deve ser integrada ao parágrafo, entre aspas duplas;
 -   a fonte da citação (autor, ano e página) aparece entre parênteses;
 -   não deve conter itálico ou destaque gráfico.
@@ -235,7 +235,7 @@ Exemplos:
 ::: {style="text-align: center;"}
 <img src="img/citacao_direta_2.png" width="100%"/>
 :::
-:::
+:::::
 
 <br>
 
@@ -250,7 +250,7 @@ Citação direta longa
 -   deve ter espaçamento simples entre as linhas;
 -   a referência (autor, ano, página) deve estar após o ponto final da citação.
 
-::: enfase
+::::: enfase
 Exemplos:
 
 ::: {style="text-align: center;"}
@@ -260,19 +260,19 @@ Exemplos:
 ::: {style="text-align: center;"}
 <img src="img/citacao_direta_4.png" width="100%"/>
 :::
-:::
+:::::
 
 <br>
 
 ::: subsubtitulo-nao-numerado
-Citação de citação (_apud_)
+Citação de citação (*apud*)
 :::
 
 -   Usada apenas quando a obra original não foi consultada;
 -   deve mencionar as duas obras: a obra da ideia original e a obra consultada;
--   a expressão _apud_ (em itálico) é obrigatória, com os demais dados da fonte consultada.
+-   a expressão *apud* (em itálico) é obrigatória, com os demais dados da fonte consultada.
 
-::: enfase
+::::::: enfase
 Exemplos:
 
 ::: {style="text-align: center;"}
@@ -290,13 +290,12 @@ Exemplos:
 ::: {style="text-align: center;"}
 <img src="img/citacao_apud_longa_curta.png" width="100%"/>
 :::
-
-:::
+:::::::
 
 <br>
 
 ::: callout-warning
-**Atenção: o uso de _apud_ deve ser excepcional. Sempre que possível, consulte a fonte original.**
+**Atenção: o uso de *apud* deve ser excepcional. Sempre que possível, consulte a fonte original.**
 :::
 
 <br>
@@ -304,23 +303,22 @@ Exemplos:
 ## Leitura em foco
 
 ::: citacao
-(...) uma referência é um “Conjunto padronizado de elementos descritivos, retirados de um documento, que permite sua identificação individual”, ou seja, são todas as informações sobre a obra que está sendo utilizada no trabalho. (Castro _et al_, 2019, p. 80 - aspas dos autores).
+(...) uma referência é um “Conjunto padronizado de elementos descritivos, retirados de um documento, que permite sua identificação individual”, ou seja, são todas as informações sobre a obra que está sendo utilizada no trabalho. (Castro *et al*, 2019, p. 80 - aspas dos autores).
 :::
 
 ::: callout-warning
-- Segundo a ABNT, as referências bibliográficas deve ser dispostas em ordem alfabética.
+-   Segundo a ABNT, as referências bibliográficas deve ser dispostas em ordem alfabética.
 
-- Considere que, no Brasil, tipicamente se adota o sistema autor-data, conforme a NBR 10520/2023 recomenda, mas isso não é obrigatória. Consulte sempre as normas de formatação da instituição para a qual se vai se submeter o trabalho acadêmico.
+-   Considere que, no Brasil, tipicamente se adota o sistema autor-data, conforme a NBR 10520/2023 recomenda, mas isso não é obrigatória. Consulte sempre as normas de formatação da instituição para a qual se vai se submeter o trabalho acadêmico.
 :::
 
-::: enfase
+:::: enfase
 Exemplo:
 
 ::: {style="text-align: center;"}
 <img src="img/referencias.png" width="100%"/>
 :::
-
-:::
+::::
 
 <br/><br/>
 
@@ -331,10 +329,10 @@ Identificação
 :::
 
 ::: subsubtitulo-nao-numerado
-Verbos _dicendi_
+Verbos *dicendi*
 :::
 
-Identifique, no texto abaixo - criado para os fins desta aula -, os verbos _dicendi_. Após isso, responda: qual(is) informação(ões) no texto é(são) original(is), isto é, produzida(s) pelo autor do texto?
+Identifique, no texto abaixo - criado para os fins desta aula -, os verbos *dicendi*. Após isso, responda: qual(is) informação(ões) no texto é(são) original(is), isto é, produzida(s) pelo autor do texto?
 
 Ao discutir os desafios da escrita acadêmica no ensino superior, Araújo e Farias (2025) destacam que o maior obstáculo enfrentado pelos estudantes é a dificuldade de articular argumentos com base em fontes confiáveis, o que compromete a credibilidade de seus textos. De modo semelhante, Czolpinski, Brito e Raupp (2024) observam que muitos alunos ainda recorrem ao senso comum ou a fontes não verificadas, em vez de dialogar com autores reconhecidos da área. É nesse sentido que Azevedo e Machado (2024) defendem a necessidade de formar leitores críticos, capazes de interpretar e mobilizar o conhecimento científico de maneira ética e responsável. Conforme afirmam Jaime e Leonel (2024, p. 12), “a competência argumentativa não se desenvolve apenas pela leitura, mas pela prática constante de escrever em diálogo com outras vozes”. Além disso, Silva, Rosa e França (2025) chamam a atenção para o papel dos professores como mediadores desse processo, propondo atividades que estimulem o uso consciente de citações e a construção de um posicionamento autoral no texto acadêmico.
 
@@ -344,22 +342,17 @@ Ao discutir os desafios da escrita acadêmica no ensino superior, Araújo e Fari
 
 <summary>...</summary>
 
-No trecho apresentado, os verbos _dicendi_ — ou seja, verbos que introduzem a voz de outros autores — são os seguintes:
+No trecho apresentado, os verbos *dicendi* — ou seja, verbos que introduzem a voz de outros autores — são os seguintes:
 
-**destacam**<br/>
-Araújo e Farias (2025)
+**destacam**<br/> Araújo e Farias (2025)
 
-**observam**<br/>
-Czolpinski, Brito e Raupp (2024)
+**observam**<br/> Czolpinski, Brito e Raupp (2024)
 
-**defendem**<br/>
-Azevedo e Machado (2024)
+**defendem**<br/> Azevedo e Machado (2024)
 
-**afirmam**<br/>
-Jaime e Leonel (2024, p. 12)
+**afirmam**<br/> Jaime e Leonel (2024, p. 12)
 
-**chamam a atenção para**<br/>
-Silva, Rosa e França (2025)
+**chamam a atenção para**<br/> Silva, Rosa e França (2025)
 
 Todo o conteúdo do parágrafo é discurso reportado, ou seja, é composto apenas de vozes de outros autores apresentadas por meio de citação indireta (paráfrase) e citação direta (transcrição textual entre aspas).
 
@@ -368,7 +361,6 @@ Todo o conteúdo do parágrafo é discurso reportado, ou seja, é composto apena
 <!-- Aqui encerra o campo de respostas-->
 
 <br/><br/>
-
 
 ## Aprendizagem prática
 
@@ -388,7 +380,7 @@ Modelo:
 
 **Citação direta** Página 12: Percebe-se que “os estudantes têm a oportunidade de investigar problemas reais de suas comunidades, o que torna o aprendizado mais significativo e socialmente relevante" (Pereira; Costa; Nunes, 2025).
 
-**Citação da citação** Página 43: Segundo Freire (1996, _apud_ Souza; Almeida, 2025, p. 613), "ensinar não é transferir conhecimento, mas criar as possibilidades para a sua própria produção ou a sua construção".
+**Citação da citação** Página 43: Segundo Freire (1996, *apud* Souza; Almeida, 2025, p. 613), "ensinar não é transferir conhecimento, mas criar as possibilidades para a sua própria produção ou a sua construção".
 
 [Texto disponível aqui](https://renbio.org.br/index.php/sbenbio/article/view/1347/497)
 

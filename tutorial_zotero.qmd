@@ -1,104 +1,100 @@
 ---
-title: "Zotero: Gerenciador de referências bibliográficas"
+title: "Zotero"
 ---
 
-# Tutorial para iniciantes no Zotero
+::: titulo-nao-numerado
+Tutorial
+:::
 
-Este tutorial apresenta o passo a passo básico para começar a usar o **Zotero**, um gerenciador de referências bibliográficas gratuito e de código aberto.
+Este tutorial apresenta o passo a passo básico para começar a usar o **Zotero**, um gerenciador gratuito e de código aberto voltado à organização de referências bibliográficas.
 
-## 1. Baixando e instalando o Zotero
+O Zotero permite **coletar, organizar, citar e compartilhar** fontes com facilidade. Pode ser utilizado como aplicativo independente (*standalone*) ou integrado ao navegador por meio do **Zotero Connector**. É compatível com os principais editores de texto, como **Word**, **LibreOffice** e **Google Docs**.
 
--   **Acesse o site oficial:**\
-    <https://www.zotero.org/download>
+<br/>
 
--   **Escolha seu sistema operacional:**
+::: subtitulo-nao-numerado
+1. Criando sua conta Zotero
+:::
 
-    -   **MacOS:** Clique em *Download for macOS*. Após o download, abra o instalador e arraste o Zotero para a pasta **Aplicativos**.
-    -   **Windows:** Clique em *Download for Windows*. Execute o instalador (.exe) e siga as instruções na tela.
-    -   **Linux:** Clique em *Download for Linux*. Baixe a versão adequada, extraia a pasta e execute o arquivo Zotero, ou siga as instruções específicas para sua distribuição (ex.: terminal no Ubuntu).
+Antes de instalar o programa, é recomendável criar uma conta gratuita no site do Zotero:
 
-## 2. Instalando o Zotero Connector no navegador
+- Acessar: <https://www.zotero.org/user/register>
+- Preencher os dados solicitados e confirmar o e-mail.
+- Essa conta será utilizada para **sincronizar sua biblioteca** e **participar de grupos**.
 
--   **No mesmo site**, clique em *Install Zotero Connector*.
--   Você será direcionado para a loja de extensões do seu navegador (Chrome, Firefox ou Edge).
--   Clique em **Adicionar ao navegador** e confirme a instalação.
--   O ícone do Zotero (uma folha com a letra Z) aparecerá próximo à barra de endereços do navegador.
+<br/>
 
-## 3. Definindo o estilo de citação e referência
+::: subtitulo-nao-numerado
+2. Instalação
+:::
 
--   **Abra o Zotero**.
--   No menu superior, clique em:
-    -   **Zotero \> Preferences (macOS)**
-    -   **Edit \> Preferences (Windows/Linux)**
--   Selecione a aba **Cite**, depois a subaba **Styles**.
--   Escolha o estilo desejado (no Brasil, recomenda-se **ABNT**).
--   Se não estiver listado, clique em **Get additional styles**, pesquise por "ABNT" e instale:
-    -   *Universidade Federal do Rio Grande do Sul - ABNT (autoria completa) (Português - Brasil)*.
+- Acessar: <https://www.zotero.org/download>
+- Baixar e instalar o Zotero conforme o sistema operacional (Windows, macOS ou Linux).
+- Instalar também o **Zotero Connector** no navegador preferido (Chrome, Firefox ou Edge), o qual permite capturar referências diretamente da web.
 
-## 4. Criando coleções e adicionando Itens
+<br/>
 
-### Crie uma coleção
+::: subtitulo-nao-numerado
+3. Criando itens bibliográficos
+:::
 
--   Clique com o botão direito em **Minha Biblioteca** e selecione **Nova coleção**.
--   Nomeie a coleção (ex.: *Projeto Argumentação*) e pressione **Enter**.
+::: subsubtitulo-nao-numerado
+3.1 Adição manual
+:::
 
-### Adicione um item manualmente
+- **Clicar** no botão **+ Novo item** na barra de ferramentas do Zotero.  
+- **Selecionar** o tipo de documento (livro, artigo, tese etc.).  
+- **Preencher** os campos com os metadados (título, autor, ano, editora etc.).
 
--   Com a coleção aberta, clique no botão **+ (Novo Item)** na barra superior.
--   Escolha o tipo de material (Artigo, Livro, Tese, etc.).
--   Preencha os campos na coluna da direita: título, autor(es), ano, editora, DOI, URL, etc.
+::: subsubtitulo-nao-numerado
+3.2 Adição automática a partir da internet
+:::
 
-### Adicione um item automaticamente
+- **Acessar** um site confiável (Google Acadêmico, Scielo, Amazon etc.).  
+- **Clicar** no ícone do **Zotero Connector**, localizado na barra do navegador.  
+- **Selecionar** os itens desejados e a coleção de destino.
 
--   Acesse um artigo em sites como **Google Acadêmico** ou **SciELO**.
--   Clique no **ícone do Zotero Connector** no navegador.
--   Selecione a coleção de destino.
--   O item será salvo automaticamente com os metadados.
+<br/>
 
-## 5. Inserindo citações e referências em documentos no Google Docs
+::: subtitulo-nao-numerado
+4. Organizando referências
+:::
 
-> 💡 **Pré-requisito:** Mantenha o Zotero aberto durante o processo.
+- **Criar coleções** clicando com o botão direito em *Minha Biblioteca* > **Nova coleção**.  
+- Também é possível **criar grupos online** para compartilhar referências com outras pessoas (requer conta Zotero).
 
-### Insira citação
+<br/>
 
--   Abra um documento no **Google Docs**.
--   Clique no menu **Zotero** que aparece na barra do Google Docs.
--   Selecione **Add/Edit Citation**.
--   Digite o título, autor ou ano, escolha o item e pressione **Enter**.
+::: subtitulo-nao-numerado
+5. Estilos de citação
+:::
 
-### Insira bibliografia
+- No Zotero, acessar **Preferences > Cite > Styles**.  
+- Escolher ou adicionar o estilo de formatação bibliográfica desejado.  
+- Caso o estilo **ABNT** não esteja listado, clicar em **Get additional styles** e pesquisar por “ABNT”.  
+  Uma sugestão é o estilo **Universidade Federal do Rio Grande do Sul – ABNT (autoria completa)**, amplamente utilizado no Brasil.
 
--   No final do documento, clique novamente em **Zotero**.
--   Selecione **Add/Edit Bibliography**.
--   A lista de referências será gerada automaticamente com base nas citações inseridas.
+<br/>
 
-## 6. Sincronizando com a nuvem do Zotero
+::: subtitulo-nao-numerado
+6. Inserindo citações e bibliografias
+:::
 
-### Crie uma conta Zotero
+- O Zotero se integra a editores como **Word**, **LibreOffice** e **Google Docs**.  
+- No editor de texto, **clicar em Add/Edit Citation** para inserir uma citação.  
+- Para gerar a bibliografia automaticamente, **clicar em Add/Edit Bibliography**.  
+- O estilo pode ser **modificado a qualquer momento** nas configurações do Zotero.
 
--   Acesse <https://www.zotero.org/user/register>.
--   Preencha os campos solicitados e confirme o cadastro pelo e-mail.
+<br/><br/>
 
-### Configure a sincronização
+::: enfase
 
--   Abra o Zotero e vá em **Zotero \> Preferences \> Sync**.
--   Insira seu **e-mail e senha** da conta Zotero.
--   Ative as opções **Sync automatically** e **Sync full-text content**.
--   Clique em **Set up syncing** e depois em **OK**.
+::: subsubtitulo-nao-numerado
+Considerações finais
+:::
 
-### Confirme o backup online
+- O **Zotero** é uma ferramenta essencial para pesquisadores e estudantes que desejam organizar suas fontes com eficiência, mantendo o rigor formal das normas de citação.
+- Permite **padronizar e automatizar** a geração de citações e bibliografias, além de garantir **acesso sincronizado** à biblioteca pessoal em qualquer dispositivo.
+- Para aprofundar o uso do Zotero, consulte a [documentação oficial](https://www.zotero.org/support/), que oferece guias detalhados e atualizados.
 
--   Acesse <https://www.zotero.org> e faça login.
--   Clique em **Web Library** no menu superior.
--   Verifique se as coleções e os itens estão sincronizados corretamente.
-
-------------------------------------------------------------------------
-
-::: {style="background-color:#001f3f; color:#ffffff; padding: 1.5em; border-radius: 8px; font-size: 1.1em; line-height: 1.6;"}
-### 📌 Algumas considerações...
-
--   Organize suas referências de forma prática.
--   Garanta a correta formatação de citações e referências conforme normas da ABNT.
--   Sincronize sua biblioteca entre diferentes dispositivos.
--   Para mais informações, acesse a [Documentação Oficial do Zotero](https://www.zotero.org/support/).
 :::

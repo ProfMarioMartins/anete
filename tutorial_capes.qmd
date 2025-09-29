@@ -1,8 +1,8 @@
 ---
-title: "Como pesquisar no Portal de Periódicos da Capes"
+title: "Portal de Periódicos da Capes"
 ---
 
-::: titulo-nao-numeraado
+::: titulo-nao-numerado
 Tutorial
 :::
 

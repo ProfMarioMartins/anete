@@ -462,47 +462,102 @@
     ]
   },
   {
+    "objectID": "Aula_7.html",
+    "href": "Aula_7.html",
+    "title": "9  Como gerenciar citações e referências?",
+    "section": "",
+    "text": "9.1 Contextualização\nO gerenciamento de citações e referências bibliográficas é essencial para assegurar a integridade e a credibilidade de qualquer produção acadêmica ou científica. Além disso, um sistema bem estruturado de referências contribui para a coerência textual, facilita a revisão e atualização de dados e permite ao leitor verificar e aprofundar as informações citadas. Ferramentas como o Zotero, EndNote e Mendeley tornam esse processo mais eficiente, especialmente em projetos de médio e longo prazo, promovendo a autonomia e a profissionalização da escrita acadêmica.\nAo final deste encontro, espera-se que você seja capaz de:",
+    "crumbs": [
+      "Unidade I",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Como gerenciar citações e referências?</span>"
+    ]
+  },
+  {
+    "objectID": "Aula_7.html#contextualização",
+    "href": "Aula_7.html#contextualização",
+    "title": "9  Como gerenciar citações e referências?",
+    "section": "",
+    "text": "utilizar o Zotero para criar uma coleção temática, adicionar referências bibliográficas relevantes e gerar um relatório técnico com os metadados dessas referências, desenvolvendo habilidades de organização e curadoria de fontes acadêmicas;\ninserir corretamente citações e referências bibliográficas em um documento utilizando o Zotero no Google Docs, com base no estilo ABNT (NBR 6023).",
+    "crumbs": [
+      "Unidade I",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Como gerenciar citações e referências?</span>"
+    ]
+  },
+  {
+    "objectID": "Aula_7.html#aprendizagem-prática",
+    "href": "Aula_7.html#aprendizagem-prática",
+    "title": "9  Como gerenciar citações e referências?",
+    "section": "9.2 Aprendizagem prática",
+    "text": "9.2 Aprendizagem prática\nNesta etapa, você construirá uma coleção temática de referências bibliográficas utilizando o Zotero.\n\nCrie uma nova coleção no Zotero, atribuindo um nome relacionado ao seu tema de investigação (ex.: Ensino de Física).\nEm bases de dados confiáveis — como o Portal de Periódicos da CAPES, Google Acadêmico ou SciELO —, localize quatro artigos científicos relevantes para o seu tema. Em seguida, adicione esses quatro artigos, juntamente com o artigo que serviu como ponto de partida da atividade, à coleção criada no Zotero.\n\n\n\n\n\n\n\nAtenção: não selecione TCCs, dissertações ou teses.\n\n\n\n\nUtilize o Zotero Connector para capturar os metadados completos de cada obra. Verifique se os campos estão corretamente preenchidos (título, autores, ano, editora, DOI ou URL). Caso necessário, edite os dados manualmente.\nGere um relatório da coleção:\n\nClique com o botão direito sobre a coleção;\nSelecione “Gerar relatório a partir da coleção…”;\nUm documento será exibido com os metadados das obras.\n\nSalve o relatório no formato .html em sua conta institucional no Google Drive.\nCompartilhe o link de acesso ao arquivo .html com a turma, por meio do chat do Gmail institucional.",
+    "crumbs": [
+      "Unidade I",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Como gerenciar citações e referências?</span>"
+    ]
+  },
+  {
+    "objectID": "Aula_7.html#aprendizagem-prática-1",
+    "href": "Aula_7.html#aprendizagem-prática-1",
+    "title": "9  Como gerenciar citações e referências?",
+    "section": "9.3 Aprendizagem prática",
+    "text": "9.3 Aprendizagem prática\nNesta etapa, você aplicará os dados organizados no Zotero na produção de um texto com citação e referência automática.\n\nMantenha o Zotero em execução no seu computador.\nAbra um novo documento no Google Docs, com o título: Citações e referências com Zotero — [Seu Nome].\nEscreva um parágrafo entre 5 e 10 linhas, apresentando o seu tema de pesquisa e justificando sua escolha. Utilize ao menos dois artigos da coleção criada anteriormente para inserir citações diretas (curtas) ou indiretas, conforme apropriado.\nDurante a escrita, clique em Zotero &gt; Add/Edit Citation (menu superior do Google Docs) para inserir as citações dos artigos selecionados.\nApós o parágrafo, clique em Zotero &gt; Add/Edit Bibliography para gerar automaticamente a lista de referências bibliográficas.\nRevise o estilo de citação aplicado. Caso necessário, ajuste em Zotero &gt; Document Preferences, selecionando o estilo ABNT (NBR 6023).\nCompartilhe o link do seu documento no Google Docs com a turma, por meio do chat do Gmail institucional.\n\n\n✅ Lembre-se: tanto as citações quanto as referências devem ser geradas automaticamente pelo Zotero, com base nos dados da sua coleção.",
+    "crumbs": [
+      "Unidade I",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Como gerenciar citações e referências?</span>"
+    ]
+  },
+  {
     "objectID": "tutorial_lattes.html",
     "href": "tutorial_lattes.html",
-    "title": "9  Como preencher o currículo Lattes?",
+    "title": "10  Currículo Lattes",
     "section": "",
     "text": "Tutorial\n\nEste tutorial irá guiá-lo pelos passos essenciais para preencher corretamente seu Currículo Lattes, explicando cada uma das seções e orientando sobre como inserir informações acadêmicas e profissionais de forma clara, completa e adequada às exigências da plataforma.\n\nDocumentos necessários\n\nAntes de começar, tenha em mãos:\n\nDocumento de identidade (RG ou CNH);\nCPF;\nEndereço completo;\nTelefones e e-mail (preferencialmente institucional, se já tiver);\nHistórico escolar e/ou diplomas de cursos concluídos;\nCertificados de participação em cursos, palestras ou congressos;\nProduções acadêmicas (artigos, resumos, apresentações);\nDados bancários (caso concorra a bolsas).\n\n\n\n\n\n\n\nSempre guarde cópias digitais (em PDF) de seus certificados. Isso facilita a atualização do currículo.\n\n\n\n\n\nAcesso ao sistema\n\n\nAcesse: https://lattes.cnpq.br e clique em Cadastrar novo currículo. Crie uma senha de acesso (será usada para futuras atualizações).\n\n  \n  Figura 1. Sistema CNPq\n\n\n\n  \n  Figura 2. Sistema CNPq\n\n\n\n\nEstrutura do Currículo Lattes\n\n\nO sistema é dividido em seções principais:\n\nDados gerais: informações pessoais, endereço e contatos;\n\nFormação acadêmica: ensino médio, graduação, cursos técnicos;\n\nAtuação profissional: empregos, estágios, bolsas;\n\nProduções: artigos, resumos, apresentações;\n\nEventos: congressos, palestras, cursos de extensão.\n\n\n\nFoto profissional\n\n\nA foto é obrigatória e deve transmitir profissionalismo. Evite fotos informais.\n\n\n\n\n\n\nDicas para a foto: - Fundo neutro (branco, cinza ou azul claro);\n- Roupas sóbrias (camisa, blazer, roupa formal);\n- Evite adereços (óculos escuros, bonés, etc.);\n- Expressão neutra ou sorriso discreto.\n\n\n\n\n\nInserção de dados pessoais\n\n\nPreencha todos os dados solicitados (informações pessoais, endereço, contato e formação acadêmica).\n\n  \n  Figura 3. Dados\n\n\n\n  \n  Figura 4. Dados\n\n\n\n  \n  Figura 5. Dados\n\n\n\n  \n  Figura 6. Dados\n\n\n\n  \n  Figura 7. Dados\n\n\n\n  \n  Figura 8. Dados\n\n\n\n\nTexto de apresentação\n\n\nEsse é o campo “Resumo”, exibido logo no início do currículo. Muitas pessoas o negligenciam, mas ele é fundamental.\n\nFormação atual (curso e instituição);\nÁreas de interesse;\nParticipação em projetos (se houver);\nObjetivos acadêmicos e profissionais.\n\n\n\n\n\n\n\nExemplo de texto:\n“João Silva é estudante de Engenharia Agrícola e Ambiental na Universidade Federal Rural do Semi-Árido (UFERSA). Tem interesse nas áreas de irrigação e manejo sustentável da água. Atualmente participa do Programa de Iniciação Científica, atuando em pesquisas sobre uso eficiente de recursos hídricos. Pretende seguir carreira acadêmica e contribuir para o desenvolvimento de tecnologias voltadas à sustentabilidade.”\n\n\n\n\n\nCategorias de atividades\n\n\n\n\n\n\n\n\n\nAtividade\nOnde inserir\n\n\n\n\nEventos: congressos, feiras, seminários, simpósios – participação ou organização\nEventos: como ouvinte ou participante (com apresentação de trabalho – inserir o título)\n\n\nPalestras\nFormação complementar: como “curso de curta duração” (caso haja carga horária especificada no certificado)\n\n\nApresentação de trabalho\nProduções: apresentação de trabalho\n\n\nTrabalhos publicados em anais de eventos\nProduções: Trabalhos publicados em anais de eventos\n\n\nIniciação Científica / Membro de equipe de pesquisa\nProjetos &gt; Pesquisa\n\n\nParticipação em Projeto de Extensão (longa duração)\nProjetos &gt; Extensão\n\n\nAtividade pontual de Extensão\nFormação complementar &gt; Extensão universitária ou outros (ex.: ação ambiental, saúde, escovódromo etc.)\n\n\nPET – Programa de Educação Tutorial\nProjetos &gt; Outros\n\n\nPDAG / Monitoria em disciplina\nFormação complementar &gt; Outros ou Projetos &gt; Outros (possível incluir orientador e descrição)\n\n\nPROAC – Programa de Aperfeiçoamento Profissional Continuado\nProjetos &gt; Outros\n\n\nOlimpíadas\nEventos\n\n\nArtigos publicados (autor ou coautor)\nProduções &gt; Produção bibliográfica (verificar a categoria adequada)\n\n\nPatentes\nPatentes e registros\n\n\nOrientações (somente docentes de pós-graduação)\nOrientações (mestrado ou doutorado). Para IC: cadastrar projeto de pesquisa e incluir-se como membro da equipe\n\n\nTrabalhos premiados / homenagens\nPrêmios e títulos\n\n\nMembro de comissões e entidades estudantis\nOutras informações relevantes\n\n\nEstágio remunerado ou obrigatório\nAtuação profissional (com contrato assinado em empresa)\n\n\nEstágio não obrigatório\nFormação complementar &gt; Outros (ex.: observações em hospitais, acompanhamento de projetos sem matrícula institucional)\n\n\nO que não se enquadra nos itens acima\nOutras informações relevantes\n\n\n\n\n\n\n\n\n\n\nBoas práticas para manter o currículo atualizado\n\nAtualize sempre que concluir um curso, participar de evento ou publicar um trabalho;\n\nRevise ortografia e gramática;\n\nSalve regularmente em PDF;\n\nEvite informações irrelevantes (como cursos muito básicos ou antigos);\n\nPeça que um professor revise sua primeira versão.",
     "crumbs": [
       "Tutoriais",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Como preencher o currículo Lattes?</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Currículo Lattes</span>"
+    ]
+  },
+  {
+    "objectID": "tutorial_zotero.html",
+    "href": "tutorial_zotero.html",
+    "title": "11  Zotero",
+    "section": "",
+    "text": "Tutorial\n\nEste tutorial apresenta o passo a passo básico para começar a usar o Zotero, um gerenciador gratuito e de código aberto voltado à organização de referências bibliográficas.\nO Zotero permite coletar, organizar, citar e compartilhar fontes com facilidade. Pode ser utilizado como aplicativo independente (standalone) ou integrado ao navegador por meio do Zotero Connector. É compatível com os principais editores de texto, como Word, LibreOffice e Google Docs.\n\n\n\nCriando sua conta Zotero\n\n\nAntes de instalar o programa, é recomendável criar uma conta gratuita no site do Zotero:\n\nAcessar: https://www.zotero.org/user/register\nPreencher os dados solicitados e confirmar o e-mail.\nEssa conta será utilizada para sincronizar sua biblioteca e participar de grupos.\n\n\n\n\nInstalação\n\n\n\nAcessar: https://www.zotero.org/download\nBaixar e instalar o Zotero conforme o sistema operacional (Windows, macOS ou Linux).\nInstalar também o Zotero Connector no navegador preferido (Chrome, Firefox ou Edge), o qual permite capturar referências diretamente da web.\n\n\n\n\nCriando itens bibliográficos\n\n\n\n3.1 Adição manual\n\n\nClicar no botão + Novo item na barra de ferramentas do Zotero.\n\nSelecionar o tipo de documento (livro, artigo, tese etc.).\n\nPreencher os campos com os metadados (título, autor, ano, editora etc.).\n\n\n3.2 Adição automática a partir da internet\n\n\nAcessar um site confiável (Google Acadêmico, Scielo, Amazon etc.).\n\nClicar no ícone do Zotero Connector, localizado na barra do navegador.\n\nSelecionar os itens desejados e a coleção de destino.\n\n\n\n\nOrganizando referências\n\n\n\nCriar coleções clicando com o botão direito em Minha Biblioteca &gt; Nova coleção.\n\nTambém é possível criar grupos online para compartilhar referências com outras pessoas (requer conta Zotero).\n\n\n\n\nEstilos de citação\n\n\n\nNo Zotero, acessar Preferences &gt; Cite &gt; Styles.\n\nEscolher ou adicionar o estilo de formatação bibliográfica desejado.\n\nCaso o estilo ABNT não esteja listado, clicar em Get additional styles e pesquisar por “ABNT”.\nUma sugestão é o estilo Universidade Federal do Rio Grande do Sul – ABNT (autoria completa), amplamente utilizado no Brasil.\n\n\n\n\nInserindo citações e bibliografias\n\n\n\nO Zotero se integra a editores como Word, LibreOffice e Google Docs.\n\nNo editor de texto, clicar em Add/Edit Citation para inserir uma citação.\n\nPara gerar a bibliografia automaticamente, clicar em Add/Edit Bibliography.\n\nO estilo pode ser modificado a qualquer momento nas configurações do Zotero.\n\n\n\n\nConsiderações finais\n\n\nO Zotero é uma ferramenta essencial para pesquisadores e estudantes que desejam organizar suas fontes com eficiência, mantendo o rigor formal das normas de citação.\nPermite padronizar e automatizar a geração de citações e bibliografias, além de garantir acesso sincronizado à biblioteca pessoal em qualquer dispositivo.\nPara aprofundar o uso do Zotero, consulte a documentação oficial, que oferece guias detalhados e atualizados.",
+    "crumbs": [
+      "Tutoriais",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Zotero</span>"
     ]
   },
   {
     "objectID": "tutorial_capes.html",
     "href": "tutorial_capes.html",
-    "title": "10  Como pesquisar no Portal de Periódicos da Capes",
+    "title": "12  Portal de Periódicos da Capes",
     "section": "",
     "text": "Tutorial\n\nEste tutorial irá guiá-lo pelos passos básicos para começar suas pesquisas no Portal de Periódicos Capes, explorando as diferentes formas de encontrar materiais para seu trabalho acadêmico.\n\n\nAcessando o Portal (tipos de acesso)\n\n\n\nComo Acessar:\nAbra o Google e digite “Periódicos Capes”. O site correto é https://www.periodicos.Capes.gov.br.\nTipos de Conteúdo/Acesso:\n\nConteúdo livre: disponível para qualquer pessoa.\nConteúdo assinado: disponível para os IPs identificados das instituições participantes. Caso você esteja acessando fora da rede da sua instituição, é necessário efetuar o login na Comunidade Acadêmica Federada (CAFe). A Ufersa é instituição parceira).\n\nPara acessar o conteúdo assinado, clique em “Acesso CAFE”, selecione sua instituição e insira o login e a senha fornecidos pela universidade.\nNo canto esquerdo, você verá se está conectado à sua instituição ou em acesso livre.\n\n\n\n\n\n“Meu Espaço”\n\n\n\nQualquer pessoa pode se cadastrar em “Meu Espaço”, mesmo sem vínculo institucional.\nIsso permite salvar histórico de buscas e acessar funcionalidades adicionais.\n\n\n\nExplorando as opções de busca\n\n\n\nClique em “Acervo” no menu principal.\nAs opções principais são:\n\nBuscar Assunto\nListar Bases e Coleções\nListar Livros\nListar Periódicos\n\n\n\n\nBusca simples por assunto\n\n\n\nClique em “Buscar Assunto”.\nDigite o tema (ex.: teletrabalho).\nClique na lupa.\nNos resultados:\n\nCadeado verde = acesso aberto.\nClique em “acessar” para ler ou baixar o material.\n\n\n\n\nBusca avançada e específica\n\n\n\nNa tela de resultados, clique em “Busca Avançada”.\nConfigure os campos e use operadores booleanos:\n\nAND: restringe (ex.: “teletrabalho AND servidores públicos”).\nOR: amplia (ex.: “teletrabalho OR home office”).\nNOT: exclui (ex.: “teletrabalho NOT servidores públicos”).\nAspas (““): busca exata (ex.: “servidores públicos”).\n\nAplique filtros na lateral esquerda:\n\nTipo de acesso (livre ou assinado)\nTipo de recurso (artigo, livro, etc.)\nData de publicação\nÁrea do conhecimento\nIdioma\n\n\n\n\nExplorando bases, livros e periódicos\n\n\n\nListar Bases e Coleções: Repositórios e bibliotecas digitais.\nListar Livros: Busque livros por título ou ISBN.\nListar Periódicos: Navegue por revistas científicas específicas.\n\n\n\n\n\n\n\n\n\nAlgumas considerações…\n\n\nO Portal está em constante atualização.\nCombine buscas básicas, avançadas e filtros para melhores resultados.\nExplore repositórios institucionais e revistas específicas além da busca por assunto.\nPara dúvidas ou orientações, consulte a equipe da biblioteca da sua instituição.",
     "crumbs": [
       "Tutoriais",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Como pesquisar no Portal de Periódicos da Capes</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Portal de Periódicos da Capes</span>"
     ]
   },
   {
     "objectID": "portifolio.html",
     "href": "portifolio.html",
-    "title": "11  Painel de respostas",
+    "title": "13  Painel de respostas",
     "section": "",
     "text": "Este é o seu caderno de respostas da disciplina Análise e Expressão Textual. Para cada tarefa, preencha o formulário abaixo com atenção. Após o envio, você receberá o feedback por e-mail assim que for revisado pelo professor.\n\n\n\n  Nome completo:\n  \n\n  E-mail institucional:\n  \n\n  Turma:\n  \n    --Selecione--\n    Turma 3\n    Turma 4\n  \n\n  Qual tarefa você está enviando?\n  \n    --Selecione--\n    Apresentação para o Lattes\n    A verdade está lá fora\n    Periódico científico\n    Paráfrase\n    Introdução do plano de trabalho\n    Justificativa do plano de trabalho\n    Objetivos do plano de trabalho\n    Outra\n  \n\n  Cole aqui o trecho que deseja submeter:\n  \n\n  Enviar",
     "crumbs": [
       "Complementos",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Painel de respostas</span>"
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Painel de respostas</span>"
     ]
   },
   {
     "objectID": "glossario.html",
     "href": "glossario.html",
-    "title": "12  Glossário",
+    "title": "14  Glossário",
     "section": "",
     "text": "Glossário essencial de termos acadêmicos\n\n\n\n\n\n\n\n\n\nTermo\nDefinição\n\n\n\n\nArtigo científico\nTexto que apresenta os resultados de uma pesquisa, escrito por pesquisadores e publicado em periódicos.\n\n\nAvaliação por pares\nProcesso em que especialistas anônimos avaliam a qualidade de um artigo antes da publicação.\n\n\nBase de dados científica\nPlataforma digital que reúne milhares de artigos científicos organizados por área do conhecimento.\n\n\n\n\n\n\nDissertação\nTrabalho acadêmico escrito para a conclusão de um mestrado.\n\n\nIndexação\nInclusão de um periódico ou artigo em bases de dados científicas reconhecidas (como Scopus, Web of Science).\n\n\nPeriódico científico\nPublicação regular (mensal, trimestral etc.) que reúne artigos científicos revisados por especialistas.\n\n\nPlágio\nUso das ideias ou palavras de outro autor sem dar o devido crédito. Considerado antiético e ilegal.\n\n\nPortal da Capes\nPlataforma brasileira que dá acesso gratuito a milhares de periódicos e livros científicos.\n\n\nQualis (CAPES)\nSistema que classifica os periódicos científicos com base em critérios de qualidade (A1 é o mais alto).\n\n\nReferência bibliográfica\nConjunto de informações que permite identificar a fonte de um texto citado (autor, título, ano, etc.).\n\n\nResumo (de artigo)\nParágrafo no início do artigo que resume o tema, objetivos, método, resultados e conclusões do estudo.\n\n\nSquib\nTexto curto e objetivo que discute um problema teórico específico ou propõe uma hipótese em linguística.\n\n\nTese\nTrabalho acadêmico extenso, original, geralmente escrito para concluir um doutorado.",
     "crumbs": [
       "Complementos",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Glossário</span>"
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Glossário</span>"
     ]
   }
 ]
