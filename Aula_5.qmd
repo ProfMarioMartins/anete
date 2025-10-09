@@ -23,36 +23,36 @@ Leitura indicada:
 Na sociedade contemporânea, **somos constantemente expostos** a um grande volume de informações, que circulam em diferentes formatos, mídias e plataformas. Essa realidade exige de todos nós, especialmente no ambiente acadêmico, o desenvolvimento de uma **postura crítica** diante das **fontes de informação** que acessamos, utilizamos e compartilhamos.
 
 ::: citacao
-(...) fontes de informação **são os meios dos quais as pessoas retiram o conteúdo** de que precisam para sanar uma necessidade informacional (...). (Castro _et al_, 2019 - ebook - destaques meus).
+(...) fontes de informação **são os meios dos quais as pessoas retiram o conteúdo** de que precisam para sanar uma necessidade informacional (...). (Castro *et al*, 2019 - ebook - destaques meus).
 :::
 
-No contexto acadêmico, fonte refere-se ao suporte em que um conteúdo está registrado, seja ele um **artigo científico**, um **livro**, uma **tese*, uma **dissertação**, um **squib**, um **resumo expandido** ou outro tipo de publicação reconhecida pela comunidade científica.
+No contexto acadêmico, fonte refere-se ao suporte em que um conteúdo está registrado, seja ele um **artigo científico**, um **livro**, uma \*\*tese\*, uma **dissertação**, um **squib**, um **resumo expandido** ou outro tipo de publicação reconhecida pela comunidade científica.
 
 A qualidade da produção acadêmica depende diretamente da **confiabilidade das fontes** utilizadas para embasar argumentos, justificar escolhas metodológicas e dialogar com a comunidade científica.
 
-David Grey (cf. Castro _et al_, ebook) estabelece **alguns critérios** que devem ser levados em conta para se verificar se uma fonte de informação é confiável:
+David Grey (cf. Castro *et al*, ebook) estabelece **alguns critérios** que devem ser levados em conta para se verificar se uma fonte de informação é confiável:
 
 ::: destaque
 | Critério de qualidade | Como identificar |
-|------------------------|------------------|
+|------------------------------------|------------------------------------|
 | **Autoridade** | A fonte é proveniente de origem conhecida, como uma universidade, um governo ou um órgão público, ou vem de um indivíduo desconhecido?<br><br>Se a forte for proveniente de indivíduos, é possível identificar o autor e qual sua formação e afiliação institucional?<br><br>O autor possui publicações em periódicos de alta qualidade revisados por especialistas? |
 | **Precisão** | A fonte foi revisada por especialistas no tema antes de ser aceita para publicação, sou seja, foi revisada por pares (do inglês, peer review)?<br><br>Se é uma fonte de acesso *on-line* (site, blog, rede social, notícia online ou artigo publicado na internet), ela faz referência a outras fontes? Apresenta bibliografias utilizadas?<br><br>Estão claras as datas de atualização do conteúdo da fonte? |
 | **Viés e objetividade** | A linguagem usada é lógica, ou se utiliza de sensacionalismos e agressividade?<br><br>Apresenta pontos de vista opostos ou defende uma ideologia?<br><br>Faz referências a outras fontes?<br>Como lida com a questão ética e a validade dos documentos? |
 | **Cobertura** | A fonte cobre toda a área de pesquisa a que se propõe ou necessita de maior amplitude, ou seja, maior desenvolvimento de seus argumentos? |
 | **Atualidade** | Considerando a área de conhecimento, a atualidade da informação é adequada?<br><br>(Apesar de não ser regra geral, é indicado o período máximo de 5 anos a partir da publicação para garantir a atualidade dos dados em algumas áreas de pesquisa.) |
+
 **Fonte**: Adaptado de Gray (2012) - com inserções minhas.
 :::
 
 ::: {.callout-warning title="O que é ser ético na ciência?"}
-
-| Aspecto ético                     | Descrição                                                                                                                                         |
-|----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Integridade intelectual**      | Agir com honestidade na formulação de hipóteses, condução de experimentos e interpretação de dados.                                               |
-| **Transparência**                | Divulgar os métodos e os resultados de forma clara, permitindo a verificação e a replicação por outros pesquisadores.                            |
-| **Reconhecimento de autoria**    | Dar o devido crédito a todos os envolvidos na produção do conhecimento e citar corretamente as fontes utilizadas.                                 |
-| **Compromisso com a sociedade**  | Realizar pesquisas que respeitem os direitos humanos, o bem-estar animal e o meio ambiente, contribuindo para o avanço responsável da sociedade.  |
-| **Combate a fraudes**            | Evitar práticas antiéticas como plágio, falsificação ou fabricação de dados.                                                                      |
-| **Rigor metodológico**           | Seguir métodos científicos validados e manter postura crítica frente aos próprios achados.                                                        |
+| Aspecto ético | Descrição |
+|------------------------------------|------------------------------------|
+| **Integridade intelectual** | Agir com honestidade na formulação de hipóteses, condução de experimentos e interpretação de dados. |
+| **Transparência** | Divulgar os métodos e os resultados de forma clara, permitindo a verificação e a replicação por outros pesquisadores. |
+| **Reconhecimento de autoria** | Dar o devido crédito a todos os envolvidos na produção do conhecimento e citar corretamente as fontes utilizadas. |
+| **Compromisso com a sociedade** | Realizar pesquisas que respeitem os direitos humanos, o bem-estar animal e o meio ambiente, contribuindo para o avanço responsável da sociedade. |
+| **Combate a fraudes** | Evitar práticas antiéticas como plágio, falsificação ou fabricação de dados. |
+| **Rigor metodológico** | Seguir métodos científicos validados e manter postura crítica frente aos próprios achados. |
 :::
 
 <br>
@@ -95,16 +95,11 @@ Um passo essencial nesse processo é conhecer **o que tem sido pesquisado recent
 
 **Pense, portanto, em temas, assuntos ou áreas que despertem seu interesse** — como educação, linguagem, saúde, meio ambiente, tecnologias digitais, cultura popular, leitura, juventudes, inclusão, entre outros. **Não é necessário escolher um tema definitivo agora**, mas ter em mente um campo de interesse tornará suas buscas mais produtivas e significativas.
 
-
 Siga as orientações abaixo:
 
-1. Acesse o [Portal de Periódicos da Capes](https://www.periodicos.capes.gov.br/) e encontre três artigos científicos que tratem de assuntos relacionados ao seu campo de interesse inicial. Os artigos devem respeitar os critérios de confiabilidade abaixo:
+1.  Acesse o [Portal de Periódicos da Capes](https://www.periodicos.capes.gov.br/) e encontre três artigos científicos que tratem de assuntos relacionados ao seu campo de interesse inicial. Os artigos devem respeitar os critérios de confiabilidade abaixo:
 
-    ✅ O artigo passou por avaliação cega por pares?<br>
-    ✅ O artigo foi publicado por uma instituição científica confiável?<br>
-    ✅ O artigo foi publicado em periódico com classificação Qualis A1 a A4 na área do conhecimento correspondente?<br>
-    ✅ O artigo está disponível em texto completo no Portal da Capes?<br>
-    ✅ O artigo é recente e apresenta referências bibliográficas verificáveis?<br>
+    ✅ O artigo passou por avaliação cega por pares?<br> ✅ O artigo foi publicado por uma instituição científica confiável?<br> ✅ O artigo foi publicado em periódico com classificação Qualis A1 a A4 na área do conhecimento correspondente?<br> ✅ O artigo está disponível em texto completo no Portal da Capes?<br> ✅ O artigo é recente e apresenta referências bibliográficas verificáveis?<br>
 
 <br>
 
@@ -114,18 +109,18 @@ Não sabe como fazer pesquisas no Portal de Periódicos da Capes, consulte o tut
 
 <br><br>
 
-2. Após selecionar os três artigos, leia atentamente os seus resumos.
+2.  Após selecionar os três artigos, leia atentamente os seus resumos.
 
 <br><br>
 
-3. Selecione um dos artigos previamente escolhidos e, no seu caderno, **redija um parágrafo** descritivo apresentando o periódico científico no qual esse artigo foi publicado. O parágrafo deve ser redigido em linguagem formal e fluente, coeso, sem o uso de tópicos ou listas, e deve contemplar, de forma integrada, as seguintes informações:
+3.  Selecione um dos artigos previamente escolhidos e, no seu caderno, **redija um parágrafo** descritivo apresentando o periódico científico no qual esse artigo foi publicado. O parágrafo deve ser redigido em linguagem formal e fluente, coeso, sem o uso de tópicos ou listas, e deve contemplar, de forma integrada, as seguintes informações:
 
-- Título do periódico
-- Classificação Qualis (A1, A2 etc.) e a área do conhecimento
-- Instituição, sociedade científica ou editora responsável pelo periódico
-- Periodicidade de publicação (mensal, trimestral, semestral etc.)
-- Sistema de avaliação adotado (dupla cega, simples cega, aberta etc.)
-- Bases de indexação (ex.: Scopus, Web of Science etc.)
+-   Título do periódico
+-   Classificação Qualis (A1, A2 etc.) e a área do conhecimento
+-   Instituição, sociedade científica ou editora responsável pelo periódico
+-   Periodicidade de publicação (mensal, trimestral, semestral etc.)
+-   Sistema de avaliação adotado (dupla cega, simples cega, aberta etc.)
+-   Bases de indexação (ex.: Scopus, Web of Science etc.)
 
 A reposta deve ser inserida no [Painel de Respostas](portifolio.qmd). Selecione a tarefa "Periódico científico".
 
@@ -134,5 +129,5 @@ A reposta deve ser inserida no [Painel de Respostas](portifolio.qmd). Selecione 
 ::: proxima-aula
 [Para a próxima aula:]{.proxima-aula-title}
 
--   **Leia** o texto **Citações diretas e indiretas** (p. 89-97), capítulo do livro *Leitura e escrita acadêmicas*, de Nádia Studzinski Estima de Castro e colaboradores. Disponível na MInha Biblioteca.
+-   **Leia** o texto **Citações diretas e indiretas** (p. 89-97), capítulo do livro *Leitura e escrita acadêmicas*, de Nádia Studzinski Estima de Castro e colaboradores. Disponível na Minha Biblioteca.
 :::

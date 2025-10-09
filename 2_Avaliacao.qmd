@@ -18,10 +18,7 @@ Produto
 
 A mídia deve ser produzida **individualmente** e será publicada no **feed de uma conta oficial da disciplina no Instagram**, criada exclusivamente para esse fim.
 
-A mídia poderá assumir um dos seguintes formatos:
-
--   **Reel** (vídeo curto de 60 a 90 segundos);
--   **Carrossel** (sequência de **4 a 8 imagens**, organizadas em slides).
+A mídia deve ser um **reel** (vídeo curto de 45 a 90 segundos);
 
 O conteúdo da postagem **deve obrigatoriamente estar vinculado ao tema do plano de trabalho** em desenvolvimento na disciplina.
 
@@ -33,8 +30,8 @@ O conteúdo da postagem **deve obrigatoriamente estar vinculado ao tema do plano
 Data de publicação
 :::
 
-**3 de julho de 2025 (quinta-feira)**\
-A postagem deverá permanecer no ar até, no mínimo, o dia **7 de julho de 2025**.
+**10 de novembro de 2025 (segunda-feira)**\
+A postagem deverá permanecer no ar até, no mínimo, o dia **16 de novembro de 2025**.
 
 ::: subtitulo-nao-numerado
 Legenda
@@ -51,17 +48,13 @@ A legenda pode incluir, por exemplo:
 
 Ao final da legenda, incluir: - A **fonte confiável do dado apresentado** (formato autor, ano ou link);
 
--   As hashtags obrigatórias: `#Anete2025`, `#DivulgaçãoCientífica`, `#Ufersa`.
+-   As hashtags obrigatórias: `#Anete2025`, `#Neocomciencia`, `#DivulgaçãoCientífica`, `#Ufersa`.
 
 ::: nota-secundaria
 ❌ **Evite informações** técnicas ou institucionais voltadas apenas ao professor (como turma, matrícula ou menções ao plano de trabalho).
 :::
 
-::: subtitulo-nao-numerado
-Orientações específicas por tipo de mídia
-:::
-
-::: subsubsubtitulo-nao-numerado
+::: subsubtitulo-nao-numerado
 ✅ Reel
 :::
 
@@ -76,24 +69,11 @@ Orientações específicas por tipo de mídia
     -   Elementos visuais e sonoros que ampliem a compreensão;
     -   Tom convidativo, instigante e respeitoso com o público.
 
-::: subsubsubtitulo-nao-numerado
-✅ Carrossel
-:::
-
--   Estrutura sugerida:
-    -   **Apresentação do dado ou pergunta provocativa** (slides 1-2);\
-    -   **Explicação e desenvolvimento do tema** (slides 3-4);\
-    -   **Implicações e chamada à reflexão ou ação** (slides finais).
--   Deve conter:
-    -   Tipografia e cores que facilitem a leitura;
-    -   Uniformidade gráfica entre os slides;
-    -   Conteúdo coeso e progressivo.
-
 ::: subtitulo-nao-numerado
 Relatório reflexivo de produção
 :::
 
-O relatório será preenchido em sala de aula no dia **7 de julho de 2025 (segunda-feira)**, estruturado com base nas seguintes perguntas orientadoras:
+O relatório será preenchido em sala de aula no dia **13 de novembro de 2025 (quinta-feira)**, estruturado com base nas seguintes perguntas orientadoras:
 
 1.  Por que você escolheu esse dado científico?
 2.  Como ele se relaciona com o seu plano de trabalho?
@@ -140,26 +120,17 @@ A nota será composta por:
 Procedimento de submissão da mídia digital
 :::
 
-Para enviar seu reel ou carrossel, siga atentamente as orientações abaixo:
+-   Para compartilhar o arquivo da mídia, envie o link de compartilhamento para:
 
-Você pode:
+neocomciencia\@gmail.com
 
--   Enviar o link de compartilhamento do Canva (certifique-se de que esteja público para visualização ou edição); ou
--   Anexar o arquivo diretamente por e-mail.
+-   O arquivo deve estar obrigatoriamente em formato .mp4.
 
-O endereço de envio é: neocomciencia\@gmail.com
+-   No assunto do e-mail, escreva seu nome completo.
 
-Formatos aceitos:
+-   Antes de enviar, verifique:
 
--   Para vídeos (reels): envie em .mp4;
--   Para carrosséis: envie as imagens em .png, .jpg ou compactadas em .zip.
-
-No assunto do e-mail, escreva seu nome completo.
-
-Antes de enviar, verifique:
-
--   Se o link ou arquivo está funcionando corretamente;
--   Se os formatos estão adequados.
+    Se o link ou arquivo está funcionando corretamente; Se o formato do arquivo está adequado.
 
 No corpo do e-mail, **informe se deseja que a publicação seja feita em colaboração com o seu perfil pessoal no Instagram**. Nesse caso, indique *nomedeusuario* corretamente.
 
@@ -172,7 +143,11 @@ Termo de consentimento
 > Autorizo, de forma livre, informada e irrevogável, o uso da mídia digital por mim produzida no âmbito da disciplina Análise e Expressão Textual, para publicação no perfil *neocomciencia*, no Instagram, com finalidade exclusivamente educativa e científica. Estou ciente de que minha produção poderá ser visualizada publicamente, respeitando os princípios éticos e os direitos autorais. Declaro que a mídia não infringe direitos de terceiros e que, caso haja participação de outras pessoas, obtive o consentimento necessário para sua inclusão.
 
 ::: subtitulo-nao-numerado
-Reposição da avaliação
+ATENÇÃO
 :::
 
-Caso o(a) estudante **não realize a avaliação na data estipulada** e ainda tenha direito à reposição, será oferecido novo prazo. A avaliação substitutiva **seguirá os mesmos moldes**, com nova data de postagem e novo momento de produção do relatório (cf. informações publicadas no SIGAA).
+O discente que não produzir a mídia não terá o direito de escrever o relatório.
+
+::: destaque
+👉 [Acesse o perfil @neocomciencia no Instagram](https://www.instagram.com/neocomciencia/) para ver exemplos de divulgação científica voltados ao público jovem.
+:::

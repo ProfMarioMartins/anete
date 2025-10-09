@@ -1,65 +1,386 @@
 ---
 title: "1ª Avaliação"
+author: "Prof. Mário Martins"
+institute: |
+  Universidade Federal Rural do Semi-Árido (UFERSA)  
+format:
+  html:
+    toc: false
+    number-sections: false
+    theme: cosmo
+    css: styles.css
+    title-block-banner: true
+    title-block-style: default
+    title-block-author: true
+    title-block-institute: true
+    title-block-title: true
+    title-block-published: false
+    title-block-date: false
+    code-block-bg: true
 ---
 
-::: titulo-nao-numerado
-Orientações para a 1ª avaliação
+::: {.section style="padding:1em; background-color:#F5F5F5; color:#000000;"}
+**Nome completo:**
+
+**Matrícula:**
+
+**Turma:**
 :::
 
-::: destaque
-A primeira avaliação da disciplina **Análise e Expressão Textual** será composta por dez questões objetivas, com base em situações-problema e fragmentos textuais. O foco será avaliar a capacidade de identificar características do pensamento científico, distinguir tipos de discurso e reconhecer aspectos normativos da escrita acadêmica, especialmente no que se refere a citação e referência segundo a ABNT.
+### Questão 1
 
-As questões deverão ser respondidas de forma individual, em sala de aula, no tempo estipulado.
-:::
+**Conforme a descrição da estrutura do sistema acadêmico brasileiro, qual é a distinção fundamental entre os cursos de pós-graduação *lato sensu* e *stricto sensu*?**
 
-::: subtitulo-nao-numerado
-Conteúdos avaliados
-:::
+\[\_\_\_\_\_\] A. A pós-graduação *stricto sensu* exige a aprovação em disciplinas formais e o cumprimento de créditos, o que não ocorre no *lato sensu*.
 
--   Diferença entre pensamento científico e senso comum
--   Verificação de suposições e observação sistemática
--   Princípio da replicabilidade
--   Tipos de discurso (científico, jurídico, religioso, senso comum)
--   Estratégias de convencimento e persuasão
--   Normas da ABNT para citação e referência (NBR 6023 e NBR 10520)
+\[\_\_\_\_\_\] B. A duração mínima de 360 horas é um requisito obrigatório para os cursos *stricto sensu*, mas não para os cursos de aperfeiçoamento *lato sensu*.
 
-::: subtitulo-nao-numerado
-Formato da prova
-:::
+\[\_\_\_\_\_\] C. Somente a pós-graduação *stricto sensu* confere um grau acadêmico (mestre ou doutor) e um diploma, enquanto o *lato sensu* fornece apenas um certificado, pois não confere grau.
 
--   10 questões de múltipla escolha
--   Valor da questão: 1 ponto
--   Total da prova: 10 pontos
--   Realização individual
+\[\_\_\_\_\_\] D. A pós-graduação *lato sensu* visa o domínio mais complexo no campo da pesquisa, enquanto o *stricto sensu* foca apenas no aperfeiçoamento pontual.
 
-::: subtitulo-nao-numerado
-Critérios de correção
-:::
+```{=html}
+<!--
+C. Somente a pós-graduação *stricto sensu* confere um grau acadêmico (mestre ou doutor) e um diploma, enquanto o *lato sensu* fornece apenas um certificado, pois não confere grau.
+-->
+```
 
-A nota final será calculada com base na quantidade de respostas corretas. Cada questão vale 1,0 ponto, sem possibilidade de frações ou anulações parciais.
+### Questão 2
 
-Acerto de cada questão: 1,0 ponto
+**Analisando os níveis de formação acadêmica no Brasil, qual afirmação está correta?**
 
-Total máximo da prova: 10,0 pontos
+\[\_\_\_\_\_\] A. O doutorado é o último grau acadêmico que pode ser alcançado no sistema e é o equivalente ao PhD (Philosophus Doctorum) do sistema norte-americano.
 
-::: subtitulo-nao-numerado
-Instruções para realização
-:::
+\[\_\_\_\_\_\] B. O pós-doutorado é um curso formal que confere um novo grau acadêmico, exigindo defesa de tese inédita.
 
--   Responda com atenção, baseando-se nos textos apresentados e nas aulas anteriores;
--   Use apenas caneta azul ou preta no gabarito oficial (caso seja impresso);
--   Mantenha o celular desligado ou fora de uso durante a prova;
--   Em caso de dúvida, levante a mão e aguarde atendimento individual;
--   Plágio, consulta ou comunicação entre colegas anulará a prova.
+\[\_\_\_\_\_\] C. O doutorado visa prioritariamente à formação pedagógica e confere o grau de licenciado.
 
-::: subtitulo-nao-numerado
-Reposição da avaliação
-:::
+\[\_\_\_\_\_\] D. A principal exigência para o doutorado é a apresentação de dissertação escrita perante banca examinadora de três membros.
 
-Caso o(a) estudante não realize a prova na data prevista e tenha direito à reposição, será aplicada nova avaliação, com questões de mesma natureza, em prazo estipulado pelo professor, conforme regulamento da universidade.
+```{=html}
+<!--
+A. O doutorado é o último grau acadêmico que pode ser alcançado no sistema e é o equivalente ao PhD (Philosophus Doctorum) do sistema norte-americano.
+-->
+```
 
-::: subtitulo-nao-numerado
-Dica final
-:::
+### Questão 3
 
-Leia com atenção cada comando. As questões foram elaboradas com base em exemplos reais e simulações que exigem análise crítica, e não apenas memorização.
+**Qual das seguintes afirmações descreve corretamente as características do conhecimento do senso comum?**
+
+\[\_\_\_\_\_\] A. É um conhecimento que se move dialeticamente na retificação do saber, buscando julgar seu passado histórico e condenando-o.
+
+\[\_\_\_\_\_\] B. É um conhecimento que exige um aprofundamento crítico e racionalista, especificando fundamentos teóricos.
+
+\[\_\_\_\_\_\] C. É um conhecimento que surge de forma espontânea e instintiva, é ametódico e valoriza a percepção sensorial.
+
+\[\_\_\_\_\_\] D. É um conhecimento que é elaborado de forma antecipadamente planejada, visando relações complexas.
+
+```{=html}
+<!--
+C. É um conhecimento que surge de forma espontânea e instintiva, é ametódico e valoriza a percepção sensorial.
+-->
+```
+
+### Questão 4
+
+**Qual é o principal problema que a vaguidade da linguagem impõe ao senso comum?**
+
+\[\_\_\_\_\_\] A. Falta de consenso impede a aceitação de crenças por longos períodos.
+
+\[\_\_\_\_\_\] B. A imprecisão linguística dificulta a significação dos conceitos e experimentos controlados.
+
+\[\_\_\_\_\_\] C. Permite expor convicções subjetivas à crítica intersubjetiva.
+
+\[\_\_\_\_\_\] D. Conhecimento torna-se excessivamente teórico e distante do prático.
+
+```{=html}
+<!--
+B. A imprecisão linguística dificulta a significação dos conceitos e experimentos controlados.
+-->
+```
+
+### Questão 5
+
+**Qual opção melhor descreve o papel da ciência no relacionamento da humanidade com o universo?**
+
+\[\_\_\_\_\_\] A. A ciência é um corpo de conhecimento como Física e Biologia que busca certeza absoluta.
+
+\[\_\_\_\_\_\] B. A função principal da ciência é validar crenças do senso comum.
+
+\[\_\_\_\_\_\] C. A ciência é uma percepção subjetiva que dispensa método.
+
+\[\_\_\_\_\_\] D. A ciência é um empreendimento coletivo que organiza o saber por meio do ceticismo e método.
+
+```{=html}
+<!--
+D. A ciência é um empreendimento coletivo que organiza o saber por meio do ceticismo e método.
+-->
+```
+
+### Questão 6
+
+**Qual das alternativas explica a principal fragilidade do senso comum?**
+
+\[\_\_\_\_\_\] A. O senso comum é sistemático, mas enxerga probabilisticamente o mundo.
+
+\[\_\_\_\_\_\] B. O senso comum falha ao ignorar o acaso e variáveis ocultas.
+
+\[\_\_\_\_\_\] C. O senso comum não é testado, baseado em impressões e perpetua crenças mesmo diante de evidências.
+
+\[\_\_\_\_\_\] D. Sua fragilidade está em ser programático e retificador do saber.
+
+```{=html}
+<!--
+C. O senso comum não é testado, baseado em impressões e perpetua crenças mesmo diante de evidências.
+-->
+```
+
+### Questão 7
+
+**Quais são duas etapas cruciais do método científico após a formulação da hipótese?**
+
+\[\_\_\_\_\_\] A. Pesquisar e coletar informação; formular a hipótese novamente.
+
+\[\_\_\_\_\_\] B. Observar o fenômeno e questionar; criar uma previsão.
+
+\[\_\_\_\_\_\] C. Testar a hipótese (através de uma previsão e experimento); apresentar os achados, discutir e refinar.
+
+\[\_\_\_\_\_\] D. Apresentar os achados; repetir o ciclo sem alteração nos experimentos.
+
+```{=html}
+<!--
+C. Testar a hipótese (através de uma previsão e experimento); apresentar os achados, discutir e refinar.
+-->
+```
+
+### Questão 8
+
+**No contexto do método científico, por que um resultado experimental que apoia uma hipótese nunca a confirma de forma conclusiva ou absoluta?**
+
+\[\_\_\_\_\_\] A. Porque o método científico é um corpo de conhecimento fechado que não aceita novas ideias.
+
+\[\_\_\_\_\_\] B. Porque a ciência é incapaz de testar fenômenos cotidianos, como o carregamento de um telefone.
+
+\[\_\_\_\_\_\] C. Porque os resultados do experimento indicam apenas a probabilidade de a hipótese estar correta, e a certeza absoluta é inatingível na realidade científica.
+
+\[\_\_\_\_\_\] D. Porque a hipótese só pode ser considerada verdadeira se for repetida exatamente da mesma forma em todas as vezes.
+
+```{=html}
+<!--
+C. Porque os resultados do experimento indicam apenas a probabilidade de a hipótese estar correta, e a certeza absoluta é inatingível na realidade científica.
+-->
+```
+
+### Questão 9
+
+**Qual a principal consequência negativa da postura "Eu quero acreditar"?**
+
+\[\_\_\_\_\_\] A. Favorece a lógica e argumentação, mas sem sustentação crítica.
+
+\[\_\_\_\_\_\] B. Reforça uma falsa impressão de pensamento crítico, sem análise profunda.
+
+\[\_\_\_\_\_\] C. Faz enxergar apenas o que confirma seus desejos, perpetuando crenças e fraudes.
+
+\[\_\_\_\_\_\] D. Incentiva um espírito cético superficial, sem questionamento consistente.
+
+```{=html}
+<!--
+C. Faz enxergar apenas o que confirma seus desejos, perpetuando crenças e fraudes.
+-->
+```
+
+### Questão 10
+
+**Qual das alternativas a seguir resume melhor o papel fundamental do pensamento científico, em contraste com a confiança no senso comum?**
+
+\[\_\_\_\_\_\] A. O pensamento científico busca a certeza absoluta — inatingível na realidade científica — e a prova conclusiva das hipóteses por meio da repetição exata de experimentos, reforçando as crenças pessoais.
+
+\[\_\_\_\_\_\] B. O pensamento científico é um processo passivo e espontâneo, ligado à percepção individual e à vivência cotidiana, que visa a soluções imediatas, embora possa ser posteriormente refinado pela lógica formal.
+
+\[\_\_\_\_\_\] C. A função primordial do pensamento científico é validar e confirmar o conhecimento do senso comum e das tradições, pois reconhece que o saber reside na experiência subjetiva do indivíduo.
+
+\[\_\_\_\_\_\] D. O pensamento científico é um empreendimento coletivo da humanidade que utiliza um método transparente e rigoroso, apoiado no ceticismo organizado, com o objetivo de reduzir as incertezas sobre o mundo e aprimorar a visão da realidade, exigindo hábitos rigorosos de pensar.
+
+```{=html}
+<!--
+D. O pensamento científico é um empreendimento coletivo da humanidade que utiliza um método transparente e rigoroso, apoiado no ceticismo organizado, com o objetivo de reduzir as incertezas sobre o mundo e aprimorar a visão da realidade, exigindo hábitos rigorosos de pensar.
+-->
+```
+
+### Questão 11
+
+**Qual exemplo representa uma citação indireta segundo a ABNT?**
+
+\[\_\_\_\_\_\] A. “A linguagem é a forma mais elaborada de comunicação humana” (Abreu, 2012, p. 27).
+
+\[\_\_\_\_\_\] B. Kleiman (1999, p. 23) compreende a linguagem como ferramenta que organiza o pensamento e a interação social.
+
+\[\_\_\_\_\_\] C. “A função da linguagem é estruturar o pensamento” (Vygotsky, 2001, p. 83).
+
+\[\_\_\_\_\_\] D. “Todo texto é atravessado por vozes sociais” (Bakhtin, 1988, p. 45).
+
+```{=html}
+<!--
+B. Kleiman (1999, p. 23) compreende a linguagem como ferramenta que organiza o pensamento e a interação social.
+-->
+```
+
+### Questão 12
+
+**O que significa o uso de *sic* em citação direta?**
+
+\[\_\_\_\_\_\] A. Discordância com o texto citado.
+
+\[\_\_\_\_\_\] B. Indicação de trecho adaptado.
+
+\[\_\_\_\_\_\] C. Erro ou forma estranha no original.
+
+\[\_\_\_\_\_\] D. Citação livre e apenas com sentido mantido.
+
+```{=html}
+<!--
+C. Erro ou forma estranha no original.
+-->
+```
+
+### Questão 13
+
+**O que indica o uso de *apud* em citação direta?**
+
+\[\_\_\_\_\_\] A. Leitura da fonte original com citação indireta.
+
+\[\_\_\_\_\_\] B. Citação de obra não consultada diretamente.
+
+\[\_\_\_\_\_\] C. Tradução da citação por parte do autor.
+
+\[\_\_\_\_\_\] D. Citação indireta parafraseada.
+
+```{=html}
+<!--
+B. Citação de obra não consultada diretamente.
+-->
+```
+
+### Questão 14
+
+**Leia o parágrafo abaixo e reescreva quatro verbos *dicendi* utilizados no texto:**
+
+> Em audiência pública sobre a crise ambiental, pesquisadores afirmaram que o colapso climático não parece mais uma hipótese, mas se trata de uma realidade mensurável. Uma equipe de geógrafos declarou que os eventos extremos se intensificam a cada ano e afetam de forma desigual diferentes grupos sociais. Relatórios sobre mudanças climáticas indicam que as metas do Acordo de Paris estão longe de serem cumpridas, mesmo com o avanço das energias renováveis. Diversas ONGs advertem que o desmatamento contínuo da Amazônia compromete a regulação hídrica do continente. Por fim, climatologistas sustentam que o combate à emergência climática requer ação coordenada, vontade política e justiça ambiental.
+
+Verbos *dicendi*:
+
+------------------------------------------------------------------------
+
+```{=html}
+<!--
+
+-->
+```
+
+### Questão 15
+
+**Qual alternativa apresenta uma citação indireta, segundo a ABNT?**
+
+\[\_\_\_\_\_\] A. “A leitura é uma atividade interativa entre leitor e texto” (Kleiman, 2008, p. 17).
+
+\[\_\_\_\_\_\] B. Como destaca Kleiman (2008, p. 36), a leitura envolve conhecimentos prévios do leitor.
+
+\[\_\_\_\_\_\] C. “Ler é construir sentidos a partir de pistas textuais” (Solé, 1998, p. 39).
+
+\[\_\_\_\_\_\] D. “A leitura deve ser ensinada como prática social” (Cavalcante, 2021, p. 75).
+
+```{=html}
+<!--
+B. Como destaca Kleiman (2008, p. 36), a leitura envolve conhecimentos prévios do leitor.
+-->
+```
+
+### Questão 16
+
+**O que caracteriza o processo de revisão por pares cega em publicações científicas?**
+
+\[\_\_\_\_\_\] A. Os autores sabem quem são os avaliadores, mas os avaliadores não conhecem os autores.
+
+\[\_\_\_\_\_\] B. Apenas o editor da revista revisa o artigo, garantindo sigilo parcial e autonomia editorial.
+
+\[\_\_\_\_\_\] C. O artigo é avaliado por leitores externos após sua publicação para coleta de feedback aberto.
+
+\[\_\_\_\_\_\] D. Nem os autores conhecem os avaliadores, nem os avaliadores conhecem os autores, garantindo imparcialidade na avaliação.
+
+```{=html}
+<!--
+D. Nem os autores conhecem os avaliadores, nem os avaliadores conhecem os autores, garantindo imparcialidade na avaliação.
+-->
+```
+
+### Questão 17
+
+**Qual das situações abaixo caracteriza uma prática de plágio acadêmico, conforme os princípios éticos da escrita científica?**
+
+\[\_\_\_\_\_\] A. Traduzir trechos de um artigo estrangeiro e citá-los corretamente, indicando a fonte original.
+
+\[\_\_\_\_\_\] B. Utilizar uma paráfrase fiel ao conteúdo original, com a devida referência ao autor citado.
+
+\[\_\_\_\_\_\] C. Reescrever ideias de outros autores com suas próprias palavras, omitindo a fonte para tornar o texto mais fluido.
+
+\[\_\_\_\_\_\] D. Copiar trechos de obras sem aspas nem citação, mesmo que inseridos de forma coerente no texto.
+
+```{=html}
+<!--
+D. Copiar trechos de obras sem aspas nem citação, mesmo que inseridos de forma coerente no texto.
+-->
+```
+
+### Questão 18
+
+**Qual das alternativas define corretamente o Zotero e sua utilidade para pesquisadores e estudantes?**
+
+\[\_\_\_\_\_\] A. Um editor de texto voltado para escrita colaborativa em tempo real, similar ao Google Docs.
+
+\[\_\_\_\_\_\] B. Um programa de verificação gramatical que aplica automaticamente as normas da ABNT.
+
+\[\_\_\_\_\_\] C. Um gerenciador de referências bibliográficas que permite coletar, organizar e citar fontes de forma automatizada em diversos estilos.
+
+\[\_\_\_\_\_\] D. Um repositório digital que armazena artigos científicos publicados em periódicos de acesso aberto.
+
+```{=html}
+<!--
+C. Um gerenciador de referências bibliográficas que permite coletar, organizar e citar fontes de forma automatizada em diversos estilos.
+-->
+```
+
+### Questão 19
+
+**O que caracteriza uma *paráfrase* em textos acadêmicos, segundo as normas e boas práticas de escrita científica?**
+
+\[\_\_\_\_\_\] A. Transcrição literal de um trecho, com indicação da fonte e uso obrigatório de aspas.
+
+\[\_\_\_\_\_\] B. Citação de citação, feita a partir de outra obra que menciona o autor original.
+
+\[\_\_\_\_\_\] C. Reformulação das ideias de um autor com palavras próprias, preservando o sentido original e indicando a fonte consultada.
+
+\[\_\_\_\_\_\] D. Tradução livre de um texto em língua estrangeira, adaptando o conteúdo sem necessidade de referência formal.
+
+```{=html}
+<!--
+C. Reformulação das ideias de um autor com palavras próprias, preservando o sentido original e indicando a fonte consultada.
+-->
+```
+
+### Questão 20
+
+**A revisão por pares tem como finalidade:**
+
+\[\_\_\_\_\_\] A. Garantir que os textos sejam escritos por jornalistas especializados.
+
+\[\_\_\_\_\_\] B. Assegurar qualidade da pesquisa antes da publicação com avaliação de especialistas.
+
+\[\_\_\_\_\_\] C. Estabelecer autoria coletiva em artigos internacionais.
+
+\[\_\_\_\_\_\] D. Facilitar leitura de acadêmicos por público leigo.
+
+```{=html}
+<!--
+B - Assegurar qualidade da pesquisa antes da publicação com avaliação de especialistas.
+-->
+```

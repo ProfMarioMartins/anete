@@ -1,237 +1,314 @@
 ---
-title: "Gêneros textuais acadêmicos"
+title: "O que é divulgação científica?"
 ---
 
 ::: nota-secundaria
-Roteiro de aula elaborado no RStudio com o auxílio da inteligência artificial ChatGPT, revisado e avaliado pelo professor antes de sua publicação.
+Roteiro de aula elaborado no RStudio com o auxílio da inteligência artificial, revisado e avaliado pelo autor antes de sua publicação.
 :::
 
-## Objetivos de aprendizagem
+## Contextualização
 
-Ao final desta aula, espera-se que você seja capaz de:
+A **divulgação científica** é uma prática comunicativa voltada à **socialização do conhecimento** produzido no meio acadêmico e científico, por meio da sua tradução para **linguagens acessíveis** a públicos não especializados. Seu objetivo é tornar compreensíveis **conceitos**, **descobertas** e **debates** da ciência, promovendo a democratização do saber, a valorização da pesquisa e o engajamento crítico da sociedade com temas de interesse coletivo. Para isso, exige não apenas domínio do conteúdo, mas também sensibilidade quanto ao contexto de circulação, ao meio escolhido e às estratégias discursivas adequadas a diferentes interlocutores.
 
--   Identificar relações entre práticas sociais e gêneros acadêmicos;
--   Classificar textos segundo seus gêneros e esferas de circulação.
+Ao final deste encontro, espera-se que você seja capaz de:
 
-::: {#leitura}
-**Leituras indicadas:**\
-CASTRO, Nádia Studzinski Estima de et al. *Leitura e escrita acadêmicas*. Porto Alegre: Sagah, 2019. Capítulo: “Gêneros acadêmicos”, p. 67–72.\
-[🔗 Acesso à leitura](vbk://9788533500228/page/67)
-
-MOTTA-ROTH, Désirée; HENDGES, Graciela Rabuske. Produção textual na universidade. São Paulo: Parábola, 2010. Capítulo: "Abstract/resumo acadêmico". [🔗 Acesso à leitura](SIGAA)
-:::
-
-## Introdução
-
-Segundo Luiz Antônio Marcuschi (2002)[^aula_9-1], **gêneros textuais** são formas relativamente estáveis de enunciado, moldadas pelas práticas sociais de linguagem. Eles surgem e se desenvolvem funcionalmente nas culturas em que circulam, atendendo a finalidades comunicativas específicas em contextos determinados.
-
-[^aula_9-1]: MARCUSCHI, L. A. Gêneros textuais: definição e funcionalidade. In: DIONÍSIO, A. P.; MACHADO, A. R.; BEZERRA, M. A. (Orgs.). Gêneros textuais & ensino. Rio de Janeiro: Lucerna, 2002. p. 19-36.
-
-Noutras palavras,
-
-::: citacao
-"(...) os gêneros textuais são fenômenos históricos, profundamente vinculados à vida cultural e social." (Marcuschi, 2002, p. 19)
-:::
-
-Os gêneros textuais emergem das práticas sociais, funcionando como formas linguísticas que atendem a necessidades comunicativas específicas em contextos determinados. Isso significa que, à medida que diferentes esferas da vida social se organizam — como a escola, a academia, o jornalismo, o comércio ou a política —, desenvolvem-se também modos particulares de dizer, com características próprias de conteúdo, forma, finalidade e circulação. Assim, cada prática social dá origem a um conjunto de gêneros que lhe é funcional.
-
-<img src="img/mapa.png" alt="Mapa mental" class="img-central"/>
-
-## Aprendizagem prática
-
-A que gêneros os textos abaixo pertencem? E a que esfera?
+-   **compreender e aplicar estratégias** de adaptação do discurso acadêmico para contextos de circulação mais ampla.
 
 ::: leitura
-**TEXTO 1**
+**Leituras indicadas**
 
-Eu sou a que no mundo anda perdida,<br/> Eu sou a que na vida não tem norte,<br/> Sou a irmã do Sonho,e desta sorte<br/> Sou a crucificada... a dolorida...<br/>
+DHANESH, Ganga; DUTHLER, Gaelle; LI, Kang. Social media engagement with organization-generated content: Role of visuals in enhancing public engagement with organizations on Facebook and Instagram. **Public Relations Review**, \[s.l.\], v. 48, p. 102174, 2022. DOI: 10.1016/j.pubrev.2022.102174.
 
-Sombra de névoa tênue e esvaecida,<br/> E que o destino amargo, triste e forte,<br/> Impele brutalmente para a morte!<br/> Alma de luto sempre incompreendida!...<br/>
+HWONG, Yi-Ling et al. What makes you tick? The psychology of social media engagement in space science communication. **Computers in Human Behavior**, \[s.l.\], v. 68, p. 480-492, 2017. DOI: 10.1016/j.chb.2016.11.068.
 
-Sou aquela que passa e ninguém vê...<br/> Sou a que chamam triste sem o ser...<br/> Sou a que chora sem saber porquê...<br/>
+JARREAU, Paige Brown; DAHMEN, Nicole Smith; JONES, Ember. Instagram and the science museum: a missed opportunity for public engagement. **Journal of Science Communication**, \[s.l.\], v. 18, n. 02, art. A06, abr. 2019. DOI: 10.22323/2.18020206.
 
-Sou talvez a visão que Alguém sonhou,<br/> Alguém que veio ao mundo pra me ver,<br/> E que nunca na vida me encontrou!<br/>
+MARTIN, Curtis; MACDONALD, Bertrum H. Using interpersonal communication strategies to encourage science conversations on social media. **PLoS One**, \[s.l.\], v. 15, n. 11, art. e0241972, nov. 2020. DOI: 10.1371/journal.pone.0241972.
 
-Gênero: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_<br/> Esfera: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_<br/>
-
-**TEXTO 2**
-
-Um acidente envolvendo uma carreta, dois caminhões e uma van na manhã desta sexta-feira (30) no Rodoanel, na região de São Bernardo do Campo, na Grande SP, deixou dez pessoas feridas, uma delas presa nas ferragens
-
-A colisão, que aconteceu por volta das 7h30, foi na pista externa na altura do Km 67.
-
-O trânsito está intenso no local e se estende por cerca de 13 quilômetros. Uma faixa continua interditada. Além do acostamento, duas faixas também foram liberadas para o tráfego de veículos.
-
-👉 Como foi o acidente: Segundo a SPMar, concessionária que administra o Rodoanel, a carreta trafegava pela faixa do meio quando, ainda não se sabe por que, reduziu de repente a velocidade. Com isso, a van bateu na sua traseira. Na sequência, o caminhão se chocou contra a traseira da van e foi atingido, em seguida, por outro caminho que vinha atrás.
-
-Gênero: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_<br/> Esfera: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_<br/>
-
-**TEXTO 3**
-
-**A Curitybina, para o que é indicado e para o que serve?** A Curitybina facilita a descamação da pele, removendo verrugas comuns e calos.
-
-**Como o A Curitybina funciona?** O ácido salicílico, princípio ativo de A Curitybina, facilita a descamação da pele através da solubilização de substâncias que mantém as camadas da pele unidas, por meio da perda da queratina (substância presente na pele que a mantem resistente e elástica). Essa perda da queratina promove também uma ação antifúngica, suprimindo, portanto, o crescimento de fungos e ajudando na penetração de agentes antifúngicos. O ácido salicílico promove, ainda, uma suave ação antisséptica.
-
-**Quais as contraindicações do A Curitybina?** Você não deve não deve usar A Curitybina se possuir hipersensibilidade a qualquer componente da sua fórmula. A Curitybina solução tópica não deve ser utilizada em pele inflamada, irritada ou infeccionada, em pacientes diabéticos ou com doença vascular periférica (problemas circulatórios nos braços e nas pernas); em verrugas faciais, genitais, orais; verrugas com pelo, pintas e marcas de nascença.
-
-Gênero: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_<br/> Esfera: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_<br/>
+NGUYEN, Ha; DIEDERICH, Morgan. Facilitating knowledge construction in informal learning: A study of TikTok scientific, educational videos. **Computers & Education**, \[s.l.\], v. 205, p. 104896, 2023. DOI: 10.1016/j.compedu.2023.104896.
 :::
 
-<!-- Aqui começa o campo de respostas-->
-
-<details>
-
-<summary>
-
-</summary>
-
-| Texto   | Gênero textual       | Esfera social |
-|---------|----------------------|---------------|
-| Texto 1 | Poema lírico         | Literária     |
-| Texto 2 | Notícia jornalística | Jornalística  |
-| Texto 3 | Bula de medicamento  | Médica        |
-
-</details>
-
-<!-- Aqui encerra o campo de respostas-->
-
-------------------------------------------------------------------------
-
-<br/><br/>
-
-Assim, com base na definição de Marcuschi (2003), podemos entender **gêneros textuais acadêmicos** como formas relativamente estáveis de enunciado que emergem das práticas sociais próprias do meio universitário e científico, como, por exemplo, *registrar leituras*, *relatar experiências*, *divulgar descobertas* ou *planejar investigações*.
-
-Compreendê-los, portanto, é essencial para atuar com eficácia e criticidade no universo acadêmico, desenvolvendo competências de leitura, escrita e fala em consonância com as práticas discursivas da ciência.
-
-::: destaque
-📌 Embora as expressões "acadêmico" e "científico" sejam muitas vezes usadas como sinônimos, é importante distinguir seus significados. O termo "acadêmico" abrange todas as práticas de leitura, escrita e fala que ocorrem no contexto universitário, inclusive aquelas com fins pedagógicos, reflexivos ou formativos. Já o termo "científico" refere-se, mais especificamente, à produção de conhecimento novo, sistemático e validado por métodos próprios de investigação.
-:::
-
-::: citacao
-"Cada gênero apresenta características específicas e funções determinadas." (Marcuschi, 2003, p. 19)
-:::
-
-## Aprendizagem prática
-
-Leia com atenção os dois textos apresentados. Em seguida, analise-os comparativamente, preenchendo a tabela com as principais diferenças linguísticas entre eles, com base nos critérios indicados (pessoa do discurso, tempo verbal, grau de formalidade, etc.). Para cada critério, apresente um exemplo retirado do texto que comprove sua análise. Ao final, classifique cada texto quanto ao gênero textual a que pertence.
-
-::: leitura
-**TEXTO 1**
-
-Neste trabalho, relata-se a elaboração e a aplicação de jogos educacionais utilizados em aulas de física do ensino médio em uma escola privada da região sul do Brasil durante a pandemia de Covid-19. Todos os jogos apresentados foram elaborados no MS PowerPoint®. Buscou-se confeccionar jogos que fossem atrativos aos estudantes e, por essa razão, alguns deles tinham como temática animes e histórias em quadrinhos (HQs). Os jogos construídos foram elaborados em versões digitais adaptadas de cruzadinhas, stop, memória, ludo e batalha naval e envolveram assuntos como termologia, ondulatória, cinemática e eletrodinâmica. Com a finalidade de compreender as percepções dos estudantes acerca do uso de jogos em sala de aula, aplicou-se um questionário após os estudantes terem diversas aulas nas quais os jogos foram utilizados. Como principais resultados, verificou-se que a característica lúdica do jogo deixa os estudantes mais predispostos com as questões escolares, contribuindo para o aprendizado. Para os alunos, o uso de jogos torna a aula mais dinâmica, aumentando a participação, o engajamento e a interação entre si e com a professora.
-
-**TEXTO 2**
-
-Em um final de semana no começo das férias escolares, eu e meus amigos estávamos nos preparando para uma viagem, a viagem que sempre sonhamos em fazer desde os nossos catorze anos. O dia estava ensolarado, e eu estava arrumando o resto das coisas que haviam faltado, quando recebi mensagem da minha amiga avisando que eu estava atrasada, peguei minhas coisas e saí correndo até o local onde havíamos marcado para esperar o ônibus. Chegando lá, todos os meus amigos já estavam dentro do ônibus e cantando diversas musicas, eu entrei e então seguimos viagem. Chegando na casa de praia, o mar estava lindo, era um belíssimo dia para se divertir na praia, chamei todos os meus amigos e fomos para praia, os meninos nos chamaram para ir até uma floresta que tinha próximo a praia, e então todos nós fomos. Nós entramos dentro da floresta e quando nos demos conta não sabíamos mais como voltar para casa, ficamos desesperados e já estávamos sem saber o que fazer, quando enxergamos a luz da nossa casa, ficamos felizes e saímos correndo até a nossa casa, e assim terminou o nosso primeiro dia de férias.
-:::
-
-```{r echo=FALSE, message=FALSE, warning=FALSE, results='asis'}
-library(googlesheets4)
-library(knitr)
-gs4_deauth()
-
-url <- "https://docs.google.com/spreadsheets/d/1meikWk8oShRVvn4Erjs4DwMnWpZorFjLTdaC03WByHg"
-tabela <- read_sheet(url, sheet = "Formalidade")
-
-# Substituir NA por "" (funciona com qualquer saída do kable)
-tabela[is.na(tabela)] <- ""
-
-kable(tabela, caption = "Características linguísticas", align = rep("c", ncol(tabela)))
-```
-
-:::: destaque
 ::: subtitulo-nao-numerado
-📌 Critérios
+O que é divulgação científica?
 :::
 
-**Pessoa do discurso**\
-Refere-se ao ponto de vista adotado pelo enunciador no texto. A primeira e a segunda pessoas (eu/nós/tu/você) indicam envolvimento direto, comum em relatos pessoais ou reflexões; a terceira pessoa (ele/ela/eles/elas) sinaliza distanciamento, impessoalidade e é preferida em textos científicos.
+Divulgação científica é qualquer atividade voltada a disseminar o conhecimento científico para além dos muros da universidade. Seu principal objetivo é **tornar o saber científico acessível, traduzindo jargões técnicos e mediando a distância entre a academia e a sociedade**.
 
-**Tempo verbal predominante**\
-Indica o tempo em que se desenvolvem as ações, fatos ou conceitos apresentados. O pretérito é típico de relatos e narrações de experiências vividas; o presente do indicativo é usual em textos argumentativos e expositivos, especialmente quando se referem a declarações ou análises conceituais. Já os tempos e modos verbais hipotéticos, como o futuro do pretérito (“contribuiria”, “seria possível”) e o subjuntivo (“caso ocorra”, “se fosse”), são frequentes em formulações de hipóteses, projeções e reflexões condicionais, comuns em textos científicos.
+Trata-se de aproximar o conhecimento produzido pela ciência da prática cotidiana e do imaginário social, contribuindo para que ele se torne socialmente relevante.
 
-**Grau de formalidade**\
-Diz respeito ao registro de linguagem utilizado. Textos com alto grau de formalidade evitam expressões coloquiais, usam vocabulário técnico e seguem normas gramaticais com mais rigor. A formalidade é típica da escrita acadêmica, enquanto a informalidade é mais comum em textos pessoais ou cotidianos. O registro coloquial é espontâneo, flexível, emocional. O registro formal é planejado, padronizado, objetivo.
-
-**Tipo de linguagem**\
-Refere-se à natureza predominante da linguagem utilizada: **denotativa**, quando o foco está na objetividade e clareza (comum em textos informativos e científicos), ou **conotativa**, quando há subjetividade e uso de figuras de linguagem (comum em textos literários e criativos).
-
-**Uso de conectores**\
-Conectores são palavras ou expressões que articulam ideias, estabelecendo relações de causa, consequência, contraste, adição, entre outras. Seu uso adequado favorece a coesão textual e é uma característica fundamental da escrita acadêmica clara e organizada.
-
-**Presença de opinião**\
-Indica se o texto expressa posicionamentos pessoais ou interpretações subjetivas. Textos opinativos fazem uso de marcadores como "acredito", "na minha visão", "é evidente que", e devem, no contexto acadêmico, ser sempre acompanhados de fundamentação e evidências.
-
-**Vocabulário**\
-Refere-se à escolha lexical do autor. Um vocabulário técnico e preciso é típico da escrita científica; já um vocabulário mais cotidiano, com expressões informais e gírias, caracteriza textos pessoais ou narrativos. A adequação vocabular depende do gênero, do propósito e do público-alvo do texto.
-::::
-
-<!-- Aqui começa o campo de respostas-->
-
-<details>
-
-<summary>
-
-</summary>
-
-| Critério | Texto 1 (científico) | Texto 2 (relato pessoal) |
-|----|----|----|
-| **Pessoa do discurso** | Terceira pessoa do singular: "relata-se", "aplicou-se", "verificou-se", "torna" | Primeira pessoa do singular e plural: "eu", "nós" |
-| **Tempo verbal** | Predomínio do pretérito perfeito e do presente: "relata-se", "buscou-se", "verificou-se" | Predomínio do pretérito: "estávamos", "seguimos", "chamei" |
-| **Grau de formalidade** | Formal, com vocabulário técnico, impessoalidade, estrutura padrão: "relata-se a elaboração e a aplicação de jogos educacionais" | Informal, com linguagem próxima da oralidade e uso de expressões coloquiais: "peguei minhas coisas e saí correndo" |
-| **Tipo de linguagem** | Denotativa, objetiva e referencial: "Com a finalidade de compreender as percepções dos estudantes acerca do uso de jogos em sala de aula, aplicou-se um questionário após os estudantes terem diversas aulas nas quais os jogos foram utilizados." | Conotativa, expressiva e descritiva: "O mar estava lindo, era um belíssimo dia para se divertir na praia." |
-| **Uso de conectores** | Apresenta conectores típicos da argumentação científica, que estabelecem relações de causa, finalidade e consequência com linguagem formal e precisa: “com a finalidade de” – conector típico de propósito, muito frequente em relatórios, projetos e artigos; “por essa razão”, “como principais resultados” – organizadores textuais que estruturam logicamente o texto acadêmico | Apresenta conectores típicos de sequenciação temporal e causalidade espontânea, característicos da oralidade e da narração do cotidiano: “quando”, “então”, “e assim” – expressões que marcam o encadeamento cronológico de ações, muito comuns em gêneros como relato pessoal, diário e narrativa experiencial |
-| **Presença de opinião** | Ausente ou implícita, com base em dados | Presente e direta: "ficamos desesperados", "era um belíssimo dia" |
-| **Vocabulário** | Técnico e específico: "característica lúdica", "percepções", "cinemática", "instrumentos de pesquisa" | Cotidiano e afetivo: "casa de praia", "coisas", "cantando músicas", "nossos catorze anos" |
-
-**Classificação dos gêneros**:
-
--   **Texto 1**: Resumo (parte de um artigo científico)
-
--   **Texto 2**: Relato pessoal
-
-</details>
-
-<!-- Aqui encerra o campo de respostas-->
-
-::: destaque
-Em contextos acadêmicos, a produção escrita se organiza em torno de **gêneros textuais específicos**, exigidos em diferentes etapas da formação. Cada um desses gêneros cumpre **funções comunicativas e institucionais bem definidas**.
+::: subtitulo-nao-numerado
+Por que falar de divulgação científica hoje?
 :::
 
-::: citacao
-“Os gêneros textuais acadêmicos se caracterizam muito mais pela função comunicativa e institucional do que por estruturas linguísticas” (Castro *et al*., 2019, p. 68).
+Nos últimos anos, a divulgação científica ganhou destaque por diversos motivos:
+
+-   A pandemia da COVID-19 trouxe cientistas ao centro do debate público, aumentando a visibilidade da ciência na mídia;
+-   O interesse popular pela ciência cresceu, inclusive como opção de carreira;
+-   A ciência passou a ser questionada por discursos negacionistas, como no caso das mudanças climáticas;
+-   O volume e a velocidade da produção científica dificultam o acesso do público, exigindo mediações qualificadas;
+-   No Brasil, o avanço do negacionismo reforçou a necessidade de estratégias eficazes de comunicação científica.
+
+::: subtitulo-nao-numerado
+Qual é o papel das redes sociais na divulgação científica?
 :::
 
-Para fins didáticos, propomos uma organização didática dos gêneros acadêmicos em três grupos funcionais:
+As redes sociais são ambientes férteis para o aprendizado informal, permitindo que pessoas aprendam, compartilhem e construam conhecimento em comunidade.
 
-1.  **Gêneros de estudo**: São gêneros que auxiliam o estudante na compreensão, análise e sistematização de obras e conteúdos acadêmicos.
+Contudo, a presença nas redes sociais, por si só, não garante o sucesso da divulgação científica. O fator decisivo para o engajamento está em como os recursos verbais e visuais são utilizados. Nesta aula, exploraremos o que algumas pesquisas recentes apontam como estratégias eficazes.
 
-    ✦ Fichamento
+::: subtitulo-nao-numerado
+Quais são os principais gêneros textuais de divulgação científica?
+:::
 
-    ✦ Resenha
+::: subsubtitulo-nao-numerado
+Impressos
+:::
 
-    ✦ Resumo
+-   Artigo de divulgação: revistas como Superinteressante ou Galileu;
+-   Matéria jornalística: jornais e portais (ex.: G1, Nexo);
+-   Resenha de livros científicos;
+-   Livro de divulgação científica: obras acessíveis de autores como Hawking e Atila Iamarino.
 
-2.  **Gêneros de planejamento acadêmico**: São textos utilizados na organização das atividades de pesquisa, extensão ou ensino, geralmente em etapas iniciais.
+::: subsubtitulo-nao-numerado
+Digitais e multimodais
+:::
 
-    ✦ Plano de trablalho
+-   Postagens em redes sociais: carrosséis, reels, stories, threads;
+-   Blog de ciência: textos reflexivos e explicativos;
+-   Vídeo científico: YouTube, TikTok, Instagram;
+-   Podcast: entrevistas e debates em áudio;
+-   Infográfico: dados visuais combinados com texto;
+-   Newsletter científica: atualizações por e-mail;
+-   Matéria jornalística: jornais e portais online (ex.: G1, Nexo, Uol, etc.).
 
-    ✦ Projeto de pesquisa
 
-3.  **Gêneros de informação/divulgação científica**: São produções destinadas à comunicação de resultados, experiências e reflexões, seja no meio acadêmico ou na interface com a sociedade.
+::: subsubtitulo-nao-numerado
+Orais e interativos
+:::
 
-    ✦ Artigo científico
+-   Palestras e TED Talks.
+-   Lives científicas: transmissões com interação.
+-   Debates e entrevistas públicas.
 
-    ✦ Relato de experiência
+::: subsubtitulo-nao-numerado
+Híbridos e de transposição
+:::
 
-    ✦ Comunicação oral
+-   Resumo acessível: simplificação de artigo acadêmico.
+-   Relato de experiência científica: tom pessoal e narrativo.
+-   Materiais de extensão: vídeos, cartilhas, oficinas.
 
-    ✦ Squib (ou nota técnica)
+::: subtitulo-nao-numerado
+Quais são as estratégias de comunicação?
+:::
 
-4.  **Trabalhos finais de curso e pós-graduação**: São produções de caráter conclusivo, elaboradas ao término de cursos de graduação e pós-graduação, com exigências metodológicas formais.
+As pesquisas indicam que diversas estratégias de comunicação, particularmente em plataformas de mídia social, são eficazes para gerar engajamento do público, especialmente no contexto da comunicação científica. As principais estratégias incluem:
 
-    ✦ TCC ou Monografia
+::: subsubtitulo-nao-numerado
+Comunicação interpessoal e humanização
+:::
 
-    ✦ Dissertação (Mestrado)
+-   **Uso de selfies (imagens e vídeos)**\
+    Cientistas que usam selfies, especialmente vídeos em que falam diretamente para a câmera, transmitem autenticidade e convidam à interação. Isso humaniza o comunicador e fortalece o vínculo com o público.
 
-    ✦ Tese (Doutorado)
+::: img-central
+<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DKzQCSNvPPR/?utm_source=ig_web_copy_link" data-instgrm-version="14">
+
+</blockquote>
+
+```{=html}
+<script async src="//www.instagram.com/embed.js"></script>
+```
+:::
+
+-   **Conteúdo pessoal e relacionável**\
+    Alternar entre publicações científicas e conteúdos mais leves (como humor, cotidiano e entretenimento) torna o comunicador mais acessível. O público tende a seguir pessoas com quem se identifica.
+
+::: img-central
+<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DKSq1ChpV3c/?igsh=ZjIwYWY4YWVwMHQx" data-instgrm-version="14">
+
+</blockquote>
+
+```{=html}
+<script async src="//www.instagram.com/embed.js"></script>
+```
+:::
+
+-   **Uso de pronomes de primeira pessoa**\
+    O uso de “eu”, “nós”, “meu” e similares cria uma narrativa mais próxima e compartilhada, que contribui para o engajamento afetivo com o público.
+
+::: img-central
+<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DDAv1c4Bwl1/?igsh=Y29maTVkbG5yOXd4" data-instgrm-version="14">
+
+</blockquote>
+
+```{=html}
+<script async src="//www.instagram.com/embed.js"></script>
+```
+:::
+
+::: subsubtitulo-nao-numerado
+Conteúdo visual e narrativo
+:::
+
+-   **Imagens, vídeos, memes e GIFs**\
+    Recursos visuais são fundamentais para atrair a atenção.
+
+::: img-central
+<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C6dr_gBrJL2/?igsh=bzVucXdwY2ZmaHBt" data-instgrm-version="14">
+
+</blockquote>
+
+```{=html}
+<script async src="//www.instagram.com/embed.js"></script>
+```
+:::
+
+-   **Narratividade nas imagens**\
+    Imagens que contam uma história ou representam uma ação são mais engajadoras, pois despertam emoções e conectam com o público.
+
+::: img-central
+<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/Chas1PdFFEk/?igsh=enJobW9saGttbTlx" data-instgrm-version="14">
+
+</blockquote>
+
+```{=html}
+<script async src="//www.instagram.com/embed.js"></script>
+```
+:::
+
+-   **Descrições visuais**\
+    Palavras que ativam a imaginação visual (“ver”, “olhar”, “enxergar”) contribuem para o efeito de imersão.
+
+::: img-central
+<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DKJ_RK1OYNk/?utm_source=ig_web_copy_link&amp;igsh=MzRlODBiNWFlZA==" data-instgrm-version="14">
+
+</blockquote>
+
+```{=html}
+<script async src="//www.instagram.com/embed.js"></script>
+```
+:::
+
+-   **Enquadramento com harmonia**\
+    Imagens visualmente equilibradas e bem compostas favorecem a recepção positiva.
+
+::: img-central
+<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DLNFecWOrJW/?igsh=MWR6ajF5Znd4enZpZg==" data-instgrm-version="14">
+
+</blockquote>
+
+```{=html}
+<script async src="//www.instagram.com/embed.js"></script>
+```
+:::
+
+-   **Distância e ponto de vista**\
+    Em alguns contextos, planos distantes ou de baixo para cima (ângulo baixo) têm mais impacto emocional e estético.
+
+::: img-central
+<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/C_9JzeDv-sg/?igsh=MXVkdGpubGVoeHM5YQ==" data-instgrm-version="14">
+
+</blockquote>
+
+```{=html}
+<script async src="//www.instagram.com/embed.js"></script>
+```
+:::
+
+::: subsubtitulo-nao-numerado
+Características do conteúdo e tom
+:::
+
+-   **Informatividade e linguagem analítica**\
+    Publicações que explicam bem e usam uma linguagem clara e lógica promovem comentários que compartilham conhecimento.
+
+::: img-central
+<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DKUjijLRgPT/?igsh=MXZjMXI1bDYza2hxeg==" data-instgrm-version="14">
+
+</blockquote>
+
+```{=html}
+<script async src="//www.instagram.com/embed.js"></script>
+```
+:::
+
+-   **Expressão de emoções**\
+    Emoções como alegria, raiva ou ansiedade, quando autênticas, fortalecem o impacto da mensagem e ampliam o engajamento.
+
+::: img-central
+<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/Cq1Hr7XLYBU/?igsh=bG9qOXNoYWRrdDV0" data-instgrm-version="14">
+
+</blockquote>
+
+```{=html}
+<script async src="//www.instagram.com/embed.js"></script>
+```
+:::
+
+-   **Autenticidade e tom tentativo**\
+    Um estilo mais honesto, humilde e verdadeiro — mesmo quando admite dúvidas — é valorizado pelo público e gera confiança.
+
+::: img-central
+<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/C_A06mAM81c/?igsh=MTh5aHo1aDFrOW9hMw==" data-instgrm-version="14">
+
+</blockquote>
+
+```{=html}
+<script async src="//www.instagram.com/embed.js"></script>
+```
+:::
+
+-   **Chamadas para ação e perguntas**\
+    Frases como “O que você pensa sobre isso?” ou “Marque alguém que se interesse” incentivam respostas e compartilhamentos.
+
+::: img-central
+<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DKAxgDcsMTc/?igsh=Y2hxd2s1OXdkdnBw" data-instgrm-version="14">
+
+</blockquote>
+
+```{=html}
+<script async src="//www.instagram.com/embed.js"></script>
+```
+:::
+
+-   **Relatabilidade e humor**\
+    Conteúdo que desperta empatia ou diversão facilita o engajamento. Humor bem dosado é um excelente catalisador de comentários.
+
+::: img-central
+<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DKzWROouS3_/?igsh=MWNxMzc5cHF3c3Z2aQ==" data-instgrm-version="14">
+
+</blockquote>
+
+```{=html}
+<script async src="//www.instagram.com/embed.js"></script>
+```
+:::
+
+::: subsubtitulo-nao-numerado
+Outras estratégias...
+:::
+
+-   **Brevidade (nano/microlearning)**\
+    Em plataformas como TikTok, vídeos de até 2 minutos com mensagens diretas e criativas são mais eficazes para informar e engajar.
+
+-   **Responder aos comentários**\
+    Estimular conversas e responder perguntas ou elogios cria uma relação mais próxima com a audiência e convida à continuidade do diálogo.
+
+-   **Uso de hashtags**\
+    Hashtags conectam postagens a temas maiores e ampliam o alcance. Devem ser usadas com critério, incluindo hashtags científicas relevantes.
+
+-   **Priorizar o Instagram**\
+    O Instagram é mais eficaz do que o Twitter para interações pessoais e visuais. Sua informalidade e recursos multimodais (stories, reels, carrosséis) favorecem a criação de vínculo com o público.
+
+::: subtitulo-nao-numerado
+Resumo das recomendações
+:::
+
+-   Mostre o rosto e fale diretamente com o público;\
+-   Mescle ciência com conteúdos leves e cotidianos;\
+-   Use pronomes pessoais para criar proximidade;\
+-   Responda aos comentários com atenção e frequência;\
+-   Invista em imagens e vídeos com narrativa e harmonia;\
+-   Use emoções, autenticidade e tom conversacional;\
+-   Insira hashtags bem escolhidas e chamadas para ação.

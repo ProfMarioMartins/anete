@@ -35,12 +35,11 @@ book:
        - Aula_5.qmd
        - Aula_6.qmd
        - Aula_7.qmd
-#      - Aula_8.qmd
 
-#    - part: "Unidade II"
-#      chapters:
-#      - Aula_9.qmd
-#      - Aula_10.qmd
+    - part: "Unidade II"
+      chapters:
+       - Aula_8.qmd
+       - Aula_9.qmd
 #      - Aula_11.qmd
 #      - Aula_12.qmd
 #      - Aula_13.qmd
@@ -60,22 +59,22 @@ book:
 #      - tutorial_tema_pesquisa.qmd
 #      - checklist_postagem.qmd
 
-#    - part: "Modelos"
-#      chapters:
+    - part: "Modelos"
+      chapters:
 #      - modelo_plano.qmd
-#      - modelo_relatorio.qmd
+       - modelo_relatorio.qmd
 #      - modelo_video.qmd
 #      - modelo_carrossel.qmd
 
-#    - part: "Avaliações"
-#      chapters:
-#      - 1_Avaliacao.qmd
-#      - 2_Avaliacao.qmd
+    - part: "Avaliações"
+      chapters:
+       - 1_Avaliacao.qmd
+       - 2_Avaliacao.qmd
 #      - 3_Avaliacao.qmd
 
     - part: "Complementos"
       chapters:
-#      - Aula_crono.qmd
+       - Aula_crono.qmd
 #      - sorteio.qmd
 #      - padlet.qmd
        - portifolio.qmd

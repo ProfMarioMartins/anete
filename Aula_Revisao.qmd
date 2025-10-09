@@ -1,0 +1,7 @@
+---
+title: "Revisão de conteúdos"
+---
+
+```{=html}
+<div style="width:100%;display:flex;flex-direction:column;gap:8px;min-height:635px;"><iframe src="https://quizizz.com/embed/quiz/682861d08138e46a067e49cc" title="1ª Avaliação - Simulado - Quizizz" style="flex:1;" frameBorder="0" allowfullscreen></iframe><a href="https://quizizz.com/admin?source=embedFrame" target="_blank">Explore more at Quizizz.</a></div>
+```

@@ -12,8 +12,8 @@ O **gerenciamento de citações e referências bibliográficas** é essencial pa
 
 Ao final deste encontro, espera-se que você seja capaz de:
 
-- **utilizar o Zotero para criar uma coleção temática, adicionar referências bibliográficas relevantes e gerar um relatório técnico com os metadados dessas referências**, desenvolvendo habilidades de organização e curadoria de fontes acadêmicas;
-- **inserir corretamente citações e referências bibliográficas em um documento utilizando o Zotero no Google Docs**, com base no estilo ABNT (NBR 6023).
+-   **utilizar o Zotero para criar uma coleção temática, adicionar referências bibliográficas relevantes e gerar um relatório técnico com os metadados dessas referências**, desenvolvendo habilidades de organização e curadoria de fontes acadêmicas;
+-   **inserir corretamente citações e referências bibliográficas em um documento utilizando o Zotero no Google Docs**, com base no estilo ABNT (NBR 6023).
 
 <br/>
 
@@ -21,44 +21,45 @@ Ao final deste encontro, espera-se que você seja capaz de:
 
 Nesta etapa, você construirá uma coleção temática de referências bibliográficas utilizando o Zotero.
 
-1. **Crie uma nova coleção no Zotero**, atribuindo um nome relacionado ao seu tema de investigação (ex.: *Ensino de Física*).
+1.  **Crie uma nova coleção no Zotero**, atribuindo um nome relacionado ao seu tema de investigação (ex.: *Ensino de Física*).
 
-2. Em bases de dados confiáveis — como o **Portal de Periódicos da CAPES**, **Google Acadêmico** ou **SciELO** —, localize **quatro artigos científicos relevantes** para o seu tema. Em seguida, **adicione esses quatro artigos, juntamente com o artigo que serviu como ponto de partida da atividade, à coleção criada no Zotero**.
+2.  Em bases de dados confiáveis — como o **Portal de Periódicos da CAPES**, **Google Acadêmico** ou **SciELO** —, localize **quatro artigos científicos relevantes** para o seu tema. Em seguida, **adicione esses quatro artigos, juntamente com o artigo que serviu como ponto de partida da atividade, à coleção criada no Zotero**.
 
 ::: callout-warning
 Atenção: **não selecione TCCs, dissertações ou teses**.
 :::
 
-3. Utilize o **Zotero Connector** para capturar os metadados completos de cada obra. Verifique se os campos estão corretamente preenchidos (título, autores, ano, editora, DOI ou URL). Caso necessário, **edite os dados manualmente**.
+3.  Utilize o **Zotero Connector** para capturar os metadados completos de cada obra. Verifique se os campos estão corretamente preenchidos (título, autores, ano, editora, DOI ou URL). Caso necessário, **edite os dados manualmente**.
 
-4. **Gere um relatório da coleção**:
-   - Clique com o botão direito sobre a coleção;
-   - Selecione **“Gerar relatório a partir da coleção...”**;
-   - Um documento será exibido com os metadados das obras.
+4.  **Gere um relatório da coleção**:
 
-5. **Salve o relatório no formato `.html`** em sua conta institucional no **Google Drive**.
+    -   Clique com o botão direito sobre a coleção;
+    -   Selecione **“Gerar relatório a partir da coleção...”**;
+    -   Um documento será exibido com os metadados das obras.
 
-6. **Compartilhe o link de acesso ao arquivo `.html`** com a turma, por meio do **chat do Gmail institucional**.
+5.  **Salve o relatório no formato `.html`** em sua conta institucional no **Google Drive**.
 
----
+6.  **Compartilhe o link de acesso ao arquivo `.html`** com a turma, por meio do **chat do Gmail institucional**.
+
+------------------------------------------------------------------------
 
 ## Aprendizagem prática
 
 Nesta etapa, você aplicará os dados organizados no Zotero na produção de um texto com citação e referência automática.
 
-1. Mantenha o **Zotero** em execução no seu computador.
+1.  Mantenha o **Zotero** em execução no seu computador.
 
-2. Abra um novo documento no **Google Docs**, com o título: *Citações e referências com Zotero — [Seu Nome]*.
+2.  Abra um novo documento no **Google Docs**, com o título: *Citações e referências com Zotero — \[Seu Nome\]*.
 
-3. **Escreva um parágrafo entre 5 e 10 linhas**, apresentando o seu tema de pesquisa e justificando sua escolha. Utilize **ao menos dois artigos da coleção criada anteriormente** para inserir **citações diretas (curtas)** ou **indiretas**, conforme apropriado.
+3.  **Escreva um parágrafo entre 5 e 10 linhas**, apresentando o seu tema de pesquisa e justificando sua escolha. Utilize **ao menos dois artigos da coleção criada anteriormente** para inserir **citações diretas (curtas)** ou **indiretas**, conforme apropriado.
 
-4. Durante a escrita, clique em **Zotero > Add/Edit Citation** (menu superior do Google Docs) para **inserir as citações** dos artigos selecionados.
+4.  Durante a escrita, clique em **Zotero \> Add/Edit Citation** (menu superior do Google Docs) para **inserir as citações** dos artigos selecionados.
 
-5. Após o parágrafo, clique em **Zotero > Add/Edit Bibliography** para **gerar automaticamente a lista de referências bibliográficas**.
+5.  Após o parágrafo, clique em **Zotero \> Add/Edit Bibliography** para **gerar automaticamente a lista de referências bibliográficas**.
 
-6. Revise o estilo de citação aplicado. Caso necessário, ajuste em **Zotero > Document Preferences**, selecionando o estilo **ABNT (NBR 6023)**.
+6.  Revise o estilo de citação aplicado. Caso necessário, ajuste em **Zotero \> Document Preferences**, selecionando o estilo **ABNT (NBR 6023)**.
 
-7. **Compartilhe o link do seu documento no Google Docs** com a turma, por meio do **chat do Gmail institucional**.
+7.  **Compartilhe o link do seu documento no Google Docs** com a turma, por meio do **chat do Gmail institucional**.
 
 ::: enfase
 ✅ Lembre-se: tanto as citações quanto as referências devem ser geradas automaticamente pelo Zotero, com base nos dados da sua coleção.

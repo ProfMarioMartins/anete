@@ -1,5 +1,5 @@
 ---
-title: "Programa"
+title: "Programa geral da disciplina"
 ---
 
 ::: titulo-nao-numerado

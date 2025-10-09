@@ -1,5 +1,5 @@
 ---
-title: "Fichamento"
+title: "O que é um resumo científico?"
 ---
 
 ::: nota-secundaria
@@ -10,150 +10,410 @@ Roteiro de aula elaborado no RStudio com o auxílio de chatbots de inteligência
 
 Ao final desta aula, espera-se que você seja capaz de:
 
--   Explicar o conceito e o objetivo do fichamento acadêmico.
--   Reconhecer os tipos de fichamento e suas aplicações na produção científica.
--   Realizar um fichamento de resumo/conteúdo no Zotero.
--   Utilizar o Zotero no celular para organizar fichamentos e referências.
+-   Compreender a função do resumo no contexto acadêmico;
+-   Identificar os movimentos retóricos típicos do gênero resumo;
+-   Distinguir resumos bem estruturados de resumos que omitem movimentos essenciais;
+-   Aplicar os conceitos estudados na análise de resumos reais.
 
-::: leitura
+::: {#leitura}
 **Leituras indicadas:**\
-CASTRO, Nádia Studzinski Estima de et al. *Leitura e escrita acadêmicas*. Porto Alegre: Sagah, 2019. Capítulo: “Fichamento acadêmico”, p. 53–64.\
-[🔗 Acesso à leitura](vbk://9788533500228/page/53)
+CASTRO, Nádia Studzinski Estima de et al. *Leitura e escrita acadêmicas*. Porto Alegre: Sagah, 2019. Capítulo: “Gêneros acadêmicos”, p. 67–72.\
+[🔗 Acesso à leitura](vbk://9788533500228/page/67)
 
-CAMPOS, M. *Gêneros acadêmicos: resenha, fichamento, memorial e projeto de pesquisa*. Mariana: Fundação Presidente Antônio Carlos, 2010. Capítulo: "Como elaborar um fichamento". [🔗 Acesso à leitura](SIGAA)
+**Abstract/resumo acadêmico** (p. 151-162), capítulo do livro *Produção textual na universidade*, de Désirée Motta-Roth e Graciela Rabuske Hendge. Disponível na Biblioteca Física.
 :::
 
 ## Introdução
 
-O **fichamento** é um gênero de texto que, Segundo Castro *et al*. (2019, p. 53), consiste no **registro sistemático das leituras realizadas**, funcionando como um apoio à organização do conhecimento e à futura redação dos trabalhos científicos.
+**Gêneros textuais**...
 
-Castro e outros (2019, p. 53) afirmam que o objetivo do fichamento é
+-   são realizações linguísticas concretas definidas por propriedades sociocomunicativas;
+-   constituem textos empiricamente realizados, cumprindo funções em situações comunicativas;
+-   a sua nomeação abrange um conjunto aberto e praticamente ilimitado de designações concretas determinadas por canal, estilo, conteúdo, composição e função.
+
+<br/> Compreender o funcionamento dos gêneros acadêmicos exige não apenas o reconhecimento de suas funções sociocomunicativas, mas também a análise de como essas funções se concretizam linguisticamente. É nesse ponto que entra o conceito de estrutura retórica.
 
 ::: citacao
-“\[...\] armazenar informações importantes de forma organizada e prática, permitindo ao estudante retomar os conteúdos lidos sem a necessidade de reler o texto na íntegra”.
+A partir de Swales (2004)[^aula_10-1], pode-se definir **estrutura retórica** como a organização funcional de um gênero textual em movimentos retóricos recorrentes, orientados para o cumprimento de objetivos comunicativos específicos. Essa estrutura considera o contexto de produção, a audiência e as convenções disciplinares ou culturais da comunidade discursiva a que pertence o gênero.
+
+Ainda em linha com Swales (2004), um **movimento retórico** é uma unidade discursiva que desempenha uma função comunicativa coerente em um discurso escrito ou oral.
+
+<img src="img/move_geral.png" alt="Práticas sociais" class="img-central"/>
 :::
 
-Em outras palavras, o fichamento ajuda a **otimizar o tempo e a garantir rigor na utilização das fontes**.
+[^aula_10-1]: SWALES, J. M. Research Genres Explorations and Applications. Cambridge: Cambridge University Press, 2004.
 
-Há diversos tipos de fichamento:
+<br/>
 
-::: subtitulo-nao-numerado
-Fichamento bibliográfico
+Agora vamos aprofundar nosso conhecimento sobre a estrutura retórica de alguns dos gêneros textuais mais recorrentes na esfera universitária, a começar pelo **resumo**.
+
+O **resumo** - ou *abstract*, em inglês - é um gênero textual que sintetiza as informações mais relevantes de um trabalho científico. Esse gênero pode ocorrer de maneira autônoma, como em resumos publicados isoladamente nos anais de eventos acadêmicos ou em bancos de dados, ou ainda integrar outras produções científicas, como artigos, relatórios técnicos, dissertações e teses, funcionando como parte estratégica do texto completo.
+
+::: citacao
+Como sintetizam Motta-Roth e Rabuske (2010), para que cumpra seu papel com clareza e eficácia, o resumo precisa organizar-se em movimentos retóricos específicos, que orientam o leitor quanto ao contexto da pesquisa, aos objetivos e métodos empregados, e aos principais resultados alcançados.
+
+<img src="img/moves.png" alt="Práticas sociais" class="img-central"/>
 :::
 
-Traz a referência completa da obra e indica partes importantes da estrutura, como capítulos e tópicos relevantes.
+```{r echo=FALSE, message=FALSE, warning=FALSE, results='asis'}
+library(knitr)
+library(kableExtra)
 
-```{=html}
-<figure style="text-align: center;">
-  <img src="img/fichamento_bibliografico.png" style="width:80%; display: block; margin: auto;" />
-  <figcaption><strong>Figura 1.</strong> Exemplo de fichamento bibliográfico. Extraido de Campos (2010).</figcaption>
-</figure>
+dados <- data.frame(
+  Movimento = c(
+    "1. Situar a pesquisa", "", "", "", "", "",
+    "2. Apresentar a pesquisa", "", "",
+    "3. Descrever a metodologia",
+    "4. Sumarizar os resultados",
+    "5. Discutir a pesquisa", ""
+  ),
+  Submovimentos = c(
+    "Estabelecer interesse no tópico",
+    "Fazer generalizações do tópico",
+    "Citar pesquisas prévias",
+    "Estender pesquisas prévias",
+    "Contra-argumentar pesquisas prévias",
+    "Indicar lacunas em pesquisas prévias",
+    "Indicar as principais características",
+    "Apresentar objetivo(s)",
+    "Levantar hipótese(s)",
+    "Apresentar procedimento(s)",
+    "Apontar principais achados",
+    "Apresentar conclusão(ões)",
+    "Recomendar aplicação(ões) futura(s)"
+  ),
+  Exemplo = c(
+    "O ensino de Física por meio de metodologias ativas tem ganhado destaque nos últimos anos.",
+    "Estudos apontam que os alunos demonstram maior engajamento quando a Física é ensinada com recursos experimentais.",
+    "Pesquisas como as de Silva et al. (2021) destacam o uso de jogos didáticos no ensino de cinemática.",
+    "Este estudo amplia a proposta de Moreira (2020) ao aplicar a metodologia em turmas do 2º ano.",
+    "Diferente de autores anteriores, não se investigaram os efeitos do lúdico na aprendizagem significativa.",
+    "Ainda são escassos os estudos que avaliam o impacto do uso de simuladores virtuais em escolas públicas.",
+    "Trata-se de uma investigação qualitativa com ênfase na análise de relatos de professores da rede básica.",
+    "O objetivo é avaliar a eficácia de uma sequência didática baseada em experimentos de óptica.",
+    "Hipotetiza-se que atividades experimentais favorecem a compreensão conceitual de fenômenos físicos.",
+    "A metodologia envolveu aplicação de uma sequência didática com uso de simuladores PhET.",
+    "Os resultados mostram melhora significativa no desempenho dos alunos após as intervenções.",
+    "Conclui-se que o uso de tecnologia digital contribui para a aprendizagem em Física.",
+    "Sugere-se replicar o estudo em outras redes de ensino com diferentes perfis de estudantes."
+  )
+)
+
+kable(dados, align = "l", col.names = c("Movimento", "Submovimentos", "Exemplo")) %>%
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover")) %>%
+  add_footnote("Fonte: Adaptado de Motta-Roth e Rabuske (2010) com exemplos elaborados pelo professor.")
 ```
-
-<br>
-
-```{=html}
-<figure style="text-align: center;">
-  <img src="img/fichamento_bibliografico_zotero.png" style="width:80%; display: block; margin: auto;" />
-  <figcaption><strong>Figura 2.</strong> Exemplo de fichamento bibliográfico no Zotero. Elaborado pelo professor.</figcaption>
-</figure>
-```
-
-<br>
-
-::: subtitulo-nao-numerado
-Fichamento de citações
-:::
-
-Registra trechos literais da obra, devidamente indicados entre aspas e com a referência da página.
-
-```{=html}
-<figure style="text-align: center;">
-  <img src="img/fichamento_citacao.png" style="width:80%; display: block; margin: auto;" />
-  <figcaption><strong>Figura 3.</strong> Exemplo de fichamento de citações. Extraido de Campos (2010).</figcaption>
-</figure>
-```
-
-<br>
-
-```{=html}
-<figure style="text-align: center;">
-  <img src="img/fichamento_citacao_zotero.png" style="width:80%; display: block; margin: auto;" />
-  <figcaption><strong>Figura 4.</strong> Exemplo de fichamento de citações no Zotero. Elaborado pelo professor.</figcaption>
-</figure>
-```
-
-<br>
-
-::: subtitulo-nao-numerado
-Fichamento de resumo
-:::
-
-Apresenta, com as palavras do próprio estudante, as ideias principais do texto lido, organizadas de acordo com a necessidade da pesquisa.
-
-O fichamento de resumo **\[...\] “exige uma leitura atenta e reflexiva, pois implica reelaborar as ideias do autor com fidelidade e clareza”** (Castro *et al*., 2019).
-
-```{=html}
-<figure style="text-align: center;">
-  <img src="img/fichamento_resumo.png" style="width:80%; display: block; margin: auto;" />
-  <figcaption><strong>Figura 5.</strong> Exemplo de fichamento de resumo. Extraido de Campos (2010).</figcaption>
-</figure>
-```
-
-<br>
-
-```{=html}
-<figure style="text-align: center;">
-  <img src="img/fichamento_resumo_zotero.png" style="width:80%; display: block; margin: auto;" />
-  <figcaption><strong>Figura 6.</strong> Exemplo de fichamento de resumo no Zotero. Elaborado pelo professor.</figcaption>
-</figure>
-```
-
-<br>
-
-::: destaque
-Além de ser uma ferramenta de estudo, o fichamento colabora para o desenvolvimento da **autonomia intelectual**, na medida em que o estudante exercita a seleção e organização de informações, preparando-se para o diálogo crítico com os textos.
-:::
 
 ## Aprendizagem prática
 
-Elabore um fichamento de resumo combinado com fichamento de citações do artigo selecionado para a sua mídia de divulgação científica. O fichamento deve conter cerca de 200 a 300 palavras e estar organizado no campo Notas da entrada do Zotero. Estruture da seguinte forma:
-
--   Uma síntese das ideias principais, em tópicos, com suas palavras.
--   Até três citações diretas relevantes (com indicação da página).
--   Observações pessoais ou críticas que possam embasar sua produção da mídia.
-
-::: enfase
-Após fazer o fichamento no Zotero, faça um print de tela e poste no chat da turma!
+::: titulo-nao-numerado
+Objetivo
 :::
 
-<br>
+Analisar a organização retórica de resumos acadêmicos a partir de uma abordagem sociorretórica, identificando os movimentos retóricos que estruturam esse gênero textual no contexto da produção científica brasileira.
 
+::: subtitulo-nao-numerado
+🔍 Etapas da atividade
+:::
+
+1.  No [Portal de Periódicos da Capes](https://www.periodicos.capes.gov.br/), selecione um **artigo científico completo** que atenda aos seguintes critérios:
+
+    ✦ Esteja **relacionado ao seu tema de pesquisa**.\
+    ✦ Tenha sido **publicado em periódico científico classificado como A1, A2, A3 ou A4** no Qualis (última atualização disponível).\
+    ✦ Esteja **disponível em acesso aberto**.\
+    ✦ Tenha passado por **revisão por pares** (peer-reviewed).\
+    ✦ Tenha um **resumo explícito**, preferencialmente em português.
+
+2.  Copie o texto integral do resumo e cole no campo apropriado do formulário abaixo.
+
+3.  Realize a segmentação do resumo conforme os cinco movimentos retóricos propostos.
+
+-   Para cada movimento identificado, copie e cole no campo correspondente o(s) trecho(s) que o representa(m); e classifique-o segundo as opções disponíveis no formulário.
+
+-   Se um movimento não estiver presente no resumo, indique isso no formulário, selecionando a opção “Movimento não acontece”.
+
+-   Se houver um movimento cuja classificação não esteja disponível, nomeie-o no campo adequado.
+
+📌 Recomendações importantes:
+
+-   Certifique-se de analisar criticamente o resumo, considerando a função comunicativa de cada trecho e não apenas marcadores superficiais.
+
+-   Esta atividade visa o desenvolvimento da consciência retórica, contribuindo para a sua própria capacidade de escrever bons resumos acadêmicos no futuro.
+
+-   A análise deve ser feita individualmente, com base nos princípios estudados em aula.
+
+------------------------------------------------------------------------
+
+<!-- 🌐 Formulário para anotação de movimentos retóricos em resumos -->
+
+::: formulario
 ```{=html}
-<figure style="text-align: center;">
-  <img src="img/fichamento_aprendizagem.jpeg" style="width:30%; display: block; margin: auto;" />
-  <figcaption><strong>Figura 7.</strong> Exemplo de fichamento de resumo combinado com fichamento de citações no Zotero. Elaborado pelo professor.</figcaption>
-</figure>
+<style>
+  .form-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 1.5em;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.08);
+    box-sizing: border-box;
+  }
+
+  .form-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 1em;
+  }
+
+  .form-container label {
+    display: block;
+    margin-bottom: 0.5em;
+    color: #222;
+    font-weight: 600;
+  }
+
+  .form-container input,
+  .form-container textarea,
+  .form-container select {
+    width: 100%;
+    padding: 0.75em;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 1em;
+    margin-bottom: 1.2em;
+  }
+
+  .form-container textarea {
+    resize: vertical;
+  }
+
+  .form-container button {
+    background-color: #007acc;
+    color: white;
+    padding: 0.9em 1.2em;
+    font-size: 1em;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+  }
+
+  .form-container button:hover {
+    background-color: #005f99;
+  }
+
+  @media (max-width: 600px) {
+    .form-container {
+      padding: 1em;
+    }
+  }
+</style>
 ```
 
-<!-- Aqui começa o campo de respostas-->
+```{=html}
+<div class="form-container">
+  <form id="form-resumo">
 
-<details>
+    <h2>📄 Análise de resumos</h2>
 
-<summary>
+    <label>Seu nome:
+      <input type="text" name="nome" required>
+    </label>
 
-</summary>
+    <label><strong>Título do artigo:</strong>
+      <input type="text" name="titulo" required placeholder="Informe o título do artigo analisado">
+    </label>
+    
+    <label><strong>Área de conhecimento:</strong>
+      <input type="text" name="area" required placeholder="Informe a área de conhecimento do artigo analisado (conforme informado no Qualis)">
+    </label>
 
-:::: {style="width: 100%; background-color:#ADD8E6; font-size: 18px; line-height: 1.5; padding: 15px;"}
-Após a leitura atenta do artigo que você selecionou para a elaboração da mídia de divulgação científica e a realização do fichamento por suas próprias habilidades, crie um prompt para gerar, com apoio de inteligência artificial, um **fichamento de resumo combinado com um fichamento de citações**. Copie a resposta ao prompt, revise-a criticamente e cole o resultado no campo Notas do artigo registrado no Zotero.
+    <label>Resumo:
+      <textarea name="resumo" rows="5" required placeholder="Cole aqui o texto integral do resumo..."></textarea>
+    </label>
 
-::: enfase
-⚠️ Compartilhe o prompt criado por você no chat da turma. No chat, está liberado dialogarmos sobre os prompts a fim de aprimorarmos eticamente nossas habilidades de uso da IA.
+    <!-- Situar -->
+    <label>Situando a pesquisa:
+      <textarea name="situar_texto" rows="3" placeholder="Cole aqui o trecho que situa a pesquisa"></textarea>
+    </label>
+    <label>Selecione o(s) modo(s) como a pesquisa está sendo situada:<br/>
+      <small>(Use Ctrl ou Shift para selecionar mais de uma opção)</small>
+      <select name="situar_opcao[]" multiple>
+        <option>Indicando o interesse no tópico de pesquisa</option>
+        <option>Fazendo generalizações sobre o tópico de pesquisa</option>
+        <option>Estendendo pesquisas prévias</option>
+        <option>Citando pesquisas prévias</option>
+        <option>Contra-argumentando pesquisas prévias</option>
+        <option>Indicando lacunas em pesquisas prévias</option>
+        <option>Indicando a área de conhecimento</option>
+        <option>Movimento não acontece</option>
+        <option>Outro</option>
+      </select>
+    </label>
+    
+    <label>Se você marcou "Outro" acima, descreva aqui:
+      <input type="text" name="situar_outro" placeholder="Descreva a alternativa não listada">
+    </label>
+
+    <!-- Apresentar -->
+    <label>Apresentando a pesquisa:
+      <textarea name="apresentar_texto" rows="3" placeholder="Cole aqui o trecho que apresenta a pesquisa"></textarea>
+    </label>
+    <label>Selecione o(s) modo(s) como a pesquisa está sendo apresentada:<br/>
+      <small>(Use Ctrl ou Shift para selecionar mais de uma opção)</small>
+      <select name="apresentar_opcao[]" multiple>
+        <option>Indicando as principais características da pesquisa</option>
+        <option>Apresentando o(s) principal(is) objetivo(s)</option>
+        <option>Levantando hipóteses</option>
+        <option>Movimento não acontece</option>
+        <option>Outro</option>
+      </select>
+    </label>
+    
+    <label>Se você marcou "Outro" acima, descreva aqui:
+      <input type="text" name="apresentar_outro" placeholder="Descreva a alternativa não listada">
+    </label>
+
+    <!-- Metodologia -->
+    <label>Descrevendo a metodologia:
+      <textarea name="metodologia_texto" rows="3" placeholder="Cole aqui o trecho que descreve a metodologia"></textarea>
+    </label>
+    <label>Selecione o(s) modo(s) como a metodologia está sendo descrita:<br/>
+      <small>(Use Ctrl ou Shift para selecionar mais de uma opção)</small>
+      <select name="metodologia_opcao[]" multiple>
+        <option>Descrevendo participantes/corpus</option>
+        <option>Indicando tipo de estudo/abordagem</option>
+        <option>Descrevendo procedimentos/métodos</option>
+        <option>Indicando a procedência dos dados</option>
+        <option>Movimento não acontece</option>
+        <option>Outro</option>
+      </select>
+    </label>
+    
+    <label>Se você marcou "Outro" acima, descreva aqui:
+      <input type="text" name="metodologia_outro" placeholder="Descreva a alternativa não listada">
+    </label>
+
+    <!-- Resultados -->
+    <label>Apresentando o(s) resultado(s):
+      <textarea name="resultados_texto" rows="3" placeholder="Cole aqui o trecho que apresenta os resultados"></textarea>
+    </label>
+    <label>Selecione o(s) modo(s) como o(s) resultado(s) está(ão) sendo apresentados:<br/>
+      <small>(Use Ctrl ou Shift para selecionar mais de uma opção)</small>
+      <select name="resultados_opcao[]" multiple>
+        <option>Apresentando resultados qualitativos</option>
+        <option>Apresentando resultados quantitativos</option>
+        <option>Movimento não acontece</option>
+        <option>Outro</option>
+      </select>
+    </label>
+    
+    <label>Se você marcou "Outro" acima, descreva aqui:
+      <input type="text" name="resultados_outro" placeholder="Descreva a alternativa não listada">
+    </label>
+
+    <!-- Discussão -->
+    <label>Discutindo a pesquisa:
+      <textarea name="discutir_texto" rows="3" placeholder="Cole aqui o trecho que discute a pesquisa"></textarea>
+    </label>
+    <label>Selecione o(s) modo(s) como a pesquisa está sendo discutida:<br/>
+      <small>(Use Ctrl ou Shift para selecionar mais de uma opção)</small>
+      <select name="discutir_opcao[]" multiple>
+        <option>Elaborando conclusões</option>
+        <option>Recomendando futuras aplicações e/ou pesquisas</option>
+        <option>Movimento não acontece</option>
+        <option>Outro</option>
+      </select>
+    </label>
+    
+    <label>Se você marcou "Outro" acima, descreva aqui:
+      <input type="text" name="discutir_outro" placeholder="Descreva a alternativa não listada">
+    </label>
+    
+    <label>Comentários ou observações adicionais:
+      <textarea name="comentarios" rows="3" placeholder="Use este espaço caso queira comentar algo sobre sua análise.">
+      </textarea>
+    </label>
+
+    <button type="submit">Enviar</button>
+  </form>
+</div>
+```
+
+```{=html}
+<script>
+document.getElementById('form-resumo').addEventListener('submit', function(e) {
+  e.preventDefault();
+  const form = e.target;
+  const data = new FormData(form);
+  const params = new URLSearchParams();
+
+  for (const pair of data.entries()) {
+    params.append(pair[0], pair[1]);
+  }
+
+  fetch('https://script.google.com/macros/s/AKfycbx37cRJdkKW7cv2J3-203rnUhzdop6KuvNE8p18uPjWq4rQ7KsVLjCIjyUXRUT_mZvW9g/exec', {
+    method: 'POST',
+    body: params
+  })
+  .then(response => response.text())
+  .then(msg => alert(msg))
+  .catch(error => alert('Erro ao enviar: ' + error));
+});
+</script>
+```
 :::
 
-</details>
+<br/>
 
-</pre>
+::: subtitulo-nao-numerado
+🎯 Registro dos artigos selecionados no [Padlet](https://padlet.com/mariomartins/anete-2025-1-b3r3eohs4gd7np8m)
+:::
 
-<!-- Aqui encerra o campo de respostas-->
-::::
+::: subsubtitulo-nao-numerado
+🧩 Instruções para preenchimento do Padlet
+:::
+
+Acesse o Padlet da turma e edite os campos conforme a orientação abaixo:
+
+::: painel-escuro
+🟪 Coluna **Autor**
+
+Digite seu **nome completo**.
+
+------------------------------------------------------------------------
+
+🟪 Coluna **Assunto**
+
+Informe o **tema de sua pesquisa**, de forma clara e delimitada.
+
+**Exemplo:**\
+\> *Gamificação e aprendizagem de Física no Ensino Médio*
+
+------------------------------------------------------------------------
+
+🟪 Coluna **Anexo**
+
+Adicione os **dois arquivos PDF** dos artigos já selecionados até o momento:
+
+💡 Nomeie os arquivos com o sobrenome do primeiro autor e o ano, como: `Silva_2022.pdf` ou `Ferreira_2021.pdf`.
+
+------------------------------------------------------------------------
+
+🟪 Coluna **Corpo**
+
+Cole as **referências completas dos dois artigos**, formatadas de acordo com as normas da **ABNT** (usando o **Zotero**).
+:::
+
+📝 Recomendações
+
+-   Utilize o **Zotero** para gerar as referências automaticamente em formato ABNT;
+-   Certifique-se de que os artigos selecionados estejam **de acordo com os critérios da atividade anterior** (Qualis A1 a A4, peer-reviewed, em acesso aberto);
+-   Publique sua contribuição até às 17 horas da sexta-feira, dia 6 de junho.
+
+::: destaque
+-   Estude os artigos!
+:::

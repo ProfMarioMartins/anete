@@ -22,9 +22,9 @@ Ao final deste encontro e com base na leitura indicada, espera-se que você seja
 
 ## Introdução
 
-Segundo Antônio Suárez Abreu, em seu livro "A arte de argumentar: gerenciando razão e emoção" (2012, p. 42[^aula_4-1]):
+Segundo Antônio Suárez Abreu, em seu livro "A arte de argumentar: gerenciando razão e emoção" (2012, p. 42[^usada_aula_4-1]):
 
-[^aula_4-1]: ABREU, Antonio Suárez. A arte de argumentar: gerenciando razão e emoção. Cotia: Ateliê Editorial, 2001.
+[^usada_aula_4-1]: ABREU, Antonio Suárez. A arte de argumentar: gerenciando razão e emoção. Cotia: Ateliê Editorial, 2001.
 
 > Argumentar (...) não é tentar provar o tempo todo que temos razão, impondo nossa vontade.
 

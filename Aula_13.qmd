@@ -1,312 +1,81 @@
 ---
-title: "Divulgação científica"
+title: "O que é um projeto de pesquisa?"
 ---
 
 ::: nota-secundaria
-Conteúdo elaborado no RStudio com o auxílio de chatbots de inteligência artificial, revisado e avaliado pelo professor antes de sua publicação.
+Roteiro de aula elaborado no RStudio com o auxílio da inteligência artificial ChatGPT, revisado e avaliado pelo professor antes de sua publicação.
 :::
 
 ## Objetivos de aprendizagem
 
 Ao final desta aula, espera-se que você seja capaz de:
 
--   Compreender os fatores verbo-visuais que favorecem o engajamento em postagens de divulgação científica no Instagram;
--   Analisar evidências empíricas sobre estratégias eficazes de engajamento (curtidas, comentários, compartilhamentos);
--   Aplicar os achados em atividades práticas de produção midiática.
+-   Compreender a estrutura e as funções comunicativas de um projeto científico.
 
-::: leitura
-**Leituras indicadas:**\
-
-DHANESH, Ganga; DUTHLER, Gaelle; LI, Kang. Social media engagement with organization-generated content: Role of visuals in enhancing public engagement with organizations on Facebook and Instagram. **Public Relations Review**, \[s.l.\], v. 48, p. 102174, 2022. DOI: 10.1016/j.pubrev.2022.102174.
-
-HWONG, Yi-Ling et al. What makes you tick? The psychology of social media engagement in space science communication. **Computers in Human Behavior**, \[s.l.\], v. 68, p. 480-492, 2017. DOI: 10.1016/j.chb.2016.11.068.
-
-JARREAU, Paige Brown; DAHMEN, Nicole Smith; JONES, Ember. Instagram and the science museum: a missed opportunity for public engagement. **Journal of Science Communication**, \[s.l.\], v. 18, n. 02, art. A06, abr. 2019. DOI: 10.22323/2.18020206.
-
-MARTIN, Curtis; MACDONALD, Bertrum H. Using interpersonal communication strategies to encourage science conversations on social media. **PLoS One**, \[s.l.\], v. 15, n. 11, art. e0241972, nov. 2020. DOI: 10.1371/journal.pone.0241972.
-
-NGUYEN, Ha; DIEDERICH, Morgan. Facilitating knowledge construction in informal learning: A study of TikTok scientific, educational videos. **Computers & Education**, \[s.l.\], v. 205, p. 104896, 2023. DOI: 10.1016/j.compedu.2023.104896.
+::: {#leitura}
+**Leitura indicada:**\
+FERRAREZI JR., Celso. *Guia do trabalho científico: do projeto à redação final*. São Paulo: Contexto, 2013. Capítulo: “A elaboração do projeto”, p. 10–23.\
+[🔗 Acesso à leitura](https://bookshelf.vitalsource.com/books/9788572447638/epubcfi/6/16%5B%3Bvnd.vst.idref%3Dcap2.xhtml%5D)
 :::
 
 ## Introdução
 
-::: subtitulo-nao-numerado
-O que é divulgação científica?
+::: titulo-nao-numerado
+Por que planejar?
 :::
 
-Divulgação científica é qualquer atividade voltada a disseminar o conhecimento científico para além dos muros da universidade. Seu principal objetivo é **tornar o saber científico acessível, traduzindo jargões técnicos e mediando a distância entre a academia e a sociedade**.
-
-Trata-se de aproximar o conhecimento produzido pela ciência da prática cotidiana e do imaginário social, contribuindo para que ele se torne socialmente relevante.
-
-::: subtitulo-nao-numerado
-Por que falar de divulgação científica hoje?
-:::
-
-Nos últimos anos, esse tema ganhou destaque por diversos motivos:
-
--   A pandemia da COVID-19 trouxe cientistas ao centro do debate público, aumentando a visibilidade da ciência na mídia;
--   O interesse popular pela ciência cresceu, inclusive como opção de carreira;
--   A ciência passou a ser questionada por discursos negacionistas, como no caso das mudanças climáticas;
--   O volume e a velocidade da produção científica dificultam o acesso do público, exigindo mediações qualificadas;
--   No Brasil, o avanço do negacionismo reforçou a necessidade de estratégias eficazes de comunicação científica.
-
-::: subtitulo-nao-numerado
-Qual é o papel das redes sociais na divulgação científica?
-:::
-
-As redes sociais são ambientes férteis para o aprendizado informal, permitindo que pessoas aprendam, compartilhem e construam conhecimento em comunidade.
-
-Contudo, a presença nas redes sociais, por si só, não garante o sucesso da divulgação científica. O fator decisivo para o engajamento está em como os recursos verbais e visuais são utilizados. Nesta aula, exploraremos o que algumas pesquisas recentes apontam como estratégias eficazes.
-
-::: subtitulo-nao-numerado
-Quais são os principais gêneros de divulgação científica?
-:::
-
-::: subsubtitulo-nao-numerado
-Impressos
-:::
-
--   Artigo de divulgação: revistas como Superinteressante ou Galileu.
--   Matéria jornalística: jornais e portais (ex.: G1, Nexo).
--   Resenha de livros científicos.
--   Livro de divulgação científica: obras acessíveis de autores como Hawking e Atila Iamarino.
-
-::: subsubtitulo-nao-numerado
-Digitais e multimodais
-:::
-
--   Postagens em redes sociais: carrosséis, reels, stories, threads.
--   Blog de ciência: textos reflexivos e explicativos.
--   Vídeo científico: YouTube, TikTok, Instagram.
--   Podcast: entrevistas e debates em áudio.
--   Infográfico: dados visuais combinados com texto.
--   Newsletter científica: atualizações por e-mail.
-
-::: subsubtitulo-nao-numerado
-Orais e interativos
-:::
-
--   Palestras e TED Talks.
--   Lives científicas: transmissões com interação.
--   Debates e entrevistas públicas.
-
-::: subsubtitulo-nao-numerado
-Híbridos e de transposição
-:::
-
--   Resumo acessível: simplificação de artigo acadêmico.
--   Relato de experiência científica: tom pessoal e narrativo.
--   Materiais de extensão: vídeos, cartilhas, oficinas.
-
-## Estratégias baseadas em evidências científicas
-
-As pesquisas indicam que diversas estratégias de comunicação, particularmente em plataformas de mídia social, são eficazes para gerar engajamento do público, especialmente no contexto da comunicação científica. As principais estratégias incluem:
-
-::: subtitulo-nao-numerado
-Comunicação interpessoal e humanização
-:::
-
--   **Uso de selfies (imagens e vídeos)**\
-    Cientistas que usam selfies, especialmente vídeos em que falam diretamente para a câmera, transmitem autenticidade e convidam à interação. Isso humaniza o comunicador e fortalece o vínculo com o público.
-
-::: img-central
-<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DKzQCSNvPPR/?utm_source=ig_web_copy_link" data-instgrm-version="14">
-
-</blockquote>
-
-```{=html}
-<script async src="//www.instagram.com/embed.js"></script>
-```
-:::
-
--   **Conteúdo pessoal e relacionável**\
-    Alternar entre publicações científicas e conteúdos mais leves (como humor, cotidiano e entretenimento) torna o comunicador mais acessível. O público tende a seguir pessoas com quem se identifica.
-
-::: img-central
-<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DKSq1ChpV3c/?igsh=ZjIwYWY4YWVwMHQx" data-instgrm-version="14">
-
-</blockquote>
-
-```{=html}
-<script async src="//www.instagram.com/embed.js"></script>
-```
-:::
-
--   **Uso de pronomes de primeira pessoa**\
-    O uso de “eu”, “nós”, “meu” e similares cria uma narrativa mais próxima e compartilhada, que contribui para o engajamento afetivo com o público.
-
-::: img-central
-<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DDAv1c4Bwl1/?igsh=Y29maTVkbG5yOXd4" data-instgrm-version="14">
-
-</blockquote>
-
-```{=html}
-<script async src="//www.instagram.com/embed.js"></script>
-```
-:::
-
-::: subtitulo-nao-numerado
-Conteúdo visual e narrativo
-:::
-
--   **Imagens, vídeos, memes e GIFs**\
-    Recursos visuais são fundamentais para atrair a atenção.
-
-::: img-central
-<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C6dr_gBrJL2/?igsh=bzVucXdwY2ZmaHBt" data-instgrm-version="14">
-
-</blockquote>
-
-```{=html}
-<script async src="//www.instagram.com/embed.js"></script>
-```
-:::
-
--   **Narratividade nas imagens**\
-    Imagens que contam uma história ou representam uma ação são mais engajadoras, pois despertam emoções e conectam com o público.
-
-::: img-central
-<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/Chas1PdFFEk/?igsh=enJobW9saGttbTlx" data-instgrm-version="14">
-
-</blockquote>
-
-```{=html}
-<script async src="//www.instagram.com/embed.js"></script>
-```
-:::
-
--   **Descrições visuais**\
-    Palavras que ativam a imaginação visual (“ver”, “olhar”, “enxergar”) contribuem para o efeito de imersão.
-
-::: img-central
-<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DKJ_RK1OYNk/?utm_source=ig_web_copy_link&amp;igsh=MzRlODBiNWFlZA==" data-instgrm-version="14">
-
-</blockquote>
-
-```{=html}
-<script async src="//www.instagram.com/embed.js"></script>
-```
-:::
-
--   **Enquadramento com harmonia**\
-    Imagens visualmente equilibradas e bem compostas favorecem a recepção positiva.
-
-::: img-central
-<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DLNFecWOrJW/?igsh=MWR6ajF5Znd4enZpZg==" data-instgrm-version="14">
-
-</blockquote>
-
-```{=html}
-<script async src="//www.instagram.com/embed.js"></script>
-```
-:::
-
--   **Distância e ponto de vista**\
-    Em alguns contextos, planos distantes ou de baixo para cima (ângulo baixo) têm mais impacto emocional e estético.
-
-::: img-central
-<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/C_9JzeDv-sg/?igsh=MXVkdGpubGVoeHM5YQ==" data-instgrm-version="14">
-
-</blockquote>
-
-```{=html}
-<script async src="//www.instagram.com/embed.js"></script>
-```
-:::
-
-::: subtitulo-nao-numerado
-Características do conteúdo e tom
-:::
-
--   **Informatividade e linguagem analítica**\
-    Publicações que explicam bem e usam uma linguagem clara e lógica promovem comentários que compartilham conhecimento.
-
-::: img-central
-<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DKUjijLRgPT/?igsh=MXZjMXI1bDYza2hxeg==" data-instgrm-version="14">
-
-</blockquote>
-
-```{=html}
-<script async src="//www.instagram.com/embed.js"></script>
-```
-:::
-
--   **Expressão de emoções**\
-    Emoções como alegria, raiva ou ansiedade, quando autênticas, fortalecem o impacto da mensagem e ampliam o engajamento.
-
-::: img-central
-<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/Cq1Hr7XLYBU/?igsh=bG9qOXNoYWRrdDV0" data-instgrm-version="14">
-
-</blockquote>
-
-```{=html}
-<script async src="//www.instagram.com/embed.js"></script>
-```
-:::
-
--   **Autenticidade e tom tentativo**\
-    Um estilo mais honesto, humilde e verdadeiro — mesmo quando admite dúvidas — é valorizado pelo público e gera confiança.
-
-::: img-central
-<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/C_A06mAM81c/?igsh=MTh5aHo1aDFrOW9hMw==" data-instgrm-version="14">
-
-</blockquote>
-
-```{=html}
-<script async src="//www.instagram.com/embed.js"></script>
-```
-:::
-
--   **Chamadas para ação e perguntas**\
-    Frases como “O que você pensa sobre isso?” ou “Marque alguém que se interesse” incentivam respostas e compartilhamentos.
-
-::: img-central
-<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DKAxgDcsMTc/?igsh=Y2hxd2s1OXdkdnBw" data-instgrm-version="14">
-
-</blockquote>
-
-```{=html}
-<script async src="//www.instagram.com/embed.js"></script>
-```
-:::
-
--   **Relatabilidade e humor**\
-    Conteúdo que desperta empatia ou diversão facilita o engajamento. Humor bem dosado é um excelente catalisador de comentários.
-
-::: img-central
-<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DKzWROouS3_/?igsh=MWNxMzc5cHF3c3Z2aQ==" data-instgrm-version="14">
-
-</blockquote>
-
-```{=html}
-<script async src="//www.instagram.com/embed.js"></script>
-```
-:::
+> “A redação de um projeto é o ponto de partida para qualquer pesquisa planejada, pois é nesse momento que se define o **o quê**, **o como**, **o por quê** e **o para quê** da investigação.”\
+> *(FERRAREZI JR., 2013, p. 145)*
+
+Planejar uma pesquisa é **delimitar racionalmente** uma ideia de investigação. Envolve:
+
+-   Escolher um tema relevante;
+-   Identificar um problema a ser investigado;
+-   Justificar a importância do estudo;
+-   Traçar objetivos claros;
+-   Formular hipóteses (quando couber);
+-   Definir métodos e técnicas para a coleta e análise de dados.
 
 ------------------------------------------------------------------------
 
-## Outras estratégias...
-
--   **Brevidade (nano/microlearning)**\
-    Em plataformas como TikTok, vídeos de até 2 minutos com mensagens diretas e criativas são mais eficazes para informar e engajar.
-
--   **Responder aos comentários**\
-    Estimular conversas e responder perguntas ou elogios cria uma relação mais próxima com a audiência e convida à continuidade do diálogo.
-
--   **Uso de hashtags**\
-    Hashtags conectam postagens a temas maiores e ampliam o alcance. Devem ser usadas com critério, incluindo hashtags científicas relevantes.
-
--   **Priorizar o Instagram**\
-    O Instagram é mais eficaz do que o Twitter para interações pessoais e visuais. Sua informalidade e recursos multimodais (stories, reels, carrosséis) favorecem a criação de vínculo com o público.
-
-::: subtitulo-nao-numerado
-Resumo das recomendações
+::: titulo-nao-numerado
+Gêneros de planejamento
 :::
 
--   Mostre o rosto e fale diretamente com o público;\
--   Mescle ciência com conteúdos leves e cotidianos;\
--   Use pronomes pessoais para criar proximidade;\
--   Responda aos comentários com atenção e frequência;\
--   Invista em imagens e vídeos com narrativa e harmonia;\
--   Use emoções, autenticidade e tom conversacional;\
--   Insira hashtags bem escolhidas e chamadas para ação.
+Os textos que formalizam esse planejamento são chamados de **gêneros de planejamento da pesquisa científica**. Os mais comuns são:
+
+-   **Plano de trabalho**\
+    Documento mais breve e objetivo, geralmente exigido em programas como o Pibic. Tem fins administrativos e funciona como um contrato de intenções entre o(a) estudante, o(a) orientador(a) e a instituição.
+
+-   **Projeto de pesquisa**\
+    Documento mais elaborado, exigido em seleções de mestrado e doutorado ou como etapa inicial de TCCs. Tem função argumentativa mais forte e detalha o percurso da pesquisa com maior densidade teórica e metodológica.
+
+💡 *Embora diferentes em extensão e formalidade, ambos seguem a mesma lógica interna: são organizados em torno de um problema de pesquisa.*
+
+------------------------------------------------------------------------
+
+::: titulo-nao-numerado
+Elementos e funções
+:::
+
+| Elemento | Função |
+|----|----|
+| **Tema** | Delimita a área de interesse geral |
+| **Problema de pesquisa** | Define a lacuna ou questão a investigar |
+| **Justificativa** | Argumenta por que a pesquisa é relevante |
+| **Objetivos** | Indicam o que se pretende alcançar com a pesquisa |
+| **Hipóteses** (opcional) | Suposições iniciais sobre a resposta à pergunta de pesquisa |
+| **Referencial teórico** | Conjunto de autores e conceitos que sustentam o estudo |
+| **Metodologia** | Explica como será feita a pesquisa |
+| **Cronograma e referências** | Planejamento do tempo e da bibliografia |
+
+::: subtitulo-nao-numerado
+Planejar uma pesquisa é uma atividade complexa que desenvolve e exige:
+
+-   **Leitura crítica** de artigos e livros da área;
+-   **Formulação clara de perguntas científicas**;
+-   **Capacidade de síntese e organização de ideias**;
+-   **Argumentação escrita com base em evidências**;
+-   **Domínio de gêneros acadêmicos** e normas da ABNT;
+-   **Competência para projetar etapas de execução**.
+:::
