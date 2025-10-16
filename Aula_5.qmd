@@ -34,7 +34,7 @@ David Grey (cf. Castro *et al*, ebook) estabelece **alguns critérios** que deve
 
 ::: destaque
 | Critério de qualidade | Como identificar |
-|------------------------------------|------------------------------------|
+|----|----|
 | **Autoridade** | A fonte é proveniente de origem conhecida, como uma universidade, um governo ou um órgão público, ou vem de um indivíduo desconhecido?<br><br>Se a forte for proveniente de indivíduos, é possível identificar o autor e qual sua formação e afiliação institucional?<br><br>O autor possui publicações em periódicos de alta qualidade revisados por especialistas? |
 | **Precisão** | A fonte foi revisada por especialistas no tema antes de ser aceita para publicação, sou seja, foi revisada por pares (do inglês, peer review)?<br><br>Se é uma fonte de acesso *on-line* (site, blog, rede social, notícia online ou artigo publicado na internet), ela faz referência a outras fontes? Apresenta bibliografias utilizadas?<br><br>Estão claras as datas de atualização do conteúdo da fonte? |
 | **Viés e objetividade** | A linguagem usada é lógica, ou se utiliza de sensacionalismos e agressividade?<br><br>Apresenta pontos de vista opostos ou defende uma ideologia?<br><br>Faz referências a outras fontes?<br>Como lida com a questão ética e a validade dos documentos? |
@@ -46,7 +46,7 @@ David Grey (cf. Castro *et al*, ebook) estabelece **alguns critérios** que deve
 
 ::: {.callout-warning title="O que é ser ético na ciência?"}
 | Aspecto ético | Descrição |
-|------------------------------------|------------------------------------|
+|----|----|
 | **Integridade intelectual** | Agir com honestidade na formulação de hipóteses, condução de experimentos e interpretação de dados. |
 | **Transparência** | Divulgar os métodos e os resultados de forma clara, permitindo a verificação e a replicação por outros pesquisadores. |
 | **Reconhecimento de autoria** | Dar o devido crédito a todos os envolvidos na produção do conhecimento e citar corretamente as fontes utilizadas. |

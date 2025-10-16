@@ -18,19 +18,19 @@ Ao final deste encontro, espera-se que você seja capaz de:
 ::: leitura
 **Leitura indicada**
 
-**Gêneros acadêmicos** (p. 67–72), capítulo do livro *Leitura e escrita acadêmicas*,  de Nádia Studzinski Estima de Castro e colaboradores. Disponível na Minha Biblioteca.
+**Gêneros acadêmicos** (p. 67–72), capítulo do livro *Leitura e escrita acadêmicas*, de Nádia Studzinski Estima de Castro e colaboradores. Disponível na Minha Biblioteca.
 :::
 
 ## Leitura em foco
 
-Segundo Luiz Antônio Marcuschi (2002)[^aula_9-1], **gêneros textuais** são formas relativamente estáveis de enunciado, moldadas pelas práticas sociais de linguagem. Eles surgem e se desenvolvem funcionalmente nas culturas em que circulam, atendendo a finalidades comunicativas específicas em contextos determinados.
+Segundo Luiz Antônio Marcuschi (2002)[^aula_8-1], **gêneros textuais** são formas relativamente estáveis de enunciado, moldadas pelas práticas sociais de linguagem. Eles surgem e se desenvolvem funcionalmente nas culturas em que circulam, atendendo a finalidades comunicativas específicas em contextos determinados.
 
-[^aula_9-1]: MARCUSCHI, L. A. Gêneros textuais: definição e funcionalidade. In: DIONÍSIO, A. P.; MACHADO, A. R.; BEZERRA, M. A. (Orgs.). Gêneros textuais & ensino. Rio de Janeiro: Lucerna, 2002. p. 19-36.
+[^aula_8-1]: MARCUSCHI, L. A. Gêneros textuais: definição e funcionalidade. In: DIONÍSIO, A. P.; MACHADO, A. R.; BEZERRA, M. A. (Orgs.). Gêneros textuais & ensino. Rio de Janeiro: Lucerna, 2002. p. 19-36.
 
 Noutras palavras,
 
 ::: citacao
-"(...) os gêneros textuais são fenômenos históricos, profundamente vinculados à vida cultural e social." (Marcuschi, 2002, p. 19)
+(...) os gêneros textuais são fenômenos históricos, profundamente vinculados à vida cultural e social. (Marcuschi, 2002, p. 19)
 :::
 
 **Os gêneros textuais emergem das práticas sociais**, funcionando como formas linguísticas que atendem a **necessidades comunicativas** específicas em contextos determinados. Isso significa que, à medida que diferentes **esferas da vida social** se organizam — como a escola, a academia, o jornalismo, o comércio ou a política —, desenvolvem-se também modos particulares de dizer, com características próprias de conteúdo, forma, finalidade e circulação. Assim, cada prática social dá origem a um conjunto de gêneros que lhe é funcional.
@@ -193,7 +193,7 @@ Refere-se à escolha lexical do autor. Um vocabulário técnico e preciso é tí
 ## Leitura em foco
 
 ::: citacao
-“Os gêneros textuais acadêmicos se caracterizam [conhecem] muito mais pela função comunicativa e institucional do que por estruturas linguísticas” (Castro *et al*., 2019, p. 68).
+“Os gêneros textuais acadêmicos se caracterizam \[conhecem\] muito mais pela função comunicativa e institucional do que por estruturas linguísticas” (Castro *et al*., 2019, p. 68).
 :::
 
 Para fins didáticos, proponho uma organização didática dos gêneros acadêmicos em três grupos funcionais:

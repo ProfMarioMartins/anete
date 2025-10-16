@@ -1,5 +1,5 @@
 ---
-title: "O que é divulgação científica?"
+title: "O que é um projeto de pesquisa?"
 ---
 
 ::: nota-secundaria
@@ -8,307 +8,491 @@ Roteiro de aula elaborado no RStudio com o auxílio da inteligência artificial,
 
 ## Contextualização
 
-A **divulgação científica** é uma prática comunicativa voltada à **socialização do conhecimento** produzido no meio acadêmico e científico, por meio da sua tradução para **linguagens acessíveis** a públicos não especializados. Seu objetivo é tornar compreensíveis **conceitos**, **descobertas** e **debates** da ciência, promovendo a democratização do saber, a valorização da pesquisa e o engajamento crítico da sociedade com temas de interesse coletivo. Para isso, exige não apenas domínio do conteúdo, mas também sensibilidade quanto ao contexto de circulação, ao meio escolhido e às estratégias discursivas adequadas a diferentes interlocutores.
+O projeto de pesquisa é um gênero textual que organiza, de forma sistemática e argumentativa, as etapas iniciais de uma investigação científica. Seus elementos essenciais são tema, problema, justificativa, objetivos, referencial teórico e metodologia. O projeto de pesquisa destaca a importância do planejamento como etapa fundadora da prática científica e promove o desenvolvimento de habilidades de formulação clara, coerente e fundamentada de propostas investigativas.
 
 Ao final deste encontro, espera-se que você seja capaz de:
 
--   **compreender e aplicar estratégias** de adaptação do discurso acadêmico para contextos de circulação mais ampla.
+-   Compreender a estrutura e as funções comunicativas de um projeto científico.
 
 ::: leitura
-**Leituras indicadas**
+**Leitura indicada**
 
-DHANESH, Ganga; DUTHLER, Gaelle; LI, Kang. Social media engagement with organization-generated content: Role of visuals in enhancing public engagement with organizations on Facebook and Instagram. **Public Relations Review**, \[s.l.\], v. 48, p. 102174, 2022. DOI: 10.1016/j.pubrev.2022.102174.
-
-HWONG, Yi-Ling et al. What makes you tick? The psychology of social media engagement in space science communication. **Computers in Human Behavior**, \[s.l.\], v. 68, p. 480-492, 2017. DOI: 10.1016/j.chb.2016.11.068.
-
-JARREAU, Paige Brown; DAHMEN, Nicole Smith; JONES, Ember. Instagram and the science museum: a missed opportunity for public engagement. **Journal of Science Communication**, \[s.l.\], v. 18, n. 02, art. A06, abr. 2019. DOI: 10.22323/2.18020206.
-
-MARTIN, Curtis; MACDONALD, Bertrum H. Using interpersonal communication strategies to encourage science conversations on social media. **PLoS One**, \[s.l.\], v. 15, n. 11, art. e0241972, nov. 2020. DOI: 10.1371/journal.pone.0241972.
-
-NGUYEN, Ha; DIEDERICH, Morgan. Facilitating knowledge construction in informal learning: A study of TikTok scientific, educational videos. **Computers & Education**, \[s.l.\], v. 205, p. 104896, 2023. DOI: 10.1016/j.compedu.2023.104896.
+**A elaboração do projeto** (p. 10–23), capítulo do livro *Guia do trabalho científico: do projeto à redação final*, de Celso Ferrarezi Jr. Disponível na Minha Biblioteca.
 :::
 
+## Leitura em foco
+
+::: titulo-nao-numerado
+Por que planejar?
+:::
+
+::: citacao
+A redação de um projeto é o ponto de partida para qualquer pesquisa planejada, pois é nesse momento que se define o **o quê**, **o como**, **o por quê** e **o para quê** da investigação. (Ferrarezi Jr., 2013, p. 145 – destaques meus)
+:::
+
+Planejar uma pesquisa é **delimitar racionalmente** uma ideia de investigação. Envolve:
+
+-   Escolher um tema relevante;
+-   Identificar um problema a ser investigado;
+-   Justificar a importância do estudo;
+-   Traçar objetivos claros;
+-   Formular hipóteses (quando couber);
+-   Definir métodos e técnicas para a coleta e análise de dados.
+
+::: titulo-nao-numerado
+Gêneros de planejamento
+:::
+
+Os textos que formalizam esse planejamento são conhecidos como **gêneros de planejamento da pesquisa científica**. Os mais comuns são:
+
+-   **Projeto de pesquisa**\
+    Documento argumentativo e detalhado, exigido em seleções de mestrado, doutorado e na fase inicial de trabalhos de conclusão de curso. Apresenta densidade teórica e metodológica e estrutura o percurso investigativo de modo sistemático.
+
+-   **Plano de trabalho**\
+    Documento sintético e funcional, com finalidade administrativa, comumente solicitado em programas de iniciação científica. Resume as intenções do pesquisador, articulando metas, prazos e etapas sob supervisão institucional.
+
+::: enfase
+💡 *Embora distintos quanto à extensão e à finalidade, ambos seguem a mesma lógica: organizam-se em torno de um problema de pesquisa a ser investigado.*
+:::
+
+::: titulo-nao-numerado
+Elementos e funções
+:::
+
+| Elemento | Função |
+|------------------------------------|------------------------------------|
+| **Tema** | Delimita a área de interesse geral |
+| **Problema de pesquisa** | Define a lacuna ou questão a investigar |
+| **Justificativa** | Argumenta por que a pesquisa é relevante |
+| **Objetivos** | Indicam o que se pretende alcançar com a pesquisa |
+| **Hipóteses** (opcional) | Suposições iniciais sobre a resposta à pergunta de pesquisa |
+| **Referencial teórico** | Conjunto de autores e conceitos que sustentam o estudo |
+| **Metodologia** | Explica como será feita a pesquisa |
+| **Cronograma e referências** | Planejamento do tempo e da bibliografia |
+
+:::: destaque
 ::: subtitulo-nao-numerado
-O que é divulgação científica?
+Planejar uma pesquisa é uma atividade complexa que desenvolve e exige:
 :::
 
-Divulgação científica é qualquer atividade voltada a disseminar o conhecimento científico para além dos muros da universidade. Seu principal objetivo é **tornar o saber científico acessível, traduzindo jargões técnicos e mediando a distância entre a academia e a sociedade**.
+-   **Leitura crítica** de artigos e livros da área;
+-   **Formulação clara de perguntas científicas**;
+-   **Capacidade de síntese e organização de ideias**;
+-   **Argumentação escrita com base em evidências**;
+-   **Domínio de gêneros acadêmicos** e normas da ABNT;
+-   **Competência para projetar etapas de execução**.
+::::
 
-Trata-se de aproximar o conhecimento produzido pela ciência da prática cotidiana e do imaginário social, contribuindo para que ele se torne socialmente relevante.
+## Aprendizagem prática
 
-::: subtitulo-nao-numerado
-Por que falar de divulgação científica hoje?
+::: titulo-nao-numerado
+Oficina
 :::
 
-Nos últimos anos, a divulgação científica ganhou destaque por diversos motivos:
-
--   A pandemia da COVID-19 trouxe cientistas ao centro do debate público, aumentando a visibilidade da ciência na mídia;
--   O interesse popular pela ciência cresceu, inclusive como opção de carreira;
--   A ciência passou a ser questionada por discursos negacionistas, como no caso das mudanças climáticas;
--   O volume e a velocidade da produção científica dificultam o acesso do público, exigindo mediações qualificadas;
--   No Brasil, o avanço do negacionismo reforçou a necessidade de estratégias eficazes de comunicação científica.
-
-::: subtitulo-nao-numerado
-Qual é o papel das redes sociais na divulgação científica?
-:::
-
-As redes sociais são ambientes férteis para o aprendizado informal, permitindo que pessoas aprendam, compartilhem e construam conhecimento em comunidade.
-
-Contudo, a presença nas redes sociais, por si só, não garante o sucesso da divulgação científica. O fator decisivo para o engajamento está em como os recursos verbais e visuais são utilizados. Nesta aula, exploraremos o que algumas pesquisas recentes apontam como estratégias eficazes.
-
-::: subtitulo-nao-numerado
-Quais são os principais gêneros textuais de divulgação científica?
-:::
+Nesta atividade, você será convidado(a) a transformar um interesse temático inicial em uma proposta de pesquisa com estrutura básica, incluindo a formulação dos cinco primeiros elementos de um projeto: **tema (e delimitação)**, **pergunta de pesquisa**, **objetivo geral**, **hipótese** e **justificativa**.
 
 ::: subsubtitulo-nao-numerado
-Impressos
+Escolha e delimitação do tema
 :::
 
--   Artigo de divulgação: revistas como Superinteressante ou Galileu;
--   Matéria jornalística: jornais e portais (ex.: G1, Nexo);
--   Resenha de livros científicos;
--   Livro de divulgação científica: obras acessíveis de autores como Hawking e Atila Iamarino.
+**Você precisa** identificar um tema de interesse e delimitá-lo.
+
+**Perguntas norteadoras para ajudar a delimitar o tema:**
+
+- Sobre o que quero pesquisar?
+- Em que contexto geográfico ou social ou recorte específico?
+- Qual aspecto específico desse tema desejo investigar?
+- A quais grupos, públicos ou contextos específicos minha pesquisa se refere?
+- Esse tema é viável dentro do tempo e dos recursos disponíveis?
+
+*Exemplo 1*\
+Área de interesse: "Leitura" → Tema: "Leitura e formação do leitor" → Tema delimitado: "Práticas de leitura literária entre adolescentes do ensino médio no semiárido potiguar"
+
+*Exemplo 2*\
+Área de interesse: "Tecnologia na educação" → Tema: "Inteligência artificial e produção acadêmica" → Tema delimitado: "Uso de ferramentas de inteligência artificial por estudantes de graduação em Letras no processo de escrita acadêmica"
+
+*Exemplo 3*\
+Área de interesse: "Violência no contexto escolar" → Tema: "Violência verbal em ambientes escolares" → Tema delimitado: "Percepções de professores do ensino fundamental sobre a violência verbal em sala de aula em escolas públicas urbanas no interior do RN"
+
+::: {.callout-note}
+::: subsubtitulo-nao-numerado
+Como as perguntas norteadoras se refletem na delimitação do tema?
+:::
+::::
+
+<!-- Aqui começa o campo de respostas-->
+
+<details class="resposta-escondida">
+
+<summary>...</summary>
+
+Como as perguntas norteadoras se refletem na delimitação do tema?
+
+| **Perguntas norteadoras** | **Exemplo 1** | **Exemplo 2** | **Exemplo 3** |
+|-----------------|-----------------|-------------------|--------------------|
+| **Sobre o que quero pesquisar?** | Leitura | Inteligência artificial | Violência nas escolas |
+
+| **Em que contexto geográfico, social ou institucional?** | Semiárido potiguar | Ensino superior (cursos de Letras) | Escolas públicas urbanas no interior do RN |
+
+| **Qual aspecto específico desejo investigar?** | Práticas de leitura literária | Uso de IA na escrita acadêmica | Violência verbal em sala de aula |
+
+| **A quais grupos ou públicos me refiro?** | Adolescentes do ensino médio | Estudantes de graduação em Letras | Professores do ensino fundamental |
+
+| **Esse tema é viável dentro do tempo e recursos disponíveis?** | Sim – foco regional, público definido, acesso escolar possível | Sim – estudantes da própria instituição, ferramentas acessíveis | Sim – contexto delimitado, foco temático específico, aplicável a entrevistas ou questionários |
+
+</details>
+
+<!-- Aqui encerra o campo de respostas-->
+
+<br/><br/>
 
 ::: subsubtitulo-nao-numerado
-Digitais e multimodais
+Formulação da pergunta de pesquisa
 :::
 
--   Postagens em redes sociais: carrosséis, reels, stories, threads;
--   Blog de ciência: textos reflexivos e explicativos;
--   Vídeo científico: YouTube, TikTok, Instagram;
--   Podcast: entrevistas e debates em áudio;
--   Infográfico: dados visuais combinados com texto;
--   Newsletter científica: atualizações por e-mail;
--   Matéria jornalística: jornais e portais online (ex.: G1, Nexo, Uol, etc.).
+**Você precisa** construir uma questão clara que oriente a investigação.
 
+**Perguntas norteadoras:**
+
+- O que quero descobrir sobre esse tema?
+- Que dúvida, problema ou lacuna existe na literatura?
+- Minha pergunta é investigável (pode ser respondida por meio de pesquisa)?
+
+*Exemplo 1*\
+“Quais fatores influenciam o interesse pela leitura literária entre adolescentes de escolas públicas do semiárido potiguar?”
+
+*Exemplo 2* “Como os estudantes de graduação em Letras utilizam ferramentas de inteligência artificial no processo de escrita acadêmica?”
+
+*Exemplo 3*\
+“Como professores do ensino fundamental percebem e lidam com situações de violência verbal em sala de aula em escolas públicas urbanas do interior do RN?”
+
+::: {.callout-note}
+::: subsubtitulo-nao-numerado
+Como as perguntas norteadoras se refletem na pergunta de pesquisa?
+:::
+::::
+
+<!-- Aqui começa o campo de respostas-->
+
+<details class="resposta-escondida">
+
+<summary>...</summary>
+
+Como as perguntas norteadoras se refletem na pergunta de pesquisa?
+
+| **Pergunta norteadora** | **Exemplo 1** | **Exemplo 2** | **Exemplo 3** |
+|-----------------|-----------------|------------------|--------------------|
+
+| **O que quero descobrir sobre esse tema?** | Fatores que influenciam o interesse pela leitura literária | Práticas de uso de IA na escrita acadêmica | Percepções e formas de lidar com a violência verbal em sala de aula |
+
+| **Que dúvida, problema ou lacuna existe na literatura?** | Possíveis causas do desinteresse pela leitura entre adolescentes de regiões específicas | A forma como tecnologias emergentes impactam a prática escrita no ensino superior | Ausência de estudos qualitativos sobre a percepção docente em realidades escolares não metropolitanas |
+
+| **Minha pergunta é investigável?** | Sim – pode ser respondida por meio de entrevistas, questionários ou grupos focais com estudantes | Sim – pode ser investigada por meio de observações, entrevistas ou análise de produções textuais | Sim – pode ser explorada por meio de entrevistas com professores e análise de relatos de experiência |
+
+</details>
+
+<!-- Aqui encerra o campo de respostas-->
+
+<br/><br/>
 
 ::: subsubtitulo-nao-numerado
-Orais e interativos
+Definição do objetivo geral
 :::
 
--   Palestras e TED Talks.
--   Lives científicas: transmissões com interação.
--   Debates e entrevistas públicas.
+**Você precisa** expressar, de forma ampla, o que se pretende alcançar com a pesquisa.
+
+**Perguntas norteadoras:**
+
+- O que desejo compreender, explicar ou analisar?
+- Como minha ação responde à pergunta formulada?
+
+::: callout-tip
+🎯 **Atenção**  
+O objetivo geral** de uma pesquisa deve ser **único**, claro e abrangente.  
+Os **objetivos específicos**, que detalham os passos para alcançar esse objetivo geral, serão tratados em outro momento.
+:::
+
+*Exemplo 1*\
+“Investigar os fatores que influenciam o interesse pela leitura literária entre adolescentes do ensino médio no semiárido potiguar.”
+
+*Exemplo 2*\
+“Analisar como estudantes de graduação em Letras utilizam ferramentas de inteligência artificial no processo de escrita acadêmica.”
+
+*Exemplo 3*\
+“Compreender as percepções de professores do ensino fundamental sobre a violência verbal em sala de aula e as estratégias utilizadas para enfrentá-la em escolas públicas urbanas do interior do RN.”
+
+::: {.callout-note}
+::: subsubtitulo-nao-numerado
+Como as perguntas norteadoras se refletem no objetivo geral?
+:::
+::::
+
+<!-- Aqui começa o campo de respostas-->
+
+<details class="resposta-escondida">
+
+<summary>...</summary>
+
+Como as perguntas norteadoras se refletem no objetivo geral?
+
+| **Objetivo geral** | **O que desejo compreender, explicar ou analisar?** |
+|------------------------------------------------------|------------------------------------------------------|
+| *Exemplo 1*<br>Investigar os fatores que influenciam o interesse pela leitura literária entre adolescentes do ensino médio no semiárido potiguar | Fatores que afetam o interesse pela leitura literária entre adolescentes |
+| *Exemplo 2*<br>Analisar como estudantes de graduação em Letras utilizam ferramentas de inteligência artificial no processo de escrita acadêmica | Formas de utilização de ferramentas de IA no contexto da escrita acadêmica |
+| *Exemplo 3*<br>Compreender as percepções de professores do ensino fundamental sobre a violência verbal em sala de aula e as estratégias utilizadas para enfrentá-la em escolas públicas urbanas do interior do RN | Percepções docentes e estratégias de enfrentamento da violência verbal |
+
+</details>
+
+<!-- Aqui encerra o campo de respostas-->
+
+<br/><br/>
 
 ::: subsubtitulo-nao-numerado
-Híbridos e de transposição
+Formulação da hipótese
 :::
 
--   Resumo acessível: simplificação de artigo acadêmico.
--   Relato de experiência científica: tom pessoal e narrativo.
--   Materiais de extensão: vídeos, cartilhas, oficinas.
+**Você precisa** propor uma suposição inicial sobre a possível resposta à pergunta de pesquisa.
 
-::: subtitulo-nao-numerado
-Quais são as estratégias de comunicação?
+**Perguntas norteadoras:**
+
+- Que explicação inicial posso propor para o problema?
+- Que relação causal ou interpretativa posso prever?
+
+**Exemplo 1**\
+A baixa frequência de leitura literária entre adolescentes do ensino médio no semiárido potiguar está associada à ausência de mediação docente e à limitação de acesso a obras atualizadas.
+
+**Exemplo 2**\
+Estudantes de graduação em Letras que utilizam ferramentas de inteligência artificial para escrever textos acadêmicos tendem a recorrer a esses recursos principalmente para tarefas de organização e revisão linguística, e não para construção de conteúdo.
+
+**Exemplo 3**\ 
+Professores do ensino fundamental que enfrentam situações recorrentes de violência verbal em sala de aula desenvolvem estratégias mais baseadas na experiência prática do que em formação institucional voltada ao enfrentamento da indisciplina.
+
+::: {.callout-note}
+::: subsubtitulo-nao-numerado
+Como as perguntas norteadoras se refletem na hipótese?
 :::
+::::
 
-As pesquisas indicam que diversas estratégias de comunicação, particularmente em plataformas de mídia social, são eficazes para gerar engajamento do público, especialmente no contexto da comunicação científica. As principais estratégias incluem:
+<!-- Aqui começa o campo de respostas-->
+
+<details class="resposta-escondida">
+
+<summary>...</summary>
+
+Como as perguntas norteadoras se refletem na hipótese?
+
+| **Hipótese** | **Explicação inicial proposta** | **Relação causal ou interpretativa prevista** |
+|:------------|:-------------------------------:|:--------------------------------------------:|
+| *Exemplo 1*<br>A baixa frequência de leitura literária entre adolescentes do ensino médio no semiárido potiguar está associada à ausência de mediação docente e à limitação de acesso a obras atualizadas. | A escassez de leitura decorre da falta de mediação e de acervo adequado. | A ausência de mediação e acesso causa o desinteresse pela leitura. |
+| *Exemplo 2*<br>Estudantes de Letras que utilizam IA na escrita acadêmica tendem a recorrer a esses recursos principalmente para organização e revisão linguística. | A IA é usada prioritariamente para tarefas técnicas, não criativas. | O tipo de uso da IA influencia o modo de produção textual dos estudantes. |
+| *Exemplo 3*<br>Professores do ensino fundamental que enfrentam violência verbal desenvolvem estratégias mais baseadas na experiência prática do que na formação institucional. | A formação docente é insuficiente para lidar com esse tipo de conflito. | A experiência direta leva ao desenvolvimento de estratégias empíricas. |
+
+</details>
+
+<!-- Aqui encerra o campo de respostas-->
+
+<br/><br/>
+
+------------------------------------------------------------------------
+
+<br/><br/>
 
 ::: subsubtitulo-nao-numerado
-Comunicação interpessoal e humanização
+Redação da justificativa
 :::
 
--   **Uso de selfies (imagens e vídeos)**\
-    Cientistas que usam selfies, especialmente vídeos em que falam diretamente para a câmera, transmitem autenticidade e convidam à interação. Isso humaniza o comunicador e fortalece o vínculo com o público.
+**Você precisa** explicitar a relevância do estudo, suas motivações e contribuições potenciais.\
 
-::: img-central
-<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DKzQCSNvPPR/?utm_source=ig_web_copy_link" data-instgrm-version="14">
+**Perguntas norteadoras:**
 
-</blockquote>
+- Por que essa pesquisa é importante?
+- A quem ela interessa? Que lacuna pretende preencher?
+- Que benefícios ou reflexões poderá gerar?
 
-```{=html}
-<script async src="//www.instagram.com/embed.js"></script>
-```
-:::
+*Exemplo 1*\
+A baixa frequência de leitura literária entre adolescentes do ensino médio no semiárido potiguar está associada à ausência de mediação docente e à limitação de acesso a obras atualizadas.
 
--   **Conteúdo pessoal e relacionável**\
-    Alternar entre publicações científicas e conteúdos mais leves (como humor, cotidiano e entretenimento) torna o comunicador mais acessível. O público tende a seguir pessoas com quem se identifica.
+*Exemplo 2*\
+Investigar o uso de IA por estudantes de Letras permite refletir sobre práticas acadêmicas atuais e orientar o uso crítico e ético dessas ferramentas na formação universitária.
 
-::: img-central
-<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DKSq1ChpV3c/?igsh=ZjIwYWY4YWVwMHQx" data-instgrm-version="14">
+*Exemplo 3*\
+Compreender como professores lidam com a violência verbal pode subsidiar políticas de formação continuada e promover ambientes escolares mais seguros e dialogados.
 
-</blockquote>
-
-```{=html}
-<script async src="//www.instagram.com/embed.js"></script>
-```
-:::
-
--   **Uso de pronomes de primeira pessoa**\
-    O uso de “eu”, “nós”, “meu” e similares cria uma narrativa mais próxima e compartilhada, que contribui para o engajamento afetivo com o público.
-
-::: img-central
-<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DDAv1c4Bwl1/?igsh=Y29maTVkbG5yOXd4" data-instgrm-version="14">
-
-</blockquote>
-
-```{=html}
-<script async src="//www.instagram.com/embed.js"></script>
-```
-:::
-
+::: {.callout-note}
 ::: subsubtitulo-nao-numerado
-Conteúdo visual e narrativo
+Como as perguntas norteadoras se refletem na justificativa?
+:::
+::::
+
+<!-- Aqui começa o campo de respostas-->
+
+<details class="resposta-escondida">
+
+<summary>...</summary>
+
+Como as perguntas norteadoras se refletem na justificativa
+
+| **Justificativa** | **Importância da pesquisa** | **Público-alvo ou lacuna** | **Benefícios ou reflexões geradas** |
+|:------------------|:----------------------------:|:----------------------------:|:------------------------------------:|
+| *Exemplo 1*<br>Compreender os fatores que afetam o interesse pela leitura literária pode auxiliar professores e gestores na criação de estratégias pedagógicas que fortaleçam o vínculo dos jovens com a literatura. | Contribui para o enfrentamento do desinteresse pela leitura na adolescência. | Professores e gestores escolares; lacuna sobre práticas de leitura em regiões específicas. | Incentivo à leitura e melhoria das práticas pedagógicas. |
+| *Exemplo 2*<br>Investigar o uso de IA por estudantes de Letras permite refletir sobre práticas acadêmicas atuais e orientar o uso crítico e ético dessas ferramentas na formação universitária. | Atualiza o debate sobre escrita acadêmica frente às novas tecnologias. | Estudantes, professores universitários e formadores; lacuna sobre usos reais da IA na graduação. | Reflexões sobre ensino, ética e inovação pedagógica. |
+| *Exemplo 3*<br>Compreender como professores lidam com a violência verbal pode subsidiar políticas de formação continuada e promover ambientes escolares mais seguros e dialogados. | Relevante diante da crescente violência nas escolas. | Professores e gestores escolares; lacuna na escuta qualificada de docentes. | Apoio à formação docente e à construção de estratégias institucionais. |
+
+</details>
+
+<!-- Aqui encerra o campo de respostas-->
+
+<br/><br/>
+
+## Aprendizagem prática
+
+::: titulo-nao-numerado
+Registro
 :::
 
--   **Imagens, vídeos, memes e GIFs**\
-    Recursos visuais são fundamentais para atrair a atenção.
+Informe nos campos abaixo, além de seu nome, e-mail e turma, os seguintes elementos do seu projeto de pesquisa:
 
-::: img-central
-<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C6dr_gBrJL2/?igsh=bzVucXdwY2ZmaHBt" data-instgrm-version="14">
-
-</blockquote>
+- **Tema**
+- **Delimitação do tema**
+- **Pergunta de pesquisa**
+- **Objetivo geral**
+- **Hipótese**
 
 ```{=html}
-<script async src="//www.instagram.com/embed.js"></script>
+<style>
+  #formulario-projeto {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 24px;
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    font-family: "Segoe UI", Roboto, sans-serif;
+    font-size: 16px;
+    color: #333;
+  }
+  #formulario-projeto label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #2c3e50;
+  }
+  #formulario-projeto input,
+  #formulario-projeto textarea {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+    transition: border-color 0.3s ease-in-out;
+  }
+  #formulario-projeto input:focus,
+  #formulario-projeto textarea:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  #formulario-projeto button {
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  #formulario-projeto button:hover {
+    background-color: #0056b3;
+  }
+  #mensagem-envio {
+    margin-top: 24px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+  }
+</style>
+
+<form id="formulario-projeto">
+  <label for="nome">Nome completo:</label>
+  <input type="text" id="nome" name="nome" required>
+
+  <label for="email">E-mail:</label>
+  <input type="email" id="email" name="email" required>
+
+  <label for="turma">Turma:</label>
+  <input type="text" id="turma" name="turma" required>
+
+  <label for="tema">Tema:</label>
+  <input type="text" id="tema" name="tema" required>
+
+  <label for="tema_delimitado">Delimitação do tema:</label>
+  <textarea id="tema_delimitado" name="tema_delimitado" rows="2" required></textarea>
+
+  <label for="pergunta">Pergunta de pesquisa:</label>
+  <textarea id="pergunta" name="pergunta" rows="2" required></textarea>
+
+  <label for="objetivo">Objetivo geral:</label>
+  <textarea id="objetivo" name="objetivo" rows="2" required></textarea>
+
+  <label for="hipotese">Hipótese:</label>
+  <textarea id="hipotese" name="hipotese" rows="2" required></textarea>
+
+  <input type="hidden" id="datahora" name="datahora">
+
+  <p style="font-size: 14px; color: #6c757d; margin-bottom: 10px;">
+    ⚠️ <strong>Atenção:</strong> Após clicar em <strong>Enviar</strong>, aguarde a confirmação.
+    <br>Evite clicar mais de uma vez para não gerar respostas duplicadas.
+  </p>
+
+  <button type="submit">Enviar</button>
+</form>
+
+<div id="mensagem-envio"></div>
+
+<script>
+  const formulario = document.getElementById("formulario-projeto");
+  const mensagem = document.getElementById("mensagem-envio");
+
+  formulario.addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    const botao = formulario.querySelector("button");
+    botao.disabled = true;
+    botao.textContent = "Enviando...";
+
+    document.getElementById("datahora").value = new Date().toISOString();
+
+    const params = new URLSearchParams();
+    params.append("nome", document.getElementById("nome").value);
+    params.append("email", document.getElementById("email").value);
+    params.append("turma", document.getElementById("turma").value);
+    params.append("tema", document.getElementById("tema").value);
+    params.append("tema_delimitado", document.getElementById("tema_delimitado").value);
+    params.append("pergunta", document.getElementById("pergunta").value);
+    params.append("objetivo", document.getElementById("objetivo").value);
+    params.append("hipotese", document.getElementById("hipotese").value);
+    params.append("datahora", document.getElementById("datahora").value);
+
+    fetch("https://script.google.com/macros/s/AKfycbyiv7HmmbCgd3E5gM-ETD86dgympddZ7EjLiZhCQ_4VIRJYs7vP7G_uqMmZhgpczXnU/exec", {
+      method: "POST",
+      body: params,
+      headers: { "Content-Type": "application/x-www-form-urlencoded" }
+    })
+    .then(() => {
+      mensagem.textContent = "✅ Resposta enviada com sucesso!";
+      mensagem.style.color = "#28a745";
+      formulario.reset();
+    })
+    .catch(() => {
+      mensagem.textContent = "❌ Ocorreu um erro ao enviar. Tente novamente.";
+      mensagem.style.color = "#dc3545";
+    })
+    .finally(() => {
+      botao.disabled = false;
+      botao.textContent = "Enviar";
+    });
+  });
+</script>
 ```
-:::
-
--   **Narratividade nas imagens**\
-    Imagens que contam uma história ou representam uma ação são mais engajadoras, pois despertam emoções e conectam com o público.
-
-::: img-central
-<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/Chas1PdFFEk/?igsh=enJobW9saGttbTlx" data-instgrm-version="14">
-
-</blockquote>
-
-```{=html}
-<script async src="//www.instagram.com/embed.js"></script>
-```
-:::
-
--   **Descrições visuais**\
-    Palavras que ativam a imaginação visual (“ver”, “olhar”, “enxergar”) contribuem para o efeito de imersão.
-
-::: img-central
-<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DKJ_RK1OYNk/?utm_source=ig_web_copy_link&amp;igsh=MzRlODBiNWFlZA==" data-instgrm-version="14">
-
-</blockquote>
-
-```{=html}
-<script async src="//www.instagram.com/embed.js"></script>
-```
-:::
-
--   **Enquadramento com harmonia**\
-    Imagens visualmente equilibradas e bem compostas favorecem a recepção positiva.
-
-::: img-central
-<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DLNFecWOrJW/?igsh=MWR6ajF5Znd4enZpZg==" data-instgrm-version="14">
-
-</blockquote>
-
-```{=html}
-<script async src="//www.instagram.com/embed.js"></script>
-```
-:::
-
--   **Distância e ponto de vista**\
-    Em alguns contextos, planos distantes ou de baixo para cima (ângulo baixo) têm mais impacto emocional e estético.
-
-::: img-central
-<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/C_9JzeDv-sg/?igsh=MXVkdGpubGVoeHM5YQ==" data-instgrm-version="14">
-
-</blockquote>
-
-```{=html}
-<script async src="//www.instagram.com/embed.js"></script>
-```
-:::
-
-::: subsubtitulo-nao-numerado
-Características do conteúdo e tom
-:::
-
--   **Informatividade e linguagem analítica**\
-    Publicações que explicam bem e usam uma linguagem clara e lógica promovem comentários que compartilham conhecimento.
-
-::: img-central
-<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DKUjijLRgPT/?igsh=MXZjMXI1bDYza2hxeg==" data-instgrm-version="14">
-
-</blockquote>
-
-```{=html}
-<script async src="//www.instagram.com/embed.js"></script>
-```
-:::
-
--   **Expressão de emoções**\
-    Emoções como alegria, raiva ou ansiedade, quando autênticas, fortalecem o impacto da mensagem e ampliam o engajamento.
-
-::: img-central
-<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/Cq1Hr7XLYBU/?igsh=bG9qOXNoYWRrdDV0" data-instgrm-version="14">
-
-</blockquote>
-
-```{=html}
-<script async src="//www.instagram.com/embed.js"></script>
-```
-:::
-
--   **Autenticidade e tom tentativo**\
-    Um estilo mais honesto, humilde e verdadeiro — mesmo quando admite dúvidas — é valorizado pelo público e gera confiança.
-
-::: img-central
-<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/C_A06mAM81c/?igsh=MTh5aHo1aDFrOW9hMw==" data-instgrm-version="14">
-
-</blockquote>
-
-```{=html}
-<script async src="//www.instagram.com/embed.js"></script>
-```
-:::
-
--   **Chamadas para ação e perguntas**\
-    Frases como “O que você pensa sobre isso?” ou “Marque alguém que se interesse” incentivam respostas e compartilhamentos.
-
-::: img-central
-<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DKAxgDcsMTc/?igsh=Y2hxd2s1OXdkdnBw" data-instgrm-version="14">
-
-</blockquote>
-
-```{=html}
-<script async src="//www.instagram.com/embed.js"></script>
-```
-:::
-
--   **Relatabilidade e humor**\
-    Conteúdo que desperta empatia ou diversão facilita o engajamento. Humor bem dosado é um excelente catalisador de comentários.
-
-::: img-central
-<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DKzWROouS3_/?igsh=MWNxMzc5cHF3c3Z2aQ==" data-instgrm-version="14">
-
-</blockquote>
-
-```{=html}
-<script async src="//www.instagram.com/embed.js"></script>
-```
-:::
-
-::: subsubtitulo-nao-numerado
-Outras estratégias...
-:::
-
--   **Brevidade (nano/microlearning)**\
-    Em plataformas como TikTok, vídeos de até 2 minutos com mensagens diretas e criativas são mais eficazes para informar e engajar.
-
--   **Responder aos comentários**\
-    Estimular conversas e responder perguntas ou elogios cria uma relação mais próxima com a audiência e convida à continuidade do diálogo.
-
--   **Uso de hashtags**\
-    Hashtags conectam postagens a temas maiores e ampliam o alcance. Devem ser usadas com critério, incluindo hashtags científicas relevantes.
-
--   **Priorizar o Instagram**\
-    O Instagram é mais eficaz do que o Twitter para interações pessoais e visuais. Sua informalidade e recursos multimodais (stories, reels, carrosséis) favorecem a criação de vínculo com o público.
-
-::: subtitulo-nao-numerado
-Resumo das recomendações
-:::
-
--   Mostre o rosto e fale diretamente com o público;\
--   Mescle ciência com conteúdos leves e cotidianos;\
--   Use pronomes pessoais para criar proximidade;\
--   Responda aos comentários com atenção e frequência;\
--   Invista em imagens e vídeos com narrativa e harmonia;\
--   Use emoções, autenticidade e tom conversacional;\
--   Insira hashtags bem escolhidas e chamadas para ação.

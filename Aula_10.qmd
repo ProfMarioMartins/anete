@@ -156,3 +156,15 @@ Após a leitura atenta do artigo que você selecionou para a elaboração da mí
 
 <!-- Aqui encerra o campo de respostas-->
 ::::
+
+::: proxima-aula
+[Para a próxima aula:]{.proxima-aula-title}
+
+**Leituras indicadas:**\
+MEDEIROS, João Bosco; TOMASI, Carolina. *Redação de artigos científicos*. Rio de Janeiro: Editora Atlas, 2021. Capítulo: “Artigo científico original e de revisão: a estrutura “Introdução, Método, Resultados e Discussão” (IMRD)”, p. 48–65.\
+[🔗 Acesso à leitura](vbk://9788597026641/epubcfi/6/32%5B%3Bvnd.vst.idref%3Dhtml14%5D)
+
+\`\`\`{=html} <!--
+MOTTA-ROTH, Désirée; HENDGES, Graciela Rabuske. Produção textual na universidade. São Paulo: Parábola, 2010. Capítulo: "Abstract/resumo acadêmico". [🔗 Acesso à leitura](SIGAA)
+-->
+:::
