@@ -496,3 +496,11 @@ Informe nos campos abaixo, além de seu nome, e-mail e turma, os seguintes eleme
   });
 </script>
 ```
+
+<br/>
+
+::: proxima-aula
+[Para a próxima aula:]{.proxima-aula-title}
+
+-   **Leia** o texto **Artigo científico original e de revisão: a estrutura “Introdução, Método, Resultados e Discussão” (IMRD)** (p. 48–65), capítulo do livro *Redação de artigos científicos*, de João Bosco Medeiros e Carolina Tomasi. Disponível na Minha Biblioteca.
+:::

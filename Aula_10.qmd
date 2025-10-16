@@ -1,170 +1,426 @@
 ---
-title: "O que é um fichamento?"
+title: "O que é um artigo científico?"
 ---
 
+```{=html}
+<style>
+  #form-artigo p {
+    margin-top: 1.2em;
+    font-weight: bold;
+    font-size: 1.05em;
+  }
+  #form-artigo label {
+    display: block;
+    margin-left: 1em;
+    margin-bottom: 0.4em;
+    font-weight: normal;
+  }
+</style>
+
+<style>
+  #form-artigo button {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+    transition: background-color 0.3s ease;
+  }
+
+  #form-artigo button:hover {
+    background-color: #388E3C;
+  }
+</style>
+
+<style>
+  #aprendizagem-introducao p:nth-of-type(n+2),
+  #aprendizagem-metodologia p:nth-of-type(n+2),
+  #aprendizagem-resultados p:nth-of-type(n+2),
+  #aprendizagem-discussao p:nth-of-type(n+2) {
+    font-weight: bold;
+    margin-top: 1em;
+  }
+</style>
+```
+
 ::: nota-secundaria
-Roteiro de aula elaborado no RStudio com o auxílio de chatbots de inteligência artificial, revisado e avaliado pelo professor antes de sua publicação.
+Roteiro de aula elaborado no RStudio com o auxílio da inteligência artificial, revisado e avaliado pelo autor antes de sua publicação.
 :::
 
-## Objetivos de aprendizagem
+## Contextualização
 
-Ao final desta aula, espera-se que você seja capaz de:
 
--   Explicar o conceito e o objetivo do fichamento acadêmico.
--   Reconhecer os tipos de fichamento e suas aplicações na produção científica.
--   Realizar um fichamento de resumo/conteúdo no Zotero.
--   Utilizar o Zotero no celular para organizar fichamentos e referências.
+Ao final deste encontro, espera-se que você seja capaz de:
+
+-   Identificar os principais elementos que compõem cada seção de um artigo científico;
+-   Avaliar criticamente se os artigos lidos atendem às expectativas da escrita acadêmica científica;
 
 ::: leitura
-**Leituras indicadas:**\
-**Fichamento acadêmico** (p. 53–64), capítulo do livro *Leitura e escrita acadêmicas*, de Nádia Studzinski Estima de Castro e colaboradores. Disponível na Minha Biblioteca.
+**Leitura indicada**
 
-CAMPOS, M. *Gêneros acadêmicos: resenha, fichamento, memorial e projeto de pesquisa*. Mariana: Fundação Presidente Antônio Carlos, 2010. Capítulo: "Como elaborar um fichamento". [🔗 Acesso à leitura](SIGAA)
+**Artigo científico original e de revisão: a estrutura “Introdução, Método, Resultados e Discussão” (IMRD)** (p. 48–65), capítulo do livro *Redação de artigos científicos*, de João Bosco Medeiros e Carolina Tomasi. Disponível na Minha Biblioteca.
 :::
 
-## Introdução
-
-O **fichamento** é um gênero de texto que, Segundo Castro *et al*. (2019, p. 53), consiste no **registro sistemático das leituras realizadas**, funcionando como um apoio à organização do conhecimento e à futura redação dos trabalhos científicos.
-
-Castro e outros (2019, p. 53) afirmam que o objetivo do fichamento é
+## Foco na leitura
 
 ::: citacao
-“\[...\] armazenar informações importantes de forma organizada e prática, permitindo ao estudante retomar os conteúdos lidos sem a necessidade de reler o texto na íntegra”.
+Como Bosco e Tomasi (2021, p. 48) sintetizam, segundo a ABNT NBR 6022, "um artigo científico é uma publicação com autoria declarada que apresenta e discute ideias, métodos, técnicas, processos e resultados nas diversas áreas do conhecimento.
 :::
 
-Em outras palavras, o fichamento ajuda a **otimizar o tempo e a garantir rigor na utilização das fontes**.
-
-Há diversos tipos de fichamento:
-
-::: subtitulo-nao-numerado
-Fichamento bibliográfico
+::: citacao
+É um meio essencial para dialogar com a comunidade científica e comunicar em primeira mão os resultados de uma pesquisa." (Bosco e Tomasi, 2021, p. 48)
 :::
 
-Traz a referência completa da obra e indica partes importantes da estrutura, como capítulos e tópicos relevantes.
+<br>
 
-```{=html}
-<figure style="text-align: center;">
-  <img src="img/fichamento_bibliografico.png" style="width:80%; display: block; margin: auto;" />
-  <figcaption><strong>Figura 1.</strong> Exemplo de fichamento bibliográfico. Extraido de Campos (2010).</figcaption>
-</figure>
-```
+A norma ABNT NBR 6022 apresenta orientações gerais sobre a redação de artigos, classificando-os principalmente em dois tipos: **artigo original** e **artigo de revisão**. No entanto, cada área do saber possui suas próprias expectativas.
+
+Em muitos campos de conhecimento, é comum que os periódicos exijam a estrutura IMRD: Introdução, Métodos, Resultados e Discussão.
+
+Em outros campos de conhecimento, há tipos de artigos que seguem formatos mais flexíveis, como as **revisões narrativas**, os **relatos de caso**, as **metanálises** e os **ensaios teóricos**.
+
+Além disso, a natureza da pesquisa — se é experimental, observacional ou teórica — influencia diretamente na forma de apresentar os dados e organizar as seções do texto.
+
+Por isso, ao escrever ou ler um artigo, é fundamental conhecer não apenas os objetivos da própria pesquisa, mas também as convenções da área e as normas editoriais do periódico em que foi (ou será publicado).
+
+**Em síntese, a escolha do tipo e da estrutura de um artigo científico deve levar em conta dois aspectos fundamentais: a área do conhecimento em que se insere e as exigências do periódico onde se pretende publicar**.
 
 <br>
 
-```{=html}
-<figure style="text-align: center;">
-  <img src="img/fichamento_bibliografico_zotero.png" style="width:80%; display: block; margin: auto;" />
-  <figcaption><strong>Figura 2.</strong> Exemplo de fichamento bibliográfico no Zotero. Elaborado pelo professor.</figcaption>
-</figure>
-```
-
-<br>
-
-::: subtitulo-nao-numerado
-Fichamento de citações
+::: destaque
+As aprendizagens práticas a seguir foram elaboradas para guiá-lo na identificação dos principais tipos de artigos científicos e na compreensão de suas estruturas mais comuns.
 :::
 
-Registra trechos literais da obra, devidamente indicados entre aspas e com a referência da página.
+## Aprendizagem prática
 
 ```{=html}
-<figure style="text-align: center;">
-  <img src="img/fichamento_citacao.png" style="width:80%; display: block; margin: auto;" />
-  <figcaption><strong>Figura 3.</strong> Exemplo de fichamento de citações. Extraido de Campos (2010).</figcaption>
-</figure>
-```
+<div id="diagnostico-artigo">
+  <h2>🔍 Que tipo de artigo científico você está lendo?</h2>
+  <p>Responda "sim" ou "não" às perguntas abaixo. Ao final, clique no botão para descobrir o tipo predominante de artigo: se original ou de revisão.</p>
+  
+  <form id="form-artigo">
 
-<br>
+    <fieldset style="border: 1px solid #ccc; padding: 15px; border-radius: 6px; background-color: #f9f9f9;">
 
-```{=html}
-<figure style="text-align: center;">
-  <img src="img/fichamento_citacao_zotero.png" style="width:80%; display: block; margin: auto;" />
-  <figcaption><strong>Figura 4.</strong> Exemplo de fichamento de citações no Zotero. Elaborado pelo professor.</figcaption>
-</figure>
-```
+  <p>O artigo apresenta conteúdo inédito, como uma descoberta, nova experiência ou análise não publicada antes?</p>
+  <label><input type="radio" name="q1" value="original"> Sim</label>
+  <label><input type="radio" name="q1" value=""> Não</label>
 
-<br>
+  <p>Os métodos são descritos de forma clara e detalhada, permitindo a replicação do estudo?</p>
+  <label><input type="radio" name="q2" value="original"> Sim</label>
+  <label><input type="radio" name="q2" value=""> Não</label>
 
-::: subtitulo-nao-numerado
-Fichamento de resumo
-:::
+  <p>Há dados primários (coletados diretamente pelos autores)?</p>
+  <label><input type="radio" name="q3" value="original"> Sim</label>
+  <label><input type="radio" name="q3" value=""> Não</label>
 
-Apresenta, com as palavras do próprio estudante, as ideias principais do texto lido, organizadas de acordo com a necessidade da pesquisa.
+  <p>O artigo segue a estrutura IMRD (Introdução, Métodos, Resultados e Discussão)?</p>
+  <label><input type="radio" name="q4" value="original"> Sim</label>
+  <label><input type="radio" name="q4" value=""> Não</label>
 
-O fichamento de resumo **\[...\] “exige uma leitura atenta e reflexiva, pois implica reelaborar as ideias do autor com fidelidade e clareza”** (Castro *et al*., 2019).
+  <p>O artigo tem como objetivo analisar criticamente conteúdos já publicados, sem apresentar dados inéditos?</p>
+  <label><input type="radio" name="q5" value="revisao"> Sim</label>
+  <label><input type="radio" name="q5" value=""> Não</label>
 
-```{=html}
-<figure style="text-align: center;">
-  <img src="img/fichamento_resumo.png" style="width:80%; display: block; margin: auto;" />
-  <figcaption><strong>Figura 5.</strong> Exemplo de fichamento de resumo. Extraido de Campos (2010).</figcaption>
-</figure>
-```
+  <p>O autor propõe novas interpretações, questiona ideias ou aponta caminhos futuros com base na literatura?</p>
+  <label><input type="radio" name="q6" value="revisao"> Sim</label>
+  <label><input type="radio" name="q6" value=""> Não</label>
 
-<br>
+  <p>O artigo apresenta critérios claros de seleção e exclusão de estudos analisados?</p>
+  <label><input type="radio" name="q7" value="sistematica"> Sim</label>
+  <label><input type="radio" name="q7" value=""> Não</label>
 
-```{=html}
-<figure style="text-align: center;">
-  <img src="img/fichamento_resumo_zotero.png" style="width:80%; display: block; margin: auto;" />
-  <figcaption><strong>Figura 6.</strong> Exemplo de fichamento de resumo no Zotero. Elaborado pelo professor.</figcaption>
-</figure>
+  <p>O objetivo é evitar viés na análise e garantir maior confiabilidade dos resultados?</p>
+  <label><input type="radio" name="q8" value="sistematica"> Sim</label>
+  <label><input type="radio" name="q8" value=""> Não</label>
+
+  <p>O artigo combina estatisticamente resultados de diferentes estudos em uma única análise?</p>
+  <label><input type="radio" name="q9" value="metanalise"> Sim</label>
+  <label><input type="radio" name="q9" value=""> Não</label>
+
+  <p>Há tabelas ou gráficos que sintetizam dados numéricos de vários estudos?</p>
+  <label><input type="radio" name="q10" value="metanalise"> Sim</label>
+  <label><input type="radio" name="q10" value=""> Não</label>
+
+  <p>O estudo apresenta testes realizados sob condições controladas com manipulação de variáveis?</p>
+  <label><input type="radio" name="q11" value="experimental"> Sim</label>
+  <label><input type="radio" name="q11" value=""> Não</label>
+
+  <p>Há descrição detalhada dos procedimentos e controle dos fatores envolvidos?</p>
+  <label><input type="radio" name="q12" value="experimental"> Sim</label>
+  <label><input type="radio" name="q12" value=""> Não</label>
+
+  <p>O estudo divide participantes em grupos aleatórios e compara grupo tratado com grupo controle?</p>
+  <label><input type="radio" name="q13" value="randomizado"> Sim</label>
+  <label><input type="radio" name="q13" value=""> Não</label>
+
+  <p>O objetivo é testar a eficácia de um tratamento em seres humanos?</p>
+  <label><input type="radio" name="q14" value="randomizado"> Sim</label>
+  <label><input type="radio" name="q14" value=""> Não</label>
+
+  <p>O estudo menciona o uso de placebo?</p>
+  <label><input type="radio" name="q15" value="placebo"> Sim</label>
+  <label><input type="radio" name="q15" value=""> Não</label>
+
+  <p>O pesquisador observa e registra os fenômenos sem interferir neles?</p>
+  <label><input type="radio" name="q17" value="observacional"> Sim</label>
+  <label><input type="radio" name="q17" value=""> Não</label>
+
+  <p>O estudo é descritivo e não há experimentos ou manipulação de variáveis?</p>
+  <label><input type="radio" name="q18" value="observacional"> Sim</label>
+  <label><input type="radio" name="q18" value=""> Não</label>
+
+  <p>O artigo apresenta uma seção extensa com o nome “Revisão da Literatura” ou “Referencial Teórico”?</p>
+  <label><input type="radio" name="q19" value="literatura"> Sim</label>
+  <label><input type="radio" name="q19" value=""> Não</label>
+
+  <p>Essa seção apresenta o que já se sabe sobre o tema, sem propor hipóteses ou novos dados?</p>
+  <label><input type="radio" name="q20" value="literatura"> Sim</label>
+  <label><input type="radio" name="q20" value=""> Não</label>
+
+  <p>O artigo discute modelos ou teorias existentes e propõe reformulações conceituais?</p>
+  <label><input type="radio" name="q21" value="teorico"> Sim</label>
+  <label><input type="radio" name="q21" value=""> Não</label>
+
+</fieldset>
+
+    <br>
+    
+    <br>
+    
+    <button type="button" onclick="calcularTipoArtigo()" style="
+      background-color: #4CAF50;
+      color: white;
+      font-size: 1.2em;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    ">✅ Ver resultado</button>
+  </form>
+
+  <div id="resultado-artigo" style="margin-top: 20px;"></div>
+</div>
+
+<script>
+function calcularTipoArtigo() {
+  const respostas = document.querySelectorAll('input[type=radio]:checked');
+  const contagem = {};
+  const totalRespondidas = new Set();
+
+  respostas.forEach((r) => {
+    totalRespondidas.add(r.name);
+    if (r.value) {
+      contagem[r.value] = (contagem[r.value] || 0) + 1;
+    }
+  });
+
+  const resultadoDiv = document.getElementById("resultado-artigo");
+
+  if (respostas.length === 0 || totalRespondidas.size < 5) {
+    resultadoDiv.innerHTML =
+      `<p style="color: darkred;">❗ Por favor, responda ao menos uma pergunta por grupo para que o sistema possa gerar um diagnóstico.</p>`;
+    return;
+  }
+
+  if (Object.keys(contagem).length === 0) {
+    resultadoDiv.innerHTML =
+      `<p style="font-size: 1.1em;">⚠️ O artigo analisado não apresenta características claras dos tipos listados.</p>
+       <p>Releia as perguntas com atenção, pois o texto pode ter elementos sutis que você não percebeu.</p>`;
+    return;
+  }
+
+  const tipoMaisFrequente = Object.entries(contagem).sort((a, b) => b[1] - a[1])[0];
+
+  const explicacoes = {
+    original: "<strong>Artigo Original:</strong> apresenta resultados inéditos de uma pesquisa desenvolvida pelos autores. Detalha métodos, procedimentos e dados primários, sendo essencial para o avanço do conhecimento científico.",
+    revisao: "<strong>Artigo de Revisão:</strong> sintetiza e discute criticamente pesquisas já publicadas. Não traz dados inéditos, mas contribui com um panorama consolidado sobre determinado tema.",
+    sistematica: "<strong>Revisão Sistemática:</strong> segue critérios rigorosos de seleção e análise de estudos sobre uma mesma questão, com o objetivo de evitar vieses e produzir uma revisão crítica confiável.",
+    metanalise: "<strong>Metanálise:</strong> combina estatisticamente os resultados de diversos estudos prévios sobre um mesmo problema, ampliando a validade das conclusões.",
+    experimental: "<strong>Pesquisa Experimental:</strong> testa hipóteses por meio de experimentos sob controle de variáveis. É comum em ciências naturais, saúde e engenharias.",
+    randomizado: "<strong>Estudo Clínico Randomizado:</strong> investiga a eficácia de tratamentos em grupos formados aleatoriamente, geralmente com grupo controle e, às vezes, uso de placebo.",
+    placebo: "<strong>Uso de Placebo:</strong> o estudo inclui uma substância inativa administrada ao grupo controle para comparação com o tratamento real.",
+    evidencias: "<strong>Evidência Científica:</strong> os dados apresentados têm alto grau de confiabilidade e embasam decisões científicas ou práticas clínicas.",
+    observacional: "<strong>Pesquisa Observacional:</strong> analisa fenômenos como eles ocorrem na realidade, sem manipulação de variáveis pelo pesquisador.",
+    literatura: "<strong>Revisão da Literatura:</strong> compõe uma seção do artigo dedicada à contextualização do problema com base em autores e teorias já publicadas.",
+    teorico: "<strong>Artigo de Estudos Teóricos:</strong> tem como foco a formulação ou reformulação de modelos conceituais, hipóteses ou teorias. Baseia-se fortemente em textos clássicos ou recentes, sem apresentar experimentação."
+  };
+
+  resultadoDiv.innerHTML =
+    `<p style="font-size: 1.1em;">✅ O artigo que você está analisando é provavelmente um(a):</p>
+     <p style="font-size: 1.2em; font-weight: bold; color: darkgreen;">${tipoMaisFrequente[0].toUpperCase()}</p>
+     <div style="background-color:#f1f1f1; border-left: 5px solid #4CAF50; padding: 10px; margin-top: 10px;">
+       ${explicacoes[tipoMaisFrequente[0]]}
+     </div>`;
+}
+</script>
 ```
 
 <br>
 
 ::: destaque
-Além de ser uma ferramenta de estudo, o fichamento colabora para o desenvolvimento da **autonomia intelectual**, na medida em que o estudante exercita a seleção e organização de informações, preparando-se para o diálogo crítico com os textos.
-:::
-
-## Aprendizagem prática
-
-Elabore um fichamento de resumo combinado com fichamento de citações do artigo selecionado para a sua mídia de divulgação científica. O fichamento deve conter cerca de 200 a 300 palavras e estar organizado no campo Notas da entrada do Zotero. Estruture da seguinte forma:
-
--   Uma síntese das ideias principais, em tópicos, com suas palavras.
--   Até três citações diretas relevantes (com indicação da página).
--   Observações pessoais ou críticas que possam embasar sua produção da mídia.
-
-::: enfase
-Após fazer o fichamento no Zotero, faça um print de tela e poste no chat da turma!
+<strong>Importante:</strong> A classificação gerada acima não é definitiva. Use-a como ponto de partida para discutir com seus colegas e revisar as seções-chave do artigo. Artigos híbridos (ex.: revisão com análise teórica) podem gerar resultados cruzados. O mais importante é compreender como o conhecimento é construído.
 :::
 
 <br>
 
-```{=html}
-<figure style="text-align: center;">
-  <img src="img/fichamento_aprendizagem.jpeg" style="width:30%; display: block; margin: auto;" />
-  <figcaption><strong>Figura 7.</strong> Exemplo de fichamento de resumo combinado com fichamento de citações no Zotero. Elaborado pelo professor.</figcaption>
-</figure>
-```
+<br>
 
-<!-- Aqui começa o campo de respostas-->
+## Aprendizagem prática
 
-<details>
-
-<summary>
-
-</summary>
-
-:::: {style="width: 100%; background-color:#ADD8E6; font-size: 18px; line-height: 1.5; padding: 15px;"}
-Após a leitura atenta do artigo que você selecionou para a elaboração da mídia de divulgação científica e a realização do fichamento por suas próprias habilidades, crie um prompt para gerar, com apoio de inteligência artificial, um **fichamento de resumo combinado com um fichamento de citações**. Copie a resposta ao prompt, revise-a criticamente e cole o resultado no campo Notas do artigo registrado no Zotero.
-
-::: enfase
-⚠️ Compartilhe o prompt criado por você no chat da turma. No chat, está liberado dialogarmos sobre os prompts a fim de aprimorarmos eticamente nossas habilidades de uso da IA.
+::: {#citacao}
+Segundo Bosco e Tomasi (2021, p. 48), uma excelente forma de melhorar nossas práticas científicas, é "examinar os artigos científicos já publicados: \[...\] palavras-chave (número de palavras-chave), introdução, desenvolvimento, conclusão, referências, ilustrações (tabelas, quadros, diagramas), formas de introduzir citações diretas e indiretas, fonte tipográfica, mancha da página, espaço interlinear etc."
 :::
 
-</details>
+Para esta atividade, selecione, no Google Acadêmico, um **artigo científico publicado em periódico classificado como Qualis A4 ou superior** (conforme a classificação da Capes disponível na plataforma Sucupira) e que esteja diretamente relacionado ao seu tema de pesquisa. Em seguida, realize uma leitura atenta, com atenção à estrutura retórica do texto: introdução, metodologia, resultados e discussão. Após essa análise, responda objetivamente às perguntas abaixo e clique no botão para sistematizar suas respostas em uma estrutura hierárquica de tópicos e subtópicos. Por fim, copie e cole essa estrutura no site [Markmap](https://markmap.js.org/repl) para visualizar um mapa mental do artigo analisado.
 
-</pre>
+<br>
 
-<!-- Aqui encerra o campo de respostas-->
-::::
+```{r, echo=FALSE, results='asis'}
+htmltools::HTML(
+  '
+<div id="form-introducao" style="margin-bottom:2em;">
+  <fieldset style="border: 1px solid #ccc; padding: 15px; border-radius: 6px; background-color: #f9f9f9;">
+    <legend style="font-weight:bold;">📝 Introdução</legend>
+
+    <label for="tema">1. Qual é o tema central investigado no artigo?</label><br>
+    <textarea id="tema" rows="3" style="width:100%; margin-bottom:1em;" placeholder="Ex: Inteligência artificial na educação"></textarea>
+
+    <label for="problema">2. Qual problema ou situação específica o artigo busca resolver?</label><br>
+    <textarea id="problema" rows="3" style="width:100%; margin-bottom:1em;" placeholder="Ex: Baixa adesão de professores ao uso de IA"></textarea>
+
+    <label for="hipoteses">3. O autor propõe hipóteses para explicar o fenômeno estudado? Se sim, qual?</label><br>
+    <textarea id="hipoteses" rows="3" style="width:100%; margin-bottom:1em;" placeholder="Ex: Formação docente inadequada é um fator"></textarea>
+
+    <label for="objetivos">4. Qual é o principal objetivo declarado pelo autor?</label><br>
+    <textarea id="objetivos" rows="3" style="width:100%; margin-bottom:1em;" placeholder="Ex: Investigar a percepção docente sobre IA"></textarea>
+
+    <label for="justificativa">5. Qual é a justificativa que o autor apresenta para realizar a pesquisa?</label><br>
+    <textarea id="justificativa" rows="3" style="width:100%; margin-bottom:1em;" placeholder="Ex: Relevância para políticas públicas educacionais"></textarea>
+
+    <label for="revisao">6. Quais autores e conceitos são mobilizados para fundamentar o estudo?</label><br>
+    <textarea id="revisao" rows="3" style="width:100%; margin-bottom:1em;" placeholder="Ex: Autores como Levy (2021) e Selwyn (2022). Conceitos como letramento digital e migração digital"></textarea>
+  </fieldset>
+</div>
+
+<div id="form-metodologia" style="margin-bottom:2em;">
+  <fieldset style="border: 1px solid #ccc; padding: 15px; border-radius: 6px; background-color: #f9f9f9;">
+    <legend style="font-weight:bold;">🔬 Metodologia</legend>
+
+    <label for="tipo">1. Qual o tipo de pesquisa?</label><br>
+    <textarea id="tipo" rows="3" style="width:100%; margin-bottom:1em;" placeholder="Ex: Pesquisa exploratória"></textarea>
+
+    <label for="abordagem">2. Qual a abordagem metodológica?</label><br>
+    <textarea id="abordagem" rows="3" style="width:100%; margin-bottom:1em;" placeholder="Ex: Abordagem qualitativa"></textarea>
+
+    <label for="tecnicas">3. Quais técnicas ou instrumentos foram utilizados para a coleta de dados?</label><br>
+    <textarea id="tecnicas" rows="3" style="width:100%; margin-bottom:1em;" placeholder="Ex: Entrevistas semiestruturadas"></textarea>
+
+    <label for="amostra">4. Quem são os sujeitos ou objetos de estudo? Qual o tamanho da amostra?</label><br>
+    <textarea id="amostra" rows="3" style="width:100%; margin-bottom:1em;" placeholder="Ex: 10 professores do ensino médio público"></textarea>
+
+    <label for="procedimentos">5. Como os dados foram organizados, categorizados e analisados?</label><br>
+    <textarea id="procedimentos" rows="3" style="width:100%; margin-bottom:1em;" placeholder="Ex: Categorias definidas a partir de eixos temáticos. Análise de conteúdo segundo Bardin (2011)"></textarea>
+  </fieldset>
+</div>
+
+<div id="form-resultados" style="margin-bottom:2em;">
+  <fieldset style="border: 1px solid #ccc; padding: 15px; border-radius: 6px; background-color:#f9f9f9;">
+    <legend style="font-weight:bold;">📊 Resultados e Discussão</legend>
+
+    <label for="previstos">1. Quais são os resultados mais relevantes apresentados no artigo?</label><br>
+    <textarea id="previstos" rows="3" style="width:100%; margin-bottom:1em;" placeholder="Ex: Docentes demonstram interesse, mas sentem-se despreparados. Falta de formação específica é apontada como principal obstáculo"></textarea>
+
+    <label for="conexoes">2. Como o autor interpreta os resultados à luz do referencial teórico?</label><br>
+    <textarea id="conexoes" rows="3" style="width:100%; margin-bottom:1em;" placeholder="Ex: Resultados confirmam a hipótese de resistência por falta de formação. Análise dialoga com pressupostos de Vygotsky"></textarea>
+
+    <label for="implicacoes">3. Quais são as possíveis implicações e/ou contribuições para o campo de pesquisa?</label><br>
+    <textarea id="implicacoes" rows="3" style="width:100%; margin-bottom:1em;" placeholder="Ex: Ampliação do debate sobre inclusão digital nas escolas públicas. Proposição de novos indicadores para avaliar o uso de tecnologias. Contribuição para a formação crítica de professores sobre IA"></textarea>
+  </fieldset>
+</div>
+
+<!-- Botão final e área de exibição -->
+<div style="text-align:center; margin-bottom:2em;">
+  <button onclick="gerarMapaMentalCompleto()" style="padding:10px 20px; font-size:1.1em;">🧠 Gerar estrutura de tópicos</button>
+</div>
+
+<div id="resultado-mapmark" style="white-space:pre-wrap; border:1px dashed #ccc; padding:1em; background-color:#f4f4f4;"></div>
+
+<script>
+function gerarMapaMentalCompleto() {
+  const r = id => document.getElementById(id).value.trim();
+
+  let mapa = "# Projeto de Pesquisa\\n";
+
+  // Introdução
+  mapa += "- Introdução\\n";
+  if (r("tema")) mapa += "  - Tema: " + r("tema") + "\\n";
+  if (r("problema")) mapa += "  - Problema: " + r("problema") + "\\n";
+  if (r("hipoteses")) mapa += "  - Hipóteses: " + r("hipoteses") + "\\n";
+  if (r("objetivos")) mapa += "  - Objetivos: " + r("objetivos") + "\\n";
+  if (r("justificativa")) mapa += "  - Justificativa: " + r("justificativa") + "\\n";
+  if (r("revisao")) mapa += "  - Revisão da literatura: " + r("revisao") + "\\n";
+
+  // Metodologia
+  mapa += "- Metodologia\\n";
+  if (r("tipo")) mapa += "  - Tipo: " + r("tipo") + "\\n";
+  if (r("abordagem")) mapa += "  - Abordagem: " + r("abordagem") + "\\n";
+  if (r("tecnicas")) mapa += "  - Técnicas/instrumentos: " + r("tecnicas") + "\\n";
+  if (r("amostra")) mapa += "  - Amostra: " + r("amostra") + "\\n";
+  if (r("procedimentos")) mapa += "  - Procedimentos: " + r("procedimentos") + "\\n";
+
+  // Resultados
+  mapa += "- Resultados e Discussão\\n";
+  if (r("previstos")) mapa += "  - Resultados esperados: " + r("previstos") + "\\n";
+  if (r("conexoes")) mapa += "  - Conexão com teoria: " + r("conexoes") + "\\n";
+  if (r("implicacoes")) mapa += "  - Implicações: " + r("implicacoes") + "\\n";
+
+  document.getElementById("resultado-mapmark").textContent = mapa;
+}
+</script>
+'
+)
+```
+
+```{r, echo=FALSE, results='asis'}
+htmltools::HTML(
+  '
+<div style="margin-top:2em; text-align: center;">
+  <button id="botao-copiar" style="padding: 10px 20px; background-color: #007BFF; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 16px;">
+    📋 Copiar código para o Markmap.js
+  </button>
+  <div id="mensagem-copiar" style="margin-top: 10px; font-weight: bold; color: green;"></div>
+</div>
+
+<script>
+document.getElementById("botao-copiar").addEventListener("click", function() {
+  const texto = document.getElementById("resultado-mapmark-completo").innerText;
+  if (!texto.trim()) {
+    document.getElementById("mensagem-copiar").textContent = "⚠️ Nada para copiar!";
+    return;
+  }
+
+  navigator.clipboard.writeText(texto).then(function() {
+    document.getElementById("mensagem-copiar").textContent = "✅ Copiado com sucesso!";
+  }, function(err) {
+    document.getElementById("mensagem-copiar").textContent = "❌ Erro ao copiar.";
+  });
+});
+</script>
+'
+)
+```
+
+<br>
 
 ::: proxima-aula
 [Para a próxima aula:]{.proxima-aula-title}
 
-**Leituras indicadas:**\
-MEDEIROS, João Bosco; TOMASI, Carolina. *Redação de artigos científicos*. Rio de Janeiro: Editora Atlas, 2021. Capítulo: “Artigo científico original e de revisão: a estrutura “Introdução, Método, Resultados e Discussão” (IMRD)”, p. 48–65.\
-[🔗 Acesso à leitura](vbk://9788597026641/epubcfi/6/32%5B%3Bvnd.vst.idref%3Dhtml14%5D)
-
-\`\`\`{=html} <!--
-MOTTA-ROTH, Désirée; HENDGES, Graciela Rabuske. Produção textual na universidade. São Paulo: Parábola, 2010. Capítulo: "Abstract/resumo acadêmico". [🔗 Acesso à leitura](SIGAA)
--->
+-   **Leia** o texto **Fichamento acadêmico** (p. 53–64), capítulo do livro *Leitura e escrita acadêmicas*, de Nádia Studzinski Estima de Castro e colaboradores. Disponível na Minha Biblioteca.
 :::

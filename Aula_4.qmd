@@ -10,8 +10,8 @@ Roteiro de aula elaborado no RStudio com o auxílio da inteligência artificial 
 
 Ao final deste encontro e com base na leitura indicada, espera-se que você seja capaz de:
 
-- *Compreender o que significa pensar cientificamente;*
-- *Desenvolver uma atitude crítica baseada em evidências, lógica e experimentação.*
+-   *Compreender o que significa pensar cientificamente;*
+-   *Desenvolver uma atitude crítica baseada em evidências, lógica e experimentação.*
 
 ::: leitura
 Leituras indicadas:
@@ -35,20 +35,19 @@ Leituras indicadas:
 (...) o **pensamento científico** não é importante apenas para os cientistas, mas também para qualquer um de nós. (Bachi, 2024 - ebook - destaques meus)
 :::
 
-
 ::: enfase
 O pensamento científico se aplica sempre que buscamos tomar decisões baseadas em evidências (e não nos costumes ou na intuição). Ele se manifesta quando:
 
-  - Questionamos informações antes de aceitá-las como verdadeiras
-    - *O que fazer diante de uma oferta de enriquecimento rápido?*
-  - Buscamos explicações fundamentadas e verificáveis sobre os fenômenos do mundo
-    - *O que fazer se a conta de luz aumenta muito além do habitual?*
-  - Analisamos causas e efeitos com base em dados, não em suposições
-    - *Como escolher uma dieta?*
-  - Testamos hipóteses e aprendemos com os erros
-    - *Como escolher uma dieta?*
-  - Rejeitamos conclusões apressadas e consideramos a complexidade dos contextos
-    - *O que concluir quando alguém diz que os jovens de hoje em dia não gostam de ler?*
+-   Questionamos informações antes de aceitá-las como verdadeiras
+    -   *O que fazer diante de uma oferta de enriquecimento rápido?*
+-   Buscamos explicações fundamentadas e verificáveis sobre os fenômenos do mundo
+    -   *O que fazer se a conta de luz aumenta muito além do habitual?*
+-   Analisamos causas e efeitos com base em dados, não em suposições
+    -   *Como escolher uma dieta?*
+-   Testamos hipóteses e aprendemos com os erros
+    -   *Como escolher uma dieta?*
+-   Rejeitamos conclusões apressadas e consideramos a complexidade dos contextos
+    -   *O que concluir quando alguém diz que os jovens de hoje em dia não gostam de ler?*
 :::
 
 \
@@ -59,7 +58,7 @@ Adotar uma atitude científica implica um compromisso com a dúvida metódica - 
 Adotar uma atitude científica envolve também ética, responsabilidade e humildade intelectual, pois o pensamento científico não é sobre parecer certo, mas sobre se aproximar, com rigor e criticidade, da verdade possível em cada contexto.
 
 ::: citacao
-Se queremos de fato nos aproximar de “verdades objetivas”, é necessário abandonar a crença [a certeza] e abraçar a dúvida. (Bachi, 2024 - ebook - inserção minha)
+Se queremos de fato nos aproximar de “verdades objetivas”, é necessário abandonar a crença \[a certeza\] e abraçar a dúvida. (Bachi, 2024 - ebook - inserção minha)
 :::
 
 <br/>
@@ -77,15 +76,14 @@ Como aplicar o pensamento científico?
 Estabeleça a correspondência entre cada forma de pensar cientificamente e sua aplicação prática no processo de escolha de uma dieta.
 
 ::: destaque
-
-| 🔬 Formas de pensar             | 🧩 Aplicações práticas                                                          |
-|------------------------------------------------|----------------------------------------------------------------------------------|
-| **B) Buscar evidências confiáveis**           | **1)** Analisar estudos clínicos publicados em revistas científicas sobre os efeitos de diferentes dietas. |
-| **F) Acompanhar resultados e reavaliar**      | **2)** Observar se, após um mês seguindo a dieta, houve melhora nos exames e no bem-estar geral.       |
-| **C) Considerar variáveis contextuais**       | **3)** Verificar se a dieta escolhida se adequa à rotina pessoal, às condições de saúde e ao orçamento familiar. |
-| **D) Evitar generalizações apressadas**       | **4)** Refletir se a dieta que funcionou para um amigo realmente é apropriada para você.               |
-| **A) Formular hipóteses testáveis**           | **5)** Levantar a dúvida: “Será que a dieta X reduz mais gordura abdominal do que a dieta Y?”         |
-| **E) Consultar profissionais especializados** | **6)** Marcar uma consulta com um nutricionista antes de iniciar qualquer dieta.                      |
+| 🔬 Formas de pensar | 🧩 Aplicações práticas |
+|---------------------------|---------------------------------------------|
+| **B) Buscar evidências confiáveis** | **1)** Analisar estudos clínicos publicados em revistas científicas sobre os efeitos de diferentes dietas. |
+| **F) Acompanhar resultados e reavaliar** | **2)** Observar se, após um mês seguindo a dieta, houve melhora nos exames e no bem-estar geral. |
+| **C) Considerar variáveis contextuais** | **3)** Verificar se a dieta escolhida se adequa à rotina pessoal, às condições de saúde e ao orçamento familiar. |
+| **D) Evitar generalizações apressadas** | **4)** Refletir se a dieta que funcionou para um amigo realmente é apropriada para você. |
+| **A) Formular hipóteses testáveis** | **5)** Levantar a dúvida: “Será que a dieta X reduz mais gordura abdominal do que a dieta Y?” |
+| **E) Consultar profissionais especializados** | **6)** Marcar uma consulta com um nutricionista antes de iniciar qualquer dieta. |
 :::
 
 <!-- Aqui começa o campo de respostas-->
@@ -94,13 +92,7 @@ Estabeleça a correspondência entre cada forma de pensar cientificamente e sua 
 
 <summary>...</summary>
 
-A - 5
-B - 1
-C - 3
-D - 4
-E - 6
-F - 2
-
+A - 5 B - 1 C - 3 D - 4 E - 6 F - 2
 
 </details>
 
@@ -124,9 +116,9 @@ Escreva um pequeno texto (cerca de 200 palavras) em que você explique por que n
 
 Você pode organizar sua resposta em torno das seguintes questões:
 
-- Por que confiar demais no que já acreditamos pode ser perigoso?
-- Como a dúvida e a pesquisa nos ajudam a tomar decisões melhores?
-- Alguma vez você acreditou em algo que depois descobriu ser falso?
+-   Por que confiar demais no que já acreditamos pode ser perigoso?
+-   Como a dúvida e a pesquisa nos ajudam a tomar decisões melhores?
+-   Alguma vez você acreditou em algo que depois descobriu ser falso?
 
 Use exemplos reais ou simulados para ilustrar sua ideia.
 
