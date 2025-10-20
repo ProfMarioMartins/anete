@@ -69,121 +69,214 @@ Ao final deste encontro, espera-se que você seja capaz de:
 ## Foco na leitura
 
 ::: citacao
-Como Bosco e Tomasi (2021, p. 48) sintetizam, segundo a ABNT NBR 6022, "um artigo científico é uma publicação com autoria declarada que apresenta e discute ideias, métodos, técnicas, processos e resultados nas diversas áreas do conhecimento.
+A Associação Brasileira de Normas Técnicas (ABNT), em sua NBR 6022 (...) **um artigo científico** é uma publicação com autoria declarada que apresenta e discute ideias, métodos, técnicas, processos e resultados nas diversas áreas do conhecimento. (Bosco e Tomasi, 2021, p. 48) - destaques meus)
 :::
 
 ::: citacao
-É um meio essencial para dialogar com a comunidade científica e comunicar em primeira mão os resultados de uma pesquisa." (Bosco e Tomasi, 2021, p. 48)
+[É fundamental] dialogar com a comunidade científica, bem como publicar, até por necessidade de currículo Lattes. (Bosco e Tomasi, 2021, p. 48)
 :::
 
-<br>
+::: citacao
+A Associação Brasileira de Normas Técnicas (ABNT), em sua NBR 6022 (...) classifica [artigos] em **artigo original** e **artigo de revisão** (...).
+:::
 
-A norma ABNT NBR 6022 apresenta orientações gerais sobre a redação de artigos, classificando-os principalmente em dois tipos: **artigo original** e **artigo de revisão**. No entanto, cada área do saber possui suas próprias expectativas.
+::: citacao
+**Artigos originais**: “Informam sobre os resultados de pesquisa obtidos, descrevem métodos, técnicas e processos, apresentam novas ideias, etc. Um texto pertence a essa categoria quando: Contribui para ampliar consideravelmente o conhecimento ou a compreensão de um problema (informações primárias); está redigido de tal maneira que um pesquisador competente possa repetir os experimentos, observações, cálculos ou raciocínios teóricos do autor e julgar as suas conclusões e a precisão de seu trabalho."
+:::
 
+::: citacao
+**Artigos de revisão**: “É um estudo sobre um determinado assunto, em que são reunidas, analisadas e discutidas as informações já publicadas. Os autores mais criativos desse tipo de estudo em geral o complementam com um número considerável de informações primárias (originais). O autor deve ter em conta todos os trabalhos publicados que fizeram avançar o tema e os que o teriam feito avançar se tivessem sido considerados.”
+:::
+
+::: formulario
 Em muitos campos de conhecimento, é comum que os periódicos exijam a estrutura IMRD: Introdução, Métodos, Resultados e Discussão.
 
 Em outros campos de conhecimento, há tipos de artigos que seguem formatos mais flexíveis, como as **revisões narrativas**, os **relatos de caso**, as **metanálises** e os **ensaios teóricos**.
 
 Além disso, a natureza da pesquisa — se é experimental, observacional ou teórica — influencia diretamente na forma de apresentar os dados e organizar as seções do texto.
 
+- **Pesquisa experimental**: tipo de investigação na qual um objeto é investigado sob condições controladas (estudo randomizado).
+
+- **Pesquisa observacional**: é um tipo de investigação científica na qual se investigam situações sem que o pesquisador interfira nelas.
+
+- **Pesquisa teórica**: é um tipo de artigo científico que provém da revisão da literatura (também referida como estudos teóricos).
+
 Por isso, ao escrever ou ler um artigo, é fundamental conhecer não apenas os objetivos da própria pesquisa, mas também as convenções da área e as normas editoriais do periódico em que foi (ou será publicado).
 
 **Em síntese, a escolha do tipo e da estrutura de um artigo científico deve levar em conta dois aspectos fundamentais: a área do conhecimento em que se insere e as exigências do periódico onde se pretende publicar**.
-
-<br>
-
-::: destaque
-As aprendizagens práticas a seguir foram elaboradas para guiá-lo na identificação dos principais tipos de artigos científicos e na compreensão de suas estruturas mais comuns.
 :::
+
+<br/><br/>
 
 ## Aprendizagem prática
 
 ```{=html}
 <div id="diagnostico-artigo">
   <h2>🔍 Que tipo de artigo científico você está lendo?</h2>
-  <p>Responda "sim" ou "não" às perguntas abaixo. Ao final, clique no botão para descobrir o tipo predominante de artigo: se original ou de revisão.</p>
+  <p>Escolha um dos artigos científicos que leu para preparar o seu projeto de pesquisa. Responda "sim" ou "não" às perguntas abaixo. Ao final, clique no botão para descobrir o tipo predominante de artigo: se original ou de revisão.</p>
   
   <form id="form-artigo">
 
     <fieldset style="border: 1px solid #ccc; padding: 15px; border-radius: 6px; background-color: #f9f9f9;">
 
   <p>O artigo apresenta conteúdo inédito, como uma descoberta, nova experiência ou análise não publicada antes?</p>
+  <details class="resposta-escondida">
+  <summary>⇲</summary>
+  <p><em>Artigos originais</em> são a espinha dorsal da produção científica. Eles trazem dados e descobertas inéditas, resultados de uma investigação realizada diretamente pelos autores. Costumam relatar experimentos, análises estatísticas ou estudos empíricos originais.</p>
+  </details>
   <label><input type="radio" name="q1" value="original"> Sim</label>
   <label><input type="radio" name="q1" value=""> Não</label>
 
   <p>Os métodos são descritos de forma clara e detalhada, permitindo a replicação do estudo?</p>
+  <details class="resposta-escondida">
+  <summary>⇲</summary>
+  <p>A <em>replicação de um estudo</em> é de importância central para a ciência porque garante o rigor metodológico do trabalho e a precisão das conclusões. Um artigo científico original deve ser redigido de tal maneira que um pesquisador competente possa repetir os experimentos, observações, cálculos ou raciocínios teóricos do autor, permitindo-lhe julgar as conclusões e a precisão do estudo.</p>
+  </details>
   <label><input type="radio" name="q2" value="original"> Sim</label>
   <label><input type="radio" name="q2" value=""> Não</label>
 
   <p>Há dados primários (coletados diretamente pelos autores)?</p>
+  <details class="resposta-escondida">
+  <summary>⇲</summary>
+  <p>As <em>fontes de informação científica primárias</em> são aquelas que comunicam em primeira mão resultados de pesquisas. Essa categoria de textos inclui os artigos científicos originais e atuais, assim como teses e dissertações de mestrado.</p>
+  </details>
   <label><input type="radio" name="q3" value="original"> Sim</label>
   <label><input type="radio" name="q3" value=""> Não</label>
 
   <p>O artigo segue a estrutura IMRD (Introdução, Métodos, Resultados e Discussão)?</p>
+  <details class="resposta-escondida">
+  <summary>⇲</summary>
+  <p>A <em>estrutura IMRD</em> é fundamental para o artigo científico porque ela assegura que o texto atenda às regras básicas e convenções da comunicação científica, o que facilita a sua leitura e aprovação.</p>
+  </details>
   <label><input type="radio" name="q4" value="original"> Sim</label>
   <label><input type="radio" name="q4" value=""> Não</label>
 
   <p>O artigo tem como objetivo analisar criticamente conteúdos já publicados, sem apresentar dados inéditos?</p>
+  <details class="resposta-escondida">
+  <summary>⇲</summary>
+  <p>O tipo de artigo que tem como objetivo analisar criticamente conteúdos já publicados, sem apresentar dados inéditos, é o <em>artigo de revisão</em>.</p>
+  </details>
   <label><input type="radio" name="q5" value="revisao"> Sim</label>
   <label><input type="radio" name="q5" value=""> Não</label>
 
   <p>O autor propõe novas interpretações, questiona ideias ou aponta caminhos futuros com base na literatura?</p>
+  <details class="resposta-escondida">
+  <summary>⇲</summary>
+  <p>O <em>artigo de revisão</em> é o tipo de artigo que se dedica a analisar criticamente a literatura já publicada, tendo como objetivo propor novas interpretações, questionar ideias e apontar caminhos futuros com base nesse material.</p>
+  </details>
   <label><input type="radio" name="q6" value="revisao"> Sim</label>
   <label><input type="radio" name="q6" value=""> Não</label>
 
   <p>O artigo apresenta critérios claros de seleção e exclusão de estudos analisados?</p>
+  <details class="resposta-escondida">
+  <summary>⇲</summary>
+  <p><em>Critérios de seleção e inclusão</em> referem-se aos parâmetros rigorosos e regras básicas que definem quais elementos (sejam participantes, referências bibliográficas ou dados) são considerados elegíveis para fazer parte de um estudo, sendo fundamentais para a rigorosa investigação.</p>
+  </details>
   <label><input type="radio" name="q7" value="sistematica"> Sim</label>
   <label><input type="radio" name="q7" value=""> Não</label>
 
   <p>O objetivo é evitar viés na análise e garantir maior confiabilidade dos resultados?</p>
+  <details class="resposta-escondida">
+  <summary>⇲</summary>
+  <p><em>Viés</em>, no contexto da pesquisa científica, refere-se à parcialidade e à falta de objetividade que podem comprometer o rigor da investigação, sendo algo que o pesquisador deve se esforçar para eliminar ou evitar. </p>
+  </details>
   <label><input type="radio" name="q8" value="sistematica"> Sim</label>
   <label><input type="radio" name="q8" value=""> Não</label>
 
   <p>O artigo combina estatisticamente resultados de diferentes estudos em uma única análise?</p>
+  <details class="resposta-escondida">
+  <summary>⇲</summary>
+  <p>O artigo que combina estatisticamente resultados de diferentes estudos em uma única análise chama-se <em>metanálise</em>. O objetivo da metanálise é ampliar a validade estatística da pesquisa.</p>
+  </details>
   <label><input type="radio" name="q9" value="metanalise"> Sim</label>
   <label><input type="radio" name="q9" value=""> Não</label>
 
   <p>Há tabelas ou gráficos que sintetizam dados numéricos de vários estudos?</p>
+  <details class="resposta-escondida">
+  <summary>⇲</summary>
+  <p>A síntese de dados numéricos de vários estudos em tabelas ou gráficos é importante porque visam aprimorar a confiabilidade, a compreensão e a validade estatística da pesquisa.
+Especificamente, no contexto da <em>metanálise</em>.</p>
+  </details>
   <label><input type="radio" name="q10" value="metanalise"> Sim</label>
   <label><input type="radio" name="q10" value=""> Não</label>
 
   <p>O estudo apresenta testes realizados sob condições controladas com manipulação de variáveis?</p>
+  <details class="resposta-escondida">
+  <summary>⇲</summary>
+  <p>O tipo de estudo que apresenta testes realizados sob condições controladas com manipulação de variáveis é a <em>pesquisa experimental</em>.</p>
+  </details>
   <label><input type="radio" name="q11" value="experimental"> Sim</label>
   <label><input type="radio" name="q11" value=""> Não</label>
 
   <p>Há descrição detalhada dos procedimentos e controle dos fatores envolvidos?</p>
+  <details class="resposta-escondida">
+  <summary>⇲</summary>
+  <p>A comunicação científica exige a descrição precisa do objeto, do problema que se propõe resolver, e dos métodos utilizados. A necessidade desse detalhamento está ligada diretamente à <em>replicabilidade do estudo</em>.</p>
+  </details>
   <label><input type="radio" name="q12" value="experimental"> Sim</label>
   <label><input type="radio" name="q12" value=""> Não</label>
 
   <p>O estudo divide participantes em grupos aleatórios e compara grupo tratado com grupo controle?</p>
+  <details class="resposta-escondida">
+  <summary>⇲</summary>
+  <p>Em <em>pesquisas experimentais</em>, os participantes são divididos em grupos aleatórios e há a comparação de um grupo tratado (ou submetido a testes) com um grupo controle.</p>
+  </details>
   <label><input type="radio" name="q13" value="randomizado"> Sim</label>
   <label><input type="radio" name="q13" value=""> Não</label>
 
   <p>O objetivo é testar a eficácia de um tratamento em seres humanos?</p>
+  <details class="resposta-escondida">
+  <summary>⇲</summary>
+  <p>O <em>Estudo Clínico Randomizado</em> (ECR) controlado é um procedimento científico de teste da eficácia de um tratamento terapêutico em uma população de pacientes.</p>
+  </details>
   <label><input type="radio" name="q14" value="randomizado"> Sim</label>
   <label><input type="radio" name="q14" value=""> Não</label>
 
   <p>O estudo menciona o uso de placebo?</p>
+  <details class="resposta-escondida">
+  <summary>⇲</summary>
+  <p>O <em>placebo</em> é um componente metodológico utilizado na pesquisa experimental, especificamente em ensaios clínicos ou ensaios experimentais na área médica. Ele é administrado a um segundo grupo de participantes, o chamado grupo controle, que não recebe a droga ou o tratamento real que está sendo testado. .</p>
+  </details>
   <label><input type="radio" name="q15" value="placebo"> Sim</label>
   <label><input type="radio" name="q15" value=""> Não</label>
 
   <p>O pesquisador observa e registra os fenômenos sem interferir neles?</p>
+  <details class="resposta-escondida">
+  <summary>⇲</summary>
+  <p>Na <em>pesquisa observacional</em>, o pesquisador busca estudar situações sem interferir nelas. Essa não interferência é especialmente aplicável e verdadeira nas pesquisas laboratoriais.</p>
+  </details>
   <label><input type="radio" name="q17" value="observacional"> Sim</label>
   <label><input type="radio" name="q17" value=""> Não</label>
 
   <p>O estudo é descritivo e não há experimentos ou manipulação de variáveis?</p>
+  <details class="resposta-escondida">
+  <summary>⇲</summary>
+  <p>Na <em>pesquisa observacional</em>, o pesquisador busca estudar situações sem interferir nelas. Essa não interferência é especialmente aplicável e verdadeira nas pesquisas laboratoriais.</p>
+  </details>
   <label><input type="radio" name="q18" value="observacional"> Sim</label>
   <label><input type="radio" name="q18" value=""> Não</label>
 
   <p>O artigo apresenta uma seção extensa com o nome “Revisão da Literatura” ou “Referencial Teórico”?</p>
+  <details class="resposta-escondida">
+  <summary>⇲</summary>
+  <p>A <em>revisão da literatura</em> refere-se ao processo de investigação e análise de conteúdo já publicado. Ela envolve resumir, analisar e discutir informações já publicadas para estabelecer o estado da arte sobre um tema e realizar uma avaliação crítica de textos. Já o <em>referencial teórico</em> é a decisão do pesquisador sobre o quadro teórico que dará sustentação às suas discussões, exigindo o uso de um aparato teórico para a conceituação da pesquisa.</p>
+  </details>
   <label><input type="radio" name="q19" value="literatura"> Sim</label>
   <label><input type="radio" name="q19" value=""> Não</label>
 
   <p>Essa seção apresenta o que já se sabe sobre o tema, sem propor hipóteses ou novos dados?</p>
+  <details class="resposta-escondida">
+  <summary>⇲</summary>
+  <p>A seção da <eM>revisão da literatura</em> tem como propósito primário apresentar o que já se sabe sobre o tema, pois é definida como a parte de uma publicação que resume, analisa e discute informações já publicadas. É o estado da arte.</p>
+  </details>
   <label><input type="radio" name="q20" value="literatura"> Sim</label>
   <label><input type="radio" name="q20" value=""> Não</label>
 
   <p>O artigo discute modelos ou teorias existentes e propõe reformulações conceituais?</p>
+  <details class="resposta-escondida">
+  <summary>⇲</summary>
+  <p>Os <em>estudos teóricos</em> compreendem a revisão da literatura com a finalidade específica de desenvolver ou reformular uma teoria.</p>
+  </details>
   <label><input type="radio" name="q21" value="teorico"> Sim</label>
   <label><input type="radio" name="q21" value=""> Não</label>
 
@@ -278,7 +371,7 @@ function calcularTipoArtigo() {
 Segundo Bosco e Tomasi (2021, p. 48), uma excelente forma de melhorar nossas práticas científicas, é "examinar os artigos científicos já publicados: \[...\] palavras-chave (número de palavras-chave), introdução, desenvolvimento, conclusão, referências, ilustrações (tabelas, quadros, diagramas), formas de introduzir citações diretas e indiretas, fonte tipográfica, mancha da página, espaço interlinear etc."
 :::
 
-Para esta atividade, selecione, no Google Acadêmico, um **artigo científico publicado em periódico classificado como Qualis A4 ou superior** (conforme a classificação da Capes disponível na plataforma Sucupira) e que esteja diretamente relacionado ao seu tema de pesquisa. Em seguida, realize uma leitura atenta, com atenção à estrutura retórica do texto: introdução, metodologia, resultados e discussão. Após essa análise, responda objetivamente às perguntas abaixo e clique no botão para sistematizar suas respostas em uma estrutura hierárquica de tópicos e subtópicos. Por fim, copie e cole essa estrutura no site [Markmap](https://markmap.js.org/repl) para visualizar um mapa mental do artigo analisado.
+Para esta atividade, selecione um dos artigos científicos que leu para preparar o seu projeto de pesquisa. Em seguida, realize uma nova leitura, com atenção à estrutura retórica do texto: introdução, metodologia, resultados e discussão. Após essa leitura, responda objetivamente às perguntas abaixo e clique no botão para sistematizar suas respostas. O resultado será em uma estrutura hierárquica de tópicos e subtópicos. Por fim, copie e cole essa estrutura no site [Markmap](https://markmap.js.org/repl) para visualizar um mapa mental do artigo analisado.
 
 <br>
 
@@ -400,7 +493,7 @@ htmltools::HTML(
 
 <script>
 document.getElementById("botao-copiar").addEventListener("click", function() {
-  const texto = document.getElementById("resultado-mapmark-completo").innerText;
+  const texto = document.getElementById("resultado-mapmark").innerText;
   if (!texto.trim()) {
     document.getElementById("mensagem-copiar").textContent = "⚠️ Nada para copiar!";
     return;

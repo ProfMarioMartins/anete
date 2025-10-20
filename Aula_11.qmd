@@ -3,12 +3,13 @@ title: "O que é um fichamento?"
 ---
 
 ::: nota-secundaria
-Roteiro de aula elaborado no RStudio com o auxílio de chatbots de inteligência artificial, revisado e avaliado pelo professor antes de sua publicação.
+Roteiro de aula elaborado no RStudio com o auxílio da inteligência artificial, revisado e avaliado pelo autor antes de sua publicação.
 :::
 
-## Objetivos de aprendizagem
+## Contextualização
 
-Ao final desta aula, espera-se que você seja capaz de:
+
+Ao final deste encontro, espera-se que você seja capaz de:
 
 -   Explicar o conceito e o objetivo do fichamento acadêmico.
 -   Reconhecer os tipos de fichamento e suas aplicações na produção científica.
@@ -23,7 +24,7 @@ Ao final desta aula, espera-se que você seja capaz de:
 
 ## Foco na leitura
 
-::: ciatcao
+::: citacao
 O **fichamento** é um gênero de texto que, Segundo Castro *et al*. (2019, p. 53), consiste no **registro sistemático das leituras realizadas**, funcionando como um apoio à organização do conhecimento e à futura redação dos trabalhos científicos.
 :::
 

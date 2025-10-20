@@ -3,29 +3,30 @@ title: "O que é um resumo científico?"
 ---
 
 ::: nota-secundaria
-Roteiro de aula elaborado no RStudio com o auxílio de chatbots de inteligência artificial, revisado e avaliado pelo professor antes de sua publicação.
+Roteiro de aula elaborado no RStudio com o auxílio da inteligência artificial, revisado e avaliado pelo autor antes de sua publicação.
 :::
 
-## Objetivos de aprendizagem
+## Contextualização
 
-Ao final desta aula, espera-se que você seja capaz de:
+
+Ao final deste encontro, espera-se que você seja capaz de:
 
 -   Compreender a função do resumo no contexto acadêmico;
 -   Identificar os movimentos retóricos típicos do gênero resumo;
 -   Distinguir resumos bem estruturados de resumos que omitem movimentos essenciais;
 -   Aplicar os conceitos estudados na análise de resumos reais.
 
-::: {#leitura}
-**Leituras indicadas:**\
-CASTRO, Nádia Studzinski Estima de et al. *Leitura e escrita acadêmicas*. Porto Alegre: Sagah, 2019. Capítulo: “Gêneros acadêmicos”, p. 67–72.\
-[🔗 Acesso à leitura](vbk://9788533500228/page/67)
+::: leitura
+**Leitura indicada**
+
+**Gêneros acadêmicos** (p. 67–72), capítulo do livro *Leitura e escrita acadêmicas*, de Nádia Studzinski Estima de Castro e colaboradores. Disponível na Minha Biblioteca.
 
 **Abstract/resumo acadêmico** (p. 151-162), capítulo do livro *Produção textual na universidade*, de Désirée Motta-Roth e Graciela Rabuske Hendge. Disponível na Biblioteca Física.
 :::
 
-## Introdução
+## Foco na leitura
 
-**Gêneros textuais**...
+**Gêneros textuais**
 
 -   são realizações linguísticas concretas definidas por propriedades sociocomunicativas;
 -   constituem textos empiricamente realizados, cumprindo funções em situações comunicativas;
@@ -34,14 +35,16 @@ CASTRO, Nádia Studzinski Estima de et al. *Leitura e escrita acadêmicas*. Port
 <br/> Compreender o funcionamento dos gêneros acadêmicos exige não apenas o reconhecimento de suas funções sociocomunicativas, mas também a análise de como essas funções se concretizam linguisticamente. É nesse ponto que entra o conceito de estrutura retórica.
 
 ::: citacao
-A partir de Swales (2004)[^aula_10-1], pode-se definir **estrutura retórica** como a organização funcional de um gênero textual em movimentos retóricos recorrentes, orientados para o cumprimento de objetivos comunicativos específicos. Essa estrutura considera o contexto de produção, a audiência e as convenções disciplinares ou culturais da comunidade discursiva a que pertence o gênero.
+A partir de Swales (2004)[^aula_12-1], pode-se definir **estrutura retórica** como a organização funcional de um gênero textual em movimentos retóricos recorrentes, orientados para o cumprimento de objetivos comunicativos específicos. Essa estrutura considera o contexto de produção, a audiência e as convenções disciplinares ou culturais da comunidade discursiva a que pertence o gênero.
+:::
 
 Ainda em linha com Swales (2004), um **movimento retórico** é uma unidade discursiva que desempenha uma função comunicativa coerente em um discurso escrito ou oral.
 
+::: imagem
 <img src="img/move_geral.png" alt="Práticas sociais" class="img-central"/>
 :::
 
-[^aula_10-1]: SWALES, J. M. Research Genres Explorations and Applications. Cambridge: Cambridge University Press, 2004.
+[^aula_12-1]: SWALES, J. M. Research Genres Explorations and Applications. Cambridge: Cambridge University Press, 2004.
 
 <br/>
 
