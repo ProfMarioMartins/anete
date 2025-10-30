@@ -54,7 +54,6 @@ Roteiro de aula elaborado no RStudio com o auxílio da inteligência artificial,
 
 ## Contextualização
 
-
 Ao final deste encontro, espera-se que você seja capaz de:
 
 -   Identificar os principais elementos que compõem cada seção de um artigo científico;
@@ -73,11 +72,11 @@ A Associação Brasileira de Normas Técnicas (ABNT), em sua NBR 6022 (...) **um
 :::
 
 ::: citacao
-[É fundamental] dialogar com a comunidade científica, bem como publicar, até por necessidade de currículo Lattes. (Bosco e Tomasi, 2021, p. 48)
+\[É fundamental\] dialogar com a comunidade científica, bem como publicar, até por necessidade de currículo Lattes. (Bosco e Tomasi, 2021, p. 48)
 :::
 
 ::: citacao
-A Associação Brasileira de Normas Técnicas (ABNT), em sua NBR 6022 (...) classifica [artigos] em **artigo original** e **artigo de revisão** (...).
+A Associação Brasileira de Normas Técnicas (ABNT), em sua NBR 6022 (...) classifica \[artigos\] em **artigo original** e **artigo de revisão** (...).
 :::
 
 ::: citacao
@@ -95,11 +94,11 @@ Em outros campos de conhecimento, há tipos de artigos que seguem formatos mais 
 
 Além disso, a natureza da pesquisa — se é experimental, observacional ou teórica — influencia diretamente na forma de apresentar os dados e organizar as seções do texto.
 
-- **Pesquisa experimental**: tipo de investigação na qual um objeto é investigado sob condições controladas (estudo randomizado).
+-   **Pesquisa experimental**: tipo de investigação na qual um objeto é investigado sob condições controladas (estudo randomizado).
 
-- **Pesquisa observacional**: é um tipo de investigação científica na qual se investigam situações sem que o pesquisador interfira nelas.
+-   **Pesquisa observacional**: é um tipo de investigação científica na qual se investigam situações sem que o pesquisador interfira nelas.
 
-- **Pesquisa teórica**: é um tipo de artigo científico que provém da revisão da literatura (também referida como estudos teóricos).
+-   **Pesquisa teórica**: é um tipo de artigo científico que provém da revisão da literatura (também referida como estudos teóricos).
 
 Por isso, ao escrever ou ler um artigo, é fundamental conhecer não apenas os objetivos da própria pesquisa, mas também as convenções da área e as normas editoriais do periódico em que foi (ou será publicado).
 

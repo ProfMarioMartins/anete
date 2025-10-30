@@ -77,7 +77,7 @@ Estabeleça a correspondência entre cada forma de pensar cientificamente e sua 
 
 ::: destaque
 | 🔬 Formas de pensar | 🧩 Aplicações práticas |
-|---------------------------|---------------------------------------------|
+|------------------------------------|------------------------------------|
 | **B) Buscar evidências confiáveis** | **1)** Analisar estudos clínicos publicados em revistas científicas sobre os efeitos de diferentes dietas. |
 | **F) Acompanhar resultados e reavaliar** | **2)** Observar se, após um mês seguindo a dieta, houve melhora nos exames e no bem-estar geral. |
 | **C) Considerar variáveis contextuais** | **3)** Verificar se a dieta escolhida se adequa à rotina pessoal, às condições de saúde e ao orçamento familiar. |

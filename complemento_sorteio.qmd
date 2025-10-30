@@ -15,7 +15,6 @@ title: "Sorteio"
 </div>
 ```
 
-
 ```{=html}
 <!-- Botões para reiniciar -->
 <div style="margin-top:1em;">

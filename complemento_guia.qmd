@@ -1,0 +1,133 @@
+---
+title: "Guia para a elaboração do roteiro do vídeo"
+---
+
+::: titulo-nao-numerado
+Contextualização
+:::
+
+Este é um guia para a elaboração do roteiro do vídeo de divulgação científica. É um guia que deve ser elaborado individualmente.
+
+Elabore um roteiro conciso e bem estruturado para um vídeo curto de divulgação científica (reel), com duração de 45 a 90 segundos, a ser publicado no perfil @neocomciencia.
+
+::: destaque
+Lembre-se de que o vídeo deve:
+
+-   Apresentar um **dado ou fenômeno científico** de maneira clara, acessível e engajadora;
+-   Demonstrar **relevância social, institucional ou científica** do tema abordado;
+-   Utilizar **linguagem apropriada ao público não especializado**;
+-   Ser fundamentado em fontes confiáveis, com **referências devidamente indicadas**.
+:::
+
+Este guia vai ajudá-lo a planejar de forma clara e eficaz a mensagem da divulgação científica que será comunicada ao público leigo, com base em dados científicos confiáveis.
+
+::: enfase
+**Este guia deve ser apresentado ao monitor *Matheus Magalhães* na próxima sessão de monitoria.**
+:::
+
+------------------------------------------------------------------------
+
+<br/>
+
+::: titulo-nao-numerado
+1.  Tema e dado científico
+:::
+
+**Nesta seção, você descreve o fenômeno ou o dado que será apresentado no vídeo.**
+
+**Tema central:**
+
+::: {style="height: 200px; border: 1px solid #ccc; margin-top: 8px;"}
+:::
+
+<br/>
+
+**Dado ou evidência científica que será mencionado:**
+
+::: {style="height: 200px; border: 1px solid #ccc; margin-top: 8px;"}
+:::
+
+<br/>
+
+**Fonte do dado (indicar autor e ano):**
+
+::: {style="height: 200px; border: 1px solid #ccc; margin-top: 8px;"}
+:::
+
+<br/> <br/>
+
+::: titulo-nao-numerado
+2.  Estratégias de comunicação
+:::
+
+**Nesta seção, você explica que estratégias vai usar para se comunicar.**
+
+**Quais escolhas você fará para tornar sua explicação mais clara e envolvente?**
+
+::: {style="height: 200px; border: 1px solid #ccc; margin-top: 8px;"}
+:::
+
+<br/>
+
+**Você pretende usar comparações, metáforas, humor, exemplos do cotidiano ou outras estratégias? Quais?**
+
+::: {style="height: 200px; border: 1px solid #ccc; margin-top: 8px;"}
+:::
+
+<br/> <br/>
+
+::: titulo-nao-numerado
+3.  Introdução engajadora
+:::
+
+**Escreva a primeira frase ou pergunta que abrirá o vídeo. Ela deve chamar a atenção do público.**
+
+::: {style="height: 200px; border: 1px solid #ccc; margin-top: 8px;"}
+:::
+
+<br/> <br/>
+
+::: titulo-nao-numerado
+4.  Desenvolvimento
+:::
+
+**Explique o fenômeno ou o dado em linguagem acessível. Evite jargões técnicos. Use comparações, metáforas ou exemplos do cotidiano.**
+
+::: {style="height: 200px; border: 1px solid #ccc; margin-top: 8px;"}
+:::
+
+<br/> <br/>
+
+::: titulo-nao-numerado
+5.  Fechamento
+:::
+
+**Encerre com uma reflexão, uma curiosidade ou uma chamada para ação.**
+
+::: {style="height: 200px; border: 1px solid #ccc; margin-top: 8px;"}
+:::
+
+<br/> <br/>
+
+::: titulo-nao-numerado
+6.  Referências consultadas
+:::
+
+**Inclua pelo menos uma fonte confiável usada na elaboração do vídeo (cf. ABNT).**
+
+::: {style="height: 200px; border: 1px solid #ccc; margin-top: 8px;"}
+:::
+
+<br/> <br/>
+
+::: titulo-nao-numerado
+Dicas Finais
+:::
+
+-   Use frases curtas, linguagem envolvente e tom próximo ao público;
+-   Evite termos técnicos ou, se necessário, explique-os com clareza;
+-   O vídeo não deve conter trechos copiados de forma literal de outras fontes;
+-   Mantenha o tempo máximo de 90 segundos;
+-   Envie o roteiro para o monitor antes da gravação e aguarde a devolutiva.
+
+💬 **Em caso de dúvidas, entre em contato com o monitor Matheus Magalhães.**

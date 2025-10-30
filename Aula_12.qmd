@@ -3,18 +3,15 @@ title: "O que é um resumo científico?"
 ---
 
 ::: nota-secundaria
-Roteiro de aula elaborado no RStudio com o auxílio da inteligência artificial, revisado e avaliado pelo autor antes de sua publicação.
+Roteiro de aula elaborado no RStudio com o auxílio da inteligência artificial ChatGPT e supervisionado pelo professor antes de sua publicação.
 :::
 
 ## Contextualização
-
 
 Ao final deste encontro, espera-se que você seja capaz de:
 
 -   Compreender a função do resumo no contexto acadêmico;
 -   Identificar os movimentos retóricos típicos do gênero resumo;
--   Distinguir resumos bem estruturados de resumos que omitem movimentos essenciais;
--   Aplicar os conceitos estudados na análise de resumos reais.
 
 ::: leitura
 **Leitura indicada**
@@ -38,13 +35,13 @@ Ao final deste encontro, espera-se que você seja capaz de:
 A partir de Swales (2004)[^aula_12-1], pode-se definir **estrutura retórica** como a organização funcional de um gênero textual em movimentos retóricos recorrentes, orientados para o cumprimento de objetivos comunicativos específicos. Essa estrutura considera o contexto de produção, a audiência e as convenções disciplinares ou culturais da comunidade discursiva a que pertence o gênero.
 :::
 
+[^aula_12-1]: SWALES, J. M. Research Genres Explorations and Applications. Cambridge: Cambridge University Press, 2004.
+
 Ainda em linha com Swales (2004), um **movimento retórico** é uma unidade discursiva que desempenha uma função comunicativa coerente em um discurso escrito ou oral.
 
 ::: imagem
 <img src="img/move_geral.png" alt="Práticas sociais" class="img-central"/>
 :::
-
-[^aula_12-1]: SWALES, J. M. Research Genres Explorations and Applications. Cambridge: Cambridge University Press, 2004.
 
 <br/>
 
@@ -58,11 +55,17 @@ Como sintetizam Motta-Roth e Rabuske (2010), para que cumpra seu papel com clare
 <img src="img/moves.png" alt="Práticas sociais" class="img-central"/>
 :::
 
-```{r echo=FALSE, message=FALSE, warning=FALSE, results='asis'}
+Analise a tabela abaixo. Trata-se dos movimentos retóricos do resumo científico, como identificado por Motta-Roth e Rabuske (2010). Observe que, em alguns casos, os movimentos têm diferentes submovimentos.
+
+```{r}
+#| echo: false
+#| message: false
+#| warning: false
 library(knitr)
 library(kableExtra)
 
-dados <- data.frame(
+# Dados sem a coluna de exemplo
+dados_resumidos <- data.frame(
   Movimento = c(
     "1. Situar a pesquisa", "", "", "", "", "",
     "2. Apresentar a pesquisa", "", "",
@@ -84,45 +87,236 @@ dados <- data.frame(
     "Apontar principais achados",
     "Apresentar conclusão(ões)",
     "Recomendar aplicação(ões) futura(s)"
-  ),
-  Exemplo = c(
-    "O ensino de Física por meio de metodologias ativas tem ganhado destaque nos últimos anos.",
-    "Estudos apontam que os alunos demonstram maior engajamento quando a Física é ensinada com recursos experimentais.",
-    "Pesquisas como as de Silva et al. (2021) destacam o uso de jogos didáticos no ensino de cinemática.",
-    "Este estudo amplia a proposta de Moreira (2020) ao aplicar a metodologia em turmas do 2º ano.",
-    "Diferente de autores anteriores, não se investigaram os efeitos do lúdico na aprendizagem significativa.",
-    "Ainda são escassos os estudos que avaliam o impacto do uso de simuladores virtuais em escolas públicas.",
-    "Trata-se de uma investigação qualitativa com ênfase na análise de relatos de professores da rede básica.",
-    "O objetivo é avaliar a eficácia de uma sequência didática baseada em experimentos de óptica.",
-    "Hipotetiza-se que atividades experimentais favorecem a compreensão conceitual de fenômenos físicos.",
-    "A metodologia envolveu aplicação de uma sequência didática com uso de simuladores PhET.",
-    "Os resultados mostram melhora significativa no desempenho dos alunos após as intervenções.",
-    "Conclui-se que o uso de tecnologia digital contribui para a aprendizagem em Física.",
-    "Sugere-se replicar o estudo em outras redes de ensino com diferentes perfis de estudantes."
   )
 )
 
-kable(dados, align = "l", col.names = c("Movimento", "Submovimentos", "Exemplo")) %>%
+kable(dados_resumidos, align = "l", col.names = c("Movimento", "Submovimentos")) %>%
   kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover")) %>%
-  add_footnote("Fonte: Adaptado de Motta-Roth e Rabuske (2010) com exemplos elaborados pelo professor.")
+  add_footnote("Fonte: Adaptado de Motta-Roth e Rabuske (2010).")
 ```
+
 
 ## Aprendizagem prática
 
-::: titulo-nao-numerado
-Objetivo
+::: subtitulo-nao-numerado
+Identificação
 :::
 
-Analisar a organização retórica de resumos acadêmicos a partir de uma abordagem sociorretórica, identificando os movimentos retóricos que estruturam esse gênero textual no contexto da produção científica brasileira.
+::: subsubtitulo-nao-numerado
+Quais são os movimentos retóricos do resumo científico?
+:::
+
+Para cada exemplo abaixo, selecione o submovimento retórico que melhor o representa. Depois, clique no botão "Verificar respostas". Você verá seu total de acertos.
+
+```{=html}
+
+<style>
+  .tabela-retorica {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 2em;
+  }
+
+  .tabela-retorica th, .tabela-retorica td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    vertical-align: top;
+  }
+
+  .tabela-retorica th {
+    background-color: #f2f2f2;
+    text-align: left;
+  }
+
+  .dropdown-retorico {
+    width: 100%;
+    padding: 6px;
+    font-size: 14px;
+  }
+
+  #resultado-acertos {
+    font-weight: bold;
+    margin-top: 1em;
+    font-size: 1.1em;
+  }
+
+  #botao-verificar {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-bottom: 1em;
+  }
+</style>
+
+<table class="tabela-retorica">
+  <thead>
+    <tr>
+      <th>Exemplo</th>
+      <th>Submovimento retórico</th>
+    </tr>
+  </thead>
+  <tbody id="tabela-exemplos">
+  </tbody>
+</table>
+
+<button id="botao-verificar">✅ Verificar respostas</button>
+<div id="resultado-acertos"></div>
+
+<script>
+const dados = [
+  {
+    exemplo: "O ensino de Física por meio de metodologias ativas tem ganhado destaque nos últimos anos.",
+    correto: "Estabelecer interesse no tópico"
+  },
+  {
+    exemplo: "Estudos apontam que os alunos demonstram maior engajamento quando a Física é ensinada com recursos experimentais.",
+    correto: "Fazer generalizações do tópico"
+  },
+  {
+    exemplo: "Pesquisas como as de Silva et al. (2021) destacam o uso de jogos didáticos no ensino de cinemática.",
+    correto: "Citar pesquisas prévias"
+  },
+  {
+    exemplo: "Este estudo amplia a proposta de Moreira (2020) ao aplicar a metodologia em turmas do 2º ano.",
+    correto: "Estender pesquisas prévias"
+  },
+  {
+    exemplo: "Diferente de autores anteriores, não se investigaram os efeitos do lúdico na aprendizagem significativa.",
+    correto: "Contra-argumentar pesquisas prévias"
+  },
+  {
+    exemplo: "Ainda são escassos os estudos que avaliam o impacto do uso de simuladores virtuais em escolas públicas.",
+    correto: "Indicar lacunas em pesquisas prévias"
+  },
+  {
+    exemplo: "Trata-se de uma investigação qualitativa com ênfase na análise de relatos de professores da rede básica.",
+    correto: "Indicar as principais características"
+  },
+  {
+    exemplo: "O objetivo é avaliar a eficácia de uma sequência didática baseada em experimentos de óptica.",
+    correto: "Apresentar objetivo(s)"
+  },
+  {
+    exemplo: "Hipotetiza-se que atividades experimentais favorecem a compreensão conceitual de fenômenos físicos.",
+    correto: "Levantar hipótese(s)"
+  },
+  {
+    exemplo: "A metodologia envolveu aplicação de uma sequência didática com uso de simuladores PhET.",
+    correto: "Apresentar procedimento(s)"
+  },
+  {
+    exemplo: "Os resultados mostram melhora significativa no desempenho dos alunos após as intervenções.",
+    correto: "Apontar principais achados"
+  },
+  {
+    exemplo: "Conclui-se que o uso de tecnologia digital contribui para a aprendizagem em Física.",
+    correto: "Apresentar conclusão(ões)"
+  },
+  {
+    exemplo: "Sugere-se replicar o estudo em outras redes de ensino com diferentes perfis de estudantes.",
+    correto: "Recomendar aplicação(ões) futura(s)"
+  }
+];
+
+const opcoes = [
+  "Estabelecer interesse no tópico",
+  "Fazer generalizações do tópico",
+  "Citar pesquisas prévias",
+  "Estender pesquisas prévias",
+  "Contra-argumentar pesquisas prévias",
+  "Indicar lacunas em pesquisas prévias",
+  "Indicar as principais características",
+  "Apresentar objetivo(s)",
+  "Levantar hipótese(s)",
+  "Apresentar procedimento(s)",
+  "Apontar principais achados",
+  "Apresentar conclusão(ões)",
+  "Recomendar aplicação(ões) futura(s)"
+];
+
+function embaralhar(array) {
+  return array.sort(() => Math.random() - 0.5);
+}
+
+function construirTabela() {
+  const corpo = document.getElementById("tabela-exemplos");
+  dados.forEach((item, i) => {
+    const tr = document.createElement("tr");
+
+    const tdExemplo = document.createElement("td");
+    tdExemplo.textContent = item.exemplo;
+
+    const tdSelect = document.createElement("td");
+    const select = document.createElement("select");
+    select.className = "dropdown-retorico";
+    select.setAttribute("data-correto", item.correto);
+
+    const optInicial = document.createElement("option");
+    optInicial.textContent = "-- Escolha --";
+    optInicial.value = "";
+    select.appendChild(optInicial);
+
+    embaralhar(opcoes).forEach(op => {
+      const option = document.createElement("option");
+      option.value = op;
+      option.textContent = op;
+      select.appendChild(option);
+    });
+
+    tdSelect.appendChild(select);
+    tr.appendChild(tdExemplo);
+    tr.appendChild(tdSelect);
+    corpo.appendChild(tr);
+  });
+}
+
+document.getElementById("botao-verificar").addEventListener("click", () => {
+  const selects = document.querySelectorAll(".dropdown-retorico");
+  let acertos = 0;
+
+  selects.forEach(select => {
+    const valor = select.value;
+    const correto = select.getAttribute("data-correto");
+    if (valor === correto) {
+      acertos++;
+      select.style.border = "2px solid green";
+    } else {
+      select.style.border = "2px solid red";
+    }
+  });
+
+  document.getElementById("resultado-acertos").textContent = `Você acertou ${acertos} de ${selects.length}.`;
+});
+
+construirTabela();
+</script>
+```
+
+<!--
+**Resumo**
+
+O ensino de Física por meio de metodologias ativas tem ganhado destaque nos últimos anos. Estudos apontam que os alunos demonstram maior engajamento quando a Física é ensinada com recursos experimentais. Pesquisas como as de Silva et al. (2021) destacam o uso de jogos didáticos no ensino de cinemática. Este estudo amplia a proposta de Moreira (2020) ao aplicar a metodologia em turmas do 2º ano. Diferente de autores anteriores, não se investigaram os efeitos do lúdico na aprendizagem significativa. Ainda são escassos os estudos que avaliam o impacto do uso de simuladores virtuais em escolas públicas. Trata-se de uma investigação qualitativa com ênfase na análise de relatos de professores da rede básica. O objetivo é avaliar a eficácia de uma sequência didática baseada em experimentos de óptica. Hipotetiza-se que atividades experimentais favorecem a compreensão conceitual de fenômenos físicos. A metodologia envolveu aplicação de uma sequência didática com uso de simuladores PhET. Os resultados mostram melhora significativa no desempenho dos alunos após as intervenções. Conclui-se que o uso de tecnologia digital contribui para a aprendizagem em Física. Sugere-se replicar o estudo em outras redes de ensino com diferentes perfis de estudantes.
+:::
+-->
+
+## Aprendizagem prática
 
 ::: subtitulo-nao-numerado
-🔍 Etapas da atividade
+Identificação
 :::
 
-1.  No [Portal de Periódicos da Capes](https://www.periodicos.capes.gov.br/), selecione um **artigo científico completo** que atenda aos seguintes critérios:
+::: subsubtitulo-nao-numerado
+Quais são os movimentos retóricos do resumo científico?
+:::
+
+Para esta atividade, selecione um **artigo científico completo** que atenda aos seguintes critérios:
 
     ✦ Esteja **relacionado ao seu tema de pesquisa**.\
-    ✦ Tenha sido **publicado em periódico científico classificado como A1, A2, A3 ou A4** no Qualis (última atualização disponível).\
+    ✦ Tenha sido **publicado em periódico científico classificado como A ou B** no Qualis (última atualização disponível).\
     ✦ Esteja **disponível em acesso aberto**.\
     ✦ Tenha passado por **revisão por pares** (peer-reviewed).\
     ✦ Tenha um **resumo explícito**, preferencialmente em português.
@@ -141,7 +335,7 @@ Analisar a organização retórica de resumos acadêmicos a partir de uma aborda
 
 -   Certifique-se de analisar criticamente o resumo, considerando a função comunicativa de cada trecho e não apenas marcadores superficiais.
 
--   Esta atividade visa o desenvolvimento da consciência retórica, contribuindo para a sua própria capacidade de escrever bons resumos acadêmicos no futuro.
+-   Esta atividade visa o desenvolvimento da consciência retórica, contribuindo para a sua própria capacidade de escrever bons resumos científicos no futuro.
 
 -   A análise deve ser feita individualmente, com base nos princípios estudados em aula.
 
@@ -368,55 +562,4 @@ document.getElementById('form-resumo').addEventListener('submit', function(e) {
 });
 </script>
 ```
-:::
-
-<br/>
-
-::: subtitulo-nao-numerado
-🎯 Registro dos artigos selecionados no [Padlet](https://padlet.com/mariomartins/anete-2025-1-b3r3eohs4gd7np8m)
-:::
-
-::: subsubtitulo-nao-numerado
-🧩 Instruções para preenchimento do Padlet
-:::
-
-Acesse o Padlet da turma e edite os campos conforme a orientação abaixo:
-
-::: painel-escuro
-🟪 Coluna **Autor**
-
-Digite seu **nome completo**.
-
-------------------------------------------------------------------------
-
-🟪 Coluna **Assunto**
-
-Informe o **tema de sua pesquisa**, de forma clara e delimitada.
-
-**Exemplo:**\
-\> *Gamificação e aprendizagem de Física no Ensino Médio*
-
-------------------------------------------------------------------------
-
-🟪 Coluna **Anexo**
-
-Adicione os **dois arquivos PDF** dos artigos já selecionados até o momento:
-
-💡 Nomeie os arquivos com o sobrenome do primeiro autor e o ano, como: `Silva_2022.pdf` ou `Ferreira_2021.pdf`.
-
-------------------------------------------------------------------------
-
-🟪 Coluna **Corpo**
-
-Cole as **referências completas dos dois artigos**, formatadas de acordo com as normas da **ABNT** (usando o **Zotero**).
-:::
-
-📝 Recomendações
-
--   Utilize o **Zotero** para gerar as referências automaticamente em formato ABNT;
--   Certifique-se de que os artigos selecionados estejam **de acordo com os critérios da atividade anterior** (Qualis A1 a A4, peer-reviewed, em acesso aberto);
--   Publique sua contribuição até às 17 horas da sexta-feira, dia 6 de junho.
-
-::: destaque
--   Estude os artigos!
 :::

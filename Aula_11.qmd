@@ -3,21 +3,19 @@ title: "O que é um fichamento?"
 ---
 
 ::: nota-secundaria
-Roteiro de aula elaborado no RStudio com o auxílio da inteligência artificial, revisado e avaliado pelo autor antes de sua publicação.
+Roteiro de aula elaborado no RStudio com o auxílio da inteligência artificial ChatGPT e supervisionado pelo professor antes de sua publicação.
 :::
 
 ## Contextualização
-
 
 Ao final deste encontro, espera-se que você seja capaz de:
 
 -   Explicar o conceito e o objetivo do fichamento acadêmico.
 -   Reconhecer os tipos de fichamento e suas aplicações na produção científica.
 -   Realizar um fichamento de resumo/conteúdo no Zotero.
--   Utilizar o Zotero no celular para organizar fichamentos e referências.
 
 ::: leitura
-**Leituras indicadas:**\
+**Leitura indicada:**\
 
 **Fichamento acadêmico** (p. 53–64), capítulo do livro *Leitura e escrita acadêmicas*, de Nádia Studzinski Estima de Castro e colaboradores. Disponível na Minha Biblioteca.
 :::
@@ -28,15 +26,17 @@ Ao final deste encontro, espera-se que você seja capaz de:
 O **fichamento** é um gênero de texto que, Segundo Castro *et al*. (2019, p. 53), consiste no **registro sistemático das leituras realizadas**, funcionando como um apoio à organização do conhecimento e à futura redação dos trabalhos científicos.
 :::
 
-Castro e outros (2019, p. 53) afirmam que o objetivo do fichamento é
-
 ::: citacao
-“\[...\] armazenar informações importantes de forma organizada e prática, permitindo ao estudante retomar os conteúdos lidos sem a necessidade de reler o texto na íntegra”.
+Castro e outros (2019, p. 53) afirmam que o objetivo do fichamento é “\[...\] armazenar informações importantes de forma organizada e prática, permitindo ao estudante retomar os conteúdos lidos sem a necessidade de reler o texto na íntegra”.
 :::
 
 Em outras palavras, o fichamento ajuda a **otimizar o tempo e a garantir rigor na utilização das fontes**.
 
-Há diversos tipos de fichamento.
+<br/>
+
+::: titulo-nao-numerado
+Tipos de fichamento
+:::
 
 ::: subtitulo-nao-numerado
 Fichamento bibliográfico
@@ -118,14 +118,14 @@ Além de ser uma ferramenta de estudo, o fichamento colabora para o desenvolvime
 
 ## Aprendizagem prática
 
-Elabore um fichamento de resumo combinado com fichamento de citações do artigo selecionado para a sua mídia de divulgação científica. O fichamento deve conter cerca de 200 a 300 palavras e estar organizado no campo Notas da entrada do Zotero. Estruture da seguinte forma:
+Elabore um fichamento de resumo combinado com fichamento de citações de um dos artigos selecionados para a sua mídia de divulgação científica. O fichamento deve conter cerca de 150 a 300 palavras e estar organizado no campo Notas da entrada do Zotero. Estruture da seguinte forma:
 
 -   Uma síntese das ideias principais, em tópicos, com suas palavras.
 -   Até três citações diretas relevantes (com indicação da página).
 -   Observações pessoais ou críticas que possam embasar sua produção da mídia.
 
 ::: enfase
-Após fazer o fichamento no Zotero, faça um print de tela e poste no chat da turma!
+Ao final, faça um print da tela do fichamento no Zotero e poste-o no chat da turma!
 :::
 
 <br>
@@ -145,30 +145,24 @@ Após fazer o fichamento no Zotero, faça um print de tela e poste no chat da tu
 
 </summary>
 
-:::: {style="width: 100%; background-color:#ADD8E6; font-size: 18px; line-height: 1.5; padding: 15px;"}
-Após a leitura atenta do artigo que você selecionou para a elaboração da mídia de divulgação científica e a realização do fichamento por suas próprias habilidades, crie um prompt para gerar, com apoio de inteligência artificial, um **fichamento de resumo combinado com um fichamento de citações**. Copie a resposta ao prompt, revise-a criticamente e cole o resultado no campo Notas do artigo registrado no Zotero.
+<br/>
 
-::: enfase
-⚠️ Compartilhe o prompt criado por você no chat da turma. No chat, está liberado dialogarmos sobre os prompts a fim de aprimorarmos eticamente nossas habilidades de uso da IA.
+::: {style="width: 100%; background-color:#ADD8E6; font-size: 18px; line-height: 1.5; padding: 15px;"}
+Agora, selecione outro artigo científico e crie um prompt para gerar, com apoio de inteligência artificial, um <strong>fichamento de resumo combinado com um fichamento de citações</strong>. Copie a resposta ao prompt, revise-a criticamente e cole o resultado no campo Notas do artigo registrado no Zotero.
+
+<br/><br/> <strong>⚠️ Poste o prompt criado por você no Padlet da turma.</strong>
 :::
 
 </details>
 
-</pre>
-
 <!-- Aqui encerra o campo de respostas-->
-::::
-
 
 <br/>
 
 ::: proxima-aula
 [Para a próxima aula:]{.proxima-aula-title}
 
--   **Leia** o texto **Fichamento acadêmico** (p. 53–64), capítulo do livro *Leitura e escrita acadêmicas*, de Nádia Studzinski Estima de Castro e colaboradores. Disponível na Minha Biblioteca.
-:::
+-   **Gêneros acadêmicos** (p. 67–72), capítulo do livro *Leitura e escrita acadêmicas*, de Nádia Studzinski Estima de Castro e colaboradores. Disponível na Minha Biblioteca.
 
-\`\`\`{=html} <!--
-MOTTA-ROTH, Désirée; HENDGES, Graciela Rabuske. Produção textual na universidade. São Paulo: Parábola, 2010. Capítulo: "Abstract/resumo acadêmico". [🔗 Acesso à leitura](SIGAA)
--->
+-   **Abstract/resumo acadêmico** (p. 151-162), capítulo do livro *Produção textual na universidade*, de Désirée Motta-Roth e Graciela Rabuske Hendge. Disponível na Biblioteca Física.
 :::

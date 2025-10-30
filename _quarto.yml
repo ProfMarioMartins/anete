@@ -41,8 +41,9 @@ book:
        - Aula_8.qmd
        - Aula_9.qmd
        - Aula_10.qmd
-       - Aula_15.qmd
-#      - Aula_12.qmd
+       - Aula_11.qmd       
+       - Aula_12.qmd
+       - Aula_15.qmd       
 #      - Aula_13.qmd
 #      - Aula_14.qmd
 
@@ -75,11 +76,13 @@ book:
 
     - part: "Complementos"
       chapters:
-       - Aula_crono.qmd
-#      - sorteio.qmd
-#      - padlet.qmd
-       - portifolio.qmd
-       - glossario.qmd
+       - complemento_crono.qmd
+       - complemento_guia.qmd
+       - complemento_checklist_postagem.qmd
+#      - complemento_sorteio.qmd
+       - complemento_padlet.qmd
+       - complemento_portifolio.qmd
+       - complemento_glossario.qmd
 
 # bibliography: references.bib
 
