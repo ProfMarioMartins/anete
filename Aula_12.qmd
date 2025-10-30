@@ -95,7 +95,6 @@ kable(dados_resumidos, align = "l", col.names = c("Movimento", "Submovimentos"))
   add_footnote("Fonte: Adaptado de Motta-Roth e Rabuske (2010).")
 ```
 
-
 ## Aprendizagem prática
 
 ::: subtitulo-nao-numerado
@@ -296,12 +295,14 @@ construirTabela();
 </script>
 ```
 
+```{=html}
 <!--
 **Resumo**
 
 O ensino de Física por meio de metodologias ativas tem ganhado destaque nos últimos anos. Estudos apontam que os alunos demonstram maior engajamento quando a Física é ensinada com recursos experimentais. Pesquisas como as de Silva et al. (2021) destacam o uso de jogos didáticos no ensino de cinemática. Este estudo amplia a proposta de Moreira (2020) ao aplicar a metodologia em turmas do 2º ano. Diferente de autores anteriores, não se investigaram os efeitos do lúdico na aprendizagem significativa. Ainda são escassos os estudos que avaliam o impacto do uso de simuladores virtuais em escolas públicas. Trata-se de uma investigação qualitativa com ênfase na análise de relatos de professores da rede básica. O objetivo é avaliar a eficácia de uma sequência didática baseada em experimentos de óptica. Hipotetiza-se que atividades experimentais favorecem a compreensão conceitual de fenômenos físicos. A metodologia envolveu aplicação de uma sequência didática com uso de simuladores PhET. Os resultados mostram melhora significativa no desempenho dos alunos após as intervenções. Conclui-se que o uso de tecnologia digital contribui para a aprendizagem em Física. Sugere-se replicar o estudo em outras redes de ensino com diferentes perfis de estudantes.
 :::
 -->
+```
 
 ## Aprendizagem prática
 
@@ -315,11 +316,13 @@ Quais são os movimentos retóricos do resumo científico?
 
 Para esta atividade, selecione um **artigo científico completo** que atenda aos seguintes critérios:
 
-    ✦ Esteja **relacionado ao seu tema de pesquisa**.\
-    ✦ Tenha sido **publicado em periódico científico classificado como A ou B** no Qualis (última atualização disponível).\
-    ✦ Esteja **disponível em acesso aberto**.\
-    ✦ Tenha passado por **revisão por pares** (peer-reviewed).\
-    ✦ Tenha um **resumo explícito**, preferencialmente em português.
+```         
+✦ Esteja **relacionado ao seu tema de pesquisa**.\
+✦ Tenha sido **publicado em periódico científico classificado como A ou B** no Qualis (última atualização disponível).\
+✦ Esteja **disponível em acesso aberto**.\
+✦ Tenha passado por **revisão por pares** (peer-reviewed).\
+✦ Tenha um **resumo explícito**, preferencialmente em português.
+```
 
 2.  Copie o texto integral do resumo e cole no campo apropriado do formulário abaixo.
 
