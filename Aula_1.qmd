@@ -352,7 +352,7 @@ Orientações
 
 ::: formulario
 | Frase extraída do Lattes | Função identificada |
-|----|----|
+|------------------------------------|------------------------------------|
 | "Possui graduação em Química pela Universidade X (2002)." | Apresentar a formação acadêmica |
 | "É professor adjunto da UFERSA desde 2010." | Informar a atuação profissional |
 | "Coordena o Grupo de Pesquisa em Química Verde." | Destacar grupo/linha de pesquisa |
@@ -378,7 +378,7 @@ Produção de texto
 :::
 
 ::: destaque
-Agora é sua vez. Elabore o texto de apresentação do seu Currículo Lattes. Rascunhe-o no seu caderno e somente depois transcreva-o no [Painel de Respostas](portifolio.qmd). Selecione a tarefa: **Apresentação para o Lattes**.
+Agora é sua vez. Elabore o texto de apresentação do seu Currículo Lattes. Rascunhe-o no seu caderno e somente depois transcreva-o no [Painel de Respostas](complemento_portifolio.qmd). Selecione a tarefa: **Apresentação para o Lattes**.
 :::
 
 <br/>

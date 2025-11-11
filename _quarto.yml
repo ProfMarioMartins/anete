@@ -39,10 +39,10 @@ book:
     - part: "Unidade II"
       chapters:
        - Aula_8.qmd
-       - Aula_9.qmd
-       - Aula_10.qmd
+       - Aula_9_projeto.qmd
+       - Aula_10_artigo.qmd
        - Aula_11.qmd       
-       - Aula_12.qmd
+       - Aula_12_resumo.qmd
        - Aula_15.qmd       
 #      - Aula_13.qmd
 #      - Aula_14.qmd

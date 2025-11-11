@@ -122,7 +122,7 @@ Não sabe como fazer pesquisas no Portal de Periódicos da Capes, consulte o tut
 -   Sistema de avaliação adotado (dupla cega, simples cega, aberta etc.)
 -   Bases de indexação (ex.: Scopus, Web of Science etc.)
 
-A reposta deve ser inserida no [Painel de Respostas](portifolio.qmd). Selecione a tarefa "Periódico científico".
+A reposta deve ser inserida no [Painel de Respostas](complemento_portifolio.qmd). Selecione a tarefa "Periódico científico".
 
 <br/>
 

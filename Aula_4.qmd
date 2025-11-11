@@ -122,7 +122,7 @@ Você pode organizar sua resposta em torno das seguintes questões:
 
 Use exemplos reais ou simulados para ilustrar sua ideia.
 
-Rascunhe a resposta em papel, à mão, e somente depois transcreva-o no [Painel de respostas](portifolio.qmd). No Painel de respostas, selecione a tarefa: **A verdade está lá fora**.
+Rascunhe a resposta em papel, à mão, e somente depois transcreva-o no [Painel de respostas](complemento_portifolio.qmd). No Painel de respostas, selecione a tarefa: **A verdade está lá fora**.
 
 <br/>
 

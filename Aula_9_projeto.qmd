@@ -60,7 +60,7 @@ Elementos e funções
 :::
 
 | Elemento | Função |
-|------------------------------------|------------------------------------|
+|----|----|
 | **Tema** | Delimita a área de interesse geral |
 | **Problema de pesquisa** | Define a lacuna ou questão a investigar |
 | **Justificativa** | Argumenta por que a pesquisa é relevante |
@@ -129,7 +129,7 @@ Como as perguntas norteadoras se refletem na delimitação do tema?
 Como as perguntas norteadoras se refletem na delimitação do tema?
 
 | **Perguntas norteadoras** | **Exemplo 1** | **Exemplo 2** | **Exemplo 3** |
-|------------------|------------------|------------------|-------------------|
+|----|----|----|----|
 | **Sobre o que quero pesquisar?** | Leitura | Inteligência artificial | Violência nas escolas |
 
 | **Em que contexto geográfico, social ou institucional?** \| Semiárido potiguar \| Ensino superior (cursos de Letras) \| Escolas públicas urbanas no interior do RN \|
@@ -236,7 +236,7 @@ Como as perguntas norteadoras se refletem no objetivo geral?
 Como as perguntas norteadoras se refletem no objetivo geral?
 
 | **Objetivo geral** | **O que desejo compreender, explicar ou analisar?** |
-|------------------------------------|------------------------------------|
+|----|----|
 | *Exemplo 1*<br>Investigar os fatores que influenciam o interesse pela leitura literária entre adolescentes do ensino médio no semiárido potiguar | Fatores que afetam o interesse pela leitura literária entre adolescentes |
 | *Exemplo 2*<br>Analisar como estudantes de graduação em Letras utilizam ferramentas de inteligência artificial no processo de escrita acadêmica | Formas de utilização de ferramentas de IA no contexto da escrita acadêmica |
 | *Exemplo 3*<br>Compreender as percepções de professores do ensino fundamental sobre a violência verbal em sala de aula e as estratégias utilizadas para enfrentá-la em escolas públicas urbanas do interior do RN | Percepções docentes e estratégias de enfrentamento da violência verbal |
@@ -281,7 +281,7 @@ Como as perguntas norteadoras se refletem na hipótese?
 Como as perguntas norteadoras se refletem na hipótese?
 
 | **Hipótese** | **Explicação inicial proposta** | **Relação causal ou interpretativa prevista** |
-|:-----------------|:---------------------:|:------------------------------:|
+|:---|:--:|:--:|
 | *Exemplo 1*<br>A baixa frequência de leitura literária entre adolescentes do ensino médio no semiárido potiguar está associada à ausência de mediação docente e à limitação de acesso a obras atualizadas. | A escassez de leitura decorre da falta de mediação e de acervo adequado. | A ausência de mediação e acesso causa o desinteresse pela leitura. |
 | *Exemplo 2*<br>Estudantes de Letras que utilizam IA na escrita acadêmica tendem a recorrer a esses recursos principalmente para organização e revisão linguística. | A IA é usada prioritariamente para tarefas técnicas, não criativas. | O tipo de uso da IA influencia o modo de produção textual dos estudantes. |
 | *Exemplo 3*<br>Professores do ensino fundamental que enfrentam violência verbal desenvolvem estratégias mais baseadas na experiência prática do que na formação institucional. | A formação docente é insuficiente para lidar com esse tipo de conflito. | A experiência direta leva ao desenvolvimento de estratégias empíricas. |
@@ -332,7 +332,7 @@ Como as perguntas norteadoras se refletem na justificativa?
 Como as perguntas norteadoras se refletem na justificativa
 
 | **Justificativa** | **Importância da pesquisa** | **Público-alvo ou lacuna** | **Benefícios ou reflexões geradas** |
-|:----------------|:---------------:|:---------------:|:-------------------:|
+|:---|:--:|:--:|:--:|
 | *Exemplo 1*<br>Compreender os fatores que afetam o interesse pela leitura literária pode auxiliar professores e gestores na criação de estratégias pedagógicas que fortaleçam o vínculo dos jovens com a literatura. | Contribui para o enfrentamento do desinteresse pela leitura na adolescência. | Professores e gestores escolares; lacuna sobre práticas de leitura em regiões específicas. | Incentivo à leitura e melhoria das práticas pedagógicas. |
 | *Exemplo 2*<br>Investigar o uso de IA por estudantes de Letras permite refletir sobre práticas acadêmicas atuais e orientar o uso crítico e ético dessas ferramentas na formação universitária. | Atualiza o debate sobre escrita acadêmica frente às novas tecnologias. | Estudantes, professores universitários e formadores; lacuna sobre usos reais da IA na graduação. | Reflexões sobre ensino, ética e inovação pedagógica. |
 | *Exemplo 3*<br>Compreender como professores lidam com a violência verbal pode subsidiar políticas de formação continuada e promover ambientes escolares mais seguros e dialogados. | Relevante diante da crescente violência nas escolas. | Professores e gestores escolares; lacuna na escuta qualificada de docentes. | Apoio à formação docente e à construção de estratégias institucionais. |

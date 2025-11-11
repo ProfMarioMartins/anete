@@ -62,7 +62,7 @@ Estratégias de parafraseamento no exemplo 1
 
 ::: {#tbl-parafrase-lozada .striped .hover .table-responsive}
 | Estratégia utilizada | Explicação | Exemplos ou observações |
-|----|----|----|
+|------------------------|------------------------|------------------------|
 | **Uso de verbos *dicendi*** | Introdução do discurso alheio com verbos que indicam fala ou pensamento. | *“argumenta”, “afirma”* |
 | **Reorganização da estrutura textual** | Mudança na ordem das ideias do texto original para evitar cópia literal. | O trecho que aparece no início do original é deslocado para o meio da paráfrase. |
 | **Inclusão de conectores e coesão** | Emprego de expressões que conectam ideias e organizam a progressão textual. | *“Entre elas”*, *“conforme realizado nesta pesquisa”* |
@@ -87,7 +87,7 @@ Estratégias de parafraseamento no exemplo 2
 
 ::: {#tbl-parafrase .striped .hover .table-responsive}
 | Estratégia utilizada | Explicação | Exemplos ou observações |
-|----|----|----|
+|------------------------|------------------------|------------------------|
 | **Uso de verbos *dicendi*** | Atribuição explícita da fala às autoras por meio de verbos que introduzem o discurso de outrem. | *“dizem”*, *“indicam”* |
 | **Reorganização da estrutura textual** | Alteração na sequência das ideias originais, com destaque antecipado para a importância da leitura. | O trecho final do original aparece no início da paráfrase. |
 | **Reformulação lexical** | Emprego de sinônimos e expressões equivalentes às do original. | *“decifrar” → “interpretar e decifrar”*, *“possibilita a ampliação” → “aprofundamento”* |
@@ -107,7 +107,7 @@ Produção escrita
 Paráfrase
 :::
 
-No seu caderno, parafraseie o parágrafo abaixo. Siga as estratégias anteriormente apresentadas. Trata-se do primeiro parágrafo do artigo científico "A formação de professores e o uso do ChatGPT® para revisão de textos", escrito por Larissa Alvarenga de Souza Honorato, Helena Maria Ferreira, Jaciluz Dias e publicado em 2024. A reposta deve ser transcrita no [Painel de Respostas](portifolio.qmd). Selecione a tarefa "Paráfrase".
+No seu caderno, parafraseie o parágrafo abaixo. Siga as estratégias anteriormente apresentadas. Trata-se do primeiro parágrafo do artigo científico "A formação de professores e o uso do ChatGPT® para revisão de textos", escrito por Larissa Alvarenga de Souza Honorato, Helena Maria Ferreira, Jaciluz Dias e publicado em 2024. A reposta deve ser transcrita no [Painel de Respostas](complemento_portifolio.qmd). Selecione a tarefa "Paráfrase".
 
 ::: enfase
 O avanço das tecnologias promoveu substanciais mudanças nos modos de organização e de funcionamento da sociedade. De modo mais específico, merece destaque o surgimento de inteligências artificiais (IA), consideradas como sistemas inteligentes, que utilizam recursos avançados de computação para simular ou replicar aspectos da inteligência humana, por meio da combinação de algoritmos, modelos matemáticos, grandes volumes de dados para realizar tarefas complexas. Essas tecnologias trazem consequências significativas para o processo de ensino e aprendizagem, bem como para a formação de professores, uma vez que incidem sobre os modos de produzir conhecimentos e acessar informações/conteúdos.
@@ -124,7 +124,7 @@ O avanço das tecnologias promoveu substanciais mudanças nos modos de organiza�
 Honorato, Ferreira e Dias (2024) afirmam que as inovações tecnológicas vêm provocando transformações profundas na forma como a sociedade se estrutura e opera. Nesse cenário, ganham relevo os sistemas de inteligência artificial, definidos como tecnologias capazes de simular aspectos da cognição humana por meio de algoritmos, modelos matemáticos e grandes bases de dados. As autoras ressaltam que tais recursos impactam diretamente os processos educativos, sobretudo no que se refere à formação docente, pois alteram as dinâmicas de construção do conhecimento e de acesso à informação.
 
 | Estratégia utilizada | Explicação | Exemplos ou observações |
-|----|----|----|
+|------------------------|------------------------|------------------------|
 | **Uso de verbos *dicendi*** | Introdução da voz das autoras com verbos que indicam posicionamento, análise ou afirmação. | *“afirmam”, “ressaltam”* |
 | **Reorganização da estrutura** | Mudança na ordem das ideias originais para favorecer clareza e evitar cópia literal. | Primeiro vem o impacto social, depois os aspectos técnicos e educacionais. |
 | **Reformulação lexical** | Substituição de palavras e expressões por sinônimos ou construções mais acessíveis. | “Modos de organização” → “forma como a sociedade se estrutura”; “grandes volumes” → “grandes bases” |

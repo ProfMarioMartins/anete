@@ -46,7 +46,7 @@ Produção de texto
 
 Você já se deparou com vídeos ou manchetes que prometem curas milagrosas ou soluções rápidas para problemas complexos? Nesta atividade, vamos exercitar nossa capacidade de pensar cientificamente.
 
-Responda por escrito à seguinte pergunta: *receita apresentada no vídeo a seguir pode ser considerada uma recomendação científica*? Justifique sua resposta com base nos critérios que diferenciam o senso comum do pensamento científico. Rascunhe a resposta em papel, à mão, e somente depois transcreva-o no [Painel de respostas](portifolio.qmd). No Painel de respostas, selecione a tarefa: **Ceticismo organizado**.
+Responda por escrito à seguinte pergunta: *receita apresentada no vídeo a seguir pode ser considerada uma recomendação científica*? Justifique sua resposta com base nos critérios que diferenciam o senso comum do pensamento científico. Rascunhe a resposta em papel, à mão, e somente depois transcreva-o no [Painel de respostas](complemento_portifolio.qmd). No Painel de respostas, selecione a tarefa: **Ceticismo organizado**.
 
 ```{=html}
 <div style="display: flex; justify-content: center; margin-top: 1rem; margin-bottom: 1rem;">
