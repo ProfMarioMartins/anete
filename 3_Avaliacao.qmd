@@ -7,30 +7,35 @@ Orientações para a 3ª avaliação
 :::
 
 ::: destaque
-A terceira avaliação da disciplina **Análise e Expressão Textual** consistirá na **entrega de um plano de trabalho de pesquisa** e na apresentação de um **pitch de projeto**, nos moldes exigidos em editais de Iniciação Científica da Ufersa.
+A terceira avaliação da disciplina **Análise e Expressão Textual** consistirá na **entrega de um projeto de pesquisa**, nos moldes exigidos em editais da Ufersa.
 
-Essa atividade consolida o percurso desenvolvido ao longo do semestre. O tema do plano deve ser o mesmo que você vem elaborando desde as primeiras aulas da disciplina.
+Essa atividade consolida o percurso desenvolvido ao longo do semestre. O tema do projeto deve ser o mesmo que você vem elaborando desde as primeiras aulas da disciplina.
 
-Mesmo que você não tenha interesse imediato em concorrer a uma bolsa de IC, elaborar e apresentar um plano de trabalho é um exercício essencial de autoria acadêmica e preparação para projetos futuros.
+Elaborar e apresentar um projeto de pesquisa é um exercício essencial de autoria acadêmica e preparação para projetos futuros.
 :::
 
 ::: subtitulo-nao-numerado
-Etapa 1 – Entrega do plano de trabalho
+Etapa 1 – Entrega do projeto de pesquisa
 :::
 
 -   **Tema:** o mesmo que vem sendo trabalhado desde o início do semestre
--   Formato: documento em **Google Docs**
--   O documento *deve ser compartilhado* com o professor pelo e-mail: **mario.martins\@ufersa.edu.br**
--   O plano deve conter:
+-   **Formato:** documento em **Google Docs**
+-   **Entrega:** O documento *deve ser compartilhado* com o professor pelo e-mail: *mario.martins\@ufersa.edu.br*
+-   O projeto deve conter:
     -   Título\
-    -   Introdução e Justificativa\
-    -   Objetivo geral e objetivos específicos\
+    -   Introdução\
+    -   Referencial teórico\
     -   Metodologia\
-    -   Habilidades a serem desenvolvidas\
     -   Referências bibliográficas conforme ABNT\
--   **Prazo de entrega:** dia **24 de julho de 2025**
--   **Peso na nota final:** 70%
+-   **Prazos de entrega:**
+    - 1ª parte: Introdução: **17 de novembro de 2025**
+    - Devolutiva da 1ª parte: **19 de novembro de 2025**
+    - 2ª parte: Referencial teórico: **28 de novembro de 2025**
+    - Devolutiva da 2ª parte: **30 de novembro de 2025**
+    - 3ª parte: Metodologia: **8 de dezembro de 2025**
+    - Entrega defitiva: **11 de dezembro de 2025**
 
+<!--
 ::: subtitulo-nao-numerado
 Etapa 2 – Apresentação do pitch de projeto
 :::
@@ -46,25 +51,28 @@ Etapa 2 – Apresentação do pitch de projeto
     -   O impacto esperado
 -   **Peso na nota final:** 30%
 -   **Critérios de avaliação:** a serem divulgados em breve
+-->
 
 ::: subtitulo-nao-numerado
 Instruções gerais
 :::
 
--   O trabalho deve ser **individual** e original
--   Utilize o modelo de plano de trabalho disponibilizado na disciplina
+-   O projeto de pesquisa deve ser **individual** e original
+-   Utilize o modelo disponibilizado na disciplina
+<!--
 -   O pitch não precisa de slides, mas deve demonstrar domínio do conteúdo
--   Leituras integrais do plano serão desconsideradas — ensaie com base em tópicos
+-   Leituras parciais ou integrais do projeto serão desconsideradas — ensaie com base em tópicos
+-->
 -   Em caso de dúvidas, entre em contato com o professor com antecedência
 
 ::: subtitulo-nao-numerado
 Reposição da avaliação
 :::
 
-Estudantes que não entregarem o plano ou não realizarem o pitch na data prevista e tiverem direito à reposição serão avaliados por meio de tarefa equivalente, em nova data a ser estipulada pelo professor.
+Estudantes que não entregarem o projeto de pesquisa na data prevista e tiverem direito à reposição serão avaliados por meio de tarefa equivalente, em nova data a ser estipulada pelo professor.
 
 ::: subtitulo-nao-numerado
 Dica final
 :::
 
-Este plano é a culminância de um trabalho construído passo a passo. Aproveite a oportunidade para reunir o que você pesquisou, refletiu e estruturou ao longo do semestre — e apresente isso com clareza, entusiasmo e autoria.
+Este projeto é a culminância de um trabalho construído passo a passo. Aproveite a oportunidade para reunir o que você pesquisou, refletiu e estruturou ao longo do semestre — e apresente isso com clareza, entusiasmo e autoria.

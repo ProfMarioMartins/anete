@@ -72,7 +72,7 @@ book:
       chapters:
        - 1_Avaliacao.qmd
        - 2_Avaliacao.qmd
-#      - 3_Avaliacao.qmd
+       - 3_Avaliacao.qmd
 
     - part: "Complementos"
       chapters:
