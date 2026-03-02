@@ -21,68 +21,69 @@ book:
   author: "Mário Martins"
 
   chapters:
-    - part: "Apresentação"
+    - part: "Apresentação" # Comentar
       chapters:
       - index.qmd
-      - Aula_0.qmd
 
-    - part: "Unidade I"
-      chapters:
-       - Aula_1.qmd
-       - Aula_2.qmd
-       - Aula_3.qmd
-       - Aula_4.qmd
-       - Aula_5.qmd
-       - Aula_6.qmd
-       - Aula_7.qmd
+#   - part: "Unidade I"
+#     chapters:
+#      - Aula_1.qmd # Comentar
+#      - Aula_2.qmd
+#      - Aula_3.qmd
+#      - Aula_4.qmd
+#      - Aula_5.qmd
+#      - Aula_6.qmd
+#      - Aula_7.qmd
 
-    - part: "Unidade II"
-      chapters:
-       - Aula_8.qmd
-       - Aula_9_projeto.qmd
-       - Aula_10_artigo.qmd
-       - Aula_11.qmd       
-       - Aula_12_resumo.qmd
-       - Aula_15.qmd       
+#   - part: "Unidade II – Comentar"
+#     chapters:
+#      - Aula_8.qmd
+#      - Aula_9_projeto.qmd
+#      - Aula_10_artigo.qmd
+#      - Aula_11.qmd       
+#      - Aula_12_resumo.qmd
+#      - Aula_15.qmd       
 #      - Aula_13.qmd
 #      - Aula_14.qmd
 
-#    - part: "Unidade III"
+#   - part: "Unidade III"
 #      chapters:
 #      - Aula_15.qmd
 #      - Aula_16.qmd
 #      - part: "Tutoriais"
 
-    - part: "Tutoriais"
-      chapters:
-       - tutorial_lattes.qmd
-       - tutorial_zotero.qmd
-       - tutorial_capes.qmd
+#   - part: "Tutoriais"
+      # Materiais de apoio instrumental (uso autônomo ou orientação do professor)
+#     chapters:
+#      - tutorial_lattes.qmd
+#      - tutorial_zotero.qmd
+#      - tutorial_capes.qmd
 #      - tutorial_tema_pesquisa.qmd
 #      - checklist_postagem.qmd
 
-    - part: "Modelos"
-      chapters:
+#   - part: "Modelos"
+#     chapters:
 #      - modelo_plano.qmd
-       - modelo_relatorio.qmd
+#      - modelo_relatorio.qmd
 #      - modelo_video.qmd
 #      - modelo_carrossel.qmd
 
-    - part: "Avaliações"
-      chapters:
-       - 1_Avaliacao.qmd
-       - 2_Avaliacao.qmd
-       - 3_Avaliacao.qmd
+#   - part: "Avaliações"
+#     chapters:
+#      - 1_Avaliacao.qmd
+#      - 2_Avaliacao.qmd
+#      - 3_Avaliacao.qmd
 
     - part: "Complementos"
       chapters:
+       - Aula_0.qmd
        - complemento_crono.qmd
-       - complemento_guia.qmd
-       - complemento_checklist_postagem.qmd
+#      - complemento_guia.qmd
+#      - complemento_checklist_postagem.qmd
 #      - complemento_sorteio.qmd
-       - complemento_padlet.qmd
-       - complemento_portifolio.qmd
-       - complemento_glossario.qmd
+#      - complemento_padlet.qmd
+#      - complemento_portifolio.qmd
+#      - complemento_glossario.qmd
 
 # bibliography: references.bib
 
@@ -98,7 +99,7 @@ format:
     smooth-scroll: true
     sidebar:
       style: "docked"
-      collapse-level: 1
+      collapse-level: 2
       pinned: true
     tools:
       - toggle

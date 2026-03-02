@@ -6,6 +6,20 @@ title: "3ª Avaliação"
 Orientações para a 3ª avaliação
 :::
 
+<!--
+::: subtitulo-nao-numerado
+Rubrica – 3ª Avaliação (Projeto de pesquisa e defesa oral)
+:::
+
+| Critério | Descrição |
+|---------|-----------|
+| Estrutura e clareza do projeto | O projeto apresenta problema, objetivos, justificativa e metodologia de forma clara e articulada. |
+| Coerência metodológica | As escolhas metodológicas são adequadas ao problema proposto e bem justificadas. |
+| Qualidade da escrita acadêmica | O texto apresenta coesão, coerência, clareza e adequação ao registro acadêmico. |
+| Argumentação científica | Justifica escolhas, mobiliza conceitos e sustenta a proposta de forma fundamentada. |
+| Comunicação oral (defesa) | Apresenta o projeto de forma clara, organizada e segura, respondendo adequadamente às questões. |
+-->
+
 ::: destaque
 A terceira avaliação da disciplina **Análise e Expressão Textual** consistirá na **entrega de um projeto de pesquisa**, nos moldes exigidos em editais da Ufersa.
 

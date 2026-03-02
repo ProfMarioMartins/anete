@@ -25,8 +25,9 @@ url <- "https://docs.google.com/spreadsheets/d/1C8iaK5cIXu5h20At5pnALHRMY-g716--
 cronograma <- read_sheet(url, sheet = "cronograma_anete")
 
 # Formata a coluna Data (para formato brasileiro dd/mm/aaaa)
+library(lubridate)
 cronograma <- cronograma %>%
-  mutate(Data = format(as.Date(Data), "%d/%m/%Y"))
+  mutate(Data = format(dmy(Data), "%d/%m/%Y"))
 
 # Exibe a tabela com formatação
 kable(cronograma, caption = "Encontros", align = "cll") %>%

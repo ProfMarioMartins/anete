@@ -1,19 +1,162 @@
 ---
-title: "Descrição"
+title: "Programação"
 ---
 
-Este é o material didático da disciplina **Análise e Expressão Textual**.
+Este é o material didático da disciplina **Análise e Expressão Textual**, componente curricular do **Bacharelado Interdisciplinar em Ciência e Tecnologia (C&T)**, ofertada no primeiro semestre da graduação.
+
+A disciplina tem como finalidade introduzir os estudantes nas **práticas discursivas da ciência**, compreendendo a leitura, a escrita e a oralidade como dimensões centrais da produção, da comunicação e da validação do conhecimento científico em contextos acadêmicos e tecnológicos.
 
 ::: callout-tip
-Para melhor navegação, utilize o menu lateral ou a busca no topo da página.
+Para melhor navegação, utilize o menu lateral ou a busca no topo da página.\
+Este material foi organizado para leitura contínua, mas também para consulta ao longo do semestre.
 :::
 
+::: {.titulo-nao-numerado}
+Ementa (em atualização)
+:::
+
+Abordar os paradigmas textuais e científicos na produção da escrita científica, a intertextualidade como elemento de linguagem no contexto da textualidade e da oralidade e da visualidade, a coesão e coerência textual como elemento estruturador da linguagem acadêmica, o estilo como mediador entre forma e conteúdo na produção do conhecimento, a interdisciplinaridade como estética da linguagem.
+
+::: {.titulo-nao-numerado}
+Objetivo
+:::
+
+Promover o desenvolvimento das **competências acadêmico-científica, comunicativa e argumentativa** dos estudantes, com ênfase na construção, análise e fortalecimento de argumentos científicos, por meio de leitura e análise ecrítica e da produção orientada de diferentes gêneros acadêmicos escritos e orais, com foco na elaboração e na comunicação de um **projeto de pesquisa**.
+
+::: nota-secundaria
+**Competência acadêmico-científica**: capacidade de produzir, compreender, avaliar e comunicar conhecimentos no contexto universitário, mobilizando critérios científicos, linguísticos e éticos, bem como uma postura investigativa diante do saber.
+:::
+
+::: nota-secundaria
+**Competência comunicativa**: capacidade de usar a língua de forma eficaz e adequada em diferentes contextos de comunicação, considerando aspectos linguísticos, discursivos, pragmáticos e socioculturais.
+:::
+
+::: nota-secundaria
+**Competência argumentativa**: capacidade de formular problemas, construir e sustentar posições, justificar escolhas, analisar evidências e defender pontos de vista de forma fundamentada, tanto na escrita quanto na oralidade.
+:::
+
+::: {.titulo-nao-numerado}
+Organização da disciplina
+:::
+
+A disciplina possui carga horária total de **60 horas**, distribuídas em **três unidades temáticas**, com duração aproximada de **20 horas cada**, organizadas de modo progressivo.
+
+Ao longo do semestre, os estudantes se engajam em **múltiplas atividades textuais acadêmicas**, progressivamente mais complexas, que articulam leitura, escrita, oralidade, culminando na elaboração e na defesa oral de um **projeto de pesquisa**.
+
+::: subtitulo-nao-numerado
+Unidade I – Fundamentos da argumentação científica e consciência epistemológica
+:::
+-   Inserção na vida acadêmica e no sistema científico como espaço de produção argumentativa.
+-   Distinção entre conhecimento científico e senso comum.
+-   Estatuto epistemológico de fato, dado, evidência e opinião.
+-   Estrutura do argumento: tese, razões, evidências e coerência inferencial.
+-   Fragilidade argumentativa e estratégias de fortalecimento de justificativas.
+-   Linguagem como construção de autoridade científica: discurso reportado, modalização e impessoalidade.
+-   Intertextualidade, paráfrase, citação e norma técnica como legitimidade discursiva.
+	
+::: subtitulo-nao-numerado
+Unidade II – Construção e transformação do argumento científico
+:::
+-   Gêneros acadêmicos como formas organizadas de argumentação.
+-   Leitura e análise crítica de estudos científicos.
+-   Transformação de dados científicos em argumentos escritos.
+-   Produção de resumo científico.
+-   Divulgação científica baseada em evidências.
+-   Adaptação de argumento científico a diferentes públicos.
+
+::: subtitulo-nao-numerado
+Unidade III – Projeto de pesquisa como argumento ampliado
+:::
+-   Delimitação de tema e formulação de problema de pesquisa.
+-   Construção de objetivos e justificativa fundamentada.
+-   Coerência entre problema, objetivos e metodologia.
+-   Organização técnica (cronograma e referências) como suporte argumentativo.
+-   Redação orientada e revisão crítica do projeto.
+-   Defesa oral (pitch) como síntese argumentativa.
+
+::: {.titulo-nao-numerado}
+Habilidades desenvolvidas na disciplina
+:::
+
+| Habilidade desenvolvida | Descrição |
+|------------------------------------|------------------------------------|
+| Leitura crítica de textos acadêmicos e sociais | Ler e interpretar textos de diferentes esferas discursivas, identificando problema, tese, evidências e estratégias argumentativas. |
+| Avaliação de informações e fontes | Diferenciar fato, dado, evidência e opinião, reconhecendo o estatuto epistemológico dos enunciados. |
+| Produção de textos acadêmicos | Produzir e revisar textos acadêmicos em diferentes gêneros (resumo, fichamento, resenha, plano/projeto), com coesão, coerência e adequação ao contexto. |
+| Comunicação acadêmica oral e escrita | Comunicar ideias, análises e propostas de forma clara, tanto na escrita quanto na oralidade, ajustando a linguagem ao público e ao objetivo comunicativo. |
+| Uso de ferramentas digitais de apoio à escrita | Utilizar recursos digitais para buscar informações, organizar referências e apoiar processos de escrita e reescrita. |
+| Elaboração e defesa de projeto de pesquisa | Elaborar e apresentar oralmente um projeto de pesquisa, justificando escolhas e articulando argumentos com base em critérios científicos e linguísticos. |
+
+::: {.titulo-nao-numerado}
+Metodologia
+:::
+
+A disciplina adota uma abordagem **ativa, investigativa e interdisciplinar**, articulando aulas dialogadas, análise crítica de textos sociais e científicos, oficinas de leitura e escrita, produção textual orientada e apresentações orais. O trabalho pedagógico privilegia a escrita e a oralidade como processos, envolvendo planejamento, revisão e reescrita com base em critérios linguísticos e científicos, bem como o uso de ferramentas digitais de apoio à escrita e à organização do trabalho acadêmico.
+
+::: destaque
+A escrita, a oralidade e a argumentação são tratadas como **processos**, envolvendo revisão e reformulação ao longo do percurso formativo.
+:::
+
+::: {.titulo-nao-numerado}
+Avaliação
+:::
+
+A avaliação da aprendizagem é **processual e formativa**, organizada em três instrumentos articulados às unidades da disciplina e aos projetos textuais desenvolvidos ao longo do semestre, culminando na elaboração de um **projeto de pesquisa**.
+
+::: subtitulo-nao-numerado
+1ª Avaliação – Prova escrita
+:::
+
+Avaliação individual composta por questões objetivas e discursivas, baseada nos conteúdos conceituais e argumentativos trabalhados na Unidade I. As questões discursivas visam avaliar a capacidade de leitura crítica, de análise de textos e de formulação de respostas fundamentadas.
+
+::: subtitulo-nao-numerado
+2ª Avaliação – Projeto textual de divulgação científica
+:::
+
+Produção em dupla de mídia de divulgação científica (reel), acompanhada de relatório reflexivo individual. A avaliação considera a adequação ao gênero e ao público, a organização argumentativa, a clareza da comunicação e os processos de revisão e reescrita.
+
+::: subtitulo-nao-numerado
+3ª Avaliação – Projeto de pesquisa e defesa oral
+:::
+
+Elaboração final de um **projeto de pesquisa**, acompanhada de **defesa oral (pitch)**. A avaliação considera a qualidade da escrita do projeto, a coerência das escolhas metodológicas e a capacidade de argumentação e comunicação oral da proposta.
+
+::: {.titulo-nao-numerado}
+Bibliografia
+:::
+
+::: subtitulo-nao-numerado
+Bibliografia básica
+:::
+
+BACCHI, André Demambre. *Afinal, o que é ciência?: ...e o que não é*. São Paulo: Contexto, 2024.\
+CASTRO, Nádia Studzinski Estima et al. *Leitura e escrita acadêmicas*. Porto Alegre: Sagah, 2019.\
+MOTTA-ROTH, Désirée; HENDGES, Graciela Rabuske. *Produção textual na universidade*. São Paulo: Parábola Editorial, 2010.
+
+::: subtitulo-nao-numerado
+Bibliografia complementar
+:::
+
+ABNT NBR 10520:2023. *Informação e documentação – Citações em documentos – Apresentação*. Rio de Janeiro: ABNT, 2023. ABNT NBR 6023:2018. *Informação e documentação – Referências – Elaboração*. Rio de Janeiro: ABNT, 2018. APPOLINÁRIO, Fabio; GIL, Isaac. *Como escrever um texto científico*.\
+CUNHA, Celso; CINTRA, Lindley. *Nova gramática do português contemporâneo*.\
+FERRAREZZI JÚNIOR, Celso. *Guia do trabalho científico*.\
+KÖCHE, José Carlos. *Fundamentos de metodologia científica*.\
+MENDES, Gilmar Ferreira; FOSTER JÚNIOR, Nestor José. *Manual de redação da Presidência da República*.
+
+::: nota-secundaria
+Outras obras e materiais poderão ser indicados ao longo da disciplina, conforme as demandas das atividades, dos projetos textuais desenvolvidos e dos temas de pesquisa trabalhados.
+:::
+
+<br/>
+::: proxima-aula
+[Para a próxima aula:]{.proxima-aula-title} - **Leia** o texto **Entendendo a organização do sistema acadêmico brasileiro** (p. 7-9), capítulo do livro *Guia do trabalho científico: do projeto à redação final*, de Celso Ferrarezi Júnior.
+:::
 
 ```{=html}
 <script>
   if (location.protocol !== 'file:' && location.hostname !== 'localhost') {
     var senha = prompt("Este conteúdo é restrito a alunos da disciplina Análise e Expressão Textual. Por favor, digite a senha de acesso:");
-    if (senha !== "anete20252") {
+    if (senha !== "anete20261") {
       document.body.innerHTML = "<h1>Acesso negado</h1>";
     }
   }

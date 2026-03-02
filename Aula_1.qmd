@@ -3,7 +3,7 @@ title: "Como funciona o sistema acadêmico brasileiro?"
 ---
 
 ::: nota-secundaria
-Roteiro de aula elaborado no RStudio com o auxílio da inteligência artificial ChatGPT e supervisionado pelo professor antes de sua publicação.
+Roteiro de aula elaborado com apoio de ferramentas digitais de inteligência artificial e submetido à revisão, validação e curadoria pedagógica do professor.
 :::
 
 ## Contextualização

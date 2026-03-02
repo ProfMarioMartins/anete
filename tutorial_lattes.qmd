@@ -157,7 +157,7 @@ Esse é o campo **"Resumo"**, exibido logo no início do currículo. Muitas pess
 :::
 
 | **Atividade** | **Onde inserir** |
-|------------------------------------|------------------------------------|
+|----|----|
 | Eventos: congressos, feiras, seminários, simpósios – participação ou organização | Eventos: como ouvinte ou participante (com apresentação de trabalho – inserir o título) |
 | Palestras | Formação complementar: como “curso de curta duração” (caso haja carga horária especificada no certificado) |
 | Apresentação de trabalho | Produções: apresentação de trabalho |

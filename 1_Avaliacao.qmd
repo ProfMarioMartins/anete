@@ -27,6 +27,19 @@ format:
 **Turma:**
 :::
 
+<!--
+::: subtitulo-nao-numerado
+Rubrica – 1ª Avaliação (Prova escrita)
+:::
+
+| Critério | Descrição |
+|---------|-----------|
+| Compreensão conceitual | Demonstra compreensão adequada dos conceitos trabalhados (senso comum, conhecimento científico, fatos, dados, opinião, argumentação). |
+| Leitura crítica | Identifica informações relevantes, pressupostos e estratégias argumentativas em textos apresentados. |
+| Análise e justificativa | Analisa trechos ou situações propostas, formulando respostas fundamentadas e coerentes. |
+| Clareza e adequação da resposta | Redige respostas claras, objetivas e adequadas ao contexto acadêmico. |
+-->
+
 ### Questão 1
 
 **Conforme a descrição da estrutura do sistema acadêmico brasileiro, qual é a distinção fundamental entre os cursos de pós-graduação *lato sensu* e *stricto sensu*?**

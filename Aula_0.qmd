@@ -1,152 +1,134 @@
 ---
-title: "Programa geral da disciplina"
+title: "Exame diagnóstico"
 ---
 
-::: titulo-nao-numerado
-Ementa
-:::
-
-Abordar os paradigmas textuais e científicos na produção da escrita científica, a intertextualidade como elemento de linguagem no contexto da textualidade e da oralidade e da visualidade, a coesão e coerência textual como elemento estruturador da linguagem acadêmica, o estilo como mediador entre forma e conteúdo na produção do conhecimento, a interdisciplinaridade como estética da linguagem.
 
 ```{=html}
-<!-- Em elaboração:
-Desenvolver a competência acadêmico-científica por meio da articulação de fundamentos do pensamento científico com o uso de fontes confiáveis de informação.
+<!--
+Também disponível em: https://docs.google.com/document/d/1wBoKYCaLeQmAP22tVpxj6ifQX_Vfhah9CCDLkRlD9hU/edit?tab=t.0#heading=h.elc8uruaoa
 -->
 ```
 
-::: titulo-nao-numerado
-Objetivos
-:::
+# Exame Diagnóstico {-}
 
-Promover o desenvolvimento da competência acadêmico-científica e comunicativa dos estudantes, por meio da leitura crítica, da análise linguística e da leitura e produção de gêneros textuais acadêmicos, com ênfase na escrita científica e na elaboração de um plano de trabalho/projeto de pesquisa.
+**Disciplina:** Análise e Expressão Textual (ANETE)  
+**Curso:** Bacharelado em Ciência e Tecnologia (C&T)  
+**Professor:** Mário Martins  
+**Semestre:** 2026.1  
+**Data:** ____ / ____ / ______  
 
-::: nota-secundaria
-**Competência comunicativa** é a capacidade de um indivíduo usar a língua de forma eficaz e apropriada em diferentes contextos de comunicação. Esse conceito vai além do simples domínio das regras gramaticais, englobando também o conhecimento dos usos sociais da linguagem, a adequação ao contexto, a capacidade de interpretar e produzir enunciados coerentes e coesos, e de compreender as intenções dos interlocutores.
-:::
+**Discente:** _________________________________________________
 
-::: nota-secundaria
-**Competência acadêmico-científica** é a capacidade de produzir, compreender, comunicar e avaliar conhecimentos no contexto universitário com base em critérios científicos, linguísticos e éticos. Ela envolve o domínio da linguagem acadêmica, o uso de fontes confiáveis, a argumentação fundamentada em dados, a escrita nos gêneros próprios da vida acadêmica (como artigo, resumo, projeto de pesquisa), o uso adequado das normas de citação e referência, bem como uma postura investigativa e crítica diante do saber, reconhecendo a ciência como uma prática social historicamente situada e orientada por princípios de rigor, objetividade e responsabilidade.
-:::
+---
 
-::: titulo-nao-numerado
-Conteúdo
-:::
+## Orientações {-}
 
-::: subtitulo-nao-numerado
-Unidade I – Pensamento acadêmico-científico
-:::
+Este exame tem caráter exclusivamente **diagnóstico** e não vale nota.  
+Seu objetivo é identificar habilidades iniciais de leitura, escrita e argumentação, a fim de orientar a condução da disciplina ao longo do semestre.
 
--   O sistema acadêmico brasileiro.
--   Senso comum e pensamento científico.
--   Opinião, fato e escrita acadêmica.
--   Discurso reportado.
--   Gerenciamento de referências bibliográficas.
--   Fontes confiáveis de informação.
+Responda com clareza e desenvolva suas explicações sempre que solicitado.  
+Não há respostas “certas” ou “erradas” no sentido avaliativo tradicional.
 
-::: subtitulo-nao-numerado
-Unidade II – Gêneros acadêmicos e divulgação científica
-:::
+---
 
--   Gêneros acadêmicos
--   Plano de trabalho/Projeto de pesquisa
--   Resumo
--   Artigo
--   Fichamento
--   Estado da arte
--   Resenha
+# Parte I – Leitura e Análise Argumentativa
 
-::: subtitulo-nao-numerado
-Unidade III – Escrita acadêmica
-:::
+Leia o texto abaixo para responder às questões 1 a 6.
 
--   Redação orientada do plano de trabalho: da ideia ao texto final
--   Etapas do projeto de pesquisa: justificativa, objetivos, metodologia e cronograma
--   Coesão e coerência textual na organização do plano de trabalho
--   Estilo acadêmico: clareza, concisão, verbos dicendi e paráfrase
--   Reescrita com base em critérios técnicos e linguísticos
--   Autoavaliação da competência escrita e diagnóstico final
--   Questões gramaticais relevantes: colocação pronominal, concordância, pontuação e acentuação
--   Atividades de fechamento com base nos desafios da OBL
+## Texto 1 {-}
 
-::: titulo-nao-numerado
-Competências e habilidades
-:::
+**No home schooling, nunca saberíamos sobre estupro de menina de 12 anos**  
+*Eduardo Carvalho, 26/02/2026*
 
-| Competência | Habilidades |
-|------------------------------------|------------------------------------|
-| Utilizar a linguagem com clareza, precisão e adequação nos contextos acadêmicos. | \- Reconhecer diferentes registros linguísticos e níveis de formalidade.<br>- Utilizar a norma-padrão da língua portuguesa em situações de comunicação acadêmica. |
-| Ler, compreender e interpretar textos acadêmicos de diferentes gêneros. | \- Identificar a organização composicional e os propósitos comunicativos dos gêneros acadêmicos.<br>- Desenvolver estratégias de leitura crítica e analítica. |
-| Produzir textos acadêmicos adequados aos gêneros e às normas científicas. | \- Elaborar textos com coesão e coerência.<br>- Aplicar corretamente normas de citação e referência (ABNT).<br>- Planejar, redigir e revisar textos científicos. |
-| Mobilizar conhecimentos linguísticos, discursivos e culturais na leitura e na produção de textos. | \- Analisar os efeitos de sentido produzidos por escolhas linguísticas e discursivas.<br>- Reconhecer e empregar marcas de intertextualidade e argumentação nos textos. |
-| Desenvolver autonomia na produção científica e no uso das tecnologias da informação. | \- Utilizar ferramentas digitais para organização da pesquisa e produção textual.<br>- Elaborar um plano de trabalho segundo os critérios de projetos de iniciação científica. |
-| Ampliar a consciência linguística a partir da reflexão sobre o funcionamento da língua. | \- Resolver problemas linguísticos com base em conhecimentos gramaticais.<br>- Analisar fatos linguísticos em contextos reais de uso. |
+O recente desfecho jurídico de um caso de estupro de vulnerável em Minas Gerais não é apenas uma decisão judicial isolada; é um alerta da cegueira institucional que beira a negligência. Trata-se de uma menina de 12 anos e um homem de 35. O cenário: a escola percebe a ausência, o Conselho Tutelar é acionado, a Polícia intervém. A rede de proteção funcionou em sua base, mas desmoronou no topo.
 
-::: titulo-nao-numerado
-Metodologia
-:::
+A absolvição proferida pelo TJMG (Tribunal de Justiça de Minas Gerais) acende um debate técnico e ético muito além dos autos do processo. Ao analisar esse contexto, é preciso dissecar por que a escola é o último bastião de defesa da infância e como o isolamento educacional, o home schooling (ensino domiciliar), pode ser o tapete sob o qual varreremos as próximas tragédias.
 
-A disciplina adota uma abordagem ativa e interdisciplinar, com atividades práticas, estudos de caso, quizzes interativos, resolução de problemas, exercícios de gramática, produção textual orientada, leitura e análise de textos e o uso de ferramentas digitais, como editores de texto com revisão automática e chats de IA para promover a revisão crítica da escrita.
+Diferente do ambiente doméstico, que é privado, a escola é um espaço de visibilidade pública coletiva. No caso mineiro, a “evasão” foi o gatilho, afinal de contas, para um professor, o estudante que falta não é apenas um número a menos, se torna uma interrogação. Com base na frequência, é possível identificar o que a psicologia chama de “sinais psicossomáticos”, que vão de apatia, regressão de comportamento ou hipersexualização, que pais ou agressores tentam normalizar.
 
-::: titulo-nao-numerado
-Avaliação
-:::
+A absolvição do agressor de 35 anos pelo TJMG revela uma desconexão perigosa entre o rigor processual e a vulnerabilidade inerente à faixa etária. Muitas vezes, o Judiciário se apega à “ausência de provas materiais robustas” ou à interpretação de que não houve “resistência”, ignorando que, legalmente, não existe consentimento abaixo dos 14 anos.
 
-A avaliação da disciplina será composta por três instrumentos complementares, organizados segundo as unidades temáticas do curso:
+Essa decisão envia uma mensagem devastadora: a de que o Estado pode escolher ignorar o grito que a escola ajudou a ecoar. Se a Justiça absolve onde a evidência social era clara, ela fragiliza todo o esforço da rede de proteção que começou na sala de aula, dentro de um ambiente, até então, de resguardo.
 
-::: subtitulo-nao-numerado
-1ª Avaliação – Teste objetivo
-:::
+Neste ponto, o home schooling surge como uma variável alarmante. O argumento da “liberdade educacional” acaba por ignorar o papel da escola como olhar fiscalizador do Estado sobre o bem-estar da criança.
 
-Aplicação de prova objetiva individual com questões de múltipla escolha, baseada nas leituras obrigatórias.
+[...]
 
-::: subtitulo-nao-numerado
-2ª Avaliação - Mídia digital
-:::
+**Fonte:** https://www.uol.com.br/ecoa/colunas/eduardo-carvalho/2026/02/26/home-schooling-estupro-menina-12-anos.htm
 
-Produção individual de uma mídia de divulgação científica. Relatório reflexivo de produção (preenchido em sala de aula).
+---
 
-::: subtitulo-nao-numerado
-3ª Avaliação – Plano de trabalho e pitch
-:::
+## Questões
 
-Elaboração final do plano de trabalho, conforme estrutura exigida em editais de iniciação científica (Pibic), acompanhado de um pitch de elevador (apresentação oral).
+### 1. Identifique a tese central do texto e reformule-a com suas palavras.
 
-::: titulo-nao-numerado
-Bibliografia básica
-:::
+\vspace{4cm}
 
-BACCHI, André Demambre. Afinal, o que é ciência?: ...e o que não é. 1. ed. São Paulo, SP: Contexto, 2024. E-book. Disponível em: https://plataforma.bvirtual.com.br.
+---
 
-CASTRO, Nádia Studzinski Estima de et al. Leitura e escrita acadêmicas. Porto Alegre: Sagah, 2019. Disponível em: https://bookshelf.vitalsource.com/books/9788533500228.
+### 2. Que razões ou evidências o autor apresenta para sustentar essa tese? Explique como elas contribuem para fortalecer o argumento.
 
-MOTTA‑ROTH, Désirée; HENDGES, Graciela Rabuske. Produção textual na universidade. São Paulo: Parábola Editorial, 2010.
+\vspace{5cm}
 
-::: titulo-nao-numerado
-Bibliografia complementar
-:::
+---
 
-ABNT NBR 10520:2023. Informação e documentação – Citações em documentos – Apresentação. Rio de Janeiro: ABNT, 2023.
+### 3. Indique uma informação do texto que poderia ser verificada por meio de uma fonte confiável. Explique por que essa informação exige verificação.
 
-ABNT NBR 6023:2018. Informação e documentação – Referências – Elaboração. Rio de Janeiro: ABNT, 2018.
+\vspace{4cm}
 
-APPOLINÁRIO, Fabio; GIL, Isaac. Como escrever um texto científico. 1ª ed. \[S. l.\]: Trevisan Editora, 2013. Disponível em: https://bookshelf.vitalsource.com/books/9788599519493.
+---
 
-CUNHA, Celso; CINTRA, Lindley. Nova gramática do português contemporâneo. 7. ed. Rio de Janeiro: Lexikon, 2019. E-book. Disponível em: https://plataforma.bvirtual.com.br.
+### 4. Escolha duas ideias do texto que estejam relacionadas. Explique como essa relação é construída (causa, consequência, exemplificação, contraste etc.).
 
-FERRAREZZI JÚNIOR, Celso. Guia do trabalho científico: do projeto à redação final. 1ª ed. \[S. l.\]: Contexto, 2011. Disponível em: https://bookshelf.vitalsource.com/books/9788572447638.
+\vspace{4cm}
 
-KÖCHE, José Carlos. Fundamentos de metodologia científica: teoria da ciência e iniciação à pesquisa. 34. ed. Petrópolis, RJ: Vozes, 2016. E-book. Disponível em: https://plataforma.bvirtual.com.br.
+---
 
-MENDES, Gilmar Ferreira; FOSTER JÚNIOR, Nestor José. Manual de redação da Presidência da República. rev. atual. Brasília: Presidência da República, 2002. Disponível em: https://www4.planalto.gov.br/centrodeestudos/assuntos/manual-de-redacao-da-presidencia-da-republica/manual-de-redacao.pdf#page=12.08.
+### 5. Identifique uma ideia do texto que dependa de uma suposição implícita para fazer sentido. Explique qual é essa suposição e por que ela é importante para o argumento.
 
-Outras obras poderão ser usadas na disciplina.
+\vspace{4cm}
 
-::: proxima-aula
-[Para a próxima aula:]{.proxima-aula-title} - **Leia** o texto **Entendendo a organização do sistema acadêmico brasileiro** (p. 7-9), capítulo do livro *Guia do trabalho científico: do projeto à redação final*, de Celso Ferrarezi Júnior. - **Você também vai precisar das seguintes informações:** - Documento de identidade (RG ou CNH);\
-- CPF;\
-- Endereço completo;\
-- Telefones e e-mail (preferencialmente institucional);\
-- Histórico escolar ou diplomas/certificados de cursos concluídos;\
-- Certificados de participação em cursos, palestras ou congressos;\
-- Produções acadêmicas (artigos, resumos, apresentações, se houver);\
-:::
+---
+
+### 6. Posicione-se em relação à tese do texto. Escreva um parágrafo (6 a 8 linhas) defendendo sua posição com pelo menos uma justificativa desenvolvida.
+
+\vspace{5cm}
+
+---
+
+# Parte II – Produção Argumentativa Autônoma
+
+### 7. Em que condições o uso de ferramentas de inteligência artificial pode contribuir para a aprendizagem universitária?
+
+Escreva um parágrafo argumentativo (8 a 10 linhas):
+
+- Apresente uma posição clara.
+- Desenvolva pelo menos uma razão.
+- Explicite sua justificativa de modo consistente.
+
+\vspace{6cm}
+
+---
+
+# Parte III – Experiência Prévia e Expectativas
+
+### 8. Você já produziu algum texto acadêmico (resumo científico, projeto de pesquisa, relatório, artigo científico)?  
+Se sim, em qual contexto?
+
+\vspace{3cm}
+
+---
+
+### 9. Indique em quais aspectos você acredita que poderá ter mais dificuldade nesta disciplina:
+
+- ( ) Leitura de textos acadêmicos  
+- ( ) Escrita de textos acadêmicos  
+- ( ) Construção da argumentação  
+- ( ) Expressão oral  
+- ( ) Uso de fontes e referências  
+
+---
+
+### 10. O que você espera aprender nesta disciplina?
+
+\vspace{4cm}

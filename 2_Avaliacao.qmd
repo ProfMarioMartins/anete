@@ -6,6 +6,20 @@ title: "2ª Avaliação"
 Orientações para a 2ª avaliação
 :::
 
+<!--
+::: subtitulo-nao-numerado
+Rubrica – 2ª Avaliação (Projeto de divulgação científica)
+:::
+
+| Critério | Descrição |
+|---------|-----------|
+| Adequação ao gênero e ao público | O texto/mídia atende às características da divulgação científica e ao público-alvo definido. |
+| Organização argumentativa | As ideias são apresentadas de forma lógica, coerente e bem articulada. |
+| Clareza da comunicação | A linguagem é clara, acessível e adequada ao objetivo comunicativo. |
+| Uso de fontes e informações | As informações são corretas, relevantes e provenientes de fontes confiáveis. |
+| Processo de revisão e reflexão | Evidencia reescrita e reflexão sobre o processo de produção no relatório reflexivo. |
+-->
+
 ::: destaque
 A segunda avaliação da disciplina **Análise e Expressão Textual** consiste na criação de uma **mídia digital de divulgação científica**, que deve obrigatoriamente estar vinculada ao tema do seu plano de trabalho e ser publicada em conta específica da disciplina no Instagram, em formato acessível e atrativo para o público não especializado.
 
@@ -149,5 +163,5 @@ ATENÇÃO
 O discente que não produzir a mídia não terá o direito de escrever o relatório.
 
 ::: destaque
-👉 [Acesse o perfil @neocomciencia no Instagram](https://www.instagram.com/neocomciencia/) para ver exemplos de divulgação científica voltados ao público jovem.
+👉 [Acesse o perfil \@neocomciencia no Instagram](https://www.instagram.com/neocomciencia/) para ver exemplos de divulgação científica voltados ao público jovem.
 :::
