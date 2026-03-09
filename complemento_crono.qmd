@@ -10,30 +10,38 @@ Cronograma de aulas (em constante atualização)
 #| echo: false
 #| message: false
 #| warning: false
+
 library(googlesheets4)
 library(dplyr)
 library(knitr)
 library(kableExtra)
+library(lubridate)
 
-# Desativa autenticação (apenas para planilhas públicas)
+# Desativa autenticação (planilha pública)
 gs4_deauth()
 
 # Link da planilha
 url <- "https://docs.google.com/spreadsheets/d/1C8iaK5cIXu5h20At5pnALHRMY-g716--GfRJEfmHf3M/edit"
 
-# Lê a aba "cronograma_anete"
+# Lê a aba
 cronograma <- read_sheet(url, sheet = "cronograma_anete")
 
-# Formata a coluna Data (para formato brasileiro dd/mm/aaaa)
-library(lubridate)
+# Formata data
 cronograma <- cronograma %>%
-  mutate(Data = format(dmy(Data), "%d/%m/%Y"))
+  mutate(Data = format(as.Date(Data), "%d/%m/%Y"))
 
-# Exibe a tabela com formatação
-kable(cronograma, caption = "Encontros", align = "cll") %>%
-  kable_styling(full_width = TRUE, bootstrap_options = c("striped", "hover", "condensed")) %>%
-  column_spec(1, width = "8em", bold = TRUE) %>%
-  column_spec(2, width = "16em") %>%
-  column_spec(3, width = "30em") %>%
-  column_spec(4, width = "30em")
+# Tabela
+kable(
+  cronograma,
+  caption = "Cronograma de encontros da disciplina",
+  align = "clll"
+) %>%
+  kable_styling(
+    full_width = TRUE,
+    bootstrap_options = c("striped", "hover", "condensed", "responsive")
+  ) %>%
+  column_spec(1, width = "7em", bold = TRUE) %>%
+  column_spec(2, width = "22em") %>%
+  column_spec(3, width = "20em") %>%
+  column_spec(4, width = "28em")
 ```

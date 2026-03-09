@@ -8,13 +8,13 @@ Roteiro de aula elaborado com apoio de ferramentas digitais de inteligência art
 
 ## Contextualização
 
-O sistema acadêmico brasileiro é estruturado em diferentes níveis e modalidades de ensino superior, com o objetivo de formar profissionais qualificados, promover a produção científica e contribuir para o desenvolvimento do país. Abrange a graduação e a pós-graduação.
+O sistema acadêmico brasileiro é estruturado em diferentes níveis de ensino, com o objetivo de formar profissionais qualificados, promover a produção científica e contribuir para o desenvolvimento do país. Abrange a graduação e a pós-graduação.
 
 Esse sistema é regulado por órgãos como o Ministério da Educação (MEC) e a Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (Capes), que estabelecem diretrizes curriculares, normas de avaliação e reconhecimento dos cursos. Com essa organização, o sistema busca assegurar qualidade, diversidade e acesso ao ensino superior, além de articular ensino, pesquisa e extensão nas instituições acadêmicas.
 
 Ao final deste encontro, e com base na leitura indicada, espera-se que você seja capaz de:
 
--   *Compreender a organização do sistema acadêmico brasileiro, identificando suas principais instâncias, normas e formas de produção do conhecimento, especialmente os gêneros textuais acadêmicos.*
+-   *Compreender como se organiza o sistema acadêmico brasileiro, identificando suas principais instituições, regras e etapas da formação científica.*
 
 ::: leitura
 Leitura indicada:
@@ -35,285 +35,537 @@ Compreender o sistema acadêmico brasileiro é fundamental para que estudantes e
 :::
 
 ```{=html}
-<div style="border: 1px solid #ccc; padding: 1em; background-color: #f9f9f9; border-radius: 5px; margin-bottom: 1em;">
-  <strong>Orientações:</strong><br/>
-  A seguir, há um quiz com perguntas únicas, cada uma com quatro alternativas. Você terá <strong>1 minuto</strong> para responder cada uma. O tempo será contado automaticamente e, ao final, você receberá um feedback imediato. Após responder à primeira pergunta, clique no botão <em>Próxima Pergunta</em> para avançar.<br/>
+<div style="border:1px solid #ccc;padding:1em;background-color:#f1f5f9;border-radius:6px;margin-bottom:1em;">
+<strong>Orientações:</strong><br/>
+A seguir, há um quiz com perguntas únicas, cada uma com quatro alternativas. Você terá <strong>um tempo definido</strong> para responder cada uma. O tempo será contado automaticamente e, ao final, você receberá um feedback imediato.
 </div>
 
-<button onclick="iniciarQuiz()">Iniciar Quiz</button>
+<style>
 
-<div id="quiz-container" style="display: none; margin-top: 20px;">
+#quiz-container{
+max-width:720px;
+margin:auto;
+font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+}
 
-  <!-- PERGUNTA 1 -->
-  <div class="pergunta" id="pergunta1">
-    <p><strong>1. Qual grau acadêmico será conferido a você ao concluir a graduação no sistema de ensino superior brasileiro?</strong></p>
-    <form>
-      <input type="radio" name="q1" value="a"> A) Mestre<br>
-      <input type="radio" name="q1" value="b"> B) Licenciado<br>
-      <input type="radio" name="q1" value="c"> C) Bacharel<br>
-      <input type="radio" name="q1" value="d"> D) Especialista<br><br>
-      <button type="button" onclick="checkResposta(1, 'c')">Responder</button>
-    </form>
-    <p id="feedback1"></p>
-    <p id="timer1" style="font-weight: bold;"></p>
-    <button id="proxima1" style="display:none;" onclick="proximaPergunta(2)">Próxima Pergunta</button>
-  </div>
+.pergunta{
+background:#ffffff;
+border:1px solid #e2e8f0;
+border-radius:8px;
+padding:20px;
+margin-top:20px;
+box-shadow:0 2px 6px rgba(0,0,0,0.05);
+}
 
-  <!-- PERGUNTA 2 -->
-  <div class="pergunta" id="pergunta2" style="display: none;">
-    <p><strong>2. Qual a duração mínima de um curso de especialização no Brasil?</strong></p>
-    <form>
-      <input type="radio" name="q2" value="a"> A) 180 horas<br>
-      <input type="radio" name="q2" value="b"> B) 360 horas<br>
-      <input type="radio" name="q2" value="c"> C) 24 meses<br>
-      <input type="radio" name="q2" value="d"> D) 48 meses<br><br>
-      <button type="button" onclick="checkResposta(2, 'b')">Responder</button>
-    </form>
-    <p id="feedback2"></p>
-    <p id="timer2" style="font-weight: bold;"></p>
-    <button id="proxima2" style="display:none;" onclick="proximaPergunta(3)">Próxima Pergunta</button>
-  </div>
+.pergunta p{
+line-height:1.5;
+}
 
-  <!-- PERGUNTA 3 -->
-  <div class="pergunta" id="pergunta3" style="display: none;">
-    <p><strong>3. Qual dos seguintes requisitos é geralmente exigido para ingressar em um programa de mestrado no Brasil?</strong></p>
-    <form>
-      <input type="radio" name="q3" value="a"> A) Aprovação em prova de proficiência em três línguas estrangeiras.<br>
-      <input type="radio" name="q3" value="b"> B) Apresentação de uma tese doutoral inédita.<br>
-      <input type="radio" name="q3" value="c"> C) Apresentação de projeto de pesquisa.<br>
-      <input type="radio" name="q3" value="d"> D) Já possuir o título de doutor.<br><br>
-      <button type="button" onclick="checkResposta(3, 'c')">Responder</button>
-    </form>
-    <p id="feedback3"></p>
-    <p id="timer3" style="font-weight: bold;"></p>
-    <button id="proxima3" style="display:none;" onclick="proximaPergunta(4)">Próxima Pergunta</button>
-  </div>
+input[type="radio"]{
+margin-right:6px;
+margin-top:8px;
+}
 
-  <!-- PERGUNTA 4 -->
-  <div class="pergunta" id="pergunta4" style="display: none;">
-    <p><strong>4. No sistema brasileiro de ensino superior, o título de PhD é:</strong></p>
-    <form>
-      <input type="radio" name="q4" value="a"> A) Um grau acadêmico superior ao doutorado.<br>
-      <input type="radio" name="q4" value="b"> B) O título correspondente ao grau de doutor no sistema norte-americano.<br>
-      <input type="radio" name="q4" value="c"> C) Equivalente a um curso de pós-doutorado.<br>
-      <input type="radio" name="q4" value="d"> D) Um tipo de curso de pós-graduação <em>lato sensu</em>.<br><br>
-      <button type="button" onclick="checkResposta(4, 'b')">Responder</button>
-    </form>
-    <p id="feedback4"></p>
-    <p id="timer4" style="font-weight: bold;"></p>
-    <button id="proxima4" style="display:none;" onclick="proximaPergunta(5)">Próxima Pergunta</button>
-  </div>
+button{
+margin-top:12px;
+padding:8px 14px;
+border-radius:6px;
+border:none;
+cursor:pointer;
+font-size:14px;
+}
 
-  <!-- PERGUNTA 5 -->
-  <div class="pergunta" id="pergunta5" style="display: none;">
-    <p><strong>5. Cursar uma pós-graduação <em>stricto sensu</em> em uma universidade estrangeira é sempre a melhor opção?</strong></p>
-    <form>
-      <input type="radio" name="q5" value="a"> A) Sim. As universidades estrangeiras possuem um nível de exigência maior do que as brasileiras.<br>
-      <input type="radio" name="q5" value="b"> B) Sim, Diplomas estrangeiros são mais valorizados no mercado de trabalho brasileiro.<br>
-      <input type="radio" name="q5" value="c"> C) Não. Muitas universidades brasileiras possuem programas de alta qualidade.<br>
-      <input type="radio" name="q5" value="d"> D) Não. Somente universidades brasileiras têm diplomas reconhecidos no Brasil.<br><br>
-      <button type="button" onclick="checkResposta(5, 'c')">Responder</button>
-    </form>
-    <p id="feedback5"></p>
-    <p id="timer5" style="font-weight: bold;"></p>
-    <button id="proxima5" style="display:none;" onclick="proximaPergunta(6)">Próxima Pergunta</button>
-  </div>
+.botao-responder{
+background:#e2e8f0;
+color:#222;
+}
 
-  <!-- PERGUNTA 6 -->
-  <div class="pergunta" id="pergunta6" style="display: none;">
-    <p><strong>6. A defesa de dissertação é um requisito para a conclusão de qual nível de ensino superior no Brasil?</strong></p>
-    <form>
-      <input type="radio" name="q6" value="a"> A) Doutorado<br>
-      <input type="radio" name="q6" value="b"> B) Especialização<br>
-      <input type="radio" name="q6" value="c"> C) Mestrado<br>
-      <input type="radio" name="q6" value="d"> D) Graduação<br><br>
-      <button type="button" onclick="checkResposta(6, 'c')">Responder</button>
-    </form>
-    <p id="feedback6"></p>
-    <p id="timer6" style="font-weight: bold;"></p>
-    <button id="proxima6" style="display:none;" onclick="proximaPergunta(7)">Próxima Pergunta</button>
-  </div>
-  
-  <!-- PERGUNTA 7 -->
-<div class="pergunta" id="pergunta7" style="display: none;">
-  <p><strong>7. Qual das alternativas abaixo define corretamente o termo <em>stricto sensu</em>?</strong></p>
-  <form>
-    <input type="radio" name="q7" value="a"> A) Cursos voltados à especialização técnica de curta duração.<br>
-    <input type="radio" name="q7" value="b"> B) Cursos de pós-graduação que incluem mestrado e doutorado.<br>
-    <input type="radio" name="q7" value="c"> C) Programas de graduação voltados à licenciatura.<br>
-    <input type="radio" name="q7" value="d"> D) Atividades de extensão com reconhecimento acadêmico.<br><br>
-    <button type="button" onclick="checkResposta(7, 'b')">Responder</button>
-  </form>
-  <p id="feedback7"></p>
-  <p id="timer7" style="font-weight: bold;"></p>
-  <button id="proxima7" style="display:none;" onclick="proximaPergunta(8)">Próxima Pergunta</button>
+.botao-responder:hover{
+background:#cbd5e1;
+}
+
+.botao-proxima{
+background:#375D81;
+color:white;
+font-weight:600;
+}
+
+.botao-proxima:hover{
+background:#2c4c6b;
+}
+
+.botao-iniciar{
+background:#2e7d32;
+color:white;
+font-weight:600;
+padding:10px 18px;
+border-radius:6px;
+}
+
+.botao-iniciar:hover{
+background:#256428;
+}
+
+[id^="feedback"]{
+margin-top:10px;
+font-weight:500;
+}
+
+[id^="timer"]{
+color:#b71c1c;
+font-weight:600;
+margin-top:6px;
+}
+
+#resultadoFinal{
+font-size:18px;
+margin-top:20px;
+}
+
+</style>
+
+<button class="botao-iniciar" onclick="iniciarQuiz()">Iniciar Quiz</button>
+
+<div id="quiz-container" style="display:none;margin-top:20px;">
+
+<!-- PERGUNTA 1 -->
+<div class="pergunta" id="pergunta1">
+<p><strong>1. Quais são os principais graus acadêmicos conferidos na graduação no Brasil?</strong></p>
+<form>
+<input type="radio" name="q1" value="a"> A) Bacharel, licenciado e tecnólogo<br>
+<input type="radio" name="q1" value="b"> B) Mestre, doutor e especialista<br>
+<input type="radio" name="q1" value="c"> C) Bacharel, mestre e doutor<br>
+<input type="radio" name="q1" value="d"> D) Licenciado, especialista e doutor<br><br>
+<button type="button" class="botao-responder" onclick="checkResposta(1,'a')">Responder</button>
+</form>
+<p id="feedback1"></p>
+<p id="timer1"></p>
+<button id="proxima1" class="botao-proxima" style="display:none;" onclick="proximaPergunta(2)">Próxima Pergunta</button>
+</div>
+
+<!-- PERGUNTA 2 -->
+<div class="pergunta" id="pergunta2" style="display:none;">
+<p><strong>2. Qual é a carga horária mínima exigida para um curso de especialização (pós-graduação lato sensu) no Brasil?</strong></p>
+<form>
+<input type="radio" name="q2" value="a"> A) 180 horas<br>
+<input type="radio" name="q2" value="b"> B) 360 horas<br>
+<input type="radio" name="q2" value="c"> C) 24 meses<br>
+<input type="radio" name="q2" value="d"> D) 48 meses<br><br>
+<button type="button" class="botao-responder" onclick="checkResposta(2,'b')">Responder</button>
+</form>
+<p id="feedback2"></p>
+<p id="timer2"></p>
+<button id="proxima2" class="botao-proxima" style="display:none;" onclick="proximaPergunta(3)">Próxima Pergunta</button>
+</div>
+
+<!-- PERGUNTA 3 -->
+<div class="pergunta" id="pergunta3" style="display:none;">
+<p><strong>3. Qual das ações abaixo é frequentemente exigida no processo seletivo para ingresso em programas de mestrado?</strong></p>
+<form>
+<input type="radio" name="q3" value="a"> A) Defesa pública de tese<br>
+<input type="radio" name="q3" value="b"> B) Apresentação de projeto de pesquisa<br>
+<input type="radio" name="q3" value="c"> C) Experiência docente mínima de cinco anos<br>
+<input type="radio" name="q3" value="d"> D) Conclusão prévia de doutorado<br><br>
+<button type="button" class="botao-responder" onclick="checkResposta(3,'b')">Responder</button>
+</form>
+<p id="feedback3"></p>
+<p id="timer3"></p>
+<button id="proxima3" class="botao-proxima" style="display:none;" onclick="proximaPergunta(4)">Próxima Pergunta</button>
+</div>
+
+<!-- PERGUNTA 4 -->
+<div class="pergunta" id="pergunta4" style="display:none;">
+<p><strong>4. No sistema acadêmico norte-americano, o título de PhD corresponde, em termos gerais, a qual grau acadêmico no Brasil?</strong></p>
+<form>
+<input type="radio" name="q4" value="a"> A) Especialização<br>
+<input type="radio" name="q4" value="b"> B) Mestrado<br>
+<input type="radio" name="q4" value="c"> C) Doutorado<br>
+<input type="radio" name="q4" value="d"> D) Pós-doutorado<br><br>
+<button type="button" class="botao-responder" onclick="checkResposta(4,'c')">Responder</button>
+</form>
+<p id="feedback4"></p>
+<p id="timer4"></p>
+<button id="proxima4" class="botao-proxima" style="display:none;" onclick="proximaPergunta(5)">Próxima Pergunta</button>
+</div>
+
+<!-- PERGUNTA 5 -->
+<div class="pergunta" id="pergunta5" style="display:none;">
+<p><strong>5. É correto afirmar que cursar uma pós-graduação stricto sensu em uma universidade estrangeira é sempre a melhor opção?</strong></p>
+<form>
+<input type="radio" name="q5" value="a"> A) Sim. Universidades estrangeiras são sempre superiores às brasileiras.<br>
+<input type="radio" name="q5" value="b"> B) Sim. Diplomas estrangeiros têm maior validade acadêmica.<br>
+<input type="radio" name="q5" value="c"> C) Não. Muitas universidades brasileiras possuem programas de alta qualidade.<br>
+<input type="radio" name="q5" value="d"> D) Não. Diplomas estrangeiros não são reconhecidos no Brasil.<br><br>
+<button type="button" class="botao-responder" onclick="checkResposta(5,'c')">Responder</button>
+</form>
+<p id="feedback5"></p>
+<p id="timer5"></p>
+<button id="proxima5" class="botao-proxima" style="display:none;" onclick="proximaPergunta(6)">Próxima Pergunta</button>
+</div>
+
+<!-- PERGUNTA 6 -->
+<div class="pergunta" id="pergunta6" style="display:none;">
+<p><strong>6. A defesa de dissertação é um requisito para a conclusão de qual nível de ensino superior no Brasil?</strong></p>
+<form>
+<input type="radio" name="q6" value="a"> A) Doutorado<br>
+<input type="radio" name="q6" value="b"> B) Especialização<br>
+<input type="radio" name="q6" value="c"> C) Mestrado<br>
+<input type="radio" name="q6" value="d"> D) Graduação<br><br>
+<button type="button" class="botao-responder" onclick="checkResposta(6,'c')">Responder</button>
+</form>
+<p id="feedback6"></p>
+<p id="timer6"></p>
+<button id="proxima6" class="botao-proxima" style="display:none;" onclick="proximaPergunta(7)">Próxima Pergunta</button>
+</div>
+
+<!-- PERGUNTA 7 -->
+<div class="pergunta" id="pergunta7" style="display:none;">
+<p><strong>7. No sistema educacional brasileiro, o termo <em>pós-graduação stricto sensu</em> refere-se a:</strong></p>
+<form>
+<input type="radio" name="q7" value="a"> A) Cursos de aperfeiçoamento profissional de curta duração<br>
+<input type="radio" name="q7" value="b"> B) Cursos de especialização voltados ao mercado de trabalho<br>
+<input type="radio" name="q7" value="c"> C) Programas de mestrado e doutorado voltados à pesquisa científica<br>
+<input type="radio" name="q7" value="d"> D) Cursos técnicos de nível superior<br><br>
+<button type="button" class="botao-responder" onclick="checkResposta(7,'c')">Responder</button>
+</form>
+<p id="feedback7"></p>
+<p id="timer7"></p>
+<button id="proxima7" class="botao-proxima" style="display:none;" onclick="proximaPergunta(8)">Próxima Pergunta</button>
 </div>
 
 <!-- PERGUNTA 8 -->
-<div class="pergunta" id="pergunta8" style="display: none;">
-  <p><strong>8. Qual das opções abaixo representa um curso de pós-graduação <em>lato sensu</em>?</strong></p>
-  <form>
-    <input type="radio" name="q8" value="a"> A) Mestrado profissional<br>
-    <input type="radio" name="q8" value="b"> B) Doutorado acadêmico<br>
-    <input type="radio" name="q8" value="c"> C) Curso de especialização em ensino de ciências<br>
-    <input type="radio" name="q8" value="d"> D) Pós-doutorado em ciências sociais<br><br>
-    <button type="button" onclick="checkResposta(8, 'c')">Responder</button>
-  </form>
-  <p id="feedback8"></p>
-  <p id="timer8" style="font-weight: bold;"></p>
-  <button id="proxima8" style="display:none;" onclick="proximaPergunta(9)">Próxima Pergunta</button>
+<div class="pergunta" id="pergunta8" style="display:none;">
+<p><strong>8. Qual das opções abaixo representa um curso de pós-graduação <em>lato sensu</em>?</strong></p>
+<form>
+<input type="radio" name="q8" value="a"> A) Doutorado acadêmico<br>
+<input type="radio" name="q8" value="b"> B) Mestrado profissional<br>
+<input type="radio" name="q8" value="c"> C) Curso de especialização<br>
+<input type="radio" name="q8" value="d"> D) Pós-doutorado<br><br>
+<button type="button" class="botao-responder" onclick="checkResposta(8,'c')">Responder</button>
+</form>
+<p id="feedback8"></p>
+<p id="timer8"></p>
+<button id="proxima8" class="botao-proxima" style="display:none;" onclick="proximaPergunta(9)">Próxima Pergunta</button>
 </div>
 
 <!-- PERGUNTA 9 -->
-<div class="pergunta" id="pergunta9" style="display: none;">
-  <p><strong>9. Quais são os graus conferidos na graduação, de acordo com o sistema brasileiro?</strong></p>
-  <form>
-    <input type="radio" name="q9" value="a"> A) Técnico, licenciado e especialista<br>
-    <input type="radio" name="q9" value="b"> B) Bacharel, licenciado e tecnólogo<br>
-    <input type="radio" name="q9" value="c"> C) Licenciado, mestre e doutor<br>
-    <input type="radio" name="q9" value="d"> D) Tecnólogo, mestre e bacharel<br><br>
-    <button type="button" onclick="checkResposta(9, 'b')">Responder</button>
-  </form>
-  <p id="feedback9"></p>
-  <p id="timer9" style="font-weight: bold;"></p>
-  <button id="proxima9" style="display:none;" onclick="proximaPergunta(10)">Próxima Pergunta</button>
+<div class="pergunta" id="pergunta9" style="display:none;">
+<p><strong>9. No contexto da pesquisa científica no Brasil, o Currículo Lattes é utilizado principalmente para:</strong></p>
+<form>
+<input type="radio" name="q9" value="a"> A) Divulgar a produção acadêmica e a trajetória científica de pesquisadores<br>
+<input type="radio" name="q9" value="b"> B) Registrar o histórico escolar de estudantes universitários<br>
+<input type="radio" name="q9" value="c"> C) Organizar as disciplinas obrigatórias de cursos de graduação<br>
+<input type="radio" name="q9" value="d"> D) Controlar a matrícula em programas de pós-graduação<br><br>
+<button type="button" class="botao-responder" onclick="checkResposta(9,'a')">Responder</button>
+</form>
+<p id="feedback9"></p>
+<p id="timer9"></p>
+<button id="proxima9" class="botao-proxima" style="display:none;" onclick="proximaPergunta(10)">Próxima Pergunta</button>
 </div>
 
 <!-- PERGUNTA 10 -->
-<div class="pergunta" id="pergunta10" style="display: none;">
-  <p><strong>10. Qual é a principal diferença entre mestrado acadêmico e mestrado profissional?</strong></p>
-  <form>
-    <input type="radio" name="q10" value="a"> A) O mestrado acadêmico é voltado para aplicação imediata de resultados, e o profissional para pesquisa teórica.<br>
-    <input type="radio" name="q10" value="b"> B) O mestrado acadêmico exige estágio obrigatório, e o profissional não.<br>
-    <input type="radio" name="q10" value="c"> C) O mestrado acadêmico foca na produção de conhecimento científico, e o profissional na aplicação prática do conhecimento.<br>
-    <input type="radio" name="q10" value="d"> D) O mestrado profissional exige doutorado prévio, e o acadêmico não.<br><br>
-    <button type="button" onclick="checkResposta(10, 'c')">Responder</button>
-  </form>
-  <p id="feedback10"></p>
-  <p id="timer10" style="font-weight: bold;"></p>
-  <button id="proxima10" style="display:none;" onclick="proximaPergunta(11)">Próxima Pergunta</button>
+<div class="pergunta" id="pergunta10" style="display:none;">
+<p><strong>10. Qual é a principal diferença entre mestrado acadêmico e mestrado profissional?</strong></p>
+<form>
+<input type="radio" name="q10" value="a"> A) O mestrado acadêmico é voltado à produção de conhecimento científico, enquanto o profissional enfatiza a aplicação prática do conhecimento.<br>
+<input type="radio" name="q10" value="b"> B) O mestrado profissional exige doutorado prévio.<br>
+<input type="radio" name="q10" value="c"> C) O mestrado acadêmico é voltado apenas ao mercado de trabalho.<br>
+<input type="radio" name="q10" value="d"> D) O mestrado profissional dispensa orientação acadêmica formal.<br><br>
+<button type="button" class="botao-responder" onclick="checkResposta(10,'a')">Responder</button>
+</form>
+<p id="feedback10"></p>
+<p id="timer10"></p>
+<button id="proxima10" class="botao-proxima" style="display:none;" onclick="proximaPergunta(11)">Próxima Pergunta</button>
 </div>
 
 <!-- PERGUNTA 11 -->
-<div class="pergunta" id="pergunta11" style="display: none;">
-  <p><strong>11. Qual é o objetivo central de um curso de doutorado?</strong></p>
-  <form>
-    <input type="radio" name="q11" value="a"> A) Promover atualização profissional e técnica.<br>
-    <input type="radio" name="q11" value="b"> B) Qualificar para o ensino básico.<br>
-    <input type="radio" name="q11" value="c"> C) Formar pesquisadores autônomos e produzir conhecimento original.<br>
-    <input type="radio" name="q11" value="d"> D) Capacitar para atividades de extensão universitária.<br><br>
-    <button type="button" onclick="checkResposta(11, 'c')">Responder</button>
-  </form>
-  <p id="feedback11"></p>
-  <p id="timer11" style="font-weight: bold;"></p>
-  <button id="proxima11" style="display:none;" onclick="proximaPergunta(12)">Próxima Pergunta</button>
+<div class="pergunta" id="pergunta11" style="display:none;">
+<p><strong>11. Qual é o objetivo central de um curso de doutorado?</strong></p>
+<form>
+<input type="radio" name="q11" value="a"> A) Promover atualização profissional e técnica.<br>
+<input type="radio" name="q11" value="b"> B) Qualificar para o ensino básico.<br>
+<input type="radio" name="q11" value="c"> C) Formar pesquisadores capazes de produzir conhecimento científico original.<br>
+<input type="radio" name="q11" value="d"> D) Capacitar exclusivamente para o mercado de trabalho.<br><br>
+<button type="button" class="botao-responder" onclick="checkResposta(11,'c')">Responder</button>
+</form>
+<p id="feedback11"></p>
+<p id="timer11"></p>
+<button id="proxima11" class="botao-proxima" style="display:none;" onclick="proximaPergunta(12)">Próxima Pergunta</button>
 </div>
 
 <!-- PERGUNTA 12 -->
-<div class="pergunta" id="pergunta12" style="display: none;">
-  <p><strong>12. Qual dos elementos abaixo <em>não</em> é parte do percurso tradicional do sistema acadêmico brasileiro?</strong></p>
+<div class="pergunta" id="pergunta12" style="display:none;">
+<p><strong>12. Qual dos percursos abaixo representa uma trajetória acadêmica comum na formação científica?</strong></p>
+<form>
+<input type="radio" name="q12" value="a"> A) Graduação → Especialização → Doutorado → Ensino médio<br>
+<input type="radio" name="q12" value="b"> B) Graduação → Mestrado → Doutorado → Pós-doutorado<br>
+<input type="radio" name="q12" value="c"> C) Graduação → Pós-doutorado → Doutorado<br>
+<input type="radio" name="q12" value="d"> D) Graduação → Curso técnico → Doutorado<br><br>
+<button type="button" class="botao-responder" onclick="checkResposta(12,'b')">Responder</button>
+</form>
+<p id="feedback12"></p>
+<p id="timer12"></p>
+<button id="proxima12" class="botao-proxima" style="display:none;" onclick="proximaPergunta(13)">Próxima Pergunta</button>
+</div>
+
+<!-- PERGUNTA 13 -->
+<div class="pergunta" id="pergunta13" style="display:none;">
+<p><strong>13. Qual atividade institucional é voltada especificamente à inserção do estudante de graduação em projetos de pesquisa científica?</strong></p>
+<form>
+<input type="radio" name="q13" value="a"> A) Estágio supervisionado<br>
+<input type="radio" name="q13" value="b"> B) Iniciação científica<br>
+<input type="radio" name="q13" value="c"> C) Trabalho de Conclusão de Curso<br>
+<input type="radio" name="q13" value="d"> D) Monitoria<br><br>
+<button type="button" class="botao-responder" onclick="checkResposta(13,'b')">Responder</button>
+</form>
+<p id="feedback13"></p>
+<p id="timer13"></p>
+<button id="proxima13" class="botao-proxima" style="display:none;" onclick="proximaPergunta(14)">Próxima Pergunta</button>
+</div>
+
+<!-- PERGUNTA 14 -->
+<div class="pergunta" id="pergunta14" style="display:none;">
+<p><strong>14. Qual órgão brasileiro é responsável pela avaliação dos programas de mestrado e doutorado?</strong></p>
+<form>
+<input type="radio" name="q14" value="a"> A) INEP<br>
+<input type="radio" name="q14" value="b"> B) CAPES<br>
+<input type="radio" name="q14" value="c"> C) CNPq<br>
+<input type="radio" name="q14" value="d"> D) MEC<br><br>
+<button type="button" class="botao-responder" onclick="checkResposta(14,'b')">Responder</button>
+</form>
+<p id="feedback14"></p>
+<p id="timer14"></p>
+<button id="proxima14" class="botao-proxima" style="display:none;" onclick="proximaPergunta(15)">Próxima Pergunta</button>
+</div>
+
+<!-- PERGUNTA 15 -->
+<div class="pergunta" id="pergunta15" style="display:none;">
+<p><strong>15. No contexto das universidades brasileiras, o chamado “tripé universitário” é formado por:</strong></p>
+<form>
+<input type="radio" name="q15" value="a"> A) Graduação, pós-graduação e extensão<br>
+<input type="radio" name="q15" value="b"> B) Ensino, pesquisa e extensão<br>
+<input type="radio" name="q15" value="c"> C) Ensino, estágio e pesquisa<br>
+<input type="radio" name="q15" value="d"> D) Pesquisa, inovação e mercado<br><br>
+<button type="button" class="botao-responder" onclick="checkResposta(15,'b')">Responder</button>
+</form>
+<p id="feedback15"></p>
+<p id="timer15"></p>
+<button id="proxima15" class="botao-proxima" style="display:none;" onclick="proximaPergunta(16)">Próxima Pergunta</button>
+</div>
+
+<!-- PERGUNTA 16 -->
+<div class="pergunta" id="pergunta16" style="display: none;">
+  <p><strong>16. Qual lei estabelece as bases do sistema educacional brasileiro, incluindo o ensino superior?</strong></p>
   <form>
-    <input type="radio" name="q12" value="a"> A) Ensino médio → Graduação → Mestrado → Doutorado<br>
-    <input type="radio" name="q12" value="b"> B) Graduação → Pós-doutorado → Doutorado<br>
-    <input type="radio" name="q12" value="c"> C) Graduação → Especialização → Mestrado<br>
-    <input type="radio" name="q12" value="d"> D) Ensino médio → Curso técnico → Graduação<br><br>
-    <button type="button" onclick="checkResposta(12, 'b')">Responder</button>
+    <input type="radio" name="q16" value="a"> A) Lei nº 9.394/1996<br>
+    <input type="radio" name="q16" value="b"> B) Lei nº 13.005/2014<br>
+    <input type="radio" name="q16" value="c"> C) Lei nº 9.394/2006<br>
+    <input type="radio" name="q16" value="d"> D) Lei nº 12.711/2012<br><br>
+    <button type="button" class="botao-responder" onclick="checkResposta(16, 'a')">Responder</button>
   </form>
-  <p id="feedback12"></p>
-  <p id="timer12" style="font-weight: bold;"></p>
+  <p id="feedback16"></p>
+  <p id="timer16" style="font-weight: bold;"></p>
+  <button id="proxima16" class="botao-proxima" style="display:none;" onclick="proximaPergunta(17)">Próxima Pergunta</button>
+</div>
+
+<!-- PERGUNTA 17 -->
+<div class="pergunta" id="pergunta17" style="display: none;">
+  <p><strong>17. Sobre o reconhecimento internacional de diplomas de doutorado, qual afirmação é mais correta?</strong></p>
+  <form>
+    <input type="radio" name="q17" value="a"> A) Diplomas de doutorado são automaticamente reconhecidos em qualquer país.<br>
+    <input type="radio" name="q17" value="b"> B) Cada país ou universidade decide se reconhece ou não um diploma estrangeiro.<br>
+    <input type="radio" name="q17" value="c"> C) Diplomas brasileiros são sempre reconhecidos automaticamente na Europa.<br>
+    <input type="radio" name="q17" value="d"> D) O reconhecimento depende apenas da CAPES.<br><br>
+    <button type="button" class="botao-responder" onclick="checkResposta(17, 'b')">Responder</button>
+  </form>
+  <p id="feedback17"></p>
+  <p id="timer17" style="font-weight: bold;"></p>
+  <button id="proxima17" class="botao-proxima" style="display:none;" onclick="proximaPergunta(18)">Próxima Pergunta</button>
+</div>
+
+<!-- PERGUNTA 18 -->
+<div class="pergunta" id="pergunta18" style="display: none;">
+  <p><strong>18. Qual é a função principal do Trabalho de Conclusão de Curso (TCC) na graduação?</strong></p>
+  <form>
+    <input type="radio" name="q18" value="a"> A) Substituir todas as disciplinas do último semestre<br>
+    <input type="radio" name="q18" value="b"> B) Demonstrar a capacidade do estudante de desenvolver um trabalho acadêmico orientado<br>
+    <input type="radio" name="q18" value="c"> C) Servir como requisito para ingresso no mestrado<br>
+    <input type="radio" name="q18" value="d"> D) Avaliar exclusivamente habilidades profissionais<br><br>
+    <button type="button" class="botao-responder" onclick="checkResposta(18, 'b')">Responder</button>
+  </form>
+  <p id="feedback18"></p>
+  <p id="timer18" style="font-weight: bold;"></p>
+  <button id="proxima18" class="botao-proxima" style="display:none;" onclick="proximaPergunta(19)">Próxima Pergunta</button>
+</div>
+
+<!-- PERGUNTA 19 -->
+<div class="pergunta" id="pergunta19" style="display: none;">
+  <p><strong>19. O que caracteriza a atividade de monitoria na universidade?</strong></p>
+  <form>
+    <input type="radio" name="q19" value="a"> A) Um estágio obrigatório para todos os alunos<br>
+    <input type="radio" name="q19" value="b"> B) Uma atividade em que estudantes auxiliam professores em disciplinas<br>
+    <input type="radio" name="q19" value="c"> C) Um trabalho administrativo na universidade<br>
+    <input type="radio" name="q19" value="d"> D) Uma forma de substituição do professor em sala de aula<br><br>
+    <button type="button" class="botao-responder" onclick="checkResposta(19, 'b')">Responder</button>
+  </form>
+  <p id="feedback19"></p>
+  <p id="timer19" style="font-weight: bold;"></p>
+  <button id="proxima19" class="botao-proxima" style="display:none;" onclick="proximaPergunta(20)">Próxima Pergunta</button>
+</div>
+
+<!-- PERGUNTA 20 -->
+<div class="pergunta" id="pergunta20" style="display: none;">
+  <p><strong>20. O que caracteriza um grupo de pesquisa em uma universidade brasileira?</strong></p>
+  <form>
+    <input type="radio" name="q20" value="a"> A) Um conjunto informal de estudantes que estudam juntos<br>
+    <input type="radio" name="q20" value="b"> B) Uma equipe organizada de pesquisadores registrada no CNPq<br>
+    <input type="radio" name="q20" value="c"> C) Um grupo criado exclusivamente para disciplinas de graduação<br>
+    <input type="radio" name="q20" value="d"> D) Um clube estudantil vinculado à extensão<br><br>
+    <button type="button" class="botao-responder" onclick="checkResposta(20, 'b')">Responder</button>
+  </form>
+  <p id="feedback20"></p>
+  <p id="timer20" style="font-weight: bold;"></p>
   <!-- Última pergunta: pode mostrar resultado final aqui -->
-  <button style="display:none;" id="proxima12" onclick="finalizarQuiz()">Finalizar Quiz</button>
+  <button id="proxima20" class="botao-proxima" style="display:none;" onclick="finalizarQuiz()">
+Finalizar Quiz
+</button>
 </div>
 
 </div>
 
-<p id="resultadoFinal" style="font-weight: bold; color: darkgreen;"></p>
+<p id="resultadoFinal" style="font-weight:bold;color:darkgreen;"></p>
 
-<div id="mensagem-final" style="display: none; text-align: center; margin-top: 30px;">
-  <h3>🎉 Parabéns! Você concluiu o quiz!</h3>
-  <p>Agora você conhece melhor a estrutura do sistema acadêmico brasileiro.</p>
+<div id="mensagem-final" style="display:none;text-align:center;margin-top:30px;">
+<h3>🎉 Parabéns! Você concluiu o quiz!</h3>
+<p>Agora você conhece melhor a estrutura do sistema acadêmico brasileiro.</p>
 </div>
 
 <script>
-  let tempo = 90;
-  let timer;
-  let acertos = 0;
 
-  function iniciarQuiz() {
-    document.getElementById("quiz-container").style.display = "block";
-    document.querySelector("button[onclick='iniciarQuiz()']").style.display = "none";
-    iniciarTimer("timer1", 1);
-  }
+let tempo = 60;
+let timer;
+let acertos = 0;
 
-  function iniciarTimer(timerId, num) {
-    tempo = 90;
-    clearInterval(timer);
-    timer = setInterval(function () {
-      document.getElementById(timerId).innerText = "⏳ Tempo restante: " + tempo + " segundos";
-      tempo--;
-      if (tempo < 0) {
-        clearInterval(timer);
-        document.getElementById("feedback" + num).innerText = "⏰ Tempo esgotado!";
-        desativarOpcoes("q" + num);
-        mostrarProximo(num);
-      }
-    }, 1000);
-  }
+function iniciarQuiz(){
 
-  function desativarOpcoes(name) {
-    const radios = document.getElementsByName(name);
-    radios.forEach(r => r.disabled = true);
-  }
+document.getElementById("quiz-container").style.display = "block";
 
-  function checkResposta(num, correta) {
-    clearInterval(timer);
-    const selecionada = document.querySelector('input[name="q' + num + '"]:checked');
-    const feedback = document.getElementById("feedback" + num);
-    if (!selecionada) {
-      feedback.innerText = "Por favor, selecione uma alternativa.";
-      return;
-    }
-    desativarOpcoes("q" + num);
-    if (selecionada.value === correta) {
-      feedback.innerText = "✅ Correto!";
-      acertos++;
-    } else {
-      feedback.innerText = "❌ Incorreto. A resposta correta era: " + correta.toUpperCase() + ")";
-    }
-    mostrarProximo(num);
-  }
+document.querySelector(".botao-iniciar").style.display = "none";
 
-  function mostrarProximo(num) {
-    const botaoProximo = document.getElementById("proxima" + num);
-    if (botaoProximo) {
-      botaoProximo.style.display = "inline";
-    }
+iniciarTimer("timer1",1);
 
-    // Exibe botão "Finalizar Quiz" na última pergunta
-    if (num === 12) {
-      const botaoFinal = document.getElementById("proxima12");
-      if (botaoFinal) {
-        botaoFinal.style.display = "inline";
-      }
-    }
-  }
+}
 
-  function proximaPergunta(num) {
-    document.querySelectorAll(".pergunta").forEach(p => p.style.display = "none");
-    document.getElementById("pergunta" + num).style.display = "block";
-    iniciarTimer("timer" + num, num);
-  }
+function iniciarTimer(timerId,num){
 
-  function finalizarQuiz() {
-    document.querySelectorAll(".pergunta").forEach(p => p.style.display = "none");
-    const resultado = document.getElementById("resultadoFinal");
-    resultado.innerText = "🎉 Quiz concluído! Você acertou " + acertos + " de 12 questões.";
-    document.getElementById("mensagem-final").style.display = "block";
-  }
+tempo = 60;
+
+clearInterval(timer);
+
+timer = setInterval(function(){
+
+document.getElementById(timerId).innerText =
+"⏳ Tempo restante: " + tempo + " segundos";
+
+tempo--;
+
+if(tempo <= 0){
+
+clearInterval(timer);
+
+document.getElementById("feedback"+num).innerText = "⏰ Tempo esgotado!";
+
+desativarOpcoes("q"+num);
+
+mostrarProximo(num);
+
+}
+
+},1000);
+
+}
+
+function desativarOpcoes(name){
+
+const radios = document.getElementsByName(name);
+
+radios.forEach(r => r.disabled = true);
+
+}
+
+function checkResposta(num,correta){
+
+clearInterval(timer);
+
+const selecionada = document.querySelector('input[name="q'+num+'"]:checked');
+
+const feedback = document.getElementById("feedback"+num);
+
+if(!selecionada){
+
+feedback.innerText = "Por favor, selecione uma alternativa.";
+
+return;
+
+}
+
+desativarOpcoes("q"+num);
+
+if(selecionada.value === correta){
+
+feedback.innerText = "✅ Correto!";
+
+acertos++;
+
+}else{
+
+feedback.innerText =
+"❌ Incorreto. A resposta correta era: " + correta.toUpperCase() + ")";
+
+}
+
+mostrarProximo(num);
+
+}
+
+function mostrarProximo(num){
+
+const botaoProximo = document.getElementById("proxima"+num);
+
+if(botaoProximo){
+
+botaoProximo.style.display = "inline";
+
+}
+
+}
+
+function proximaPergunta(num){
+
+document.querySelectorAll(".pergunta").forEach(p => p.style.display="none");
+
+document.getElementById("pergunta"+num).style.display="block";
+
+iniciarTimer("timer"+num,num);
+
+}
+
+function finalizarQuiz(){
+
+document.querySelectorAll(".pergunta").forEach(p => p.style.display="none");
+
+const resultado = document.getElementById("resultadoFinal");
+
+resultado.innerText =
+"🎉 Quiz concluído! Você acertou " + acertos + " de 20 questões.";
+
+document.getElementById("mensagem-final").style.display="block";
+
+}
+
 </script>
 ```
 
-<br/>
 
 ## Aprendizagem prática
 
@@ -324,29 +576,39 @@ Análise
 ::: destaque
 **Como se estrutura um texto de apresentação de um currículo Lattes?**
 
-O Currículo Lattes é a principal plataforma de registro da trajetória acadêmica e profissional no Brasil, sendo reconhecido nacionalmente por universidades, agências de fomento e instituições de pesquisa. Ele reúne, de forma padronizada, informações sobre formação, produção científica, atuação profissional e atividades de extensão, funcionando como uma verdadeira “vitrine” acadêmica. Ter o Lattes atualizado é essencial para participar de seleções de bolsas, estágios, programas de pós-graduação e editais de pesquisa, além de contribuir para a credibilidade e visibilidade do pesquisador dentro e fora da universidade.
+O Currículo Lattes é a principal plataforma de registro da trajetória acadêmica e profissional no Brasil, sendo reconhecido nacionalmente por universidades, agências de fomento e instituições de pesquisa. Ele reúne, de forma padronizada, informações sobre formação, produção científica, atuação profissional e atividades de extensão, funcionando como uma verdadeira “vitrine” acadêmica.
+
+Ter o Lattes atualizado é essencial para participar de seleções de bolsas, estágios, programas de pós-graduação e editais de pesquisa. Por isso, o texto de apresentação presente no currículo cumpre uma função importante: apresentar de forma sintética quem é o pesquisador, qual é sua trajetória acadêmica e quais são suas áreas de atuação.
+
+Nesta atividade, você irá observar como pesquisadores estruturam esse tipo de texto e quais informações costumam aparecer nele.
 :::
 
 ::: subsubtitulo-nao-numerado
 Orientações
 :::
 
-1.  Acesse a página de docentes do CCEN/UFERSA:\
-    👉 [Clique aqui](https://sigaa.ufersa.edu.br/sigaa/public/departamento/professores.jsf?id=927)
+1.	Acesse a página de docentes do CCEN/UFERSA:
+👉 https://sigaa.ufersa.edu.br/sigaa/public/departamento/professores.jsf?id=927
 
-2.  Escolha **um docente** da lista e clique em **Currículo Lattes** (o link abrirá a página do Lattes).
+2.	Escolha um docente da lista e clique em Currículo Lattes.
+	
+3.	Na página do Lattes, localize o texto de apresentação do pesquisador (geralmente aparece no início do currículo, após a foto e os dados básicos).
+	
+4.	Leia atentamente o texto e separe-o em frases, considerando os pontos finais que delimitam unidades completas de informação.
+	
+5.	Para cada frase, identifique qual é sua função principal no texto.
 
-3.  Na página do Lattes, localize o **texto de apresentação** do professor (geralmente aparece logo no início, após a foto e dados básicos).
+    Algumas funções comuns são:
 
-4.  No seu caderno, **analise esse texto**, separando-o em frases (cada frase inicia com letra maiúscula e termina com ponto) e identificando em cada uma delas a **função principal** no texto, como nos exemplos:
-
--   Apresentar a formação acadêmica;\
--   Informar a atuação profissional;\
--   Destacar linha ou grupo de pesquisa;\
--   Evidenciar produções acadêmicas;\
--   Indicar orientações ou interesse de pesquisa;\
--   Informar prêmios, bolsas ou reconhecimentos;
--   Outras funções não listadas acima.
+      - apresentar a formação acadêmica;
+      - informar a atuação profissional;
+      - indicar instituições em que o pesquisador atua;
+      - destacar área ou linha de pesquisa;
+      - mencionar grupos de pesquisa;
+      - evidenciar produções científicas;
+      - indicar orientações ou interesses de pesquisa;
+      - informar prêmios, bolsas ou reconhecimentos;
+      - outras funções que você identificar.
 
 5.  Organize sua análise em uma tabela como no exemplo abaixo:
 
@@ -359,16 +621,15 @@ Orientações
 | "Atua na área de catálise heterogênea." | Apontar área de atuação científica |
 :::
 
-::: subsubtitulo-nao-numerado
-Compartilhamento
-:::
+
+::: destaque
 
 -   Quais funções aparecem com mais frequência nos textos analisados?
 
 -   Que imagem de pesquisador o texto busca transmitir ao leitor?
 
 -   Há diferenças entre os estilos de apresentação dos docentes?
-
+:::
 <br/>
 
 ## Aprendizagem prática
@@ -378,13 +639,35 @@ Produção de texto
 :::
 
 ::: destaque
-Agora é sua vez. Elabore o texto de apresentação do seu Currículo Lattes. Rascunhe-o no seu caderno e somente depois transcreva-o no [Painel de Respostas](complemento_portifolio.qmd). Selecione a tarefa: **Apresentação para o Lattes**.
+Agora é sua vez. Elabore **o texto de apresentação do seu Currículo Lattes**.
+
+Esse texto tem como objetivo apresentar de forma sintética:
+
+- sua formação acadêmica atual ou anterior;
+- suas áreas de interesse acadêmico;
+- atividades acadêmicas que já realizou ou pretende realizar (ensino, pesquisa ou extensão).
+
+Antes de escrever no sistema, rascunhe o texto no seu caderno. Procure organizar as informações em 3 a 5 frases claras e objetivas, seguindo o modelo observado nos currículos analisados.
 :::
+
+::: subsubtitulo-nao-numerado
+Publicação no Currículo Lattes
+:::
+
+Depois de elaborar o seu texto:
+
+1.	Acesse o tutorial de preenchimento do [Currículo Lattes](tutorial_lattes.qmd) e siga as instruções para criar ou atualizar o seu Currículo Lattes.
+
+2.	Insira o texto de apresentação que você escreveu no campo correspondente do currículo.
+
+3.	Após concluir o preenchimento do currículo, copie o link público do seu Currículo Lattes.
+
+4.	Compartilhe esse link no grupo de WhatsApp da turma.
 
 <br/>
 
 ::: proxima-aula
 [Para a próxima aula:]{.proxima-aula-title}
 
--   **Leia** o texto **Conhecimento científico** (p. 23-28), capítulo do livro *Fundamentos de metodologia científica: teoria da ciência e iniciação à pesquisa*, de José Carlos Kochë. Disponível em Biblioteca Virtual.
+-   **Leia** o texto **Conhecimento científico** (p. 23-40), capítulo do livro *Fundamentos de metodologia científica: teoria da ciência e iniciação à pesquisa*, de José Carlos Kochë. Disponível em Biblioteca Virtual.
 :::

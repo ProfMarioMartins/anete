@@ -2,11 +2,11 @@
 title: "Currículo Lattes"
 ---
 
-::: titulo-nao-numeraado
+::: titulo-nao-numerado
 Tutorial
 :::
 
-Este tutorial irá guiá-lo pelos passos essenciais para preencher corretamente seu Currículo Lattes, explicando cada uma das seções e orientando sobre como inserir informações acadêmicas e profissionais de forma clara, completa e adequada às exigências da plataforma.
+Este tutorial apresenta os passos básicos para criar e preencher o Currículo Lattes, explicando as principais seções da plataforma e orientando como inserir informações acadêmicas e profissionais de forma clara e organizada.
 
 ::: subtitulo-nao-numerado
 Documentos necessários
@@ -21,7 +21,6 @@ Antes de começar, tenha em mãos:
 -   Histórico escolar e/ou diplomas de cursos concluídos;
 -   Certificados de participação em cursos, palestras ou congressos;
 -   Produções acadêmicas (artigos, resumos, apresentações);
--   Dados bancários (caso concorra a bolsas).
 
 ::: callout-important
 Sempre guarde cópias digitais (em PDF) de seus certificados. Isso facilita a atualização do currículo.
@@ -60,14 +59,14 @@ O sistema é dividido em seções principais:
 -   **Dados gerais**: informações pessoais, endereço e contatos;\
 -   **Formação acadêmica**: ensino médio, graduação, cursos técnicos;\
 -   **Atuação profissional**: empregos, estágios, bolsas;\
--   **Produções**: artigos, resumos, apresentações;\
+-   **Produções**: artigos, resumos em anais, capítulos de livro, apresentações de trabalho e outras produções acadêmicas.\
 -   **Eventos**: congressos, palestras, cursos de extensão.
 
 ::: subtitulo-nao-numerado
 3.  Foto profissional
 :::
 
-A foto é **obrigatória** e deve transmitir profissionalismo. Evite fotos informais.
+A foto não é obrigatória, mas é **fortemente recomendada**, pois ajuda a identificar o pesquisador e transmite maior profissionalismo.
 
 ::: callout-important
 **Dicas para a foto:** - Fundo neutro (branco, cinza ou azul claro);\
@@ -77,7 +76,7 @@ A foto é **obrigatória** e deve transmitir profissionalismo. Evite fotos infor
 :::
 
 ::: subtitulo-nao-numerado
-4.  Inserção de dados pessoais
+4.  Inserção de dados pessoais e acadêmicos
 :::
 
 Preencha todos os dados solicitados (informações pessoais, endereço, contato e formação acadêmica).
@@ -149,7 +148,7 @@ Esse é o campo **"Resumo"**, exibido logo no início do currículo. Muitas pess
 
 ::: callout-note
 **Exemplo de texto:**\
-"João Silva é estudante de Engenharia Agrícola e Ambiental na Universidade Federal Rural do Semi-Árido (UFERSA). Tem interesse nas áreas de irrigação e manejo sustentável da água. Atualmente participa do Programa de Iniciação Científica, atuando em pesquisas sobre uso eficiente de recursos hídricos. Pretende seguir carreira acadêmica e contribuir para o desenvolvimento de tecnologias voltadas à sustentabilidade."
+"João Silva possui graduação em Engenharia Agrícola e Ambiental pela Universidade Federal Rural do Semi-Árido (UFERSA). Tem interesse nas áreas de irrigação e manejo sustentável da água. Participa de projeto de iniciação científica voltado ao estudo do uso eficiente de recursos hídricos. Pretende seguir carreira acadêmica e contribuir para o desenvolvimento de tecnologias voltadas à sustentabilidade."
 :::
 
 ::: subtitulo-nao-numerado
@@ -157,7 +156,7 @@ Esse é o campo **"Resumo"**, exibido logo no início do currículo. Muitas pess
 :::
 
 | **Atividade** | **Onde inserir** |
-|----|----|
+|------------------------------------|------------------------------------|
 | Eventos: congressos, feiras, seminários, simpósios – participação ou organização | Eventos: como ouvinte ou participante (com apresentação de trabalho – inserir o título) |
 | Palestras | Formação complementar: como “curso de curta duração” (caso haja carga horária especificada no certificado) |
 | Apresentação de trabalho | Produções: apresentação de trabalho |

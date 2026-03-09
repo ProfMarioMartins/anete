@@ -9,7 +9,7 @@ Também disponível em: https://docs.google.com/document/d/1wBoKYCaLeQmAP22tVpxj
 -->
 ```
 
-# Exame Diagnóstico {-}
+## Exame Diagnóstico {-}
 
 **Disciplina:** Análise e Expressão Textual (ANETE)  
 **Curso:** Bacharelado em Ciência e Tecnologia (C&T)  
@@ -21,7 +21,7 @@ Também disponível em: https://docs.google.com/document/d/1wBoKYCaLeQmAP22tVpxj
 
 ---
 
-## Orientações {-}
+### Orientações {-}
 
 Este exame tem caráter exclusivamente **diagnóstico** e não vale nota.  
 Seu objetivo é identificar habilidades iniciais de leitura, escrita e argumentação, a fim de orientar a condução da disciplina ao longo do semestre.
@@ -31,11 +31,14 @@ Não há respostas “certas” ou “erradas” no sentido avaliativo tradicion
 
 ---
 
-# Parte I – Leitura e Análise Argumentativa
+::: titulo-nao-numerado
+Parte I – Leitura e Análise Argumentativa
+:::
 
 Leia o texto abaixo para responder às questões 1 a 6.
 
-## Texto 1 {-}
+::: destaque
+Texto 1
 
 **No home schooling, nunca saberíamos sobre estupro de menina de 12 anos**  
 *Eduardo Carvalho, 26/02/2026*
@@ -52,53 +55,59 @@ Essa decisão envia uma mensagem devastadora: a de que o Estado pode escolher ig
 
 Neste ponto, o home schooling surge como uma variável alarmante. O argumento da “liberdade educacional” acaba por ignorar o papel da escola como olhar fiscalizador do Estado sobre o bem-estar da criança.
 
-[...]
-
 **Fonte:** https://www.uol.com.br/ecoa/colunas/eduardo-carvalho/2026/02/26/home-schooling-estupro-menina-12-anos.htm
 
----
+:::
 
-## Questões
+::: titulo-nao-numerado
+Questões
+:::
 
-### 1. Identifique a tese central do texto e reformule-a com suas palavras.
+::: subtitulo-nao-numerado
+1. Identifique a tese central do texto e reformule-a com suas palavras.
+:::
 
 \vspace{4cm}
 
----
+::: subtitulo-nao-numerado
+2. Que razões ou evidências o autor apresenta para sustentar essa tese? Explique como elas contribuem para fortalecer o argumento.
+:::
 
-### 2. Que razões ou evidências o autor apresenta para sustentar essa tese? Explique como elas contribuem para fortalecer o argumento.
+\vspace{5cm}
+
+::: subtitulo-nao-numerado
+3. Indique uma informação do texto que poderia ser verificada por meio de uma fonte confiável. Explique por que essa informação exige verificação.
+:::
+
+\vspace{4cm}
+
+::: subtitulo-nao-numerado
+4. Escolha duas ideias do texto que estejam relacionadas. Explique como essa relação é construída (causa, consequência, exemplificação, contraste etc.).
+:::
+
+\vspace{4cm}
+
+::: subtitulo-nao-numerado
+5. Identifique uma ideia do texto que dependa de uma suposição implícita para fazer sentido. Explique qual é essa suposição e por que ela é importante para o argumento.
+:::
+
+\vspace{4cm}
+
+::: subtitulo-nao-numerado
+6. Posicione-se em relação à tese do texto. Escreva um parágrafo (6 a 8 linhas) defendendo sua posição com pelo menos uma justificativa desenvolvida.
+:::
 
 \vspace{5cm}
 
 ---
 
-### 3. Indique uma informação do texto que poderia ser verificada por meio de uma fonte confiável. Explique por que essa informação exige verificação.
+::: titulo-nao-numerado
+Parte II – Produção Argumentativa Autônoma
+:::
 
-\vspace{4cm}
-
----
-
-### 4. Escolha duas ideias do texto que estejam relacionadas. Explique como essa relação é construída (causa, consequência, exemplificação, contraste etc.).
-
-\vspace{4cm}
-
----
-
-### 5. Identifique uma ideia do texto que dependa de uma suposição implícita para fazer sentido. Explique qual é essa suposição e por que ela é importante para o argumento.
-
-\vspace{4cm}
-
----
-
-### 6. Posicione-se em relação à tese do texto. Escreva um parágrafo (6 a 8 linhas) defendendo sua posição com pelo menos uma justificativa desenvolvida.
-
-\vspace{5cm}
-
----
-
-# Parte II – Produção Argumentativa Autônoma
-
-### 7. Em que condições o uso de ferramentas de inteligência artificial pode contribuir para a aprendizagem universitária?
+::: subtitulo-nao-numerado
+7. Em que condições o uso de ferramentas de inteligência artificial pode contribuir para a aprendizagem universitária?
+:::
 
 Escreva um parágrafo argumentativo (8 a 10 linhas):
 
@@ -108,18 +117,20 @@ Escreva um parágrafo argumentativo (8 a 10 linhas):
 
 \vspace{6cm}
 
----
+::: titulo-nao-numerado
+Parte III – Experiência Prévia e Expectativas
+:::
 
-# Parte III – Experiência Prévia e Expectativas
-
-### 8. Você já produziu algum texto acadêmico (resumo científico, projeto de pesquisa, relatório, artigo científico)?  
+::: subtitulo-nao-numerado
+8. Você já produziu algum texto acadêmico (resumo científico, projeto de pesquisa, relatório, artigo científico)?  
 Se sim, em qual contexto?
+:::
 
 \vspace{3cm}
 
----
-
-### 9. Indique em quais aspectos você acredita que poderá ter mais dificuldade nesta disciplina:
+::: subtitulo-nao-numerado
+9. Indique em quais aspectos você acredita que poderá ter mais dificuldade nesta disciplina:
+:::
 
 - ( ) Leitura de textos acadêmicos  
 - ( ) Escrita de textos acadêmicos  
@@ -127,8 +138,8 @@ Se sim, em qual contexto?
 - ( ) Expressão oral  
 - ( ) Uso de fontes e referências  
 
----
-
-### 10. O que você espera aprender nesta disciplina?
+::: subtitulo-nao-numerado
+10. O que você espera aprender nesta disciplina?
+:::
 
 \vspace{4cm}

@@ -25,9 +25,9 @@ book:
       chapters:
       - index.qmd
 
-#   - part: "Unidade I"
-#     chapters:
-#      - Aula_1.qmd # Comentar
+    - part: "Unidade I"
+      chapters:
+       - Aula_1.qmd # Comentar
 #      - Aula_2.qmd
 #      - Aula_3.qmd
 #      - Aula_4.qmd
@@ -52,10 +52,9 @@ book:
 #      - Aula_16.qmd
 #      - part: "Tutoriais"
 
-#   - part: "Tutoriais"
-      # Materiais de apoio instrumental (uso autônomo ou orientação do professor)
-#     chapters:
-#      - tutorial_lattes.qmd
+    - part: "Tutoriais"
+      chapters:
+       - tutorial_lattes.qmd
 #      - tutorial_zotero.qmd
 #      - tutorial_capes.qmd
 #      - tutorial_tema_pesquisa.qmd

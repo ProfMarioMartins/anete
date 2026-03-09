@@ -148,6 +148,7 @@ Outras obras e materiais poderão ser indicados ao longo da disciplina, conforme
 :::
 
 <br/>
+
 ::: proxima-aula
 [Para a próxima aula:]{.proxima-aula-title} - **Leia** o texto **Entendendo a organização do sistema acadêmico brasileiro** (p. 7-9), capítulo do livro *Guia do trabalho científico: do projeto à redação final*, de Celso Ferrarezi Júnior.
 :::
