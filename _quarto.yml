@@ -28,7 +28,7 @@ book:
     - part: "Unidade I"
       chapters:
        - Aula_1.qmd # Comentar
-#      - Aula_2.qmd
+       - Aula_2.qmd
 #      - Aula_3.qmd
 #      - Aula_4.qmd
 #      - Aula_5.qmd
@@ -76,12 +76,12 @@ book:
     - part: "Complementos"
       chapters:
        - Aula_0.qmd
+       - complemento_painel.qmd
        - complemento_crono.qmd
 #      - complemento_guia.qmd
 #      - complemento_checklist_postagem.qmd
 #      - complemento_sorteio.qmd
 #      - complemento_padlet.qmd
-#      - complemento_portifolio.qmd
 #      - complemento_glossario.qmd
 
 # bibliography: references.bib

@@ -12,12 +12,15 @@ Nesta aula, vamos explorar os modos pelos quais os seres humanos constroem expli
 
 Ao final deste encontro e com base na leitura indicada, espera-se que você seja capaz de:
 
--   *Compreender o que é o senso comum e suas características principais, especialmente em relação à linguagem, à subjetividade e à criticidade.*
+-   *identificar características do conhecimento do senso comum;*
+-   *reconhecer a diferença entre senso comum e conhecimento científico;*
+-   *analisar exemplos de linguagem vaga;*
+-   *explicar por que a vaguidade dificulta a verificação científica.*
 
 ::: leitura
 Leitura indicada:
 
-**Conhecimento científico** (p. 23-28), capítulo do livro *Fundamentos de metodologia científica: teoria da ciência e iniciação à pesquisa*, de José Carlos Kochë
+**Conhecimento científico** (p. 23-40), capítulo do livro *Fundamentos de metodologia científica: teoria da ciência e iniciação à pesquisa*, de José Carlos Kochë
 :::
 
 ## Aprendizagem prática
@@ -34,20 +37,52 @@ Qual é o seu signo?
 
 ```{=html}
 <figure style="text-align: center;">
-  <img src="img/mentimeter_qr_code.png" style="width:20%; display: block; margin: auto;" />
-  <figcaption><strong>Figura 1. </strong>Código QR para a enquete</figcaption>
+  <img src="img/horoscopo_qrcode_docs.google.com.png" style="width:40%; display:block; margin:auto;" alt="QR code da enquete" />
+  <figcaption><strong>Figura 1.</strong> Código QR para a enquete</figcaption>
 </figure>
 ```
 
 ```{=html}
-<div style='position: relative; padding-bottom: 56.25%; padding-top: 35px; height: 0; overflow: hidden;'><iframe sandbox='allow-scripts allow-same-origin allow-presentation' allowfullscreen='true' allowtransparency='true' frameborder='0' height='315' src='https://www.mentimeter.com/app/presentation/alzpggs32vc31qjku6hct43y218uiwok/embed' style='position: absolute; top: 0; left: 0; width: 100%; height: 100%;' width='420'></iframe></div>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe
+    src="https://docs.google.com/forms/d/e/1FAIpQLSflOiaMnKWG7To4KXCTAhXZ6mCn5QlGbaPbSrZPP3qjMnT-oQ/viewform?embedded=true"
+    frameborder="0"
+    marginheight="0"
+    marginwidth="0"
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+    Carregando…
+  </iframe>
+</div>
+```
+
+<br/>
+
+```{=html}
+<div style="text-align:center; margin: 1.2em 0;">
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSflOiaMnKWG7To4KXCTAhXZ6mCn5QlGbaPbSrZPP3qjMnT-oQ/viewform"
+     target="_blank"
+     style="
+       display:inline-block;
+       padding:12px 17px;              /* ~20% maior que 10x14 */
+       border:2px solid #2b6cb0;       /* mais destaque */
+       border-radius:10px;
+       text-decoration:none;
+       font-weight:700;
+       font-size:1.2em;                /* +20% */
+       background:#2b6cb0;             /* botão preenchido */
+       color:#ffffff;
+       box-shadow:0 6px 14px rgba(0,0,0,0.18);
+     ">
+    Ver respostas
+  </a>
+</div>
 ```
 
 ::: subtitulo-nao-numerado
 Reflexão
 :::
 
-Agora que sabemos quais são os signos dos discentes da turma, vamos refletir juntos:
+Agora que sabemos quais são os signos da turma, vamos refletir juntos:
 
 -   Você acredita que as características atribuídas ao seu signo realmente combinam com você?
 -   Essas características poderiam se aplicar a qualquer pessoa?
@@ -63,20 +98,6 @@ O homem é um ser jogado no mundo, condenado a viver a sua existência. \[O home
 ::: destaque
 Ao interpretar o mundo e a si mesmo, o ser humano não apenas tem conhecimento de sua existência: ele toma **consciência** dessa existência. Conhecer é, antes de tudo, um ato de consciência ativa, que dá sentido à experiência vivida.
 :::
-
-```{=html}
-<div style="position: relative; padding-bottom: 56.25%; padding-top: 35px; height: 0; overflow: hidden;">
-  <iframe 
-    src="https://www.youtube.com/embed/9etefsYMm5o?si=i1eNdDkqEgHQXCFg" 
-    title="YouTube video player" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-    referrerpolicy="strict-origin-when-cross-origin" 
-    allowfullscreen 
-    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
-  </iframe>
-</div>
-```
 
 ::: citacao
 O conhecimento, dependendo da forma pela qual se chega a essa representação significativa, pode ser, em linhas gerais, classificado em diversos tipos: **mítico**, **ordinário**, **artístico**, **filosófico**, **religioso** e **científico**. (Kochë, 2016, p. 24 - destaques meus)
@@ -104,15 +125,45 @@ Qual é o melhor remédio para parar o soluço? Responda com uma ou duas palavra
 
 ```{=html}
 <figure style="text-align: center;">
-  <img src="img/mentimeter_qr_code2.png" style="width:20%; display: block; margin: auto;" />
-  <figcaption><strong>Figura 2. </strong>Código QR para a enquete</figcaption>
+  <img src="img/soluco_qrcode_docs.google.com.png" style="width:40%; display:block; margin:auto;" alt="QR code da enquete do soluço" />
+  <figcaption><strong>Figura 2.</strong> Código QR para a enquete</figcaption>
 </figure>
 ```
 
-<br/>
+```{=html}
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe
+    src="https://docs.google.com/forms/d/e/1FAIpQLSc2xe_KMDhYWBo5diyNmFnXB1h1tvd-wi9ACsefoCy_numXPQ/viewform?embedded=true"
+    frameborder="0"
+    marginheight="0"
+    marginwidth="0"
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+    Carregando…
+  </iframe>
+</div>
+```
+
+</br>
 
 ```{=html}
-<div style='position: relative; padding-bottom: 56.25%; padding-top: 35px; height: 0; overflow: hidden;'><iframe sandbox='allow-scripts allow-same-origin allow-presentation' allowfullscreen='true' allowtransparency='true' frameborder='0' height='315' src='https://www.mentimeter.com/app/presentation/altoinsdtbqjd1qn79x16dk8o2bfjaq1/embed' style='position: absolute; top: 0; left: 0; width: 100%; height: 100%;' width='420'></iframe></div>
+<div style="text-align:center; margin: 1.2em 0;">
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSc2xe_KMDhYWBo5diyNmFnXB1h1tvd-wi9ACsefoCy_numXPQ/viewform"
+     target="_blank"
+     style="
+       display:inline-block;
+       padding:12px 17px;
+       border:2px solid #2b6cb0;
+       border-radius:10px;
+       text-decoration:none;
+       font-weight:700;
+       font-size:1.2em;
+       background:#2b6cb0;
+       color:#ffffff;
+       box-shadow:0 6px 14px rgba(0,0,0,0.18);
+     ">
+    Ver respostas
+  </a>
+</div>
 ```
 
 ::: subtitulo-nao-numerado
@@ -122,7 +173,7 @@ Reflexão
 Observe a diversidade de respostas sobre o melhor remédio para o soluço. De onde vêm essas ideias? Em que elas se baseiam?
 
 ::: destaque
-Essa atividade nos ajuda a perceber como o **senso comum constrói soluções práticas** com base na experiência e na repetição, **sem necessariamente ter comprovação científica**. Embora muitas vezes funcionem, essas soluções são transmitidas por tradição, não por validação sistemática. Isso não as invalida automaticamente, mas nos convida a refletir: **quando e como devemos confiar no conhecimento do senso comum?**
+Essa atividade nos ajuda a perceber como o **senso comum constrói soluções práticas** com base na experiência e na repetição, **sem necessariamente ter comprovação científica**. Embora muitas vezes funcionem, essas soluções são transmitidas por tradição, não por validação sistemática. Muitas práticas do senso comum podem funcionar, mas não sabemos por que funcionam nem em que condições funcionam, pois não foram investigadas de forma sistemática. Isso nos convida a refletir: **quando e como devemos confiar no conhecimento do senso comum?**
 :::
 
 ## Leitura em foco
@@ -170,7 +221,7 @@ Esses conhecimentos \[do senso comum\], pelo fato de "darem certo", transformam-
 <br/>
 
 ::: subtitulo-nao-numerado
-Linguagem vaga (ateórica)
+Linguagem vaga (imprecisa)
 :::
 
 ::: citacao
@@ -210,7 +261,7 @@ Por que a linguagem do vídeo abaixo é vaga?
 
 <details class="resposta-escondida">
 
-<summary>Gabarito</summary>
+<summary>...</summary>
 
 A linguagem utilizada no vídeo pode ser considerada vaga por diversos motivos:
 
@@ -248,7 +299,7 @@ Bandido bom é bandido morto!
 
 <details class="resposta-escondida">
 
-<summary>Gabarito</summary>
+<summary>...</summary>
 
 A linguagem utilizada no vídeo pode ser considerada vaga por diversos motivos:
 
@@ -276,7 +327,7 @@ Em briga de marido e mulher, ninguém mete a colher!
 
 <details class="resposta-escondida">
 
-<summary>Gabarito</summary>
+<summary>...</summary>
 
 Podemos dizer que o dito “Em briga de marido e mulher, ninguém mete a colher!” apresenta uma linguagem vaga porque os termos “briga”, “marido e mulher” e “meter a colher” são ambíguos, subjetivos e culturalmente condicionados.
 
@@ -306,7 +357,7 @@ O enunciado generaliza alguma ideia?
 
 <details class="resposta-escondida">
 
-<summary>Gabarito</summary>
+<summary>...</summary>
 
 **1. O enunciado generaliza alguma ideia?**
 
@@ -327,9 +378,9 @@ Sim. A frase reforça a valorização idealizada da maternidade, um pilar do sen
 <br/>
 
 ::: destaque
-O **senso crítico** é o oposto do senso comum, já que envolve análise, comparação, verificação de evidências e compromisso com a racionalidade e o método.
+O **conhecimento científico** se distingue do senso comum porque se baseia em investigação sistemática, linguagem precisa e avaliação crítica de evidências.
 
-O ponto de vista científico se constrói em torno do senso crítico, do pensamento científico e, consequentemente, da linguagem científica.
+O ponto de vista científico se constrói em torno do senso crítico, do pensamento científico e, consequentemente, da linguagem conceitualmente precisa.
 
 **Exemplo de linguagem precisa**
 
@@ -366,8 +417,25 @@ O conhecimento do senso comum não proporciona uma visão global e unitária da 
 Apesar da grande utilidade que apresenta na *solução dos problemas diários* ligados à sobrevivência humana, ele mantém o homem como *espectador demasiadamente passivo da realidade*, com um baixo poder de interferência e controle dos fenômenos. (Kochë, 2016, p. 28 - destaques meus)
 :::
 
+::: destaque
+A distinção entre conhecimento do senso comum e conhecimento científico se refere ao modo como o conhecimento é produzido e validado. A tabela abaixo sintetiza algumas dessas diferenças.
+
+| Critério | Conhecimento do senso comum | Conhecimento científico |
+|----|----|----|
+| Origem | Surge espontaneamente a partir da experiência cotidiana e da tradição cultural. | Surge de investigação sistemática orientada por problemas de pesquisa. |
+| Finalidade | Resolver problemas imediatos da vida prática. | Explicar fenômenos e produzir conhecimento confiável e generalizável. |
+| Método | Não segue procedimentos sistemáticos de investigação. | Utiliza métodos sistemáticos de observação, formulação de hipóteses e teste empírico. |
+| Linguagem | Linguagem vaga, metafórica ou imprecisa. | Linguagem conceitualmente delimitada e tecnicamente precisa. |
+| Verificação | Baseado em crenças, tradição ou experiências individuais. | Baseado em evidências empíricas verificáveis e replicáveis. |
+| Organização do conhecimento | Fragmentado e voltado a situações específicas. | Busca explicações mais gerais e coerentes entre diferentes fenômenos. |
+| Poder crítico | Baixa disposição para questionar crenças estabelecidas. | Envolve análise crítica, revisão e possibilidade de refutação. |
+| Controle experimental | Não permite controle rigoroso das variáveis. | Procura controlar variáveis e testar hipóteses de forma sistemática. |
+
+: Comparação entre conhecimento do senso comum e conhecimento científico
+:::
+
 ::: proxima-aula
 [Para a próxima aula:]{.proxima-aula-title}
 
--   **Leia** o texto **Afinal, o que é Ciência?** (p. 9-12), capítulo do livro *Afinal o que é ciência?... e o que não é*, de André Demambre Bacchi. Disponível na Minha Biblioteca.
+-   **Leia** os textos **Afinal, o que é Ciência?** (p. 7), **Um pouco de História e Filosofia da Ciência** (p. 8-14) e **Racionalidade científica: saindo do piloto automático** (p. 15-16), capítulos do livro *Afinal o que é ciência?... e o que não é*, de André Demambre Bacchi. Disponível na Minha Biblioteca.
 :::
