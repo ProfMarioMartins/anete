@@ -12,7 +12,7 @@ Desde os tempos mais remotos, os seres humanos buscam **compreender os fenômeno
 
 Ao final deste encontro e com base na leitura indicada, espera-se que você seja capaz de:
 
--   *Compreender o que é o pensamento científico e por que ele se diferencia de outros modos de produzir conhecimento sobre a realidade.*
+-   *Distinguir explicações baseadas em evidências científicas de afirmações baseadas em senso comum, analisando exemplos de linguagem vaga, promessas absolutas e ausência de dados empíricos.*
 
 ::: leitura
 Leitura indicada:
@@ -34,6 +34,74 @@ Ciência se refere a um grande empreendimento coletivo da Humanidade, que **orga
 Esses conhecimentos são obtidos, confrontados e atualizados por meio de um método próprio (…) transparente e apoiado em um **ceticismo organizado**, que nos ajuda a reduzir as incertezas que temos sobre o mundo que nos cerca. (Bachi, 2024 - ebook - destaques meus).
 :::
 
+::: enfase
+O **pensamento científico** se aplica sempre que buscamos tomar decisões baseadas em evidências (e não nos costumes ou na intuição). Ele se manifesta quando:
+
+-   Questionamos informações antes de aceitá-las como verdadeiras  
+    -   *Como avaliar se um vídeo na internet que promete curar dores nas articulações com uma receita caseira é confiável?*
+    
+-   Buscamos explicações fundamentadas e verificáveis sobre os fenômenos do mundo  
+    -   *Como investigar por que a conta de água da sua casa aumentou muito em comparação com os meses anteriores?*
+
+-   Analisamos causas e efeitos com base em dados, não em suposições  
+    -   *Como verificar se o aumento no tempo de uso do celular está afetando a qualidade do sono?*
+
+-   Testamos hipóteses e aprendemos com os erros  
+    -   *Se uma planta da casa está murchando, como testar se o problema é falta de água, excesso de sol ou qualidade do solo?*
+
+-   Rejeitamos conclusões apressadas e consideramos a complexidade dos contextos  
+    -   *Como avaliar a afirmação de que “os jovens de hoje não gostam de ler” sem se basear apenas em experiências pessoais?*
+:::
+
+<br/>
+
+## Aprendizagem prática
+
+::: subtitulo-nao-numerado
+Reflexão
+:::
+
+::: subsubtitulo-nao-numerado
+Como aplicar o pensamento científico?
+:::
+
+Estabeleça a correspondência entre cada forma de pensar cientificamente e sua aplicação prática no processo de escolha de uma dieta.
+
+::: destaque
+| 🔬 Formas de pensar | 🧩 Aplicações práticas |
+|------------------------------------|------------------------------------|
+| **A) Formular hipóteses testáveis** | **1)** Analisar estudos clínicos publicados em revistas científicas sobre os efeitos de diferentes dietas. |
+| **B) Buscar evidências confiáveis** | **2)** Observar se, após um mês seguindo a dieta, houve melhora nos exames e no bem-estar geral. |
+| **C) Considerar variáveis contextuais** | **3)** Verificar se a dieta escolhida se adequa à rotina pessoal, às condições de saúde e ao orçamento familiar. |
+| **D) Evitar generalizações apressadas** | **4)** Refletir se a dieta que funcionou para um amigo realmente é apropriada para você. |
+| **E) Consultar profissionais especializados** | **5)** Levantar a dúvida: “Será que a dieta X reduz mais gordura abdominal do que a dieta Y?” |
+| **F) Acompanhar resultados e reavaliar** | **6)** Marcar uma consulta com um nutricionista antes de iniciar qualquer dieta. |
+:::
+
+<!-- Aqui começa o campo de respostas-->
+
+<details class="resposta-escondida">
+
+<summary>...</summary>
+
+A - 5
+
+B - 1
+
+C - 3
+
+D - 4
+
+E - 6
+
+F - 2
+
+</details>
+
+<!-- Aqui encerra o campo de respostas-->
+
+<br/>
+
 ## Aprendizagem prática
 
 ::: subtitulo-nao-numerado
@@ -46,7 +114,7 @@ Produção de texto
 
 Você já se deparou com vídeos ou manchetes que prometem curas milagrosas ou soluções rápidas para problemas complexos? Nesta atividade, vamos exercitar nossa capacidade de pensar cientificamente.
 
-Responda por escrito à seguinte pergunta: *receita apresentada no vídeo a seguir pode ser considerada uma recomendação científica*? Justifique sua resposta com base nos critérios que diferenciam o senso comum do pensamento científico. Rascunhe a resposta em papel, à mão, e somente depois transcreva-o no [Painel de respostas](complemento_portifolio.qmd). No Painel de respostas, selecione a tarefa: **Ceticismo organizado**.
+Responda por escrito à seguinte pergunta: *A receita apresentada no vídeo pode ser considerada uma recomendação científica? Quais critérios científicos permitem justificar sua resposta?* Justifique sua resposta com base nos critérios que diferenciam o senso comum do pensamento científico. Rascunhe a resposta em papel, à mão, e somente depois transcreva-a no [Painel de respostas](complemento_painel.qmd). No Painel de respostas, selecione a tarefa: **Ceticismo organizado**.
 
 ```{=html}
 <div style="display: flex; justify-content: center; margin-top: 1rem; margin-bottom: 1rem;">
@@ -132,9 +200,11 @@ Desafio
 Vamos estimular nosso pensamento científico?
 :::
 
-Pensar cientificamente e desenvolver o senso crítico não dependem apenas de acesso a informações, mas sobretudo da capacidade de organizar o pensamento, identificar padrões, levantar hipóteses, interpretar dados e tomar decisões fundamentadas. Isso é um pensamento científico.
+Desenvolver o pensamento científico e o senso crítico não depende apenas do acesso a informações, mas sobretudo da capacidade de organizar o pensamento, identificar padrões, formular hipóteses, interpretar dados e avaliar explicações possíveis para um problema. Essas são habilidades fundamentais para a produção de conhecimento científico.
 
-As habilidades que envolvem atenção, memória, análise, síntese e inferência são essenciais tanto para resolver problemas do cotidiano quanto para compreender e produzir argumentos bem estruturados.
+Um dos caminhos para exercitar essas competências é o **pensamento analítico**. Ele consiste na capacidade de observar informações, reconhecer regularidades, testar possibilidades e tirar conclusões a partir de evidências ou regras identificadas.
+
+Embora o exercício a seguir não seja um problema científico no sentido estrito, ele mobiliza **habilidades cognitivas** que também estão na base da investigação científica, como atenção, memória, análise, síntese e inferência. Essas habilidades são essenciais tanto para resolver problemas do cotidiano quanto para compreender e produzir argumentos bem fundamentados.
 
 Para exercitá-las, segue um desafio que exigirá de você concentração, raciocínio lógico e uma boa dose de curiosidade. Em duplas, resolvam a questão abaixo:
 
@@ -154,57 +224,106 @@ e)  spinorb
 
 <details class="resposta-escondida">
 
-<summary>Gabarito</summary>
+<summary>...</summary>
 
-Resposta: (d)
+**Resposta correta: (d)**
 
-Podemos notar que os nomes dos híbridos são formados pela combinação dos nomes dos dois Pokémon que os originaram. Por exemplo, na primeira linha temos:
+## 1. Descobrindo o padrão
 
-```         
-•   shugon: formado por shu- de shuppet e -gon de bagon.
-•   spinpip: formado por spin- de spinarak e -pip de hoppip.
-•   kraborb: formado por krab- de krabby e -orb de voltorb.
-•   elekpy: formado por elek- de elekid e -py de phanpy.
+Os nomes dos híbridos são formados **combinando o início de um nome com o final de outro**.
+
+Exemplos:
+
+```
+shuppet  +  bagon
+  shu-       -gon
+     ↓         ↓
+        shugon
+
+
+spinarak + hoppip
+  spin-      -pip
+     ↓        ↓
+       spinpip
+
+
+krabby  +  voltorb
+ krab-     -orb
+    ↓        ↓
+      kraborb
+
+
+elekid  +  phanpy
+ elek-      -py
+    ↓        ↓
+       elekpy
 ```
 
-A princípio, podemos pensar que o nome é sempre formado pela primeira parte de um Pokémon com a última parte de outro. No entanto, isso não se aplica a kraborb (a última parte de voltorb deveria ser -torb, e não -orb). Portanto, a regra é mais simples: combinar o início de um nome com o final de outro.
+A regra é:
 
-Na segunda linha, temos:
+> **início de um nome + final de outro nome**
 
-```         
-•   spingon: formado por spin- de spinpip e -gon de shugon.
-•   kreky: formado por kr- de kraborb e -ky de elekpy.
+---
+
+## 2. Testando a regra na linha seguinte
+
+```
+spinpip + shugon → spingon ✔
+kraborb + elekpy → kreky ✖
 ```
 
-No caso de spingon, as partes dos nomes são as mesmas usadas anteriormente. Como spinpip é a junção de spin- com -pip, spingon usa spin- de spinarak, mantendo o padrão. Porém, kreky quebra o padrão, pois não usou o final completo de elekpy (faltou o ‘p’) e nem a parte inicial correta de kraborb (deveria ser krab-). Assim, kreky é o primeiro nome fora do padrão.
+- **spingon** segue o padrão.
+- **kreky** não segue: ele não usa corretamente **krab-** nem **-py**.
 
-Depois temos:
+Assim, **kreky é o primeiro nome fora do padrão**.
 
-```         
-•   krinky: formado por kr- de kreky e -gon de spingon.
+---
+
+## 3. O próximo híbrido
+
+```
+kreky + spingon → krinky
 ```
 
-Esse nome também foge ao padrão, pois mistura as partes do meio (-in-) de um nome com o início e o fim de outro. Portanto, krinky é o segundo Pokémon fora do padrão.
+Como **kreky já está errado**, **krinky também não segue o padrão**.
 
-Agora que identificamos os dois nomes fora do padrão, podemos descobrir como seriam se seguissem a regra. A fusão de kraborb e elekpy deveria usar a parte inicial de um com a parte final do outro, respeitando as partes originais. Então, podemos ter:
+Portanto:
 
-```         
-•   kraborb + elekpy = krabpy ou
-•   kraborb + elekpy = elekorb.
+- 1º fora do padrão → **kreky**
+- 2º fora do padrão → **krinky**
+
+---
+
+## 4. Como deveriam ser os nomes corretos
+
+Se **kraborb** e **elekpy** fossem combinados corretamente:
+
+```
+kraborb + elekpy
+   ↓         ↓
+krabpy   ou   elekorb
 ```
 
-Por fim, o nome do último Pokémon será a fusão de spingon com krabpy ou elekorb, utilizando o mesmo princípio de combinar partes iniciais e finais. As possíveis combinações são:
+---
 
-```         
-•   spingon + krabpy = spinpy ou krabgon;
-•   spingon + elekorb = spinorb ou elekgon.
+## 5. Última fusão possível
+
+Agora combinamos **spingon** com esses nomes:
+
+```
+spingon + krabpy → spinpy ou krabgon
+spingon + elekorb → spinorb ou elekgon
 ```
 
-Esses quatro nomes aparecem nas alternativas. O único que não seria possível é spinky, pois ele depende de kreky, que já está fora do padrão.
+Esses quatro nomes aparecem nas alternativas.
 
-Um ponto interessante é que, ao seguir esse padrão de combinações, as informações sobre os Pokémon originais podem se perder. Por exemplo, o nome krabgon poderia parecer uma fusão de krabby e bagon, mas na verdade é o resultado de várias fusões anteriores.
+---
 
-Por fim, o nome do problema, Poképu, é a junção de Pokémon e Khipu.
+## 6. Identificando o impossível
+
+A alternativa **spinky** depende do nome **kreky**, que já vimos estar fora do padrão.
+
+Portanto, **spinky não pode existir**.
 
 </details>
 
@@ -213,7 +332,11 @@ Por fim, o nome do problema, Poképu, é a junção de Pokémon e Khipu.
 ::: proxima-aula
 [Para a próxima aula:]{.proxima-aula-title}
 
--   **Leia** o texto **Racionalidade científica: saindo do piloto automático** (p. 31-35), capítulo do livro *Afinal o que é ciência?... e o que não é*, de André Demambre Bacchi. Disponível na Minha Biblioteca.
+-   **Leia** o texto **Pensamento crítico** (p. 3-9), capítulo do livro *Pensamento crítico: o poder da lógica e da argumentação*, de Walter Carnielli e Richard Epstein. Disponível na Biblioteca Virtual.
+:::
 
--   **Leia** também **Observe, test, reflect: A better life with the scientific method**, artigo de Santiago Gisler publicado pela *Ivory Embassy*. Disponível em: https://ivoryembassy.com/the-scientific-method/.
+::: destaque
+_Sugestão de leitura_
+
+-   **Observe, test, reflect: A better life with the scientific method**, artigo de Santiago Gisler publicado pela *Ivory Embassy*. Disponível em: https://ivoryembassy.com/the-scientific-method/.
 :::
