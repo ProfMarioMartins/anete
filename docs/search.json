@@ -257,73 +257,7 @@
     "href": "Aula_3.html#aprendizagem-prática-2",
     "title": "4  O que é ciência?",
     "section": "4.6 Aprendizagem prática",
-    "text": "4.6 Aprendizagem prática\n\nDesafio\n\n\nVamos estimular nosso pensamento científico?\n\nDesenvolver o pensamento científico e o senso crítico não depende apenas do acesso a informações, mas sobretudo da capacidade de organizar o pensamento, identificar padrões, formular hipóteses, interpretar dados e avaliar explicações possíveis para um problema. Essas são habilidades fundamentais para a produção de conhecimento científico.\nUm dos caminhos para exercitar essas competências é o pensamento analítico. Ele consiste na capacidade de observar informações, reconhecer regularidades, testar possibilidades e tirar conclusões a partir de evidências ou regras identificadas.\nEmbora o exercício a seguir não seja um problema científico no sentido estrito, ele mobiliza habilidades cognitivas que também estão na base da investigação científica, como atenção, memória, análise, síntese e inferência. Essas habilidades são essenciais tanto para resolver problemas do cotidiano quanto para compreender e produzir argumentos bem fundamentados.\nPara exercitá-las, segue um desafio que exigirá de você concentração, raciocínio lógico e uma boa dose de curiosidade. Em duplas, resolvam a questão abaixo:\n\n\nNesta árvore, os nomes dos personagens híbridos são formados a partir de um padrão geral, com exceção de apenas dois. Se os nomes de todos os Pokémon fossem formados seguindo o padrão geral, qual não poderia ser um nome possível para o último Pokémon da árvore (o mais de baixo)?\n\nkrabgon\nelekgon\nspinpy\nspinky\nspinorb\n\n\n\n\n…\n\nResposta correta: (d)",
-    "crumbs": [
-      "Unidade I",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>O que é ciência?</span>"
-    ]
-  },
-  {
-    "objectID": "Aula_3.html#descobrindo-o-padrão",
-    "href": "Aula_3.html#descobrindo-o-padrão",
-    "title": "4  O que é ciência?",
-    "section": "4.7 1. Descobrindo o padrão",
-    "text": "4.7 1. Descobrindo o padrão\nOs nomes dos híbridos são formados combinando o início de um nome com o final de outro.\nExemplos:\nshuppet  +  bagon\n  shu-       -gon\n     ↓         ↓\n        shugon\n\n\nspinarak + hoppip\n  spin-      -pip\n     ↓        ↓\n       spinpip\n\n\nkrabby  +  voltorb\n krab-     -orb\n    ↓        ↓\n      kraborb\n\n\nelekid  +  phanpy\n elek-      -py\n    ↓        ↓\n       elekpy\nA regra é:\n\ninício de um nome + final de outro nome",
-    "crumbs": [
-      "Unidade I",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>O que é ciência?</span>"
-    ]
-  },
-  {
-    "objectID": "Aula_3.html#testando-a-regra-na-linha-seguinte",
-    "href": "Aula_3.html#testando-a-regra-na-linha-seguinte",
-    "title": "4  O que é ciência?",
-    "section": "4.8 2. Testando a regra na linha seguinte",
-    "text": "4.8 2. Testando a regra na linha seguinte\nspinpip + shugon → spingon ✔\nkraborb + elekpy → kreky ✖\n\nspingon segue o padrão.\nkreky não segue: ele não usa corretamente krab- nem -py.\n\nAssim, kreky é o primeiro nome fora do padrão.",
-    "crumbs": [
-      "Unidade I",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>O que é ciência?</span>"
-    ]
-  },
-  {
-    "objectID": "Aula_3.html#o-próximo-híbrido",
-    "href": "Aula_3.html#o-próximo-híbrido",
-    "title": "4  O que é ciência?",
-    "section": "4.9 3. O próximo híbrido",
-    "text": "4.9 3. O próximo híbrido\nkreky + spingon → krinky\nComo kreky já está errado, krinky também não segue o padrão.\nPortanto:\n\n1º fora do padrão → kreky\n2º fora do padrão → krinky",
-    "crumbs": [
-      "Unidade I",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>O que é ciência?</span>"
-    ]
-  },
-  {
-    "objectID": "Aula_3.html#como-deveriam-ser-os-nomes-corretos",
-    "href": "Aula_3.html#como-deveriam-ser-os-nomes-corretos",
-    "title": "4  O que é ciência?",
-    "section": "4.10 4. Como deveriam ser os nomes corretos",
-    "text": "4.10 4. Como deveriam ser os nomes corretos\nSe kraborb e elekpy fossem combinados corretamente:\nkraborb + elekpy\n   ↓         ↓\nkrabpy   ou   elekorb",
-    "crumbs": [
-      "Unidade I",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>O que é ciência?</span>"
-    ]
-  },
-  {
-    "objectID": "Aula_3.html#última-fusão-possível",
-    "href": "Aula_3.html#última-fusão-possível",
-    "title": "4  O que é ciência?",
-    "section": "4.11 5. Última fusão possível",
-    "text": "4.11 5. Última fusão possível\nAgora combinamos spingon com esses nomes:\nspingon + krabpy → spinpy ou krabgon\nspingon + elekorb → spinorb ou elekgon\nEsses quatro nomes aparecem nas alternativas.",
-    "crumbs": [
-      "Unidade I",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>O que é ciência?</span>"
-    ]
-  },
-  {
-    "objectID": "Aula_3.html#identificando-o-impossível",
-    "href": "Aula_3.html#identificando-o-impossível",
-    "title": "4  O que é ciência?",
-    "section": "4.12 6. Identificando o impossível",
-    "text": "4.12 6. Identificando o impossível\nA alternativa spinky depende do nome kreky, que já vimos estar fora do padrão.\nPortanto, spinky não pode existir.\n\n\n\nPara a próxima aula:\n\nLeia o texto Pensamento crítico (p. 3-9), capítulo do livro Pensamento crítico: o poder da lógica e da argumentação, de Walter Carnielli e Richard Epstein. Disponível na Biblioteca Virtual.\n\n\n\nSugestão de leitura\n\nObserve, test, reflect: A better life with the scientific method, artigo de Santiago Gisler publicado pela Ivory Embassy. Disponível em: https://ivoryembassy.com/the-scientific-method/.",
+    "text": "4.6 Aprendizagem prática\n\nDesafio\n\n\nVamos estimular nosso pensamento científico?\n\nDesenvolver o pensamento científico e o senso crítico não depende apenas do acesso a informações, mas sobretudo da capacidade de organizar o pensamento, identificar padrões, formular hipóteses, interpretar dados e avaliar explicações possíveis para um problema. Essas são habilidades fundamentais para a produção de conhecimento científico.\nUm dos caminhos para exercitar essas competências é o pensamento analítico. Ele consiste na capacidade de observar informações, reconhecer regularidades, testar possibilidades e tirar conclusões a partir de evidências ou regras identificadas.\nEmbora o exercício a seguir não seja um problema científico no sentido estrito, ele mobiliza habilidades cognitivas que também estão na base da investigação científica, como atenção, memória, análise, síntese e inferência. Essas habilidades são essenciais tanto para resolver problemas do cotidiano quanto para compreender e produzir argumentos bem fundamentados.\nPara exercitá-las, segue um desafio que exigirá de você concentração, raciocínio lógico e uma boa dose de curiosidade. Em duplas, resolvam a questão abaixo:\n\n\nNesta árvore, os nomes dos personagens híbridos são formados a partir de um padrão geral, com exceção de apenas dois. Se os nomes de todos os Pokémon fossem formados seguindo o padrão geral, qual não poderia ser um nome possível para o último Pokémon da árvore (o mais de baixo)?\n\nkrabgon\nelekgon\nspinpy\nspinky\nspinorb\n\n\n\n\n…\n\nResposta correta: (d)\nDescobrindo o padrão\nOs nomes dos híbridos são formados combinando o início de um nome com o final de outro.\nExemplos:\nshuppet + bagon shu- -gon ↓ ↓ shugon\nspinarak + hoppip spin- -pip ↓ ↓ spinpip\nkrabby + voltorb krab- -orb ↓ ↓ kraborb\nelekid + phanpy elek- -py ↓ ↓ elekpy\nA regra é:\n\ninício de um nome + final de outro nome\n\nTestando a regra na linha seguinte\nspinpip + shugon → spingon ✔ kraborb + elekpy → kreky ✖\n\nspingon segue o padrão.\nkreky não segue: ele não usa corretamente krab- nem -py.\n\nAssim, kreky é o primeiro nome fora do padrão.\n\nO próximo híbrido\n\nkreky + spingon → krinky\nComo kreky já está errado, krinky também não segue o padrão.\nPortanto:\n\n1º fora do padrão → kreky\n2º fora do padrão → krinky\n\n\nComo deveriam ser os nomes corretos\n\nSe kraborb e elekpy fossem combinados corretamente:\nkraborb + elekpy ↓ ↓ krabpy ou elekorb\n\nÚltima fusão possível\n\nAgora combinamos spingon com esses nomes:\nspingon + krabpy → spinpy ou krabgon spingon + elekorb → spinorb ou elekgon\nEsses quatro nomes aparecem nas alternativas.\n\nIdentificando o impossível\n\nA alternativa spinky depende do nome kreky, que já vimos estar fora do padrão.\nPortanto, spinky não pode existir.\n\n\n\nPara a próxima aula:\n\nLeia o texto Pensamento crítico (p. 3-9), capítulo do livro Pensamento crítico: o poder da lógica e da argumentação, de Walter Carnielli e Richard Epstein. Disponível na Biblioteca Virtual.\n\n\n\nSugestão de leitura\n\nObserve, test, reflect: A better life with the scientific method, artigo de Santiago Gisler publicado pela Ivory Embassy. Disponível em: https://ivoryembassy.com/the-scientific-method/.",
     "crumbs": [
       "Unidade I",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>O que é ciência?</span>"

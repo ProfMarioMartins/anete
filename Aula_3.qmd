@@ -228,13 +228,12 @@ e)  spinorb
 
 **Resposta correta: (d)**
 
-## 1. Descobrindo o padrão
+Descobrindo o padrão
 
 Os nomes dos híbridos são formados **combinando o início de um nome com o final de outro**.
 
 Exemplos:
 
-```
 shuppet  +  bagon
   shu-       -gon
      ↓         ↓
@@ -257,33 +256,24 @@ elekid  +  phanpy
  elek-      -py
     ↓        ↓
        elekpy
-```
 
 A regra é:
 
 > **início de um nome + final de outro nome**
 
----
+Testando a regra na linha seguinte
 
-## 2. Testando a regra na linha seguinte
-
-```
 spinpip + shugon → spingon ✔
 kraborb + elekpy → kreky ✖
-```
 
 - **spingon** segue o padrão.
 - **kreky** não segue: ele não usa corretamente **krab-** nem **-py**.
 
 Assim, **kreky é o primeiro nome fora do padrão**.
 
----
+3. O próximo híbrido
 
-## 3. O próximo híbrido
-
-```
 kreky + spingon → krinky
-```
 
 Como **kreky já está errado**, **krinky também não segue o padrão**.
 
@@ -292,34 +282,24 @@ Portanto:
 - 1º fora do padrão → **kreky**
 - 2º fora do padrão → **krinky**
 
----
-
-## 4. Como deveriam ser os nomes corretos
+4. Como deveriam ser os nomes corretos
 
 Se **kraborb** e **elekpy** fossem combinados corretamente:
 
-```
 kraborb + elekpy
    ↓         ↓
 krabpy   ou   elekorb
-```
 
----
-
-## 5. Última fusão possível
+5. Última fusão possível
 
 Agora combinamos **spingon** com esses nomes:
 
-```
 spingon + krabpy → spinpy ou krabgon
 spingon + elekorb → spinorb ou elekgon
-```
 
 Esses quatro nomes aparecem nas alternativas.
 
----
-
-## 6. Identificando o impossível
+6. Identificando o impossível
 
 A alternativa **spinky** depende do nome **kreky**, que já vimos estar fora do padrão.
 
