@@ -1,0 +1,514 @@
+---
+title: "O que é um argumento?"
+---
+
+::: nota-secundaria
+Roteiro de aula elaborado no RStudio com o auxílio da inteligência artificial ChatGPT e supervisionado pelo professor antes de sua publicação.
+:::
+
+<!--
+## Contextualização
+
+Ao final deste encontro e com base na leitura indicada, espera-se que você seja capaz de:
+
+-   *Desenvolver a capacidade de identificar, analisar e avaliar asserções e argumentos em contextos científicos, distinguindo premissas, conclusões, informações de suporte e relações entre evidências.*
+
+-->
+
+::: leitura
+Leitura indicada:
+
+**Pensamento crítico** (p. 3-9), capítulo do livro *Pensamento crítico: o poder da lógica e da argumentação*, de Walter Carnielli e Richard Epstein. Disponível na Biblioteca Virtual.
+:::
+
+## Leitura em foco
+
+Para avaliar ideias, primeiro precisamos identificar quais frases **podem ser avaliadas como verdadeiras ou falsas**.
+
+::: citacao
+**Asserção**: Uma asserção é uma frase declarativa que pode ser encarada como verdadeira ou falsa (...). (Carnielli; Epstein, 2023, p. 4, destaque dos autores)
+:::
+
+As **asserções** (ou **afirmações**) são essenciais para a prática científica porque podem ser avaliadas quanto à sua verdade, seja por meio de observação, evidência ou raciocínio lógico.
+
+::: destaque
+Uma **afirmação** deve possuir um valor de verdade, mesmo que não saibamos no momento qual ele seja. Para identificar se uma asserção tem valor de verdade, pergunte-se:
+
+- **Posso observar ou medir?**  
+  *Exemplo:* “A pressão arterial aumenta durante exercícios intensos.”  
+  → Pode ser testada com instrumentos e coleta de dados.
+
+- **Posso consultar uma fonte confiável?**  
+  *Exemplo:* “O DNA tem estrutura em dupla hélice.”  
+  → Pode ser verificada em livros didáticos e artigos científicos consolidados.
+
+- **É logicamente coerente?**  
+  *Exemplo:* “Se todos os mamíferos são vertebrados e as baleias são mamíferos, então as baleias são vertebrados.”  
+  → A conclusão decorre logicamente das premissas.
+
+- **Há contraexemplos?**  
+  *Exemplo:* “Todos os metais são sólidos à temperatura ambiente.”  
+  → Falso: o mercúrio é líquido, funcionando como contraexemplo.
+
+👉 Se a frase pode ser analisada por esses critérios, trata-se de uma asserção.
+:::
+
+<br/>
+
+## Aprendizagem prática
+
+::: subtitulo-nao-numerado
+Reflexão
+:::
+
+::: subsubtitulo-nao-numerado
+O que pode ser verdadeiro ou falso?
+:::
+
+Leia as frases abaixo e marque aquelas que **podem ser avaliadas como verdadeiras ou falsas**.
+
+```{=html}
+<div style="max-width: 820px; margin: 1.5rem auto; padding: 1.2rem; border: 1px solid #d9e2f2; border-radius: 10px; background: #f8fbff;">
+
+  <p><strong>Instrução:</strong> marque as frases que <u>podem ser avaliadas como verdadeiras ou falsas</u>.</p>
+  <p style="font-size: 14px;"><em>Dica: a frase descreve algo sobre o mundo ou realiza uma ação?</em></p>
+
+  <form id="atividade-assercoes">
+
+<div><label><input type="checkbox" value="1"> 1. Que bom te ver aqui!</label></div>
+<div><label><input type="checkbox" value="2"> 2. A água entra em ebulição a 100 °C ao nível do mar.</label></div>
+<div><label><input type="checkbox" value="3"> 3. Gostaria de entender melhor esse conteúdo.</label></div>
+<div><label><input type="checkbox" value="4"> 4. A Terra gira em torno do Sol.</label></div>
+<div><label><input type="checkbox" value="5"> 5. Prometo entregar a atividade hoje.</label></div>
+<div><label><input type="checkbox" value="6"> 6. O português é uma língua falada em vários países.</label></div>
+<div><label><input type="checkbox" value="7"> 7. Apague a luz ao sair.</label></div>
+<div><label><input type="checkbox" value="8"> 8. O gelo derrete quando a temperatura aumenta.</label></div>
+<div><label><input type="checkbox" value="9"> 9. Você pode repetir a explicação?</label></div>
+<div><label><input type="checkbox" value="10"> 10. Dois mais dois é igual a quatro.</label></div>
+
+    <button type="button" onclick="corrigirAssercoes()" style="margin-top: 1rem; padding: 10px 18px; border: none; border-radius: 8px; background: #243E6A; color: white; font-weight: 600; cursor: pointer;">
+      Ver resultado
+    </button>
+  </form>
+
+  <div id="resultado-assercoes" style="margin-top: 1.2rem; padding: 1rem; border-radius: 8px; background: #ffffff; border: 1px solid #e1e8f5; display:none;"></div>
+</div>
+
+<script>
+function corrigirAssercoes() {
+
+  const corretas = ["2", "4", "6", "8", "10"];
+
+  const marcadas = Array.from(document.querySelectorAll('#atividade-assercoes input:checked'))
+    .map(el => el.value);
+
+  let acertos = corretas.filter(c => marcadas.includes(c)).length;
+
+  const resultado = document.getElementById("resultado-assercoes");
+  resultado.style.display = "block";
+
+  resultado.innerHTML = `
+    <p><strong>Resultado:</strong> você acertou <strong>${acertos}</strong> de ${corretas.length}.</p>
+
+    <p><strong>Gabarito:</strong> 2, 4, 6, 8 e 10.</p>
+
+    <p><strong>Interpretação:</strong></p>
+    <ul>
+      <li>As frases corretas são <strong>asserções</strong>, pois descrevem algo que pode ser verdadeiro ou falso.</li>
+      <li>As demais não são asserções, pois realizam atos de linguagem:
+        <ul>
+          <li><strong>exclamação:</strong> 1</li>
+          <li><strong>desejo:</strong> 3</li>
+          <li><strong>promessa:</strong> 5</li>
+          <li><strong>ordem:</strong> 7</li>
+          <li><strong>pergunta:</strong> 9</li>
+        </ul>
+      </li>
+    </ul>
+  `;
+}
+</script>
+```
+
+<br/>
+
+::: destaque
+Como os conceitos se conectam?
+
+1. **Asserções** são frases que podem ser verdadeiras ou falsas.  
+2. Quando usamos asserções para sustentar outra, formamos um **argumento**.  
+3. Em um argumento:
+   - as **premissas** são as razões apresentadas  
+   - a **conclusão** é o que se pretende defender  
+
+🔥 Atenção:
+**Todo argumento é formado por asserções, mas nem toda asserção faz parte de um argumento.**
+:::
+
+<br/>
+
+## Leitura em foco
+
+Na ciência, não basta apresentar asserções isoladas — é preciso justificá-las.
+
+👉 Quando usamos uma ou mais asserções para sustentar outra, formamos um **argumento**.
+
+::: citacao
+**Argumento**: Um argumento é uma coleção de afirmações, uma das quais se chama “conclusão” e cuja verdade procura-se estabelecer; as outras afirmações chamam-se “premissas”, e estas afirmações pretendem conduzir à conclusão (ou apoiá-la, ou persuadir-nos da sua verdade). (Carnielli; Epstein, 2023, p. 6, destaque dos autores)
+:::
+
+Em um argumento, nem todas as asserções têm a mesma função:
+- algumas apresentam razões → premissas
+- uma apresenta o que se quer defender → conclusão
+
+::: enfase
+No contexto do pensamento crítico, apenas **asserções** podem funcionar como premissas e conclusões, pois são as únicas que podem ser avaliadas como verdadeiras ou falsas.
+:::
+
+::: citacao
+O objetivo de um argumento é persuadir-nos da verdade de uma afirmação – a conclusão. À conclusão chama-se às vezes “o objetivo do argumento” ou a questão em discussão. (Carnielli; Epstein, 2023, p. 6)
+:::
+
+::: citacao
+**Pensamento crítico** é o que nos habilita a determinar se nos devemos deixar persuadir que uma afirmação é verdadeira ou que estamos perante um bom argumento; é o que nos capacita também em saber formular bons argumentos. (Carnielli; Epstein, 2023, p. 7, destaque dos autores)
+:::
+
+Na prática científica, o conhecimento não é aceito com base em autoridade ou opinião, mas em asserções sustentadas por argumentos e evidências. Nesse sentido, o pensamento crítico permite ao pesquisador:
+
+- examinar se uma afirmação é verdadeira ou plausível, com base em dados e métodos;
+	- avaliar a consistência e a força dos argumentos, distinguindo justificativas adequadas de falhas argumentativas;
+	- formular argumentos rigorosos, capazes de sustentar conclusões de modo racional e verificável.
+
+
+<br/>
+
+Veja agora alguns exemplos de argumentos.
+
+::: destaque
+```{=html}
+<div style="max-width: 820px; margin: 2rem auto; text-align: center;">
+
+  <p style="font-size:16px;">
+Leia o texto e identifique:
+<br><b>→ o que está sendo defendido (conclusão)</b><br>
+<b>→ quais razões sustentam isso (premissas)</b>
+</p>
+
+  <div id="carousel" style="position: relative; padding: 20px; border: 1px solid #d9e2f2; border-radius: 10px; background: #f8fbff; min-height: 300px;">
+
+    <!-- SLIDE 1 -->
+    <div class="slide">
+      <h4>Exemplo 1</h4>
+      <p><em>Estou dizendo que não tenho culpa. O carro bateu por trás. Quem bate por trás tem a culpa.</em></p>
+
+      <button onclick="mostrarResposta(0)" style="margin-top:10px; padding:8px 14px; border:none; background:#375D81; color:white; border-radius:6px; cursor:pointer;">
+        Mostrar análise
+      </button>
+
+      <div class="resposta" style="display:none; margin-top:12px;">
+        <p><strong>Premissas:</strong> bateu por trás; quem bate por trás tem culpa</p>
+        <p><strong>Conclusão:</strong> não tenho culpa</p>
+      </div>
+    </div>
+
+    <!-- SLIDE 2 -->
+    <div class="slide" style="display:none;">
+      <h4>Exemplo 2</h4>
+      <p><em>A justiça é a lei do mais forte. Quem detém o poder define o que é justiça.</em></p>
+
+      <button onclick="mostrarResposta(1)" style="margin-top:10px; padding:8px 14px; border:none; background:#375D81; color:white; border-radius:6px; cursor:pointer;">
+        Mostrar análise
+      </button>
+
+      <div class="resposta" style="display:none; margin-top:12px;">
+        <p><strong>Premissa:</strong> quem detém o poder define a justiça</p>
+        <p><strong>Conclusão:</strong> a justiça é a lei do mais forte</p>
+      </div>
+    </div>
+
+    <!-- SLIDE 3 -->
+    <div class="slide" style="display:none;">
+      <h4>Exemplo 3</h4>
+      <p><em>O paciente está morrendo. Ele está tendo uma parada cardíaca.</em></p>
+
+      <button onclick="mostrarResposta(2)" style="margin-top:10px; padding:8px 14px; border:none; background:#375D81; color:white; border-radius:6px; cursor:pointer;">
+        Mostrar análise
+      </button>
+
+      <div class="resposta" style="display:none; margin-top:12px;">
+        <p><strong>Premissa:</strong> parada cardíaca</p>
+        <p><strong>Premissa implícita:</strong> quem tem parada cardíaca está morrendo</p>
+        <p><strong>Conclusão:</strong> o paciente está morrendo</p>
+      </div>
+    </div>
+
+    <!-- SLIDE 4 -->
+    <div class="slide" style="display:none;">
+      <h4>Exemplo 4</h4>
+      <p><em>Todos os metais conduzem eletricidade. O cobre é metal. Logo, conduz eletricidade.</em></p>
+
+      <button onclick="mostrarResposta(3)" style="margin-top:10px; padding:8px 14px; border:none; background:#375D81; color:white; border-radius:6px; cursor:pointer;">
+        Mostrar análise
+      </button>
+
+      <div class="resposta" style="display:none; margin-top:12px;">
+        <p><strong>Premissas:</strong> todos os metais conduzem eletricidade; cobre é metal</p>
+        <p><strong>Conclusão:</strong> cobre conduz eletricidade</p>
+      </div>
+    </div>
+
+    <!-- BOTÕES -->
+    <button onclick="prevSlide()" style="position:absolute; left:10px; top:50%; transform:translateY(-50%); border:none; background:#243E6A; color:white; padding:8px 12px; border-radius:6px; cursor:pointer;">◀</button>
+
+    <button onclick="nextSlide()" style="position:absolute; right:10px; top:50%; transform:translateY(-50%); border:none; background:#243E6A; color:white; padding:8px 12px; border-radius:6px; cursor:pointer;">▶</button>
+
+  </div>
+</div>
+
+<script>
+let currentSlide = 0;
+const slides = document.querySelectorAll("#carousel .slide");
+
+function showSlide(index) {
+  slides.forEach((s, i) => {
+    s.style.display = (i === index) ? "block" : "none";
+  });
+}
+
+function nextSlide() {
+  currentSlide = (currentSlide + 1) % slides.length;
+  showSlide(currentSlide);
+}
+
+function prevSlide() {
+  currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+  showSlide(currentSlide);
+}
+
+function mostrarResposta(index) {
+  const slide = slides[index];
+  const resposta = slide.querySelector(".resposta");
+  resposta.style.display = "block";
+}
+
+// inicia
+showSlide(currentSlide);
+</script>
+```
+:::
+
+::: enfase
+Em todos os casos, há uma tentativa de persuadir alguém por meio de razões.
+
+Identificar um argumento exige responder:
+
+- O que está sendo defendido? (conclusão)  
+- Quais razões sustentam isso? (premissas)
+:::
+
+## Aprendizagem prática
+
+::: subtitulo-nao-numerado
+Análise
+:::
+
+::: subsubtitulo-nao-numerado
+Identificando argumentos e avaliando evidências
+:::
+
+Leia as frases abaixo e classifique cada uma conforme sua função no texto:
+
+- **Conclusão** → afirmação que está sendo defendida
+- **Premissa (evidência)** → afirmação que sustenta uma conclusão
+- **Suporte** → informação contextual (objetivo, método, descrição), sem função argumentativa direta
+
+::: leitura
+Artigo completo disponível em:  
+https://www.scielo.br/j/estpsi/a/DRD7cvjSRFgngggYgKqHwSm/?format=html&lang=pt
+:::
+
+```{=html}
+<div style="max-width: 820px; margin: 1.5rem auto; padding: 1.2rem; border: 1px solid #d9e2f2; border-radius: 10px; background: #f8fbff; text-align:justify;">
+
+O objetivo deste estudo foi investigar as práticas de leitura de jovens adolescentes e sua relação com o desempenho na compreensão de textos. Participaram 121 estudantes do 6º e 7º anos do ensino fundamental de escolas públicas, com idades variando entre 11 e 14 anos, de ambos os sexos. Foram aplicados três instrumentos: o Questionário de Compreensão de Texto Cloze, o Teste de Compreensão de Leitura e o Questionário sobre Home Literacy. A partir disso, constatou-se que a maioria dos estudantes leem um ou mais livros por ano e que usam bastante a Internet para discussão nas redes sociais. Quanto à associação entre as práticas de leitura e a compreensão textual, verificou-se que a leitura prazerosa de gibis e mangás se relaciona ao baixo desempenho na compreensão de textos, pois grupos que leram mais esse tipo de texto tiveram desempenho inferior (F(3,120)=2,91; p=0,03). Além disso, verificou-se que alunos que leem as matérias escolares em casa têm escores mais altos na interpretação textual (F(3,120)=2,92; p=0,03).
+
+</div>
+
+<div style="max-width: 820px; margin: 1.5rem auto; padding: 1.2rem; border: 1px solid #d9e2f2; border-radius: 10px; background: #f8fbff;">
+
+<p><strong>Instrução:</strong> Classifique cada frase conforme sua função no texto científico:</p>
+
+<ul>
+<li><strong>Conclusão</strong> → afirmação que está sendo defendida</li>
+<li><strong>Premissa (evidência)</strong> → afirmação que sustenta uma conclusão</li>
+<li><strong>Suporte</strong> → informação contextual (objetivo, método, descrição), sem função argumentativa direta</li>
+</ul>
+
+<form id="atividade-final">
+
+<div>
+1. O objetivo deste estudo foi investigar as práticas de leitura de jovens adolescentes e sua relação com o desempenho na compreensão de textos.<br>
+<select data-correta="S">
+<option value="">Selecione</option>
+<option value="C">Conclusão</option>
+<option value="P">Premissa</option>
+<option value="S">Suporte</option>
+</select>
+</div><br>
+
+<div>
+2. Participaram 121 estudantes do 6º e 7º anos do ensino fundamental de escolas públicas, com idades variando entre 11 e 14 anos, de ambos os sexos.<br>
+<select data-correta="S">
+<option value="">Selecione</option>
+<option value="C">Conclusão</option>
+<option value="P">Premissa</option>
+<option value="S">Suporte</option>
+</select>
+</div><br>
+
+<div>
+3. Foram aplicados três instrumentos: o Questionário de Compreensão de Texto Cloze, o Teste de Compreensão de Leitura e o Questionário sobre Home Literacy.<br>
+<select data-correta="S">
+<option value="">Selecione</option>
+<option value="C">Conclusão</option>
+<option value="P">Premissa</option>
+<option value="S">Suporte</option>
+</select>
+</div><br>
+
+<div>
+4. A partir disso, constatou-se que a maioria dos estudantes leem um ou mais livros por ano e que usam bastante a Internet para discussão nas redes sociais.<br>
+<select data-correta="S">
+<option value="">Selecione</option>
+<option value="C">Conclusão</option>
+<option value="P">Premissa</option>
+<option value="S">Suporte</option>
+</select>
+</div><br>
+
+<div>
+5. A leitura prazerosa de gibis e mangás, por exemplo, se relaciona ao baixo desempenho na compreensão de textos.<br>
+<select data-correta="C">
+<option value="">Selecione</option>
+<option value="C">Conclusão</option>
+<option value="P">Premissa</option>
+<option value="S">Suporte</option>
+</select>
+</div><br>
+
+<div>
+6. Grupos que leram mais esse tipo de texto tiveram desempenho inferior na Análise de Variância (F(3,120)=2,91; p=0,03).<br>
+<select data-correta="P">
+<option value="">Selecione</option>
+<option value="C">Conclusão</option>
+<option value="P">Premissa</option>
+<option value="S">Suporte</option>
+</select>
+</div><br>
+
+<div>
+7. Alunos os quais leem as matérias escolares quando chegam em casa têm escores mais altos na interpretação textual (F(3,120)=2,92; p=0,03).<br>
+<select data-correta="P">
+<option value="">Selecione</option>
+<option value="C">Conclusão</option>
+<option value="P">Premissa</option>
+<option value="S">Suporte</option>
+</select>
+</div><br>
+
+<div>
+8. Verificou-se que alunos que leem as matérias escolares quando chegam em casa têm melhor desempenho na interpretação textual.<br>
+<select data-correta="C">
+<option value="">Selecione</option>
+<option value="C">Conclusão</option>
+<option value="P">Premissa</option>
+<option value="S">Suporte</option>
+</select>
+</div><br>
+
+<br>
+
+<p><strong>Tipo de relação identificada no estudo:</strong></p>
+
+<label><input type="radio" name="relacao" value="correlacao"> Correlação</label><br>
+<label><input type="radio" name="relacao" value="causalidade"> Causalidade</label>
+
+<br><br>
+
+<button type="button" onclick="corrigirFinal()" style="padding: 10px 18px; border: none; border-radius: 8px; background: #243E6A; color: white; font-weight: 600; cursor: pointer;">
+Ver resultado
+</button>
+
+</form>
+
+<div id="resultado-final-detalhado" style="margin-top: 1.2rem; padding: 1rem; border-radius: 8px; background: #ffffff; border: 1px solid #e1e8f5; display:none;"></div>
+
+</div>
+
+<script>
+function corrigirFinal() {
+
+  const comentarios = {
+    1: "Suporte: apresenta o objetivo do estudo.",
+    2: "Suporte: descreve a amostra.",
+    3: "Suporte: descreve os instrumentos.",
+    4: "Suporte: dado descritivo geral, sem função argumentativa direta.",
+    5: "Conclusão: interpretação correlacional — indica associação, não causalidade.",
+    6: "Premissa: evidência empírica inferencial (resultado estatístico que sustenta a conclusão).",
+    7: "Premissa: evidência empírica inferencial (resultado estatístico que sustenta a conclusão).",
+    8: "Conclusão: interpretação geral derivada das evidências apresentadas."
+  };
+
+  let resultadoHTML = "<p><strong>Correção detalhada:</strong></p><ul>";
+
+  document.querySelectorAll('#atividade-final select').forEach((sel, i) => {
+
+    const correta = sel.getAttribute("data-correta");
+    const resposta = sel.value;
+    const numero = i + 1;
+
+    if (resposta === correta) {
+      resultadoHTML += `<li>Item ${numero}: ✔️ Correto — ${comentarios[numero]}</li>`;
+    } else {
+      resultadoHTML += `<li>Item ${numero}: ❌ Incorreto — ${comentarios[numero]}</li>`;
+    }
+
+  });
+
+  const relacao = document.querySelector('input[name="relacao"]:checked');
+  if (relacao) {
+    if (relacao.value === "correlacao") {
+      resultadoHTML += "<li><strong>Relação:</strong> ✔️ Correto — o estudo apresenta associação (correlação), não relação causal.</li>";
+    } else {
+      resultadoHTML += "<li><strong>Relação:</strong> ❌ Incorreto — os dados não permitem inferir causalidade.</li>";
+    }
+  }
+
+  resultadoHTML += `
+</ul>
+
+<p><strong>Síntese:</strong></p>
+<ul>
+<li>Nem todas as frases de um texto científico fazem parte de um argumento.</li>
+<li>Premissas correspondem, frequentemente, a evidências empíricas (dados, testes estatísticos).</li>
+<li>Conclusões são interpretações desses dados.</li>
+<li>Objetivo, amostra e instrumentos funcionam como suporte.</li>
+<li>Os resultados indicam correlação, não causalidade.</li>
+</ul>
+`;
+
+  const resultado = document.getElementById("resultado-final-detalhado");
+  resultado.style.display = "block";
+  resultado.innerHTML = resultadoHTML;
+}
+</script>
+```
+
+
+<br/>
+
+::: proxima-aula
+[Para a próxima aula:]{.proxima-aula-title}
+
+-   **Leia** o texto **O que está em discussão** (p. 10-26), capítulo do livro **Pensamento crítico: o poder da lógica e da argumentação**, de Walter Carnielli e Richard Epstein. Disponível na Biblioteca Virtual. Disponível na Minha Biblioteca.
+:::

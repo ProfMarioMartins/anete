@@ -30,7 +30,7 @@ book:
        - Aula_1.qmd # Comentar
        - Aula_2.qmd
        - Aula_3.qmd
-#      - Aula_4.qmd
+       - Aula_4.qmd
 #      - Aula_5.qmd
 #      - Aula_6.qmd
 #      - Aula_7.qmd
