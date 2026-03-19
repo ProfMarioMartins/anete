@@ -224,6 +224,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#aprendizagem-prática" id="toc-aprendizagem-prática" class="nav-link" data-scroll-target="#aprendizagem-prática"><span class="header-section-number">5.2</span> Aprendizagem prática</a></li>
   <li><a href="#leitura-em-foco-1" id="toc-leitura-em-foco-1" class="nav-link" data-scroll-target="#leitura-em-foco-1"><span class="header-section-number">5.3</span> Leitura em foco</a></li>
   <li><a href="#aprendizagem-prática-1" id="toc-aprendizagem-prática-1" class="nav-link" data-scroll-target="#aprendizagem-prática-1"><span class="header-section-number">5.4</span> Aprendizagem prática</a></li>
+  <li><a href="#aprendizagem-prática-2" id="toc-aprendizagem-prática-2" class="nav-link" data-scroll-target="#aprendizagem-prática-2"><span class="header-section-number">5.5</span> Aprendizagem prática</a></li>
   </ul>
 </nav>
     </div>
@@ -718,6 +719,335 @@ function corrigirFinal() {
   resultado.innerHTML = resultadoHTML;
 }
 </script>
+<p><br></p>
+</section>
+<section id="aprendizagem-prática-2" class="level2" data-number="5.5">
+<h2 data-number="5.5" class="anchored" data-anchor-id="aprendizagem-prática-2"><span class="header-section-number">5.5</span> Aprendizagem prática</h2>
+<div class="subtitulo-nao-numerado">
+<p>Análise</p>
+</div>
+<div class="subsubtitulo-nao-numerado">
+<p>Identificando frases contestáveis e não contestáveis.</p>
+</div>
+<p>Uma frase é contestável quando: - pode ser observada ou medida - pode ser verificada em fontes confiáveis - pode ser testada ou refutada</p>
+<p>Uma frase não contestável expressa: - opinião - julgamento de valor - recomendação - interpretação subjetiva :::</p>
+<div class="leitura">
+<p>Resumo científico</p>
+<p>Título: Videojogos e o Cinema: Uma Simbiose em Crescimento: Caso de Estudo Final Fantasy Autora: Inês Margarida Gil Lopes Monteiro (2021)</p>
+<p>O uso de técnicas cinematográficas é uma prática cada vez mais corrente na construção de videojogos e estão na base da criação de mundos virtuais convincentes. Este trabalho tem como objetivo estudar e analisar a presença das técnicas cinematográficas nos jogos digitais e o seu impacto na experiência do jogador. A análise feita teve como objeto de estudo quatro jogos da série Final Fantasy, e com ela pretendeu-se demonstrar a importância das técnicas cinematográficas na sua construção, desde os ângulos de câmara, aos efeitos sonoros usados. A metodologia adotada para a realização deste trabalho passou, primeiramente, por pesquisas bibliográficas e na internet, pelo visionamento de documentários, e, finalmente, pela análise dos jogos em estudo. Conclui-se que os elementos cinematográficos nos videojogos são fundamentais na construção da narrativa, que se quer imersiva.</p>
+</div>
+<div style="max-width: 820px; margin: 1.5rem auto; padding: 1.2rem; border: 1px solid #d9e2f2; border-radius: 10px; background: #f8fbff;">
+
+<p><strong>Classifique cada frase exatamente como aparece no texto:</strong></p>
+
+<form id="atividade-cientifico">
+
+<div>
+1. O uso de técnicas cinematográficas é uma prática cada vez mais corrente na construção de videojogos e estão na base da criação de mundos virtuais convincentes.<br>
+<select data-correta="C">
+<option value="">Selecione</option>
+<option value="C">Contestável</option>
+<option value="N">Não contestável</option>
+</select>
+</div><br>
+
+<div>
+2. Este trabalho tem como objetivo estudar e analisar a presença das técnicas cinematográficas nos jogos digitais e o seu impacto na experiência do jogador.<br>
+<select data-correta="N">
+<option value="">Selecione</option>
+<option value="C">Contestável</option>
+<option value="N">Não contestável</option>
+</select>
+</div><br>
+
+<div>
+3. A análise feita teve como objeto de estudo quatro jogos da série Final Fantasy, e com ela pretendeu-se demonstrar a importância das técnicas cinematográficas na sua construção, desde os ângulos de câmara, aos efeitos sonoros usados.<br>
+<select data-correta="C">
+<option value="">Selecione</option>
+<option value="C">Contestável</option>
+<option value="N">Não contestável</option>
+</select>
+</div><br>
+
+<div>
+4. A metodologia adotada para a realização deste trabalho passou, primeiramente, por pesquisas bibliográficas e na internet, pelo visionamento de documentários, e, finalmente, pela análise dos jogos em estudo.<br>
+<select data-correta="C">
+<option value="">Selecione</option>
+<option value="C">Contestável</option>
+<option value="N">Não contestável</option>
+</select>
+</div><br>
+
+<div>
+5. Conclui-se que os elementos cinematográficos nos videojogos são fundamentais na construção da narrativa, que se quer imersiva.<br>
+<select data-correta="C">
+<option value="">Selecione</option>
+<option value="C">Contestável</option>
+<option value="N">Não contestável</option>
+</select>
+</div><br>
+
+<button type="button" onclick="corrigirCientifico()">Ver resultado</button>
+
+</form>
+
+<div id="resultado-cientifico" style="margin-top:1rem; display:none;"></div>
+
+</div>
+
+<script>
+function corrigirCientifico() {
+
+  const comentarios = {
+    1: "Contestável: afirmação geral que pode ser verificada empiricamente.",
+    2: "Não contestável: descreve o objetivo do estudo (intenção).",
+    3: "Contestável: descrição do objeto e do propósito investigativo.",
+    4: "Contestável: descrição metodológica verificável.",
+    5: "Contestável: conclusão do estudo, passível de debate e validação."
+  };
+
+  let resultadoHTML = "<p><strong>Correção:</strong></p><ul>";
+
+  document.querySelectorAll('#atividade-cientifico select').forEach((sel, i) => {
+
+    const correta = sel.getAttribute("data-correta");
+    const resposta = sel.value;
+    const numero = i + 1;
+
+    if (resposta === correta) {
+      resultadoHTML += `<li>Item ${numero}: ✔️ ${comentarios[numero]}</li>`;
+    } else {
+      resultadoHTML += `<li>Item ${numero}: ❌ ${comentarios[numero]}</li>`;
+    }
+
+  });
+
+  resultadoHTML += `
+</ul>
+
+<p><strong>Regra geral:</strong></p>
+<ul>
+<li>Objetivos não são contestáveis.</li>
+<li>Descrições e conclusões são contestáveis.</li>
+</ul>
+`;
+
+  const resultado = document.getElementById("resultado-cientifico");
+  resultado.style.display = "block";
+  resultado.innerHTML = resultadoHTML;
+}
+</script>
+<!-- Aqui começa o campo de respostas-->
+<details class="resposta-escondida">
+<summary>
+…
+</summary>
+<pre><code>1.  Contestável
+2.  Não contestável
+3.  Contestável
+4.  Contestável
+5.  Contestável</code></pre>
+</details>
+<!-- Aqui encerra o campo de respostas-->
+<p><br></p>
+<div class="leitura">
+<p>Crítica fílmica</p>
+<p>Filme: Final Fantansy (2001)</p>
+<p>⭐ 1/10 — Animação excepcional com um roteiro “nerd”</p>
+<p>Este filme supostamente foi baseado em um jogo. E, como acontece com a maioria dos filmes baseados em jogos, ele ficou aquém tanto do jogo quanto de um bom filme. Este é um daqueles filmes em que seria melhor assistir aos extras do DVD para tentar entender o que estavam tentando fazer. Caso contrário, a história parecerá ainda mais fraca do que já é. A única coisa que salva este “filme?” são os conteúdos extras nos DVDs. No entanto, esses extras só ajudam até certo ponto. A animação é impressionante — talvez não tanto quanto anunciado, mas ainda assim impressionante. Os personagens parecem ter sido mal concebidos. Infelizmente, a história não é tão boa. Parece que foi construída apenas para valorizar os gráficos. O que era aquele zumbido ao fundo? Aparentemente, era a ideia de alguém para música de fundo, repetida várias vezes. Eu elaboraria mais, mas não há muito o que dizer. Um título melhor teria sido outro. Em uma última tentativa de salvar esse fracasso, ele foi lançado em Blu-ray. Já ficou claro que não são os gráficos que precisam melhorar.</p>
+</div>
+<div style="max-width: 820px; margin: 1.5rem auto; padding: 1.2rem; border: 1px solid #d9e2f2; border-radius: 10px; background: #f8fbff;">
+
+<p><strong>Classifique cada frase exatamente como aparece no texto:</strong></p>
+
+<form id="atividade-filme">
+
+<div>
+1. Este filme supostamente foi baseado em um jogo.<br>
+<select data-correta="C">
+<option value="">Selecione</option>
+<option value="C">Contestável</option>
+<option value="N">Não contestável</option>
+</select>
+</div><br>
+
+<div>
+2. E, como acontece com a maioria dos filmes baseados em jogos, ele ficou aquém tanto do jogo quanto de um bom filme.<br>
+<select data-correta="N">
+<option value="">Selecione</option>
+<option value="C">Contestável</option>
+<option value="N">Não contestável</option>
+</select>
+</div><br>
+
+<div>
+3. Este é um daqueles filmes em que seria melhor assistir aos extras do DVD para tentar entender o que estavam tentando fazer.<br>
+<select data-correta="N">
+<option value="">Selecione</option>
+<option value="C">Contestável</option>
+<option value="N">Não contestável</option>
+</select>
+</div><br>
+
+<div>
+4. Caso contrário, a história parecerá ainda mais fraca do que já é.<br>
+<select data-correta="N">
+<option value="">Selecione</option>
+<option value="C">Contestável</option>
+<option value="N">Não contestável</option>
+</select>
+</div><br>
+
+<div>
+5. A única coisa que salva este “filme?” são os conteúdos extras nos DVDs.<br>
+<select data-correta="N">
+<option value="">Selecione</option>
+<option value="C">Contestável</option>
+<option value="N">Não contestável</option>
+</select>
+</div><br>
+
+<div>
+6. No entanto, esses extras só ajudam até certo ponto.<br>
+<select data-correta="N">
+<option value="">Selecione</option>
+<option value="C">Contestável</option>
+<option value="N">Não contestável</option>
+</select>
+</div><br>
+
+<div>
+7. A animação é impressionante — talvez não tanto quanto anunciado, mas ainda assim impressionante.<br>
+<select data-correta="N">
+<option value="">Selecione</option>
+<option value="C">Contestável</option>
+<option value="N">Não contestável</option>
+</select>
+</div><br>
+
+<div>
+8. Os personagens parecem ter sido mal concebidos.<br>
+<select data-correta="N">
+<option value="">Selecione</option>
+<option value="C">Contestável</option>
+<option value="N">Não contestável</option>
+</select>
+</div><br>
+
+<div>
+9. Infelizmente, a história não é tão boa.<br>
+<select data-correta="N">
+<option value="">Selecione</option>
+<option value="C">Contestável</option>
+<option value="N">Não contestável</option>
+</select>
+</div><br>
+
+<div>
+10. Parece que foi construída apenas para valorizar os gráficos.<br>
+<select data-correta="N">
+<option value="">Selecione</option>
+<option value="C">Contestável</option>
+<option value="N">Não contestável</option>
+</select>
+</div><br>
+
+<div>
+11. Aparentemente, era a ideia de alguém para música de fundo, repetida várias vezes.<br>
+<select data-correta="N">
+<option value="">Selecione</option>
+<option value="C">Contestável</option>
+<option value="N">Não contestável</option>
+</select>
+</div><br>
+
+<div>
+12. Em uma última tentativa de salvar esse fracasso, ele foi lançado em Blu-ray.<br>
+<select data-correta="C">
+<option value="">Selecione</option>
+<option value="C">Contestável</option>
+<option value="N">Não contestável</option>
+</select>
+</div><br>
+
+<div>
+13. Já ficou claro que não são os gráficos que precisam melhorar.<br>
+<select data-correta="N">
+<option value="">Selecione</option>
+<option value="C">Contestável</option>
+<option value="N">Não contestável</option>
+</select>
+</div><br>
+
+<button type="button" onclick="corrigirFilme()">Ver resultado</button>
+
+</form>
+
+<div id="resultado-filme" style="margin-top:1rem; display:none;"></div>
+
+</div>
+
+<script>
+function corrigirFilme() {
+
+  const comentarios = {
+    1: "Contestável: pode ser verificado como fato (origem do filme).",
+    2: "Não contestável: avaliação comparativa (juízo de valor).",
+    3: "Não contestável: recomendação/opinião.",
+    4: "Não contestável: projeção avaliativa.",
+    5: "Não contestável: julgamento subjetivo.",
+    6: "Não contestável: avaliação de grau.",
+    7: "Não contestável: apreciação estética.",
+    8: "Não contestável: interpretação.",
+    9: "Não contestável: avaliação subjetiva.",
+    10: "Não contestável: inferência sobre intenção.",
+    11: "Não contestável: interpretação com marca de incerteza.",
+    12: "Contestável: fato verificável (lançamento em mídia).",
+    13: "Não contestável: julgamento conclusivo."
+  };
+
+  let resultadoHTML = "<p><strong>Correção:</strong></p><ul>";
+
+  document.querySelectorAll('#atividade-filme select').forEach((sel, i) => {
+
+    const correta = sel.getAttribute("data-correta");
+    const resposta = sel.value;
+    const numero = i + 1;
+
+    if (resposta === correta) {
+      resultadoHTML += `<li>Item ${numero}: ✔️ ${comentarios[numero]}</li>`;
+    } else {
+      resultadoHTML += `<li>Item ${numero}: ❌ ${comentarios[numero]}</li>`;
+    }
+
+  });
+
+  resultadoHTML += `
+</ul>
+
+<p><strong>Regra geral:</strong></p>
+<ul>
+<li>Textos opinativos privilegiam julgamentos e interpretações.</li>
+<li>Poucas frases são verificáveis como fatos.</li>
+</ul>
+`;
+
+  const resultado = document.getElementById("resultado-filme");
+  resultado.style.display = "block";
+  resultado.innerHTML = resultadoHTML;
+}
+</script>
+<!-- Aqui começa o campo de respostas-->
+<details class="resposta-escondida">
+<summary>
+…
+</summary>
+<ol type="1">
+<li>Contestável 2. Não contestável 3. Não contestável 4. Não contestável 5. Não contestável 6. Não contestável 7. Não contestável 8. Não contestável 9. Não contestável 10. Não contestável 11. Não contestável 12. Contestável 13. Não contestável</li>
+</ol>
+</details>
+<!-- Aqui encerra o campo de respostas-->
+<p><br></p>
 <p><br></p>
 <div class="proxima-aula">
 <p><span class="proxima-aula-title">Para a próxima aula:</span></p>
