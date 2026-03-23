@@ -114,6 +114,7 @@ Este é o seu caderno de respostas da disciplina Análise e Expressão Textual. 
     <option value="">--Selecione--</option>
     <option value="Currículo Lattes">Apresentação do Currículo Lattes</option>
     <option value="Ceticismo organizado">Ceticismo organizado</option>
+    <option value="Tipos de enunciados">Tipos de enunciados</option>
   </select>
 
   <label for="versao">Versão do texto</label>
@@ -220,6 +221,7 @@ botao.textContent = "Enviando...";
 </script>
 ```
 
+```{=html}
 <!--
 <option value="A verdade está lá fora">A verdade está lá fora</option> 
     <option value="Periódico científico">Periódico científico</option>
@@ -229,3 +231,4 @@ botao.textContent = "Enviando...";
     <option value="Objetivos do plano de trabalho">Objetivos do plano de trabalho</option>
     <option value="Outra">Outra</option>
     -->
+```

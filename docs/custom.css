@@ -310,3 +310,44 @@ div.callout-title {
 .toc-title {
   display: none !important;
 }
+
+.rmdnote,
+div.rmdnote,
+section.rmdnote,
+div[class~="rmdnote"] {
+  border-left: 5px solid #2b6cb0;
+  background: #f7fafc;
+  padding: 12px 14px;
+  margin: 14px 0;
+  border-radius: 10px;
+  color: #1f2937;
+  line-height: 1.55;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.10);
+}
+
+/* Títulos e ênfases dentro do bloco */
+.rmdnote strong,
+.rmdnote b {
+  color: #111827;
+}
+
+.rmdnote em,
+.rmdnote i {
+  color: #374151;
+}
+
+/* Listas no bloco */
+.rmdnote ul,
+.rmdnote ol {
+  margin: 8px 0 0 18px;
+}
+
+.rmdnote li {
+  margin: 4px 0;
+}
+
+/* Links no bloco */
+.rmdnote a {
+  color: #1d4ed8;
+  text-decoration: underline;
+}

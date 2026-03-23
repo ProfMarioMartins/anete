@@ -37,19 +37,15 @@ Esses conhecimentos são obtidos, confrontados e atualizados por meio de um mét
 ::: enfase
 O **pensamento científico** se aplica sempre que buscamos tomar decisões baseadas em evidências (e não nos costumes ou na intuição). Ele se manifesta quando:
 
--   Questionamos informações antes de aceitá-las como verdadeiras  
+-   Questionamos informações antes de aceitá-las como verdadeiras
     -   *Como avaliar se um vídeo na internet que promete curar dores nas articulações com uma receita caseira é confiável?*
-    
--   Buscamos explicações fundamentadas e verificáveis sobre os fenômenos do mundo  
+-   Buscamos explicações fundamentadas e verificáveis sobre os fenômenos do mundo
     -   *Como investigar por que a conta de água da sua casa aumentou muito em comparação com os meses anteriores?*
-
--   Analisamos causas e efeitos com base em dados, não em suposições  
+-   Analisamos causas e efeitos com base em dados, não em suposições
     -   *Como verificar se o aumento no tempo de uso do celular está afetando a qualidade do sono?*
-
--   Testamos hipóteses e aprendemos com os erros  
+-   Testamos hipóteses e aprendemos com os erros
     -   *Se uma planta da casa está murchando, como testar se o problema é falta de água, excesso de sol ou qualidade do solo?*
-
--   Rejeitamos conclusões apressadas e consideramos a complexidade dos contextos  
+-   Rejeitamos conclusões apressadas e consideramos a complexidade dos contextos
     -   *Como avaliar a afirmação de que “os jovens de hoje não gostam de ler” sem se basear apenas em experiências pessoais?*
 :::
 
@@ -234,28 +230,13 @@ Os nomes dos híbridos são formados **combinando o início de um nome com o fin
 
 Exemplos:
 
-shuppet  +  bagon
-  shu-       -gon
-     ↓         ↓
-        shugon
+shuppet + bagon shu- -gon ↓ ↓ shugon
 
+spinarak + hoppip spin- -pip ↓ ↓ spinpip
 
-spinarak + hoppip
-  spin-      -pip
-     ↓        ↓
-       spinpip
+krabby + voltorb krab- -orb ↓ ↓ kraborb
 
-
-krabby  +  voltorb
- krab-     -orb
-    ↓        ↓
-      kraborb
-
-
-elekid  +  phanpy
- elek-      -py
-    ↓        ↓
-       elekpy
+elekid + phanpy elek- -py ↓ ↓ elekpy
 
 A regra é:
 
@@ -263,15 +244,14 @@ A regra é:
 
 Testando a regra na linha seguinte
 
-spinpip + shugon → spingon ✔
-kraborb + elekpy → kreky ✖
+spinpip + shugon → spingon ✔ kraborb + elekpy → kreky ✖
 
-- **spingon** segue o padrão.
-- **kreky** não segue: ele não usa corretamente **krab-** nem **-py**.
+-   **spingon** segue o padrão.
+-   **kreky** não segue: ele não usa corretamente **krab-** nem **-py**.
 
 Assim, **kreky é o primeiro nome fora do padrão**.
 
-3. O próximo híbrido
+3.  O próximo híbrido
 
 kreky + spingon → krinky
 
@@ -279,27 +259,24 @@ Como **kreky já está errado**, **krinky também não segue o padrão**.
 
 Portanto:
 
-- 1º fora do padrão → **kreky**
-- 2º fora do padrão → **krinky**
+-   1º fora do padrão → **kreky**
+-   2º fora do padrão → **krinky**
 
-4. Como deveriam ser os nomes corretos
+4.  Como deveriam ser os nomes corretos
 
 Se **kraborb** e **elekpy** fossem combinados corretamente:
 
-kraborb + elekpy
-   ↓         ↓
-krabpy   ou   elekorb
+kraborb + elekpy ↓ ↓ krabpy ou elekorb
 
-5. Última fusão possível
+5.  Última fusão possível
 
 Agora combinamos **spingon** com esses nomes:
 
-spingon + krabpy → spinpy ou krabgon
-spingon + elekorb → spinorb ou elekgon
+spingon + krabpy → spinpy ou krabgon spingon + elekorb → spinorb ou elekgon
 
 Esses quatro nomes aparecem nas alternativas.
 
-6. Identificando o impossível
+6.  Identificando o impossível
 
 A alternativa **spinky** depende do nome **kreky**, que já vimos estar fora do padrão.
 
@@ -316,7 +293,7 @@ Portanto, **spinky não pode existir**.
 :::
 
 ::: destaque
-_Sugestão de leitura_
+*Sugestão de leitura*
 
 -   **Observe, test, reflect: A better life with the scientific method**, artigo de Santiago Gisler publicado pela *Ivory Embassy*. Disponível em: https://ivoryembassy.com/the-scientific-method/.
 :::

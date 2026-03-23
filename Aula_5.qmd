@@ -1,133 +1,272 @@
 ---
-title: "Como selecionar fontes confiáveis?"
+title: "Quais são os tipos de enunciados?"
 ---
 
 ::: nota-secundaria
-Roteiro de aula elaborado no RStudio com o auxílio da inteligência artificial ChatGPT e supervisionado pelo professor antes de sua publicação.
+Roteiro de aula elaborado no RStudio com o auxílio de modelos de linguagem (IA) e supervisionado pelo professor antes de sua publicação.
 :::
 
 ## Contextualização
 
+Nesta aula, vamos investigar como **diferentes tipos de enunciados** estruturam textos acadêmicos e influenciam a construção do conhecimento. Veremos que nem todos os enunciados desempenham a mesma função: alguns definem conceitos, outros descrevem fatos verificáveis, enquanto outros expressam avaliações ou utilizam linguagem vaga. Compreender essas diferenças é fundamental para identificar o que, de fato, está em discussão em um texto e para avaliar a qualidade de seus argumentos. Assim, será possível observar como a precisão ou a imprecisão da linguagem afeta a clareza, a possibilidade de verificação e a força argumentativa das afirmações.
+
 Ao final deste encontro e com base na leitura indicada, espera-se que você seja capaz de:
 
--   Localizar fontes confiáveis de informação científica em bases de dados acadêmicas.
+- *analisar criticamente diferentes tipos de enunciados em textos, distinguindo enunciados que podem ou não ser avaliados como verdadeiros ou falsos e examinando como a precisão ou a vagueza da linguagem afeta a clareza, a verificabilidade e a força argumentativa.*
 
 ::: leitura
 Leitura indicada:
 
-**Fontes confiáveis de informação acadêmica** (p. 43-52), capítulo do livro *Leitura e escrita acadêmicas*, de Nádia Studzinski Estima de Castro e colaboradores. Disponível na Minha Biblioteca.
+**O que está em discussão** (p. 10-26), capítulo do livro **Pensamento crítico: o poder da lógica e da argumentação**, de Walter Carnielli e Richard Epstein. Disponível na Biblioteca Virtual. Disponível na Minha Biblioteca.
 :::
+
+## Relebrando conceitos
+
+**Do texto à argumentação**
+
+::: {.rmdnote}
+Ideia central: partimos do que está escrito (frase), situamos no contexto (enunciado) e, então, analisamos a função no argumento (asserção → premissa) e a base de sustentação (evidência).
+:::
+
+::: {.rmdnote}
+**Nível 1 — Forma linguística: frase**
+
+O que é: unidade gramatical que você lê no texto.<br/>
+Pergunta-guia: isto é apenas uma construção linguística (pergunta, ordem, afirmação)?<br/>
+Exemplo: “Por que isso acontece?” (frase interrogativa)
+:::
+
+::: {.rmdnote}
+**Nível 2 — Uso em contexto: enunciado**
+
+O que é: a frase “em situação” (quem diz/escreve, para quem, quando, com que finalidade).<br/>
+Pergunta-guia: em que contexto essa frase foi produzida e o que ela faz ali?<br/>
+Exemplo: a mesma frase pode funcionar como ironia, convite, acusação, definição etc., dependendo do contexto.
+:::
+
+::: {.rmdnote}
+**Nível 3 — Compromisso com a verdade: asserção**
+
+O que é: enunciado declarativo em que o autor se compromete com a veracidade/aceitabilidade do conteúdo.<br/>
+Pergunta-guia: o autor está afirmando algo como verdadeiro?<br/>
+Exemplo: “A evasão em cursos X aumentou nos últimos cinco anos.”
+:::
+
+::: {.rmdnote}
+**Nível 4 — Função inferencial no argumento: premissa**
+
+O que é: asserção usada como razão para sustentar uma conclusão.<br/>
+Perguntas-guia:
+- essa afirmação está sendo usada para justificar outra?<br/>
+- se eu retirar essa afirmação, a conclusão fica sem apoio?<br/>
+Marcadores comuns: “porque”, “já que”, “uma vez que”, “dado que”, “considerando que”.<br/>
+Exemplo: “A evasão aumentou” porque “faltam políticas de permanência”.
+:::
+
+::: {.rmdnote}
+**Nível 5 — Base de justificação: evidência**
+
+O que é: dado/fonte/observação que torna uma premissa (ou conclusão) mais aceitável.
+Perguntas-guia:
+- de onde vem essa premissa?<br/>
+- que dado, documento, resultado, observação ou referência sustenta isso?<br/>
+Tipos frequentes: estatística, experimento, observação, citação de pesquisa, documento oficial, série histórica.<br/>
+Marcadores comuns: “segundo”, “dados de”, “conforme”, “o estudo X mostra”.<br/>
+Exemplos: “Censo 2022”, “Tabela 1”, “Relatório do MEC”, “Resultados do experimento”.
+:::
+
+::: {.rmdnote}
+**Resumo visual**
+
+Fluxo<br/>
+
+*Frase* → (no contexto) → *Enunciado* → (se afirma algo) → *Asserção* → (se sustenta conclusão) → *Premissa* → (se apoiada por dados/fontes) → *Evidência*
+:::
+
+::: {.rmdnote}
+**Atalho prático para leitura**
+
+- O autor está afirmando algo? → Asserção<br/>
+- Isso está sendo usado como razão para uma conclusão? → Premissa<br/>
+- Que dados/fontes sustentam essa razão? → Evidência
+:::
+
+<br/>
 
 ## Leitura em foco
 
-Na sociedade contemporânea, **somos constantemente expostos** a um grande volume de informações, que circulam em diferentes formatos, mídias e plataformas. Essa realidade exige de todos nós, especialmente no ambiente acadêmico, o desenvolvimento de uma **postura crítica** diante das **fontes de informação** que acessamos, utilizamos e compartilhamos.
-
-::: citacao
-(...) fontes de informação **são os meios dos quais as pessoas retiram o conteúdo** de que precisam para sanar uma necessidade informacional (...). (Castro *et al*, 2019 - ebook - destaques meus).
-:::
-
-No contexto acadêmico, fonte refere-se ao suporte em que um conteúdo está registrado, seja ele um **artigo científico**, um **livro**, uma \*\*tese\*, uma **dissertação**, um **squib**, um **resumo expandido** ou outro tipo de publicação reconhecida pela comunidade científica.
-
-A qualidade da produção acadêmica depende diretamente da **confiabilidade das fontes** utilizadas para embasar argumentos, justificar escolhas metodológicas e dialogar com a comunidade científica.
-
-David Grey (cf. Castro *et al*, ebook) estabelece **alguns critérios** que devem ser levados em conta para se verificar se uma fonte de informação é confiável:
-
-::: destaque
-| Critério de qualidade | Como identificar |
-|------------------------------------|------------------------------------|
-| **Autoridade** | A fonte é proveniente de origem conhecida, como uma universidade, um governo ou um órgão público, ou vem de um indivíduo desconhecido?<br><br>Se a forte for proveniente de indivíduos, é possível identificar o autor e qual sua formação e afiliação institucional?<br><br>O autor possui publicações em periódicos de alta qualidade revisados por especialistas? |
-| **Precisão** | A fonte foi revisada por especialistas no tema antes de ser aceita para publicação, sou seja, foi revisada por pares (do inglês, peer review)?<br><br>Se é uma fonte de acesso *on-line* (site, blog, rede social, notícia online ou artigo publicado na internet), ela faz referência a outras fontes? Apresenta bibliografias utilizadas?<br><br>Estão claras as datas de atualização do conteúdo da fonte? |
-| **Viés e objetividade** | A linguagem usada é lógica, ou se utiliza de sensacionalismos e agressividade?<br><br>Apresenta pontos de vista opostos ou defende uma ideologia?<br><br>Faz referências a outras fontes?<br>Como lida com a questão ética e a validade dos documentos? |
-| **Cobertura** | A fonte cobre toda a área de pesquisa a que se propõe ou necessita de maior amplitude, ou seja, maior desenvolvimento de seus argumentos? |
-| **Atualidade** | Considerando a área de conhecimento, a atualidade da informação é adequada?<br><br>(Apesar de não ser regra geral, é indicado o período máximo de 5 anos a partir da publicação para garantir a atualidade dos dados em algumas áreas de pesquisa.) |
-
-**Fonte**: Adaptado de Gray (2012) - com inserções minhas.
-:::
-
-::: {.callout-warning title="O que é ser ético na ciência?"}
-| Aspecto ético | Descrição |
-|------------------------------------|------------------------------------|
-| **Integridade intelectual** | Agir com honestidade na formulação de hipóteses, condução de experimentos e interpretação de dados. |
-| **Transparência** | Divulgar os métodos e os resultados de forma clara, permitindo a verificação e a replicação por outros pesquisadores. |
-| **Reconhecimento de autoria** | Dar o devido crédito a todos os envolvidos na produção do conhecimento e citar corretamente as fontes utilizadas. |
-| **Compromisso com a sociedade** | Realizar pesquisas que respeitem os direitos humanos, o bem-estar animal e o meio ambiente, contribuindo para o avanço responsável da sociedade. |
-| **Combate a fraudes** | Evitar práticas antiéticas como plágio, falsificação ou fabricação de dados. |
-| **Rigor metodológico** | Seguir métodos científicos validados e manter postura crítica frente aos próprios achados. |
-:::
-
-<br>
-
-::: subtitulo-nao-numerado
-Bases de dados
-:::
-
-É fundamental conhecer os **diferentes tipos de bases de dados e ferramentas de busca científica**, que oferecem acesso organizado e qualificado às fontes de conhecimento (produção acadêmica nacional e internacional).
-
--   **Bases de dados de acesso aberto**
-    -   [Scielo](https://www.scielo.br/)
-    -   [BVS](https://bvsalud.org/)
-    -   [Portal de Periódicos da Capes](https://www.periodicos.capes.gov.br/)
-    -   [Google Acadêmico](https://scholar.google.com/?hl=pt-BR)
--   **Bases de dados de acesso restrito**
-    -   [ProQuest](https://www.proquest.com/)
-    -   [Springer Link](https://link.springer.com/)
-    -   [Scopus](https://www.elsevier.com/pt-br/products/scopus)
--   **Repositórios e bibliotecas digitais**
-    -   [Biblioteca Digital Brasileira de Teses e Dissertações](https://bdtd.ibict.br/vufind/)
-    -   [Catálogo de Teses e Dissertações da Capes](https://catalogodeteses.capes.gov.br/catalogo-teses/#!/)
-    -   Repositórios institucionais (p. ex. [Ufersa](https://repositorio.ufersa.edu.br/))
-
-<br>
+| Conceito | Definição operacional | Critério de análise | Exemplo típico | Função na análise |
+|---|---|---|---|---|
+| Definição | Enunciado que estabelece o significado de um termo | Não é verdadeira nem falsa; delimita uso | “Inteligência artificial é um conjunto de técnicas que permitem a sistemas computacionais simular processos cognitivos humanos.” | Aumenta a precisão conceitual |
+| Evidência | Informação que sustenta uma afirmação | Baseada em dados, fontes ou observação | resultados estatísticos, gráficos, tabelas | Fundamenta argumentos |
+| Avaliação | Enunciado que expressa julgamento ou valor | Não verificável empiricamente | “O método proposto apresenta resultados bastante satisfatórios.” | Introduz posicionamento |
+| Linguagem vaga | Uso de termos imprecisos ou indeterminados | Falta de critério mensurável | “muitos estudantes tiveram dificuldades” | Reduz clareza e testabilidade |
+| Ambiguidade | Enunciado com múltiplos sentidos possíveis | Mais de uma interpretação possível | “o sistema apresentou desempenho elevado” | Compromete interpretação |
+| Testabilidade | Possibilidade de verificar empiricamente um enunciado | Presença de critérios observáveis | “a temperatura foi mantida em 25°C durante todo o experimento” | Define cientificidade |
 
 ## Aprendizagem prática
 
 ::: subtitulo-nao-numerado
-Pesquisa
+Análise
 :::
 
 ::: subsubtitulo-nao-numerado
-Identificando fontes confiáveis
+Precisão, vagueza e tipos de enunciados em texto científico
 :::
 
-Nesta aprendizagem, você será orientado a **pesquisar por fontes confiáveis em bases de dados científicas**. Essa etapa inicial é fundamental para que você comece a **delimitar o tema do seu projeto de pesquisa**. Para isso, é importante refletir sobre **quais áreas do conhecimento despertam seu interesse**. Essa definição preliminar permitirá que você busque informações com mais foco e identifique temas relevantes e viáveis.
+Leia atentamente a introdução do artigo científico *"Estudantes de medicina versus chatbots na resolução de um teste médico: um estudo comparativo"*, escrito por Douglas La Maison, Amanda Silva, Bruno Glir e Ari Moré.[^1]
 
-Um passo essencial nesse processo é conhecer **o que tem sido pesquisado recentemente** por outros autores, especialmente em fontes de credibilidade reconhecida. Nesta atividade, você será guiado na exploração do **Portal de Periódicos da Capes**, que reúne publicações científicas de alta qualidade em diversas áreas do saber. A leitura atenta de artigos disponíveis nessa base (e em outras) contribuirá para que você delimite um tema de pesquisa, que será desenvolvido ao longo da disciplina, tanto no seu projeto quanto na proposta de divulgação científica.
+[^1]:https://www.scielo.br/j/rbem/a/twfvMr9JTKBSJZLXgMhY4MF/?lang=pt
 
-**Pense, portanto, em temas, assuntos ou áreas que despertem seu interesse** — como educação, linguagem, saúde, meio ambiente, tecnologias digitais, cultura popular, leitura, juventudes, inclusão, entre outros. **Não é necessário escolher um tema definitivo agora**, mas ter em mente um campo de interesse tornará suas buscas mais produtivas e significativas.
+Seu objetivo é analisar como a linguagem utilizada afeta a clareza, a precisão e a possibilidade de avaliação das afirmações.
 
-Siga as orientações abaixo:
+::: leitura
+Texto para análise:
 
-1.  Acesse o [Portal de Periódicos da Capes](https://www.periodicos.capes.gov.br/) e encontre três artigos científicos que tratem de assuntos relacionados ao seu campo de interesse inicial. Os artigos devem respeitar os critérios de confiabilidade abaixo:
+O ensino médico é avaliado por meio de Exames Nacionais de Licenciamento Médico em uma grande gama de países, como Estados Unidos, Alemanha e China. Esses exames buscam avaliar se a performance de estudantes de Medicina em competências médicas é suficiente para uma prática de excelência. Para além de uma ferramenta de avaliação de competências, os exames acabam servindo inclusive para guiar a evolução da educação médica, uma vez que seus resultados podem representar a qualidade das universidades e orientá-las para a melhoria de seu ensino. Entretanto, tais exames têm como objetivo principal o licenciamento, e não a avaliação do ensino médico1)-(3. Para tal propósito, desenvolveu-se em 1970, na University of Missouri-Kansas City School of Medicine, nos Estados Unidos, e na University of Limburg, na Holanda, uma ferramenta denominada Teste de Progresso (TP). O teste é constituído por questões de múltipla escolha que avaliam aspectos cognitivos, sendo o mesmo teste aplicado, ao mesmo tempo, para estudantes de todos os níveis do curso de Medicina. O processo de avaliação tem como objetivo compreender a correspondência entre o desempenho dos estudantes e o ano de estudo em que estão matriculados, além de analisar o desenvolvimento do aprendizado de um mesmo aluno ao longo do curso. Dessa maneira, os métodos didáticos são aperfeiçoados a partir da identificação de falhas em determinadas áreas de ensino, visualizadas nas curvas de desempenho acadêmico obtidas por meio dos resultados do TP4)-(9.
 
-    ✅ O artigo passou por avaliação cega por pares?<br> ✅ O artigo foi publicado por uma instituição científica confiável?<br> ✅ O artigo foi publicado em periódico com classificação Qualis A1 a A4 na área do conhecimento correspondente?<br> ✅ O artigo está disponível em texto completo no Portal da Capes?<br> ✅ O artigo é recente e apresenta referências bibliográficas verificáveis?<br>
+No Brasil, a aplicação de TP é mais recente e suas questões são baseadas nas Diretrizes Curriculares Nacionais para escolas médicas. Relacionados à Associação Brasileira de Educação Médica (Abem), existem 16 núcleos interinstitucionais que reúnem uma certa quantidade de escolas médicas para aplicação do teste, possibilitando análises mais robustas e comparações. No Sul do país, há o Núcleo de Apoio Pedagógico Interinstitucional Sul II (Napisul-II), composto por seis escolas paranaenses e sete de Santa Catarina. Nesse núcleo, o TP teve sua 13ª edição em outubro de 202310.
 
-<br>
+Recentemente, popularizou-se o uso de generative artificial intelligence (GAI), a qual se mostra promissora na área da educação11)-(15, e há na literatura pesquisas que envolvem o uso da GAI para resolução de Exames Nacionais de Licenciamento Médico16),(17. A GAI diz respeito a uma tecnologia capaz de produzir conteúdos com base em bancos de dados prévios18. Dentro do universo das IA generativas, encontra-se a família dos Generative Pre-trained Transformers (GPT), que são Large Language Models (LLM)19. Os LLM, por sua vez, são algoritmos de inteligência artificial (IA) projetados para determinar a probabilidade de determinadas sequências de palavras, levando em consideração o contexto das palavras que as antecedem20. O aperfeiçoamento desses algoritmos foi revolucionário no campo de Natural Language Processing (NLP), um tipo de aprendizado de máquina que simula a linguagem humana19.
 
-::: enfase
-Não sabe como fazer pesquisas no Portal de Periódicos da Capes, consulte o tutorial disponível [aqui](tutorial_capes.qmd)".
+Considerando que a linguagem é um fator-chave no campo da medicina, os LLM mostram-se extremamente promissores em aprender a representar o conhecimento médico. Entretanto, é evidente que essas ferramentas denotam gerações de texto que podem não representar a veracidade da ciência médica ou de sua ética21. Mais recentemente, observou-se a popularização dos chatbots (ChatGPT, Bing, Bard) - interfaces para sistemas de IA baseados em modelos de linguagem grandes e generativos pré-treinados (GPT), que produzem textos semelhantes aos dos humanos em resposta às mensagens enviadas pelos usuários. Isso possibilitou que tais ferramentas, antes utilizadas apenas por profissionais relacionados às IA, sejam utilizadas pela população leiga, o que coloca sob apreciação a possibilidade e os perigos de seu uso no âmbito da educação médica19),(22),(23.
+
+Considerando tais possibilidades, foram desenvolvidas inúmeras pesquisas explorando as capacidades dessas ferramentas na resolução de exames de licenciamento médico, testes específicos de especialidades médicas ou de outras áreas da saúde e TP16),(17),(24)-(26. Obtiveram-se resultados complementares entre si, uma vez que o ChatGPT 4.0 teve no United States Medical Licensing Examination (USMLE) uma performance similar à de um estudante de terceiro ano de Medicina17. Além disso, o ChatGPT 4.0 se comportou como um residente do primeiro ano de cirurgia plástica25 e foi aprovado no Japanese Medical Licensing Examination16, o que demonstra seu potencial como instrumento de suporte interativo ao ensino médico.
+
+Evidencia-se uma lacuna na literatura científica no que diz respeito à comparação de desempenho entre múltiplos chatbots de LLM e estudantes brasileiros de Medicina, uma vez que já existem estudos semelhantes envolvendo discentes de outras nacionalidades ou limitados a apenas um chatbot27)-(30. Apesar de pesquisas internacionais fornecerem insights sobre o potencial dos chatbots de LLM na educação médica, a variabilidade cultural, linguística e principalmente curricular entre diferentes países sugere que os resultados e as implicações dessas tecnologias podem ser significativamente distintos no Brasil.
+
+Nesse contexto, o objetivo deste trabalho é preencher essa lacuna ao avaliar a efetividade de diferentes chatbots de LLM resolverem questões do TP Napisul-II. Isso envolve uma análise comparativa entre as respostas fornecidas por essas ferramentas de IA e as de estudantes do último semestre de Medicina, a fim de comparar o nível de precisão nas respostas. Tal investigação não apenas contribuirá para o entendimento da aplicabilidade dos chatbots de LLM na educação médica brasileira, mas também fornecerá insights valiosos sobre as potenciais limitações e vantagens dessas tecnologias emergentes no aprimoramento da qualidade do ensino e da avaliação médica.
 :::
 
-<br><br>
+::: subtitulo-nao-numerado
+Orientação para análise
+:::
 
-2.  Após selecionar os três artigos, leia atentamente os seus resumos.
+Antes de responder à questão central desta aprendizagem prática, examine o texto e verifique se:
 
-<br><br>
+- Há **definições** (enunciados que delimitam o significado de termos)? Identifique-as.
+- Há **expressões vagas** (termos imprecisos ou sem critério mensurável)? Localize exemplos.
+- Quais afirmações são **verificáveis empiricamente** (podem ser consideradas verdadeiras ou falsas com base em dados ou observação)? Indique-as.
+- Há afirmações com **traço avaliativo** (expressam julgamento, valor ou opinião)? Aponte quais.
+- Há casos de **ambiguidade** ou falta de delimitação conceitual? Exemplifique.
+- De que modo a linguagem utilizada afeta a **clareza, a precisão e a possibilidade de verificação científica** dos enunciados?
 
-3.  Selecione um dos artigos previamente escolhidos e, no seu caderno, **redija um parágrafo** descritivo apresentando o periódico científico no qual esse artigo foi publicado. O parágrafo deve ser redigido em linguagem formal e fluente, coeso, sem o uso de tópicos ou listas, e deve contemplar, de forma integrada, as seguintes informações:
+::: destaque
+Nem todas as categorias precisam aparecer no texto — foque nas que você conseguir identificar e justificar com segurança.
+:::
 
--   Título do periódico
--   Classificação Qualis (A1, A2 etc.) e a área do conhecimento
--   Instituição, sociedade científica ou editora responsável pelo periódico
--   Periodicidade de publicação (mensal, trimestral, semestral etc.)
--   Sistema de avaliação adotado (dupla cega, simples cega, aberta etc.)
--   Bases de indexação (ex.: Scopus, Web of Science etc.)
+**Questão**
 
-A reposta deve ser inserida no [Painel de Respostas](complemento_portifolio.qmd). Selecione a tarefa "Periódico científico".
+Com base na leitura do texto, produza uma análise crítica integrada sobre o grau de precisão linguística e cientificidade do texto.
+
+Em sua resposta, você deve:
+
+- identificar e comentar exemplos de definições, linguagem vaga e diferentes tipos de enunciados;
+- explicar como esses elementos afetam a clareza e a possibilidade de verificação das informações;
+- apresentar uma avaliação global do texto, indicando se ele se aproxima de um padrão científico rigoroso ou se apresenta limitações.
+
+**Estrutura da resposta** (template)
+
+Para organizar sua resposta, utilize o modelo abaixo como guia. Você pode adaptá-lo, mas deve contemplar todos os elementos.
+
+::: destaque
+
+**Análise do texto**
+
+O texto analisado apresenta diferentes tipos de enunciados, como definições, enunciados verificáveis e trechos avaliativos, o que influencia seu grau de precisão e cientificidade.
+
+Inicialmente, observa-se a presença de definições, como no trecho “__________________________”. Esse enunciado pode ser considerado uma definição porque __________________________. Sua função no texto é __________________________.
+
+Além disso, o texto apresenta expressões vagas, como “__________________________” e “__________________________”. Essas expressões são vagas porque __________________________. Como consequência, __________________________.
+
+Por outro lado, há afirmações verificáveis, como “__________________________”. Esse tipo de enunciado pode ser considerado verdadeiro ou falso porque __________________________.
+
+Também são identificadas afirmações com traço avaliativo, como “__________________________”. Essas expressões indicam julgamento porque __________________________. Por isso, __________________________.
+
+Em alguns casos, observa-se ambiguidade ou falta de delimitação, como em “__________________________”. Essa ambiguidade ocorre porque __________________________, o que pode gerar __________________________.
+
+De modo geral, a linguagem utilizada no texto __________________________. Isso ocorre porque __________________________.
+
+Assim, conclui-se que o texto __________________________, pois __________________________.
+
+:::
+
+<!-- Aqui começa o campo de respostas-->
+
+<details class="resposta-escondida">
+
+<summary>...</summary>
+
+1. Definições (delimitação de termos)
+
+Exemplos:
+- “A GAI diz respeito a uma tecnologia capaz de produzir conteúdos com base em bancos de dados prévios.”
+- “Os LLM […] são algoritmos de inteligência artificial […] para determinar a probabilidade de determinadas sequências de palavras […]”
+
+Justificativa:
+São definições operacionais: delimitam o significado dos termos (GAI, LLM), estabelecendo propriedades e função. Não são verdadeiras/falsas no mesmo sentido de enunciados factuais; fixam uso conceitual, aumentando a precisão e a possibilidade de comunicação intersubjetiva.
+
+2. Expressões vagas (imprecisão/ausência de critério)
+
+Exemplos:
+- “uma grande gama de países”
+- “uma certa quantidade de escolas médicas”
+- “extremamente promissores”
+- “insights valiosos”
+- “inúmeras pesquisas”
+- “performance […] suficiente para uma prática de excelência”
+- “representar a qualidade das universidades”
+
+Justificativa:
+Há indeterminação semântica (quantidade, intensidade, valor). Não há critérios mensuráveis (quantos países? quantas escolas? quão promissor?). Isso reduz a testabilidade e dificulta a avaliação crítica dos enunciados.
+
+3. Afirmações verificáveis empiricamente (verdadeiro/falso)
+
+Exemplos:
+- “desenvolveu-se em 1970 […] o Teste de Progresso (TP)”
+- “o TP teve sua 13ª edição em outubro de 2023”
+- “o Napisul-II é composto por seis escolas paranaenses e sete de Santa Catarina”
+- “o teste é constituído por questões de múltipla escolha […] aplicado […] a todos os níveis”
+
+Justificativa:
+São enunciados testáveis por dados/documentos (datas, instituições, composição, características operacionais). Podem ser confirmados ou refutados por evidência empírica.
+
+4. Afirmações avaliativas (juízo/valor)
+
+Exemplos:
+- “prática de excelência”
+- “análises mais robustas”
+- “extremamente promissores”
+- “é evidente que […]”
+- “insights valiosos”
+- “potencial como instrumento de suporte”
+
+Justificativa:
+Contêm marcadores avaliativos (adjetivos intensificadores, advérbios, modalizações). Não são diretamente verificáveis; expressam julgamento e dependem de critérios implícitos.
+
+5. Ambiguidade/falta de delimitação
+
+Não identifiquei enunciados ambíguos.
+
+6. (Ausência de) indexicais
+
+Observação:
+Não há uso de “eu”, “aqui”, “agora” etc.
+
+Justificativa:
+O texto mantém impessoalidade típica do discurso científico, favorecendo generalização e reprodutibilidade. A referência é estável e não dependente do contexto imediato do enunciador.
+
+Conclusão:
+O texto se aproxima do padrão científico (pela presença de definições e dados verificáveis), mas apresenta fragilidades pontuais decorrentes de linguagem vaga e avaliativa, sobretudo em trechos de contextualização e justificativa. Tais elementos diminuem o poder de teste e a clareza intersubjetiva dos enunciados.
+
+</details>
+
+<!-- Aqui encerra o campo de respostas-->
 
 <br/>
 
 ::: proxima-aula
 [Para a próxima aula:]{.proxima-aula-title}
 
--   **Leia** o texto **Citações diretas e indiretas** (p. 89-97), capítulo do livro *Leitura e escrita acadêmicas*, de Nádia Studzinski Estima de Castro e colaboradores. Disponível na Minha Biblioteca.
+- **Leia** o texto **O que é um bom argumento** (p. 27-42), capítulo do livro *Pensamento crítico: o poder da lógica e da argumentação*, de Walter Carnielli e Richard Epstein.
 :::
