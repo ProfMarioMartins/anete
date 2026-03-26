@@ -115,6 +115,7 @@ Este é o seu caderno de respostas da disciplina Análise e Expressão Textual. 
     <option value="Currículo Lattes">Apresentação do Currículo Lattes</option>
     <option value="Ceticismo organizado">Ceticismo organizado</option>
     <option value="Tipos de enunciados">Tipos de enunciados</option>
+    <option value="Bom argumento">Bom argumento</option>
   </select>
 
   <label for="versao">Versão do texto</label>
