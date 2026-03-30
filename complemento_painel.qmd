@@ -115,7 +115,7 @@ Este é o seu caderno de respostas da disciplina Análise e Expressão Textual. 
     <option value="Ceticismo organizado">Ceticismo organizado</option>
     <option value="Tipos de enunciados">Tipos de enunciados</option>
     <option value="Bom argumento">Bom argumento</option>
-    <option value="Paráfrase">Bom argumento</option>
+    <option value="Paráfrase">Paráfrase</option>
   </select>
 
   <label for="versao">Versão do texto</label>
