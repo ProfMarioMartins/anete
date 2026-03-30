@@ -13,24 +13,17 @@ Este tutorial irá guiá-lo pelos passos básicos para começar suas pesquisas n
 :::
 
 -   **Como Acessar:**\
-    Abra o Google e digite *"Periódicos Capes"*. O site correto é <https://www.periodicos.Capes.gov.br>.
+    Abra o Google e digite *"Periódicos Capes"*. O site correto é <https://www.periodicos.capes.gov.br>.
 
 -   **Tipos de Conteúdo/Acesso:**
 
     -   **Conteúdo livre:** disponível para qualquer pessoa.
-    -   **Conteúdo assinado:** disponível para os IPs identificados das instituições participantes. Caso você esteja acessando fora da rede da sua instituição, é necessário efetuar o login na Comunidade Acadêmica Federada (CAFe). A Ufersa é instituição parceira).
+    -   **Conteúdo assinado:** disponível para os IPs identificados das instituições participantes. Caso você esteja acessando fora da rede da sua instituição, é necessário efetuar o login na Comunidade Acadêmica Federada (CAFe). A Ufersa é instituição parceira.
         -   Para acessar o conteúdo assinado, clique em **"Acesso CAFE"**, selecione sua instituição e insira o login e a senha fornecidos pela universidade.
         -   No canto esquerdo, você verá se está conectado à sua instituição ou em acesso livre.
 
 ::: subtitulo-nao-numerado
-2.  "Meu Espaço"
-:::
-
--   Qualquer pessoa pode se cadastrar em **"Meu Espaço"**, mesmo sem vínculo institucional.
--   Isso permite salvar histórico de buscas e acessar funcionalidades adicionais.
-
-::: subtitulo-nao-numerado
-3.  Explorando as opções de busca
+2.  Explorando as opções de busca
 :::
 
 -   Clique em **"Acervo"** no menu principal.
@@ -41,7 +34,7 @@ Este tutorial irá guiá-lo pelos passos básicos para começar suas pesquisas n
     4.  **Listar Periódicos**
 
 ::: subtitulo-nao-numerado
-4.  Busca simples por assunto
+3.  Busca simples por assunto
 :::
 
 -   Clique em **"Buscar Assunto"**.
@@ -52,7 +45,7 @@ Este tutorial irá guiá-lo pelos passos básicos para começar suas pesquisas n
     -   Clique em **"acessar"** para ler ou baixar o material.
 
 ::: subtitulo-nao-numerado
-5.  Busca avançada e específica
+4.  Busca avançada e específica
 :::
 
 -   Na tela de resultados, clique em **"Busca Avançada"**.
@@ -69,12 +62,39 @@ Este tutorial irá guiá-lo pelos passos básicos para começar suas pesquisas n
     -   Idioma
 
 ::: subtitulo-nao-numerado
-6.  Explorando bases, livros e periódicos
+5.  Explorando bases, livros e periódicos
 :::
 
 -   **Listar Bases e Coleções:** Repositórios e bibliotecas digitais.
 -   **Listar Livros:** Busque livros por título ou ISBN.
 -   **Listar Periódicos:** Navegue por revistas científicas específicas.
+
+::: subtitulo-nao-numerado
+6. Verificando o Qualis do periódico
+:::
+
+O **Qualis** é um sistema de classificação de periódicos científicos
+mantido pela Capes. Os periódicos são classificados em estratos que
+vão de **A1** (maior qualidade) a **C** (menor qualidade). Para esta
+tarefa, selecione apenas artigos publicados em periódicos com
+classificação **A1 a A4**.
+
+Para verificar o Qualis de um periódico:
+
+-   Acesse a **Plataforma Sucupira — Qualis Periódicos**:
+    <https://sucupira-legado.capes.gov.br/sucupira/public/consultas/coleta/veiculoPublicacaoQualis/listaConsultaGeralPeriodicos.jsf>
+-   Em **"Evento de Classificação"**, selecione
+    **"Classificações de Periódicos Quadriênio 2021-2024"**.
+-   Digite o **ISSN** ou o **título** do periódico nos campos
+    correspondentes.
+-   Clique em **"Consultar"** e verifique o estrato atribuído
+    ao periódico.
+
+::: callout-warning
+Atenção: um mesmo periódico pode ter classificações diferentes
+dependendo da área de avaliação selecionada. Escolha a área mais
+próxima do tema do seu artigo.
+:::
 
 ------------------------------------------------------------------------
 

@@ -106,7 +106,6 @@ Este é o seu caderno de respostas da disciplina Análise e Expressão Textual. 
   <select id="unidade" name="unidade" required>
     <option value="">--Selecione--</option>
     <option value="Unidade 1 – Pensamento científico">Unidade 1 – Pensamento científico</option>
-    <option value="Unidade 2 – Gêneros acadêmicos">Unidade 2 – Gêneros acadêmicos</option>
   </select>
 
   <label for="tarefa">Qual tarefa você está enviando?</label>
@@ -116,6 +115,7 @@ Este é o seu caderno de respostas da disciplina Análise e Expressão Textual. 
     <option value="Ceticismo organizado">Ceticismo organizado</option>
     <option value="Tipos de enunciados">Tipos de enunciados</option>
     <option value="Bom argumento">Bom argumento</option>
+    <option value="Paráfrase">Bom argumento</option>
   </select>
 
   <label for="versao">Versão do texto</label>

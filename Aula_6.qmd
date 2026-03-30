@@ -2,26 +2,22 @@
 title: "O que é um bom argumento?"
 ---
 
-## Contextualização[^1]
+## Contextualização[^aula_6-1]
 
-[^1]:Roteiro de aula elaborado no RStudio com o auxílio de modelos de linguagem (IA) e supervisionado pelo professor antes de sua publicação.
+[^aula_6-1]: Roteiro de aula elaborado no RStudio com o auxílio de modelos de linguagem (IA) e supervisionado pelo professor antes de sua publicação.
 
-No contexto acadêmico, argumentar não é simplesmente opinar ou persuadir. Argumentar significa oferecer **razões objetivas e verificáveis** para sustentar uma conclusão — 
-razões que resistam ao escrutínio de quem lê, independentemente de suas crenças ou 
-estado de espírito.
+No contexto acadêmico, argumentar não é simplesmente opinar ou persuadir. Argumentar significa oferecer **razões objetivas e verificáveis** para sustentar uma conclusão — razões que resistam ao escrutínio de quem lê, independentemente de suas crenças ou estado de espírito.
 
 Ao final deste encontro e com base na leitura indicada, espera-se que você seja capaz de:
 
-- *distinguir argumentos de qualidade em oposiçõa a argumentos fracos;*
-- *usar expressões de modalização da certeza do discurso;*
-- *reconhecer diferentes estratégias argumentativas adequadas à escrita acadêmica.*
+-   *distinguir argumentos de qualidade em oposiçõa a argumentos fracos;*
+-   *usar expressões de modalização da certeza do discurso;*
+-   *reconhecer diferentes estratégias argumentativas adequadas à escrita acadêmica.*
 
 ::: leitura
 Leitura indicada:
 
-**O que é um bom argumento?** (p. 27–42), capítulo do livro *Pensamento crítico: 
-o poder da lógica e da argumentação*, de Walter Carnielli e Richard Epstein. 
-Disponível na Biblioteca Virtual.
+**O que é um bom argumento?** (p. 27–42), capítulo do livro *Pensamento crítico: o poder da lógica e da argumentação*, de Walter Carnielli e Richard Epstein. Disponível na Biblioteca Virtual.
 :::
 
 ## Leitura em foco
@@ -33,7 +29,6 @@ Um argumento é bom quando existem boas razões para aceitar as premissas como v
 ::: citacao
 Ser um "bom argumento" é uma afirmação objetiva — não é uma questão de gosto pessoal. (Carnielli & Epstein, 2019, p. 28)
 :::
-
 
 <br/>
 
@@ -62,24 +57,19 @@ O uso excessivo de redes sociais está associado a queda no desempenho acadêmic
 :::
 
 <!-- Aqui começa o campo de respostas -->
+
 <details class="resposta-escondida">
+
 <summary>...</summary>
 
 **Par 1 — Falha: petição de princípio**
 
-O Parágrafo A comete petição de princípio: a premissa central — atribuída a Martins 
-(2012) — afirma que "as redes sociais são prejudiciais ao rendimento escolar", que é 
-uma reescrita da própria tese. A citação cria aparência de fundamentação, mas não 
-oferece razão nova para aceitar a conclusão: o argumento continua girando em torno 
-de si mesmo. Este é um equívoco comum na escrita acadêmica — a forma da citação não 
-garante a substância do argumento.
+O Parágrafo A comete petição de princípio: a premissa central — atribuída a Martins (2012) — afirma que "as redes sociais são prejudiciais ao rendimento escolar", que é uma reescrita da própria tese. A citação cria aparência de fundamentação, mas não oferece razão nova para aceitar a conclusão: o argumento continua girando em torno de si mesmo. Este é um equívoco comum na escrita acadêmica — a forma da citação não garante a substância do argumento.
 
-O Parágrafo B ancora a afirmação em evidência empírica com conteúdo próprio 
-(correlação negativa medida em amostra específica), calibra o grau da conclusão com 
-o verbo *sugerem* e projeta um desdobramento investigativo proporcional ao que os 
-dados permitem afirmar.
+O Parágrafo B ancora a afirmação em evidência empírica com conteúdo próprio (correlação negativa medida em amostra específica), calibra o grau da conclusão com o verbo *sugerem* e projeta um desdobramento investigativo proporcional ao que os dados permitem afirmar.
 
 </details>
+
 <!-- Aqui encerra o campo de respostas -->
 
 ::: destaque
@@ -87,48 +77,27 @@ dados permitem afirmar.
 
 **Parágrafo C**
 
-Estudantes universitários que dormem menos de seis horas por noite apresentam
-desempenho inferior em tarefas que exigem memória de trabalho e atenção sustentada,
-conforme demonstrado por Silva e Rocha (2018) em estudo com 1.800 universitários brasileiros.
-Esse achado está amplamente documentado na literatura sobre neurociência cognitiva.
-Portanto, as universidades deveriam proibir a realização de provas no período noturno,
-já que os estudantes chegam a essas avaliações em estado de privação de sono.
+Estudantes universitários que dormem menos de seis horas por noite apresentam desempenho inferior em tarefas que exigem memória de trabalho e atenção sustentada, conforme demonstrado por Silva e Rocha (2018) em estudo com 1.800 universitários brasileiros. Esse achado está amplamente documentado na literatura sobre neurociência cognitiva. Portanto, as universidades deveriam proibir a realização de provas no período noturno, já que os estudantes chegam a essas avaliações em estado de privação de sono.
 
 **Parágrafo D**
 
-Estudantes universitários que dormem menos de seis horas por noite apresentam
-desempenho inferior em tarefas que exigem memória de trabalho e atenção sustentada,
-conforme indicam revisões sistemáticas na área de neurociência cognitiva (cf. Motta,
-Ferreira; Zenner, 2006). Considerando que avaliações de alta exigência cognitiva
-dependem diretamente dessas funções, instituições com cursos noturnos deveriam avaliar
-se a concentração de provas no final do turno compromete sistematicamente o desempenho
-discente — o que justificaria investigar modelos alternativos de distribuição de
-avaliações ao longo do semestre.
+Estudantes universitários que dormem menos de seis horas por noite apresentam desempenho inferior em tarefas que exigem memória de trabalho e atenção sustentada, conforme indicam revisões sistemáticas na área de neurociência cognitiva (cf. Motta, Ferreira; Zenner, 2006). Considerando que avaliações de alta exigência cognitiva dependem diretamente dessas funções, instituições com cursos noturnos deveriam avaliar se a concentração de provas no final do turno compromete sistematicamente o desempenho discente — o que justificaria investigar modelos alternativos de distribuição de avaliações ao longo do semestre.
 :::
 
 <!-- Aqui começa o campo de respostas -->
+
 <details class="resposta-escondida">
+
 <summary>...</summary>
 
 **Par 2 — Falha: argumento fraco (salto lógico)**
 
-O Parágrafo C apresenta premissa razoável e devidamente citada — privação de sono
-prejudica memória de trabalho e atenção sustentada —, mas a conclusão (proibir provas
-noturnas) não se segue dela sem passos intermediários que o parágrafo simplesmente
-suprime. Seria necessário demonstrar, por exemplo, que estudantes noturnos dormem
-sistematicamente menos do que o recomendado, que esse déficit ocorre especificamente
-nos dias de prova e que a proibição seria a medida mais eficaz disponível. Como esses
-elos estão ausentes, é plenamente possível que a premissa seja verdadeira e a conclusão,
-ainda assim, falsa — o que caracteriza um argumento fraco. A citação de Silva e Rocha
-(2018) confere aparência de solidez à premissa, mas não preenche as lacunas da cadeia
-argumentativa.
+O Parágrafo C apresenta premissa razoável e devidamente citada — privação de sono prejudica memória de trabalho e atenção sustentada —, mas a conclusão (proibir provas noturnas) não se segue dela sem passos intermediários que o parágrafo simplesmente suprime. Seria necessário demonstrar, por exemplo, que estudantes noturnos dormem sistematicamente menos do que o recomendado, que esse déficit ocorre especificamente nos dias de prova e que a proibição seria a medida mais eficaz disponível. Como esses elos estão ausentes, é plenamente possível que a premissa seja verdadeira e a conclusão, ainda assim, falsa — o que caracteriza um argumento fraco. A citação de Silva e Rocha (2018) confere aparência de solidez à premissa, mas não preenche as lacunas da cadeia argumentativa.
 
-O Parágrafo D percorre o mesmo caminho temático, mas explicita o elo lógico entre
-privação de sono e desempenho em avaliações cognitivas, e calibra a conclusão de forma
-proporcional ao que a evidência permite afirmar: não uma proibição, mas uma investigação
-sobre distribuição de avaliações.
+O Parágrafo D percorre o mesmo caminho temático, mas explicita o elo lógico entre privação de sono e desempenho em avaliações cognitivas, e calibra a conclusão de forma proporcional ao que a evidência permite afirmar: não uma proibição, mas uma investigação sobre distribuição de avaliações.
 
 </details>
+
 <!-- Aqui encerra o campo de respostas -->
 
 ::: destaque
@@ -144,37 +113,30 @@ A leitura literária deve ser obrigatória em todos os cursos de graduação, in
 :::
 
 <!-- Aqui começa o campo de respostas -->
+
 <details class="resposta-escondida">
+
 <summary>...</summary>
 
 **Par 3 — Falha: premissa menos plausível que a conclusão**
 
-O Parágrafo E sustenta uma versão mais modesta da mesma tese com evidência
-proporcional, ancora a premissa em pesquisa verificável (Mar; Oatley, 2008) e
-sinaliza explicitamente os limites do que os dados permitem concluir — distinguindo
-associação de causalidade.
+O Parágrafo E sustenta uma versão mais modesta da mesma tese com evidência proporcional, ancora a premissa em pesquisa verificável (Mar; Oatley, 2008) e sinaliza explicitamente os limites do que os dados permitem concluir — distinguindo associação de causalidade.
 
-O Parágrafo F apoia uma tese razoável ("leitura literária deve ser obrigatória em
-todos os cursos de graduação") em uma premissa altamente contestável: a afirmação,
-atribuída a Ferreira (2015), de que leitores de ficção desenvolvem "empatia superior
-à média" e tomam "decisões morais mais consistentes". Essa premissa é mais duvidosa
-do que a própria conclusão que pretende sustentar — e um argumento tem apenas o valor
-da sua parte menos plausível. A citação, mais uma vez, não resolve o problema: ela
-atribui responsabilidade a uma fonte, mas não torna a afirmação menos contestável.
+O Parágrafo F apoia uma tese razoável ("leitura literária deve ser obrigatória em todos os cursos de graduação") em uma premissa altamente contestável: a afirmação, atribuída a Ferreira (2015), de que leitores de ficção desenvolvem "empatia superior à média" e tomam "decisões morais mais consistentes". Essa premissa é mais duvidosa do que a própria conclusão que pretende sustentar — e um argumento tem apenas o valor da sua parte menos plausível. A citação, mais uma vez, não resolve o problema: ela atribui responsabilidade a uma fonte, mas não torna a afirmação menos contestável.
 
 </details>
+
 <!-- Aqui encerra o campo de respostas -->
 
 <br/>
 
-
 Para que **um argumento seja considerado bom**, ele deve passar por três testes simultaneamente. Nós acabamos de aplicá-los intuitivamente na aprendizagem prática anterior:
 
-- **Verdade das premissas:** deve haver justificativa sólida para acreditar que as premissas são verdadeiras. — *No Par 1, a premissa do Parágrafo A não tinha suporte real: a citação criava aparência de fundamentação, mas a afirmação era uma reescrita da própria tese.*
+-   **Verdade das premissas:** deve haver justificativa sólida para acreditar que as premissas são verdadeiras. — *No Par 1, a premissa do Parágrafo A não tinha suporte real: a citação criava aparência de fundamentação, mas a afirmação era uma reescrita da própria tese.*
 
-- **Consequencialidade:** as premissas devem efetivamente conduzir, sustentar ou estabelecer a conclusão. — *No Par 2, a premissa do Parágrafo C era razoável e citada, mas não conduzia à conclusão: os elos intermediários da cadeia argumentativa estavam ausentes.*
+-   **Consequencialidade:** as premissas devem efetivamente conduzir, sustentar ou estabelecer a conclusão. — *No Par 2, a premissa do Parágrafo C era razoável e citada, mas não conduzia à conclusão: os elos intermediários da cadeia argumentativa estavam ausentes.*
 
-- **Plausibilidade relativa:** as premissas devem ser tão ou mais plausíveis do que a conclusão que pretendem sustentar. — *No Par 3, a premissa do Parágrafo F era mais contestável do que a própria tese que pretendia apoiar.*
+-   **Plausibilidade relativa:** as premissas devem ser tão ou mais plausíveis do que a conclusão que pretendem sustentar. — *No Par 3, a premissa do Parágrafo F era mais contestável do que a própria tese que pretendia apoiar.*
 
 ::: enfase
 Na escrita acadêmica, muitos argumentos operam com **força** em vez de certeza lógica — ou seja, as premissas tornam a conclusão provável, mas não garantida.
@@ -207,30 +169,27 @@ Escolher a expressão errada é cometer um erro argumentativo: afirmar mais do q
 Leia o trecho abaixo e escolha, para cada lacuna, a expressão mais adequada ao grau de certeza que o contexto exige.
 
 ::: destaque
-**Expressões possíveis:** *demonstra* — *sugere* — *comprova* — *indica* — *não permite
-concluir* — *é consistente com* — *aponta para*
+**Expressões possíveis:** *demonstra* — *sugere* — *comprova* — *indica* — *não permite concluir* — *é consistente com* — *aponta para*
 
-O presente estudo investigou a relação entre frequência de leitura acadêmica e desempenho em produções textuais entre estudantes do primeiro ano de graduação em cursos de licenciatura. Os dados coletados por meio de questionário e análise de redações __________ (1) que estudantes com maior frequência de leitura obtiveram notas médias superiores nas avaliações escritas. Esse resultado __________ (2) a hipótese de que o contato regular com textos acadêmicos contribui para o desenvolvimento da competência escritora. No entanto, o delineamento transversal adotado __________ (3) uma relação de causalidade entre as variáveis, uma vez que outros fatores — como escolaridade prévia e hábitos de estudo — não foram controlados. Ainda assim, o padrão observado __________ (4) a necessidade de investigações longitudinais que examinem como a frequência de leitura afeta o desempenho textual ao longo da formação universitária.
+O presente estudo investigou a relação entre frequência de leitura acadêmica e desempenho em produções textuais entre estudantes do primeiro ano de graduação em cursos de licenciatura. Os dados coletados por meio de questionário e análise de redações \_\_\_\_\_\_\_\_\_\_ (1) que estudantes com maior frequência de leitura obtiveram notas médias superiores nas avaliações escritas. Esse resultado \_\_\_\_\_\_\_\_\_\_ (2) a hipótese de que o contato regular com textos acadêmicos contribui para o desenvolvimento da competência escritora. No entanto, o delineamento transversal adotado \_\_\_\_\_\_\_\_\_\_ (3) uma relação de causalidade entre as variáveis, uma vez que outros fatores — como escolaridade prévia e hábitos de estudo — não foram controlados. Ainda assim, o padrão observado \_\_\_\_\_\_\_\_\_\_ (4) a necessidade de investigações longitudinais que examinem como a frequência de leitura afeta o desempenho textual ao longo da formação universitária.
 :::
 
 <!-- Aqui começa o campo de respostas -->
+
 <details class="resposta-escondida">
 
 <summary>...</summary>
 
-**(1) indicaram** — os dados apontam um resultado observado, mas não provam causalidade;
-o verbo deve expressar evidência sem excesso de certeza.
+**(1) indicaram** — os dados apontam um resultado observado, mas não provam causalidade; o verbo deve expressar evidência sem excesso de certeza.
 
-**(2) é consistente com** — o resultado não prova a hipótese, apenas se alinha a ela;
-verbos como *comprova* ou *demonstra* seriam excessivos dado o delineamento descrito.
+**(2) é consistente com** — o resultado não prova a hipótese, apenas se alinha a ela; verbos como *comprova* ou *demonstra* seriam excessivos dado o delineamento descrito.
 
-**(3) não permite concluir** — o próprio texto reconhece a limitação metodológica;
-qualquer verbo afirmativo aqui seria um erro argumentativo grave.
+**(3) não permite concluir** — o próprio texto reconhece a limitação metodológica; qualquer verbo afirmativo aqui seria um erro argumentativo grave.
 
-**(4) aponta para** — a conclusão é prospectiva e moderada; o argumento justifica
-uma agenda de pesquisa, não uma certeza estabelecida.
+**(4) aponta para** — a conclusão é prospectiva e moderada; o argumento justifica uma agenda de pesquisa, não uma certeza estabelecida.
 
 </details>
+
 <!-- Aqui encerra o campo de respostas -->
 
 ## Aprendizagem prática
@@ -243,14 +202,11 @@ Análise
 Que tipo de argumento está em uso?
 :::
 
-Na escrita acadêmica, argumentar não significa apenas afirmar — significa escolher
-a estratégia mais adequada para sustentar uma conclusão diante de um leitor crítico.
-O quadro abaixo apresenta as principais estratégias argumentativas usadas em textos
-acadêmicos. Leia com atenção antes de passar para a atividade.
+Na escrita acadêmica, argumentar não significa apenas afirmar — significa escolher a estratégia mais adequada para sustentar uma conclusão diante de um leitor crítico. O quadro abaixo apresenta as principais estratégias argumentativas usadas em textos acadêmicos. Leia com atenção antes de passar para a atividade.
 
 ::: destaque
 | 🔍 Estratégia | 📖 O que é |
-|---|---|
+|----|----|
 | **Argumentação por autoridade** | Apoia a afirmação na opinião de especialistas ou instituições reconhecidas. |
 | **Argumentação por evidência estatística** | Sustenta a afirmação com dados numéricos de fontes identificáveis. |
 | **Argumentação por analogia** | Compara duas situações semelhantes para transferir uma propriedade de uma à outra. |
@@ -261,103 +217,58 @@ acadêmicos. Leia com atenção antes de passar para a atividade.
 | **Argumentação por consenso científico** | Baseia a afirmação na convergência de múltiplas pesquisas ou na posição predominante da comunidade acadêmica. |
 :::
 
-Agora leia os fragmentos abaixo e identifique, para cada um, a estratégia argumentativa
-mobilizada. Utilize o quadro acima como referência — mais de uma estratégia pode
-aparecer no mesmo fragmento.
+Agora leia os fragmentos abaixo e identifique, para cada um, a estratégia argumentativa mobilizada. Utilize o quadro acima como referência — mais de uma estratégia pode aparecer no mesmo fragmento.
 
 ::: destaque
-**A)** "Dados do IBGE (2022) indicam que 84% dos estudantes de escolas públicas
-nunca acessaram uma biblioteca municipal."
+**A)** "Dados do IBGE (2022) indicam que 84% dos estudantes de escolas públicas nunca acessaram uma biblioteca municipal."
 
-**B)** "Segundo Bakhtin (1997), todo enunciado é constitutivamente dialógico,
-o que implica que nenhum texto existe em isolamento."
+**B)** "Segundo Bakhtin (1997), todo enunciado é constitutivamente dialógico, o que implica que nenhum texto existe em isolamento."
 
-**C)** "Assim como a Revolução Industrial exigiu a reformulação do currículo escolar
-no século XIX, a expansão da inteligência artificial demanda hoje uma revisão das
-competências ensinadas na universidade."
+**C)** "Assim como a Revolução Industrial exigiu a reformulação do currículo escolar no século XIX, a expansão da inteligência artificial demanda hoje uma revisão das competências ensinadas na universidade."
 
-**D)** "O aumento da evasão universitária nos cursos noturnos está diretamente
-relacionado à sobrecarga de trabalho dos estudantes, que chegam às aulas após
-jornadas de oito horas ou mais."
+**D)** "O aumento da evasão universitária nos cursos noturnos está diretamente relacionado à sobrecarga de trabalho dos estudantes, que chegam às aulas após jornadas de oito horas ou mais."
 
-**E)** "Embora alguns pesquisadores afirmem que o uso de tecnologias digitais
-fragmenta a atenção, estudos recentes indicam que o impacto depende
-fundamentalmente do tipo de uso e do contexto de aprendizagem."
+**E)** "Embora alguns pesquisadores afirmem que o uso de tecnologias digitais fragmenta a atenção, estudos recentes indicam que o impacto depende fundamentalmente do tipo de uso e do contexto de aprendizagem."
 
-**F)** "É inaceitável que estudantes em situação de vulnerabilidade socioeconômica
-sejam sistematicamente excluídos do acesso ao ensino superior público em razão
-de barreiras geográficas e digitais."
+**F)** "É inaceitável que estudantes em situação de vulnerabilidade socioeconômica sejam sistematicamente excluídos do acesso ao ensino superior público em razão de barreiras geográficas e digitais."
 
-**G)** "Pesquisas conduzidas nas últimas duas décadas convergem para a conclusão
-de que a leitura em voz alta, quando praticada regularmente nos anos iniciais,
-favorece o desenvolvimento da consciência fonológica."
+**G)** "Pesquisas conduzidas nas últimas duas décadas convergem para a conclusão de que a leitura em voz alta, quando praticada regularmente nos anos iniciais, favorece o desenvolvimento da consciência fonológica."
 
-**H)** "Em universidades que adotaram políticas de permanência estudantil — como
-a UFRN e a UFBA —, os índices de conclusão de curso entre estudantes cotistas
-aumentaram de forma consistente nos últimos cinco anos."
+**H)** "Em universidades que adotaram políticas de permanência estudantil — como a UFRN e a UFBA —, os índices de conclusão de curso entre estudantes cotistas aumentaram de forma consistente nos últimos cinco anos."
 
-**I)** "A repetência escolar, longe de funcionar como mecanismo de recuperação
-da aprendizagem, tende a ampliar as desigualdades educacionais ao expor o
-estudante a um ciclo de desmotivação e afastamento progressivo da escola."
+**I)** "A repetência escolar, longe de funcionar como mecanismo de recuperação da aprendizagem, tende a ampliar as desigualdades educacionais ao expor o estudante a um ciclo de desmotivação e afastamento progressivo da escola."
 
-**J)** "Embora se argumente que a avaliação por rubricas engessa a criatividade
-dos estudantes, sua aplicação sistemática tem demonstrado, em diferentes
-contextos, maior consistência nos critérios de correção e maior transparência
-nas devolutivas."
+**J)** "Embora se argumente que a avaliação por rubricas engessa a criatividade dos estudantes, sua aplicação sistemática tem demonstrado, em diferentes contextos, maior consistência nos critérios de correção e maior transparência nas devolutivas."
 :::
 
 <!-- Aqui começa o campo de respostas -->
+
 <details class="resposta-escondida">
+
 <summary>...</summary>
 
-**A)** Evidência estatística — a expressão *"84% dos estudantes de escolas públicas
-nunca acessaram uma biblioteca municipal"* ancora a afirmação em dado numérico
-atribuído a fonte institucional identificada (IBGE, 2022).
+**A)** Evidência estatística — a expressão *"84% dos estudantes de escolas públicas nunca acessaram uma biblioteca municipal"* ancora a afirmação em dado numérico atribuído a fonte institucional identificada (IBGE, 2022).
 
-**B)** Autoridade — a afirmação é introduzida por *"Segundo Bakhtin (1997)"* e a
-conclusão (*"nenhum texto existe em isolamento"*) é apresentada como implicação
-direta da teoria do autor citado, não como inferência independente do escritor.
+**B)** Autoridade — a afirmação é introduzida por *"Segundo Bakhtin (1997)"* e a conclusão (*"nenhum texto existe em isolamento"*) é apresentada como implicação direta da teoria do autor citado, não como inferência independente do escritor.
 
-**C)** Analogia — o conectivo *"assim como"* sinaliza explicitamente a comparação
-entre a Revolução Industrial no século XIX e a expansão da inteligência artificial
-no presente, transferindo a lógica de um caso ao outro para sustentar a demanda
-de revisão curricular.
+**C)** Analogia — o conectivo *"assim como"* sinaliza explicitamente a comparação entre a Revolução Industrial no século XIX e a expansão da inteligência artificial no presente, transferindo a lógica de um caso ao outro para sustentar a demanda de revisão curricular.
 
-**D)** Causalidade — a expressão *"está diretamente relacionado à sobrecarga de
-trabalho"* estabelece relação de causa e efeito entre as condições de trabalho dos
-estudantes e o aumento da evasão nos cursos noturnos.
+**D)** Causalidade — a expressão *"está diretamente relacionado à sobrecarga de trabalho"* estabelece relação de causa e efeito entre as condições de trabalho dos estudantes e o aumento da evasão nos cursos noturnos.
 
-**E)** Contra-argumentação — o fragmento abre com a concessão *"embora alguns
-pesquisadores afirmem que o uso de tecnologias digitais fragmenta a atenção"* e
-a refuta na sequência com *"estudos recentes indicam que o impacto depende
-fundamentalmente do tipo de uso e do contexto de aprendizagem"*.
+**E)** Contra-argumentação — o fragmento abre com a concessão *"embora alguns pesquisadores afirmem que o uso de tecnologias digitais fragmenta a atenção"* e a refuta na sequência com *"estudos recentes indicam que o impacto depende fundamentalmente do tipo de uso e do contexto de aprendizagem"*.
 
-**F)** Valoração — a expressão *"é inaceitável"* mobiliza um juízo ético explícito,
-e a justificativa apela ao princípio de equidade: estudantes não deveriam ser
-excluídos *"em razão de barreiras geográficas e digitais"*.
+**F)** Valoração — a expressão *"é inaceitável"* mobiliza um juízo ético explícito, e a justificativa apela ao princípio de equidade: estudantes não deveriam ser excluídos *"em razão de barreiras geográficas e digitais"*.
 
-**G)** Consenso científico — a expressão *"pesquisas conduzidas nas últimas duas
-décadas convergem para a conclusão"* não cita um único autor, mas apela à
-acumulação e à convergência de evidências como fundamento da afirmação.
+**G)** Consenso científico — a expressão *"pesquisas conduzidas nas últimas duas décadas convergem para a conclusão"* não cita um único autor, mas apela à acumulação e à convergência de evidências como fundamento da afirmação.
 
-**H)** Exemplificação — a afirmação geral sobre políticas de permanência é ilustrada
-com casos institucionais concretos e identificáveis: *"como a UFRN e a UFBA"*,
-com resultado observável (*"índices de conclusão de curso entre estudantes cotistas
-aumentaram"*).
+**H)** Exemplificação — a afirmação geral sobre políticas de permanência é ilustrada com casos institucionais concretos e identificáveis: *"como a UFRN e a UFBA"*, com resultado observável (*"índices de conclusão de curso entre estudantes cotistas aumentaram"*).
 
-**I)** Causalidade e contra-argumentação — o fragmento refuta implicitamente a
-crença de que a repetência funciona como mecanismo de recuperação (*"longe de
-funcionar como mecanismo de recuperação da aprendizagem"*) e estabelece uma
-relação causal alternativa: a repetência *"tende a ampliar as desigualdades
-educacionais ao expor o estudante a um ciclo de desmotivação"*. Fragmentos como
-este admitem mais de uma leitura estratégica, dependendo da ênfase do leitor.
+**I)** Causalidade e contra-argumentação — o fragmento refuta implicitamente a crença de que a repetência funciona como mecanismo de recuperação (*"longe de funcionar como mecanismo de recuperação da aprendizagem"*) e estabelece uma relação causal alternativa: a repetência *"tende a ampliar as desigualdades educacionais ao expor o estudante a um ciclo de desmotivação"*. Fragmentos como este admitem mais de uma leitura estratégica, dependendo da ênfase do leitor.
 
-**J)** Contra-argumentação — o fragmento concede a objeção (*"embora se argumente
-que a avaliação por rubricas engessa a criatividade"*) e a refuta com base em
-evidências de aplicação ampla: *"sua aplicação sistemática tem demonstrado, em
-diferentes contextos, maior consistência nos critérios de correção"*.
+**J)** Contra-argumentação — o fragmento concede a objeção (*"embora se argumente que a avaliação por rubricas engessa a criatividade"*) e a refuta com base em evidências de aplicação ampla: *"sua aplicação sistemática tem demonstrado, em diferentes contextos, maior consistência nos critérios de correção"*.
 
 </details>
+
 <!-- Aqui encerra o campo de respostas -->
 
 <br/>
@@ -372,21 +283,13 @@ Escrita
 Escrever bem é argumentar com responsabilidade
 :::
 
-Leia o parágrafo abaixo e identifique: *(a)* qual falha argumentativa ele comete; 
-*(b)* em qual dos três testes de Carnielli e Epstein ele não passa; e *(c)* reescreva-o 
-de forma a corrigir a falha, mantendo a mesma tese.
+Leia o parágrafo abaixo e identifique: *(a)* qual falha argumentativa ele comete; *(b)* em qual dos três testes de Carnielli e Epstein ele não passa; e *(c)* reescreva-o de forma a corrigir a falha, mantendo a mesma tese.
 
 ::: destaque
-A educação a distância é inferior à educação presencial porque o aprendizado online 
-não tem a mesma qualidade do aprendizado em sala de aula. Estudantes que fazem cursos 
-a distância claramente aprendem menos, pois não têm contato direto com o professor. 
-Por isso, diplomas obtidos em cursos EaD deveriam ter validade restrita no mercado 
-de trabalho.
+A educação a distância é inferior à educação presencial porque o aprendizado online não tem a mesma qualidade do aprendizado em sala de aula. Estudantes que fazem cursos a distância claramente aprendem menos, pois não têm contato direto com o professor. Por isso, diplomas obtidos em cursos EaD deveriam ter validade restrita no mercado de trabalho.
 :::
 
-Rascunhe a resposta em papel, à mão, e somente depois transcreva-a no 
-[Painel de respostas](complemento_painel.qmd). No Painel de respostas, selecione 
-a tarefa: **Bom argumento**.
+Rascunhe a resposta em papel, à mão, e somente depois transcreva-a no [Painel de respostas](complemento_painel.qmd). No Painel de respostas, selecione a tarefa: **Bom argumento**.
 
 <!-- Aqui começa o campo de respostas -->
 
@@ -394,13 +297,9 @@ a tarefa: **Bom argumento**.
 
 <summary>...</summary>
 
-**(a) Falha:** petição de princípio combinada com premissa sem suporte. A premissa 
-central ("o aprendizado online não tem a mesma qualidade") é uma reescrita da tese 
-("a educação a distância é inferior"), e a afirmação de que estudantes EaD "claramente 
-aprendem menos" é apresentada sem qualquer evidência.
+**(a) Falha:** petição de princípio combinada com premissa sem suporte. A premissa central ("o aprendizado online não tem a mesma qualidade") é uma reescrita da tese ("a educação a distância é inferior"), e a afirmação de que estudantes EaD "claramente aprendem menos" é apresentada sem qualquer evidência.
 
-**(b) Teste não superado:** verdade das premissas — não há justificativa sólida para acreditar nelas — e consequencialidade — mesmo que as premissas fossem aceitas, a conclusão sobre validade restrita de diplomas não se segue delas sem passos 
-intermediários.
+**(b) Teste não superado:** verdade das premissas — não há justificativa sólida para acreditar nelas — e consequencialidade — mesmo que as premissas fossem aceitas, a conclusão sobre validade restrita de diplomas não se segue delas sem passos intermediários.
 
 **(c) Reescrita possível:** A expansão do ensino a distância no Brasil levanta questões legítimas sobre qualidade de aprendizagem. Pesquisas comparativas, como a conduzida por Means et al. (2013) para o Departamento de Educação dos Estados Unidos, indicam que os resultados de aprendizagem em modalidade online variam significativamente conforme o desenho instrucional, o nível de interação com docentes e o perfil do estudante. Esses achados sugerem que a discussão relevante não é sobre superioridade ou inferioridade de modalidades, mas sobre as condições que tornam cada modalidade eficaz — o que deveria orientar políticas de regulação e avaliação institucional.
 
@@ -409,12 +308,11 @@ intermediários.
 <!-- Aqui encerra o campo de respostas -->
 
 ::: citacao
-Um argumento não é bom apenas porque convence alguém. As pessoas podem ser convencidas sem boas razões — como ocorre na propaganda e no discurso político. 
-(Carnielli & Epstein, 2019, p. 29)
+Um argumento não é bom apenas porque convence alguém. As pessoas podem ser convencidas sem boas razões — como ocorre na propaganda e no discurso político. (Carnielli & Epstein, 2019, p. 29)
 :::
 
 ::: proxima-aula
 [Para a próxima aula:]{.proxima-aula-title}
 
-- **Leia** o texto **Citações diretas e indiretas** (p. 89-97), capítulo do livro *Leitura e escrita acadêmicas*, de Nádia Studzinski Estima de Castro e colaboradores. Disponível na Minha Biblioteca.
+-   **Leia** o texto **Citações diretas e indiretas** (p. 89-97), capítulo do livro *Leitura e escrita acadêmicas*, de Nádia Studzinski Estima de Castro e colaboradores. Disponível na Minha Biblioteca.
 :::
