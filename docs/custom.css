@@ -351,3 +351,6 @@ div[class~="rmdnote"] {
   color: #1d4ed8;
   text-decoration: underline;
 }
+
+/* Tabela do cronograma: impede coluna “puxar” largura */
+table.cronograma-fixo { table-layout: fixed; width: 100%; }
