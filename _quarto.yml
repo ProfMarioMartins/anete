@@ -124,4 +124,8 @@ editor: visual
 # git commit -m "Atualiza conteúdo das aulas"
 # git push origin main
 
-
+# Avaliação
+# Renderizar para HTML no Quarto
+# quarto render prova_unidade1.qmd
+# Converter para PDF com pagedown no R
+# pagedown::chrome_print("prova_unidade1.html")

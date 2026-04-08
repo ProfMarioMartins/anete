@@ -566,7 +566,6 @@ document.getElementById("mensagem-final").style.display="block";
 </script>
 ```
 
-
 ## Aprendizagem prática
 
 ::: subtitulo-nao-numerado
@@ -587,30 +586,29 @@ Nesta atividade, você irá observar como pesquisadores estruturam esse tipo de 
 Orientações
 :::
 
-1.	Acesse a página de docentes do CCEN/UFERSA:
-👉 https://sigaa.ufersa.edu.br/sigaa/public/departamento/professores.jsf?id=927
+1.  Acesse a página de docentes do CCEN/UFERSA: 👉 https://sigaa.ufersa.edu.br/sigaa/public/departamento/professores.jsf?id=927
 
-2.	Escolha um docente da lista e clique em Currículo Lattes.
-	
-3.	Na página do Lattes, localize o texto de apresentação do pesquisador (geralmente aparece no início do currículo, após a foto e os dados básicos).
-	
-4.	Leia atentamente o texto e separe-o em frases, considerando os pontos finais que delimitam unidades completas de informação.
-	
-5.	Para cada frase, identifique qual é sua função principal no texto.
+2.  Escolha um docente da lista e clique em Currículo Lattes.
+
+3.  Na página do Lattes, localize o texto de apresentação do pesquisador (geralmente aparece no início do currículo, após a foto e os dados básicos).
+
+4.  Leia atentamente o texto e separe-o em frases, considerando os pontos finais que delimitam unidades completas de informação.
+
+5.  Para cada frase, identifique qual é sua função principal no texto.
 
     Algumas funções comuns são:
 
-      - apresentar a formação acadêmica;
-      - informar a atuação profissional;
-      - indicar instituições em que o pesquisador atua;
-      - destacar área ou linha de pesquisa;
-      - mencionar grupos de pesquisa;
-      - evidenciar produções científicas;
-      - indicar orientações ou interesses de pesquisa;
-      - informar prêmios, bolsas ou reconhecimentos;
-      - outras funções que você identificar.
+    -   apresentar a formação acadêmica;
+    -   informar a atuação profissional;
+    -   indicar instituições em que o pesquisador atua;
+    -   destacar área ou linha de pesquisa;
+    -   mencionar grupos de pesquisa;
+    -   evidenciar produções científicas;
+    -   indicar orientações ou interesses de pesquisa;
+    -   informar prêmios, bolsas ou reconhecimentos;
+    -   outras funções que você identificar.
 
-5.  Organize sua análise em uma tabela como no exemplo abaixo:
+6.  Organize sua análise em uma tabela como no exemplo abaixo:
 
 ::: formulario
 | Frase extraída do Lattes | Função identificada |
@@ -621,15 +619,14 @@ Orientações
 | "Atua na área de catálise heterogênea." | Apontar área de atuação científica |
 :::
 
-
 ::: destaque
-
 -   Quais funções aparecem com mais frequência nos textos analisados?
 
 -   Que imagem de pesquisador o texto busca transmitir ao leitor?
 
 -   Há diferenças entre os estilos de apresentação dos docentes?
 :::
+
 <br/>
 
 ## Aprendizagem prática
@@ -643,9 +640,9 @@ Agora é sua vez. Elabore **o texto de apresentação do seu Currículo Lattes**
 
 Esse texto tem como objetivo apresentar de forma sintética:
 
-- sua formação acadêmica atual ou anterior;
-- suas áreas de interesse acadêmico;
-- atividades acadêmicas que já realizou ou pretende realizar (ensino, pesquisa ou extensão).
+-   sua formação acadêmica atual ou anterior;
+-   suas áreas de interesse acadêmico;
+-   atividades acadêmicas que já realizou ou pretende realizar (ensino, pesquisa ou extensão).
 
 Antes de escrever no sistema, rascunhe o texto no seu caderno. Procure organizar as informações em 3 a 5 frases claras e objetivas, seguindo o modelo observado nos currículos analisados.
 :::
@@ -656,13 +653,13 @@ Publicação no Currículo Lattes
 
 Depois de elaborar o seu texto:
 
-1.	Acesse o tutorial de preenchimento do [Currículo Lattes](tutorial_lattes.qmd) e siga as instruções para criar ou atualizar o seu Currículo Lattes.
+1.  Acesse o tutorial de preenchimento do [Currículo Lattes](tutorial_lattes.qmd) e siga as instruções para criar ou atualizar o seu Currículo Lattes.
 
-2.	Insira o texto de apresentação que você escreveu no campo correspondente do currículo.
+2.  Insira o texto de apresentação que você escreveu no campo correspondente do currículo.
 
-3.	Após concluir o preenchimento do currículo, copie o link público do seu Currículo Lattes.
+3.  Após concluir o preenchimento do currículo, copie o link público do seu Currículo Lattes.
 
-4.	Compartilhe esse link no grupo de WhatsApp da turma.
+4.  Compartilhe esse link no grupo de WhatsApp da turma.
 
 <br/>
 

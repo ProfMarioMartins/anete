@@ -1,0 +1,673 @@
+---
+title: ""
+format:
+  html:
+    toc: false
+    self-contained: true
+    css: prova.css
+execute:
+  echo: false
+---
+
+```{r setup, include=FALSE}
+instituicao  <- "Universidade Federal Rural do Semi-Árido (UFERSA)"
+disciplina   <- "Análise e Expressão Textual (ANETE)"
+unidade      <- "Unidade I"
+professor    <- "Prof. Mário Martins"
+data_prova   <- "_____ / _____ / 2026"
+turma        <- "Turma ___"
+valor_total  <- "10,0"
+```
+
+```{=html}
+<div class="cabecalho">
+  <div class="cabecalho-topo">
+    <div class="cabecalho-inst">
+      <strong>Universidade Federal Rural do Semi-Árido (UFERSA)</strong><br/>
+      Análise e Expressão Textual (ANETE) &nbsp;|&nbsp; Unidade I<br/>
+      Prof. Mário Martins
+    </div>
+    <div class="cabecalho-info">
+      <table class="tabela-cabecalho">
+  <tr>
+    <td><strong>Data:</strong></td>
+    <td>_____ / _____ / 2026</td>
+  </tr>
+  <tr>
+    <td><strong>Turma:</strong></td>
+    <td>_______________</td>
+  </tr>
+  <tr>
+    <td><strong>Valor:</strong></td>
+    <td>10,0 pontos</td>
+  </tr>
+</table>
+    </div>
+  </div>
+  <div class="cabecalho-aluno">
+    <strong>Nome:</strong>
+    <span class="linha-preenchimento"></span>
+    <strong>Matrícula:</strong>
+    <span class="linha-preenchimento-curta"></span>
+  </div>
+</div>
+
+<div class="instrucoes">
+  <strong>Instruções:</strong> Leia atentamente cada questão antes de
+  responder. Não é permitido o uso de celular ou qualquer material de
+  consulta durante a prova. As respostas devem ser redigidas com caneta
+  azul ou preta.
+</div>
+
+<!-- ============================================================ -->
+<!--  PARTE I — MÚLTIPLA ESCOLHA                                  -->
+<!-- ============================================================ -->
+
+<div class="secao">
+  <h2>Parte I — Questões de múltipla escolha
+  <span class="valor-secao">(__ pontos)</span></h2>
+  <p class="instrucao-secao">
+    Marque com um <strong>X</strong> a alternativa correta.
+    Cada questão vale <strong>__ ponto(s)</strong>.
+  </p>
+</div>
+
+<!-- QUESTÃO 1 -->
+<div class="questao">
+  <p class="enunciado">
+    <strong>1.</strong>
+    Segundo Bacchi (2024, p. 7), a ciência funciona como "um par de
+    óculos que nos ajudam a ver o mundo com mais clareza", ao fornecer
+    uma maneira sistemática e rigorosa de coletar, analisar e
+    interpretar dados. Essa metáfora remete a uma limitação específica
+    do conhecimento não científico. Assinale a alternativa que
+    identifica corretamente essa limitação:
+  </p>
+  <div class="alternativas">
+    <p>A) ( &nbsp;&nbsp;&nbsp;) A ciência é desnecessária para decisões
+    cotidianas, pois o senso comum resolve com eficiência os problemas
+    práticos da vida.</p>
+    <p>B) ( &nbsp;&nbsp;&nbsp;) O conhecimento científico é determinístico:
+    uma vez estabelecido, não pode ser revisto nem questionado por novos
+    dados.</p>
+    <p>C) ( &nbsp;&nbsp;&nbsp;) A percepção pessoal e a coincidência podem
+    reforçar crenças e afastar o indivíduo de explicações mais precisas
+    e verificáveis sobre a realidade.</p>
+    <p>D) ( &nbsp;&nbsp;&nbsp;) O ceticismo organizado impede a tomada de
+    decisões práticas, pois exige que todas as hipóteses sejam testadas
+    antes de qualquer ação.</p>
+    <p>E) ( &nbsp;&nbsp;&nbsp;) Evidências científicas são o principal fator
+    determinante nas decisões pessoais da maioria das pessoas, segundo
+    o autor.</p>
+  </div>
+</div>
+
+<!-- QUESTÃO 2 -->
+<div class="questao">
+  <p class="enunciado">
+    <strong>2.</strong>
+    Durante uma aula, um professor exibe um vídeo em que se afirma que
+    o consumo diário de uma receita caseira "recupera o colágeno",
+    "elimina a dor no joelho" e garante que "seus problemas vão acabar".
+    Nenhuma fonte científica, dado clínico ou especialista é citado.
+    Com base nos critérios que distinguem o pensamento científico do
+    senso comum, assinale a alternativa que apresenta a análise
+    <strong>correta</strong> do vídeo:
+  </p>
+  <div class="alternativas">
+    <p>A) ( &nbsp;&nbsp;&nbsp;) O vídeo apresenta linguagem precisa e
+    verificável, pois descreve os ingredientes da receita de forma
+    detalhada.</p>
+    <p>B) ( &nbsp;&nbsp;&nbsp;) O vídeo pode ser considerado científico
+    porque trata de um fenômeno biológico real — a produção de colágeno
+    — com base em ingredientes naturais.</p>
+    <p>C) ( &nbsp;&nbsp;&nbsp;) O vídeo utiliza linguagem vaga, promessas
+    absolutas e ausência de dados empíricos, características
+    incompatíveis com uma recomendação científica.</p>
+    <p>D) ( &nbsp;&nbsp;&nbsp;) O vídeo seria científico se fosse publicado
+    em um canal com grande número de seguidores, pois isso indica
+    validação coletiva das informações.</p>
+    <p>E) ( &nbsp;&nbsp;&nbsp;) A ausência de fontes não compromete a
+    validade do vídeo, pois o conhecimento baseado em experiência
+    prática é tão confiável quanto o conhecimento científico.</p>
+  </div>
+</div>
+
+<!-- QUESTÃO 3 -->
+<div class="questao">
+  <p class="enunciado">
+    <strong>3.</strong>
+    O conhecimento do senso comum e o conhecimento científico diferem,
+    entre outros aspectos, quanto ao uso da linguagem. Segundo Koché
+    (2016), a linguagem do senso comum é caracterizada pela vaguidade,
+    que compromete a verificação científica dos enunciados. Assinale a
+    alternativa que apresenta a consequência direta dessa vaguidade
+    para a produção do conhecimento:
+  </p>
+  <div class="alternativas">
+    <p>A) ( &nbsp;&nbsp;&nbsp;) Torna o conhecimento do senso comum inútil
+    para a resolução de problemas práticos do cotidiano.</p>
+    <p>B) ( &nbsp;&nbsp;&nbsp;) Impede a transmissão do conhecimento entre
+    gerações, pois expressões vagas não são compreendidas coletivamente.</p>
+    <p>C) ( &nbsp;&nbsp;&nbsp;) Dificulta a delimitação de quais evidências
+    confirmam ou refutam um enunciado, tornando o controle experimental
+    quase impossível.</p>
+    <p>D) ( &nbsp;&nbsp;&nbsp;) Garante maior acessibilidade ao conhecimento,
+    pois expressões imprecisas são compreendidas por um número maior de
+    pessoas.</p>
+    <p>E) ( &nbsp;&nbsp;&nbsp;) Substitui a necessidade de investigação
+    sistemática, uma vez que a experiência cotidiana é suficiente para
+    validar qualquer afirmação.</p>
+  </div>
+</div>
+
+<!-- QUESTÃO 4 -->
+<div class="questao">
+  <p class="enunciado">
+    <strong>4.</strong>
+    Leia o trecho abaixo e assinale a alternativa que identifica
+    corretamente o tipo de citação utilizado e justifica essa
+    classificação com base nas normas da ABNT:
+  </p>
+  <blockquote style="margin: 10px 20px; font-style: italic;
+  border-left: 3px solid #ccc; padding-left: 12px;
+  text-align: justify;">
+    <p><strong>Texto original</strong>: Parágrafo extraído do artigo
+    científico "Narrativa: problemas e promessas de um paradigma
+    alternativo", de Jens Brockmeier e Rom Harré, publicado em 2003:</p>
+    <p>Se um contador de estórias não tiver se apropriado devidamente
+    das convenções, os ouvintes irão reclamar, parar de ouvir, zombar,
+    corrigir o contador e assim por diante.</p>
+    <p style="font-style:normal;"><strong>Texto parafraseado:</strong>
+    Brockmeier e Harré (2003) argumentam que o domínio das convenções
+    narrativas é condição para que uma história seja bem recebida —
+    quando o narrador não as respeita, o público reage com desaprovação,
+    interrupção ou correção.</p>
+    <p style="font-size:9pt; color:#555; font-style:normal;">Fonte:
+    https://www.scielo.br/j/prc/a/8z4tybyPwGwyfgfsVBQMXgH/abstract/?lang=pt</p>
+  </blockquote>
+  <div class="alternativas">
+    <p>A) ( &nbsp;&nbsp;&nbsp;) Citação direta curta, pois reproduz
+    fielmente as palavras dos autores entre aspas e indica autor, ano
+    e página entre parênteses.</p>
+    <p>B) ( &nbsp;&nbsp;&nbsp;) Citação indireta, pois a ideia dos autores
+    é reescrita com outras palavras, mantendo o sentido original e
+    indicando a fonte sem uso de aspas.</p>
+    <p>C) ( &nbsp;&nbsp;&nbsp;) Citação de citação, pois o trecho foi
+    retirado de uma obra que cita Brockmeier e Harré sem que a fonte
+    original tenha sido consultada.</p>
+    <p>D) ( &nbsp;&nbsp;&nbsp;) Citação direta longa, pois o trecho
+    ocupa mais de três linhas e deve ser destacado com recuo de 4 cm
+    da margem esquerda.</p>
+    <p>E) ( &nbsp;&nbsp;&nbsp;) Citação indireta, mas incorreta, pois
+    a menção à página é obrigatória em qualquer tipo de citação
+    segundo a ABNT.</p>
+  </div>
+</div>
+
+<!-- QUESTÃO 5 -->
+<div class="questao">
+  <p class="enunciado">
+    <strong>5.</strong>
+    Segundo Carnielli e Epstein (2023), em um argumento as premissas
+    são as razões apresentadas para sustentar uma conclusão. Leia o
+    trecho abaixo, extraído de um artigo acadêmico, e assinale a
+    alternativa que identifica corretamente a conclusão do argumento
+    e uma de suas premissas:
+  </p>
+  <blockquote style="margin: 10px 20px; font-style: italic;
+  border-left: 3px solid #ccc; padding-left: 12px;
+  text-align: justify;">
+    "Estudantes que participam de programas de tutoria apresentam
+    taxas de conclusão de curso significativamente superiores às de
+    estudantes sem acesso a esse suporte. Além disso, pesquisas
+    indicam que a tutoria reduz o isolamento acadêmico, fator
+    associado à evasão. Por essas razões, universidades públicas
+    deveriam investir na expansão de programas de tutoria como
+    política prioritária de permanência estudantil."
+  </blockquote>
+  <div class="alternativas">
+    <p>A) ( &nbsp;&nbsp;&nbsp;) Conclusão: "Estudantes que participam
+    de programas de tutoria apresentam taxas de conclusão superiores."
+    — Premissa: "A tutoria reduz o isolamento acadêmico."</p>
+    <p>B) ( &nbsp;&nbsp;&nbsp;) Conclusão: "Universidades públicas
+    deveriam investir na expansão de programas de tutoria." —
+    Premissa: "Estudantes com tutoria apresentam taxas de conclusão
+    superiores."</p>
+    <p>C) ( &nbsp;&nbsp;&nbsp;) Conclusão: "A tutoria reduz o isolamento
+    acadêmico." — Premissa: "O isolamento está associado à evasão."</p>
+    <p>D) ( &nbsp;&nbsp;&nbsp;) Conclusão: "Universidades públicas
+    deveriam investir na expansão de programas de tutoria." —
+    Premissa: "Por essas razões, a tutoria é uma política prioritária."</p>
+    <p>E) ( &nbsp;&nbsp;&nbsp;) Conclusão: "Estudantes sem acesso à
+    tutoria abandonam o curso com mais frequência." — Premissa:
+    "Programas de tutoria são uma política prioritária de permanência."</p>
+  </div>
+</div>
+
+<!-- QUESTÃO 6 -->
+<div class="questao">
+  <p class="enunciado">
+    <strong>6.</strong>
+    A distinção entre frases contestáveis e não contestáveis é
+    fundamental para a análise de argumentos. Leia as definições
+    abaixo e, em seguida, classifique as cinco frases extraídas de
+    diferentes tipos de texto, assinalando a alternativa
+    <strong>correta</strong>:
+  </p>
+  <div style="margin: 10px 20px 14px 20px; padding: 10px 14px;
+  border-left: 3px solid #555; background-color: #f5f5f5;
+  font-size: 10pt;">
+    <p style="margin: 0 0 6px 0;">
+      <strong>Frase contestável:</strong> pode ser avaliada como
+      verdadeira ou falsa com base em dados, observação ou raciocínio
+      lógico. Inclui afirmações descritivas, factuais e conclusões
+      de pesquisa.
+    </p>
+    <p style="margin: 0;">
+      <strong>Frase não contestável:</strong> expressa opinião,
+      julgamento de valor, recomendação ou sentimento pessoal. Não
+      pode ser verificada empiricamente.
+    </p>
+  </div>
+  <div style="margin: 8px 20px; font-style: italic;">
+    <p>I. "A Terra gira em torno do Sol."</p>
+    <p>II. "Este é um daqueles filmes em que seria melhor assistir
+    aos extras do DVD."</p>
+    <p>III. "Participaram 121 estudantes do 6º e 7º anos do ensino
+    fundamental de escolas públicas."</p>
+    <p>IV. "Infelizmente, a história não é tão boa."</p>
+    <p>V. "Conclui-se que os elementos cinematográficos nos videojogos
+    são fundamentais na construção da narrativa."</p>
+  </div>
+  <div class="alternativas">
+    <p>A) ( &nbsp;&nbsp;&nbsp;) I — contestável; II — contestável;
+    III — contestável; IV — não contestável; V — não contestável.</p>
+    <p>B) ( &nbsp;&nbsp;&nbsp;) I — contestável; II — não contestável;
+    III — contestável; IV — não contestável; V — contestável.</p>
+    <p>C) ( &nbsp;&nbsp;&nbsp;) I — não contestável; II — não contestável;
+    III — contestável; IV — contestável; V — contestável.</p>
+    <p>D) ( &nbsp;&nbsp;&nbsp;) I — contestável; II — não contestável;
+    III — não contestável; IV — contestável; V — não contestável.</p>
+    <p>E) ( &nbsp;&nbsp;&nbsp;) I — contestável; II — não contestável;
+    III — contestável; IV — não contestável; V — não contestável.</p>
+  </div>
+</div>
+
+<!-- QUESTÃO 7 -->
+<div class="questao">
+  <p class="enunciado">
+    <strong>7.</strong>
+    Leia os quatro fragmentos abaixo e assinale a alternativa que
+    os classifica <strong>corretamente</strong> quanto ao tipo
+    de citação:
+  </p>
+  <div style="margin: 8px 20px; font-size: 10.5pt;">
+    <p><strong>I.</strong> Nesse sentido, Brandes <em>et al.</em>
+    (<em>apud</em> Santos, 2023, p. 106) consideram que compreender
+    "[...] os fundamentos teóricos da IA, os benefícios das plataformas
+    de aprendizado de IA, os desafios éticos e as tendências futuras
+    são fundamentais para aproveitar todo o potencial dessas tecnologias
+    e garantir seu uso ético e eficaz em contextos educacionais".<sup>1</sup></p>
+
+    <p><strong>II.</strong> No entanto, a Linguística de Corpus e os
+    pesquisadores de Linguística de Corpus vêm associando-se a
+    diferentes aventuras de investigação e praticamente nada rejeitaram
+    em termos de parcerias de trabalho, como afirmam Novodvorski e
+    Finatto (2014, p. 15): "o diálogo tem sido uma marca constante,
+    mesmo com aqueles que encaram a Linguística de Corpus apenas como
+    um modus operandi computacional e quantitativo".<sup>2</sup></p>
+
+    <p><strong>III.</strong> Halliday e Matthiessen (2014, p. 261)
+    asserem que, nos processos mentais, como acontece com os materiais,
+    só um participante é inerente, o Experienciador.<sup>3</sup></p>
+
+    <p><strong>IV.</strong> Com relação aos padrões argumentais,
+    Goldberg (2006, p. 25) propõe a hipótese de generalização
+    de superfície:</p>
+    <blockquote style="margin: 4px 20px; font-style: italic;
+    border-left: 2px solid #ccc; padding-left: 10px;">
+      Existem tipicamente generalizações sintáticas e semânticas mais
+      amplas associadas com estruturas argumentais de superfície do que
+      entre a mesma forma de superfície e uma forma distinta da qual
+      hipoteticamente essa última derivaria.<sup>4</sup>
+    </blockquote>
+
+    <div style="font-size: 9pt; color: #555; margin-top: 14px;
+    border-top: 1px solid #ccc; padding-top: 6px;">
+      <p style="margin: 0 0 4px 0;"><sup>1</sup> HONORATO, L. A.;
+      FERREIRA, H. M.; DIAS, J. A formação de professores e o uso do
+      ChatGPT® para revisão de textos. <em>Ensino &amp; Pesquisa</em>,
+      vol. 22, nº 3, p. 501–514, 2024.</p>
+      <p style="margin: 0 0 4px 0;"><sup>2</sup> PASQUALINI, B. F.
+      <em>CorPop: um corpus de referência do português popular escrito
+      do Brasil.</em> 2018. Disponível em:
+      https://lume.ufrgs.br/handle/10183/177566. Acesso em: 4 abr. 2026.</p>
+      <p style="margin: 0 0 4px 0;"><sup>3</sup> MARTINS, M. A
+      codificação da experiência em narrativas escolares.
+      <em>Caminhos em Linguística Aplicada</em>, vol. 17, nº 3,
+      p. 128–149, 2017.</p>
+      <p style="margin: 0;"><sup>4</sup> FERRARI, L. V.; ALONSO, K. S. B.
+      Subjetividade e construções de futuro no português brasileiro.
+      <em>ALFA: Revista de Linguística</em>, vol. 53, nº 1, 2009.
+      Disponível em:
+      https://periodicos.fclar.unesp.br/alfa/article/view/1685.
+      Acesso em: 4 abr. 2026. Adaptado.</p>
+    </div>
+  </div>
+
+  <div class="alternativas">
+    <p>A) ( &nbsp;&nbsp;&nbsp;) I — citação direta curta;
+    II — citação indireta; III — citação indireta;
+    IV — citação direta longa.</p>
+    <p>B) ( &nbsp;&nbsp;&nbsp;) I — citação de citação;
+    II — citação direta curta; III — citação indireta;
+    IV — citação direta longa.</p>
+    <p>C) ( &nbsp;&nbsp;&nbsp;) I — citação de citação;
+    II — citação direta curta; III — citação direta curta;
+    IV — citação direta longa.</p>
+    <p>D) ( &nbsp;&nbsp;&nbsp;) I — citação indireta;
+    II — citação direta curta; III — citação indireta;
+    IV — citação direta longa.</p>
+    <p>E) ( &nbsp;&nbsp;&nbsp;) I — citação de citação;
+    II — citação indireta; III — citação indireta;
+    IV — citação direta curta.</p>
+  </div>
+</div>
+
+<!-- ============================================================ -->
+<!--  PARTE II — QUESTÕES DISCURSIVAS                             -->
+<!-- ============================================================ -->
+
+<div class="secao quebra-pagina">
+  <h2>Parte II — Questões discursivas
+  <span class="valor-secao">(__ pontos)</span></h2>
+  <p class="instrucao-secao">
+    Responda de forma clara e objetiva, utilizando os conceitos
+    trabalhados em aula.
+  </p>
+</div>
+
+<!-- QUESTÃO 8 -->
+<div class="questao">
+  <p class="enunciado">
+    <strong>8.</strong>
+    <span class="valor-questao">(__ pontos)</span><br/><br/>
+    Leia o parágrafo abaixo e responda às questões que se seguem:
+  </p>
+  <blockquote style="margin: 10px 20px; font-style: italic;
+  border-left: 3px solid #ccc; padding-left: 12px;
+  text-align: justify;">
+    "O consumo excessivo de açúcar comprovadamente causa obesidade.
+    Segundo Silva (2021), pessoas que consomem mais de 50g de açúcar
+    por dia engordam mais do que aquelas que consomem menos. Portanto,
+    o governo deveria proibir a venda de refrigerantes em escolas
+    públicas e privadas de todo o país."
+  </blockquote>
+  <p style="margin-top: 12px;">
+    <strong>(a)</strong> Identifique a falha argumentativa cometida
+    pelo parágrafo e explique em que consiste essa falha.
+  </p>
+  <p>
+    <strong>(b)</strong> O parágrafo contém uma expressão que exagera
+    o grau de certeza em relação ao que os dados descritos permitem
+    afirmar. Identifique essa expressão e proponha uma substituição
+    mais adequada. Justifique.
+  </p>
+  <div class="espaco-resposta" style="height: 240px;"></div>
+</div>
+
+<!-- QUESTÃO 9 -->
+<div class="questao">
+  <p class="enunciado">
+    <strong>9.</strong>
+    <span class="valor-questao">(__ pontos)</span><br/><br/>
+    Leia o trecho abaixo, criado para os fins desta avaliação:
+  </p>
+  <blockquote style="margin: 10px 20px; font-style: italic;
+  border-left: 3px solid #ccc; padding-left: 12px;
+  text-align: justify;">
+    O uso de tecnologias digitais tem crescido bastante no contexto
+    educacional. Muitos estudantes apresentam dificuldades com os
+    conteúdos quando as aulas são pouco dinâmicas. Estudos recentes
+    indicam que o emprego de ferramentas interativas está associado
+    a melhores resultados de aprendizagem em turmas do ensino médio
+    (Souza; Lima, 2023). Além disso, é evidente que os professores
+    que adotam essas tecnologias são mais comprometidos com a
+    inovação pedagógica.
+  </blockquote>
+  <p style="margin-top: 12px;">
+    Com base nos conceitos estudados sobre tipos de enunciados,
+    identifique e classifique <strong>três enunciados</strong>
+    presentes no trecho, sendo:
+  </p>
+  <ul>
+    <li>um <strong>enunciado verificável empiricamente</strong>;</li>
+    <li>um <strong>enunciado com traço avaliativo</strong>;</li>
+    <li>um <strong>enunciado com linguagem vaga</strong>.</li>
+  </ul>
+  <p>
+    Para cada enunciado identificado, explique brevemente
+    <strong>por que ele pertence à categoria indicada</strong> e
+    <strong>como esse tipo de enunciado afeta a clareza ou a
+    possibilidade de verificação científica</strong> do trecho.
+  </p>
+  <div class="espaco-resposta" style="height: 260px;"></div>
+</div>
+
+<!-- QUESTÃO 10 -->
+<div class="questao">
+  <p class="enunciado">
+    <strong>10.</strong>
+    <span class="valor-questao">(__ pontos)</span><br/><br/>
+    Leia o texto original abaixo e, em seguida, analise a tentativa
+    de paráfrase que o segue:
+  </p>
+  <blockquote style="margin: 10px 20px; font-style: italic;
+  border-left: 3px solid #ccc; padding-left: 12px;
+  text-align: justify;">
+    <p><strong>Texto original</strong>: Parágrafo extraído do livro
+    <em>Leitura e escrita acadêmicas</em>, de Nádia Studzinski Estima
+    de Castro, Aline Bizello, Karina da Silva Nunes e Lia Emília
+    Cremonese, publicado em 2019:</p>
+    <p>A escrita acadêmica requer argumentos fundamentados
+    cientificamente, não admitindo senso comum ou simples opinião.
+    O argumento científico autoral depende de pesquisa em fontes
+    confiáveis e relevantes, e de paráfrase honesta.</p>
+  </blockquote>
+  <blockquote style="margin: 10px 20px; font-style: italic;
+  border-left: 3px solid #aaa; padding-left: 12px;
+  text-align: justify; background-color: #fafafa;">
+    <p><strong>Tentativa de paráfrase</strong></p>
+    <p>"A produção textual acadêmica exige raciocínios embasados
+    cientificamente, não aceitando conhecimento popular ou mera
+    opinião. O argumento científico próprio depende de investigação
+    em referências fidedignas e pertinentes, e de reformulação
+    honesta." (Castro <em>et al.</em>, 2019)</p>
+  </blockquote>
+  <p style="margin-top: 12px;">
+    A tentativa de paráfrase acima é adequada? Explique por que sim
+    ou por que não, com base no conceito de paráfrase trabalhado
+    em aula.
+  </p>
+  <div class="espaco-resposta" style="height: 200px;"></div>
+</div>
+
+<!-- ============================================================ -->
+<!--  GABARITO — PÁGINA SEPARADA                                  -->
+<!-- ============================================================ -->
+
+<div class="gabarito quebra-pagina">
+  <div class="gabarito-cabecalho">
+    <h2>Gabarito — Parte I</h2>
+    <p><em>Para uso exclusivo do professor</em></p>
+  </div>
+
+  <table class="tabela-gabarito">
+  <thead>
+    <tr>
+      <th>Questão</th>
+      <th>Resposta</th>
+      <th>Justificativa</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>C</td>
+      <td>Bacchi argumenta que a percepção pessoal é limitada e que
+      coincidências reforçam crenças que afastam o indivíduo de
+      explicações verificáveis. As demais contradizem o texto: a
+      ciência é útil para decisões cotidianas (nega A), é revisável
+      pelo ceticismo organizado (nega B e D), e evidências científicas
+      não são determinantes para a maioria das pessoas segundo o
+      autor (nega E).</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>C</td>
+      <td>Linguagem vaga ("seus problemas vão acabar"), promessas
+      absolutas e ausência de dados empíricos são os três marcadores
+      centrais da não cientificidade do vídeo, conforme os critérios
+      trabalhados em aula. As demais alternativas atribuem ao vídeo
+      características que ele não possui ou invertem os critérios
+      de cientificidade.</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>C</td>
+      <td>Koché (2016, p. 27) afirma que a vaguidade impossibilita
+      determinar quais manifestações empíricas confirmam ou refutam
+      um enunciado, tornando o controle experimental quase impossível.
+      As demais alternativas distorcem ou contradizem o argumento
+      do autor: A nega a utilidade prática do senso comum, que Koché
+      reconhece; B inverte a relação entre vaguidade e transmissão;
+      D e E são falsas segundo o texto.</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>B</td>
+      <td>O texto parafraseado reescreve a ideia de Brockmeier e
+      Harré com outras palavras, mantém o sentido original e indica
+      a fonte sem uso de aspas — características definidoras da
+      citação indireta segundo a ABNT. A menção à página não é
+      obrigatória nesse tipo de citação, o que torna E incorreta.
+      As demais alternativas descrevem tipos de citação que não
+      correspondem ao texto apresentado: A exigiria aspas e página;
+      C pressuporia consulta apenas a obra intermediária; D exigiria
+      bloco recuado e texto com mais de três linhas.</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>B</td>
+      <td>A conclusão é introduzida por "por essas razões", marcador
+      que sinaliza o que o argumento quer estabelecer: que
+      universidades deveriam investir em tutoria. As premissas que
+      a sustentam são as taxas superiores de conclusão e a redução
+      do isolamento acadêmico. A identifica corretamente as premissas,
+      mas as trata como se uma fosse conclusão da outra. C isola uma
+      premissa intermediária como conclusão principal. D usa a própria
+      conclusão reformulada como premissa. E inverte a relação entre
+      premissa e conclusão.</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>B</td>
+      <td>I é contestável — verificável empiricamente por dados
+      astronômicos. II é não contestável — recomendação subjetiva
+      sem critério verificável. III é contestável — fato verificável
+      sobre a composição da amostra do estudo. IV é não contestável
+      — avaliação afetiva sinalizada por "infelizmente". V é
+      contestável — conclusão de pesquisa passível de debate e
+      validação, ainda que derive de análise qualitativa.</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>B</td>
+      <td>I é citação de citação: Brandes et al. são citados via
+      Santos (2023), com uso explícito de <em>apud</em>, indicando
+      que a fonte original não foi consultada. II é citação direta
+      curta: transcrição literal entre aspas com indicação de autor,
+      ano e página. III é citação indireta: paráfrase da ideia de
+      Halliday e Matthiessen com indicação de fonte sem aspas. IV é
+      citação direta longa: bloco recuado sem aspas com indicação
+      de página, reproduzindo trecho extenso do autor.</td>
+    </tr>
+  </tbody>
+</table>
+
+  <div class="gabarito-secao">
+    <h3>Gabarito — Parte II</h3>
+  </div>
+
+  <div class="gabarito-discursiva">
+    <p><strong>Questão 8</strong>
+    <span class="valor-questao">(__ pontos)</span></p>
+    <p><strong>(a)</strong> A falha é um <strong>salto lógico</strong>
+    (argumento fraco). A premissa de que pessoas que consomem mais de
+    50g de açúcar por dia engordam mais é apresentada como suficiente
+    para justificar a proibição da venda de refrigerantes em todas as
+    escolas do país. A conclusão não se segue da premissa sem passos
+    intermediários ausentes: seria necessário demonstrar que os
+    refrigerantes são a principal fonte desse consumo excessivo, que
+    estudantes os consomem em quantidade acima do limiar indicado e
+    que a proibição seria a medida mais eficaz entre as alternativas
+    disponíveis. Como esses elos estão ausentes, a premissa pode ser
+    verdadeira e a conclusão, ainda assim, inadequada ou falsa.</p>
+    <p><strong>(b)</strong> A expressão que exagera o grau de certeza
+    é <strong>"comprovadamente causa"</strong>. Ela expressa certeza
+    absoluta e exige evidência robusta e consensual, que uma única
+    pesquisa de Silva (2021) não sustenta. O dado descrito permite
+    estabelecer, no máximo, uma associação entre consumo excessivo
+    de açúcar e ganho de peso — não uma relação causal comprovada.
+    Uma substituição mais adequada seria <strong>"está associado a"</strong>
+    ou <strong>"sugere que"</strong>: "O consumo excessivo de açúcar
+    está associado a maior ganho de peso, segundo Silva (2021)." Essa
+    modalização é mais honesta com o que os dados permitem afirmar.</p>
+  </div>
+
+  <div class="gabarito-discursiva">
+    <p><strong>Questão 9</strong>
+    <span class="valor-questao">(__ pontos)</span></p>
+    <p><strong>Enunciado verificável empiricamente:</strong> "Estudos
+    recentes indicam que o emprego de ferramentas interativas está
+    associado a melhores resultados de aprendizagem em turmas do ensino
+    médio (Souza; Lima, 2023)." — Cita fonte identificável e descreve
+    relação empiricamente testável entre variáveis. Pode ser confirmado
+    ou refutado consultando o estudo referenciado. Enunciados
+    verificáveis aumentam a testabilidade e a credibilidade do texto.</p>
+    <p><strong>Enunciado com traço avaliativo:</strong> "é evidente que
+    os professores que adotam essas tecnologias são mais comprometidos
+    com a inovação pedagógica." — Expressa julgamento de valor sobre
+    o perfil dos professores sem critério mensurável. O marcador
+    "é evidente que" simula certeza factual, mas encobre uma avaliação
+    subjetiva. O enunciado não é diretamente verificável porque depende
+    de critérios implícitos não definidos no texto.</p>
+    <p><strong>Enunciado com linguagem vaga:</strong> "Muitos estudantes
+    apresentam dificuldades com os conteúdos quando as aulas são pouco
+    dinâmicas." — "Muitos", "dificuldades" e "pouco dinâmicas" são
+    termos sem critério mensurável. A ausência de delimitação impede
+    a testabilidade: quantos alunos? que tipo de dificuldade? o que
+    define uma aula pouco dinâmica? Essa imprecisão reduz a
+    verificabilidade e a força argumentativa do enunciado.</p>
+  </div>
+
+  <div class="gabarito-discursiva">
+    <p><strong>Questão 10</strong>
+    <span class="valor-questao">(__ pontos)</span></p>
+    <p>A tentativa de paráfrase <strong>não é adequada</strong>. Ela
+    opera exclusivamente por sinonímia — substitui palavras por
+    sinônimos ("requer" → "exige", "fundamentados" → "embasados",
+    "fontes confiáveis" → "referências fidedignas") sem reorganizar
+    a estrutura do texto nem integrar a ideia ao raciocínio de quem
+    escreve. A sequência das ideias, a organização sintática e a
+    progressão argumentativa do original são mantidas integralmente,
+    o que caracteriza cópia disfarçada — passível de ser identificada
+    como plágio mesmo com a fonte indicada. Uma paráfrase adequada
+    exige, além da reformulação lexical, reorganização da estrutura
+    textual, uso de verbos dicendi e integração da ideia ao contexto
+    do texto que a incorpora — estratégias que a tentativa apresentada
+    não mobiliza.</p>
+  </div>
+</div>
+```

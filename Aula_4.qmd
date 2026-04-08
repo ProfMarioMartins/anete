@@ -516,7 +516,7 @@ Identificando frases contestáveis e não contestáveis.
 
 Uma frase é contestável quando: - pode ser observada ou medida - pode ser verificada em fontes confiáveis - pode ser testada ou refutada
 
-Uma frase não contestável expressa: - opinião - julgamento de valor - recomendação - interpretação subjetiva :::
+Uma frase não contestável expressa: - opinião - julgamento de valor - recomendação - interpretação subjetiva
 
 ::: leitura
 Resumo científico

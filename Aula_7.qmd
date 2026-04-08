@@ -244,13 +244,13 @@ Citação indireta
 -   A ideia do autor é *parafraseada*, com menção à fonte sem aspas;
 -   a indicação de página não é obrigatória, mas pode ser incluída.
 
-::::: enfase
+:::: enfase
 Exemplos:
 
 ::: {style="text-align: center;"}
 <img src="img/citacao_indireta_1.png" width="100%"/>
 :::
-:::::
+::::
 
 <br>
 
@@ -475,78 +475,52 @@ Não há ocorrências.
 Identificando fontes e construindo uma biblioteca no Zotero
 :::
 
-Nesta tarefa, você vai buscar artigos científicos em uma base de dados
-confiável e organizá-los no Zotero. Essa etapa é fundamental para que
-você comece a delimitar o tema do seu projeto de pesquisa.
+Nesta tarefa, você vai buscar artigos científicos em uma base de dados confiável e organizá-los no Zotero. Essa etapa é fundamental para que você comece a delimitar o tema do seu projeto de pesquisa.
 
 Antes de iniciar, consulte:
 
-- o [Tutorial do Zotero](tutorial_zotero.qmd), disponível no material
-  da disciplina;
-- o tutorial de pesquisa no Portal de Periódicos da CAPES, disponível
-  [aqui](tutorial_capes.qmd).
+-   o [Tutorial do Zotero](tutorial_zotero.qmd), disponível no material da disciplina;
+-   o tutorial de pesquisa no Portal de Periódicos da CAPES, disponível [aqui](tutorial_capes.qmd).
 
 ::: callout-warning
-O Zotero requer computador. Caso você não tenha um computador pessoal
-disponível, utilize os computadores da **biblioteca** ou dos **laboratórios de informática** da Ufersa.
+O Zotero requer computador. Caso você não tenha um computador pessoal disponível, utilize os computadores da **biblioteca** ou dos **laboratórios de informática** da Ufersa.
 :::
 
----
+------------------------------------------------------------------------
 
 **Etapa 1 — Escolha do campo de interesse**
 
-Pense em temas, assuntos ou áreas que despertem seu interesse — como
-educação, linguagem, saúde, meio ambiente, tecnologias digitais,
-cultura popular, leitura, juventudes, inclusão, entre outros. Não é
-necessário escolher um tema definitivo agora, mas ter em mente um
-campo de interesse tornará suas buscas mais produtivas e
-significativas.
+Pense em temas, assuntos ou áreas que despertem seu interesse — como educação, linguagem, saúde, meio ambiente, tecnologias digitais, cultura popular, leitura, juventudes, inclusão, entre outros. Não é necessário escolher um tema definitivo agora, mas ter em mente um campo de interesse tornará suas buscas mais produtivas e significativas.
 
----
+------------------------------------------------------------------------
 
 **Etapa 2 — Busca de artigos no Portal de Periódicos da CAPES**
 
-Acesse o **Portal de Periódicos da CAPES** e localize **cinco artigos
-científicos** relacionados ao seu campo de interesse. Todos os artigos
-devem atender aos seguintes critérios de confiabilidade:
+Acesse o **Portal de Periódicos da CAPES** e localize **cinco artigos científicos** relacionados ao seu campo de interesse. Todos os artigos devem atender aos seguintes critérios de confiabilidade:
 
-✅ O artigo passou por avaliação cega por pares?
-✅ O artigo foi publicado por uma instituição científica confiável?
-✅ O artigo foi publicado em periódico com classificação Qualis A1 a
-A4 na área do conhecimento correspondente?
-✅ O artigo está disponível em texto completo no Portal da CAPES?
+✅ O artigo passou por avaliação cega por pares? ✅ O artigo foi publicado por uma instituição científica confiável? ✅ O artigo foi publicado em periódico com classificação Qualis A1 a A4 na área do conhecimento correspondente? ✅ O artigo está disponível em texto completo no Portal da CAPES?
 
 ::: callout-warning
-Atenção: **não selecione TCCs, dissertações de mestrado ou teses de
-doutorado**.
+Atenção: **não selecione TCCs, dissertações de mestrado ou teses de doutorado**.
 :::
 
----
+------------------------------------------------------------------------
 
 **Etapa 3 — Organização no Zotero**
 
-1.  **Instale o Zotero** no seu computador, caso ainda não o tenha
-    feito. Acesse [zotero.org](https://www.zotero.org) e instale
-    também o **Zotero Connector**, a extensão para o navegador que
-    permite capturar referências diretamente das bases de dados.
+1.  **Instale o Zotero** no seu computador, caso ainda não o tenha feito. Acesse [zotero.org](https://www.zotero.org) e instale também o **Zotero Connector**, a extensão para o navegador que permite capturar referências diretamente das bases de dados.
 
-2.  **Crie uma nova coleção no Zotero**, atribuindo um nome
-    relacionado ao seu campo de interesse (ex.:
-    *Tecnologias digitais na educação*).
+2.  **Crie uma nova coleção no Zotero**, atribuindo um nome relacionado ao seu campo de interesse (ex.: *Tecnologias digitais na educação*).
 
-3.  Utilize o **Zotero Connector** para **adicionar os cinco artigos**
-    localizados na Etapa 2 à coleção criada. Verifique se os campos
-    estão corretamente preenchidos (título, autores, ano, periódico,
-    DOI ou URL). Caso necessário, **edite os dados manualmente**.
+3.  Utilize o **Zotero Connector** para **adicionar os cinco artigos** localizados na Etapa 2 à coleção criada. Verifique se os campos estão corretamente preenchidos (título, autores, ano, periódico, DOI ou URL). Caso necessário, **edite os dados manualmente**.
 
 4.  **Gere um relatório da coleção**:
+
     -   Clique com o botão direito sobre a coleção;
     -   Selecione **"Gerar relatório a partir da coleção..."**;
     -   Um documento será exibido com os metadados das obras.
 
-5.  **Salve o relatório no formato `.html`** em sua conta institucional
-    no **Google Drive**.
+5.  **Salve o relatório no formato `.html`** em sua conta institucional no **Google Drive**.
 
 6.  **Compartilhe o link do arquivo** no grupo de WhatsApp da turma.
-:::
 ::::::

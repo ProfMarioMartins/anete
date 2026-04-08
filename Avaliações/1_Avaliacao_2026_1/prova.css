@@ -1,0 +1,254 @@
+/* ============================================================
+   PROVA ANETE — CSS para impressão via pagedown
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=Source+Sans+3:wght@400;600&display=swap');
+
+/* --- Página --- */
+@page {
+  size: A4;
+  margin: 2cm 2cm 2cm 2cm; /* reduza de 2.5cm para 2cm */
+}
+
+body {
+  font-size: 10.5pt; /* reduza de 11pt para 10.5pt */
+  line-height: 1.4;  /* reduza de 1.5 para 1.4 */
+}
+
+.questao {
+  margin-bottom: 12px;    /* reduza de 18px */
+  padding-bottom: 6px;    /* reduza de 10px */
+}
+
+.alternativas {
+  line-height: 1.7;       /* reduza de 1.9 */
+}
+
+.instrucoes {
+  background-color: #f5f5f5;
+  border-left: 4px solid #222;
+  padding: 10px 14px;
+  margin-bottom: 20px;
+  font-size: 10pt;
+  border-radius: 2px;
+}
+
+/* --- Cabeçalho --- */
+.cabecalho {
+  border: 1.5px solid #222;
+  padding: 10px 14px;
+  margin-bottom: 16px;
+}
+
+.cabecalho-topo {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.cabecalho-inst {
+  font-size: 10.5pt;
+  line-height: 1.6;
+}
+
+.tabela-cabecalho {
+  font-size: 10.5pt;
+  border-collapse: collapse;
+}
+
+.tabela-cabecalho td {
+  padding: 2px 8px 2px 0;
+}
+
+.cabecalho-aluno {
+  margin-top: 10px;
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  font-size: 10.5pt;
+  flex-wrap: wrap;
+}
+
+.linha-preenchimento {
+  flex: 1;
+  min-width: 200px;
+  border-bottom: 1px solid #333;
+  height: 1em;
+  margin-right: 16px;
+}
+
+.linha-preenchimento-curta {
+  width: 120px;
+  border-bottom: 1px solid #333;
+  height: 1em;
+}
+
+.linha-preenchimento {
+  display: inline-block;
+  border-bottom: 1px solid #333;
+  width: 280px;
+  margin-right: 16px;
+}
+
+.linha-preenchimento-curta {
+  display: inline-block;
+  border-bottom: 1px solid #333;
+  width: 120px;
+}
+
+/* --- Instruções gerais --- */
+.instrucoes {
+  background-color: #f5f5f5;
+  border-left: 3px solid #555;
+  padding: 8px 12px;
+  font-size: 10pt;
+  margin-bottom: 20px;
+}
+
+/* --- Seções --- */
+.secao h2 {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 12pt;
+  font-weight: 600;
+  border-bottom: 1.5px solid #222;
+  padding-bottom: 4px;
+  margin-top: 24px;
+  margin-bottom: 6px;
+}
+
+.valor-secao {
+  font-weight: 400;
+  font-size: 10.5pt;
+  color: #444;
+}
+
+.instrucao-secao {
+  font-size: 10pt;
+  color: #333;
+  margin-bottom: 12px;
+}
+
+/* --- Questões --- */
+.questao {
+  margin-bottom: 18px;
+  padding-bottom: 10px;
+  border-bottom: 1px dotted #ccc;
+}
+
+.enunciado {
+  margin-bottom: 8px;
+  text-align: justify;
+}
+
+.valor-questao {
+  font-size: 10pt;
+  color: #555;
+  font-weight: normal;
+}
+
+/* --- Alternativas --- */
+.alternativas {
+  padding-left: 20px;
+  line-height: 1.9;
+  font-size: 10.5pt;
+}
+
+.alternativas p {
+  margin: 0;
+}
+
+/* --- Espaço para resposta discursiva --- */
+.espaco-resposta {
+  border: 1px solid #bbb;
+  border-radius: 3px;
+  background: repeating-linear-gradient(
+    to bottom,
+    #fff,
+    #fff 23px,
+    #ddd 23px,
+    #ddd 24px
+  );
+  width: 100%;
+  margin-top: 8px;
+}
+
+/* --- Quebra de página --- */
+.quebra-pagina {
+  break-before: page;
+  page-break-before: always;
+}
+
+/* --- Gabarito --- */
+.gabarito {
+  padding-top: 8px;
+}
+
+.gabarito-cabecalho {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.gabarito-cabecalho h2 {
+  font-size: 14pt;
+  margin-bottom: 4px;
+}
+
+.gabarito-cabecalho p {
+  font-size: 10pt;
+  color: #555;
+  font-style: italic;
+}
+
+.tabela-gabarito {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 10.5pt;
+  margin-bottom: 24px;
+}
+
+.tabela-gabarito th {
+  background-color: #222;
+  color: white;
+  padding: 6px 10px;
+  text-align: left;
+}
+
+.tabela-gabarito td {
+  border: 1px solid #ccc;
+  padding: 6px 10px;
+}
+
+.tabela-gabarito tr:nth-child(even) td {
+  background-color: #f9f9f9;
+}
+
+.gabarito-secao h3 {
+  font-size: 12pt;
+  font-weight: 600;
+  border-bottom: 1.5px solid #222;
+  padding-bottom: 4px;
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
+.gabarito-discursiva {
+  margin-bottom: 20px;
+  padding: 10px 14px;
+  border-left: 3px solid #555;
+  background-color: #fafafa;
+  font-size: 10.5pt;
+}
+
+.gabarito-discursiva p {
+  margin: 4px 0;
+}
+
+/* --- Ocultar na tela, mostrar na impressão --- */
+@media screen {
+  body {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+}

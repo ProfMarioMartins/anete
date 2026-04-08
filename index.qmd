@@ -11,13 +11,13 @@ Para melhor navegação, utilize o menu lateral ou a busca no topo da página.\
 Este material foi organizado para leitura contínua, mas também para consulta ao longo do semestre.
 :::
 
-::: {.titulo-nao-numerado}
+::: titulo-nao-numerado
 Ementa (em atualização)
 :::
 
 Abordar os paradigmas textuais e científicos na produção da escrita científica, a intertextualidade como elemento de linguagem no contexto da textualidade e da oralidade e da visualidade, a coesão e coerência textual como elemento estruturador da linguagem acadêmica, o estilo como mediador entre forma e conteúdo na produção do conhecimento, a interdisciplinaridade como estética da linguagem.
 
-::: {.titulo-nao-numerado}
+::: titulo-nao-numerado
 Objetivo
 :::
 
@@ -35,7 +35,7 @@ Promover o desenvolvimento das **competências acadêmico-científica, comunicat
 **Competência argumentativa**: capacidade de formular problemas, construir e sustentar posições, justificar escolhas, analisar evidências e defender pontos de vista de forma fundamentada, tanto na escrita quanto na oralidade.
 :::
 
-::: {.titulo-nao-numerado}
+::: titulo-nao-numerado
 Organização da disciplina
 :::
 
@@ -46,6 +46,7 @@ Ao longo do semestre, os estudantes se engajam em **múltiplas atividades textua
 ::: subtitulo-nao-numerado
 Unidade I – Fundamentos da argumentação científica e consciência epistemológica
 :::
+
 -   Inserção na vida acadêmica e no sistema científico como espaço de produção argumentativa.
 -   Distinção entre conhecimento científico e senso comum.
 -   Estatuto epistemológico de fato, dado, evidência e opinião.
@@ -53,10 +54,11 @@ Unidade I – Fundamentos da argumentação científica e consciência epistemol
 -   Fragilidade argumentativa e estratégias de fortalecimento de justificativas.
 -   Linguagem como construção de autoridade científica: discurso reportado, modalização e impessoalidade.
 -   Intertextualidade, paráfrase, citação e norma técnica como legitimidade discursiva.
-	
+
 ::: subtitulo-nao-numerado
 Unidade II – Construção e transformação do argumento científico
 :::
+
 -   Gêneros acadêmicos como formas organizadas de argumentação.
 -   Leitura e análise crítica de estudos científicos.
 -   Transformação de dados científicos em argumentos escritos.
@@ -67,6 +69,7 @@ Unidade II – Construção e transformação do argumento científico
 ::: subtitulo-nao-numerado
 Unidade III – Projeto de pesquisa como argumento ampliado
 :::
+
 -   Delimitação de tema e formulação de problema de pesquisa.
 -   Construção de objetivos e justificativa fundamentada.
 -   Coerência entre problema, objetivos e metodologia.
@@ -74,12 +77,12 @@ Unidade III – Projeto de pesquisa como argumento ampliado
 -   Redação orientada e revisão crítica do projeto.
 -   Defesa oral (pitch) como síntese argumentativa.
 
-::: {.titulo-nao-numerado}
+::: titulo-nao-numerado
 Habilidades desenvolvidas na disciplina
 :::
 
 | Habilidade desenvolvida | Descrição |
-|------------------------------------|------------------------------------|
+|----|----|
 | Leitura crítica de textos acadêmicos e sociais | Ler e interpretar textos de diferentes esferas discursivas, identificando problema, tese, evidências e estratégias argumentativas. |
 | Avaliação de informações e fontes | Diferenciar fato, dado, evidência e opinião, reconhecendo o estatuto epistemológico dos enunciados. |
 | Produção de textos acadêmicos | Produzir e revisar textos acadêmicos em diferentes gêneros (resumo, fichamento, resenha, plano/projeto), com coesão, coerência e adequação ao contexto. |
@@ -87,7 +90,7 @@ Habilidades desenvolvidas na disciplina
 | Uso de ferramentas digitais de apoio à escrita | Utilizar recursos digitais para buscar informações, organizar referências e apoiar processos de escrita e reescrita. |
 | Elaboração e defesa de projeto de pesquisa | Elaborar e apresentar oralmente um projeto de pesquisa, justificando escolhas e articulando argumentos com base em critérios científicos e linguísticos. |
 
-::: {.titulo-nao-numerado}
+::: titulo-nao-numerado
 Metodologia
 :::
 
@@ -97,7 +100,7 @@ A disciplina adota uma abordagem **ativa, investigativa e interdisciplinar**, ar
 A escrita, a oralidade e a argumentação são tratadas como **processos**, envolvendo revisão e reformulação ao longo do percurso formativo.
 :::
 
-::: {.titulo-nao-numerado}
+::: titulo-nao-numerado
 Avaliação
 :::
 
@@ -121,7 +124,7 @@ Produção em dupla de mídia de divulgação científica (reel), acompanhada de
 
 Elaboração final de um **projeto de pesquisa**, acompanhada de **defesa oral (pitch)**. A avaliação considera a qualidade da escrita do projeto, a coerência das escolhas metodológicas e a capacidade de argumentação e comunicação oral da proposta.
 
-::: {.titulo-nao-numerado}
+::: titulo-nao-numerado
 Bibliografia
 :::
 
