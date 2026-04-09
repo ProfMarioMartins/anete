@@ -112,7 +112,7 @@ Por isso, ao escrever ou ler um artigo, é fundamental conhecer não apenas os o
 ```{=html}
 <div id="diagnostico-artigo">
   <h2>🔍 Que tipo de artigo científico você está lendo?</h2>
-  <p>Escolha um dos artigos científicos que leu para preparar o seu projeto de pesquisa. Responda "sim" ou "não" às perguntas abaixo. Ao final, clique no botão para descobrir o tipo predominante de artigo: se original ou de revisão.</p>
+  <p>Escolha um dos artigos científicos que você está lendo para preparar o seu projeto de pesquisa. Responda "sim" ou "não" às perguntas abaixo. Ao final, clique no botão para descobrir o tipo predominante de artigo: se original ou de revisão.</p>
   
   <form id="form-artigo">
 

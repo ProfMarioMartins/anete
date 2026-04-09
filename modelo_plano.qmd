@@ -21,7 +21,7 @@ Essa atitude mostra iniciativa, organização e compromisso com a ciência — q
 🔎 Para descobrir quais projetos de pesquisa estão em execução na Ufersa, clique [aqui](https://sigaa.ufersa.edu.br/sigaa/public/pesquisa/consulta_projetos.jsf).
 :::
 
-:::::::::::: fundo-papel
+::::::::::::: fundo-papel
 ::: subtitulo-nao-numerado
 Título
 :::
@@ -72,7 +72,7 @@ Liste as competências que você pretende desenvolver:
 Cronograma de atividades
 :::
 
-::: {.nota-secundaria}
+::: nota-secundaria
 As etapas descritas no cronograma são exemplos.
 :::
 
@@ -109,4 +109,5 @@ knitr::kable(
 Referências
 :::
 
----
+------------------------------------------------------------------------
+:::::::::::::

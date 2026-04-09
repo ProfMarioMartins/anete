@@ -1,0 +1,453 @@
+---
+title: "Como formular uma pergunta de pesquisa?"
+---
+
+::: nota-secundaria
+Roteiro de aula elaborado com apoio de IA e revisado pelo professor antes de sua aplicação.
+:::
+
+## Contextualização
+
+Pesquisar não é uma habilidade reservada a cientistas experientes. É uma prática que começa com uma pergunta — e qualquer pessoa pode aprender a fazer boas perguntas.
+
+Nesta aula, você vai percorrer o caminho que todo pesquisador percorre:
+
+- partir de um interesse vago;
+- delimitá-lo progressivamente; e
+- transformá-lo em uma pergunta que pode ser investigada cientificamente.
+
+Ao final desta aula, você deverá ter produzido:
+
+- um **tema de pesquisa delimitado**;
+- uma **pergunta de investigação**;
+- uma **referência associada**.
+
+Esses três elementos serão a base da divulgação científica, a ser apresentada na segunda unidade, e do seu projeto de pesquisa, a ser apresentado na terceira unidade.
+
+::: leitura
+**Leituras indicadas**
+
+**Como formular um problema de pesquisa** (p. 9-20), capítulo do livro *Como Elaborar Projetos de Pesquisa*, de Antonio Carlos Gil. Disponível na Minha Biblioteca.
+
+**Revisão de literatura acadêmica (Temas abrangentes e perguntas de pesquisa)** (p. 65-66), capítulo do livro *Leitura e escrita acadêmicas*, de Nádia Studzinski Estima de Castro e colaboradores. Disponível na Minha Biblioteca.
+
+:::
+
+## Conceitualização operacional: pesquisa científica
+
+Antes de definir um tema, é preciso entender o que significa fazer pesquisa científica — e o que ela **não** é.
+
+::: enfase
+**Pesquisa científica** (ou **investigação científica**), é um processo sistemático de produção de conhecimento:
+
+- parte-se de uma dúvida ou problema;
+- buscam-se respostas com base em evidências verificáveis; e
+- organizam-se essas respostas de forma que outros possam avaliá-las, replicá-las ou refutá-las.
+:::
+
+<br/>
+
+Isso a distingue de outras formas de produzir conhecimento — como a opinião pessoal, a tradição cultural ou a intuição (o senso comum).
+
+Não que essas formas sejam inúteis: elas têm seu lugar. Mas a pesquisa científica exige um padrão diferente de proceder.
+
+::: destaque
+**O que diferencia pesquisa científica de opinião/senso comum?**
+
+| | Opinião/Senso comum | Pesquisa científica |
+|---|---|---|
+| Ponto de partida | Crença ou experiência pessoal | Dúvida ou problema delimitado |
+| Base | Intuição, tradição | Evidências verificáveis |
+| Linguagem | Vaga, avaliativa | Precisa, operacional |
+| Possibilidade de refutação | Baixa | Alta |
+:::
+
+Compare os dois enunciados abaixo:
+
+> ❌ "Redes sociais fazem mal aos jovens."
+
+> ✔ "Como o uso diário de redes sociais afeta a qualidade do sono de estudantes universitários?"
+
+O primeiro enunciado pode ser verdadeiro ou falso, mas não é cientificamente investigável, dada a sua amplitude e falta de delimitação. Já o segundo enunciado constitui uma pergunta de pesquisa, pois é empiricamente investigável: define o grupo de interesse (estudantes universitários), a variável independente (uso diário de redes sociais) e o fenômeno a ser analisado (qualidade do sono), permitindo a coleta e análise de dados de forma sistemática.
+
+::: callout-warning
+Pesquisa científica não começa com uma resposta. Começa com uma **pergunta bem formulada**. Quem começa com a resposta na cabeça tende a buscar apenas evidências que a confirmem — e isso é o oposto do que a ciência exige.
+:::
+
+## Conceitualização operacional: assunto, tema e delimitação
+
+Um dos erros mais comuns entre estudantes iniciantes é confundir assunto com tema — e tema com pergunta. São três níveis distintos de abstração, e cada um exige um trabalho diferente.
+
+::: subtitulo-nao-numerado
+Assunto
+:::
+
+O assunto (ou campo disciplinar) é o domínio mais amplo dentro do qual a pesquisa se insere. É o ponto de partida, não o destino.
+
+Exemplos: *educação*, *tecnologia*, *saúde*, *energia*, *linguagem*, *meio ambiente*.
+
+Um assunto, por si só, não é pesquisável — é grande demais para caber em um projeto.
+
+::: subtitulo-nao-numerado
+Tema
+:::
+
+O tema é um primeiro recorte dentro do assunto. Já indica uma direção, mas ainda precisa ser delimitado.
+
+Exemplos:
+
+- Assunto:    tecnologia    → Tema: uso de inteligência artificial na educação
+- Assunto:    saúde         → Tema: saúde mental de estudantes universitários
+- Assunto:    energia       → Tema: fontes renováveis de energia no Brasil
+
+::: subtitulo-nao-numerado
+Tema delimitado
+:::
+
+O tema delimitado é específico, contextualizado e investigável. É a versão do tema que pode, de fato, virar uma pesquisa.
+
+::: enfase
+Um bom tema delimitado responde implicitamente a quatro perguntas:
+
+- **O quê?**            — qual fenômeno está sendo investigado
+- **Quem?**             — qual população (não se limita a pessoas)
+- **Onde?**             — qual contexto ou instituição
+- **Em que condições?** — qual recorte temporal, situacional ou metodológico
+:::
+
+::: destaque
+**Progressão: assunto → tema → tema delimitado**
+
+| Assunto | Tema | Tema delimitado |
+|---|---|---|
+| Tecnologia | IA na educação | Uso de LLMs como suporte à revisão e produção de textos acadêmicos por estudantes do primeiro período de engenharia em instituições federais do Nordeste |
+| Saúde | Saúde mental universitária | Níveis de ansiedade em estudantes de cursos noturnos durante períodos de avaliação |
+| Energia | Energia solar | Viabilidade econômica do uso de energia solar fotovoltaica em residências de baixa renda no semiárido nordestino: análise de custo-benefício no período 2020–2024 |
+| Comunicação | Redes sociais | Padrões de consumo de conteúdo de divulgação científica em Reels do Instagram entre jovens brasileiros de 18 a 24 anos |
+| Computação | Segurança digital | Análise de vulnerabilidades em mecanismos de autenticação multifator de aplicativos bancários brasileiros entre 2020 e 2024 |
+| Meio ambiente | Desmatamento | Impacto do desmatamento no regime de chuvas no bioma Caatinga entre 2010 e 2020 |
+:::
+
+## Aprendizagem prática
+
+::: subtitulo-nao-numerado
+Análise
+:::
+
+Um tema delimitado deve responder implicitamente a quatro perguntas:
+
+O quê? — qual fenômeno está sendo investigado
+Qual população ou objeto? — quem ou o quê é afetado ou estudado (não se limita a pessoas)
+Onde? — qual contexto, setor, ambiente ou instituição
+Em que condições? — qual recorte temporal, situacional ou metodológico
+
+Para cada tema delimitado na tabela acima, identifique os quatro elementos. Quando um elemento não estiver explícito no tema, indique: não especificado.
+	
+<!-- Aqui começa o campo de respostas -->
+<details class="resposta-escondida">
+<summary>...</summary>
+Tema 1
+
+O quê: uso de LLMs como suporte à escrita acadêmica
+População ou objeto: estudantes do primeiro período de engenharia
+Onde: não especificado
+Em que condições: não especificado
+
+Tema 2
+
+O quê: níveis de ansiedade
+População ou objeto: estudantes de cursos noturnos
+Onde: não especificado (contexto universitário implícito)
+Em que condições: durante períodos de avaliação
+
+Tema 3
+
+O quê: viabilidade econômica do uso de energia solar
+População ou objeto: residências de baixa renda
+Onde: semiárido nordestino
+Em que condições: não especificado
+
+Tema 4
+
+O quê: impacto de vídeos curtos no consumo de conteúdo científico
+População ou objeto: jovens de 18 a 24 anos
+Onde: Instagram
+Em que condições: não especificado
+
+Tema 5
+
+O quê: vulnerabilidades em sistemas de autenticação
+População ou objeto: aplicativos bancários
+Onde: Brasil
+Em que condições: não especificado
+
+Tema 6
+
+O quê: impacto do desmatamento no regime de chuvas
+População ou objeto: bioma Caatinga
+Onde: bioma Caatinga (coincide com o objeto neste caso)
+Em que condições: entre 2010 e 2020
+
+</details>
+<!-- Aqui encerra o campo de respostas -->
+
+## Conceitualização operacional: delimitação do tema
+
+Delimitar um tema é um processo de perguntas e respostas. Você começa com algo amplo e vai estreitando até chegar em algo viável — isto é, algo que pode ser investigado com os recursos e o tempo disponíveis.
+
+::: subsubtitulo-nao-numerado
+Análise
+:::
+
+Um tema precisa ser suficientemente **específico** para que uma pesquisa o explore com profundidade, mas suficientemente **amplo** para que haja literatura disponível sobre ele.
+
+::: callout-warning
+**Dois erros comuns:**
+
+- Tema amplo demais → impossível de investigar com rigor.
+  Ex.: *"A educação no Brasil"*.
+- Tema estreito demais → sem literatura disponível.
+  Ex.: *"O desempenho em Cálculo I de estudantes do segundo semestre
+  de Engenharia Mecânica da UFERSA que estudam entre 22h e 23h"*.
+
+O ponto de equilíbrio é um tema específico o suficiente para ter foco,
+mas geral o suficiente para ter referências.
+:::
+
+::: subsubtitulo-nao-numerado
+Exemplos
+:::
+
+Em cada exemplo abaixo, a justificativa usa os quatro elementos de delimitação — **o quê**, **população ou objeto**, **onde** e **em que condições** — para explicar por que o tema está bem ou mal delimitado. Quando um elemento está ausente, isso é indicado explicitamente.
+
+::: destaque
+- Tema amplo: Construção civil
+- Tema delimitado: Uso de materiais alternativos de baixo custo em habitações de interesse social no Nordeste brasileiro
+
+| Elemento | Presente? | Como aparece no tema |
+|---|---|---|
+| O quê | ✅ | uso de materiais alternativos de baixo custo |
+| População ou objeto | ✅ | habitações de interesse social |
+| Onde | ✅ | Nordeste brasileiro |
+| Em que condições | ⚠️ não especificado | — |
+:::
+
+::: destaque
+- Tema amplo: Inteligência artificial
+- Tema delimitado: Aplicação de redes neurais convolucionais no
+  diagnóstico precoce de doenças dermatológicas em imagens clínicas
+
+| Elemento | Presente? | Como aparece no tema |
+|---|---|---|
+| O quê | ✅ | aplicação de redes neurais convolucionais no diagnóstico precoce |
+| População ou objeto | ✅ | imagens clínicas de doenças dermatológicas |
+| Onde | ✅ | domínio clínico (dermatologia) |
+| Em que condições | ✅ | diagnóstico precoce (recorte situacional) |
+:::
+
+::: destaque
+- Tema amplo: Irrigação
+- Tema delimitado: Eficiência hídrica de sistemas de gotejamento em cultivos de melão no semiárido potiguar
+
+| Elemento | Presente? | Como aparece no tema |
+|---|---|---|
+| O quê | ✅ | eficiência hídrica de sistemas de gotejamento |
+| População ou objeto | ✅ | cultivos de melão |
+| Onde | ✅ | semiárido potiguar |
+| Em que condições | ⚠️ não especificado | — |
+:::
+
+::: destaque
+- Tema amplo: Logística
+- Tema delimitado: Impacto da adoção de sistemas de rastreamento em
+  tempo real na redução de perdas em cadeias de distribuição de
+  frutas tropicais no Nordeste brasileiro entre 2018 e 2023
+
+| Elemento | Presente? | Como aparece no tema |
+|---|---|---|
+| O quê | ✅ | impacto da adoção de sistemas de rastreamento em tempo real na redução de perdas |
+| População ou objeto | ✅ | cadeias de distribuição de frutas tropicais |
+| Onde | ✅ | Nordeste brasileiro |
+| Em que condições | ✅ | entre 2018 e 2023 |
+:::
+
+
+## Conceitualização operacional: pergunta de investigação
+
+A pergunta de investigação é o coração da pesquisa. É ela que orienta o que vai ser buscado, como vai ser buscado e o que vai contar como resposta.
+
+::: enfase
+Uma boa pergunta de investigação é:
+
+- **clara** — não admite interpretações múltiplas;
+- **específica** — delimita o fenômeno, a população, o contexto e as condições;
+- **investigável** — pode ser respondida com dados, observações ou análise de fontes;
+- **relevante** — sua resposta importa para alguém além do pesquisador.
+:::
+
+::: subsubtitulo-nao-numerado
+Estruturas comuns
+:::
+
+Perguntas de investigação costumam seguir estruturas reconhecíveis. São frequentes em pesquisas as seguintes estruturas:
+
+::: destaque
+| Estrutura | Exemplo |
+|---|---|
+| Como X afeta Y? | Como o uso de painéis solares afeta o custo mensal de energia em residências de baixa renda? |
+| Qual é o impacto de X em Y? | Qual é o impacto do trabalho noturno no desempenho acadêmico de estudantes universitários? |
+| De que forma X se relaciona com Y? | De que forma a frequência de uso de aplicativos de estudo se relaciona com o rendimento em avaliações? |
+| Quais são os fatores que influenciam X? | Quais são os fatores que influenciam a evasão em cursos de engenharia de instituições públicas do Nordeste? |
+| É possível aplicar X a Y? | É possível aplicar técnicas de aprendizado de máquina à detecção de falhas em sistemas de abastecimento de água? |
+:::
+
+::: subsubtitulo-nao-numerado
+Do tema à pergunta
+:::
+
+::: destaque
+**Exemplo 1**
+
+Tema delimitado: Viabilidade econômica do uso de energia solar fotovoltaica em residências rurais de baixa renda no Rio Grande do Norte
+
+Pergunta: *Qual é a viabilidade econômica do uso de energia solar fotovoltaica em residências rurais de baixa renda no Rio Grande do Norte?*
+:::
+
+::: destaque
+**Exemplo 2**
+
+Tema delimitado: Conformidade com a LGPD nas estratégias de proteção de dados pessoais dos dez aplicativos de saúde mais baixados no Brasil em 2024
+
+Pergunta: *Em que medida os dez aplicativos de saúde mais baixados no Brasil em 2024 adotam estratégias de proteção de dados pessoais conformes à LGPD?*
+:::
+
+::: destaque
+**Exemplo 3**
+
+Tema delimitado: Fatores que influenciam a adoção de técnicas agroecológicas por agricultores familiares do semiárido nordestino, investigados por meio de entrevistas
+
+Pergunta: *Quais são os principais fatores que facilitam ou dificultam a adoção de técnicas agroecológicas por agricultores familiares do semiárido nordestino?*
+:::
+
+::: destaque
+**Exemplo 4**
+
+Tema delimitado: Implementação de sistemas de controle de qualidade e taxa de rejeição de produtos em pequenas indústrias de processamento de frutas tropicais no Rio Grande do Norte
+
+Pergunta: *Como a implementação de sistemas de controle de qualidade afeta a taxa de rejeição de produtos em pequenas indústrias de processamento de frutas tropicais no Rio Grande do Norte?*
+:::
+
+
+
+::: destaque
+
+**Erros comuns no processo de delimitação do tema**
+
+| Erro | Exemplo | Como corrigir |
+|---|---|---|
+| Tema amplo demais | "Educação no Brasil" | Delimite: quem, onde, o quê, em que condições |
+| Tema vago | "A importância da tecnologia" | Substitua "importância" por um fenômeno específico |
+| Pergunta genérica | "O que é sustentabilidade?" | Perguntas de investigação não pedem definições — pedem relações, impactos ou padrões |
+| Pergunta respondível com sim/não | "A IA é útil na educação?" | Reformule: "Como a IA é utilizada no apoio à aprendizagem em cursos de graduação?" |
+| Pergunta normativa | "O que o governo deveria fazer com a energia solar?" | Pesquisa científica descreve, explica e analisa — não prescreve |
+| Tema sem literatura disponível | Algo muito local ou muito recente | Verifique antes se há artigos sobre o tema no Portal de Periódicos da CAPES |
+:::
+
+## Aprendizagem prática
+
+::: subtitulo-nao-numerado
+Produção escrita
+:::
+
+::: subsubtitulo-nao-numerado
+Do interesse à pergunta de investigação
+:::
+
+Siga o roteiro abaixo para construir o seu tema de pesquisa e a sua pergunta de investigação. Rascunhe cada etapa no seu caderno antes de transcrever na aba [Projeto de pesquisa](complemento_projeto_pesquisa.qmd). Selecione a tarefa **Tema e pergunta de investigação**.
+
+::: destaque
+**Roteiro**
+
+**1. Interesse inicial**  
+Escreva algo que desperta sua curiosidade — pode ser algo que você usa, que observa no dia a dia, que estuda ou que te incomoda.
+
+**2. Assunto geral**  
+Identifique o domínio amplo em que esse interesse se insere (ex.: tecnologia, saúde, energia, comunicação, meio ambiente).
+
+**3. Tema (recorte inicial)**  
+Faça um primeiro recorte dentro do assunto. O tema ainda pode ser amplo, mas já indica uma direção.
+
+**4. Tema delimitado**  
+Aplique as quatro perguntas de delimitação: *o quê? quem? onde? em que condições?* Chegue a algo específico e investigável.
+
+**5. Pergunta de investigação**  
+Transforme o tema delimitado em uma pergunta clara, específica e investigável.
+
+**6. Referência acadêmica**  
+Localize um artigo científico relacionado ao seu tema no Portal de Periódicos da CAPES (use a coleção do Zotero que você montou, se aplicável) e registre a referência completa em formato ABNT.
+:::
+
+<!-- Aqui começa o campo de respostas -->
+
+<details class="resposta-escondida">
+
+<summary>...</summary>
+
+**Exemplo de resposta esperada**
+
+**1. Interesse inicial:** Uso de inteligência artificial para automatizar tarefas repetitivas no trabalho.
+
+**2. Assunto geral:** Tecnologia / Inteligência artificial.
+
+**3. Tema:** Automação de processos por IA no ambiente de trabalho.
+
+**4. Tema delimitado:** Impacto da automação por IA em postos de trabalho de nível operacional na indústria de manufatura do Nordeste brasileiro.
+
+**5. Pergunta de investigação:** *Qual é o impacto da adoção de sistemas de automação baseados em IA sobre os postos de trabalho de nível operacional na indústria de manufatura do Nordeste brasileiro?*
+
+**6. Referência:**  
+BRYNJOLFSSON, E.; MCAFEE, A. The second machine age: work, progress, and prosperity in a time of brilliant technologies. New York: W. W. Norton, 2014.
+
+---
+
+**O que avaliar nesta atividade:**
+
+- O tema delimitado responde às quatro perguntas (o quê, quem, onde, em que condições)?
+- A pergunta é investigável — ou é genérica, normativa ou respondível com sim/não?
+- Há coerência entre o interesse inicial, o tema e a pergunta?
+- A referência é de fonte acadêmica confiável?
+
+</details>
+
+<!-- Aqui encerra o campo de respostas -->
+
+---
+
+## Parte 7 — Fechamento
+
+O que você produziu hoje não é apenas um exercício de sala de aula.
+
+É o início do seu projeto de pesquisa — e ele vai percorrer toda a disciplina, seguindo o fluxo:
+
+::: enfase
+tema → artigo → dado → divulgação → projeto
+:::
+
+Cada etapa depende da anterior. Um tema mal delimitado compromete a busca de artigos. Uma pergunta vaga compromete a leitura do dado. Uma referência fraca compromete o projeto.
+
+Por isso, vale revisar o que você produziu hoje com as perguntas abaixo antes de seguir:
+
+::: destaque
+**Checklist de revisão**
+
+- [ ] O meu tema responde a *o quê*, *quem*, *onde* e *em que condições*?
+- [ ] A minha pergunta é investigável — pode ser respondida com dados ou análise de fontes?
+- [ ] A minha pergunta não é genérica, normativa nem respondível com sim/não?
+- [ ] Há pelo menos um artigo científico disponível sobre o meu tema?
+:::
+
+::: proxima-aula
+[Para a próxima aula:]{.proxima-aula-title}
+
+- Leia o artigo que você selecionou no Zotero e que se relaciona ao seu tema de pesquisa. Traga-o impresso ou acessível no celular — ele será o ponto de partida da próxima atividade.
+:::

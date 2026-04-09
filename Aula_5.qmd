@@ -79,7 +79,7 @@ Fluxo<br/>
 ## Leitura em foco
 
 | Conceito | Definição operacional | Critério de análise | Exemplo típico | Função na análise |
-|---------------|---------------|---------------|---------------|---------------|
+|----|----|----|----|----|
 | Definição | Enunciado que estabelece o significado de um termo | Não é verdadeira nem falsa; delimita uso | “Inteligência artificial é um conjunto de técnicas que permitem a sistemas computacionais simular processos cognitivos humanos.” | Aumenta a precisão conceitual |
 | Evidência | Informação que sustenta uma afirmação | Baseada em dados, fontes ou observação | resultados estatísticos, gráficos, tabelas | Fundamenta argumentos |
 | Avaliação | Enunciado que expressa julgamento ou valor | Não verificável empiricamente | “O método proposto apresenta resultados bastante satisfatórios.” | Introduz posicionamento |

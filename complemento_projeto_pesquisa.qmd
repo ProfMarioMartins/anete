@@ -1,0 +1,282 @@
+---
+title: "Projeto de pesquisa"
+---
+
+## Aprendizagem prática
+
+::: titulo-nao-numerado
+Registro
+:::
+
+Preencha nos campos abaixo:
+
+```{=html}
+<style>
+  #formulario-projeto {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 24px;
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    font-family: "Segoe UI", Roboto, sans-serif;
+    font-size: 16px;
+    color: #333;
+  }
+
+  #formulario-projeto label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #2c3e50;
+  }
+
+  #formulario-projeto input,
+  #formulario-projeto select,
+  #formulario-projeto textarea {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+    transition: border-color 0.3s ease-in-out;
+    box-sizing: border-box;
+  }
+
+  #formulario-projeto input:focus,
+  #formulario-projeto select:focus,
+  #formulario-projeto textarea:focus {
+    border-color: #243E6A;
+    outline: none;
+  }
+
+  #formulario-projeto button {
+    background-color: #243E6A;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  #formulario-projeto button:hover {
+    background-color: #1b3154;
+  }
+
+  #formulario-projeto button:disabled {
+    background-color: #999;
+    cursor: not-allowed;
+  }
+
+  .campos-etapa {
+    display: none;
+  }
+
+  .etapa-descricao {
+    background-color: #e8f0fb;
+    border-left: 4px solid #243E6A;
+    padding: 10px 14px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #2c3e50;
+    display: none;
+  }
+
+  #mensagem-envio {
+    margin-top: 24px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+  }
+</style>
+
+<form id="formulario-projeto">
+
+  <!-- Identificação — sempre visível -->
+  <label for="nome">Nome completo</label>
+  <input type="text" id="nome" name="nome" autocomplete="name" required>
+
+  <label for="email">E-mail institucional</label>
+  <input type="email" id="email" name="email" autocomplete="email" required>
+
+  <label for="turma">Turma</label>
+  <select id="turma" name="turma" required>
+    <option value="">-- Selecione --</option>
+    <option value="Turma 3">Turma 3</option>
+    <option value="Turma 4">Turma 4</option>
+  </select>
+
+  <!-- Seleção de etapa -->
+  <label for="etapa">Etapa do projeto</label>
+  <select id="etapa" name="etapa" required>
+    <option value="">-- Selecione a etapa --</option>
+    <option value="Etapa 1">Etapa 1 — Tema e pergunta de investigação</option>
+    <option value="Etapa 2">Etapa 2 — Objetivo e hipótese</option>
+    <option value="Etapa 3">Etapa 3 — Justificativa</option>
+    <!-- Adicione novas etapas aqui -->
+  </select>
+
+  <!-- Etapa 1 -->
+  <div class="campos-etapa" id="campos-etapa-1">
+    <div class="etapa-descricao" id="desc-etapa-1">
+      Registre o tema do seu projeto, sua delimitação e a pergunta de investigação.
+    </div>
+
+    <label for="tema">Tema</label>
+    <input type="text" id="tema" name="tema"
+      placeholder="Ex.: Uso de IA na educação">
+
+    <label for="tema_delimitado">Tema delimitado</label>
+    <textarea id="tema_delimitado" name="tema_delimitado" rows="3"
+      placeholder="Ex.: Uso de LLMs como suporte à escrita acadêmica por estudantes do primeiro período de engenharia em instituições federais do Nordeste"></textarea>
+
+    <label for="pergunta">Pergunta de investigação</label>
+    <textarea id="pergunta" name="pergunta" rows="2"
+      placeholder="Ex.: Como o uso de LLMs influencia a qualidade da escrita acadêmica de estudantes iniciantes?"></textarea>
+  </div>
+
+  <!-- Etapa 2 -->
+  <div class="campos-etapa" id="campos-etapa-2">
+    <div class="etapa-descricao" id="desc-etapa-2">
+      Registre o objetivo geral e a hipótese do seu projeto.
+      Seu tema e pergunta já foram registrados na etapa anterior.
+    </div>
+
+    <label for="objetivo">Objetivo geral</label>
+    <textarea id="objetivo" name="objetivo" rows="2"
+      placeholder="Ex.: Investigar como o uso de LLMs influencia a qualidade da escrita acadêmica de estudantes iniciantes de engenharia."></textarea>
+
+    <label for="hipotese">Hipótese</label>
+    <textarea id="hipotese" name="hipotese" rows="2"
+      placeholder="Ex.: O uso orientado de LLMs está associado a melhora na coesão textual, mas não necessariamente na precisão argumentativa."></textarea>
+  </div>
+
+  <!-- Etapa 3 -->
+  <div class="campos-etapa" id="campos-etapa-3">
+    <div class="etapa-descricao" id="desc-etapa-3">
+      Registre a justificativa do seu projeto.
+      Seu tema, pergunta, objetivo e hipótese já foram registrados nas etapas anteriores.
+    </div>
+
+    <label for="justificativa">Justificativa</label>
+    <textarea id="justificativa" name="justificativa" rows="5"
+      placeholder="Explique por que este tema é relevante, qual lacuna ele preenche e quem se beneficia dos resultados."></textarea>
+  </div>
+
+  <!-- Adicione novos blocos de etapa aqui seguindo o mesmo padrão -->
+
+  <p style="font-size: 13px; color: #6c757d; margin-bottom: 10px;">
+    ⚠️ Após clicar em <strong>Enviar</strong>, aguarde a confirmação.
+    Não clique mais de uma vez para evitar registros duplicados.
+  </p>
+
+  <button type="submit">Enviar</button>
+</form>
+
+<div id="mensagem-envio"></div>
+
+<script>
+  // ── Mostrar campos conforme etapa selecionada ──────────────────
+  const seletorEtapa = document.getElementById("etapa");
+
+  seletorEtapa.addEventListener("change", function () {
+    // Oculta todos os blocos de etapa
+    document.querySelectorAll(".campos-etapa").forEach(function (bloco) {
+      bloco.style.display = "none";
+    });
+    document.querySelectorAll(".etapa-descricao").forEach(function (desc) {
+      desc.style.display = "none";
+    });
+
+    // Mostra o bloco correspondente à etapa selecionada
+    const etapaSelecionada = this.value;
+    if (etapaSelecionada === "Etapa 1") {
+      document.getElementById("campos-etapa-1").style.display = "block";
+      document.getElementById("desc-etapa-1").style.display = "block";
+    } else if (etapaSelecionada === "Etapa 2") {
+      document.getElementById("campos-etapa-2").style.display = "block";
+      document.getElementById("desc-etapa-2").style.display = "block";
+    } else if (etapaSelecionada === "Etapa 3") {
+      document.getElementById("campos-etapa-3").style.display = "block";
+      document.getElementById("desc-etapa-3").style.display = "block";
+    }
+    // Adicione novos else if aqui para novas etapas
+  });
+
+  // ── Envio do formulário ────────────────────────────────────────
+  const formulario = document.getElementById("formulario-projeto");
+  const mensagem   = document.getElementById("mensagem-envio");
+
+  formulario.addEventListener("submit", function (event) {
+    event.preventDefault();
+
+    const botao = formulario.querySelector("button");
+    botao.disabled    = true;
+    botao.textContent = "Enviando...";
+
+    const etapa = document.getElementById("etapa").value;
+
+    const params = new URLSearchParams();
+    params.append("nome",    document.getElementById("nome").value);
+    params.append("email",   document.getElementById("email").value);
+    params.append("turma",   document.getElementById("turma").value);
+    params.append("etapa",   etapa);
+    params.append("datahora", new Date().toISOString());
+
+    // Envia apenas os campos da etapa selecionada
+    if (etapa === "Etapa 1") {
+      params.append("tema",           document.getElementById("tema").value);
+      params.append("tema_delimitado", document.getElementById("tema_delimitado").value);
+      params.append("pergunta",        document.getElementById("pergunta").value);
+    } else if (etapa === "Etapa 2") {
+      params.append("objetivo",  document.getElementById("objetivo").value);
+      params.append("hipotese",  document.getElementById("hipotese").value);
+    } else if (etapa === "Etapa 3") {
+      params.append("justificativa", document.getElementById("justificativa").value);
+    }
+    // Adicione novos else if aqui para novas etapas
+
+    fetch("https://script.google.com/macros/s/AKfycby8zdWawnOkbqav8xt5uwpKCtrV4JoWI2hzChbj2fsivrgyN6FrgPaOHkwr__M_8cqB/exec", {
+      method:  "POST",
+      body:    params,
+      headers: { "Content-Type": "application/x-www-form-urlencoded" }
+    })
+    .then(() => {
+      mensagem.textContent = "✅ Etapa registrada com sucesso!";
+      mensagem.style.color = "#28a745";
+      formulario.reset();
+      // Oculta os campos de etapa após reset
+      document.querySelectorAll(".campos-etapa").forEach(function (bloco) {
+        bloco.style.display = "none";
+      });
+    })
+    .catch(() => {
+      mensagem.textContent = "❌ Ocorreu um erro ao enviar. Tente novamente.";
+      mensagem.style.color = "#dc3545";
+    })
+    .finally(() => {
+      botao.disabled    = false;
+      botao.textContent = "Enviar";
+    });
+  });
+</script>
+```
+
+<!--
+O formulário funciona assim: O aluno preenche nome, e-mail e turma — sempre visíveis — e seleciona a etapa. O formulário exibe automaticamente apenas os campos daquela etapa, com uma nota informando que os dados anteriores já foram registrados. Ao enviar, apenas os campos da etapa selecionada são transmitidos, cada envio gera uma linha nova na planilha com a etapa identificada.
+Para adicionar uma nova etapa futuramente, você precisa fazer três coisas no código, todas marcadas com o comentário <!-- Adicione... --> 
+
+<!-- ou // Adicione...:-->
+
+<!--
+Acrescentar um <option> no seletor de etapas
+Acrescentar um bloco <div class="campos-etapa"> com os campos novos
+Acrescentar um else if no JavaScript — tanto na função de exibição quanto na de envio
+
+O doPost da planilha também precisará receber as novas colunas correspondentes às novas etapas. Quando chegar nessa parte, me mostre o script atual e adapto.
+-->

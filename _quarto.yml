@@ -35,9 +35,9 @@ book:
        - Aula_6.qmd
        - Aula_7.qmd
 
-#   - part: "Unidade II – Comentar"
-#     chapters:
-#      - Aula_8.qmd
+    - part: "Unidade II"
+      chapters:
+       - Aula_8_problemapesquisa.qmd
 #      - Aula_9_projeto.qmd
 #      - Aula_10_artigo.qmd
 #      - Aula_11.qmd       
@@ -78,6 +78,7 @@ book:
        - Aula_0.qmd
        - complemento_painel.qmd
        - complemento_crono.qmd
+       - complemento_projeto_pesquisa.qmd
 #      - complemento_guia.qmd
 #      - complemento_checklist_postagem.qmd
 #      - complemento_sorteio.qmd
